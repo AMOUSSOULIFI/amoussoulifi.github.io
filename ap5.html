@@ -1,20 +1,20 @@
 <script>
-// Vérification d'authentification sur toutes les pages
-const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+    // Vérification d'authentification sur toutes les pages
+    const sessionData = JSON.parse(localStorage.getItem('sessionData'));
 
-if (!sessionData || !sessionData.isLoggedIn) {
-    window.location.href = 'index.html';
-} else {
-    const currentTime = new Date().getTime();
-    const sessionAge = currentTime - sessionData.loginTime;
-    
-    // Session expire après 10 minutes
-    if (sessionAge >= 10 * 60 * 1000) {
-        alert('Session expirée. Veuillez vous reconnecter.');
-        localStorage.removeItem('sessionData');
+    if (!sessionData || !sessionData.isLoggedIn) {
         window.location.href = 'index.html';
+    } else {
+        const currentTime = new Date().getTime();
+        const sessionAge = currentTime - sessionData.loginTime;
+        
+        // Session expire après 10 minutes
+        if (sessionAge >= 10 * 60 * 1000) {
+            alert('Session expirée. Veuillez vous reconnecter.');
+            localStorage.removeItem('sessionData');
+            window.location.href = 'index.html';
+        }
     }
-}
 </script>
 <!DOCTYPE html>
 <html lang="fr">
@@ -104,4 +104,5 @@ if (!sessionData || !sessionData.isLoggedIn) {
 
     <script src="script.js"></script>
 </body>
+
 </html>
