@@ -5,7 +5,20 @@ const AUTH_CONFIG = {
     sessionDuration: 10 * 60 * 1000, // 10 minutes en millisecondes
     inactivityTimeout: 10 * 60 * 1000 // 10 minutes d'inactivité
 };
-
+// Gestionnaire de navigation forcée
+document.addEventListener('DOMContentLoaded', function() {
+    // Forcer la navigation pour tous les liens
+    const navLinks = document.querySelectorAll('.nav-link[href]');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function(e) {
+            // Sauf pour le lien Accueil qui reste sur la même page
+            if (this.getAttribute('href') !== 'index.html') {
+                e.preventDefault();
+                window.location.href = this.getAttribute('href');
+            }
+        });
+    });
+});
 // Variables globales
 let sessionTimer;
 let inactivityTimer;
@@ -253,4 +266,5 @@ function checkAuthentication() {
     }
     
     return true;
+
 }
