@@ -8,7 +8,7 @@
 </head>
 <body>
     <script>
-        // Vérification d'authentification SIMPLIFIÉE
+        // Vérification d'authentification UNIQUE
         const sessionData = JSON.parse(localStorage.getItem('sessionData'));
         if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
@@ -17,11 +17,11 @@
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="aps.html" class="nav-link">APs</a>
-            <a href="stages.html" class="nav-link">Stages</a>
-            <a href="cv.html" class="nav-link">CV</a>
-            <a href="veille.html" class="nav-link">Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link active" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
@@ -32,7 +32,7 @@
             
             <div class="grid-aps">
                 <!-- AP 1 : SCISS -->
-                <a href="ap1.html" class="ap-card-link">
+                <a href="ap1.html" class="ap-card-link" onclick="navigateTo('ap1.html')">
                     <div class="ap-card">
                         <div class="ap-number">AP1</div>
                         <h3>SCISS</h3>
@@ -44,7 +44,7 @@
                 </a>
 
                 <!-- AP 2 : Bidule -->
-                <a href="ap2.html" class="ap-card-link">
+                <a href="ap2.html" class="ap-card-link" onclick="navigateTo('ap2.html')">
                     <div class="ap-card">
                         <div class="ap-number">AP2</div>
                         <h3>Bidule - Remaniement site numérique</h3>
@@ -56,7 +56,7 @@
                 </a>
 
                 <!-- AP 3 : Mairie de Pénestin -->
-                <a href="ap3.html" class="ap-card-link">
+                <a href="ap3.html" class="ap-card-link" onclick="navigateTo('ap3.html')">
                     <div class="ap-card">
                         <div class="ap-number">AP3</div>
                         <h3>Mairie de Pénestin</h3>
@@ -68,7 +68,7 @@
                 </a>
 
                 <!-- AP 4 : Séparation services -->
-                <a href="ap4.html" class="ap-card-link">
+                <a href="ap4.html" class="ap-card-link" onclick="navigateTo('ap4.html')">
                     <div class="ap-card">
                         <div class="ap-number">AP4</div>
                         <h3>Séparation services + Sauvegarde</h3>
@@ -80,7 +80,7 @@
                 </a>
 
                 <!-- AP 5 : Optionnel ou futur -->
-                <a href="ap5.html" class="ap-card-link">
+                <a href="ap5.html" class="ap-card-link" onclick="navigateTo('ap5.html')">
                     <div class="ap-card">
                         <div class="ap-number">AP5</div>
                         <h3>Projet personnel ou stage</h3>
@@ -93,6 +93,27 @@
             </div>
         </div>
     </section>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Navigation manuelle pour tous les liens
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href]');
+            links.forEach(link => {
+                if (!link.onclick) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        window.location.href = this.getAttribute('href');
+                    });
+                }
+            });
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>

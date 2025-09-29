@@ -1,21 +1,3 @@
-<script>
-    // Vérification d'authentification sur toutes les pages
-    const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-
-    if (!sessionData || !sessionData.isLoggedIn) {
-        window.location.href = 'index.html';
-    } else {
-        const currentTime = new Date().getTime();
-        const sessionAge = currentTime - sessionData.loginTime;
-        
-        // Session expire après 10 minutes
-        if (sessionAge >= 10 * 60 * 1000) {
-            alert('Session expirée. Veuillez vous reconnecter.');
-            localStorage.removeItem('sessionData');
-            window.location.href = 'index.html';
-        }
-    }
-</script>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,24 +8,26 @@
 </head>
 <body>
     <script>
-        if(localStorage.getItem('isLoggedIn') !== 'true') {
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
         }
     </script>
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="aps.html" class="nav-link">APs</a>
-            <a href="stages.html" class="nav-link">Stages</a>
-            <a href="cv.html" class="nav-link">CV</a>
-            <a href="veille.html" class="nav-link">Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
     <section class="section">
         <div class="container">
-            <a href="aps.html" class="back-button">← Retour aux APs</a>
+            <a href="aps.html" class="back-button" onclick="navigateTo('aps.html')">← Retour aux APs</a>
             
             <div class="ap-header">
                 <div class="ap-badge">AP1</div>
@@ -89,23 +73,63 @@
                 <div class="detail-section">
                     <h2>Documentation technique</h2>
                     <p>Protocole d'installation WordPress complet incluant la maintenance et les procédures de sauvegarde automatisée.</p>
-                    <a href="#" class="doc-link">📄 Protocole d'installation</a>
-                    <a href="#" class="doc-link">🔧 Guide maintenance</a>
+                    <a href="docs/ap1/protocole-installation.pdf" class="doc-link" target="_blank">📄 Protocole d'installation</a>
+                    <a href="docs/ap1/guide-maintenance.pdf" class="doc-link" target="_blank">🔧 Guide maintenance</a>
                 </div>
 
                 <div class="detail-section">
                     <h2>Production en ligne</h2>
                     <div class="production-links">
-                        <a href="#" class="prod-link">🌐 Page d'accueil</a>
-                        <a href="#" class="prod-link">⚙️ Page admin articles</a>
-                        <a href="#" class="prod-link">🖼️ Captures d'écran</a>
+                        <a href="#" class="prod-link" onclick="showContent('captures-ap1')">🖼️ Captures d'écran</a>
+                    </div>
+
+                    <!-- Section captures d'écran -->
+                    <div id="captures-ap1-content" class="content-section hidden">
+                        <h3>Captures d'écran du projet</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="images/ap1/page-accueil.png" alt="Page d'accueil" onclick="openModal(this)">
+                                <p>Page d'accueil</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap1/admin-articles.png" alt="Admin articles" onclick="openModal(this)">
+                                <p>Page admin articles</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap1/configuration.png" alt="Configuration" onclick="openModal(this)">
+                                <p>Configuration WordPress</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Modal pour images en grand -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Fonction pour afficher le contenu
+        function showContent(sectionId) {
+            const targetSection = document.getElementById(sectionId + '-content');
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+
     <script src="script.js"></script>
 </body>
-
 </html>

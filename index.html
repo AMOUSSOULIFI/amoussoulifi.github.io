@@ -28,10 +28,11 @@
         <nav class="navbar">
             <div class="nav-container">
                 <a href="index.html" class="nav-link">Accueil</a>
-                <a href="aps.html" class="nav-link">APs</a>
-                <a href="stages.html" class="nav-link">Stages</a>
-                <a href="cv.html" class="nav-link">CV</a>
-                <a href="veille.html" class="nav-link">Veille</a>
+                <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+                <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+                <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+                <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
+                <button id="logout-btn" class="logout-btn" onclick="logoutUser()">Déconnexion</button>
             </div>
         </nav>
 
@@ -42,11 +43,11 @@
                 <p>Bienvenue sur mon portfolio présentant mes réalisations professionnelles</p>
                 
                 <div class="quick-links">
-                    <a href="aps.html" class="quick-link">
+                    <a href="aps.html" class="quick-link" onclick="navigateTo('aps.html')">
                         <h3>APs</h3>
                         <p>5 réalisations</p>
                     </a>
-                    <a href="stages.html" class="quick-link">
+                    <a href="stages.html" class="quick-link" onclick="navigateTo('stages.html')">
                         <h3>Stages</h3>
                         <p>2 expériences</p>
                     </a>
@@ -54,6 +55,33 @@
             </div>
         </section>
     </div>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Fonction de déconnexion
+        function logoutUser() {
+            localStorage.removeItem('sessionData');
+            window.location.href = 'index.html';
+        }
+
+        // Navigation manuelle pour les liens
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href]');
+            links.forEach(link => {
+                if (link.getAttribute('href') !== 'index.html' && !link.onclick) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        window.location.href = this.getAttribute('href');
+                    });
+                }
+            });
+        });
+    </script>
 
     <script src="script.js"></script>
 </body>
