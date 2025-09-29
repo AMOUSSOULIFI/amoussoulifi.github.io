@@ -3,57 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio BTS - Accueil</title>
+    <title>APs - Portfolio BTS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Section Login -->
-    <section id="login-section" class="login-container">
-        <div class="login-form">
-            <h1>Portfolio BTS</h1>
-            <p>Veuillez vous connecter</p>
-            <form id="login-form">
-                <input type="text" id="username" placeholder="Login" required>
-                <input type="password" id="password" placeholder="Mot de passe" required>
-                <button type="submit">Se connecter</button>
-            </form>
-            <p class="login-info">Login: enock | Mot de passe: enock2000*</p>
-            <div id="login-error" class="error-message hidden"></div>
+    <script>
+        // Vérification d'authentification SIMPLIFIÉE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="aps.html" class="nav-link">APs</a>
+            <a href="stages.html" class="nav-link">Stages</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="veille.html" class="nav-link">Veille</a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2>APs (Activités Professionnelles)</h2>
+            <p class="section-subtitle">Cliquez sur une AP pour voir les détails complets</p>
+            
+            <div class="grid-aps">
+                <!-- AP 1 : SCISS -->
+                <a href="ap1.html" class="ap-card-link">
+                    <div class="ap-card">
+                        <div class="ap-number">AP1</div>
+                        <h3>SCISS</h3>
+                        <p class="ap-period">Septembre - Octobre 2024</p>
+                        <div class="ap-preview">
+                            <span>WordPress • Installation • Maintenance</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AP 2 : Bidule -->
+                <a href="ap2.html" class="ap-card-link">
+                    <div class="ap-card">
+                        <div class="ap-number">AP2</div>
+                        <h3>Bidule - Remaniement site numérique</h3>
+                        <p class="ap-period">Novembre 2024 - Janvier 2025</p>
+                        <div class="ap-preview">
+                            <span>Google Sites • Adaptation jeunes étudiants</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AP 3 : Mairie de Pénestin -->
+                <a href="ap3.html" class="ap-card-link">
+                    <div class="ap-card">
+                        <div class="ap-number">AP3</div>
+                        <h3>Mairie de Pénestin</h3>
+                        <p class="ap-period">Janvier - Mars 2025</p>
+                        <div class="ap-preview">
+                            <span>GED • Solution NAS • Gestion documentaire</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AP 4 : Séparation services -->
+                <a href="ap4.html" class="ap-card-link">
+                    <div class="ap-card">
+                        <div class="ap-number">AP4</div>
+                        <h3>Séparation services + Sauvegarde</h3>
+                        <p class="ap-period">Mars - Mai 2025</p>
+                        <div class="ap-preview">
+                            <span>Firewall • Debian • NAT • Sécurité</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AP 5 : Optionnel ou futur -->
+                <a href="ap5.html" class="ap-card-link">
+                    <div class="ap-card">
+                        <div class="ap-number">AP5</div>
+                        <h3>Projet personnel ou stage</h3>
+                        <p class="ap-period">À définir</p>
+                        <div class="ap-preview">
+                            <span>Projet complémentaire</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
-
-    <!-- Contenu du portfolio (caché au début) -->
-    <div id="portfolio-content" class="hidden">
-        <!-- Navbar -->
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="nav-link">Accueil</a>
-                <a href="aps.html" class="nav-link">APs</a>
-                <a href="stages.html" class="nav-link">Stages</a>
-                <a href="cv.html" class="nav-link">CV</a>
-                <a href="veille.html" class="nav-link">Veille</a>
-            </div>
-        </nav>
-
-        <!-- Section Accueil -->
-        <section class="section active">
-            <div class="container">
-                <h1>Mon Portfolio BTS</h1>
-                <p>Bienvenue sur mon portfolio présentant mes réalisations professionnelles</p>
-                
-                <div class="quick-links">
-                    <a href="aps.html" class="quick-link">
-                        <h3>APs</h3>
-                        <p>5 réalisations</p>
-                    </a>
-                    <a href="stages.html" class="quick-link">
-                        <h3>Stages</h3>
-                        <p>2 expériences</p>
-                    </a>
-                </div>
-            </div>
-        </section>
-    </div>
 
     <script src="script.js"></script>
 </body>
