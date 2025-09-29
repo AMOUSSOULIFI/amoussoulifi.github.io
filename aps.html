@@ -1,21 +1,38 @@
-<script>
-    // Vérification d'authentification sur toutes les pages
-    const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-
-    if (!sessionData || !sessionData.isLoggedIn) {
-        window.location.href = 'index.html';
-    } else {
-        const currentTime = new Date().getTime();
-        const sessionAge = currentTime - sessionData.loginTime;
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APs - Portfolio BTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
         
-        // Session expire après 10 minutes
-        if (sessionAge >= 10 * 60 * 1000) {
-            alert('Session expirée. Veuillez vous reconnecter.');
-            localStorage.removeItem('sessionData');
+        if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
+        } else {
+            const currentTime = new Date().getTime();
+            const sessionAge = currentTime - sessionData.loginTime;
+            
+            if (sessionAge >= 10 * 60 * 1000) {
+                localStorage.removeItem('sessionData');
+                window.location.href = 'index.html';
+            }
         }
-    }
-</script>
+    </script>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="aps.html" class="nav-link">APs</a>
+            <a href="stages.html" class="nav-link">Stages</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="veille.html" class="nav-link">Veille</a>
+        </div>
+    </nav>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -115,3 +132,4 @@
 </body>
 
 </html>
+
