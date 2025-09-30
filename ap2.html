@@ -8,9 +8,9 @@
 </head>
 <body>
     <script>
-        // Vérification d'authentification UNIQUE
+        // Vérification d'authentification SIMPLIFIÉE
         const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-        if (!sessionData || !sessionData.isLoggedIn) {
+        if (!sessionData) {
             window.location.href = 'index.html';
         }
     </script>
