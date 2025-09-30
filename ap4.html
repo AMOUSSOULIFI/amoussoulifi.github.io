@@ -1,21 +1,3 @@
-<script>
-// Vérification d'authentification sur toutes les pages
-const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-
-if (!sessionData || !sessionData.isLoggedIn) {
-    window.location.href = 'index.html';
-} else {
-    const currentTime = new Date().getTime();
-    const sessionAge = currentTime - sessionData.loginTime;
-    
-    // Session expire après 10 minutes
-    if (sessionAge >= 10 * 60 * 1000) {
-        alert('Session expirée. Veuillez vous reconnecter.');
-        localStorage.removeItem('sessionData');
-        window.location.href = 'index.html';
-    }
-}
-</script>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,24 +8,26 @@ if (!sessionData || !sessionData.isLoggedIn) {
 </head>
 <body>
     <script>
-        if(localStorage.getItem('isLoggedIn') !== 'true') {
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
         }
     </script>
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="aps.html" class="nav-link">APs</a>
-            <a href="stages.html" class="nav-link">Stages</a>
-            <a href="cv.html" class="nav-link">CV</a>
-            <a href="veille.html" class="nav-link">Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
     <section class="section">
         <div class="container">
-            <a href="aps.html" class="back-button">← Retour aux APs</a>
+            <a href="aps.html" class="back-button" onclick="navigateTo('aps.html')">← Retour aux APs</a>
             
             <div class="ap-header">
                 <div class="ap-badge">AP4</div>
@@ -82,7 +66,7 @@ if (!sessionData || !sessionData.isLoggedIn) {
                     <div class="info-column">
                         <h3>Mode de travail</h3>
                         <p><strong>En binôme</strong></p>
-                        <p><strong></strong>Travail collaboratif sur la sécurité et l'automatisation</strong></p>
+                        <p>Travail collaboratif sur la sécurité et l'automatisation</p>
                     </div>
                 </div>
 
@@ -103,12 +87,12 @@ if (!sessionData || !sessionData.isLoggedIn) {
                         <div class="documents-grid">
                             <div class="doc-item">
                                 <h4>Documentation OPENKM Utilisateurs</h4>
-                                <a href="docs/ap4/Documentation OPENKM Utilisateurs.pdf" class="doc-link" target="_blank">
+                                <a href="docs/ap4/Documentation%20OPENKM%20Utilisateurs.pdf" class="doc-link" target="_blank">
                                     📋 Ouvrir le PDF complet
                                 </a>
-                                <embed src="docs/ap4/Documentation OPENKM Utilisateurs.pdf" width="100%" height="500px" type="application/pdf">
+                                <embed src="docs/ap4/Documentation%20OPENKM%20Utilisateurs.pdf" width="100%" height="500px" type="application/pdf">
                                 <p class="pdf-download">
-                                    <a href="docs/ap4/Documentation OPENKM Utilisateurs.pdf" download>
+                                    <a href="docs/ap4/Documentation%20OPENKM%20Utilisateurs.pdf" download>
                                         ⬇️ Télécharger le PDF
                                     </a>
                                 </p>
@@ -140,49 +124,49 @@ if (!sessionData || !sessionData.isLoggedIn) {
                         <p>Captures d'écran complètes de la présentation AP4.</p>
                         
                         <div class="gallery-grid">
-                            <!-- Images 1 à 9 -->
+                            <!-- Images AP4 -->
                             <div class="gallery-item">
-                                <img src="images/ap4/1.png" alt="Slide 1 - Introduction" onclick="openModal(this)">
+                                <img src="./images/AP4%201.PNG" alt="Slide 1 - Introduction" onclick="openModal(this)">
                                 <p>Slide 1 - Introduction</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/2.png" alt="Slide 2 - Contexte" onclick="openModal(this)">
+                                <img src="./images/AP4%202.PNG" alt="Slide 2 - Contexte" onclick="openModal(this)">
                                 <p>Slide 2 - Contexte</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/3.png" alt="Slide 3 - Objectifs" onclick="openModal(this)">
+                                <img src="./images/AP4%203.PNG" alt="Slide 3 - Objectifs" onclick="openModal(this)">
                                 <p>Slide 3 - Objectifs</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/4.png" alt="Slide 4 - Architecture" onclick="openModal(this)">
+                                <img src="./images/AP4%204.PNG" alt="Slide 4 - Architecture" onclick="openModal(this)">
                                 <p>Slide 4 - Architecture</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/5.png" alt="Slide 5 - Implémentation" onclick="openModal(this)">
+                                <img src="./images/AP4%205.PNG" alt="Slide 5 - Implémentation" onclick="openModal(this)">
                                 <p>Slide 5 - Implémentation</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/6.png" alt="Slide 6 - Résultats" onclick="openModal(this)">
+                                <img src="./images/AP4%206.PNG" alt="Slide 6 - Résultats" onclick="openModal(this)">
                                 <p>Slide 6 - Résultats</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/7.png" alt="Slide 7 - Sécurité" onclick="openModal(this)">
+                                <img src="./images/AP4%207.PNG" alt="Slide 7 - Sécurité" onclick="openModal(this)">
                                 <p>Slide 7 - Sécurité</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/8.png" alt="Slide 8 - Monitoring" onclick="openModal(this)">
+                                <img src="./images/AP4%208.PNG" alt="Slide 8 - Monitoring" onclick="openModal(this)">
                                 <p>Slide 8 - Monitoring</p>
                             </div>
                             
                             <div class="gallery-item">
-                                <img src="images/ap4/9.png" alt="Slide 9 - Conclusion" onclick="openModal(this)">
+                                <img src="./images/AP4%209.PNG" alt="Slide 9 - Conclusion" onclick="openModal(this)">
                                 <p>Slide 9 - Conclusion</p>
                             </div>
                         </div>
@@ -195,15 +179,15 @@ if (!sessionData || !sessionData.isLoggedIn) {
                         
                         <div class="gallery-grid">
                             <div class="gallery-item">
-                                <img src="images/ap4/4.png" alt="Configuration firewall" onclick="openModal(this)">
+                                <img src="./images/AP4%204.PNG" alt="Configuration firewall" onclick="openModal(this)">
                                 <p>Configuration firewall</p>
                             </div>
                             <div class="gallery-item">
-                                <img src="images/ap4/5.png" alt="Règles NAT" onclick="openModal(this)">
+                                <img src="./images/AP4%205.PNG" alt="Règles NAT" onclick="openModal(this)">
                                 <p>Règles NAT</p>
                             </div>
                             <div class="gallery-item">
-                                <img src="images/ap4/7.png" alt="Paramètres sécurité" onclick="openModal(this)">
+                                <img src="./images/AP4%207.PNG" alt="Paramètres sécurité" onclick="openModal(this)">
                                 <p>Paramètres sécurité</p>
                             </div>
                         </div>
@@ -216,15 +200,15 @@ if (!sessionData || !sessionData.isLoggedIn) {
                         
                         <div class="gallery-grid">
                             <div class="gallery-item">
-                                <img src="images/ap4/1.png" alt="Résultats tests" onclick="openModal(this)">
+                                <img src="./images/AP4%201.PNG" alt="Résultats tests" onclick="openModal(this)">
                                 <p>Résultats des tests</p>
                             </div>
                             <div class="gallery-item">
-                                <img src="images/ap4/2.png" alt="Monitoring performances" onclick="openModal(this)">
+                                <img src="./images/AP4%202.PNG" alt="Monitoring performances" onclick="openModal(this)">
                                 <p>Monitoring performances</p>
                             </div>
                             <div class="gallery-item">
-                                <img src="images/ap4/3.png" alt="Bilan final" onclick="openModal(this)">
+                                <img src="./images/AP4%203.PNG" alt="Bilan final" onclick="openModal(this)">
                                 <p>Bilan final</p>
                             </div>
                         </div>
@@ -240,6 +224,28 @@ if (!sessionData || !sessionData.isLoggedIn) {
         <img class="modal-content" id="modalImage">
         <div id="caption"></div>
     </div>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Fonction pour afficher le contenu
+        function showContent(sectionId) {
+            const allSections = document.querySelectorAll('.content-section');
+            allSections.forEach(section => {
+                section.classList.add('hidden');
+            });
+            
+            const targetSection = document.getElementById(sectionId + '-content');
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
