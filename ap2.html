@@ -1,21 +1,3 @@
-<script>
-// Vérification d'authentification sur toutes les pages
-const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-
-if (!sessionData || !sessionData.isLoggedIn) {
-    window.location.href = 'index.html';
-} else {
-    const currentTime = new Date().getTime();
-    const sessionAge = currentTime - sessionData.loginTime;
-    
-    // Session expire après 10 minutes
-    if (sessionAge >= 10 * 60 * 1000) {
-        alert('Session expirée. Veuillez vous reconnecter.');
-        localStorage.removeItem('sessionData');
-        window.location.href = 'index.html';
-    }
-}
-</script>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -26,24 +8,26 @@ if (!sessionData || !sessionData.isLoggedIn) {
 </head>
 <body>
     <script>
-        if(localStorage.getItem('isLoggedIn') !== 'true') {
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
         }
     </script>
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="aps.html" class="nav-link">APs</a>
-            <a href="stages.html" class="nav-link">Stages</a>
-            <a href="cv.html" class="nav-link">CV</a>
-            <a href="veille.html" class="nav-link">Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
     <section class="section">
         <div class="container">
-            <a href="aps.html" class="back-button">← Retour aux APs</a>
+            <a href="aps.html" class="back-button" onclick="navigateTo('aps.html')">← Retour aux APs</a>
             
             <div class="ap-header">
                 <div class="ap-badge">AP2</div>
@@ -85,24 +69,89 @@ if (!sessionData || !sessionData.isLoggedIn) {
                     </div>
                 </div>
 
+                <!-- DOCUMENTATION TECHNIQUE -->
                 <div class="detail-section">
                     <h2>Documentation technique</h2>
                     <p>Tableau comparatif des CMS et hébergeurs avec analyse des solutions adaptées aux jeunes étudiants.</p>
-                    <a href="#" class="doc-link">📊 Comparatif CMS/Hébergeurs</a>
-                    <a href="#" class="doc-link">🎯 Cahier des charges</a>
+                    
+                    <div class="action-buttons">
+                        <button class="action-btn" onclick="showContent('documentation-ap2')">
+                            📄 Voir la documentation projet
+                        </button>
+                    </div>
+
+                    <div id="documentation-ap2-content" class="content-section hidden">
+                        <h3>Documentation du projet Bidule</h3>
+                        
+                        <div class="documents-grid">
+                            <div class="doc-item">
+                                <h4>Tableau comparatif CMS/Hébergeurs</h4>
+                                <a href="docs/ap2/comparatif-cms.pdf" class="doc-link" target="_blank">
+                                    📊 Ouvrir le PDF complet
+                                </a>
+                                <embed src="docs/ap2/comparatif-cms.pdf" width="100%" height="500px" type="application/pdf">
+                                <p class="pdf-download">
+                                    <a href="docs/ap2/comparatif-cms.pdf" download>
+                                        ⬇️ Télécharger le PDF
+                                    </a>
+                                </p>
+                            </div>
+                            
+                            <div class="doc-item">
+                                <h4>Cahier des charges</h4>
+                                <a href="docs/ap2/cahier-charges.pdf" class="doc-link" target="_blank">
+                                    📋 Ouvrir le cahier des charges
+                                </a>
+                                <embed src="docs/ap2/cahier-charges.pdf" width="100%" height="500px" type="application/pdf">
+                                <p class="pdf-download">
+                                    <a href="docs/ap2/cahier-charges.pdf" download>
+                                        ⬇️ Télécharger le PDF
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
+                <!-- PRODUCTION EN LIGNE -->
                 <div class="detail-section">
                     <h2>Production en ligne</h2>
+                    <p>Liens vers les réalisations du projet.</p>
+                    
                     <div class="production-links">
-                        <a href="#" class="prod-link">🌐 Site remanié</a>
-                        <a href="#" class="prod-link">📱 Version mobile</a>
-                        <a href="#" class="prod-link">📊 Analyse avant/après</a>
+                        <a href="https://sites.google.com/view/ton-site-bidule" class="prod-link" target="_blank">
+                            🌐 Site remanié
+                        </a>
+                        <a href="docs/ap2/analyse-comparative.pdf" class="prod-link" target="_blank">
+                            📊 Analyse avant/après
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Fonction pour afficher le contenu
+        function showContent(sectionId) {
+            const allSections = document.querySelectorAll('.content-section');
+            allSections.forEach(section => {
+                section.classList.add('hidden');
+            });
+            
+            const targetSection = document.getElementById(sectionId + '-content');
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
