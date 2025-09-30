@@ -69,67 +69,50 @@
                     </div>
                 </div>
 
-                <!-- DOCUMENTATION TECHNIQUE -->
                 <div class="detail-section">
                     <h2>Documentation technique</h2>
                     <p>Tableau comparatif des CMS et hébergeurs avec analyse des solutions adaptées aux jeunes étudiants.</p>
-                    
-                    <div class="action-buttons">
-                        <button class="action-btn" onclick="showContent('documentation-ap2')">
-                            📄 Voir la documentation projet
-                        </button>
-                    </div>
-
-                    <div id="documentation-ap2-content" class="content-section hidden">
-                        <h3>Documentation du projet Bidule</h3>
-                        
-                        <div class="documents-grid">
-                            <div class="doc-item">
-                                <h4>Tableau comparatif CMS/Hébergeurs</h4>
-                                <a href="docs/ap2/comparatif-cms.pdf" class="doc-link" target="_blank">
-                                    📊 Ouvrir le PDF complet
-                                </a>
-                                <embed src="docs/ap2/comparatif-cms.pdf" width="100%" height="500px" type="application/pdf">
-                                <p class="pdf-download">
-                                    <a href="docs/ap2/comparatif-cms.pdf" download>
-                                        ⬇️ Télécharger le PDF
-                                    </a>
-                                </p>
-                            </div>
-                            
-                            <div class="doc-item">
-                                <h4>Cahier des charges</h4>
-                                <a href="docs/ap2/cahier-charges.pdf" class="doc-link" target="_blank">
-                                    📋 Ouvrir le cahier des charges
-                                </a>
-                                <embed src="docs/ap2/cahier-charges.pdf" width="100%" height="500px" type="application/pdf">
-                                <p class="pdf-download">
-                                    <a href="docs/ap2/cahier-charges.pdf" download>
-                                        ⬇️ Télécharger le PDF
-                                    </a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                    <a href="docs/ap2/comparatif-cms.pdf" class="doc-link" target="_blank">📊 Tableau comparatif CMS/Hébergeurs</a>
+                    <a href="docs/ap2/cahier-charges.pdf" class="doc-link" target="_blank">📋 Cahier des charges</a>
                 </div>
 
-                <!-- PRODUCTION EN LIGNE -->
                 <div class="detail-section">
                     <h2>Production en ligne</h2>
-                    <p>Liens vers les réalisations du projet.</p>
-                    
                     <div class="production-links">
-                        <a href="https://sites.google.com/view/ton-site-bidule" class="prod-link" target="_blank">
-                            🌐 Site remanié
-                        </a>
-                        <a href="docs/ap2/analyse-comparative.pdf" class="prod-link" target="_blank">
-                            📊 Analyse avant/après
-                        </a>
+                        <a href="https://sites.google.com/view/ton-site-bidule" class="prod-link" target="_blank">🌐 Site remanié</a>
+                        <a href="docs/ap2/analyse-comparative.pdf" class="prod-link" target="_blank">📊 Analyse avant/après</a>
+                        <a href="#" class="prod-link" onclick="showContent('captures-ap2')">🖼️ Captures d'écran</a>
+                    </div>
+
+                    <!-- Section captures d'écran -->
+                    <div id="captures-ap2-content" class="content-section hidden">
+                        <h3>Captures d'écran du projet</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="images/ap2/ancien-site.png" alt="Ancien site" onclick="openModal(this)">
+                                <p>Ancienne version du site</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap2/nouveau-site.png" alt="Nouveau site" onclick="openModal(this)">
+                                <p>Nouvelle version du site</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap2/interface-admin.png" alt="Interface admin" onclick="openModal(this)">
+                                <p>Interface d'administration</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal pour images en grand -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
 
     <script>
         // Fonction de navigation forcée pour GitHub Pages
@@ -140,11 +123,6 @@
 
         // Fonction pour afficher le contenu
         function showContent(sectionId) {
-            const allSections = document.querySelectorAll('.content-section');
-            allSections.forEach(section => {
-                section.classList.add('hidden');
-            });
-            
             const targetSection = document.getElementById(sectionId + '-content');
             if (targetSection) {
                 targetSection.classList.remove('hidden');
