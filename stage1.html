@@ -1,1 +1,176 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stage 1 - Systèmes & Réseaux</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
 
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <a href="stages.html" class="back-button" onclick="navigateTo('stages.html')">← Retour aux Stages</a>
+            
+            <div class="ap-header">
+                <div class="ap-badge stage-badge">STAGE</div>
+                <h1>Stage en Systèmes & Réseaux Informatiques</h1>
+                <p class="ap-date">Saint Charles Sainte-Croix - Le Mans | Juin - Juillet 2025 (4 semaines)</p>
+            </div>
+
+            <div class="ap-details-grid">
+                <div class="detail-section">
+                    <h2>Description du Stage</h2>
+                    <p>Stage intensif en systèmes et réseaux au sein d'un établissement scolaire, axé sur le support technique, la maintenance du parc informatique et le déploiement de nouveaux équipements. Intervention sur l'ensemble de l'infrastructure réseau de l'établissement.</p>
+                </div>
+
+                <div class="info-table">
+                    <div class="info-column">
+                        <h3>Outils utilisés</h3>
+                        <ul>
+                            <li>→ OCS Inventory</li>
+                            <li>→ FOG (déploiement d'images)</li>
+                            <li>→ WDS (Windows Deployment Services)</li>
+                            <li>→ Windows Server & GPO</li>
+                            <li>→ VEYON MASTER</li>
+                            <li>→ Active Directory</li>
+                            <li>→ GNPI</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-column">
+                        <h3>Compétences acquises</h3>
+                        <ul>
+                            <li>→ Gestion de parc informatique</li>
+                            <li>→ Déploiement massif de postes</li>
+                            <li>→ Résolution de pannes techniques</li>
+                            <li>→ Configuration GPO avancée</li>
+                            <li>→ Virtualisation et déploiement</li>
+                            <li>→ Support utilisateurs</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="info-column">
+                        <h3>Environnement</h3>
+                        <p><strong>Établissement scolaire</strong></p>
+                        <p>Infrastructure multi-sites<br>Parc hétérogène<br>Contraintes pédagogiques</p>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Périodes de Stage</h2>
+                    <div class="stage-periods">
+                        <div class="period-card">
+                            <h4>📅 Semaine 1 : 9-13 Juin 2025</h4>
+                            <ul>
+                                <li>• Présentation infrastructure</li>
+                                <li>• Dépannage projecteurs et câblage</li>
+                                <li>• Initiation Windows Server & GPO</li>
+                                <li>• Décâblage et rangement équipements</li>
+                            </ul>
+                        </div>
+                        <div class="period-card">
+                            <h4>📅 Semaine 2 : 16-20 Juin 2025</h4>
+                            <ul>
+                                <li>• Utilisation OCS Inventory</li>
+                                <li>• Préparation examens (baccalauréat)</li>
+                                <li>• Création suivi Excel des salles</li>
+                                <li>• Test et démontage matériel</li>
+                            </ul>
+                        </div>
+                        <div class="period-card">
+                            <h4>📅 Semaine 3 : 23-27 Juin 2025</h4>
+                            <ul>
+                                <li>• Installation nouveaux postes (salle F02)</li>
+                                <li>• Tri et recyclage équipements</li>
+                                <li>• Travail sur GNPI et OCS Inventory</li>
+                                <li>• Vérification fonctionnelle salles</li>
+                            </ul>
+                        </div>
+                        <div class="period-card">
+                            <h4>📅 Semaine 4 : 7-11 Juillet 2025</h4>
+                            <ul>
+                                <li>• Montage de 13 PC</li>
+                                <li>• Désinstallation salles C15/R25</li>
+                                <li>• Déploiement d'images via WDS</li>
+                                <li>• Gestion domaines Active Directory</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Réalisations majeures</h2>
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <span class="achievement-icon">🚀</span>
+                            <div>
+                                <h4>Déploiement de 36 nouveaux postes</h4>
+                                <p>Installation complète des salles F02 et H01 avec configuration réseau et logicielle</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-icon">🔧</span>
+                            <div>
+                                <h4>Gestion de parc optimisée</h4>
+                                <p>Mise en place d'OCS Inventory et création de procédures de suivi</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-icon">🛡️</span>
+                            <div>
+                                <h4>Support aux examens</h4>
+                                <p>Configuration sécurisée de postes pour baccalauréat et examens divers</p>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <span class="achievement-icon">📊</span>
+                            <div>
+                                <h4>Documentation complète</h4>
+                                <p>Création de fichiers Excel de suivi et procédures techniques</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>Documentation technique</h2>
+                    <p>Procédures créées et documents de suivi élaborés durant le stage.</p>
+                    <div class="doc-links">
+                        <a href="docs/stage/suivi-salles.xlsx" class="doc-link" target="_blank">📊 Fichier suivi des salles</a>
+                        <a href="docs/stage/procedure-deploiement.pdf" class="doc-link" target="_blank">📋 Procédure déploiement</a>
+                        <a href="docs/stage/rapport-stage.pdf" class="doc-link" target="_blank">📄 Rapport de stage complet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
