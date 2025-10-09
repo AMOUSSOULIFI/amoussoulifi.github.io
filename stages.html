@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stages - Portfolio BTS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link active" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <h2>Stages Professionnels</h2>
+            <p class="section-subtitle">Cliquez sur un stage pour voir les détails complets</p>
+            
+            <div class="grid-aps">
+                <!-- Stage 1 : Saint Charles Sainte-Croix -->
+                <a href="stage-1.html" class="ap-card-link" onclick="navigateTo('stage-1.html')">
+                    <div class="ap-card stage-card">
+                        <div class="ap-number stage-badge">STAGE</div>
+                        <h3>Stage en Systèmes & Réseaux</h3>
+                        <p class="ap-period">Juin - Juillet 2025 (4 semaines)</p>
+                        <div class="ap-preview">
+                            <span>Support technique • Déploiement • Maintenance • Virtualisation</span>
+                        </div>
+                        <div class="company-info">
+                            <strong>Saint Charles Sainte-Croix - Le Mans</strong>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Stage 2 : Futur stage -->
+                <a href="stage-2.html" class="ap-card-link" onclick="navigateTo('stage-2.html')">
+                    <div class="ap-card">
+                        <div class="ap-number">STAGE2</div>
+                        <h3>Stage à venir</h3>
+                        <p class="ap-period">À définir</p>
+                        <div class="ap-preview">
+                            <span>Prochain stage en entreprise</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Bilan synthétique -->
+            <div class="stage-summary">
+                <h3>Bilan du Stage</h3>
+                <div class="summary-grid">
+                    <div class="summary-item">
+                        <h4>📋 Description</h4>
+                        <p>Stage en systèmes et réseaux au sein de l'établissement Saint Charles Sainte-Croix du Mans avec missions de support informatique, maintenance et déploiement d'équipements.</p>
+                    </div>
+                    <div class="summary-item">
+                        <h4>🛠️ Outils Maîtrisés</h4>
+                        <p>OCS Inventory, FOG, WDS, Windows Server, GPO, VEYON MASTER, Active Directory</p>
+                    </div>
+                    <div class="summary-item">
+                        <h4>💼 Compétences Acquises</h4>
+                        <p>Déploiement massif, gestion de parc, résolution de pannes, configuration postes sécurisés</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
+        // Navigation manuelle pour tous les liens
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('a[href]');
+            links.forEach(link => {
+                if (!link.onclick) {
+                    link.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        window.location.href = this.getAttribute('href');
+                    });
+                }
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
