@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique - BTS SIO SISR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .stats {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .veille-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .sujet {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .sujet:hover {
+            transform: translateY(-5px);
+        }
+
+        .sujet-iam {
+            border-left: 5px solid #e74c3c;
+        }
+
+        .sujet-automation {
+            border-left: 5px solid #3498db;
+        }
+
+        .sujet h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .description {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .sources, .concepts {
+            margin-top: 25px;
+        }
+
+        .sources h3, .concepts h3, .actualites h3 {
+            color: #34495e;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        .actualite-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+            transition: transform 0.2s ease;
+        }
+
+        .actualite-item:hover {
+            transform: translateX(5px);
+        }
+
+        .date {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .source-badge {
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-left: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 2s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: #e74c3c;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        .manual-fallback {
+            background: #f39c12;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .cache-info {
+            text-align: center;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        .controls {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0 10px;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #764ba2;
+        }
+
+        @media (max-width: 768px) {
+            .veille-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2em;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Veille Technologique Automatisée</h1>
+            <p>BTS SIO SISR - Surveillance active des technologies émergentes</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <strong>🔄 Mise à jour automatique</strong>
+                    <div>Chaque heure</div>
+                </div>
+                <div class="stat-item">
+                    <strong>📊 Sources surveillées</strong>
+                    <div>10+ flux RSS</div>
+                </div>
+                <div class="stat-item">
+                    <strong>💾 Cache local</strong>
+                    <div id="cache-status">Actif</div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="btn" onclick="veilleSystem.forceRefresh()">🔄 Actualiser maintenant</button>
+                <button class="btn" onclick="veilleSystem.toggleManualMode()">✏️ Mode manuel</button>
+            </div>
+        </header>
+
+        <div id="veille-content">
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Chargement des dernières actualités...</p>
+            </div>
+        </div>
+
+        <div class="cache-info">
+            <p>📅 Dernière mise à jour : <span id="last-update">Chargement...</span></p>
+            <p>💡 Les données sont mises en cache pour améliorer les performances</p>
+        </div>
+    </div>
+
+    <script>
+        class VeilleTechnologique {
+            constructor() {
+                this.cacheDuration = 3600000; // 1 heure en millisecondes
+                this.manualMode = false;
+                this.fluxConfig = {
+                    'iam-zero-trust': {
+                        nom: '🔐 IAM & Zero Trust',
+                        description: 'Surveillance des évolutions en gestion des identités, des accès et des architectures de sécurité Zero Trust.',
+                        concepts: [
+                            'Architecture Zero Trust (Never Trust, Always Verify)',
+                            'Authentification Multi-Facteurs (MFA/2FA) moderne',
+                            'Gestion des Identités et Accès (IAM)',
+                            'Protocoles SSO : SAML, OAuth 2.0, OIDC',
+                            'Privileged Access Management (PAM)',
+                            'Solutions ZTNA (Zero Trust Network Access)'
+                        ],
+                        sources: [
+                            { nom: 'Microsoft Security', url: 'https://www.microsoft.com/fr-fr/security/blog/' },
+                            { nom: 'CERT-FR', url: 'https://www.cert.ssi.gouv.fr/' },
+                            { nom: 'Le Monde Informatique', url: 'https://www.lemondeinformatique.fr/' },
+                            { nom: 'Reddit r/cybersecurity', url: 'https://www.reddit.com/r/cybersecurity/' }
+                        ],
+                        flux: [
+                            'https://feeds.feedburner.com/TheHackersNews',
+                            'https://www.microsoft.com/fr-fr/security/blog/feed/'
+                        ]
+                    },
+                    'network-automation': {
+                        nom: '⚡ Network Automation & GitOps',
+                        description: 'Veille sur l\'automatisation des infrastructures réseau et les pratiques GitOps.',
+                        concepts: [
+                            'Automatisation avec Ansible',
+                            'Infrastructure as Code (IaC)',
+                            'Gestion de version avec Git',
+                            'Méthodologie GitOps',
+                            'Réseau programmable et API',
+                            'SDN (Software Defined Networking)'
+                        ],
+                        sources: [
+                            { nom: 'Reddit r/networking', url: 'https://www.reddit.com/r/networking/' },
+                            { nom: 'Reddit r/ansible', url: 'https://www.reddit.com/r/ansible/' },
+                            { nom: 'Blog Ansible', url: 'https://www.ansible.com/blog' },
+                            { nom: 'Network World', url: 'https://www.networkworld.com/' }
+                        ],
+                        flux: [
+                            'https://www.reddit.com/r/networking/.rss',
+                            'https://www.reddit.com/r/ansible/.rss'
+                        ]
+                    }
+                };
+            }
+
+            async init() {
+                console.log('🚀 Initialisation du système de veille...');
+                
+                // Vérifie le mode manuel dans le localStorage
+                const savedMode = localStorage.getItem('veilleManualMode');
+                if (savedMode === 'true') {
+                    this.manualMode = true;
+                    this.displayManualMode();
+                    return;
+                }
+
+                // Essaie d'abord les données en cache
+                const cachedData = this.getCachedData();
+                if (cachedData && !this.isCacheExpired(cachedData.timestamp)) {
+                    console.log('📦 Utilisation des données en cache');
+                    this.displayData(cachedData.data);
+                    this.updateLastUpdate(cachedData.timestamp);
+                    
+                    // Met à jour en arrière-plan
+                    this.refreshData();
+                } else {
+                    // Charge de nouvelles données
+                    await this.refreshData();
+                }
+            }
+
+            async refreshData() {
+                try {
+                    console.log('🔄 Actualisation des données...');
+                    const freshData = await this.fetchAllFeeds();
+                    
+                    if (freshData && Object.keys(freshData).length > 0) {
+                        this.cacheData(freshData);
+                        this.displayData(freshData);
+                        this.updateLastUpdate(Date.now());
+                    } else {
+                        throw new Error('Aucune donnée récupérée');
+                    }
+                } catch (error) {
+                    console.error('❌ Erreur lors de l\'actualisation:', error);
+                    this.handleDataError();
+                }
+            }
+
+            async fetchAllFeeds() {
+                const allData = {};
+                
+                for (const [sujetId, config] of Object.entries(this.fluxConfig)) {
+                    console.log(`📡 Récupération des flux pour: ${config.nom}`);
+                    allData[sujetId] = {
+                        ...config,
+                        actualites: await this.fetchRSSFeeds(config.flux)
+                    };
+                }
+                
+                return allData;
+            }
+
+            async fetchRSSFeeds(fluxUrls) {
+                let toutesActualites = [];
+                
+                for (const fluxUrl of fluxUrls) {
+                    try {
+                        // Utilisation d'un proxy CORS
+                        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(fluxUrl)}`;
+                        const response = await fetch(proxyUrl);
+                        
+                        if (!response.ok) continue;
+                        
+                        const data = await response.json();
+                        const parser = new DOMParser();
+                        const xml = parser.parseFromString(data.contents, "text/xml");
+                        
+                        const items = xml.querySelectorAll('item');
+                        items.forEach(item => {
+                            const title = item.querySelector('title')?.textContent || 'Sans titre';
+                            const link = item.querySelector('link')?.textContent || '#';
+                            const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
+                            const description = item.querySelector('description')?.textContent || '';
+                            
+                            // Nettoie la description HTML
+                            const cleanDescription = description
+                                .replace(/<[^>]*>/g, '')
+                                .substring(0, 200) + '...';
+                            
+                            toutesActualites.push({
+                                title: title.length > 100 ? title.substring(0, 100) + '...' : title,
+                                link,
+                                pubDate: new Date(pubDate),
+                                description: cleanDescription,
+                                source: this.getSourceName(fluxUrl)
+                            });
+                        });
+                    } catch (error) {
+                        console.error(`❌ Erreur avec le flux ${fluxUrl}:`, error);
+                    }
+                }
+                
+                // Trie par date et garde les 6 plus récents
+                return toutesActualites
+                    .sort((a, b) => b.pubDate - a.pubDate)
+                    .slice(0, 6);
+            }
+
+            getSourceName(fluxUrl) {
+                const sources = {
+                    'thehackersnews': 'The Hacker News',
+                    'microsoft': 'Microsoft Security',
+                    'reddit.com/r/networking': 'Reddit Networking',
+                    'reddit.com/r/ansible': 'Reddit Ansible'
+                };
+                
+                for (const [key, value] of Object.entries(sources)) {
+                    if (fluxUrl.includes(key)) return value;
+                }
+                
+                return 'Source';
+            }
+
+            displayData(data) {
+                const container = document.getElementById('veille-content');
+                let html = '<div class="veille-grid">';
+                
+                for (const [sujetId, sujetData] of Object.entries(data)) {
+                    html += this.renderSujet(sujetId, sujetData);
+                }
+                
+                html += '</div>';
+                container.innerHTML = html;
+            }
+
+            renderSujet(sujetId, sujetData) {
+                const actualitesHTML = sujetData.actualites && sujetData.actualites.length > 0 
+                    ? sujetData.actualites.map(actu => `
+                        <div class="actualite-item">
+                            <span class="date">${actu.pubDate.toLocaleDateString('fr-FR')}</span>
+                            <span class="source-badge">${actu.source}</span>
+                            <p><strong><a href="${actu.link}" target="_blank">${actu.title}</a></strong></p>
+                            <p>${actu.description}</p>
+                        </div>
+                    `).join('')
+                    : '<p>❌ Aucune actualité récente trouvée</p>';
+
+                const conceptsHTML = sujetData.concepts.map(concept => 
+                    `<li>${concept}</li>`
+                ).join('');
+
+                const sourcesHTML = sujetData.sources.map(source => 
+                    `<li><a href="${source.url}" target="_blank">${source.nom}</a></li>`
+                ).join('');
+
+                return `
+                    <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
+                        <h2>${sujetData.nom}</h2>
+                        
+                        <div class="description">
+                            <p><strong>${sujetData.description}</strong></p>
+                        </div>
+
+                        <div class="concepts">
+                            <h3>📚 Concepts Clés Surveillés</h3>
+                            <ul>${conceptsHTML}</ul>
+                        </div>
+
+                        <div class="sources">
+                            <h3>🌐 Sources Principales</h3>
+                            <ul>${sourcesHTML}</ul>
+                        </div>
+
+                        <div class="actualites">
+                            <h3>📰 Dernières Actualités (Automatique)</h3>
+                            ${actualitesHTML}
+                        </div>
+                    </div>
+                `;
+            }
+
+            displayManualMode() {
+                const container = document.getElementById('veille-content');
+                container.innerHTML = `
+                    <div class="manual-fallback">
+                        <h3>✏️ Mode Manuel Activé</h3>
+                        <p>Le système automatique est désactivé. Utilisez le formulaire ci-dessous pour ajouter manuellement des actualités.</p>
+                        <button class="btn" onclick="veilleSystem.toggleManualMode()">🔄 Réactiver le mode automatique</button>
+                    </div>
+                    <div class="veille-grid">
+                        ${this.renderManualSujet('iam-zero-trust')}
+                        ${this.renderManualSujet('network-automation')}
+                    </div>
+                    <div class="manual-form">
+                        <h3>➕ Ajouter une actualité manuellement</h3>
+                        <form onsubmit="return veilleSystem.addManualArticle(event)">
+                            <select id="manual-subject">
+                                <option value="iam-zero-trust">IAM & Zero Trust</option>
+                                <option value="network-automation">Network Automation</option>
+                            </select>
+                            <input type="text" id="manual-title" placeholder="Titre de l'article" required>
+                            <input type="url" id="manual-link" placeholder="Lien URL" required>
+                            <textarea id="manual-description" placeholder="Description/résumé" required></textarea>
+                            <button type="submit" class="btn">➕ Ajouter</button>
+                        </form>
+                    </div>
+                `;
+            }
+
+            renderManualSujet(sujetId) {
+                const config = this.fluxConfig[sujetId];
+                const storedArticles = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
+                
+                const articlesHTML = storedArticles.map(article => `
+                    <div class="actualite-item">
+                        <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
+                        <span class="source-badge">Manuel</span>
+                        <p><strong><a href="${article.link}" target="_blank">${article.title}</a></strong></p>
+                        <p>${article.description}</p>
+                        <button onclick="veilleSystem.removeManualArticle('${sujetId}', ${article.id})">🗑️</button>
+                    </div>
+                `).join('') || '<p>Aucune actualité manuelle ajoutée</p>';
+
+                return `
+                    <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
+                        <h2>${config.nom}</h2>
+                        <div class="actualites">
+                            <h3>📰 Actualités Manuelles</h3>
+                            ${articlesHTML}
+                        </div>
+                    </div>
+                `;
+            }
+
+            addManualArticle(event) {
+                event.preventDefault();
+                
+                const sujet = document.getElementById('manual-subject').value;
+                const title = document.getElementById('manual-title').value;
+                const link = document.getElementById('manual-link').value;
+                const description = document.getElementById('manual-description').value;
+                
+                const article = {
+                    id: Date.now(),
+                    title,
+                    link,
+                    description,
+                    date: new Date().toISOString(),
+                    source: 'Manuel'
+                };
+                
+                const stored = JSON.parse(localStorage.getItem(`manual-${sujet}`) || '[]');
+                stored.unshift(article);
+                localStorage.setItem(`manual-${sujet}`, JSON.stringify(stored.slice(0, 10))); // Garde seulement les 10 derniers
+                
+                this.displayManualMode();
+                return false;
+            }
+
+            removeManualArticle(sujetId, articleId) {
+                const stored = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
+                const filtered = stored.filter(article => article.id !== articleId);
+                localStorage.setItem(`manual-${sujetId}`, JSON.stringify(filtered));
+                this.displayManualMode();
+            }
+
+            // Gestion du cache
+            getCachedData() {
+                const cached = localStorage.getItem('veilleCache');
+                return cached ? JSON.parse(cached) : null;
+            }
+
+            cacheData(data) {
+                const cache = {
+                    data: data,
+                    timestamp: Date.now()
+                };
+                localStorage.setItem('veilleCache', JSON.stringify(cache));
+            }
+
+            isCacheExpired(timestamp) {
+                return Date.now() - timestamp > this.cacheDuration;
+            }
+
+            updateLastUpdate(timestamp) {
+                const element = document.getElementById('last-update');
+                if (element) {
+                    element.textContent = new Date(timestamp).toLocaleString('fr-FR');
+                }
+            }
+
+            handleDataError() {
+                const cachedData = this.getCachedData();
+                if (cachedData && cachedData.data) {
+                    this.displayData(cachedData.data);
+                    this.updateLastUpdate(cachedData.timestamp);
+                    
+                    const container = document.getElementById('veille-content');
+                    const errorMsg = document.createElement('div');
+                    errorMsg.className = 'error-message';
+                    errorMsg.innerHTML = '⚠️ Données en cache (problème de connexion) - <button class="btn" onclick="veilleSystem.forceRefresh()">Réessayer</button>';
+                    container.insertBefore(errorMsg, container.firstChild);
+                } else {
+                    this.displayManualMode();
+                }
+            }
+
+            // Méthodes publiques
+            forceRefresh() {
+                localStorage.removeItem('veilleCache');
+                this.init();
+            }
+
+            toggleManualMode() {
+                this.manualMode = !this.manualMode;
+                localStorage.setItem('veilleManualMode', this.manualMode.toString());
+                
+                if (this.manualMode) {
+                    this.displayManualMode();
+                } else {
+                    this.init();
+                }
+            }
+        }
+
+        // Initialisation
+        const veilleSystem = new VeilleTechnologique();
+        document.addEventListener('DOMContentLoaded', () => veilleSystem.init());
+
+        // Actualisation automatique toutes les heures
+        setInterval(() => {
+            if (!veilleSystem.manualMode) {
+                veilleSystem.refreshData();
+            }
+        }, 3600000);
+    </script>
+</body>
+</html>
