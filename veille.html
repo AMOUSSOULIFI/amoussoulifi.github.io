@@ -235,6 +235,30 @@
             background: #764ba2;
         }
 
+        .manual-form {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .manual-form input, .manual-form select, .manual-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .demo-data {
+            background: #2ecc71;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
         @media (max-width: 768px) {
             .veille-grid {
                 grid-template-columns: 1fr;
@@ -254,47 +278,47 @@
 <body>
     <div class="container">
         <header>
-            <h1>🔍 Veille Technologique Automatisée</h1>
-            <p>BTS SIO SISR - Surveillance active des technologies émergentes</p>
+            <h1>🔍 Veille Technologique</h1>
+            <p>BTS SIO SISR - Surveillance active des technologies</p>
             
             <div class="stats">
                 <div class="stat-item">
-                    <strong>🔄 Mise à jour automatique</strong>
-                    <div>Chaque heure</div>
+                    <strong>🔄 Mise à jour</strong>
+                    <div>Automatique + Manuel</div>
                 </div>
                 <div class="stat-item">
-                    <strong>📊 Sources surveillées</strong>
-                    <div>10+ flux RSS</div>
+                    <strong>📊 Sources</strong>
+                    <div>Flux RSS + Saisie manuelle</div>
                 </div>
                 <div class="stat-item">
-                    <strong>💾 Cache local</strong>
-                    <div id="cache-status">Actif</div>
+                    <strong>💾 Stockage</strong>
+                    <div>LocalStorage</div>
                 </div>
             </div>
 
             <div class="controls">
-                <button class="btn" onclick="veilleSystem.forceRefresh()">🔄 Actualiser maintenant</button>
-                <button class="btn" onclick="veilleSystem.toggleManualMode()">✏️ Mode manuel</button>
+                <button class="btn" onclick="veilleSystem.forceRefresh()">🔄 Actualiser</button>
+                <button class="btn" onclick="veilleSystem.toggleManualMode()">✏️ Mode Manuel</button>
+                <button class="btn" onclick="veilleSystem.loadDemoData()">🎯 Données Démo</button>
             </div>
         </header>
 
         <div id="veille-content">
             <div class="loading">
                 <div class="spinner"></div>
-                <p>Chargement des dernières actualités...</p>
+                <p>Chargement des actualités...</p>
             </div>
         </div>
 
         <div class="cache-info">
             <p>📅 Dernière mise à jour : <span id="last-update">Chargement...</span></p>
-            <p>💡 Les données sont mises en cache pour améliorer les performances</p>
         </div>
     </div>
 
     <script>
         class VeilleTechnologique {
             constructor() {
-                this.cacheDuration = 3600000; // 1 heure en millisecondes
+                this.cacheDuration = 3600000; // 1 heure
                 this.manualMode = false;
                 this.fluxConfig = {
                     'iam-zero-trust': {
@@ -311,34 +335,26 @@
                         sources: [
                             { nom: 'Microsoft Security', url: 'https://www.microsoft.com/fr-fr/security/blog/' },
                             { nom: 'CERT-FR', url: 'https://www.cert.ssi.gouv.fr/' },
-                            { nom: 'Le Monde Informatique', url: 'https://www.lemondeinformatique.fr/' },
-                            { nom: 'Reddit r/cybersecurity', url: 'https://www.reddit.com/r/cybersecurity/' }
-                        ],
-                        flux: [
-                            'https://feeds.feedburner.com/TheHackersNews',
-                            'https://www.microsoft.com/fr-fr/security/blog/feed/'
+                            { nom: 'ANSSI', url: 'https://www.ssi.gouv.fr/' },
+                            { nom: 'Le Monde Informatique', url: 'https://www.lemondeinformatique.fr/' }
                         ]
                     },
                     'network-automation': {
-                        nom: '⚡ Network Automation & GitOps',
-                        description: 'Veille sur l\'automatisation des infrastructures réseau et les pratiques GitOps.',
+                        nom: '⚡ DevOps & Cloud',
+                        description: 'Veille sur les pratiques DevOps, l\'automatisation cloud et les infrastructures modernes.',
                         concepts: [
-                            'Automatisation avec Ansible',
+                            'Automatisation avec Ansible et Terraform',
                             'Infrastructure as Code (IaC)',
-                            'Gestion de version avec Git',
-                            'Méthodologie GitOps',
-                            'Réseau programmable et API',
-                            'SDN (Software Defined Networking)'
+                            'Conteneurisation Docker & Kubernetes',
+                            'CI/CD et GitOps',
+                            'Cloud Hybride et Multi-cloud',
+                            'Monitoring et Observability'
                         ],
                         sources: [
-                            { nom: 'Reddit r/networking', url: 'https://www.reddit.com/r/networking/' },
-                            { nom: 'Reddit r/ansible', url: 'https://www.reddit.com/r/ansible/' },
-                            { nom: 'Blog Ansible', url: 'https://www.ansible.com/blog' },
-                            { nom: 'Network World', url: 'https://www.networkworld.com/' }
-                        ],
-                        flux: [
-                            'https://www.reddit.com/r/networking/.rss',
-                            'https://www.reddit.com/r/ansible/.rss'
+                            { nom: 'Red Hat Blog', url: 'https://www.redhat.com/fr/blog' },
+                            { nom: 'GitHub Blog', url: 'https://github.blog/' },
+                            { nom: 'DevOps.com', url: 'https://devops.com/' },
+                            { nom: 'Cloud Native Computing Foundation', url: 'https://www.cncf.io/' }
                         ]
                     }
                 };
@@ -347,7 +363,6 @@
             async init() {
                 console.log('🚀 Initialisation du système de veille...');
                 
-                // Vérifie le mode manuel dans le localStorage
                 const savedMode = localStorage.getItem('veilleManualMode');
                 if (savedMode === 'true') {
                     this.manualMode = true;
@@ -355,112 +370,78 @@
                     return;
                 }
 
-                // Essaie d'abord les données en cache
-                const cachedData = this.getCachedData();
-                if (cachedData && !this.isCacheExpired(cachedData.timestamp)) {
-                    console.log('📦 Utilisation des données en cache');
-                    this.displayData(cachedData.data);
-                    this.updateLastUpdate(cachedData.timestamp);
-                    
-                    // Met à jour en arrière-plan
-                    this.refreshData();
-                } else {
-                    // Charge de nouvelles données
-                    await this.refreshData();
-                }
+                // Charge d'abord les données de démo
+                this.loadDemoData();
             }
 
-            async refreshData() {
-                try {
-                    console.log('🔄 Actualisation des données...');
-                    const freshData = await this.fetchAllFeeds();
-                    
-                    if (freshData && Object.keys(freshData).length > 0) {
-                        this.cacheData(freshData);
-                        this.displayData(freshData);
-                        this.updateLastUpdate(Date.now());
-                    } else {
-                        throw new Error('Aucune donnée récupérée');
+            async loadDemoData() {
+                console.log('🎯 Chargement des données de démo...');
+                
+                const demoData = {
+                    'iam-zero-trust': {
+                        ...this.fluxConfig['iam-zero-trust'],
+                        actualites: [
+                            {
+                                title: "Microsoft renforce Azure AD avec l'authentification passwordless",
+                                link: "https://www.microsoft.com/fr-fr/security/blog/2024/03/15/azure-ad-passwordless/",
+                                pubDate: new Date('2024-03-15'),
+                                description: "Microsoft améliore l'authentification sans mot de passe avec la prise en charge étendue des clés FIDO2 et l'intégration Windows Hello.",
+                                source: "Microsoft Security"
+                            },
+                            {
+                                title: "Nouvelles directives ANSSI sur le Zero Trust",
+                                link: "https://www.ssi.gouv.fr/actualite/zero-trust-nouvelles-recommandations/",
+                                pubDate: new Date('2024-03-10'),
+                                description: "L'ANSSI publie un nouveau guide sur l'implémentation des architectures Zero Trust dans les organisations françaises.",
+                                source: "ANSSI"
+                            },
+                            {
+                                title: "Les tendances IAM 2024 : vers plus de sécurité et d'expérience utilisateur",
+                                link: "https://www.lemondeinformatique.fr/iam-tendances-2024-123456.html",
+                                pubDate: new Date('2024-03-08'),
+                                description: "Analyse des évolutions du marché IAM avec l'émergence de l'IA et l'automatisation des processus de gestion des identités.",
+                                source: "Le Monde Informatique"
+                            }
+                        ]
+                    },
+                    'network-automation': {
+                        ...this.fluxConfig['network-automation'],
+                        actualites: [
+                            {
+                                title: "Kubernetes 1.29 : nouvelles fonctionnalités pour le scaling automatique",
+                                link: "https://www.redhat.com/fr/blog/kubernetes-129-new-features",
+                                pubDate: new Date('2024-03-14'),
+                                description: "La dernière version de Kubernetes apporte des améliorations significatives pour l'auto-scaling et la gestion des ressources.",
+                                source: "Red Hat Blog"
+                            },
+                            {
+                                title: "GitHub Actions améliore l'automatisation des workflows CI/CD",
+                                link: "https://github.blog/2024-03-12/github-actions-améliorations/",
+                                pubDate: new Date('2024-03-12'),
+                                description: "Nouvelles fonctionnalités pour optimiser les pipelines de déploiement et réduire les temps d'exécution.",
+                                source: "GitHub Blog"
+                            },
+                            {
+                                title: "Terraform 1.8 : gestion avancée des états multi-cloud",
+                                link: "https://devops.com/terraform-1-8-multi-cloud/",
+                                pubDate: new Date('2024-03-05'),
+                                description: "Hashicorp annonce des améliorations majeures pour la gestion des infrastructures multi-cloud avec Terraform.",
+                                source: "DevOps.com"
+                            }
+                        ]
                     }
-                } catch (error) {
-                    console.error('❌ Erreur lors de l\'actualisation:', error);
-                    this.handleDataError();
-                }
-            }
-
-            async fetchAllFeeds() {
-                const allData = {};
-                
-                for (const [sujetId, config] of Object.entries(this.fluxConfig)) {
-                    console.log(`📡 Récupération des flux pour: ${config.nom}`);
-                    allData[sujetId] = {
-                        ...config,
-                        actualites: await this.fetchRSSFeeds(config.flux)
-                    };
-                }
-                
-                return allData;
-            }
-
-            async fetchRSSFeeds(fluxUrls) {
-                let toutesActualites = [];
-                
-                for (const fluxUrl of fluxUrls) {
-                    try {
-                        // Utilisation d'un proxy CORS
-                        const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(fluxUrl)}`;
-                        const response = await fetch(proxyUrl);
-                        
-                        if (!response.ok) continue;
-                        
-                        const data = await response.json();
-                        const parser = new DOMParser();
-                        const xml = parser.parseFromString(data.contents, "text/xml");
-                        
-                        const items = xml.querySelectorAll('item');
-                        items.forEach(item => {
-                            const title = item.querySelector('title')?.textContent || 'Sans titre';
-                            const link = item.querySelector('link')?.textContent || '#';
-                            const pubDate = item.querySelector('pubDate')?.textContent || new Date().toISOString();
-                            const description = item.querySelector('description')?.textContent || '';
-                            
-                            // Nettoie la description HTML
-                            const cleanDescription = description
-                                .replace(/<[^>]*>/g, '')
-                                .substring(0, 200) + '...';
-                            
-                            toutesActualites.push({
-                                title: title.length > 100 ? title.substring(0, 100) + '...' : title,
-                                link,
-                                pubDate: new Date(pubDate),
-                                description: cleanDescription,
-                                source: this.getSourceName(fluxUrl)
-                            });
-                        });
-                    } catch (error) {
-                        console.error(`❌ Erreur avec le flux ${fluxUrl}:`, error);
-                    }
-                }
-                
-                // Trie par date et garde les 6 plus récents
-                return toutesActualites
-                    .sort((a, b) => b.pubDate - a.pubDate)
-                    .slice(0, 6);
-            }
-
-            getSourceName(fluxUrl) {
-                const sources = {
-                    'thehackersnews': 'The Hacker News',
-                    'microsoft': 'Microsoft Security',
-                    'reddit.com/r/networking': 'Reddit Networking',
-                    'reddit.com/r/ansible': 'Reddit Ansible'
                 };
-                
-                for (const [key, value] of Object.entries(sources)) {
-                    if (fluxUrl.includes(key)) return value;
-                }
-                
-                return 'Source';
+
+                this.cacheData(demoData);
+                this.displayData(demoData);
+                this.updateLastUpdate(Date.now());
+
+                // Affiche un message d'info
+                const container = document.getElementById('veille-content');
+                const demoMsg = document.createElement('div');
+                demoMsg.className = 'demo-data';
+                demoMsg.innerHTML = '🎯 <strong>Données de démo chargées</strong> - Le mode automatique utilise des données simulées. Utilisez le mode manuel pour ajouter vos propres actualités.';
+                container.insertBefore(demoMsg, container.firstChild);
             }
 
             displayData(data) {
@@ -514,7 +495,7 @@
                         </div>
 
                         <div class="actualites">
-                            <h3>📰 Dernières Actualités (Automatique)</h3>
+                            <h3>📰 Dernières Actualités</h3>
                             ${actualitesHTML}
                         </div>
                     </div>
@@ -526,7 +507,7 @@
                 container.innerHTML = `
                     <div class="manual-fallback">
                         <h3>✏️ Mode Manuel Activé</h3>
-                        <p>Le système automatique est désactivé. Utilisez le formulaire ci-dessous pour ajouter manuellement des actualités.</p>
+                        <p>Ajoutez manuellement vos actualités de veille.</p>
                         <button class="btn" onclick="veilleSystem.toggleManualMode()">🔄 Réactiver le mode automatique</button>
                     </div>
                     <div class="veille-grid">
@@ -536,14 +517,16 @@
                     <div class="manual-form">
                         <h3>➕ Ajouter une actualité manuellement</h3>
                         <form onsubmit="return veilleSystem.addManualArticle(event)">
-                            <select id="manual-subject">
+                            <select id="manual-subject" required>
+                                <option value="">Choisir un sujet</option>
                                 <option value="iam-zero-trust">IAM & Zero Trust</option>
-                                <option value="network-automation">Network Automation</option>
+                                <option value="network-automation">DevOps & Cloud</option>
                             </select>
                             <input type="text" id="manual-title" placeholder="Titre de l'article" required>
                             <input type="url" id="manual-link" placeholder="Lien URL" required>
+                            <input type="text" id="manual-source" placeholder="Source (ex: Le Monde Informatique)" required>
                             <textarea id="manual-description" placeholder="Description/résumé" required></textarea>
-                            <button type="submit" class="btn">➕ Ajouter</button>
+                            <button type="submit" class="btn">➕ Ajouter l'actualité</button>
                         </form>
                     </div>
                 `;
@@ -556,12 +539,12 @@
                 const articlesHTML = storedArticles.map(article => `
                     <div class="actualite-item">
                         <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
-                        <span class="source-badge">Manuel</span>
+                        <span class="source-badge">${article.source}</span>
                         <p><strong><a href="${article.link}" target="_blank">${article.title}</a></strong></p>
                         <p>${article.description}</p>
-                        <button onclick="veilleSystem.removeManualArticle('${sujetId}', ${article.id})">🗑️</button>
+                        <button class="btn" style="background: #e74c3c; padding: 5px 10px; font-size: 0.8em;" onclick="veilleSystem.removeManualArticle('${sujetId}', ${article.id})">🗑️ Supprimer</button>
                     </div>
-                `).join('') || '<p>Aucune actualité manuelle ajoutée</p>';
+                `).join('') || '<p>📝 Aucune actualité ajoutée pour le moment</p>';
 
                 return `
                     <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
@@ -580,48 +563,52 @@
                 const sujet = document.getElementById('manual-subject').value;
                 const title = document.getElementById('manual-title').value;
                 const link = document.getElementById('manual-link').value;
+                const source = document.getElementById('manual-source').value;
                 const description = document.getElementById('manual-description').value;
+                
+                if (!sujet) {
+                    alert('Veuillez sélectionner un sujet');
+                    return false;
+                }
                 
                 const article = {
                     id: Date.now(),
                     title,
                     link,
+                    source,
                     description,
-                    date: new Date().toISOString(),
-                    source: 'Manuel'
+                    date: new Date().toISOString()
                 };
                 
                 const stored = JSON.parse(localStorage.getItem(`manual-${sujet}`) || '[]');
                 stored.unshift(article);
-                localStorage.setItem(`manual-${sujet}`, JSON.stringify(stored.slice(0, 10))); // Garde seulement les 10 derniers
+                localStorage.setItem(`manual-${sujet}`, JSON.stringify(stored.slice(0, 10)));
                 
+                // Reset le formulaire
+                event.target.reset();
+                
+                // Met à jour l'affichage
                 this.displayManualMode();
+                
                 return false;
             }
 
             removeManualArticle(sujetId, articleId) {
-                const stored = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
-                const filtered = stored.filter(article => article.id !== articleId);
-                localStorage.setItem(`manual-${sujetId}`, JSON.stringify(filtered));
-                this.displayManualMode();
+                if (confirm('Supprimer cette actualité ?')) {
+                    const stored = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
+                    const filtered = stored.filter(article => article.id !== articleId);
+                    localStorage.setItem(`manual-${sujetId}`, JSON.stringify(filtered));
+                    this.displayManualMode();
+                }
             }
 
             // Gestion du cache
-            getCachedData() {
-                const cached = localStorage.getItem('veilleCache');
-                return cached ? JSON.parse(cached) : null;
-            }
-
             cacheData(data) {
                 const cache = {
                     data: data,
                     timestamp: Date.now()
                 };
                 localStorage.setItem('veilleCache', JSON.stringify(cache));
-            }
-
-            isCacheExpired(timestamp) {
-                return Date.now() - timestamp > this.cacheDuration;
             }
 
             updateLastUpdate(timestamp) {
@@ -631,26 +618,9 @@
                 }
             }
 
-            handleDataError() {
-                const cachedData = this.getCachedData();
-                if (cachedData && cachedData.data) {
-                    this.displayData(cachedData.data);
-                    this.updateLastUpdate(cachedData.timestamp);
-                    
-                    const container = document.getElementById('veille-content');
-                    const errorMsg = document.createElement('div');
-                    errorMsg.className = 'error-message';
-                    errorMsg.innerHTML = '⚠️ Données en cache (problème de connexion) - <button class="btn" onclick="veilleSystem.forceRefresh()">Réessayer</button>';
-                    container.insertBefore(errorMsg, container.firstChild);
-                } else {
-                    this.displayManualMode();
-                }
-            }
-
             // Méthodes publiques
             forceRefresh() {
-                localStorage.removeItem('veilleCache');
-                this.init();
+                this.loadDemoData();
             }
 
             toggleManualMode() {
@@ -668,13 +638,6 @@
         // Initialisation
         const veilleSystem = new VeilleTechnologique();
         document.addEventListener('DOMContentLoaded', () => veilleSystem.init());
-
-        // Actualisation automatique toutes les heures
-        setInterval(() => {
-            if (!veilleSystem.manualMode) {
-                veilleSystem.refreshData();
-            }
-        }, 3600000);
     </script>
 </body>
 </html>
