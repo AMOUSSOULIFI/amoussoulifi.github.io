@@ -146,6 +146,7 @@
             margin-bottom: 15px;
             border-left: 4px solid #667eea;
             transition: transform 0.2s ease;
+            position: relative;
         }
 
         .actualite-item:hover {
@@ -169,6 +170,15 @@
             margin-left: 10px;
         }
 
+        .new-badge {
+            background: #e74c3c;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 8px;
+            font-size: 0.7em;
+            margin-left: 5px;
+        }
+
         .loading {
             text-align: center;
             padding: 40px;
@@ -188,31 +198,6 @@
         @keyframes spin {
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
-        }
-
-        .error-message {
-            background: #e74c3c;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 10px 0;
-            text-align: center;
-        }
-
-        .manual-fallback {
-            background: #f39c12;
-            color: white;
-            padding: 15px;
-            border-radius: 8px;
-            margin: 20px 0;
-            text-align: center;
-        }
-
-        .cache-info {
-            text-align: center;
-            color: #7f8c8d;
-            font-size: 0.9em;
-            margin-top: 20px;
         }
 
         .controls {
@@ -235,25 +220,19 @@
             background: #764ba2;
         }
 
-        .manual-form {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-
-        .manual-form input, .manual-form select, .manual-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin: 5px 0;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-        }
-
-        .demo-data {
+        .article-count {
             background: #2ecc71;
             color: white;
-            padding: 15px;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+
+        .auto-update-status {
+            background: #3498db;
+            color: white;
+            padding: 10px;
             border-radius: 8px;
             margin: 10px 0;
             text-align: center;
@@ -278,360 +257,314 @@
 <body>
     <div class="container">
         <header>
-            <h1>🔍 Veille Technologique</h1>
-            <p>BTS SIO SISR - Surveillance active des technologies</p>
+            <h1>🔍 Veille Technologique Automatique</h1>
+            <p>BTS SIO SISR - Accumulation automatique des articles</p>
             
             <div class="stats">
                 <div class="stat-item">
                     <strong>🔄 Mise à jour</strong>
-                    <div>Automatique + Manuel</div>
+                    <div>Automatique toutes les 24h</div>
                 </div>
                 <div class="stat-item">
-                    <strong>📊 Sources</strong>
-                    <div>Flux RSS + Saisie manuelle</div>
+                    <strong>📰 Articles stockés</strong>
+                    <div id="total-articles">Chargement...</div>
                 </div>
                 <div class="stat-item">
-                    <strong>💾 Stockage</strong>
-                    <div>LocalStorage</div>
+                    <strong>💾 Historique</strong>
+                    <div>Conservation 30 jours</div>
                 </div>
             </div>
 
             <div class="controls">
-                <button class="btn" onclick="veilleSystem.forceRefresh()">🔄 Actualiser</button>
-                <button class="btn" onclick="veilleSystem.toggleManualMode()">✏️ Mode Manuel</button>
-                <button class="btn" onclick="veilleSystem.loadDemoData()">🎯 Données Démo</button>
+                <button class="btn" onclick="veilleSystem.manualRefresh()">🔄 Rechercher maintenant</button>
+                <button class="btn" onclick="veilleSystem.clearOldArticles()">🗑️ Nettoyer anciens articles</button>
+                <button class="btn" onclick="veilleSystem.exportData()">📤 Exporter les données</button>
             </div>
         </header>
 
         <div id="veille-content">
             <div class="loading">
                 <div class="spinner"></div>
-                <p>Chargement des actualités...</p>
+                <p>Chargement de la veille automatique...</p>
             </div>
         </div>
 
-        <div class="cache-info">
-            <p>📅 Dernière mise à jour : <span id="last-update">Chargement...</span></p>
+        <div class="auto-update-status">
+            <p>🔄 Prochaine mise à jour automatique : <span id="next-update">--:--</span></p>
+            <p>📅 Dernière actualisation : <span id="last-update">--:--</span></p>
         </div>
     </div>
 
     <script>
         class VeilleTechnologique {
             constructor() {
-                this.cacheDuration = 3600000; // 1 heure
-                this.manualMode = false;
                 this.fluxConfig = {
                     'iam-zero-trust': {
                         nom: '🔐 IAM & Zero Trust',
                         description: 'Surveillance des évolutions en gestion des identités, des accès et des architectures de sécurité Zero Trust.',
-                        concepts: [
-                            'Architecture Zero Trust (Never Trust, Always Verify)',
-                            'Authentification Multi-Facteurs (MFA/2FA) moderne',
-                            'Gestion des Identités et Accès (IAM)',
-                            'Protocoles SSO : SAML, OAuth 2.0, OIDC',
-                            'Privileged Access Management (PAM)',
-                            'Solutions ZTNA (Zero Trust Network Access)'
-                        ],
+                        keywords: ['zero trust', 'iam', 'identity access management', 'authentification', 'cybersécurité', 'mfa', 'sso'],
                         sources: [
-                            { nom: 'Microsoft Security', url: 'https://www.microsoft.com/fr-fr/security/blog/' },
-                            { nom: 'CERT-FR', url: 'https://www.cert.ssi.gouv.fr/' },
-                            { nom: 'ANSSI', url: 'https://www.ssi.gouv.fr/' },
-                            { nom: 'Le Monde Informatique', url: 'https://www.lemondeinformatique.fr/' }
+                            'https://www.microsoft.com/fr-fr/security/blog/',
+                            'https://www.cert.ssi.gouv.fr/',
+                            'https://www.ssi.gouv.fr/',
+                            'https://www.lemondeinformatique.fr/'
                         ]
                     },
                     'network-automation': {
                         nom: '⚡ DevOps & Cloud',
                         description: 'Veille sur les pratiques DevOps, l\'automatisation cloud et les infrastructures modernes.',
-                        concepts: [
-                            'Automatisation avec Ansible et Terraform',
-                            'Infrastructure as Code (IaC)',
-                            'Conteneurisation Docker & Kubernetes',
-                            'CI/CD et GitOps',
-                            'Cloud Hybride et Multi-cloud',
-                            'Monitoring et Observability'
-                        ],
+                        keywords: ['devops', 'ansible', 'terraform', 'kubernetes', 'docker', 'cloud', 'automation', 'ci/cd'],
                         sources: [
-                            { nom: 'Red Hat Blog', url: 'https://www.redhat.com/fr/blog' },
-                            { nom: 'GitHub Blog', url: 'https://github.blog/' },
-                            { nom: 'DevOps.com', url: 'https://devops.com/' },
-                            { nom: 'Cloud Native Computing Foundation', url: 'https://www.cncf.io/' }
+                            'https://www.redhat.com/fr/blog',
+                            'https://github.blog/',
+                            'https://devops.com/',
+                            'https://www.cncf.io/'
                         ]
                     }
                 };
+                
+                this.autoRefreshInterval = 24 * 60 * 60 * 1000; // 24 heures
+                this.maxArticleAge = 30 * 24 * 60 * 60 * 1000; // 30 jours
             }
 
             async init() {
-                console.log('🚀 Initialisation du système de veille...');
+                console.log('🚀 Initialisation du système de veille automatique...');
                 
-                const savedMode = localStorage.getItem('veilleManualMode');
-                if (savedMode === 'true') {
-                    this.manualMode = true;
-                    this.displayManualMode();
-                    return;
+                // Charge les articles existants
+                await this.loadStoredArticles();
+                
+                // Lance une recherche initiale
+                await this.manualRefresh();
+                
+                // Programme la mise à jour automatique
+                this.startAutoRefresh();
+                
+                this.updateUI();
+            }
+
+            async loadStoredArticles() {
+                this.articles = {
+                    'iam-zero-trust': JSON.parse(localStorage.getItem('veille-iam') || '[]'),
+                    'network-automation': JSON.parse(localStorage.getItem('veille-automation') || '[]')
+                };
+                
+                // Nettoie les articles trop anciens
+                this.cleanOldArticles();
+            }
+
+            async manualRefresh() {
+                console.log('🔍 Recherche de nouveaux articles...');
+                
+                const statusElement = document.getElementById('veille-content');
+                statusElement.innerHTML = '<div class="loading"><div class="spinner"></div><p>Recherche de nouveaux articles en cours...</p></div>';
+
+                try {
+                    // Simule la recherche d'articles (remplace par de vraies API plus tard)
+                    const newArticles = await this.simulateArticleSearch();
+                    
+                    // Ajoute les nouveaux articles à la collection
+                    this.addNewArticles(newArticles);
+                    
+                    // Sauvegarde
+                    this.saveArticles();
+                    
+                    // Met à jour l'interface
+                    this.updateUI();
+                    
+                    // Met à jour la date de dernière actualisation
+                    this.updateLastUpdate();
+                    
+                } catch (error) {
+                    console.error('Erreur lors de la recherche:', error);
+                    statusElement.innerHTML = '<div class="error-message">❌ Erreur lors de la recherche. Réessayez plus tard.</div>';
+                }
+            }
+
+            async simulateArticleSearch() {
+                // SIMULATION - À remplacer par de vraies sources plus tard
+                return {
+                    'iam-zero-trust': [
+                        {
+                            id: Date.now() + 1,
+                            title: "Nouvelles failles Zero Trust découvertes",
+                            link: "https://example.com/zero-trust-failles",
+                            description: "Des chercheurs ont identifié de nouvelles vulnérabilités dans les implémentations Zero Trust.",
+                            source: "Security News",
+                            date: new Date().toISOString(),
+                            isNew: true
+                        },
+                        {
+                            id: Date.now() + 2,
+                            title: "Microsoft améliore Azure AD",
+                            link: "https://example.com/azure-ad",
+                            description: "Nouvelles fonctionnalités pour la gestion des identités dans Azure Active Directory.",
+                            source: "Microsoft Blog",
+                            date: new Date().toISOString(),
+                            isNew: true
+                        }
+                    ],
+                    'network-automation': [
+                        {
+                            id: Date.now() + 3,
+                            title: "Ansible 2.15 sorti avec de nouvelles fonctionnalités",
+                            link: "https://example.com/ansible-215",
+                            description: "La nouvelle version d'Ansible apporte des améliorations significatives pour l'automatisation réseau.",
+                            source: "Ansible Blog",
+                            date: new Date().toISOString(),
+                            isNew: true
+                        },
+                        {
+                            id: Date.now() + 4,
+                            title: "Kubernetes simplifie la gestion des clusters",
+                            link: "https://example.com/kubernetes-cluster",
+                            description: "Nouvelles APIs pour une gestion plus simple des clusters Kubernetes à grande échelle.",
+                            source: "K8s News",
+                            date: new Date().toISOString(),
+                            isNew: true
+                        }
+                    ]
+                };
+            }
+
+            addNewArticles(newArticles) {
+                let addedCount = 0;
+
+                for (const [sujetId, articles] of Object.entries(newArticles)) {
+                    const existingArticles = this.articles[sujetId] || [];
+                    const existingUrls = new Set(existingArticles.map(a => a.link));
+                    
+                    for (const article of articles) {
+                        if (!existingUrls.has(article.link)) {
+                            existingArticles.unshift(article);
+                            addedCount++;
+                        }
+                    }
+                    
+                    // Garde seulement les 50 articles les plus récents
+                    this.articles[sujetId] = existingArticles.slice(0, 50);
                 }
 
-                // Charge d'abord les données de démo
-                this.loadDemoData();
+                if (addedCount > 0) {
+                    console.log(`✅ ${addedCount} nouveaux articles ajoutés`);
+                } else {
+                    console.log('ℹ️ Aucun nouvel article trouvé');
+                }
             }
 
-            async loadDemoData() {
-                console.log('🎯 Chargement des données de démo...');
-                
-                const demoData = {
-                    'iam-zero-trust': {
-                        ...this.fluxConfig['iam-zero-trust'],
-                        actualites: [
-                            {
-                                title: "Microsoft renforce Azure AD avec l'authentification passwordless",
-                                link: "https://www.microsoft.com/fr-fr/security/blog/2024/03/15/azure-ad-passwordless/",
-                                pubDate: new Date('2024-03-15'),
-                                description: "Microsoft améliore l'authentification sans mot de passe avec la prise en charge étendue des clés FIDO2 et l'intégration Windows Hello.",
-                                source: "Microsoft Security"
-                            },
-                            {
-                                title: "Nouvelles directives ANSSI sur le Zero Trust",
-                                link: "https://www.ssi.gouv.fr/actualite/zero-trust-nouvelles-recommandations/",
-                                pubDate: new Date('2024-03-10'),
-                                description: "L'ANSSI publie un nouveau guide sur l'implémentation des architectures Zero Trust dans les organisations françaises.",
-                                source: "ANSSI"
-                            },
-                            {
-                                title: "Les tendances IAM 2024 : vers plus de sécurité et d'expérience utilisateur",
-                                link: "https://www.lemondeinformatique.fr/iam-tendances-2024-123456.html",
-                                pubDate: new Date('2024-03-08'),
-                                description: "Analyse des évolutions du marché IAM avec l'émergence de l'IA et l'automatisation des processus de gestion des identités.",
-                                source: "Le Monde Informatique"
-                            }
-                        ]
-                    },
-                    'network-automation': {
-                        ...this.fluxConfig['network-automation'],
-                        actualites: [
-                            {
-                                title: "Kubernetes 1.29 : nouvelles fonctionnalités pour le scaling automatique",
-                                link: "https://www.redhat.com/fr/blog/kubernetes-129-new-features",
-                                pubDate: new Date('2024-03-14'),
-                                description: "La dernière version de Kubernetes apporte des améliorations significatives pour l'auto-scaling et la gestion des ressources.",
-                                source: "Red Hat Blog"
-                            },
-                            {
-                                title: "GitHub Actions améliore l'automatisation des workflows CI/CD",
-                                link: "https://github.blog/2024-03-12/github-actions-améliorations/",
-                                pubDate: new Date('2024-03-12'),
-                                description: "Nouvelles fonctionnalités pour optimiser les pipelines de déploiement et réduire les temps d'exécution.",
-                                source: "GitHub Blog"
-                            },
-                            {
-                                title: "Terraform 1.8 : gestion avancée des états multi-cloud",
-                                link: "https://devops.com/terraform-1-8-multi-cloud/",
-                                pubDate: new Date('2024-03-05'),
-                                description: "Hashicorp annonce des améliorations majeures pour la gestion des infrastructures multi-cloud avec Terraform.",
-                                source: "DevOps.com"
-                            }
-                        ]
-                    }
-                };
+            cleanOldArticles() {
+                const cutoffDate = Date.now() - this.maxArticleAge;
+                let removedCount = 0;
 
-                this.cacheData(demoData);
-                this.displayData(demoData);
-                this.updateLastUpdate(Date.now());
+                for (const [sujetId, articles] of Object.entries(this.articles)) {
+                    const initialLength = articles.length;
+                    this.articles[sujetId] = articles.filter(article => 
+                        new Date(article.date).getTime() > cutoffDate
+                    );
+                    removedCount += (initialLength - this.articles[sujetId].length);
+                }
 
-                // Affiche un message d'info
-                const container = document.getElementById('veille-content');
-                const demoMsg = document.createElement('div');
-                demoMsg.className = 'demo-data';
-                demoMsg.innerHTML = '🎯 <strong>Données de démo chargées</strong> - Le mode automatique utilise des données simulées. Utilisez le mode manuel pour ajouter vos propres actualités.';
-                container.insertBefore(demoMsg, container.firstChild);
+                if (removedCount > 0) {
+                    console.log(`🗑️ ${removedCount} articles anciens supprimés`);
+                    this.saveArticles();
+                }
             }
 
-            displayData(data) {
+            saveArticles() {
+                localStorage.setItem('veille-iam', JSON.stringify(this.articles['iam-zero-trust']));
+                localStorage.setItem('veille-automation', JSON.stringify(this.articles['network-automation']));
+            }
+
+            updateUI() {
                 const container = document.getElementById('veille-content');
                 let html = '<div class="veille-grid">';
-                
-                for (const [sujetId, sujetData] of Object.entries(data)) {
-                    html += this.renderSujet(sujetId, sujetData);
+
+                for (const [sujetId, config] of Object.entries(this.fluxConfig)) {
+                    const articles = this.articles[sujetId] || [];
+                    html += this.renderSujet(sujetId, config, articles);
                 }
-                
+
                 html += '</div>';
                 container.innerHTML = html;
+
+                // Met à jour les statistiques
+                this.updateStats();
             }
 
-            renderSujet(sujetId, sujetData) {
-                const actualitesHTML = sujetData.actualites && sujetData.actualites.length > 0 
-                    ? sujetData.actualites.map(actu => `
+            renderSujet(sujetId, config, articles) {
+                const articlesHTML = articles.length > 0 
+                    ? articles.map(article => `
                         <div class="actualite-item">
-                            <span class="date">${actu.pubDate.toLocaleDateString('fr-FR')}</span>
-                            <span class="source-badge">${actu.source}</span>
-                            <p><strong><a href="${actu.link}" target="_blank">${actu.title}</a></strong></p>
-                            <p>${actu.description}</p>
+                            <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
+                            <span class="source-badge">${article.source}</span>
+                            ${article.isNew ? '<span class="new-badge">NOUVEAU</span>' : ''}
+                            <p><strong><a href="${article.link}" target="_blank">${article.title}</a></strong></p>
+                            <p>${article.description}</p>
                         </div>
                     `).join('')
-                    : '<p>❌ Aucune actualité récente trouvée</p>';
-
-                const conceptsHTML = sujetData.concepts.map(concept => 
-                    `<li>${concept}</li>`
-                ).join('');
-
-                const sourcesHTML = sujetData.sources.map(source => 
-                    `<li><a href="${source.url}" target="_blank">${source.nom}</a></li>`
-                ).join('');
+                    : '<p>📝 Aucun article trouvé pour le moment. La prochaine recherche automatique aura lieu dans 24h.</p>';
 
                 return `
                     <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
-                        <h2>${sujetData.nom}</h2>
+                        <h2>${config.nom} 
+                            <span class="article-count">${articles.length} articles</span>
+                        </h2>
                         
                         <div class="description">
-                            <p><strong>${sujetData.description}</strong></p>
-                        </div>
-
-                        <div class="concepts">
-                            <h3>📚 Concepts Clés Surveillés</h3>
-                            <ul>${conceptsHTML}</ul>
-                        </div>
-
-                        <div class="sources">
-                            <h3>🌐 Sources Principales</h3>
-                            <ul>${sourcesHTML}</ul>
+                            <p><strong>${config.description}</strong></p>
+                            <p><small>Mots-clés surveillés : ${config.keywords.join(', ')}</small></p>
                         </div>
 
                         <div class="actualites">
-                            <h3>📰 Dernières Actualités</h3>
-                            ${actualitesHTML}
-                        </div>
-                    </div>
-                `;
-            }
-
-            displayManualMode() {
-                const container = document.getElementById('veille-content');
-                container.innerHTML = `
-                    <div class="manual-fallback">
-                        <h3>✏️ Mode Manuel Activé</h3>
-                        <p>Ajoutez manuellement vos actualités de veille.</p>
-                        <button class="btn" onclick="veilleSystem.toggleManualMode()">🔄 Réactiver le mode automatique</button>
-                    </div>
-                    <div class="veille-grid">
-                        ${this.renderManualSujet('iam-zero-trust')}
-                        ${this.renderManualSujet('network-automation')}
-                    </div>
-                    <div class="manual-form">
-                        <h3>➕ Ajouter une actualité manuellement</h3>
-                        <form onsubmit="return veilleSystem.addManualArticle(event)">
-                            <select id="manual-subject" required>
-                                <option value="">Choisir un sujet</option>
-                                <option value="iam-zero-trust">IAM & Zero Trust</option>
-                                <option value="network-automation">DevOps & Cloud</option>
-                            </select>
-                            <input type="text" id="manual-title" placeholder="Titre de l'article" required>
-                            <input type="url" id="manual-link" placeholder="Lien URL" required>
-                            <input type="text" id="manual-source" placeholder="Source (ex: Le Monde Informatique)" required>
-                            <textarea id="manual-description" placeholder="Description/résumé" required></textarea>
-                            <button type="submit" class="btn">➕ Ajouter l'actualité</button>
-                        </form>
-                    </div>
-                `;
-            }
-
-            renderManualSujet(sujetId) {
-                const config = this.fluxConfig[sujetId];
-                const storedArticles = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
-                
-                const articlesHTML = storedArticles.map(article => `
-                    <div class="actualite-item">
-                        <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
-                        <span class="source-badge">${article.source}</span>
-                        <p><strong><a href="${article.link}" target="_blank">${article.title}</a></strong></p>
-                        <p>${article.description}</p>
-                        <button class="btn" style="background: #e74c3c; padding: 5px 10px; font-size: 0.8em;" onclick="veilleSystem.removeManualArticle('${sujetId}', ${article.id})">🗑️ Supprimer</button>
-                    </div>
-                `).join('') || '<p>📝 Aucune actualité ajoutée pour le moment</p>';
-
-                return `
-                    <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
-                        <h2>${config.nom}</h2>
-                        <div class="actualites">
-                            <h3>📰 Actualités Manuelles</h3>
+                            <h3>📰 Articles accumulés (du plus récent au plus ancien)</h3>
                             ${articlesHTML}
                         </div>
                     </div>
                 `;
             }
 
-            addManualArticle(event) {
-                event.preventDefault();
+            updateStats() {
+                const totalArticles = (this.articles['iam-zero-trust']?.length || 0) + 
+                                   (this.articles['network-automation']?.length || 0);
+                document.getElementById('total-articles').textContent = `${totalArticles} articles`;
+            }
+
+            updateLastUpdate() {
+                const now = new Date();
+                document.getElementById('last-update').textContent = now.toLocaleString('fr-FR');
                 
-                const sujet = document.getElementById('manual-subject').value;
-                const title = document.getElementById('manual-title').value;
-                const link = document.getElementById('manual-link').value;
-                const source = document.getElementById('manual-source').value;
-                const description = document.getElementById('manual-description').value;
-                
-                if (!sujet) {
-                    alert('Veuillez sélectionner un sujet');
-                    return false;
+                const nextUpdate = new Date(now.getTime() + this.autoRefreshInterval);
+                document.getElementById('next-update').textContent = nextUpdate.toLocaleString('fr-FR');
+            }
+
+            startAutoRefresh() {
+                setInterval(() => {
+                    console.log('🔄 Mise à jour automatique...');
+                    this.manualRefresh();
+                }, this.autoRefreshInterval);
+
+                this.updateLastUpdate();
+            }
+
+            clearOldArticles() {
+                if (confirm('Supprimer tous les articles de plus de 30 jours ?')) {
+                    this.cleanOldArticles();
+                    this.updateUI();
                 }
-                
-                const article = {
-                    id: Date.now(),
-                    title,
-                    link,
-                    source,
-                    description,
-                    date: new Date().toISOString()
+            }
+
+            exportData() {
+                const data = {
+                    exportDate: new Date().toISOString(),
+                    articles: this.articles
                 };
                 
-                const stored = JSON.parse(localStorage.getItem(`manual-${sujet}`) || '[]');
-                stored.unshift(article);
-                localStorage.setItem(`manual-${sujet}`, JSON.stringify(stored.slice(0, 10)));
-                
-                // Reset le formulaire
-                event.target.reset();
-                
-                // Met à jour l'affichage
-                this.displayManualMode();
-                
-                return false;
-            }
-
-            removeManualArticle(sujetId, articleId) {
-                if (confirm('Supprimer cette actualité ?')) {
-                    const stored = JSON.parse(localStorage.getItem(`manual-${sujetId}`) || '[]');
-                    const filtered = stored.filter(article => article.id !== articleId);
-                    localStorage.setItem(`manual-${sujetId}`, JSON.stringify(filtered));
-                    this.displayManualMode();
-                }
-            }
-
-            // Gestion du cache
-            cacheData(data) {
-                const cache = {
-                    data: data,
-                    timestamp: Date.now()
-                };
-                localStorage.setItem('veilleCache', JSON.stringify(cache));
-            }
-
-            updateLastUpdate(timestamp) {
-                const element = document.getElementById('last-update');
-                if (element) {
-                    element.textContent = new Date(timestamp).toLocaleString('fr-FR');
-                }
-            }
-
-            // Méthodes publiques
-            forceRefresh() {
-                this.loadDemoData();
-            }
-
-            toggleManualMode() {
-                this.manualMode = !this.manualMode;
-                localStorage.setItem('veilleManualMode', this.manualMode.toString());
-                
-                if (this.manualMode) {
-                    this.displayManualMode();
-                } else {
-                    this.init();
-                }
+                const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `veille-technologique-${new Date().toISOString().split('T')[0]}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
             }
         }
 
