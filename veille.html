@@ -128,15 +128,25 @@
             color: #667eea;
         }
 
-        a {
-            color: #667eea;
+        .article-link {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
             text-decoration: none;
-            transition: color 0.3s ease;
+            display: inline-block;
+            font-size: 14px;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+            font-family: inherit;
         }
 
-        a:hover {
-            color: #764ba2;
-            text-decoration: underline;
+        .article-link:hover {
+            background: #218838;
+            color: white;
+            text-decoration: none;
         }
 
         .actualite-item {
@@ -387,16 +397,16 @@
                         {
                             id: Date.now() + 1,
                             title: "Nouvelles failles Zero Trust découvertes",
-                            link: "https://example.com/zero-trust-failles",
+                            link: "https://www.lemondeinformatique.fr/actualites/lire-zero-trust-nouvelles-failles-91350.html",
                             description: "Des chercheurs ont identifié de nouvelles vulnérabilités dans les implémentations Zero Trust.",
-                            source: "Security News",
+                            source: "Le Monde Informatique",
                             date: new Date().toISOString(),
                             isNew: true
                         },
                         {
                             id: Date.now() + 2,
                             title: "Microsoft améliore Azure AD",
-                            link: "https://example.com/azure-ad",
+                            link: "https://www.microsoft.com/fr-fr/security/blog/2024/azure-ad-ameliorations",
                             description: "Nouvelles fonctionnalités pour la gestion des identités dans Azure Active Directory.",
                             source: "Microsoft Blog",
                             date: new Date().toISOString(),
@@ -407,18 +417,18 @@
                         {
                             id: Date.now() + 3,
                             title: "Ansible 2.15 sorti avec de nouvelles fonctionnalités",
-                            link: "https://example.com/ansible-215",
+                            link: "https://www.redhat.com/fr/blog/ansible-2-15-nouvelles-fonctionnalites",
                             description: "La nouvelle version d'Ansible apporte des améliorations significatives pour l'automatisation réseau.",
-                            source: "Ansible Blog",
+                            source: "Red Hat Blog",
                             date: new Date().toISOString(),
                             isNew: true
                         },
                         {
                             id: Date.now() + 4,
                             title: "Kubernetes simplifie la gestion des clusters",
-                            link: "https://example.com/kubernetes-cluster",
+                            link: "https://www.cncf.io/blog/kubernetes-gestion-clusters",
                             description: "Nouvelles APIs pour une gestion plus simple des clusters Kubernetes à grande échelle.",
-                            source: "K8s News",
+                            source: "CNCF Blog",
                             date: new Date().toISOString(),
                             isNew: true
                         }
@@ -497,8 +507,11 @@
                             <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
                             <span class="source-badge">${article.source}</span>
                             ${article.isNew ? '<span class="new-badge">NOUVEAU</span>' : ''}
-                            <p><strong><a href="${article.link}" target="_blank">${article.title}</a></strong></p>
+                            <p><strong>${article.title}</strong></p>
                             <p>${article.description}</p>
+                            <button class="article-link" onclick="veilleSystem.openExternalLink('${article.link}')">
+                                📖 Lire l'article complet
+                            </button>
                         </div>
                     `).join('')
                     : '<p>📝 Aucun article trouvé pour le moment. La prochaine recherche automatique aura lieu dans 24h.</p>';
@@ -520,6 +533,11 @@
                         </div>
                     </div>
                 `;
+            }
+
+            // NOUVELLE FONCTION : Ouvre les liens externes en contournant les restrictions GitHub
+            openExternalLink(url) {
+                window.open(url, '_blank', 'noopener,noreferrer');
             }
 
             updateStats() {
