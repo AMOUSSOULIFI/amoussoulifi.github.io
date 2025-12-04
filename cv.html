@@ -4,88 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mon CV - Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Navbar */
-        .navbar {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 15px 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            position: sticky;
-            top: 0;
-            z-index: 1000;
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-        }
-
-        .nav-link {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-
-        .nav-link:hover {
-            background: #667eea;
-            color: white;
-        }
-
-        /* Header */
-        .header {
-            text-align: center;
-            margin: 40px 0;
-            color: white;
-        }
-
-        .header h1 {
-            font-size: 2.8em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .header p {
-            font-size: 1.2em;
-            opacity: 0.9;
-        }
-
-        .badge {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            padding: 5px 15px;
-            border-radius: 20px;
-            margin-top: 15px;
-            font-size: 0.9em;
-        }
-
-        /* CV Container */
+        /* Styles spécifiques à la page CV */
         .cv-container {
             background: white;
             border-radius: 15px;
@@ -131,6 +52,7 @@
             font-size: 16px;
             transition: background 0.3s ease;
             margin: 10px;
+            font-family: inherit;
         }
 
         .download-btn:hover {
@@ -243,6 +165,7 @@
             gap: 10px;
             font-size: 16px;
             transition: background 0.3s ease;
+            font-family: inherit;
         }
 
         .print-btn:hover {
@@ -260,20 +183,6 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .nav-container {
-                flex-wrap: wrap;
-                gap: 10px;
-            }
-            
-            .nav-link {
-                padding: 8px 12px;
-                font-size: 14px;
-            }
-            
-            .header h1 {
-                font-size: 2em;
-            }
-            
             .pdf-viewer {
                 height: 500px;
             }
@@ -281,15 +190,17 @@
             .cv-container {
                 padding: 20px;
             }
+            
+            .download-btn {
+                display: block;
+                width: 100%;
+                margin: 10px 0;
+            }
         }
 
         @media print {
             .navbar, .download-section, .print-section {
                 display: none;
-            }
-            
-            body {
-                background: white;
             }
             
             .cv-container {
@@ -306,150 +217,165 @@
     </style>
 </head>
 <body>
-    <!-- Navigation -->
+    <script>
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">🏠 Accueil</a>
-            <a href="aps.html" class="nav-link">📚 APs</a>
-            <a href="stages.html" class="nav-link">💼 Stages</a>
-            <a href="cv.html" class="nav-link">📄 CV</a>
-            <a href="veille.html" class="nav-link">🔍 Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
-    <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <h1>📄 Mon Curriculum Vitae</h1>
-            <p>BTS SIO SISR - Administrateur Systèmes & Réseaux</p>
-            <div class="badge">Dernière mise à jour : Novembre 2024</div>
-        </div>
-
-        <!-- CV Container -->
-        <div class="cv-container">
-            <!-- Quick Info -->
-            <div class="quick-info">
-                <div class="info-card">
-                    <h3>🎯 Profil</h3>
-                    <p>Étudiant en BTS SIO SISR passionné par l'administration système, les réseaux et la cybersécurité. Recherche un stage de fin d'études dans l'administration d'infrastructures IT.</p>
-                </div>
-                
-                <div class="info-card">
-                    <h3>📧 Contact</h3>
-                    <p>📍 Le Mans, France<br>
-                       📱 +33 75 13 21 41 2<br>
-                       ✉️ enock.amoussoulifi@stcharles-stecroix.org<br>
-                       🔗 linkedin.com/in/prenom-nom</p>
-                </div>
-                
-                <div class="info-card">
-                    <h3>🎓 Formation</h3>
-                    <p><strong>BTS SIO SISR</strong> (2023-2025)<br>
-                       Lycée Saint Charles Sainte-Croix<br>
-                       Spécialisation : Solutions d'Infrastructure, Systèmes et Réseaux</p>
-                </div>
+    <section class="section">
+        <div class="container">
+            <a href="index.html" class="back-button" onclick="navigateTo('index.html')">← Retour à l'accueil</a>
+            
+            <div class="ap-header">
+                <div class="ap-badge">CV</div>
+                <h1>Curriculum Vitae</h1>
+                <p class="ap-date">Enock AMOUSSOULIFI - BTS SIO SISR</p>
             </div>
 
-            <!-- PDF Viewer -->
-            <div class="pdf-viewer">
-                <iframe src="images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" title="Mon CV"></iframe>
-            </div>
-
-            <!-- Download Section -->
-            <div class="download-section">
-                <a href="images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download="CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" class="download-btn">
-                    📥 Télécharger mon CV (PDF)
-                </a>
-                <a href="images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download="CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" class="download-btn secondary">
-                    📝 Version Word (DOCX)
-                </a>
-            </div>
-
-            <!-- Skills Section -->
-            <div class="skills-section">
-                <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">💻 Compétences Techniques</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h4>🖥️ Administration Système</h4>
-                        <div class="skill-item">
-                            <div class="skill-name">Windows Server <span>85%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Linux (Ubuntu/Debian) <span>80%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Active Directory <span>90%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Virtualisation (VMware/Hyper-V) <span>75%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
-                        </div>
+            <div class="cv-container">
+                <!-- Quick Info -->
+                <div class="quick-info">
+                    <div class="info-card">
+                        <h3>🎯 Profil Professionnel</h3>
+                        <p>Étudiant en BTS SIO SISR passionné par l'administration système, les réseaux et la cybersécurité. 
+                        Recherche un stage ou une alternance dans l'administration d'infrastructures IT.</p>
                     </div>
-
-                    <div class="skill-category">
-                        <h4>🌐 Réseaux & Sécurité</h4>
-                        <div class="skill-item">
-                            <div class="skill-name">Configuration routeurs/switch <span>85%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Protocoles TCP/IP <span>90%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Sécurité réseau <span>80%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Pare-feu (pfSense) <span>70%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
-                        </div>
+                    
+                    <div class="info-card">
+                        <h3>📧 Contact</h3>
+                        <p>📍 Le Mans, France<br>
+                           📱 +33 75 13 21 41 2<br>
+                           ✉️ enock.amoussoulifi@email.com<br>
+                           🔗 linkedin.com/in/enock-amoussoulifi</p>
                     </div>
-
-                    <div class="skill-category">
-                        <h4>⚙️ Outils & Technologies</h4>
-                        <div class="skill-item">
-                            <div class="skill-name">OCS Inventory <span>85%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Déploiement (FOG/WDS) <span>90%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">Monitoring (PRTG) <span>75%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">GPO & Scripting <span>80%</span></div>
-                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
-                        </div>
+                    
+                    <div class="info-card">
+                        <h3>🎓 Formation</h3>
+                        <p><strong>BTS SIO SISR</strong> (2023-2025)<br>
+                           Lycée Saint Charles Sainte-Croix<br>
+                           Spécialisation : Solutions d'Infrastructure, Systèmes et Réseaux</p>
                     </div>
                 </div>
+
+                <!-- PDF Viewer -->
+                <div class="pdf-viewer">
+                    <iframe src="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" title="Mon CV"></iframe>
+                </div>
+
+                <!-- Download Section -->
+                <div class="download-section">
+                    <a href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" 
+                       download="CV_AMOUSSOULIFI_ENOCK_BTS_SISR.pdf" 
+                       class="download-btn">
+                        📥 Télécharger mon CV (PDF)
+                    </a>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-section">
+                    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">💻 Compétences Techniques</h2>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>🖥️ Administration Système</h4>
+                            <div class="skill-item">
+                                <div class="skill-name">Windows Server <span>85%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Linux (Ubuntu/Debian) <span>80%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Active Directory <span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Virtualisation (VMware/Hyper-V) <span>75%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>🌐 Réseaux & Sécurité</h4>
+                            <div class="skill-item">
+                                <div class="skill-name">Configuration routeurs/switch <span>85%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Protocoles TCP/IP <span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Sécurité réseau <span>80%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Pare-feu (pfSense) <span>70%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-category">
+                            <h4>⚙️ Outils & Technologies</h4>
+                            <div class="skill-item">
+                                <div class="skill-name">OCS Inventory <span>85%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Déploiement (FOG/WDS) <span>90%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">Monitoring (PRTG) <span>75%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-name">GPO & Scripting <span>80%</span></div>
+                                <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Print Section -->
+                <div class="print-section">
+                    <button class="print-btn" onclick="window.print()">
+                        🖨️ Imprimer cette page
+                    </button>
+                    <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
+                        Conseil : Pour une meilleure impression, utilisez l'aperçu avant impression
+                    </p>
+                </div>
             </div>
 
-            <!-- Print Section -->
-            <div class="print-section">
-                <button class="print-btn" onclick="window.print()">
-                    🖨️ Imprimer cette page
-                </button>
-                <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
-                    Conseil : Pour une meilleure impression, utilisez l'aperçu avant impression
-                </p>
+            <!-- Footer -->
+            <div class="footer">
+                <p>📧 Contactez-moi pour plus d'informations</p>
+                <p>© 2024 Portfolio BTS SIO SISR - Enock AMOUSSOULIFI</p>
             </div>
         </div>
-
-        <!-- Footer -->
-        <div class="footer">
-            <p>📧 Contactez-moi pour plus d'informations</p>
-            <p>© 2024 Portfolio BTS SIO SISR - Tous droits réservés</p>
-        </div>
-    </div>
+    </section>
 
     <script>
+        // Fonction de navigation forcée pour GitHub Pages
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+
         // Fonction pour vérifier si le fichier existe
         async function checkFileExists(url) {
             try {
@@ -462,7 +388,7 @@
 
         // Vérification du fichier PDF au chargement
         document.addEventListener('DOMContentLoaded', async () => {
-            const pdfUrl = './images/CV_Enock_AMOUSSOULIFI.pdf';
+            const pdfUrl = './images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf';
             const pdfExists = await checkFileExists(pdfUrl);
             
             if (!pdfExists) {
@@ -470,8 +396,8 @@
                 viewer.innerHTML = `
                     <div style="text-align: center; padding: 50px;">
                         <h3 style="color: #dc3545;">⚠️ Fichier CV non trouvé</h3>
-                        <p>Le fichier "CV_Enock_AMOUSSOULIFI.pdf" n'est pas présent dans le dossier "images".</p>
-                        <p>Veuillez télécharger votre CV au format PDF et le placer dans le dossier images.</p>
+                        <p>Le fichier "CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" n'est pas présent dans le dossier "images".</p>
+                        <p>Veuillez vérifier que votre CV est bien placé dans le dossier images avec le nom correct.</p>
                         <div style="margin-top: 20px;">
                             <button onclick="location.reload()" style="background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
                                 🔄 Réessayer
@@ -488,15 +414,6 @@
                 });
             }
         });
-
-        // Navigation
-        function navigateTo(page) {
-            window.location.href = page;
-            return false;
-        }
     </script>
 </body>
 </html>
-
-
-
