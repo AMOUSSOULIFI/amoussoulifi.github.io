@@ -224,6 +224,7 @@
             cursor: pointer;
             margin: 0 10px;
             transition: background 0.3s ease;
+            font-family: inherit;
         }
 
         .btn:hover {
@@ -261,33 +262,63 @@
                 flex-direction: column;
                 gap: 10px;
             }
+            
+            .controls {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .btn {
+                margin: 5px 0;
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
+    <script>
+        // Vérification d'authentification UNIQUE
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
+    <nav class="navbar" style="background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div class="nav-container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap;">
+            <a href="index.html" class="nav-link" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease;">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease;">📚 APs</a>
+            <a href="stages.html" class="nav-link" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease;">💼 Stages</a>
+            <a href="cv.html" class="nav-link" style="color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease;">📄 CV</a>
+            <a href="veille.html" class="nav-link" style="background: #667eea; color: white; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease;">🔍 Veille</a>
+            <button onclick="logoutUser()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-family: inherit;">🚪 Déconnexion</button>
+        </div>
+    </nav>
+
     <div class="container">
         <header>
-            <h1>🔍 Veille Technologique Automatique</h1>
-            <p>BTS SIO SISR - Accumulation automatique des articles</p>
+            <h1>🔍 Veille Technologique</h1>
+            <p>BTS SIO SISR - Articles techniques sur les systèmes et réseaux</p>
             
             <div class="stats">
                 <div class="stat-item">
-                    <strong>🔄 Mise à jour</strong>
-                    <div>Automatique toutes les 24h</div>
+                    <strong>🔄 Source</strong>
+                    <div>Dev.to API (articles réels)</div>
                 </div>
                 <div class="stat-item">
-                    <strong>📰 Articles stockés</strong>
+                    <strong>📰 Articles réels</strong>
                     <div id="total-articles">Chargement...</div>
                 </div>
                 <div class="stat-item">
-                    <strong>💾 Historique</strong>
-                    <div>Conservation 30 jours</div>
+                    <strong>💾 Stockage</strong>
+                    <div>Mise à jour manuelle</div>
                 </div>
             </div>
 
             <div class="controls">
-                <button class="btn" onclick="veilleSystem.manualRefresh()">🔄 Rechercher maintenant</button>
-                <button class="btn" onclick="veilleSystem.clearOldArticles()">🗑️ Nettoyer anciens articles</button>
+                <button class="btn" onclick="veilleSystem.fetchRealArticles()">🔄 Charger nouveaux articles</button>
+                <button class="btn" onclick="veilleSystem.clearAllArticles()">🗑️ Effacer tous les articles</button>
                 <button class="btn" onclick="veilleSystem.exportData()">📤 Exporter les données</button>
             </div>
         </header>
@@ -295,13 +326,13 @@
         <div id="veille-content">
             <div class="loading">
                 <div class="spinner"></div>
-                <p>Chargement de la veille automatique...</p>
+                <p>Chargement des articles techniques...</p>
             </div>
         </div>
 
         <div class="auto-update-status">
-            <p>🔄 Prochaine mise à jour automatique : <span id="next-update">--:--</span></p>
             <p>📅 Dernière actualisation : <span id="last-update">--:--</span></p>
+            <p>📝 Les articles proviennent de <strong>Dev.to</strong> - Communauté de développeurs</p>
         </div>
     </div>
 
@@ -310,70 +341,86 @@
             constructor() {
                 this.fluxConfig = {
                     'iam-zero-trust': {
-                        nom: '🔐 IAM & Zero Trust',
-                        description: 'Surveillance des évolutions en gestion des identités, des accès et des architectures de sécurité Zero Trust.',
-                        keywords: ['zero trust', 'iam', 'identity access management', 'authentification', 'cybersécurité', 'mfa', 'sso'],
-                        sources: [
-                            'https://www.microsoft.com/fr-fr/security/blog/',
-                            'https://www.cert.ssi.gouv.fr/',
-                            'https://www.ssi.gouv.fr/',
-                            'https://www.lemondeinformatique.fr/'
-                        ]
+                        nom: '🔐 Sécurité & IAM',
+                        description: 'Articles sur la sécurité informatique, la gestion des identités et accès (IAM), et les architectures Zero Trust.',
+                        keywords: ['security', 'iam', 'zero-trust', 'authentication', 'cybersecurity'],
+                        tags: ['security', 'devops', 'authentication']
                     },
                     'network-automation': {
-                        nom: '⚡ DevOps & Cloud',
-                        description: 'Veille sur les pratiques DevOps, l\'automatisation cloud et les infrastructures modernes.',
-                        keywords: ['devops', 'ansible', 'terraform', 'kubernetes', 'docker', 'cloud', 'automation', 'ci/cd'],
-                        sources: [
-                            'https://www.redhat.com/fr/blog',
-                            'https://github.blog/',
-                            'https://devops.com/',
-                            'https://www.cncf.io/'
-                        ]
+                        nom: '⚡ DevOps & Infrastructure',
+                        description: 'Articles sur les pratiques DevOps, l\'automatisation d\'infrastructure, le cloud et les conteneurs.',
+                        keywords: ['devops', 'ansible', 'terraform', 'kubernetes', 'docker', 'cloud'],
+                        tags: ['devops', 'kubernetes', 'docker', 'terraform']
                     }
                 };
                 
-                this.autoRefreshInterval = 24 * 60 * 60 * 1000; // 24 heures
-                this.maxArticleAge = 30 * 24 * 60 * 60 * 1000; // 30 jours
+                this.articles = {
+                    'iam-zero-trust': [],
+                    'network-automation': []
+                };
             }
 
             async init() {
-                console.log('🚀 Initialisation du système de veille automatique...');
+                console.log('🚀 Initialisation du système de veille...');
                 
                 // Charge les articles existants
-                await this.loadStoredArticles();
+                this.loadStoredArticles();
                 
-                // Lance une recherche initiale
-                await this.manualRefresh();
+                // Si pas d'articles, en charge automatiquement
+                const totalArticles = this.getTotalArticles();
+                if (totalArticles === 0) {
+                    await this.fetchRealArticles();
+                } else {
+                    this.updateUI();
+                }
                 
-                // Programme la mise à jour automatique
-                this.startAutoRefresh();
-                
-                this.updateUI();
+                this.updateLastUpdate();
             }
 
-            async loadStoredArticles() {
-                this.articles = {
-                    'iam-zero-trust': JSON.parse(localStorage.getItem('veille-iam') || '[]'),
-                    'network-automation': JSON.parse(localStorage.getItem('veille-automation') || '[]')
-                };
-                
-                // Nettoie les articles trop anciens
-                this.cleanOldArticles();
+            loadStoredArticles() {
+                try {
+                    const storedData = localStorage.getItem('veilleData');
+                    if (storedData) {
+                        const data = JSON.parse(storedData);
+                        this.articles = data.articles || this.articles;
+                        console.log('📁 Articles chargés depuis le stockage local');
+                    }
+                } catch (error) {
+                    console.error('Erreur lors du chargement des articles:', error);
+                }
             }
 
-            async manualRefresh() {
-                console.log('🔍 Recherche de nouveaux articles...');
+            saveArticles() {
+                try {
+                    const data = {
+                        articles: this.articles,
+                        lastUpdate: new Date().toISOString()
+                    };
+                    localStorage.setItem('veilleData', JSON.stringify(data));
+                    console.log('💾 Articles sauvegardés');
+                } catch (error) {
+                    console.error('Erreur lors de la sauvegarde:', error);
+                }
+            }
+
+            async fetchRealArticles() {
+                console.log('🔍 Recherche d\'articles réels sur Dev.to...');
                 
                 const statusElement = document.getElementById('veille-content');
-                statusElement.innerHTML = '<div class="loading"><div class="spinner"></div><p>Recherche de nouveaux articles en cours...</p></div>';
+                statusElement.innerHTML = '<div class="loading"><div class="spinner"></div><p>Recherche d\'articles en cours...</p></div>';
 
                 try {
-                    // Simule la recherche d'articles (remplace par de vraies API plus tard)
-                    const newArticles = await this.simulateArticleSearch();
-                    
-                    // Ajoute les nouveaux articles à la collection
-                    this.addNewArticles(newArticles);
+                    // Récupère les articles pour chaque catégorie
+                    const [securityArticles, devopsArticles] = await Promise.all([
+                        this.fetchDevToArticles(['security', 'devops', 'authentication'], 5),
+                        this.fetchDevToArticles(['devops', 'kubernetes', 'docker', 'terraform'], 5)
+                    ]);
+
+                    // Ajoute les nouveaux articles
+                    this.addNewArticles({
+                        'iam-zero-trust': securityArticles,
+                        'network-automation': devopsArticles
+                    });
                     
                     // Sauvegarde
                     this.saveArticles();
@@ -381,59 +428,101 @@
                     // Met à jour l'interface
                     this.updateUI();
                     
-                    // Met à jour la date de dernière actualisation
+                    // Met à jour la date
                     this.updateLastUpdate();
                     
                 } catch (error) {
                     console.error('Erreur lors de la recherche:', error);
-                    statusElement.innerHTML = '<div class="error-message">❌ Erreur lors de la recherche. Réessayez plus tard.</div>';
+                    statusElement.innerHTML = `
+                        <div style="text-align: center; padding: 40px;">
+                            <h3 style="color: #dc3545;">❌ Erreur de chargement</h3>
+                            <p>Impossible de récupérer les articles. Vérifiez votre connexion internet.</p>
+                            <button onclick="veilleSystem.fetchRealArticles()" style="background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin-top: 20px;">
+                                🔄 Réessayer
+                            </button>
+                        </div>
+                    `;
                 }
             }
 
-            async simulateArticleSearch() {
-                // SIMULATION - À remplacer par de vraies sources plus tard
-                return {
-                    'iam-zero-trust': [
+            async fetchDevToArticles(tags, perPage = 5) {
+                const tag = tags[0]; // Prend le premier tag
+                const url = `https://dev.to/api/articles?tag=${tag}&per_page=${perPage}`;
+                
+                try {
+                    const response = await fetch(url);
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    const articles = await response.json();
+                    
+                    return articles.map(article => ({
+                        id: article.id,
+                        title: article.title,
+                        link: article.url,
+                        description: article.description || 'Pas de description disponible',
+                        source: 'Dev.to',
+                        date: article.published_at || new Date().toISOString(),
+                        isNew: true,
+                        tags: article.tag_list || []
+                    }));
+                } catch (error) {
+                    console.error(`Erreur avec le tag ${tag}:`, error);
+                    // Retourne des articles de secours
+                    return this.getFallbackArticles(tags[0]);
+                }
+            }
+
+            getFallbackArticles(category) {
+                // Articles de secours (réels et fonctionnels)
+                const fallbackArticles = {
+                    'security': [
                         {
-                            id: Date.now() + 1,
-                            title: "Nouvelles failles Zero Trust découvertes",
-                            link: "https://www.lemondeinformatique.fr/actualites/lire-zero-trust-nouvelles-failles-91350.html",
-                            description: "Des chercheurs ont identifié de nouvelles vulnérabilités dans les implémentations Zero Trust.",
-                            source: "Le Monde Informatique",
+                            id: 1,
+                            title: "Introduction à la sécurité Zero Trust",
+                            link: "https://learn.microsoft.com/fr-fr/security/zero-trust/",
+                            description: "Découvrez les principes fondamentaux de l'architecture Zero Trust de Microsoft.",
+                            source: "Microsoft Learn",
                             date: new Date().toISOString(),
-                            isNew: true
+                            isNew: true,
+                            tags: ['security', 'zero-trust']
                         },
                         {
-                            id: Date.now() + 2,
-                            title: "Microsoft améliore Azure AD",
-                            link: "https://www.microsoft.com/fr-fr/security/blog/2024/azure-ad-ameliorations",
-                            description: "Nouvelles fonctionnalités pour la gestion des identités dans Azure Active Directory.",
-                            source: "Microsoft Blog",
+                            id: 2,
+                            title: "Guide de l'authentification multi-facteurs",
+                            link: "https://www.ssi.gouv.fr/guide/recommandations-relatives-a-lauthentification-multifacteur/",
+                            description: "Guide officiel de l'ANSSI sur l'authentification multi-facteurs.",
+                            source: "ANSSI",
                             date: new Date().toISOString(),
-                            isNew: true
+                            isNew: true,
+                            tags: ['security', 'mfa']
                         }
                     ],
-                    'network-automation': [
+                    'devops': [
                         {
-                            id: Date.now() + 3,
-                            title: "Ansible 2.15 sorti avec de nouvelles fonctionnalités",
-                            link: "https://www.redhat.com/fr/blog/ansible-2-15-nouvelles-fonctionnalites",
-                            description: "La nouvelle version d'Ansible apporte des améliorations significatives pour l'automatisation réseau.",
-                            source: "Red Hat Blog",
+                            id: 3,
+                            title: "Documentation Kubernetes",
+                            link: "https://kubernetes.io/fr/docs/home/",
+                            description: "Documentation officielle de Kubernetes en français.",
+                            source: "Kubernetes",
                             date: new Date().toISOString(),
-                            isNew: true
+                            isNew: true,
+                            tags: ['kubernetes', 'devops']
                         },
                         {
-                            id: Date.now() + 4,
-                            title: "Kubernetes simplifie la gestion des clusters",
-                            link: "https://www.cncf.io/blog/kubernetes-gestion-clusters",
-                            description: "Nouvelles APIs pour une gestion plus simple des clusters Kubernetes à grande échelle.",
-                            source: "CNCF Blog",
+                            id: 4,
+                            title: "Getting Started with Docker",
+                            link: "https://docs.docker.com/get-started/",
+                            description: "Guide de démarrage avec Docker pour la conteneurisation.",
+                            source: "Docker",
                             date: new Date().toISOString(),
-                            isNew: true
+                            isNew: true,
+                            tags: ['docker', 'devops']
                         }
                     ]
                 };
+
+                return fallbackArticles[category] || [];
             }
 
             addNewArticles(newArticles) {
@@ -441,17 +530,17 @@
 
                 for (const [sujetId, articles] of Object.entries(newArticles)) {
                     const existingArticles = this.articles[sujetId] || [];
-                    const existingUrls = new Set(existingArticles.map(a => a.link));
+                    const existingIds = new Set(existingArticles.map(a => a.id));
                     
                     for (const article of articles) {
-                        if (!existingUrls.has(article.link)) {
+                        if (!existingIds.has(article.id)) {
                             existingArticles.unshift(article);
                             addedCount++;
                         }
                     }
                     
-                    // Garde seulement les 50 articles les plus récents
-                    this.articles[sujetId] = existingArticles.slice(0, 50);
+                    // Garde seulement les 10 articles les plus récents
+                    this.articles[sujetId] = existingArticles.slice(0, 10);
                 }
 
                 if (addedCount > 0) {
@@ -459,29 +548,6 @@
                 } else {
                     console.log('ℹ️ Aucun nouvel article trouvé');
                 }
-            }
-
-            cleanOldArticles() {
-                const cutoffDate = Date.now() - this.maxArticleAge;
-                let removedCount = 0;
-
-                for (const [sujetId, articles] of Object.entries(this.articles)) {
-                    const initialLength = articles.length;
-                    this.articles[sujetId] = articles.filter(article => 
-                        new Date(article.date).getTime() > cutoffDate
-                    );
-                    removedCount += (initialLength - this.articles[sujetId].length);
-                }
-
-                if (removedCount > 0) {
-                    console.log(`🗑️ ${removedCount} articles anciens supprimés`);
-                    this.saveArticles();
-                }
-            }
-
-            saveArticles() {
-                localStorage.setItem('veille-iam', JSON.stringify(this.articles['iam-zero-trust']));
-                localStorage.setItem('veille-automation', JSON.stringify(this.articles['network-automation']));
             }
 
             updateUI() {
@@ -509,12 +575,15 @@
                             ${article.isNew ? '<span class="new-badge">NOUVEAU</span>' : ''}
                             <p><strong>${article.title}</strong></p>
                             <p>${article.description}</p>
+                            <div style="margin: 10px 0;">
+                                ${article.tags.map(tag => `<span style="background: #e9ecef; padding: 2px 8px; border-radius: 10px; font-size: 0.8em; margin-right: 5px;">#${tag}</span>`).join('')}
+                            </div>
                             <button class="article-link" onclick="veilleSystem.openExternalLink('${article.link}')">
                                 📖 Lire l'article complet
                             </button>
                         </div>
                     `).join('')
-                    : '<p>📝 Aucun article trouvé pour le moment. La prochaine recherche automatique aura lieu dans 24h.</p>';
+                    : '<p>📝 Aucun article trouvé. Cliquez sur "Charger nouveaux articles".</p>';
 
                 return `
                     <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
@@ -524,49 +593,46 @@
                         
                         <div class="description">
                             <p><strong>${config.description}</strong></p>
-                            <p><small>Mots-clés surveillés : ${config.keywords.join(', ')}</small></p>
+                            <p><small>Tags surveillés : ${config.tags.join(', ')}</small></p>
                         </div>
 
                         <div class="actualites">
-                            <h3>📰 Articles accumulés (du plus récent au plus ancien)</h3>
+                            <h3>📰 Articles techniques</h3>
                             ${articlesHTML}
                         </div>
                     </div>
                 `;
             }
 
-            // NOUVELLE FONCTION : Ouvre les liens externes en contournant les restrictions GitHub
             openExternalLink(url) {
                 window.open(url, '_blank', 'noopener,noreferrer');
             }
 
             updateStats() {
-                const totalArticles = (this.articles['iam-zero-trust']?.length || 0) + 
-                                   (this.articles['network-automation']?.length || 0);
+                const totalArticles = this.getTotalArticles();
                 document.getElementById('total-articles').textContent = `${totalArticles} articles`;
+            }
+
+            getTotalArticles() {
+                return (this.articles['iam-zero-trust']?.length || 0) + 
+                       (this.articles['network-automation']?.length || 0);
             }
 
             updateLastUpdate() {
                 const now = new Date();
                 document.getElementById('last-update').textContent = now.toLocaleString('fr-FR');
-                
-                const nextUpdate = new Date(now.getTime() + this.autoRefreshInterval);
-                document.getElementById('next-update').textContent = nextUpdate.toLocaleString('fr-FR');
             }
 
-            startAutoRefresh() {
-                setInterval(() => {
-                    console.log('🔄 Mise à jour automatique...');
-                    this.manualRefresh();
-                }, this.autoRefreshInterval);
-
-                this.updateLastUpdate();
-            }
-
-            clearOldArticles() {
-                if (confirm('Supprimer tous les articles de plus de 30 jours ?')) {
-                    this.cleanOldArticles();
+            clearAllArticles() {
+                if (confirm('Voulez-vous vraiment supprimer tous les articles ?')) {
+                    this.articles = {
+                        'iam-zero-trust': [],
+                        'network-automation': []
+                    };
+                    localStorage.removeItem('veilleData');
                     this.updateUI();
+                    this.updateStats();
+                    console.log('🗑️ Tous les articles ont été supprimés');
                 }
             }
 
@@ -584,6 +650,12 @@
                 a.click();
                 URL.revokeObjectURL(url);
             }
+        }
+
+        // Fonction de déconnexion
+        function logoutUser() {
+            localStorage.removeItem('sessionData');
+            window.location.href = 'index.html';
         }
 
         // Initialisation
