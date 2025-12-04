@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon CV - Portfolio BTS SIO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .nav-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            margin: 40px 0;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.8em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-top: 15px;
+            font-size: 0.9em;
+        }
+
+        /* CV Container */
+        .cv-container {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+        }
+
+        /* PDF Viewer */
+        .pdf-viewer {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .pdf-viewer iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Download Section */
+        .download-section {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .download-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+            margin: 10px;
+        }
+
+        .download-btn:hover {
+            background: #218838;
+            transform: translateY(-2px);
+        }
+
+        .download-btn.secondary {
+            background: #6c757d;
+        }
+
+        .download-btn.secondary:hover {
+            background: #5a6268;
+        }
+
+        /* Quick Info */
+        .quick-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+
+        .info-card h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-card p {
+            color: #666;
+            line-height: 1.8;
+        }
+
+        /* Skills */
+        .skills-section {
+            margin: 40px 0;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+        }
+
+        .skill-category h4 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .skill-item {
+            margin-bottom: 15px;
+        }
+
+        .skill-name {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        .skill-bar {
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            height: 100%;
+            background: #667eea;
+            border-radius: 4px;
+        }
+
+        /* Print Section */
+        .print-section {
+            text-align: center;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .print-btn {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+        }
+
+        .print-btn:hover {
+            background: #0056b3;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-wrap: wrap;
+                gap: 10px;
+            }
+            
+            .nav-link {
+                padding: 8px 12px;
+                font-size: 14px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .pdf-viewer {
+                height: 500px;
+            }
+            
+            .cv-container {
+                padding: 20px;
+            }
+        }
+
+        @media print {
+            .navbar, .download-section, .print-section {
+                display: none;
+            }
+            
+            body {
+                background: white;
+            }
+            
+            .cv-container {
+                box-shadow: none;
+                padding: 0;
+            }
+            
+            .pdf-viewer {
+                height: 900px;
+                box-shadow: none;
+                border: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link">📚 APs</a>
+            <a href="stages.html" class="nav-link">💼 Stages</a>
+            <a href="cv.html" class="nav-link">📄 CV</a>
+            <a href="veille.html" class="nav-link">🔍 Veille</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📄 Mon Curriculum Vitae</h1>
+            <p>BTS SIO SISR - Administrateur Systèmes & Réseaux</p>
+            <div class="badge">Dernière mise à jour : Novembre 2024</div>
+        </div>
+
+        <!-- CV Container -->
+        <div class="cv-container">
+            <!-- Quick Info -->
+            <div class="quick-info">
+                <div class="info-card">
+                    <h3>🎯 Profil</h3>
+                    <p>Étudiant en BTS SIO SISR passionné par l'administration système, les réseaux et la cybersécurité. Recherche un stage de fin d'études dans l'administration d'infrastructures IT.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>📧 Contact</h3>
+                    <p>📍 Le Mans, France<br>
+                       📱 +33 6 XX XX XX XX<br>
+                       ✉️ prenom.nom@email.com<br>
+                       🔗 linkedin.com/in/prenom-nom</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>🎓 Formation</h3>
+                    <p><strong>BTS SIO SISR</strong> (2023-2025)<br>
+                       Lycée Saint Charles Sainte-Croix<br>
+                       Spécialisation : Solutions d'Infrastructure, Systèmes et Réseaux</p>
+                </div>
+            </div>
+
+            <!-- PDF Viewer -->
+            <div class="pdf-viewer">
+                <iframe src="./images/CV_Enock_AMOUSSOULIFI.pdf" title="Mon CV"></iframe>
+            </div>
+
+            <!-- Download Section -->
+            <div class="download-section">
+                <a href="./images/CV_Enock_AMOUSSOULIFI.pdf" download="CV_Enock_AMOUSSOULIFI.pdf" class="download-btn">
+                    📥 Télécharger mon CV (PDF)
+                </a>
+                <a href="./images/CV_Enock_AMOUSSOULIFI.docx" download="CV_Enock_AMOUSSOULIFI.docx" class="download-btn secondary">
+                    📝 Version Word (DOCX)
+                </a>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="skills-section">
+                <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">💻 Compétences Techniques</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h4>🖥️ Administration Système</h4>
+                        <div class="skill-item">
+                            <div class="skill-name">Windows Server <span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Linux (Ubuntu/Debian) <span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Active Directory <span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Virtualisation (VMware/Hyper-V) <span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>🌐 Réseaux & Sécurité</h4>
+                        <div class="skill-item">
+                            <div class="skill-name">Configuration routeurs/switch <span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Protocoles TCP/IP <span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Sécurité réseau <span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Pare-feu (pfSense) <span>70%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 70%"></div></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h4>⚙️ Outils & Technologies</h4>
+                        <div class="skill-item">
+                            <div class="skill-name">OCS Inventory <span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Déploiement (FOG/WDS) <span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Monitoring (PRTG) <span>75%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">GPO & Scripting <span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-level" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Print Section -->
+            <div class="print-section">
+                <button class="print-btn" onclick="window.print()">
+                    🖨️ Imprimer cette page
+                </button>
+                <p style="margin-top: 10px; color: #666; font-size: 0.9em;">
+                    Conseil : Pour une meilleure impression, utilisez l'aperçu avant impression
+                </p>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>📧 Contactez-moi pour plus d'informations</p>
+            <p>© 2024 Portfolio BTS SIO SISR - Tous droits réservés</p>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour vérifier si le fichier existe
+        async function checkFileExists(url) {
+            try {
+                const response = await fetch(url, { method: 'HEAD' });
+                return response.ok;
+            } catch (error) {
+                return false;
+            }
+        }
+
+        // Vérification du fichier PDF au chargement
+        document.addEventListener('DOMContentLoaded', async () => {
+            const pdfUrl = './images/CV_Enock_AMOUSSOULIFI.pdf';
+            const pdfExists = await checkFileExists(pdfUrl);
+            
+            if (!pdfExists) {
+                const viewer = document.querySelector('.pdf-viewer');
+                viewer.innerHTML = `
+                    <div style="text-align: center; padding: 50px;">
+                        <h3 style="color: #dc3545;">⚠️ Fichier CV non trouvé</h3>
+                        <p>Le fichier "CV_Enock_AMOUSSOULIFI.pdf" n'est pas présent dans le dossier "images".</p>
+                        <p>Veuillez télécharger votre CV au format PDF et le placer dans le dossier images.</p>
+                        <div style="margin-top: 20px;">
+                            <button onclick="location.reload()" style="background: #007bff; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer;">
+                                🔄 Réessayer
+                            </button>
+                        </div>
+                    </div>
+                `;
+                
+                // Désactiver les boutons de téléchargement
+                const downloadBtns = document.querySelectorAll('.download-btn');
+                downloadBtns.forEach(btn => {
+                    btn.style.opacity = '0.5';
+                    btn.style.pointerEvents = 'none';
+                });
+            }
+        });
+
+        // Navigation
+        function navigateTo(page) {
+            window.location.href = page;
+            return false;
+        }
+    </script>
+</body>
+</html>
