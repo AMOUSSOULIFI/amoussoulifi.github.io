@@ -4,7 +4,379 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AP3 - Mairie de Pénestin - GED/NAS</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background: white;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .back-button {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 5px;
+            transition: background 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+        }
+
+        .ap-header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .ap-badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .ap-header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .ap-date {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .ap-details-grid {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            margin-bottom: 40px;
+        }
+
+        .detail-section {
+            margin-bottom: 40px;
+        }
+
+        .detail-section h2 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .detail-section p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .info-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .info-column {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+        }
+
+        .info-column h3 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-column ul {
+            list-style: none;
+        }
+
+        .info-column li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+            color: #555;
+        }
+
+        .info-column li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .info-column p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .info-column strong {
+            color: #2c3e50;
+        }
+
+        /* Styles pour les PDF viewer */
+        .pdf-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .pdf-viewer iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .doc-actions {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .doc-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            transition: background 0.3s ease;
+        }
+
+        .doc-btn:hover {
+            background: #218838;
+        }
+
+        /* Styles pour la galerie */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .gallery-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+
+        .gallery-item p {
+            padding: 15px;
+            color: #555;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        /* Modal pour images */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 80%;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close:hover {
+            color: #ccc;
+        }
+
+        /* Tabs pour organisation */
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .tab-btn.active {
+            background: #007bff;
+        }
+
+        .tab-btn:hover {
+            background: #5a6268;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* Realisations grid */
+        .realisations-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .realisation-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #28a745;
+        }
+
+        .realisation-card h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                gap: 10px;
+                text-align: center;
+            }
+            
+            .ap-header h1 {
+                font-size: 2em;
+            }
+            
+            .ap-details-grid {
+                padding: 20px;
+            }
+            
+            .info-table {
+                grid-template-columns: 1fr;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .pdf-viewer {
+                height: 400px;
+            }
+        }
+    </style>
 </head>
 <body>
     <script>
@@ -17,11 +389,11 @@
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
-            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
-            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
-            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
-            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
+            <a href="index.html" class="nav-link">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link">📚 APs</a>
+            <a href="stages.html" class="nav-link">💼 Stages</a>
+            <a href="cv.html" class="nav-link">📄 CV</a>
+            <a href="veille.html" class="nav-link">🔍 Veille</a>
         </div>
     </nav>
 
@@ -37,190 +409,219 @@
 
             <div class="ap-details-grid">
                 <div class="detail-section">
-                    <h2>Description de l'AP</h2>
-                    <p>Mise en place d'une solution de Gestion Électronique de Documents (GED) et configuration d'un serveur NAS pour la mairie de Pénestin. Organisation et sécurisation des documents administratifs.</p>
+                    <h2>📋 Description de l'AP</h2>
+                    <p>Mise en place complète d'une solution de Gestion Électronique de Documents (GED) et configuration d'un serveur NAS (Network Attached Storage) pour la mairie de Pénestin. Ce projet avait pour objectif d'organiser, sécuriser et optimiser la gestion des documents administratifs municipaux, tout en garantissant un accès sécurisé et une conservation pérenne des données.</p>
                 </div>
 
                 <div class="info-table">
                     <div class="info-column">
-                        <h3>Outils utilisés</h3>
+                        <h3>🛠️ Technologies utilisées</h3>
                         <ul>
-                            <li>→ Open Km</li>
-                            <li>→ Debian</li>
-                            <li>→ Script Automatisation</li>
-                            <li>→ Open Media Vault</li>
+                            <li>OpenKM (Gestion Électronique de Documents)</li>
+                            <li>Debian Server (Système d'exploitation)</li>
+                            <li>Open Media Vault (Gestion NAS)</li>
+                            <li>Bash Scripting (Automatisation)</li>
+                            <li>MySQL (Base de données)</li>
+                            <li>Apache Tomcat (Serveur d'application)</li>
+                            <li>RAID 1 (Redondance des données)</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
-                        <h3>Compétences travaillées</h3>
+                        <h3>🎯 Compétences développées</h3>
                         <ul>
-                            <li>→ Gérer le patrimoine informatique</li>
-                            <li>→ Travailler en mode projet</li>
-                            <li>→ Mettre à disposition des utilisateurs un service informatique</li>
-                            <li>→ Organiser son développement professionnel</li>
+                            <li>Installation et configuration serveur Linux</li>
+                            <li>Déploiement de solutions GED</li>
+                            <li>Configuration de stockage réseau (NAS)</li>
+                            <li>Scripting et automatisation de tâches</li>
+                            <li>Sécurisation d'infrastructure</li>
+                            <li>Gestion de projet en binôme</li>
+                            <li>Documentation technique complète</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
-                        <h3>Mode de travail</h3>
-                        <p><strong>En binôme</strong></p>
-                        <p>Collaboration sur l'analyse et la mise en œuvre</p>
+                        <h3>👥 Mode de travail</h3>
+                        <p><strong>Travail en binôme</strong></p>
+                        <p>Collaboration étroite avec répartition des tâches :</p>
+                        <ul>
+                            <li>Analyse des besoins client</li>
+                            <li>Planification de l'infrastructure</li>
+                            <li>Installation et configuration technique</li>
+                            <li>Tests et validation croisés</li>
+                            <li>Documentation collaborative</li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- DOCUMENTATION TECHNIQUE -->
                 <div class="detail-section">
-                    <h2>Documentation technique</h2>
-                    <p>Documentation complète de la solution GED incluant les procédures d'utilisation et de maintenance.</p>
-                    
-                    <div class="action-buttons">
-                        <button class="action-btn" onclick="showContent('documentation-ap3')">
-                            📄 Voir la documentation projet
-                        </button>
-                    </div>
+                    <h2>🚀 Réalisations principales</h2>
+                    <div class="realisations-grid">
+                        <div class="realisation-card">
+                            <h4>📊 Installation GED OpenKM</h4>
+                            <ul>
+                                <li>Installation complète sur Debian</li>
+                                <li>Configuration base de données MySQL</li>
+                                <li>Paramétrage des droits d'accès</li>
+                                <li>Migration des documents existants</li>
+                            </ul>
+                        </div>
 
-                    <div id="documentation-ap3-content" class="content-section hidden">
-                        <h3>Documentation GED et NAS</h3>
-                        
-                        <div class="documents-grid">
-                            <div class="doc-item">
-                                <h4>Documentation GED</h4>
-                                <a href="./images/Devis.pdf" class="doc-link" target="_blank">
-                                    📋 Ouvrir le PDF complet
-                                </a>
-                                <embed src="./images/Devis.pdf" width="100%" height="500px" type="application/pdf">
-                                <p class="pdf-download">
-                                    <a href="./images/Devis.pdf" download>
-                                        ⬇️ Télécharger le PDF
-                                    </a>
-                                </p>
+                        <div class="realisation-card">
+                            <h4>💾 Configuration NAS</h4>
+                            <ul>
+                                <li>Installation Open Media Vault</li>
+                                <li>Configuration RAID 1 (mirroring)</li>
+                                <li>Mise en place des partages SMB/NFS</li>
+                                <li>Quotas d'espace disque</li>
+                            </ul>
+                        </div>
+
+                        <div class="realisation-card">
+                            <h4>🔒 Sécurisation</h4>
+                            <ul>
+                                <li>Configuration pare-feu (UFW)</li>
+                                <li>Gestion des certificats SSL</li>
+                                <li>Système de sauvegarde automatique</li>
+                                <li>Monitoring des accès</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>📈 Architecture & Résultats</h2>
+                    <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;">
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                            <div style="text-align: center; padding: 20px; background: white; border-radius: 8px;">
+                                <h4 style="color: #28a745; margin-bottom: 10px;">💾 Capacité</h4>
+                                <p>4 To de stockage disponible</p>
                             </div>
-                            
-                            <div class="doc-item">
-                                <h4>Manuel utilisateur</h4>
-                                <a href="./images/LOGICIEL%20DE%20PRISE%20EN%20MAIN%20A%20DISTANCE%201.pdf" class="doc-link" target="_blank">
-                                    📖 Ouvrir le manuel
-                                </a>
-                                <embed src="./images/LOGICIEL%20DE%20PRISE%20EN%20MAIN%20A%20DISTANCE%201.pdf" width="100%" height="500px" type="application/pdf">
-                                <p class="pdf-download">
-                                    <a href="./images/LOGICIEL%20DE%20PRISE%20EN%20MAIN%20A%20DISTANCE%201.pdf" download>
-                                        ⬇️ Télécharger le PDF
-                                    </a>
-                                </p>
+                            <div style="text-align: center; padding: 20px; background: white; border-radius: 8px;">
+                                <h4 style="color: #007bff; margin-bottom: 10px;">⚡ Performance</h4>
+                                <p>Accès aux documents en &lt; 2s</p>
+                            </div>
+                            <div style="text-align: center; padding: 20px; background: white; border-radius: 8px;">
+                                <h4 style="color: #ffc107; margin-bottom: 10px;">🔒 Sécurité</h4>
+                                <p>Redondance RAID 1</p>
+                            </div>
+                            <div style="text-align: center; padding: 20px; background: white; border-radius: 8px;">
+                                <h4 style="color: #6f42c1; margin-bottom: 10px;">👥 Utilisateurs</h4>
+                                <p>30 comptes créés</p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- PRODUCTION EN LIGNE / PRÉSENTATION -->
                 <div class="detail-section">
-                    <h2>Production en ligne et Présentation</h2>
-                    <p>Visualisez les captures d'écran et éléments de présentation du projet.</p>
+                    <h2>📄 Documentation & Présentation</h2>
                     
-                    <div class="action-buttons">
-                        <button class="action-btn" onclick="showContent('presentation-ap3')">
-                            🎥 Présentation complète
-                        </button>
-                        <button class="action-btn" onclick="showContent('architecture-ap3')">
-                            💾 Architecture NAS
-                        </button>
-                        <button class="action-btn" onclick="showContent('interface-ged')">
-                            🖼️ Interface GED
-                        </button>
+                    <div class="tabs" id="documentationTabs">
+                        <button class="tab-btn active" onclick="openTab('presentation')">🎥 Présentation</button>
+                        <button class="tab-btn" onclick="openTab('devis')">📋 Devis & Planification</button>
+                        <button class="tab-btn" onclick="openTab('manuel')">📖 Manuel Utilisateur</button>
+                        <button class="tab-btn" onclick="openTab('captures')">🖼️ Captures d'écran</button>
                     </div>
 
-                    <!-- Section PRÉSENTATION COMPLÈTE -->
-                    <div id="presentation-ap3-content" class="content-section hidden">
-                        <h3>Présentation visuelle du projet</h3>
-                        <p>Captures d'écran complètes de la présentation AP3.</p>
+                    <div id="presentation" class="tab-content active">
+                        <h3>Présentation du projet AP3</h3>
+                        <p>Vue d'ensemble complète du projet avec toutes les slides de présentation.</p>
                         
                         <div class="gallery-grid">
-                            <!-- Images de présentation AP3 -->
-                            <div class="gallery-item">
-                                <img src="./images/AP3%201.PNG" alt="Slide 1 - Introduction" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 1.PNG', 'Slide 1 - Introduction')">
+                                <img src="./images/AP3 1.PNG" alt="Slide 1 - Introduction">
                                 <p>Slide 1 - Introduction</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%202.PNG" alt="Slide 2 - Contexte" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 2.PNG', 'Slide 2 - Contexte')">
+                                <img src="./images/AP3 2.PNG" alt="Slide 2 - Contexte">
                                 <p>Slide 2 - Contexte</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%203.PNG" alt="Slide 3 - Objectifs" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 3.PNG', 'Slide 3 - Objectifs')">
+                                <img src="./images/AP3 3.PNG" alt="Slide 3 - Objectifs">
                                 <p>Slide 3 - Objectifs</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%204.PNG" alt="Slide 4 - Architecture" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 4.PNG', 'Slide 4 - Architecture')">
+                                <img src="./images/AP3 4.PNG" alt="Slide 4 - Architecture">
                                 <p>Slide 4 - Architecture</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%205.PNG" alt="Slide 5 - Implémentation" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 5.PNG', 'Slide 5 - Implémentation')">
+                                <img src="./images/AP3 5.PNG" alt="Slide 5 - Implémentation">
                                 <p>Slide 5 - Implémentation</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%206.PNG" alt="Slide 6 - Résultats" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 6.PNG', 'Slide 6 - Résultats')">
+                                <img src="./images/AP3 6.PNG" alt="Slide 6 - Résultats">
                                 <p>Slide 6 - Résultats</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%207.PNG" alt="Slide 7 - Sécurité" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 7.PNG', 'Slide 7 - Sécurité')">
+                                <img src="./images/AP3 7.PNG" alt="Slide 7 - Sécurité">
                                 <p>Slide 7 - Sécurité</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%208.PNG" alt="Slide 8 - Monitoring" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 8.PNG', 'Slide 8 - Monitoring')">
+                                <img src="./images/AP3 8.PNG" alt="Slide 8 - Monitoring">
                                 <p>Slide 8 - Monitoring</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%209.PNG" alt="Slide 9 - Conclusion" onclick="openModal(this)">
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 9.PNG', 'Slide 9 - Conclusion')">
+                                <img src="./images/AP3 9.PNG" alt="Slide 9 - Conclusion">
                                 <p>Slide 9 - Conclusion</p>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Section ARCHITECTURE NAS -->
-                    <div id="architecture-ap3-content" class="content-section hidden">
-                        <h3>Architecture NAS et infrastructure</h3>
-                        <p>Schémas et configurations du serveur NAS.</p>
+                    <div id="devis" class="tab-content">
+                        <h3>Devis & Planification</h3>
+                        <p>Document complet de devis et planification du projet.</p>
                         
-                        <div class="gallery-grid">
-                            <div class="gallery-item">
-                                <img src="./images/AP3%204.PNG" alt="Architecture NAS" onclick="openModal(this)">
-                                <p>Architecture du serveur NAS</p>
-                            </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%205.PNG" alt="Configuration réseau" onclick="openModal(this)">
-                                <p>Configuration réseau</p>
-                            </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%207.PNG" alt="Schéma infrastructure" onclick="openModal(this)">
-                                <p>Schéma d'infrastructure</p>
-                            </div>
+                        <div class="pdf-viewer">
+                            <iframe src="./images/Devis.pdf" title="Devis AP3"></iframe>
+                        </div>
+                        
+                        <div class="doc-actions">
+                            <a href="./images/Devis.pdf" download="Devis_AP3_GED_NAS.pdf" class="doc-btn">
+                                ⬇️ Télécharger le devis
+                            </a>
+                            <a href="./images/Devis.pdf" target="_blank" class="doc-btn">
+                                📄 Ouvrir dans un nouvel onglet
+                            </a>
                         </div>
                     </div>
 
-                    <!-- Section INTERFACE GED -->
-                    <div id="interface-ged-content" class="content-section hidden">
-                        <h3>Interface GED</h3>
-                        <p>Captures d'écran de l'interface de gestion documentaire.</p>
+                    <div id="manuel" class="tab-content">
+                        <h3>Manuel d'utilisation</h3>
+                        <p>Guide complet d'utilisation de la solution GED pour les utilisateurs finaux.</p>
+                        
+                        <div class="pdf-viewer">
+                            <iframe src="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" title="Manuel GED"></iframe>
+                        </div>
+                        
+                        <div class="doc-actions">
+                            <a href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" download="Manuel_GED_OpenKM.pdf" class="doc-btn">
+                                ⬇️ Télécharger le manuel
+                            </a>
+                            <a href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" target="_blank" class="doc-btn">
+                                📄 Ouvrir dans un nouvel onglet
+                            </a>
+                        </div>
+                    </div>
+
+                    <div id="captures" class="tab-content">
+                        <h3>Captures d'écran détaillées</h3>
                         
                         <div class="gallery-grid">
-                            <div class="gallery-item">
-                                <img src="./images/AP3%208.PNG" alt="Interface GED - Accueil" onclick="openModal(this)">
-                                <p>Interface principale</p>
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 4.PNG', 'Architecture NAS')">
+                                <img src="./images/AP3 4.PNG" alt="Architecture NAS">
+                                <p>Architecture du serveur NAS</p>
                             </div>
-                            
-                            <div class="gallery-item">
-                                <img src="./images/AP3%209.PNG" alt="Interface GED - Gestion documents" onclick="openModal(this)">
-                                <p>Gestion des documents</p>
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 5.PNG', 'Configuration réseau')">
+                                <img src="./images/AP3 5.PNG" alt="Configuration réseau">
+                                <p>Configuration réseau</p>
+                            </div>
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 7.PNG', 'Schéma infrastructure')">
+                                <img src="./images/AP3 7.PNG" alt="Schéma infrastructure">
+                                <p>Schéma d'infrastructure</p>
+                            </div>
+                            <div class="gallery-item" onclick="openImageModal('./images/AP3 8.PNG', 'Interface GED')">
+                                <img src="./images/AP3 8.PNG" alt="Interface GED">
+                                <p>Interface GED principale</p>
                             </div>
                         </div>
                     </div>
@@ -237,27 +638,76 @@
     </div>
 
     <script>
-        // Fonction de navigation forcée pour GitHub Pages
+        // Fonction de navigation
         function navigateTo(page) {
             window.location.href = page;
             return false;
         }
 
-        // Fonction pour afficher le contenu
-        function showContent(sectionId) {
-            const allSections = document.querySelectorAll('.content-section');
-            allSections.forEach(section => {
-                section.classList.add('hidden');
+        // Fonction pour ouvrir les onglets
+        function openTab(tabName) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            
+            tabContents.forEach(content => {
+                content.classList.remove('active');
             });
             
-            const targetSection = document.getElementById(sectionId + '-content');
-            if (targetSection) {
-                targetSection.classList.remove('hidden');
-                targetSection.scrollIntoView({ behavior: 'smooth' });
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+        // Fonction pour ouvrir le modal d'image
+        function openImageModal(imageSrc, captionText) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const caption = document.getElementById('caption');
+            
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            caption.innerHTML = captionText;
+        }
+
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = "none";
+        }
+
+        // Fermer le modal en cliquant en dehors de l'image
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
             }
         }
-    </script>
 
-    <script src="script.js"></script>
+        // Vérifier si les fichiers existent
+        document.addEventListener('DOMContentLoaded', function() {
+            const checkFiles = async () => {
+                const files = [
+                    './images/AP3 1.PNG',
+                    './images/Devis.pdf',
+                    './images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf'
+                ];
+                
+                for (const file of files) {
+                    try {
+                        const response = await fetch(file, { method: 'HEAD' });
+                        if (!response.ok) {
+                            console.warn(`Fichier manquant: ${file}`);
+                        }
+                    } catch (error) {
+                        console.warn(`Erreur avec: ${file}`, error);
+                    }
+                }
+            };
+            
+            checkFiles();
+        });
+    </script>
 </body>
 </html>
