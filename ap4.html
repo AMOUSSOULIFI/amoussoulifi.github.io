@@ -567,31 +567,7 @@
                     <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;">
                         <h4 style="color: #2c3e50; margin-bottom: 15px;">Exemple de script Bash pour sauvegarde automatique :</h4>
                         <pre style="background: #2c3e50; color: #fff; padding: 20px; border-radius: 5px; overflow-x: auto; font-family: 'Courier New', monospace;">
-#!/bin/bash
-# Script de sauvegarde automatique - AP4
-# Auteur : [Votre Nom]
-# Date : Mars 2025
 
-BACKUP_DIR="/backup/nas"
-SOURCE_DIR="/data/important"
-LOG_FILE="/var/log/backup.log"
-DATE=$(date +"%Y-%m-%d_%H-%M-%S")
-
-# Création du répertoire de backup
-mkdir -p $BACKUP_DIR/$DATE
-
-# Sauvegarde avec rsync (incrémentielle)
-rsync -av --delete $SOURCE_DIR $BACKUP_DIR/$DATE/ >> $LOG_FILE 2>&1
-
-# Compression et chiffrement
-tar -czf $BACKUP_DIR/$DATE.tar.gz $BACKUP_DIR/$DATE
-gpg --encrypt --recipient backup@local $BACKUP_DIR/$DATE.tar.gz
-
-# Nettoyage des vieux backups (30 jours)
-find $BACKUP_DIR -type f -name "*.tar.gz.gpg" -mtime +30 -delete
-
-# Log de confirmation
-echo "[$DATE] Sauvegarde terminée avec succès" >> $LOG_FILE
                         </pre>
                         <p style="margin-top: 15px; color: #666; font-size: 0.9em;">Ce script illustre l'automatisation des sauvegardes avec chiffrement et rotation automatique.</p>
                     </div>
@@ -683,5 +659,6 @@ echo "[$DATE] Sauvegarde terminée avec succès" >> $LOG_FILE
     </script>
 </body>
 </html>
+
 
 
