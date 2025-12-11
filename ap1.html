@@ -3,214 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP1 - SCISS - WordPress</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-
-        .navbar {
-            background: white;
-            padding: 15px 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .nav-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-        }
-
-        .nav-link {
-            color: #667eea;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 5px;
-            transition: all 0.3s ease;
-        }
-
-        .nav-link:hover {
-            background: #667eea;
-            color: white;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .back-button {
-            display: inline-block;
-            color: white;
-            text-decoration: none;
-            margin-bottom: 20px;
-            padding: 10px 15px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 5px;
-            transition: background 0.3s ease;
-        }
-
-        .back-button:hover {
-            background: rgba(255,255,255,0.2);
-            color: white;
-            text-decoration: none;
-        }
-
-        .ap-header {
-            text-align: center;
-            margin-bottom: 40px;
-            color: white;
-        }
-
-        .ap-badge {
-            display: inline-block;
-            background: rgba(255,255,255,0.2);
-            color: white;
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin-bottom: 15px;
-        }
-
-        .ap-header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .ap-date {
-            font-size: 1.1em;
-            opacity: 0.9;
-        }
-
-        .ap-details-grid {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 40px;
-        }
-
-        .detail-section {
-            margin-bottom: 40px;
-        }
-
-        .detail-section h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #f0f0f0;
-        }
-
-        .detail-section p {
-            color: #555;
-            line-height: 1.8;
-            font-size: 1.1em;
-        }
-
-        .info-table {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-
-        .info-column {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #667eea;
-        }
-
-        .info-column h3 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .info-column ul {
-            list-style: none;
-        }
-
-        .info-column li {
-            margin-bottom: 10px;
-            padding-left: 20px;
-            position: relative;
-            color: #555;
-        }
-
-        .info-column li:before {
-            content: "→";
-            position: absolute;
-            left: 0;
-            color: #667eea;
-            font-weight: bold;
-        }
-
-        .info-column p {
-            color: #555;
-            line-height: 1.6;
-        }
-
-        .info-column strong {
-            color: #2c3e50;
-        }
-
-        @media (max-width: 768px) {
-            .nav-container {
-                flex-direction: column;
-                gap: 10px;
-                text-align: center;
-            }
-            
-            .ap-header h1 {
-                font-size: 2em;
-            }
-            
-            .ap-details-grid {
-                padding: 20px;
-            }
-            
-            .info-table {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+    <title>AP1 - Bidule - Remaniement site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <script>
-        // Vérification d'authentification UNIQUE
+        // Vérification d'authentification SIMPLIFIÉE
         const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-        if (!sessionData || !sessionData.isLoggedIn) {
+        if (!sessionData) {
             window.location.href = 'index.html';
         }
     </script>
 
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">🏠 Accueil</a>
-            <a href="aps.html" class="nav-link">📚 APs</a>
-            <a href="stages.html" class="nav-link">💼 Stages</a>
-            <a href="cv.html" class="nav-link">📄 CV</a>
-            <a href="veille.html" class="nav-link">🔍 Veille</a>
+            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
+            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
+            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
+            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="veille.html" class="nav-link" onclick="navigateTo('veille.html')">Veille</a>
         </div>
     </nav>
 
@@ -219,100 +30,76 @@
             <a href="aps.html" class="back-button" onclick="navigateTo('aps.html')">← Retour aux APs</a>
             
             <div class="ap-header">
-                <div class="ap-badge">AP1</div>
-                <h1>SCISS - Installation WordPress</h1>
-                <p class="ap-date">Septembre - Octobre 2024</p>
+                <div class="ap-badge">AP2</div>
+                <h1>Bidule - Remaniement site numérique</h1>
+                <p class="ap-date">Novembre 2024 - Janvier 2025</p>
             </div>
 
             <div class="ap-details-grid">
                 <div class="detail-section">
-                    <h2>📋 Description de l'AP</h2>
-                    <p>Installation et configuration complète d'un site WordPress pour l'organisme SCISS. Cette Atelier de Professionnalisation a permis de mettre en pratique les compétences en administration web, gestion de bases de données et maintenance de sites. L'objectif était de créer une solution web robuste et facile à maintenir pour l'association.</p>
+                    <h2>Description de l'AP</h2>
+                    <p>Remaniement complet d'un site existant avec adaptation spécifique pour les jeunes étudiants. Modernisation de l'interface et amélioration de l'expérience utilisateur.</p>
                 </div>
 
                 <div class="info-table">
                     <div class="info-column">
-                        <h3>🛠️ Outils utilisés</h3>
+                        <h3>Outils utilisés</h3>
                         <ul>
-                            <li>WordPress CMS</li>
-                            <li>Hébergement web mutualisé</li>
-                            <li>PHP 7.4 & MySQL 5.7</li>
-                            <li>FileZilla (transfert FTP)</li>
-                            <li>cPanel (administration)</li>
-                            <li>phpMyAdmin</li>
-                            <li>Thème personnalisé</li>
+                            <li>→ Google Sites</li>
+                            <li>→ Google Workspace</li>
+                            <li>→ Outils de design</li>
+                            <li>→ Analytics</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
-                        <h3>🎯 Compétences travaillées</h3>
+                        <h3>Compétences travaillées</h3>
                         <ul>
-                            <li>Installation d'un CMS</li>
-                            <li>Configuration serveur web</li>
-                            <li>Gestion de base de données</li>
-                            <li>Maintenance corrective et préventive</li>
-                            <li>Sauvegarde automatisée</li>
-                            <li>Sécurisation du site</li>
-                            <li>Documentation technique</li>
+                            <li>→ Design adaptatif</li>
+                            <li>→ UX/UI jeune public</li>
+                            <li>→ Gestion contenu</li>
+                            <li>→ Analyse besoins</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
-                        <h3>👥 Mode de travail</h3>
-                        <p><strong>Individuel</strong></p>
-                        <p>Gestion complète du projet de A à Z avec suivi rigoureux :</p>
-                        <ul>
-                            <li>Analyse des besoins client</li>
-                            <li>Planification du projet</li>
-                            <li>Installation et configuration</li>
-                            <li>Tests et validation</li>
-                            <li>Livraison au client</li>
-                        </ul>
+                        <h3>Mode de travail</h3>
+                        <p><strong>En équipe</strong></p>
+                        <p>Collaboration sur la refonte et l'adaptation</p>
                     </div>
                 </div>
 
                 <div class="detail-section">
-                    <h2>🚀 Réalisations principales</h2>
-                    <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;">
-                        <ul style="list-style: none; color: #555;">
-                            <li style="margin-bottom: 15px; padding-left: 25px; position: relative;">
-                                <span style="position: absolute; left: 0; color: #28a745; font-weight: bold;">✓</span>
-                                <strong>Installation complète WordPress</strong> : Configuration optimale pour performances
-                            </li>
-                            <li style="margin-bottom: 15px; padding-left: 25px; position: relative;">
-                                <span style="position: absolute; left: 0; color: #28a745; font-weight: bold;">✓</span>
-                                <strong>Sécurisation avancée</strong> : Protection contre les attaques courantes
-                            </li>
-                            <li style="margin-bottom: 15px; padding-left: 25px; position: relative;">
-                                <span style="position: absolute; left: 0; color: #28a745; font-weight: bold;">✓</span>
-                                <strong>Procédures de sauvegarde</strong> : Automatisation quotidienne des backups
-                            </li>
-                            <li style="margin-bottom: 15px; padding-left: 25px; position: relative;">
-                                <span style="position: absolute; left: 0; color: #28a745; font-weight: bold;">✓</span>
-                                <strong>Optimisation performances</strong> : Temps de chargement réduit de 40%
-                            </li>
-                            <li style="margin-bottom: 15px; padding-left: 25px; position: relative;">
-                                <span style="position: absolute; left: 0; color: #28a745; font-weight: bold;">✓</span>
-                                <strong>Formation utilisateur</strong> : Guide complet pour l'administration du site
-                            </li>
-                        </ul>
-                    </div>
+                    <h2>Documentation technique</h2>
+                    <p>Tableau comparatif des CMS et hébergeurs avec analyse des solutions adaptées aux jeunes étudiants.</p>
+                    <a href="docs/ap2/comparatif-cms.pdf" class="doc-link" target="_blank">📊 Tableau comparatif CMS/Hébergeurs</a>
+                    <a href="docs/ap2/cahier-charges.pdf" class="doc-link" target="_blank">📋 Cahier des charges</a>
                 </div>
 
                 <div class="detail-section">
-                    <h2>📈 Résultats obtenus</h2>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
-                        <div style="background: #e8f5e8; padding: 20px; border-radius: 10px; text-align: center;">
-                            <h4 style="color: #28a745; margin-bottom: 10px;">🟢 Site fonctionnel</h4>
-                            <p>Site WordPress opérationnel en production</p>
-                        </div>
-                        <div style="background: #e8f4f8; padding: 20px; border-radius: 10px; text-align: center;">
-                            <h4 style="color: #17a2b8; margin-bottom: 10px;">⚡ Performance</h4>
-                            <p>Temps de chargement &lt; 2 secondes</p>
-                        </div>
-                        <div style="background: #fff3cd; padding: 20px; border-radius: 10px; text-align: center;">
-                            <h4 style="color: #ffc107; margin-bottom: 10px;">🔒 Sécurité</h4>
-                            <p>Aucune vulnérabilité critique détectée</p>
+                    <h2>Production en ligne</h2>
+                    <div class="production-links">
+                        <a href="https://sites.google.com/view/ton-site-bidule" class="prod-link" target="_blank">🌐 Site remanié</a>
+                        <a href="docs/ap2/analyse-comparative.pdf" class="prod-link" target="_blank">📊 Analyse avant/après</a>
+                        <a href="#" class="prod-link" onclick="showContent('captures-ap2')">🖼️ Captures d'écran</a>
+                    </div>
+
+                    <!-- Section captures d'écran -->
+                    <div id="captures-ap2-content" class="content-section hidden">
+                        <h3>Captures d'écran du projet</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item">
+                                <img src="images/ap2/ancien-site.png" alt="Ancien site" onclick="openModal(this)">
+                                <p>Ancienne version du site</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap2/nouveau-site.png" alt="Nouveau site" onclick="openModal(this)">
+                                <p>Nouvelle version du site</p>
+                            </div>
+                            <div class="gallery-item">
+                                <img src="images/ap2/interface-admin.png" alt="Interface admin" onclick="openModal(this)">
+                                <p>Interface d'administration</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -320,12 +107,30 @@
         </div>
     </section>
 
+    <!-- Modal pour images en grand -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
     <script>
         // Fonction de navigation forcée pour GitHub Pages
         function navigateTo(page) {
             window.location.href = page;
             return false;
         }
+
+        // Fonction pour afficher le contenu
+        function showContent(sectionId) {
+            const targetSection = document.getElementById(sectionId + '-content');
+            if (targetSection) {
+                targetSection.classList.remove('hidden');
+                targetSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
     </script>
+
+    <script src="script.js"></script>
 </body>
 </html>
