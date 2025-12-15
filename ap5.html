@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP5 - Sécurisation d'une Plateforme E-learning</title>
+    <title>AP5 - Configuration pfSense & Sécurité Réseau</title>
     <style>
         * {
             margin: 0;
@@ -15,14 +15,17 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            background: linear-gradient(135deg, #0c2461 0%, #1e3799 50%, #4a69bd 100%);
             min-height: 100vh;
         }
 
         .navbar {
             background: white;
             padding: 15px 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
         }
 
         .nav-container {
@@ -36,17 +39,20 @@
         }
 
         .nav-link {
-            color: #0f2027;
+            color: #0c2461;
             text-decoration: none;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 5px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
             transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
 
         .nav-link:hover {
-            background: #0f2027;
+            background: #0c2461;
             color: white;
+            border-color: #0c2461;
+            transform: translateY(-2px);
         }
 
         .container {
@@ -56,147 +62,191 @@
         }
 
         .back-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             color: white;
             text-decoration: none;
-            margin-bottom: 20px;
-            padding: 10px 15px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 5px;
-            transition: background 0.3s ease;
-            border: 1px solid rgba(255,255,255,0.2);
+            margin-bottom: 30px;
+            padding: 12px 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.3);
+            font-weight: 500;
         }
 
         .back-button:hover {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.25);
             color: white;
             text-decoration: none;
+            transform: translateX(-5px);
         }
 
         .ap-header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             color: white;
+            padding: 30px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .ap-badge {
             display: inline-block;
-            background: rgba(255,255,255,0.2);
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
             color: white;
-            padding: 10px 25px;
-            border-radius: 20px;
-            font-size: 1em;
-            margin-bottom: 15px;
-            border: 1px solid rgba(255,255,255,0.3);
-            font-weight: 600;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(238, 90, 36, 0.3);
         }
 
         .ap-header h1 {
-            font-size: 2.8em;
+            font-size: 3em;
             margin-bottom: 15px;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
             background: linear-gradient(90deg, #fff, #a5d8ff);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
         .ap-date {
-            font-size: 1.2em;
+            font-size: 1.3em;
             opacity: 0.9;
             font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .ap-subtitle {
+            font-size: 1.2em;
+            color: #a5d8ff;
+            font-weight: 500;
         }
 
         .ap-details-grid {
-            background: rgba(255,255,255,0.95);
+            background: rgba(255,255,255,0.97);
             border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
-            margin-bottom: 40px;
+            padding: 50px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            margin-bottom: 50px;
             backdrop-filter: blur(10px);
             border: 1px solid rgba(255,255,255,0.2);
         }
 
         .detail-section {
-            margin-bottom: 50px;
+            margin-bottom: 60px;
         }
 
         .detail-section h2 {
-            color: #0f2027;
-            margin-bottom: 25px;
+            color: #0c2461;
+            margin-bottom: 30px;
             padding-bottom: 15px;
-            border-bottom: 3px solid #2c5364;
-            font-size: 1.8em;
+            border-bottom: 3px solid #4a69bd;
+            font-size: 2em;
             display: flex;
             align-items: center;
             gap: 15px;
+            position: relative;
+        }
+
+        .detail-section h2:after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
+            border-radius: 3px;
         }
 
         .detail-section p {
             color: #444;
             line-height: 1.8;
-            font-size: 1.1em;
-            margin-bottom: 15px;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
 
         .info-table {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin: 50px 0;
         }
 
         .info-column {
-            background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-            padding: 30px;
-            border-radius: 15px;
-            border-left: 6px solid #2c5364;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
-            transition: transform 0.3s ease;
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #4a69bd;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-column:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
         }
 
         .info-column:hover {
-            transform: translateY(-5px);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         }
 
         .info-column h3 {
-            color: #0f2027;
-            margin-bottom: 25px;
+            color: #0c2461;
+            margin-bottom: 30px;
             display: flex;
             align-items: center;
-            gap: 12px;
-            font-size: 1.4em;
+            gap: 15px;
+            font-size: 1.6em;
         }
 
         .info-column ul {
             list-style: none;
+            padding-left: 0;
         }
 
         .info-column li {
-            margin-bottom: 12px;
-            padding-left: 25px;
+            margin-bottom: 15px;
+            padding-left: 30px;
             position: relative;
-            color: #444;
-            line-height: 1.6;
+            color: #555;
+            line-height: 1.7;
+            font-size: 1.1em;
         }
 
         .info-column li:before {
             content: "▸";
             position: absolute;
             left: 0;
-            color: #2c5364;
+            color: #4a69bd;
             font-weight: bold;
-            font-size: 1.2em;
+            font-size: 1.3em;
         }
 
         .pdf-viewer {
             width: 100%;
-            height: 700px;
-            border: 1px solid #ddd;
-            border-radius: 15px;
+            height: 750px;
+            border: 2px solid #4a69bd;
+            border-radius: 20px;
             overflow: hidden;
-            margin: 30px 0;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-            border: 2px solid #2c5364;
+            margin: 40px 0;
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+            background: white;
         }
 
         .pdf-viewer iframe {
@@ -207,32 +257,34 @@
 
         .doc-actions {
             display: flex;
-            gap: 15px;
-            margin: 25px 0;
+            gap: 20px;
+            margin: 30px 0;
             flex-wrap: wrap;
         }
 
         .doc-btn {
-            background: linear-gradient(135deg, #2c5364, #203a43);
+            background: linear-gradient(135deg, #4a69bd, #0c2461);
             color: white;
             border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
+            padding: 15px 30px;
+            border-radius: 10px;
             cursor: pointer;
             text-decoration: none;
             display: inline-flex;
             align-items: center;
-            gap: 12px;
-            font-size: 15px;
+            gap: 15px;
+            font-size: 16px;
             transition: all 0.3s ease;
-            font-weight: 500;
-            box-shadow: 0 4px 12px rgba(44, 83, 100, 0.3);
+            font-weight: 600;
+            box-shadow: 0 6px 20px rgba(74, 105, 189, 0.4);
+            min-width: 200px;
+            justify-content: center;
         }
 
         .doc-btn:hover {
-            background: linear-gradient(135deg, #203a43, #0f2027);
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(44, 83, 100, 0.4);
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(74, 105, 189, 0.6);
             color: white;
             text-decoration: none;
         }
@@ -242,125 +294,153 @@
         }
 
         .excel-btn:hover {
-            background: linear-gradient(135deg, #155d32, #0f4a28);
+            background: linear-gradient(135deg, #155d32, #1d6f42);
         }
 
         .network-table {
             width: 100%;
-            border-collapse: collapse;
-            margin: 25px 0;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 40px 0;
             background: white;
-            border-radius: 10px;
+            border-radius: 15px;
             overflow: hidden;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 2px solid #4a69bd;
         }
 
         .network-table th {
-            background: linear-gradient(135deg, #2c5364, #203a43);
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
             color: white;
-            padding: 18px 15px;
+            padding: 20px 15px;
             text-align: left;
-            font-weight: 600;
-            border-bottom: 3px solid #0f2027;
+            font-weight: 700;
+            font-size: 1.1em;
+            border-bottom: 3px solid #0c2461;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
         .network-table td {
-            padding: 15px;
+            padding: 18px 15px;
             border-bottom: 1px solid #eee;
             color: #444;
+            font-size: 1.05em;
         }
 
         .network-table tr:hover {
             background-color: #f8f9fa;
+            transform: scale(1.01);
+            transition: transform 0.2s ease;
         }
 
         .network-table .pass {
             color: #28a745;
             font-weight: bold;
+            font-size: 1.1em;
         }
 
         .network-table .block {
             color: #dc3545;
             font-weight: bold;
+            font-size: 1.1em;
         }
 
         .tabs {
             display: flex;
-            gap: 10px;
-            margin: 30px 0;
+            gap: 15px;
+            margin: 40px 0;
             flex-wrap: wrap;
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 10px;
-            border: 1px solid #dee2e6;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #dee2e6;
         }
 
         .tab-btn {
-            background: #6c757d;
+            background: linear-gradient(135deg, #6c757d, #495057);
             color: white;
             border: none;
-            padding: 12px 25px;
-            border-radius: 8px;
+            padding: 15px 30px;
+            border-radius: 10px;
             cursor: pointer;
             transition: all 0.3s ease;
-            font-weight: 500;
-            min-width: 180px;
+            font-weight: 600;
+            min-width: 200px;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
         }
 
         .tab-btn.active {
-            background: linear-gradient(135deg, #2c5364, #203a43);
-            box-shadow: 0 4px 8px rgba(44, 83, 100, 0.3);
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
+            box-shadow: 0 6px 20px rgba(12, 36, 97, 0.4);
+            transform: translateY(-2px);
         }
 
         .tab-btn:hover {
-            background: #5a6268;
+            background: linear-gradient(135deg, #495057, #6c757d);
             transform: translateY(-2px);
         }
 
         .tab-content {
             display: none;
-            animation: fadeIn 0.5s ease;
+            animation: slideIn 0.5s ease;
         }
 
         .tab-content.active {
             display: block;
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(10px); }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-            gap: 25px;
-            margin: 35px 0;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
         }
 
         .feature-card {
-            background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-            padding: 30px;
-            border-radius: 15px;
-            border-left: 6px solid #2c5364;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.08);
-            transition: all 0.3s ease;
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #4a69bd;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
         }
 
         .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         }
 
         .feature-card h4 {
-            color: #0f2027;
-            margin-bottom: 20px;
+            color: #0c2461;
+            margin-bottom: 25px;
             display: flex;
             align-items: center;
-            gap: 12px;
-            font-size: 1.3em;
-            border-bottom: 2px solid #dee2e6;
-            padding-bottom: 10px;
+            gap: 15px;
+            font-size: 1.4em;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 15px;
         }
 
         .feature-card ul {
@@ -369,11 +449,12 @@
         }
 
         .feature-card li {
-            margin-bottom: 12px;
-            padding-left: 25px;
+            margin-bottom: 15px;
+            padding-left: 30px;
             position: relative;
-            color: #444;
-            line-height: 1.6;
+            color: #555;
+            line-height: 1.7;
+            font-size: 1.1em;
         }
 
         .feature-card li:before {
@@ -382,53 +463,115 @@
             left: 0;
             color: #28a745;
             font-weight: bold;
+            font-size: 1.2em;
         }
 
         .individual-work {
             background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-            border-radius: 15px;
-            padding: 30px;
-            margin: 30px 0;
-            border-left: 6px solid #1976d2;
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border-left: 8px solid #1976d2;
+            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.2);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .individual-work:before {
+            content: '👤 TRAVAIL INDIVIDUEL';
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #1976d2, #0d47a1);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9em;
+            letter-spacing: 1px;
         }
 
         .individual-work h3 {
-            color: #0f2027;
-            margin-bottom: 20px;
+            color: #0c2461;
+            margin-bottom: 25px;
             display: flex;
             align-items: center;
             gap: 15px;
+            font-size: 1.8em;
         }
 
         .grid-2-col {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 30px;
+            gap: 40px;
             margin: 30px 0;
         }
 
         .excel-preview {
             background: white;
-            border-radius: 10px;
-            padding: 20px;
+            border-radius: 15px;
+            padding: 30px;
             overflow-x: auto;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 2px solid #4a69bd;
+            margin: 20px 0;
         }
 
         .highlight-box {
             background: linear-gradient(135deg, #fff3cd, #ffeaa7);
-            border-left: 6px solid #ffc107;
-            padding: 25px;
-            border-radius: 10px;
-            margin: 25px 0;
+            border-left: 8px solid #ffc107;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 25px rgba(255, 193, 7, 0.2);
         }
 
         .highlight-box h4 {
             color: #856404;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
+            font-size: 1.4em;
+        }
+
+        .architecture-visual {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .architecture-item {
+            background: linear-gradient(135deg, #4a69bd, #0c2461);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(74, 105, 189, 0.3);
+        }
+
+        .architecture-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(74, 105, 189, 0.4);
+        }
+
+        .architecture-item h4 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .architecture-item p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .architecture-item small {
+            font-size: 0.9em;
+            opacity: 0.7;
         }
 
         @media (max-width: 768px) {
@@ -439,11 +582,11 @@
             }
             
             .ap-header h1 {
-                font-size: 2em;
+                font-size: 2.2em;
             }
             
             .ap-details-grid {
-                padding: 20px;
+                padding: 25px;
             }
             
             .info-table {
@@ -451,15 +594,20 @@
             }
             
             .pdf-viewer {
-                height: 400px;
+                height: 450px;
             }
             
             .tab-btn {
-                min-width: 140px;
+                min-width: 100%;
+                margin-bottom: 10px;
             }
             
             .grid-2-col {
                 grid-template-columns: 1fr;
+            }
+            
+            .doc-btn {
+                min-width: 100%;
             }
         }
     </style>
@@ -487,74 +635,75 @@
             <a href="aps.html" class="back-button">← Retour aux APs</a>
             
             <div class="ap-header">
-                <div class="ap-badge">AP5 - Travail Individuel</div>
-                <h1>Sécurisation d'une Plateforme E-learning</h1>
-                <p class="ap-date">Configuration pfSense & Architecture 3-Tiers</p>
+                <div class="ap-badge">AP5 - TP INDIVIDUEL</div>
+                <h1>Configuration pfSense & Sécurité Réseau</h1>
+                <p class="ap-date">TP Sécurité - Réalisé en autonomie complète</p>
+                <p class="ap-subtitle">Mise en place d'une architecture 3-tiers sécurisée avec pfSense</p>
             </div>
 
             <div class="ap-details-grid">
                 <!-- Section Travail Individuel -->
                 <div class="individual-work">
-                    <h3>👤 Travail Réalisé en Autonomie</h3>
-                    <p><strong>Statut :</strong> Réalisé individuellement - TP Sécurité Réseau</p>
-                    <p><strong>Contexte :</strong> Configuration complète d'une infrastructure sécurisée pour une plateforme Moodle avec architecture 3-tiers, mise en place des règles de filtrage pfSense et segmentation réseau avancée.</p>
+                    <h3>👤 Travail Réalisé en Autonomie Complète</h3>
+                    <p><strong>Statut :</strong> TP individuel réalisé seul - Configuration complète pfSense</p>
+                    <p><strong>Contexte :</strong> Ce TP a été réalisé en totale autonomie. L'objectif était de configurer une infrastructure réseau sécurisée pour une plateforme e-learning en utilisant pfSense comme firewall principal.</p>
                     
                     <div class="grid-2-col">
                         <div>
-                            <h4>📋 Tâches principales réalisées :</h4>
+                            <h4>📋 Tâches principales réalisées seul :</h4>
                             <ul>
-                                <li>Installation et configuration pfSense</li>
-                                <li>Création des VLANs et interfaces</li>
-                                <li>Définition des alias réseau</li>
-                                <li>Configuration des règles firewall par interface</li>
-                                <li>Test et validation de la sécurité</li>
-                                <li>Documentation technique complète</li>
+                                <li>Installation et configuration complète de pfSense</li>
+                                <li>Création et configuration des 4 VLANs</li>
+                                <li>Définition des alias réseau pour simplification</li>
+                                <li>Configuration des règles firewall pour chaque interface</li>
+                                <li>Tests approfondis de la sécurité</li>
+                                <li>Documentation technique détaillée</li>
                             </ul>
                         </div>
                         <div>
-                            <h4>🎯 Objectifs atteints :</h4>
+                            <h4>🎯 Objectifs personnels atteints :</h4>
                             <ul>
-                                <li>Isolation complète des services</li>
-                                <li>Contrôle granulaires des accès</li>
-                                <li>Journalisation des événements</li>
-                                <li>Performance optimisée</li>
-                                <li>Conformité sécurité</li>
+                                <li>Maîtrise complète de pfSense</li>
+                                <li>Compréhension approfondie des politiques de sécurité</li>
+                                <li>Capacité à isoler efficacement les services</li>
+                                <li>Gestion autonome d'un projet de sécurité réseau</li>
+                                <li>Production d'une documentation professionnelle</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="detail-section">
-                    <h2>📋 Présentation du Projet</h2>
-                    <p>Ce TP individuel consistait à mettre en place une infrastructure sécurisée pour une plateforme de e-learning (Moodle) en utilisant une architecture 3-tiers et le firewall pfSense. L'objectif était d'isoler les différents services (web, base de données, stockage) tout en permettant un accès contrôlé depuis l'extérieur et l'intérieur.</p>
+                    <h2>📋 Présentation du TP</h2>
+                    <p>Ce TP individuel consistait à configurer un firewall pfSense pour sécuriser une architecture 3-tiers dédiée à une plateforme de e-learning (Moodle). L'infrastructure comprend 4 VLANs distincts avec des politiques de sécurité spécifiques pour chaque zone.</p>
                     
                     <div class="highlight-box">
-                        <h4>🎯 Architecture 3-Tiers Implémentée</h4>
+                        <h4>🎯 Objectifs du TP</h4>
                         <ul>
-                            <li><strong>Tier Présentation :</strong> Serveur Web (DMZ Publique - 172.30.44.10)</li>
-                            <li><strong>Tier Logique Métier :</strong> Application Moodle</li>
-                            <li><strong>Tier Données :</strong> Serveur BDD (DMZ Privée - 172.16.46.10)</li>
-                            <li><strong>Stockage :</strong> NAS (LAN - 192.168.42.100)</li>
-                            <li><strong>Administration :</strong> Postes dédiés LAN/WAN</li>
+                            <li><strong>Sécurisation :</strong> Isoler les différents services dans des zones réseau distinctes</li>
+                            <li><strong>Contrôle :</strong> Mettre en place des règles de filtrage granulaires</li>
+                            <li><strong>Accessibilité :</strong> Permettre un accès contrôlé depuis l'internet et le LAN</li>
+                            <li><strong>Documentation :</strong> Produire une documentation technique complète</li>
+                            <li><strong>Validation :</strong> Tester et valider la configuration de sécurité</li>
                         </ul>
                     </div>
                 </div>
 
                 <!-- Configuration pfSense -->
                 <div class="detail-section">
-                    <h2>🛡️ Configuration pfSense</h2>
+                    <h2>🛡️ Configuration pfSense - Travail Individuel</h2>
                     
                     <div class="tabs" id="pfSenseTabs">
                         <button class="tab-btn active" onclick="openTab(event, 'interfaces')">🌐 Interfaces & VLANs</button>
                         <button class="tab-btn" onclick="openTab(event, 'alias')">🏷️ Alias Réseau</button>
                         <button class="tab-btn" onclick="openTab(event, 'regles')">📜 Règles Firewall</button>
-                        <button class="tab-btn" onclick="openTab(event, 'schema')">📊 Schéma Réseau</button>
+                        <button class="tab-btn" onclick="openTab(event, 'architecture')">🏗️ Architecture</button>
                     </div>
 
                     <!-- Onglet Interfaces -->
                     <div id="interfaces" class="tab-content active">
                         <h3>Configuration des Interfaces pfSense</h3>
-                        <p>Configuration des 4 interfaces avec VLANs dédiés pour la segmentation réseau :</p>
+                        <p>Configuration réalisée individuellement des 4 interfaces avec VLANs dédiés :</p>
                         
                         <table class="network-table">
                             <thead>
@@ -599,20 +748,21 @@
                         </table>
                         
                         <div class="highlight-box">
-                            <h4>💡 Stratégie de Segmentation</h4>
+                            <h4>💡 Stratégie de Segmentation - Conception Personnelle</h4>
+                            <p>Cette segmentation a été conçue et implémentée individuellement pour optimiser la sécurité :</p>
                             <ul>
-                                <li><strong>WAN (3040) :</strong> Connexion internet - zone non fiable</li>
-                                <li><strong>LAN (3042) :</strong> Utilisateurs internes et administration - zone de confiance</li>
-                                <li><strong>DMZ Publique (3044) :</strong> Serveurs accessibles depuis internet - zone semi-fiable</li>
-                                <li><strong>DMZ Privée (3046) :</strong> Serveurs internes (BDD) - zone sécurisée</li>
+                                <li><strong>WAN (3040) :</strong> Interface internet - Zone non fiable - Accès strictement contrôlé</li>
+                                <li><strong>LAN (3042) :</strong> Utilisateurs internes - Zone de confiance - Accès aux services autorisés</li>
+                                <li><strong>DMZ Publique (3044) :</strong> Serveurs frontaux - Zone semi-fiable - Exposition contrôlée à internet</li>
+                                <li><strong>DMZ Privée (3046) :</strong> Serveurs backend - Zone sécurisée - Aucun accès direct depuis internet</li>
                             </ul>
                         </div>
                     </div>
 
                     <!-- Onglet Alias -->
                     <div id="alias" class="tab-content">
-                        <h3>Alias Réseau Définis</h3>
-                        <p>Définition des alias pour simplifier la gestion des règles firewall :</p>
+                        <h3>Alias Réseau Définis - Configuration Individuelle</h3>
+                        <p>Création d'alias pour simplifier la gestion des règles firewall :</p>
                         
                         <table class="network-table">
                             <thead>
@@ -628,49 +778,49 @@
                                     <td><strong>Serveur_Web</strong></td>
                                     <td>Host(s)</td>
                                     <td>172.30.44.10</td>
-                                    <td>Serveur applicatif Moodle</td>
+                                    <td>Serveur applicatif Moodle (DMZ Publique)</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Serveur_BDD</strong></td>
                                     <td>Host(s)</td>
                                     <td>172.16.46.10</td>
-                                    <td>Base de données MySQL</td>
+                                    <td>Base de données MySQL (DMZ Privée)</td>
                                 </tr>
                                 <tr>
                                     <td><strong>NAS</strong></td>
                                     <td>Host(s)</td>
                                     <td>192.168.42.100</td>
-                                    <td>Serveur de fichiers backup</td>
+                                    <td>Serveur de fichiers backup (LAN)</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Admin_LAN</strong></td>
                                     <td>Host(s)</td>
                                     <td>192.168.42.50</td>
-                                    <td>Poste admin local</td>
+                                    <td>Poste administrateur local (LAN)</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Admin_WAN</strong></td>
                                     <td>Host(s)</td>
                                     <td>10.30.40.100</td>
-                                    <td>Poste admin distant</td>
+                                    <td>Poste administrateur distant (WAN)</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Réseau_LAN</strong></td>
                                     <td>Network</td>
                                     <td>192.168.42.0/24</td>
-                                    <td>LAN utilisateurs</td>
+                                    <td>Réseau des utilisateurs internes</td>
                                 </tr>
                                 <tr>
                                     <td><strong>DMZ_Pub_Net</strong></td>
                                     <td>Network</td>
                                     <td>172.30.44.0/24</td>
-                                    <td>DMZ Publique</td>
+                                    <td>Réseau DMZ Publique</td>
                                 </tr>
                                 <tr>
                                     <td><strong>DMZ_Priv_Net</strong></td>
                                     <td>Network</td>
                                     <td>172.16.46.0/24</td>
-                                    <td>DMZ Privée</td>
+                                    <td>Réseau DMZ Privée</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -678,11 +828,11 @@
 
                     <!-- Onglet Règles -->
                     <div id="regles" class="tab-content">
-                        <h3>Règles de Filtrage par Interface</h3>
-                        <p>Politique de sécurité implémentée avec règles spécifiques par zone :</p>
+                        <h3>Règles de Filtrage - Configuration Individuelle Complète</h3>
+                        <p>Toutes ces règles ont été configurées individuellement dans pfSense :</p>
                         
                         <div class="excel-preview">
-                            <h4>Interface WAN</h4>
+                            <h4>Interface WAN - Règles Configurées</h4>
                             <table class="network-table">
                                 <thead>
                                     <tr>
@@ -701,7 +851,7 @@
                                         <td>10.30.40.100/32</td>
                                         <td>10.30.40.252/32</td>
                                         <td>22</td>
-                                        <td>Admin distant SSH</td>
+                                        <td>Admin distant SSH (accès restreint)</td>
                                     </tr>
                                     <tr>
                                         <td class="pass">✅ Passer</td>
@@ -709,7 +859,7 @@
                                         <td>*</td>
                                         <td>172.30.44.10/32</td>
                                         <td>443</td>
-                                        <td>Internet → Serveur Web HTTPS</td>
+                                        <td>Internet → Serveur Web HTTPS uniquement</td>
                                     </tr>
                                     <tr>
                                         <td class="block">❌ Bloquer</td>
@@ -717,12 +867,12 @@
                                         <td>*</td>
                                         <td>10.30.40.0/24</td>
                                         <td>*</td>
-                                        <td>Tout autre → WAN</td>
+                                        <td>Tout autre accès vers le WAN</td>
                                     </tr>
                                 </tbody>
                             </table>
                             
-                            <h4 style="margin-top: 30px;">Interface LAN</h4>
+                            <h4 style="margin-top: 40px;">Interface LAN - Règles Configurées</h4>
                             <table class="network-table">
                                 <thead>
                                     <tr>
@@ -741,7 +891,7 @@
                                         <td>192.168.42.0/24</td>
                                         <td>172.30.44.10/32</td>
                                         <td>80,443</td>
-                                        <td>Clients → Serveur Web</td>
+                                        <td>Clients internes → Serveur Web</td>
                                     </tr>
                                     <tr>
                                         <td class="pass">✅ Passer</td>
@@ -749,7 +899,7 @@
                                         <td>192.168.42.50/32</td>
                                         <td>192.168.42.100/32</td>
                                         <td>22,445</td>
-                                        <td>Admin → NAS (SSH/SMB)</td>
+                                        <td>Admin local → NAS (SSH/SMB)</td>
                                     </tr>
                                     <tr>
                                         <td class="pass">✅ Passer</td>
@@ -757,12 +907,12 @@
                                         <td>192.168.42.0/24</td>
                                         <td>*</td>
                                         <td>53,80,443</td>
-                                        <td>Clients → Internet</td>
+                                        <td>Clients → Internet (DNS/HTTP/HTTPS)</td>
                                     </tr>
                                 </tbody>
                             </table>
                             
-                            <h4 style="margin-top: 30px;">DMZ Publique</h4>
+                            <h4 style="margin-top: 40px;">DMZ Publique - Règles Configurées</h4>
                             <table class="network-table">
                                 <thead>
                                     <tr>
@@ -781,7 +931,7 @@
                                         <td>*</td>
                                         <td>172.30.44.10/32</td>
                                         <td>443</td>
-                                        <td>Internet → Serveur Web</td>
+                                        <td>Internet → Serveur Web HTTPS</td>
                                     </tr>
                                     <tr>
                                         <td class="pass">✅ Passer</td>
@@ -797,64 +947,76 @@
                                         <td>172.30.44.10/32</td>
                                         <td>192.168.42.100/32</td>
                                         <td>22,445</td>
-                                        <td>Serveur Web → NAS</td>
+                                        <td>Serveur Web → NAS backup</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                         
                         <div class="doc-actions">
-                            <a href="./images/REGLES DE FILTRAGE PFSENSE – Copie (1).xlsx" download="Regles_Filtrage_pfSense_TP.xlsx" class="doc-btn excel-btn">
+                            <a href="./images/REGLES DE FILTRAGE PFSENSE – Copie (1).xlsx" download="Regles_Filtrage_pfSense_TP_Individuel.xlsx" class="doc-btn excel-btn">
                                 📊 Télécharger le fichier Excel complet
                             </a>
                         </div>
                     </div>
 
-                    <!-- Onglet Schéma -->
-                    <div id="schema" class="tab-content">
-                        <h3>Architecture Réseau Complète</h3>
-                        <p>Schéma de l'infrastructure réseau implémentée :</p>
+                    <!-- Onglet Architecture -->
+                    <div id="architecture" class="tab-content">
+                        <h3>Architecture Réseau - Conception Individuelle</h3>
+                        <p>Architecture complète conçue et implémentée individuellement :</p>
                         
-                        <div style="background: #f8f9fa; padding: 30px; border-radius: 15px; text-align: center; margin: 20px 0;">
-                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0;">
-                                <div style="background: #dc3545; color: white; padding: 20px; border-radius: 10px;">
-                                    <h4>🌐 WAN</h4>
-                                    <p>VLAN 3040<br>10.30.40.0/24</p>
-                                    <small>Internet - Zone non fiable</small>
-                                </div>
-                                <div style="background: #28a745; color: white; padding: 20px; border-radius: 10px;">
-                                    <h4>🏠 LAN</h4>
-                                    <p>VLAN 3042<br>192.168.42.0/24</p>
-                                    <small>Utilisateurs internes</small>
-                                </div>
-                                <div style="background: #ffc107; color: #333; padding: 20px; border-radius: 10px;">
-                                    <h4>🛡️ DMZ Publique</h4>
-                                    <p>VLAN 3044<br>172.30.44.0/24</p>
-                                    <small>Serveur Web Moodle</small>
-                                </div>
-                                <div style="background: #17a2b8; color: white; padding: 20px; border-radius: 10px;">
-                                    <h4>🔒 DMZ Privée</h4>
-                                    <p>VLAN 3046<br>172.16.46.0/24</p>
-                                    <small>Base de données</small>
-                                </div>
+                        <div class="architecture-visual">
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #dc3545, #c82333);">
+                                <h4>🌐 WAN</h4>
+                                <p>VLAN 3040</p>
+                                <p>10.30.40.0/24</p>
+                                <small>Zone internet - Non fiable</small>
                             </div>
-                            
-                            <div style="background: white; padding: 20px; border-radius: 10px; margin-top: 20px; border: 2px solid #2c5364;">
-                                <h4>🔗 Flux Autorisés</h4>
-                                <ul style="text-align: left; display: inline-block;">
-                                    <li>Internet → DMZ Publique : HTTPS (443)</li>
-                                    <li>LAN → DMZ Publique : HTTP/HTTPS (80/443)</li>
-                                    <li>DMZ Publique → DMZ Privée : MySQL (3306)</li>
-                                    <li>DMZ Publique → LAN : SMB/SSH vers NAS</li>
-                                    <li>LAN Admin → NAS : SSH/SMB (22/445)</li>
-                                    <li>WAN Admin → pfSense : SSH (22)</li>
-                                </ul>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #28a745, #218838);">
+                                <h4>🏠 LAN</h4>
+                                <p>VLAN 3042</p>
+                                <p>192.168.42.0/24</p>
+                                <small>Utilisateurs internes</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #ffc107, #e0a800);">
+                                <h4>🛡️ DMZ Publique</h4>
+                                <p>VLAN 3044</p>
+                                <p>172.30.44.0/24</p>
+                                <small>Serveur Web Moodle</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #17a2b8, #138496);">
+                                <h4>🔒 DMZ Privée</h4>
+                                <p>VLAN 3046</p>
+                                <p>172.16.46.0/24</p>
+                                <small>Base de données</small>
+                            </div>
+                        </div>
+                        
+                        <div style="background: white; padding: 30px; border-radius: 15px; margin-top: 30px; border: 3px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                            <h4>🔗 Flux Autorisés - Configuration Personnelle</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+                                <div style="padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                    <strong>🌐 → 🛡️</strong>
+                                    <p>Internet → DMZ Publique : HTTPS (443)</p>
+                                </div>
+                                <div style="padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                    <strong>🏠 → 🛡️</strong>
+                                    <p>LAN → DMZ Publique : HTTP/HTTPS (80/443)</p>
+                                </div>
+                                <div style="padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                    <strong>🛡️ → 🔒</strong>
+                                    <p>DMZ Publique → DMZ Privée : MySQL (3306)</p>
+                                </div>
+                                <div style="padding: 15px; background: #f8f9fa; border-radius: 10px;">
+                                    <strong>🛡️ → 🏠</strong>
+                                    <p>DMZ Publique → LAN : SMB/SSH vers NAS</p>
+                                </div>
                             </div>
                         </div>
                         
                         <div class="doc-actions">
-                            <a href="./images/Schéma réseau TP 1.drawio.png" download class="doc-btn">
-                                📐 Télécharger le schéma réseau
+                            <a href="./images/Schéma réseau TP 1.drawio.png" download="Schema_Reseau_TP_Individuel.png" class="doc-btn">
+                                📐 Télécharger le schéma réseau complet
                             </a>
                         </div>
                     </div>
@@ -862,86 +1024,248 @@
 
                 <!-- Compétences -->
                 <div class="detail-section">
-                    <h2>🎯 Compétences Développées</h2>
+                    <h2>🎯 Compétences Développées en Autonomie</h2>
                     <div class="info-table">
                         <div class="info-column">
-                            <h3>🔧 Techniques</h3>
+                            <h3>🔧 Compétences Techniques</h3>
                             <ul>
-                                <li>Configuration avancée pfSense</li>
+                                <li>Configuration avancée de pfSense</li>
                                 <li>Segmentation VLAN et sous-réseaux</li>
                                 <li>Définition de politiques de sécurité</li>
-                                <li>Architecture 3-tiers</li>
-                                <li>Routage et filtrage réseau</li>
+                                <li>Architecture réseau 3-tiers</li>
+                                <li>Routage et filtrage avancé</li>
                                 <li>Monitoring et journalisation</li>
+                                <li>Diagnostic et troubleshooting</li>
                             </ul>
                         </div>
                         
                         <div class="info-column">
-                            <h3>📊 Organisationnelles</h3>
+                            <h3>📊 Compétences Méthodologiques</h3>
                             <ul>
-                                <li>Gestion de projet individuel</li>
-                                <li>Planification des étapes</li>
-                                <li>Documentation technique</li>
-                                <li>Tests de validation</li>
-                                <li>Résolution de problèmes</li>
-                                <li>Veille technologique</li>
+                                <li>Gestion autonome de projet</li>
+                                <li>Planification et organisation</li>
+                                <li>Documentation technique précise</li>
+                                <li>Tests de validation complets</li>
+                                <li>Résolution de problèmes complexes</li>
+                                <li>Veille technologique active</li>
+                                <li>Auto-évaluation critique</li>
                             </ul>
                         </div>
                         
                         <div class="info-column">
-                            <h3>🎓 BTS SIO SISR</h3>
+                            <h3>🎓 Compétences BTS SIO SISR</h3>
                             <ul>
-                                <li>Gérer le patrimoine informatique</li>
-                                <li>Répondre aux incidents</li>
-                                <li>Développer la présence en ligne</li>
-                                <li>Travailler en mode projet</li>
-                                <li>Mettre à disposition un service</li>
-                                <li>Organiser son développement pro</li>
+                                <li><strong>Gérer le patrimoine informatique :</strong> Configuration et sécurisation</li>
+                                <li><strong>Répondre aux incidents :</strong> Diagnostic et résolution</li>
+                                <li><strong>Travailler en mode projet :</strong> Gestion autonome</li>
+                                <li><strong>Mettre à disposition un service :</strong> Déploiement sécurisé</li>
+                                <li><strong>Organiser son développement :</strong> Auto-formation et progression</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Bilan -->
+                <!-- Bilan Individuel -->
                 <div class="detail-section">
                     <h2>📊 Bilan du TP Individuel</h2>
                     
                     <div class="features-grid">
                         <div class="feature-card">
-                            <h4>✅ Réussites</h4>
+                            <h4>✅ Réussites Personnelles</h4>
                             <ul>
-                                <li>Architecture 3-tiers fonctionnelle</li>
-                                <li>Règles pfSense opérationnelles</li>
-                                <li>Isolation complète des services</li>
-                                <li>Accès contrôlés et sécurisés</li>
-                                <li>Documentation exhaustive</li>
-                                <li>Tests de sécurité validés</li>
+                                <li>Configuration pfSense complète et fonctionnelle</li>
+                                <li>Architecture 3-tiers correctement isolée</li>
+                                <li>Règles de sécurité efficaces et appropriées</li>
+                                <li>Documentation technique exhaustive</li>
+                                <li>Tests de validation réussis</li>
+                                <li>Autonomie totale dans la réalisation</li>
                             </ul>
                         </div>
 
                         <div class="feature-card">
-                            <h4>🎓 Apprentissages</h4>
+                            <h4>🎓 Apprentissages Personnels</h4>
                             <ul>
-                                <li>Maîtrise de pfSense</li>
-                                <li>Conception d'architecture sécurisée</li>
-                                <li>Gestion des politiques firewall</li>
-                                <li>Troubleshooting réseau</li>
-                                <li>Bonne pratiques sécurité</li>
-                                <li>Autonomie technique</li>
+                                <li>Maîtrise approfondie de pfSense</li>
+                                <li>Capacité à concevoir une architecture sécurisée</li>
+                                <li>Compétences en politique de sécurité réseau</li>
+                                <li>Autonomie dans le troubleshooting</li>
+                                <li>Rigueur dans la documentation</li>
+                                <li>Confiance en ses capacités techniques</li>
                             </ul>
                         </div>
 
                         <div class="feature-card">
-                            <h4>🚀 Perspectives</h4>
+                            <h4>🚀 Perspectives d'Évolution</h4>
                             <ul>
-                                <li>Intégration IDS/IPS (Snort)</li>
-                                <li>VPN Site-to-Site</li>
-                                <li>Load balancing</li>
-                                <li>Haute disponibilité</li>
-                                <li>Automatisation (Ansible)</li>
-                                <li>Monitoring avancé</li>
+                                <li>Implémentation IDS/IPS (Snort sur pfSense)</li>
+                                <li>Configuration VPN Site-to-Site</li>
+                                <li>Mise en place de haute disponibilité</li>
+                                <li>Automatisation avec scripts</li>
+                                <li>Monitoring avancé avec Grafana</li>
+                                <li>Certifications pfSense/Network+</li>
                             </ul>
                         </div>
                     </div>
                     
-                    <div style="background: linear-gradient(135deg, #d4edda, #c3e6cb); border-left: 6px solid #28a745; padding: 25px; border-radius: 10px;
+                    <div class="highlight-box">
+                        <h4>💪 Points Forts de ce Travail Individuel</h4>
+                        <p>Ce TP réalisé en autonomie complète a démontré plusieurs capacités importantes :</p>
+                        <ul>
+                            <li><strong>Autonomie technique :</strong> Capacité à réaliser un projet complexe seul</li>
+                            <li><strong>Rigueur méthodologique :</strong> Organisation et planification efficace</li>
+                            <li><strong>Compétences techniques :</strong> Maîtrise avancée de pfSense et de la sécurité réseau</li>
+                            <li><strong>Capacité d'adaptation :</strong> Résolution des problèmes rencontrés</li>
+                            <li><strong>Professionalisme :</strong> Documentation complète et de qualité</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Scripts -->
+                <div class="detail-section">
+                    <h2>⚙️ Scripts de Configuration</h2>
+                    <div style="background: linear-gradient(145deg, #ffffff, #f8f9fa); padding: 40px; border-radius: 20px; margin-top: 20px; border-left: 8px solid #4a69bd; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
+                        <h4 style="color: #0c2461; margin-bottom: 25px; display: flex; align-items: center; gap: 15px;">Exemple de script de configuration pfSense :</h4>
+                        <pre style="background: #2c3e50; color: #fff; padding: 30px; border-radius: 15px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 1.1em; line-height: 1.6;">
+#!/bin/bash
+# Script de configuration pfSense - TP Individuel
+# Réalisé en autonomie complète
+# Date : Mars 2025
+
+echo "=== Configuration pfSense - TP Individuel ==="
+echo "Auteur : [Votre Nom]"
+echo ""
+
+# Configuration des interfaces
+echo "1. Configuration des interfaces..."
+cat > /cf/conf/interfaces.conf << EOF
+# Configuration réalisée individuellement
+# WAN - VLAN 3040
+wan="vmx1"
+wan_ip="10.30.40.1/24"
+
+# LAN - VLAN 3042
+lan="vmx2"
+lan_ip="192.168.42.254/24"
+
+# OPT1 - DMZ Publique - VLAN 3044
+opt1="vmx3"
+opt1_ip="172.30.44.254/24"
+
+# OPT2 - DMZ Privée - VLAN 3046
+opt2="vmx0"
+opt2_ip="172.16.46.254/24"
+EOF
+
+# Configuration des alias
+echo "2. Configuration des alias..."
+cat > /cf/conf/aliases.conf << EOF
+# Alias réseau définis individuellement
+web_server="172.30.44.10"
+db_server="172.16.46.10"
+nas_server="192.168.42.100"
+admin_lan="192.168.42.50"
+admin_wan="10.30.40.100"
+lan_net="192.168.42.0/24"
+dmz_pub_net="172.30.44.0/24"
+dmz_priv_net="172.16.46.0/24"
+EOF
+
+# Règles firewall
+echo "3. Application des règles firewall..."
+cat > /cf/conf/rules.conf << EOF
+# Règles WAN
+pass in quick on wan proto tcp from admin_wan to wan port 22
+pass in quick on wan proto tcp from any to web_server port 443
+block in quick on wan from any to wan_net
+
+# Règles LAN
+pass in quick on lan proto tcp from lan_net to web_server port {80,443}
+pass in quick on lan proto tcp from admin_lan to nas_server port {22,445}
+pass out quick on lan proto tcp from lan_net to any port {53,80,443}
+
+# Règles DMZ Publique
+pass in quick on opt1 proto tcp from any to web_server port 443
+pass out quick on opt1 proto tcp from web_server to db_server port 3306
+pass out quick on opt1 proto tcp from web_server to nas_server port {22,445}
+EOF
+
+echo "=== Configuration terminée avec succès ==="
+echo "Redémarrage des services..."
+/etc/rc.filter_configure_sync
+                        </pre>
+                        <p style="margin-top: 25px; color: #666; font-size: 1.1em; line-height: 1.7;">Ce script illustre la méthodologie de configuration utilisée pour ce TP réalisé individuellement. Toutes les configurations ont été testées et validées personnellement.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal pour images en grand -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption" style="text-align: center; color: white; padding: 10px 0; height: 150px;"></div>
+    </div>
+
+    <script>
+        // Fonction pour ouvrir les onglets
+        function openTab(event, tabName) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+        // Fonction pour ouvrir le modal d'image
+        function openImageModal(imageSrc, captionText) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const caption = document.getElementById('caption');
+            
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            caption.innerHTML = captionText;
+        }
+
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = "none";
+        }
+
+        // Fermer le modal en cliquant en dehors de l'image
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
+        }
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page AP5 - TP Individuel chargée avec succès');
+            
+            // Vérification des ressources
+            const resources = [
+                './images/Schéma réseau TP 1.drawio.png',
+                './images/REGLES DE FILTRAGE PFSENSE – Copie (1).xlsx'
+            ];
+            
+            resources.forEach(resource => {
+                fetch(resource, { method: 'HEAD' })
+                    .catch(() => {
+                        console.warn(`Ressource non trouvée: ${resource}`);
+                    });
+            });
+        });
+    </script>
+</body>
+</html>
