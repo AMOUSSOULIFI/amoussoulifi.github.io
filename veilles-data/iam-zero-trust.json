@@ -20,4 +20,34 @@
     "date": "2026-01-14",
     "analysis": "L’article relie Zero Trust au DevOps, montrant comment sécuriser les pipelines CI/CD. Cela démontre que Zero Trust ne concerne pas seulement l’accès, mais aussi l’automatisation sécurisée."
   }
+  
+  {
+    "title": "Cloudflare propose une solution Zero Trust cloud‑native prête pour l’informatique quantique",
+    "link": "https://www.cloudflare.com/fr-fr/press/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/",
+    "source": "Cloudflare Press",
+    "date": "2025-11-05",
+    "analysis": "Cloudflare annonce une solution Zero Trust cloud‑native intégrant la cryptographie post‑quantique pour renforcer l’accès sécurisé aux applications et données d’entreprise. Cela montre l’évolution des solutions Zero Trust vers des protections avancées, essentiel pour architecturer des environnements réseau sécurisés."
+  },
+  {
+    "title": "Secure Workload Access Solution : nouvelle approche pour sécuriser les identités de machines",
+    "link": "https://www.businesswire.com/news/home/20250410849992/fr",
+    "source": "BusinessWire / CyberArk",
+    "date": "2025-11-20",
+    "analysis": "CyberArk dévoile une solution qui gère automatiquement les identités de machines et la rotation des secrets dans des environnements hybrides et cloud. Utile pour appliquer les principes Zero Trust sur les workloads et réduire les risques d’accès non autorisés."
+  },
+  {
+    "title": "Principes Zero Trust dans des environnements DevSecOps",
+    "link": "https://medium.com/@devopshub/zero-trust-principles-in-devsecops-environments-a84ecd9bb4f5",
+    "source": "Medium – DevOps Security Hub",
+    "date": "2025-12-07",
+    "analysis": "L’article explique l’intégration des principes Zero Trust dans des workflows DevSecOps, soulignant l’importance de l’authentification continue et du moindre privilège. Utile pour comprendre comment Zero Trust s’applique au développement et à l’exploitation."
+  },
+  {
+    "title": "Renforcement de l’authentification multi-facteurs par Microsoft",
+    "link": "https://learn.microsoft.com/fr-fr/azure/active-directory/authentication/concept-authentication-authenticator-app",
+    "source": "Microsoft Docs",
+    "date": "2025-12-15",
+    "analysis": "Microsoft met en avant l’usage de l’application Authenticator et des bonnes pratiques MFA pour sécuriser les identités. Très pertinent pour sécuriser les accès et s’aligner avec les concepts Zero Trust."
+  }
+
 ]
