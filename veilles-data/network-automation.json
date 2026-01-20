@@ -1,5 +1,40 @@
 {
   "theme": "DevOps & Cloud",
-  "articles": []
+  "articles": [
+    {
+      "title": "Documentation Ansible en français",
+      "link": "https://docs.ansible.com/ansible/latest/user_guide/index.html",
+      "source": "Ansible Docs",
+      "period": "2025-11-10",
+      "analysis": "Ansible automatise la configuration des serveurs et permet des déploiements répétables et fiables."
+    },
+    {
+      "title": "Introduction à Kubernetes",
+      "link": "https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/",
+      "source": "Kubernetes",
+      "period": "2025-12-05",
+      "analysis": "Kubernetes facilite le déploiement et la gestion de conteneurs, indispensable pour les infrastructures cloud modernes."
+    },
+    {
+      "title": "GitHub Actions pour le CI/CD",
+      "link": "https://docs.github.com/fr/actions",
+      "source": "GitHub Docs",
+      "period": "2025-12-18",
+      "analysis": "Automatiser les workflows CI/CD réduit les erreurs humaines et accélère les déploiements."
+    },
+    {
+      "title": "Terraform et l'infrastructure as code",
+      "link": "https://developer.hashicorp.com/terraform/intro",
+      "source": "HashiCorp",
+      "period": "2026-01-08",
+      "analysis": "Terraform permet de gérer l’infrastructure comme du code, pour plus de traçabilité et de reproductibilité."
+    },
+    {
+      "title": "Automatisation des tests avec Jenkins",
+      "link": "https://www.jenkins.io/doc/",
+      "source": "Jenkins Docs",
+      "period": "2026-01-15",
+      "analysis": "Jenkins facilite l’intégration continue et le déploiement automatisé des projets."
+    }
+  ]
 }
-
