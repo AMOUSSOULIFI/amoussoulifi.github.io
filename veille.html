@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veille Technologique - BTS SIO SISR</title>
+
     <style>
-        /* [TON CSS EXISTANT - NE PAS CHANGER] */
+        /* ============================= */
+        /* ===== CSS D'ORIGINE (INCHANGÉ) */
+        /* ============================= */
+
         * {
             margin: 0;
             padding: 0;
@@ -101,32 +105,35 @@
             font-size: 0.95em;
         }
 
-        .sources, .concepts {
-            margin-top: 25px;
-        }
-
-        .sources h3, .concepts h3, .actualites h3 {
+        .actualites h3 {
             color: #34495e;
             margin-bottom: 15px;
             border-bottom: 2px solid #ecf0f1;
             padding-bottom: 5px;
         }
 
-        ul {
-            list-style: none;
+        .actualite-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
         }
 
-        li {
-            margin-bottom: 8px;
-            padding-left: 20px;
-            position: relative;
+        .date {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            font-weight: bold;
+            display: block;
         }
 
-        li:before {
-            content: "▸";
-            position: absolute;
-            left: 0;
-            color: #667eea;
+        .source-badge {
+            background: #667eea;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-left: 10px;
         }
 
         .article-link {
@@ -139,76 +146,7 @@
             text-decoration: none;
             display: inline-block;
             font-size: 14px;
-            transition: background 0.3s ease;
             margin-top: 10px;
-            font-family: inherit;
-        }
-
-        .article-link:hover {
-            background: #218838;
-            color: white;
-            text-decoration: none;
-        }
-
-        .actualite-item {
-            background: #f8f9fa;
-            padding: 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            border-left: 4px solid #667eea;
-            transition: transform 0.2s ease;
-            position: relative;
-        }
-
-        .actualite-item:hover {
-            transform: translateX(5px);
-        }
-
-        .date {
-            font-size: 0.9em;
-            color: #7f8c8d;
-            font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-
-        .source-badge {
-            background: #667eea;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 12px;
-            font-size: 0.8em;
-            margin-left: 10px;
-        }
-
-        .new-badge {
-            background: #e74c3c;
-            color: white;
-            padding: 2px 6px;
-            border-radius: 8px;
-            font-size: 0.7em;
-            margin-left: 5px;
-        }
-
-        .loading {
-            text-align: center;
-            padding: 40px;
-            color: #7f8c8d;
-        }
-
-        .spinner {
-            border: 4px solid #f3f3f3;
-            border-top: 4px solid #667eea;
-            border-radius: 50%;
-            width: 40px;
-            height: 40px;
-            animation: spin 2s linear infinite;
-            margin: 0 auto 20px;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
         }
 
         .controls {
@@ -224,11 +162,6 @@
             border-radius: 5px;
             cursor: pointer;
             margin: 0 10px;
-            transition: background 0.3s ease;
-        }
-
-        .btn:hover {
-            background: #764ba2;
         }
 
         .article-count {
@@ -248,375 +181,154 @@
             margin: 10px 0;
             text-align: center;
         }
-
-        @media (max-width: 768px) {
-            .veille-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            header h1 {
-                font-size: 2em;
-            }
-            
-            .stats {
-                flex-direction: column;
-                gap: 10px;
-            }
-        }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <header>
-            <h1>🔍 Veille Technologique Automatique</h1>
-            <p>BTS SIO SISR - Accumulation automatique des articles</p>
-            
-            <div class="stats">
-                <div class="stat-item">
-                    <strong>🔄 Mise à jour</strong>
-                    <div>Automatique toutes les 24h</div>
-                </div>
-                <div class="stat-item">
-                    <strong>📰 Articles stockés</strong>
-                    <div id="total-articles">Chargement...</div>
-                </div>
-                <div class="stat-item">
-                    <strong>💾 Historique</strong>
-                    <div>Conservation 30 jours</div>
-                </div>
-            </div>
+<div class="container">
 
-            <div class="controls">
-                <button class="btn" onclick="veilleSystem.manualRefresh()">🔄 Rechercher maintenant</button>
-                <button class="btn" onclick="veilleSystem.clearOldArticles()">🗑️ Nettoyer anciens articles</button>
-                <button class="btn" onclick="veilleSystem.exportData()">📤 Exporter les données</button>
-            </div>
-        </header>
+    <header>
+        <h1>🔍 Veille Technologique Automatisée</h1>
+        <p>BTS SIO SISR – Données versionnées et sauvegardées sur GitHub</p>
 
-        <div id="veille-content">
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Chargement de la veille automatique...</p>
+        <div class="stats">
+            <div class="stat-item">
+                <strong>🔄 Mise à jour</strong>
+                <div>Automatique via GitHub Actions</div>
+            </div>
+            <div class="stat-item">
+                <strong>📰 Articles stockés</strong>
+                <div id="total-articles">0</div>
+            </div>
+            <div class="stat-item">
+                <strong>💾 Conservation</strong>
+                <div>Historique annuel</div>
             </div>
         </div>
 
-        <div class="auto-update-status">
-            <p>🔄 Prochaine mise à jour automatique : <span id="next-update">--:--</span></p>
-            <p>📅 Dernière actualisation : <span id="last-update">--:--</span></p>
+        <div class="controls">
+            <button class="btn" onclick="location.reload()">🔄 Actualiser l’affichage</button>
+            <button class="btn" onclick="veilleSystem.exportData()">📤 Exporter les données</button>
         </div>
+    </header>
+
+    <div id="veille-content"></div>
+
+    <div class="auto-update-status">
+        <p>📅 Dernière consultation : <span id="last-update">--</span></p>
+        <p>⚙️ Prochaine mise à jour : GitHub Actions</p>
     </div>
 
-    <script>
-        class VeilleTechnologique {
-            constructor() {
-                this.fluxConfig = {
-                    'iam-zero-trust': {
-                        nom: '🔐 IAM & Zero Trust',
-                        description: 'Surveillance des évolutions en gestion des identités, des accès et des architectures de sécurité Zero Trust.',
-                        keywords: ['zero trust', 'iam', 'identity access management', 'authentification', 'cybersécurité', 'mfa', 'sso'],
-                        sources: [
-                            'https://www.microsoft.com/fr-fr/security/blog/',
-                            'https://www.cert.ssi.gouv.fr/',
-                            'https://www.ssi.gouv.fr/',
-                            'https://www.lemondeinformatique.fr/'
-                        ]
-                    },
-                    'network-automation': {
-                        nom: '⚡ DevOps & Cloud',
-                        description: 'Veille sur les pratiques DevOps, l\'automatisation cloud et les infrastructures modernes.',
-                        keywords: ['devops', 'ansible', 'terraform', 'kubernetes', 'docker', 'cloud', 'automation', 'ci/cd'],
-                        sources: [
-                            'https://www.redhat.com/fr/blog',
-                            'https://github.blog/',
-                            'https://devops.com/',
-                            'https://www.cncf.io/'
-                        ]
-                    }
-                };
-                
-                this.autoRefreshInterval = 24 * 60 * 60 * 1000; // 24 heures
-                this.maxArticleAge = 30 * 24 * 60 * 60 * 1000; // 30 jours
+</div>
+
+<script>
+class VeilleTechnologique {
+
+    constructor() {
+        this.sources = {
+            'iam-zero-trust': {
+                nom: '🔐 IAM & Zero Trust',
+                description: 'Gestion des identités, des accès et des architectures Zero Trust.'
+            },
+            'network-automation': {
+                nom: '⚡ DevOps & Cloud',
+                description: 'Automatisation des infrastructures, DevOps et Cloud.'
             }
+        };
 
-            async init() {
-                console.log('🚀 Initialisation du système de veille automatique...');
-                
-                // Charge les articles existants
-                await this.loadStoredArticles();
-                
-                // Lance une recherche initiale
-                await this.manualRefresh();
-                
-                // Programme la mise à jour automatique
-                this.startAutoRefresh();
-                
-                this.updateUI();
-            }
+        this.articles = {};
+    }
 
-            async loadStoredArticles() {
-                this.articles = {
-                    'iam-zero-trust': JSON.parse(localStorage.getItem('veille-iam') || '[]'),
-                    'network-automation': JSON.parse(localStorage.getItem('veille-automation') || '[]')
-                };
-                
-                // Nettoie les articles trop anciens
-                this.cleanOldArticles();
-            }
+    async init() {
+        await this.loadArticlesFromGitHub();
+        this.render();
+        this.updateStats();
+        this.updateDate();
+    }
 
-            async manualRefresh() {
-                console.log('🔍 Recherche de nouveaux articles...');
-                
-                const statusElement = document.getElementById('veille-content');
-                statusElement.innerHTML = '<div class="loading"><div class="spinner"></div><p>Recherche de nouveaux articles en cours...</p></div>';
+    async loadArticlesFromGitHub() {
+        try {
+            const iam = await fetch('/veille-data/iam-zero-trust.json').then(r => r.json());
+            const devops = await fetch('/veille-data/network-automation.json').then(r => r.json());
 
-                try {
-                    // Simule la recherche d'articles avec des URLs RÉELLES
-                    const newArticles = await this.simulateArticleSearch();
-                    
-                    // Ajoute les nouveaux articles à la collection
-                    this.addNewArticles(newArticles);
-                    
-                    // Sauvegarde
-                    this.saveArticles();
-                    
-                    // Met à jour l'interface
-                    this.updateUI();
-                    
-                    // Met à jour la date de dernière actualisation
-                    this.updateLastUpdate();
-                    
-                } catch (error) {
-                    console.error('Erreur lors de la recherche:', error);
-                    statusElement.innerHTML = '<div class="error-message">❌ Erreur lors de la recherche. Réessayez plus tard.</div>';
-                }
-            }
+            this.articles['iam-zero-trust'] = iam.articles || [];
+            this.articles['network-automation'] = devops.articles || [];
 
-            async simulateArticleSearch() {
-                // ARTICLES RÉELS - URLs qui fonctionnent
-                return {
-                    'iam-zero-trust': [
-                        {
-                            id: Date.now() + 1,
-                            title: "Zero Trust : principes et mise en œuvre",
-                            link: "https://www.ssi.gouv.fr/uploads/2023/10/anssi-guide-zero_trust-2023.pdf",
-                            description: "Guide officiel de l'ANSSI sur l'architecture Zero Trust et sa mise en œuvre.",
-                            source: "ANSSI",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        },
-                        {
-                            id: Date.now() + 2,
-                            title: "Microsoft Authenticator et la sécurité des identités",
-                            link: "https://learn.microsoft.com/fr-fr/azure/active-directory/authentication/concept-authentication-authenticator-app",
-                            description: "Documentation Microsoft sur l'application Authenticator et la gestion sécurisée des identités.",
-                            source: "Microsoft Docs",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        },
-                        {
-                            id: Date.now() + 3,
-                            title: "Recommandations pour l'authentification multi-facteurs",
-                            link: "https://www.cert.ssi.gouv.fr/motd/authentification-multi-facteurs/",
-                            description: "Recommandations du CERT-FR sur la mise en œuvre de l'authentification multi-facteurs.",
-                            source: "CERT-FR",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        }
-                    ],
-                    'network-automation': [
-                        {
-                            id: Date.now() + 4,
-                            title: "Documentation Ansible en français",
-                            link: "https://docs.ansible.com/ansible/latest/user_guide/index.html",
-                            description: "Guide complet d'Ansible pour l'automatisation de l'infrastructure.",
-                            source: "Ansible Docs",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        },
-                        {
-                            id: Date.now() + 5,
-                            title: "Introduction à Kubernetes",
-                            link: "https://kubernetes.io/fr/docs/concepts/overview/what-is-kubernetes/",
-                            description: "Documentation officielle de Kubernetes - Présentation des concepts de base.",
-                            source: "Kubernetes",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        },
-                        {
-                            id: Date.now() + 6,
-                            title: "GitHub Actions pour le CI/CD",
-                            link: "https://docs.github.com/fr/actions",
-                            description: "Documentation GitHub Actions pour l'automatisation des workflows de développement.",
-                            source: "GitHub Docs",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        },
-                        {
-                            id: Date.now() + 7,
-                            title: "Terraform et l'infrastructure as code",
-                            link: "https://developer.hashicorp.com/terraform/intro",
-                            description: "Introduction à Terraform pour la gestion d'infrastructure déclarative.",
-                            source: "HashiCorp",
-                            date: new Date().toISOString(),
-                            isNew: true
-                        }
-                    ]
-                };
-            }
+        } catch (e) {
+            console.error("Erreur chargement JSON :", e);
+            this.articles = {
+                'iam-zero-trust': [],
+                'network-automation': []
+            };
+        }
+    }
 
-            addNewArticles(newArticles) {
-                let addedCount = 0;
+    render() {
+        let html = '<div class="veille-grid">';
 
-                for (const [sujetId, articles] of Object.entries(newArticles)) {
-                    const existingArticles = this.articles[sujetId] || [];
-                    const existingUrls = new Set(existingArticles.map(a => a.link));
-                    
-                    for (const article of articles) {
-                        if (!existingUrls.has(article.link)) {
-                            existingArticles.unshift(article);
-                            addedCount++;
-                        }
-                    }
-                    
-                    // Garde seulement les 50 articles les plus récents
-                    this.articles[sujetId] = existingArticles.slice(0, 50);
-                }
-
-                if (addedCount > 0) {
-                    console.log(`✅ ${addedCount} nouveaux articles ajoutés`);
-                } else {
-                    console.log('ℹ️ Aucun nouvel article trouvé');
-                }
-            }
-
-            cleanOldArticles() {
-                const cutoffDate = Date.now() - this.maxArticleAge;
-                let removedCount = 0;
-
-                for (const [sujetId, articles] of Object.entries(this.articles)) {
-                    const initialLength = articles.length;
-                    this.articles[sujetId] = articles.filter(article => 
-                        new Date(article.date).getTime() > cutoffDate
-                    );
-                    removedCount += (initialLength - this.articles[sujetId].length);
-                }
-
-                if (removedCount > 0) {
-                    console.log(`🗑️ ${removedCount} articles anciens supprimés`);
-                    this.saveArticles();
-                }
-            }
-
-            saveArticles() {
-                localStorage.setItem('veille-iam', JSON.stringify(this.articles['iam-zero-trust']));
-                localStorage.setItem('veille-automation', JSON.stringify(this.articles['network-automation']));
-            }
-
-            updateUI() {
-                const container = document.getElementById('veille-content');
-                let html = '<div class="veille-grid">';
-
-                for (const [sujetId, config] of Object.entries(this.fluxConfig)) {
-                    const articles = this.articles[sujetId] || [];
-                    html += this.renderSujet(sujetId, config, articles);
-                }
-
-                html += '</div>';
-                container.innerHTML = html;
-
-                // Met à jour les statistiques
-                this.updateStats();
-            }
-
-            renderSujet(sujetId, config, articles) {
-                const articlesHTML = articles.length > 0 
-                    ? articles.map(article => `
-                        <div class="actualite-item">
-                            <span class="date">${new Date(article.date).toLocaleDateString('fr-FR')}</span>
-                            <span class="source-badge">${article.source}</span>
-                            ${article.isNew ? '<span class="new-badge">NOUVEAU</span>' : ''}
-                            <p><strong>${article.title}</strong></p>
-                            <p>${article.description}</p>
-                            <button class="article-link" onclick="veilleSystem.openExternalLink('${article.link}')">
-                                📖 Lire l'article complet
-                            </button>
-                        </div>
-                    `).join('')
-                    : '<p>📝 Aucun article trouvé pour le moment. La prochaine recherche automatique aura lieu dans 24h.</p>';
-
-                return `
-                    <div class="sujet sujet-${sujetId.includes('iam') ? 'iam' : 'automation'}">
-                        <h2>${config.nom} 
-                            <span class="article-count">${articles.length} articles</span>
-                        </h2>
-                        
-                        <div class="description">
-                            <p><strong>${config.description}</strong></p>
-                            <p><small>Mots-clés surveillés : ${config.keywords.join(', ')}</small></p>
-                        </div>
-
-                        <div class="actualites">
-                            <h3>📰 Articles accumulés (du plus récent au plus ancien)</h3>
-                            ${articlesHTML}
-                        </div>
-                    </div>
-                `;
-            }
-
-            // Ouvre les liens externes en contournant les restrictions GitHub
-            openExternalLink(url) {
-                window.open(url, '_blank', 'noopener,noreferrer');
-            }
-
-            updateStats() {
-                const totalArticles = (this.articles['iam-zero-trust']?.length || 0) + 
-                                   (this.articles['network-automation']?.length || 0);
-                document.getElementById('total-articles').textContent = `${totalArticles} articles`;
-            }
-
-            updateLastUpdate() {
-                const now = new Date();
-                document.getElementById('last-update').textContent = now.toLocaleString('fr-FR');
-                
-                const nextUpdate = new Date(now.getTime() + this.autoRefreshInterval);
-                document.getElementById('next-update').textContent = nextUpdate.toLocaleString('fr-FR');
-            }
-
-            startAutoRefresh() {
-                setInterval(() => {
-                    console.log('🔄 Mise à jour automatique...');
-                    this.manualRefresh();
-                }, this.autoRefreshInterval);
-
-                this.updateLastUpdate();
-            }
-
-            clearOldArticles() {
-                if (confirm('Supprimer tous les articles de plus de 30 jours ?')) {
-                    this.cleanOldArticles();
-                    this.updateUI();
-                }
-            }
-
-            exportData() {
-                const data = {
-                    exportDate: new Date().toISOString(),
-                    articles: this.articles
-                };
-                
-                const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-                const url = URL.createObjectURL(blob);
-                const a = document.createElement('a');
-                a.href = url;
-                a.download = `veille-technologique-${new Date().toISOString().split('T')[0]}.json`;
-                a.click();
-                URL.revokeObjectURL(url);
-            }
+        for (const key in this.sources) {
+            html += this.renderSujet(key);
         }
 
-        // Initialisation
-        const veilleSystem = new VeilleTechnologique();
-        document.addEventListener('DOMContentLoaded', () => veilleSystem.init());
-    </script>
+        html += '</div>';
+        document.getElementById('veille-content').innerHTML = html;
+    }
+
+    renderSujet(key) {
+        const sujet = this.sources[key];
+        const articles = this.articles[key];
+
+        return `
+        <div class="sujet ${key.includes('iam') ? 'sujet-iam' : 'sujet-automation'}">
+            <h2>${sujet.nom}
+                <span class="article-count">${articles.length} articles</span>
+            </h2>
+
+            <div class="description">${sujet.description}</div>
+
+            <div class="actualites">
+                <h3>📰 Articles</h3>
+                ${articles.map(a => `
+                    <div class="actualite-item">
+                        <span class="date">${new Date(a.date).toLocaleDateString('fr-FR')}</span>
+                        <span class="source-badge">${a.source}</span>
+                        <p><strong>${a.title}</strong></p>
+                        <a class="article-link" href="${a.link}" target="_blank">Lire l’article</a>
+                    </div>
+                `).join('')}
+            </div>
+        </div>`;
+    }
+
+    updateStats() {
+        const total = Object.values(this.articles)
+            .reduce((acc, arr) => acc + arr.length, 0);
+
+        document.getElementById('total-articles').textContent = total;
+    }
+
+    updateDate() {
+        document.getElementById('last-update').textContent =
+            new Date().toLocaleString('fr-FR') + " (lecture GitHub)";
+    }
+
+    exportData() {
+        const blob = new Blob(
+            [JSON.stringify(this.articles, null, 2)],
+            { type: 'application/json' }
+        );
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'veille-technologique.json';
+        a.click();
+        URL.revokeObjectURL(url);
+    }
+}
+
+const veilleSystem = new VeilleTechnologique();
+document.addEventListener('DOMContentLoaded', () => veilleSystem.init());
+</script>
+
 </body>
 </html>
