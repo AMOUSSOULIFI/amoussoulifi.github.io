@@ -1,84 +1,313 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Veille Technologique BTS SISR</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veille Technologique 2026 - BTS SISR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ==========================
+       CSS Modernisé 2026
+       ========================== */
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #1a202c;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    header h1 {
+      font-size: 2.8em;
+      color: #2b6cb0;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.1em;
+      color: #4a5568;
+    }
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    /* Stats */
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      background: #edf2f7;
+      border-radius: 12px;
+      padding: 20px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+    .stat-item {
+      text-align: center;
+      flex:1 1 200px;
+      margin:10px;
+    }
+    .stat-item strong { display:block; font-size:1.1em; margin-bottom:5px; color:#2d3748; }
+    .stat-item div { font-size:0.95em; color:#4a5568; }
 
-<style>
-/* RESET & GLOBAL */
-* { margin:0; padding:0; box-sizing:border-box; }
-body { font-family:'Inter',sans-serif; background:#f4f6f9; color:#1f2937; line-height:1.6; }
-.container { max-width:1200px; margin:auto; padding:30px 20px; }
-header { text-align:center; margin-bottom:40px; }
-header h1 { font-size:2.8rem; font-weight:700; color:#111827; margin-bottom:10px; }
-header p { font-size:1.2rem; color:#6b7280; }
+    /* Veille grid */
+    .veille-grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(450px, 1fr));
+      gap:30px;
+    }
 
-.stats { display:flex; justify-content:center; gap:20px; margin:30px 0; flex-wrap:wrap; }
-.stats span { background:#2563eb; color:white; padding:12px 25px; border-radius:50px; font-weight:600; font-size:1rem; }
+    .sujet {
+      background:white;
+      border-radius:15px;
+      padding:25px;
+      box-shadow:0 8px 25px rgba(0,0,0,0.08);
+      transition:transform 0.3s ease;
+    }
+    .sujet:hover { transform: translateY(-5px); }
 
-.sujet { background:#fff; border-radius:15px; padding:25px 30px; margin-bottom:35px; box-shadow:0 10px 30px rgba(0,0,0,0.05); transition: transform 0.3s ease, box-shadow 0.3s ease; }
-.sujet:hover { transform:translateY(-5px); box-shadow:0 15px 40px rgba(0,0,0,0.08); }
+    .sujet h2 {
+      font-size:1.5em;
+      margin-bottom:15px;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+    }
+    .description {
+      background:#f7fafc;
+      padding:15px;
+      border-radius:8px;
+      margin-bottom:20px;
+      font-size:0.95em;
+    }
 
-.sujet h2 { display:flex; justify-content:space-between; align-items:center; font-size:1.8rem; margin-bottom:20px; font-weight:600; color:#1f2937; }
+    .actualites h3 {
+      margin-bottom:15px;
+      color:#2d3748;
+      font-size:1.1em;
+    }
 
-.article { background:#f9fafb; border-left:5px solid #2563eb; padding:18px 22px; border-radius:10px; margin-bottom:18px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
-.article:hover { transform:translateX(5px); box-shadow:0 6px 18px rgba(0,0,0,0.05); }
+    .actualite-item {
+      background:#f7fafc;
+      border-left:4px solid #3182ce;
+      padding:15px;
+      border-radius:8px;
+      margin-bottom:12px;
+      transition: transform 0.2s ease;
+    }
+    .actualite-item:hover { transform: translateX(4px); }
+    .date { font-size:0.85em; font-weight:600; color:#718096; }
+    .source-badge {
+      background:#3182ce;
+      color:white;
+      padding:2px 8px;
+      border-radius:12px;
+      font-size:0.8em;
+      margin-left:5px;
+    }
 
-.article p { margin:6px 0; }
-.article-link { display:inline-block; margin-top:8px; background:#10b981; color:white; text-decoration:none; padding:8px 16px; border-radius:10px; font-weight:600; transition: background 0.3s ease, transform 0.2s ease; }
-.article-link:hover { background:#059669; transform:scale(1.05); }
+    .article-link {
+      background:#38a169;
+      color:white;
+      padding:6px 12px;
+      border-radius:6px;
+      font-size:0.85em;
+      text-decoration:none;
+      display:inline-block;
+      margin-top:10px;
+      transition:background 0.3s ease;
+    }
+    .article-link:hover { background:#2f855a; }
 
-.new-badge { display:inline-block; background:#ef4444; color:white; font-size:0.75rem; padding:2px 8px; border-radius:6px; margin-left:8px; font-weight:600; }
+    .controls {
+      text-align:center;
+      margin:20px 0;
+    }
+    .btn {
+      background:#3182ce;
+      color:white;
+      border:none;
+      padding:10px 20px;
+      border-radius:6px;
+      margin:0 10px;
+      cursor:pointer;
+      font-size:0.95em;
+      transition:background 0.3s ease;
+    }
+    .btn:hover { background:#2b6cb0; }
 
-.analysis { font-size:0.95rem; font-style:italic; color:#6b7280; margin-top:6px; }
+    .article-count {
+      background:#38a169;
+      color:white;
+      padding:6px 10px;
+      border-radius:12px;
+      font-size:0.8em;
+    }
 
-@media(max-width:768px){.stats{flex-direction:column;align-items:center;} header h1{font-size:2rem;} .sujet h2{font-size:1.5rem;}}
-</style>
+    .auto-update-status {
+      text-align:center;
+      background:#e2e8f0;
+      padding:15px;
+      border-radius:8px;
+      margin-top:40px;
+      color:#1a202c;
+    }
+
+    @media (max-width:768px){
+      .veille-grid { grid-template-columns:1fr; }
+      header h1 { font-size:2em; }
+      .stats { flex-direction:column; gap:15px; }
+    }
+  </style>
 </head>
 <body>
-<div class="container">
-<header>
-<h1>🔍 Veille Technologique Automatique</h1>
-<p>BTS SISR - Articles & Analyses Récentes</p>
-</header>
+  <div class="container">
+    <header>
+      <h1>🔍 Veille Technologique 2026</h1>
+      <p>BTS SISR - Accumulation automatique des articles avec analyses</p>
 
-<div class="stats">
-<span>Total articles : <span id="total-articles">0</span></span>
-</div>
+      <div class="stats">
+        <div class="stat-item">
+          <strong>🔄 Mise à jour</strong>
+          <div>Automatique chaque 24h</div>
+        </div>
+        <div class="stat-item">
+          <strong>📰 Articles stockés</strong>
+          <div id="total-articles">Chargement...</div>
+        </div>
+        <div class="stat-item">
+          <strong>💾 Historique</strong>
+          <div>Conservation 1 an</div>
+        </div>
+      </div>
 
-<div id="veille"></div>
-</div>
+      <div class="controls">
+        <button class="btn" onclick="veilleSystem.manualRefresh()">🔄 Rechercher maintenant</button>
+        <button class="btn" onclick="veilleSystem.clearOldArticles()">🗑️ Nettoyer anciens articles</button>
+        <button class="btn" onclick="veilleSystem.exportData()">📤 Exporter la veille</button>
+      </div>
+    </header>
 
-<script>
-async function fetchArticles() {
-    const iam = await fetch('veilles-data/iam-zero-trust.json').then(r=>r.json());
-    const net = await fetch('veilles-data/network-automation.json').then(r=>r.json());
-    return { iam, net };
-}
+    <div id="veille-content">
+      <p style="text-align:center; color:#718096;">Chargement des articles...</p>
+    </div>
 
-function renderArticles(title, articles) {
-    let html = `<div class="sujet"><h2>${title} <span>${articles.length} articles</span></h2>`;
-    articles.forEach(a=>{
-        html+=`<div class="article">
-        <p><strong>${a.title}</strong> (${a.date}) ${a.isNew ? '<span class="new-badge">NOUVEAU</span>' : ''}</p>
-        <p class="analysis">${a.analysis}</p>
-        <a class="article-link" href="${a.link}" target="_blank">Lire l'article</a>
-        </div>`;
-    });
-    html+='</div>';
-    return html;
-}
+    <div class="auto-update-status">
+      <p>🔄 Prochaine mise à jour : <span id="next-update">--:--</span></p>
+      <p>📅 Dernière actualisation : <span id="last-update">--:--</span></p>
+    </div>
+  </div>
 
-async function initVeille() {
-    const { iam, net } = await fetchArticles();
-    document.getElementById('total-articles').innerText = iam.length + net.length;
-    document.getElementById('veille').innerHTML = renderArticles('🔐 IAM & Zero Trust', iam) + renderArticles('⚡ Cloud & Automatisation Réseau', net);
-}
+  <script>
+    class VeilleTechnologique {
+      constructor() {
+        this.autoRefreshInterval = 24*60*60*1000; // 24h
+        this.maxArticleAge = 365*24*60*60*1000; // 1 an
+        this.dataFiles = {
+          'iam-zero-trust':'veilles-data/iam-zero-trust.json',
+          'network-automation':'veilles-data/network-automation.json'
+        };
+        this.articles = {};
+      }
 
-document.addEventListener('DOMContentLoaded', initVeille);
-</script>
+      async init() {
+        await this.loadArticles();
+        this.updateUI();
+        this.updateLastUpdate();
+        setInterval(()=>{ this.manualRefresh() }, this.autoRefreshInterval);
+      }
+
+      async loadArticles() {
+        for (const [key, file] of Object.entries(this.dataFiles)) {
+          try {
+            const res = await fetch(file);
+            this.articles[key] = await res.json();
+          } catch(e){
+            console.error("Erreur chargement JSON", file, e);
+            this.articles[key] = [];
+          }
+        }
+      }
+
+      async manualRefresh() {
+        await this.loadArticles();
+        this.cleanOldArticles();
+        this.updateUI();
+        this.updateLastUpdate();
+      }
+
+      cleanOldArticles() {
+        const cutoff = Date.now() - this.maxArticleAge;
+        for (const key in this.articles) {
+          this.articles[key] = this.articles[key].filter(a=>new Date(a.date).getTime()>cutoff);
+        }
+      }
+
+      updateUI() {
+        const container = document.getElementById('veille-content');
+        let html='<div class="veille-grid">';
+        for (const [key, items] of Object.entries(this.articles)) {
+          html+=this.renderSujet(key, items);
+        }
+        html+='</div>';
+        container.innerHTML=html;
+        this.updateStats();
+      }
+
+      renderSujet(title, items) {
+        let articlesHTML = items.length>0 ? items.map(a=>`
+          <div class="actualite-item">
+            <span class="date">${new Date(a.date).toLocaleDateString('fr-FR')}</span>
+            <span class="source-badge">${a.source}</span>
+            <p><strong>${a.title}</strong></p>
+            <p>${a.analysis}</p>
+            <a class="article-link" href="${a.link}" target="_blank">📖 Lire l'article</a>
+          </div>
+        `).join('') : '<p>📝 Aucun article trouvé</p>';
+        return `
+          <div class="sujet">
+            <h2>${title.replace(/-/g,' ')} <span class="article-count">${items.length}</span></h2>
+            <div class="actualites">${articlesHTML}</div>
+          </div>
+        `;
+      }
+
+      updateStats() {
+        let total=0;
+        for (const key in this.articles) total+=this.articles[key].length;
+        document.getElementById('total-articles').textContent = total;
+      }
+
+      updateLastUpdate() {
+        const now=new Date();
+        document.getElementById('last-update').textContent=now.toLocaleString('fr-FR');
+        document.getElementById('next-update').textContent=new Date(now.getTime()+this.autoRefreshInterval).toLocaleString('fr-FR');
+      }
+
+      clearOldArticles() {
+        if(confirm("Supprimer les articles de plus de 1 an ?")){
+          this.cleanOldArticles();
+          this.updateUI();
+        }
+      }
+
+      exportData() {
+        const data={exportDate:new Date().toISOString(), articles:this.articles};
+        const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
+        const url=URL.createObjectURL(blob);
+        const a=document.createElement('a');
+        a.href=url;
+        a.download=`veille-technologique-${new Date().toISOString().split('T')[0]}.json`;
+        a.click();
+        URL.revokeObjectURL(url);
+      }
+    }
+
+    const veilleSystem = new VeilleTechnologique();
+    document.addEventListener('DOMContentLoaded',()=>veilleSystem.init());
+  </script>
 </body>
 </html>
