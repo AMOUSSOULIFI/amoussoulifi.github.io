@@ -1,27 +1,5 @@
 [
   {
-    "title": "Support tip: Aligning network policy with Microsoft Intune and Zero Trust",
-    "link": "https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/check-this-out-cto-guide-november-2025/4476195",
-    "source": "Microsoft Tech Community",
-    "date": "2025-11-03",
-    "analysis": "Microsoft explique comment aligner les politiques réseau avec Intune et Zero Trust pour améliorer la sécurité hybride. Cela montre l'importance de moderniser la gestion des accès pour renforcer la sécurité globale du réseau."
-  },
-  {
-    "title": "Zero Trust insights & announcements (CSA)",
-    "link": "https://cloudsecurityalliance.org/announcements/zero-trust",
-    "source": "Cloud Security Alliance (CSA)",
-    "date": "2025-12-15",
-    "analysis": "La CSA publie des stratégies Zero Trust pour OT et la gestion des accès privilégiés. Cela permet de comprendre l'évolution des pratiques de sécurité au-delà des IAM classiques."
-  },
-  {
-    "title": "How zero trust DevOps eliminates risk of unsanctioned cloud access",
-    "link": "https://www.securitymagazine.com/articles/98663-how-zero-trust-devops-eliminates-risk-of-unsanctioned-cloud-access",
-    "source": "Security Magazine",
-    "date": "2026-01-14",
-    "analysis": "L’article relie Zero Trust au DevOps, montrant comment sécuriser les pipelines CI/CD. Cela démontre que Zero Trust ne concerne pas seulement l’accès, mais aussi l’automatisation sécurisée."
-  }
-  
-  {
     "title": "Cloudflare propose une solution Zero Trust cloud‑native prête pour l’informatique quantique",
     "link": "https://www.cloudflare.com/fr-fr/press/press-releases/2025/cloudflare-advances-industrys-first-cloud-native-quantum-safe-zero-trust/",
     "source": "Cloudflare Press",
@@ -49,5 +27,4 @@
     "date": "2025-12-15",
     "analysis": "Microsoft met en avant l’usage de l’application Authenticator et des bonnes pratiques MFA pour sécuriser les identités. Très pertinent pour sécuriser les accès et s’aligner avec les concepts Zero Trust."
   }
-
 ]
