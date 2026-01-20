@@ -1,1 +1,12 @@
+name: Veille technologique SISR
+
+on:
+  workflow_dispatch: # On peut lancer manuellement pour l'instant
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: echo "Workflow de veille prêt"
 
