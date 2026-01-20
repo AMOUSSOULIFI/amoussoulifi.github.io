@@ -1,33 +1,23 @@
-{
-  "theme": "IAM & Zero Trust",
-  "articles": [
-    {
-      "title": "Zero Trust : principes et mise en œuvre",
-      "link": "https://www.ssi.gouv.fr/uploads/2023/10/anssi-guide-zero_trust-2023.pdf",
-      "source": "ANSSI",
-      "period": "2025-11-05",
-      "analysis": "L’architecture Zero Trust limite la confiance implicite dans le réseau interne. Essentiel pour sécuriser les accès sensibles."
-    },
-    {
-      "title": "Microsoft Authenticator et la sécurité des identités",
-      "link": "https://learn.microsoft.com/fr-fr/azure/active-directory/authentication/concept-authentication-authenticator-app",
-      "source": "Microsoft Docs",
-      "period": "2025-12-01",
-      "analysis": "L’application Authenticator renforce la sécurité des comptes avec l’authentification multi-facteurs, bonne pratique à suivre."
-    },
-    {
-      "title": "Recommandations pour l'authentification multi-facteurs",
-      "link": "https://www.cert.ssi.gouv.fr/motd/authentification-multi-facteurs/",
-      "source": "CERT-FR",
-      "period": "2025-12-20",
-      "analysis": "Ces recommandations aident à protéger les services critiques contre les accès non autorisés."
-    },
-    {
-      "title": "Gestion des identités dans le cloud",
-      "link": "https://www.microsoft.com/security/blog/",
-      "source": "Microsoft Security Blog",
-      "period": "2026-01-10",
-      "analysis": "Les solutions IAM cloud offrent une sécurité centralisée et simplifient la gestion des droits d’accès."
-    }
-  ]
-}
+[
+  {
+    "title": "Support tip: Aligning network policy with Microsoft Intune and Zero Trust",
+    "link": "https://techcommunity.microsoft.com/blog/coreinfrastructureandsecurityblog/check-this-out-cto-guide-november-2025/4476195",
+    "source": "Microsoft Tech Community",
+    "date": "2025-11-03",
+    "analysis": "Microsoft explique comment aligner les politiques réseau avec Intune et Zero Trust pour améliorer la sécurité hybride. Cela montre l'importance de moderniser la gestion des accès pour renforcer la sécurité globale du réseau."
+  },
+  {
+    "title": "Zero Trust insights & announcements (CSA)",
+    "link": "https://cloudsecurityalliance.org/announcements/zero-trust",
+    "source": "Cloud Security Alliance (CSA)",
+    "date": "2025-12-15",
+    "analysis": "La CSA publie des stratégies Zero Trust pour OT et la gestion des accès privilégiés. Cela permet de comprendre l'évolution des pratiques de sécurité au-delà des IAM classiques."
+  },
+  {
+    "title": "How zero trust DevOps eliminates risk of unsanctioned cloud access",
+    "link": "https://www.securitymagazine.com/articles/98663-how-zero-trust-devops-eliminates-risk-of-unsanctioned-cloud-access",
+    "source": "Security Magazine",
+    "date": "2026-01-14",
+    "analysis": "L’article relie Zero Trust au DevOps, montrant comment sécuriser les pipelines CI/CD. Cela démontre que Zero Trust ne concerne pas seulement l’accès, mais aussi l’automatisation sécurisée."
+  }
+]
