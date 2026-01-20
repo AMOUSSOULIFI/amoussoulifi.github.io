@@ -1,27 +1,5 @@
 [
   {
-    "title": "Kubernetes v1.35: Introducing Workload Aware Scheduling",
-    "link": "https://kubernetes.io/blog/2025/12/29/kubernetes-v1-35-introducing-workload-aware-scheduling/",
-    "source": "Kubernetes Official Blog",
-    "date": "2025-12-29",
-    "analysis": "La version 1.35 de Kubernetes introduit la planification des workloads en groupe. Cela optimise la gestion des charges complexes et améliore l’efficacité des clusters."
-  },
-  {
-    "title": "Kubernetes v1.35: New level of efficiency with in-place Pod restart",
-    "link": "https://kubernetes.io/blog/2026/01/02/kubernetes-v1-35-restart-all-containers/",
-    "source": "Kubernetes Official Blog",
-    "date": "2026-01-02",
-    "analysis": "Redémarrer les conteneurs sans recréer les pods permet de maintenir les services en continu. Cela améliore la robustesse et la résilience d’un cluster."
-  },
-  {
-    "title": "Kubernetes Configuration Good Practices",
-    "link": "https://kubernetes.io/blog/2025/11/25/configuration-good-practices/",
-    "source": "Kubernetes Official Blog",
-    "date": "2025-11-25",
-    "analysis": "Ce guide fournit les meilleures pratiques pour configurer Kubernetes de manière fiable. Cela permet de réduire les erreurs et de simplifier la maintenance."
-  }
-  
-  {
     "title": "Clever Cloud présente ses nouveautés lors de l’ACCES 2025",
     "link": "https://www.clever.cloud/fr/blog/presse/2025/12/12/clever-cloud-nouveautes-acces-2025/",
     "source": "Clever Cloud Blog",
@@ -49,5 +27,4 @@
     "date": "2025-12-30",
     "analysis": "Terraform est utilisé pour automatiser et déclarer l’infrastructure cloud. Permet de créer des environnements reproductibles et maintenables, renforçant la gestion DevOps et l’automatisation."
   }
-
 ]
