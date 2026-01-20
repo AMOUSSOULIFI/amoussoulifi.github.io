@@ -1,12 +1,51 @@
-name: Veille technologique SISR
+name: Mise à jour automatique de la veille
 
 on:
-  workflow_dispatch: # On peut lancer manuellement pour l'instant
+  schedule:
+    - cron: '0 8 * * *'  # Tous les jours à 8h UTC
+  workflow_dispatch:
 
 jobs:
-  update:
+  update-veille:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - run: echo "Workflow de veille prêt"
+      - name: Checkout du dépôt
+        uses: actions/checkout@v3
 
+      - name: Configurer Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Ajouter un nouvel article simulé
+        run: |
+          node <<'JS'
+          const fs = require('fs');
+          const path = 'veilles-data';
+
+          function addArticle(file, title, link, source, analysis) {
+            const filePath = `${path}/${file}`;
+            const data = JSON.parse(fs.readFileSync(filePath));
+            const article = {
+              title,
+              link,
+              source,
+              period: new Date().toISOString().split('T')[0],
+              analysis
+            };
+            data.articles.unshift(article);
+            fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
+          }
+
+          addArticle('iam-zero-trust.json', 'Nouvelle actualité IAM', 'https://www.ssi.gouv.fr/', 'ANSSI', 'Analyse personnelle : importance continue du Zero Trust.');
+          addArticle('network-automation.json', 'Nouvelle actualité DevOps', 'https://kubernetes.io/fr/', 'Kubernetes', 'Analyse personnelle : Kubernetes reste incontournable pour le cloud.');
+JS
+
+      - name: Commit et push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add veilles-data/*.json
+          git commit -m "Mise à jour automatique de la veille"
+          git push
+        continue-on-error: true
