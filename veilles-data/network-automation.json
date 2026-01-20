@@ -20,4 +20,34 @@
     "date": "2025-11-25",
     "analysis": "Ce guide fournit les meilleures pratiques pour configurer Kubernetes de manière fiable. Cela permet de réduire les erreurs et de simplifier la maintenance."
   }
+  
+  {
+    "title": "Clever Cloud présente ses nouveautés lors de l’ACCES 2025",
+    "link": "https://www.clever.cloud/fr/blog/presse/2025/12/12/clever-cloud-nouveautes-acces-2025/",
+    "source": "Clever Cloud Blog",
+    "date": "2025-12-12",
+    "analysis": "Clever Cloud annonce son Kubernetes Engine managé et des services cloud intégrés pour simplifier l’orchestration et la résilience des workloads Kubernetes. Exemple concret d’automatisation de l’infrastructure cloud moderne."
+  },
+  {
+    "title": "Kubernetes adopte l’IA pour la conformance des workloads",
+    "link": "https://www.zdnet.fr/actualites/kubernetes-le-moteur-du-cloud-computing-se-met-au-service-de-lia-485052.htm",
+    "source": "ZDNet",
+    "date": "2025-11-17",
+    "analysis": "Kubernetes introduit un programme de certification pour les workloads d’IA, améliorant la standardisation et la portabilité dans les environnements cloud‑natifs. Montre l’évolution des pratiques DevOps vers l’intégration IA native."
+  },
+  {
+    "title": "Journée KubeCon Europe 2025 : tendances cloud‑native et GitOps",
+    "link": "https://blog.ippon.fr/2025/04/08/la-kubecon-eu-2025-en-bref/",
+    "source": "Blog Ippon",
+    "date": "2025-12-20",
+    "analysis": "La KubeCon Europe 2025 a révélé des innovations autour de GitOps, de l’observabilité et des plateformes internes (IDP), illustrant l’automatisation des clusters et pipelines CI/CD, essentiel pour les environnements SISR modernes."
+  },
+  {
+    "title": "Introduction à Terraform pour l’infrastructure as code",
+    "link": "https://developer.hashicorp.com/terraform/intro",
+    "source": "HashiCorp Docs",
+    "date": "2025-12-30",
+    "analysis": "Terraform est utilisé pour automatiser et déclarer l’infrastructure cloud. Permet de créer des environnements reproductibles et maintenables, renforçant la gestion DevOps et l’automatisation."
+  }
+
 ]
