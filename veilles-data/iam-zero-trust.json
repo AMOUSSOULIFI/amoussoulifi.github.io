@@ -1,5 +1,33 @@
 {
   "theme": "IAM & Zero Trust",
-  "articles": []
+  "articles": [
+    {
+      "title": "Zero Trust : principes et mise en œuvre",
+      "link": "https://www.ssi.gouv.fr/uploads/2023/10/anssi-guide-zero_trust-2023.pdf",
+      "source": "ANSSI",
+      "period": "2025-11-05",
+      "analysis": "L’architecture Zero Trust limite la confiance implicite dans le réseau interne. Essentiel pour sécuriser les accès sensibles."
+    },
+    {
+      "title": "Microsoft Authenticator et la sécurité des identités",
+      "link": "https://learn.microsoft.com/fr-fr/azure/active-directory/authentication/concept-authentication-authenticator-app",
+      "source": "Microsoft Docs",
+      "period": "2025-12-01",
+      "analysis": "L’application Authenticator renforce la sécurité des comptes avec l’authentification multi-facteurs, bonne pratique à suivre."
+    },
+    {
+      "title": "Recommandations pour l'authentification multi-facteurs",
+      "link": "https://www.cert.ssi.gouv.fr/motd/authentification-multi-facteurs/",
+      "source": "CERT-FR",
+      "period": "2025-12-20",
+      "analysis": "Ces recommandations aident à protéger les services critiques contre les accès non autorisés."
+    },
+    {
+      "title": "Gestion des identités dans le cloud",
+      "link": "https://www.microsoft.com/security/blog/",
+      "source": "Microsoft Security Blog",
+      "period": "2026-01-10",
+      "analysis": "Les solutions IAM cloud offrent une sécurité centralisée et simplifient la gestion des droits d’accès."
+    }
+  ]
 }
-
