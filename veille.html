@@ -76,19 +76,6 @@
       align-items:center;
       justify-content:space-between;
     }
-    .description {
-      background:#f7fafc;
-      padding:15px;
-      border-radius:8px;
-      margin-bottom:20px;
-      font-size:0.95em;
-    }
-
-    .actualites h3 {
-      margin-bottom:15px;
-      color:#2d3748;
-      font-size:1.1em;
-    }
 
     .actualite-item {
       background:#f7fafc;
@@ -224,7 +211,7 @@
         for (const [key, file] of Object.entries(this.dataFiles)) {
           try {
             const res = await fetch(file);
-            this.articles[key] = await res.json();
+            this.articles[key] = res.ok ? await res.json() : [];
           } catch(e){
             console.error("Erreur chargement JSON", file, e);
             this.articles[key] = [];
@@ -239,10 +226,14 @@
         this.updateLastUpdate();
       }
 
+      // ✅ Méthode corrigée : conserve les articles manuels
       cleanOldArticles() {
         const cutoff = Date.now() - this.maxArticleAge;
         for (const key in this.articles) {
-          this.articles[key] = this.articles[key].filter(a=>new Date(a.date).getTime()>cutoff);
+          this.articles[key] = this.articles[key].filter(article => {
+            if (!article.auto) return true; // manuel = toujours conservé
+            return new Date(article.date).getTime() > cutoff; // automatique = filtré
+          });
         }
       }
 
@@ -258,6 +249,7 @@
       }
 
       renderSujet(title, items) {
+        const formattedTitle = title.replace(/-/g,' ').replace(/\b\w/g, c => c.toUpperCase());
         let articlesHTML = items.length>0 ? items.map(a=>`
           <div class="actualite-item">
             <span class="date">${new Date(a.date).toLocaleDateString('fr-FR')}</span>
@@ -269,7 +261,7 @@
         `).join('') : '<p>📝 Aucun article trouvé</p>';
         return `
           <div class="sujet">
-            <h2>${title.replace(/-/g,' ')} <span class="article-count">${items.length}</span></h2>
+            <h2>${formattedTitle} <span class="article-count">${items.length}</span></h2>
             <div class="actualites">${articlesHTML}</div>
           </div>
         `;
@@ -288,7 +280,7 @@
       }
 
       clearOldArticles() {
-        if(confirm("Supprimer les articles de plus de 1 an ?")){
+        if(confirm("Supprimer les articles de plus de 1 an (automatiques seulement) ?")){
           this.cleanOldArticles();
           this.updateUI();
         }
@@ -311,4 +303,5 @@
   </script>
 </body>
 </html>
+
 
