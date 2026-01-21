@@ -29,26 +29,32 @@ def save_articles(path, articles):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(articles, f, indent=2, ensure_ascii=False)
 
+def get_entry_date(entry):
+    if hasattr(entry, "published_parsed") and entry.published_parsed:
+        return datetime(*entry.published_parsed[:6])
+    return datetime.now()
+
 def fetch_new_articles(feeds, existing_links):
     new_articles = []
 
     for url in feeds:
         feed = feedparser.parse(url)
+        source = feed.feed.get("title", "Source inconnue")
 
         for entry in feed.entries[:MAX_ARTICLES_PER_FEED]:
             if entry.link in existing_links:
                 continue
 
-            published = datetime(*entry.published_parsed[:6])
+            published = get_entry_date(entry)
 
             new_articles.append({
                 "date": published.isoformat(),
-                "source": feed.feed.title,
+                "source": source,
                 "title": entry.title,
                 "analysis": (
-                    "Cet article met en évidence une évolution récente "
-                    "liée aux infrastructures, à la sécurité ou à "
-                    "l’automatisation des systèmes."
+                    "Cet article traite d’une évolution récente "
+                    "liée à la cybersécurité, à l’automatisation "
+                    "ou à la protection des infrastructures."
                 ),
                 "link": entry.link
             })
@@ -62,6 +68,13 @@ def clean_old_articles(articles):
         if datetime.fromisoformat(a["date"]) > cutoff
     ]
 
+def sort_articles_by_date(articles):
+    return sorted(
+        articles,
+        key=lambda a: datetime.fromisoformat(a["date"]),
+        reverse=True
+    )
+
 def main():
     for topic, feeds in RSS_SOURCES.items():
         path = f"{OUTPUT_DIR}/{topic}.json"
@@ -70,14 +83,15 @@ def main():
         existing_links = {a["link"] for a in existing_articles}
 
         new_articles = fetch_new_articles(feeds, existing_links)
-
         all_articles = existing_articles + new_articles
         all_articles = clean_old_articles(all_articles)
+        all_articles = sort_articles_by_date(all_articles)
 
-        save_articles(path, all_articles)
-
-        print(f"[OK] {topic} : +{len(new_articles)} articles, total {len(all_articles)}")
+        if new_articles:
+            save_articles(path, all_articles)
+            print(f"[OK] {topic} : +{len(new_articles)} nouveaux articles")
+        else:
+            print(f"[INFO] {topic} : aucun nouvel article")
 
 if __name__ == "__main__":
     main()
-
