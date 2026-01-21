@@ -52,23 +52,37 @@ def fetch_new_articles(feeds, existing_links):
                 "source": source,
                 "title": entry.title,
                 "analysis": (
-                    "Cet article traite d’une évolution récente "
-                    "liée à la cybersécurité, à l’automatisation "
-                    "ou à la protection des infrastructures."
+                    "Cet article met en évidence une évolution récente "
+                    "liée à la cybersécurité, au Zero Trust ou "
+                    "à l’automatisation des infrastructures."
                 ),
-                "link": entry.link
+                "link": entry.link,
+                "auto": True
             })
 
     return new_articles
 
 def clean_old_articles(articles):
     cutoff = datetime.now() - timedelta(days=MAX_AGE_DAYS)
-    return [
-        a for a in articles
-        if datetime.fromisoformat(a["date"]) > cutoff
-    ]
+    cleaned = []
 
-def sort_articles_by_date(articles):
+    for a in articles:
+        # Articles manuels : toujours conservés
+        if not a.get("auto"):
+            cleaned.append(a)
+            continue
+
+        # Articles automatiques récents uniquement
+        try:
+            article_date = datetime.fromisoformat(a["date"])
+            if article_date > cutoff:
+                cleaned.append(a)
+        except Exception:
+            cleaned.append(a)
+
+    return cleaned
+
+def sort_articles(articles):
     return sorted(
         articles,
         key=lambda a: datetime.fromisoformat(a["date"]),
@@ -85,7 +99,7 @@ def main():
         new_articles = fetch_new_articles(feeds, existing_links)
         all_articles = existing_articles + new_articles
         all_articles = clean_old_articles(all_articles)
-        all_articles = sort_articles_by_date(all_articles)
+        all_articles = sort_articles(all_articles)
 
         if new_articles:
             save_articles(path, all_articles)
