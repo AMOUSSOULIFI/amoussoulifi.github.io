@@ -1,1 +1,233 @@
-<!DOCTYPE html> <html lang="fr"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Stage 1 - Systèmes & Réseaux</title> <style> * { margin: 0; padding: 0; box-sizing: border-box; } body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; } .navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); } .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; } .nav-link { color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease; } .nav-link:hover { background: #667eea; color: white; } .container { max-width: 1200px; margin: 0 auto; padding: 20px; } .back-button { display: inline-block; color: white; text-decoration: none; margin-bottom: 20px; padding: 10px 15px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s ease; } .back-button:hover { background: rgba(255,255,255,0.2); color: white; text-decoration: none; } .ap-header { text-align: center; margin-bottom: 40px; color: white; } .ap-badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; margin-bottom: 15px; } .stage-badge { background: #e74c3c; } .ap-header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); } .ap-date { font-size: 1.1em; opacity: 0.9; } .ap-details-grid { background: white; border-radius: 15px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 40px; } .detail-section { margin-bottom: 40px; } .detail-section h2 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; display: flex; align-items: center; gap: 10px; } .detail-section p { color: #555; line-height: 1.8; font-size: 1.1em; } .info-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; } .info-column { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #667eea; } .info-column h3 { color: #2c3e50; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; } .info-column ul { list-style: none; } .info-column li { margin-bottom: 10px; padding-left: 20px; position: relative; color: #555; } .info-column li:before { content: "→"; position: absolute; left: 0; color: #667eea; font-weight: bold; } .info-column p { color: #555; line-height: 1.6; } .info-column strong { color: #2c3e50; } /* Stage periods grid */ .stage-periods { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; } .period-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border: 2px solid #e9ecef; transition: transform 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; } .period-card:hover { transform: translateY(-5px); border-color: #667eea; box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1); } .period-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; } .period-card ul { list-style: none; margin-bottom: 20px; } .period-card li { margin-bottom: 8px; padding-left: 20px; position: relative; color: #555; font-size: 0.95em; } .period-card li:before { content: "•"; position: absolute; left: 0; color: #28a745; font-weight: bold; } .pdf-button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; transition: background 0.3s ease; text-align: center; width: 100%; justify-content: center; } .pdf-button:hover { background: #218838; color: white; text-decoration: none; } /* Documentation links */ .doc-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px; } .doc-link { background: #17a2b8; color: white; padding: 15px; border-radius: 8px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: all 0.3s ease; font-size: 0.95em; } .doc-link:hover { background: #138496; color: white; text-decoration: none; transform: translateY(-2px); } /* Achievements grid */ .achievements-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0; } .achievement-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #ffc107; } .achievement-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; } /* Environment details */ .environment-details { background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0; } .environment-details h4 { color: #2c3e50; margin-bottom: 15px; } @media (max-width: 768px) { .nav-container { flex-direction: column; gap: 10px; text-align: center; } .ap-header h1 { font-size: 2em; } .ap-details-grid { padding: 20px; } .info-table { grid-template-columns: 1fr; } .stage-periods { grid-template-columns: 1fr; } .doc-links { grid-template-columns: 1fr; } } </style> </head> <body> <script> // Vérification d'authentification UNIQUE const sessionData = JSON.parse(localStorage.getItem('sessionData')); if (!sessionData || !sessionData.isLoggedIn) { window.location.href = 'index.html'; } </script> <nav class="navbar"> <div class="nav-container"> <a href="index.html" class="nav-link">🏠 Accueil</a> <a href="aps.html" class="nav-link">📚 APs</a> <a href="stages.html" class="nav-link">💼 Stages</a> <a href="cv.html" class="nav-link">📄 CV</a> <a href="veille.html" class="nav-link">🔍 Veille</a> </div> </nav> <section class="section"> <div class="container"> <a href="stages.html" class="back-button" onclick="navigateTo('stages.html')">← Retour aux Stages</a> <div class="ap-header"> <div class="ap-badge stage-badge">STAGE</div> <h1>Stage en Systèmes & Réseaux Informatiques</h1> <p class="ap-date">Saint Charles Sainte-Croix - Le Mans | Juin - Juillet 2025 (4 semaines)</p> </div> <div class="ap-details-grid"> <div class="detail-section"> <h2>🏢 Description du Stage</h2> <p>Stage intensif de 4 semaines en systèmes et réseaux au sein de l'établissement scolaire Saint Charles Sainte-Croix au Mans. Cette expérience professionnelle m'a permis d'intervenir sur l'ensemble de l'infrastructure réseau de l'établissement, avec un focus particulier sur le support technique, la maintenance du parc informatique et le déploiement de nouveaux équipements.</p> <div class="environment-details"> <h4>📊 Contexte du stage :</h4> <ul style="list-style: none; color: #555;"> <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Établissement scolaire multi-sites</strong> : Lycée + Campus </li> <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Parc informatique hétérogène</strong> : 300+ postes, 30 salles </li> <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Contraintes pédagogiques</strong> : Support aux examens, maintenance estivale </li> <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Équipe informatique</strong> : Travail en collaboration avec l'administrateur réseau </li> </ul> </div> </div> <div class="info-table"> <div class="info-column"> <h3>🛠️ Technologies maîtrisées</h3> <ul> <li>OCS Inventory (gestion de parc)</li> <li>FOG Project (déploiement d'images)</li> <li>WDS (Windows Deployment Services)</li> <li>Windows Server 2019/2022</li> <li>GPO (Group Policy Objects)</li> <li>VEYON MASTER (surveillance de salle)</li> <li>Active Directory</li> <li>GNPI (Gestionnaire de Parc Informatique)</li> </ul> </div> <div class="info-column"> <h3>🎯 Compétences développées</h3> <ul> <li>Gestion du patrimoine informatique</li> <li>Réponse aux incidents techniques</li> <li>Déploiement de postes de travail</li> <li>Maintenance préventive et corrective</li> <li>Documentation technique</li> <li>Travail en autonomie et en équipe</li> <li>Gestion de projet technique</li> </ul> </div> <div class="info-column"> <h3>📈 Statistiques clés</h3> <div style="text-align: center; margin-top: 10px;"> <div style="margin-bottom: 15px;"> <h4 style="color: #28a745; font-size: 1.8em;">36</h4> <p style="color: #555; font-size: 0.9em;">Nouveaux postes installés</p> </div> <div style="margin-bottom: 15px;"> <h4 style="color: #007bff; font-size: 1.8em;">28</h4> <p style="color: #555; font-size: 0.9em;">Équipements recyclés</p> </div> <div> <h4 style="color: #ffc107; font-size: 1.8em;">15+</h4> <p style="color: #555; font-size: 0.9em;">Salles maintenues</p> </div> </div> </div> </div> <div class="detail-section"> <h2>📅 Missions de Stage par semaine</h2> <div class="stage-periods"> <div class="period-card"> <h4>📅 Semaine 1 : 9-13 Juin 2025</h4> <ul> <li>Présentation de l'infrastructure réseau</li> <li>Dépannage projecteurs et câblage HDMI</li> <li>Initiation Windows Server et GPO</li> <li>Décâblage et rangement équipements</li> <li>Support administratif</li> </ul> <a href="./images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf" class="pdf-button" target="_blank"> 📄 Voir le rapport hebdomadaire </a> </div> <div class="period-card"> <h4>📅 Semaine 2 : 16-20 Juin 2025</h4> <ul> <li>Utilisation d'OCS Inventory</li> <li>Préparation des postes pour le baccalauréat</li> <li>Création d'un suivi Excel des salles</li> <li>Test et démontage de matériel</li> <li>Vérification fonctionnelle des salles</li> </ul> <a href="./images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf" class="pdf-button" target="_blank"> 📄 Voir le rapport hebdomadaire </a> </div> <div class="period-card"> <h4>📅 Semaine 3 : 23-27 Juin 2025</h4> <ul> <li>Installation de 18 postes (salle F02)</li> <li>Tri et recyclage d'équipements</li> <li>Travail sur GNPI et OCS Inventory</li> <li>Vérification fonctionnelle des salles</li> <li>Mise à jour des fichiers de suivi</li> </ul> <a href="./images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf" class="pdf-button" target="_blank"> 📄 Voir le rapport hebdomadaire </a> </div> <div class="period-card"> <h4>📅 Semaine 4 : 7-11 Juillet 2025</h4> <ul> <li>Montage de 13 unités centrales</li> <li>Désinstallation salles C15 et R25</li> <li>Déploiement d'images via WDS</li> <li>Gestion de domaines Active Directory</li> <li>Finalisation des installations</li> </ul> <a href="./images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf" class="pdf-button" target="_blank"> 📄 Voir le rapport hebdomadaire </a> </div> </div> </div> <div class="detail-section"> <h2>🏆 Réalisations majeures</h2> <div class="achievements-grid"> <div class="achievement-card"> <h4>🚀 Déploiement d'infrastructure</h4> <ul style="list-style: none; color: #555;"> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> 36 nouveaux postes installés </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> 2 salles complètement équipées </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Déploiement via WDS et FOG </li> </ul> </div> <div class="achievement-card"> <h4>🔧 Gestion de parc optimisée</h4> <ul style="list-style: none; color: #555;"> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Mise en place d'OCS Inventory </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> 28 équipements recyclés </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Inventaire complet du matériel </li> </ul> </div> <div class="achievement-card"> <h4>📊 Documentation professionnelle</h4> <ul style="list-style: none; color: #555;"> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Fichiers Excel de suivi créés </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Procédures techniques documentées </li> <li style="margin-bottom: 8px; padding-left: 20px; position: relative;"> <span style="position: absolute; left: 0; color: #28a745;">✓</span> Rapports hebdomadaires détaillés </li> </ul> </div> </div> </div> <div class="detail-section"> <h2>📋 Documentation technique</h2> <p>Documents de suivi et rapports élaborés durant le stage, disponibles en téléchargement :</p> <div class="doc-links"> <a href="./images/Feuilles_suivi_estivale.pdf" class="doc-link" target="_blank"> 📊 Feuilles de suivi estival <span style="font-size: 0.8em; opacity: 0.8; margin-left: auto;">(PDF)</span> </a> <a href="./images/2025_Ordinateurs_Benné.pdf" class="doc-link" target="_blank"> 🖥️ Inventaire des ordinateurs <span style="font-size: 0.8em; opacity: 0.8; margin-left: auto;">(PDF)</span> </a> <a href="./images/2025-06-16 Sans Emplacement.pdf" class="doc-link" target="_blank"> 📋 Équipements sans emplacement <span style="font-size: 0.8em; opacity: 0.8; margin-left: auto;">(PDF)</span> </a> <a href="./images/2025-06-16 Inactifs depuis 30 jours.csv.pdf" class="doc-link" target="_blank"> 📈 Équipements inactifs <span style="font-size: 0.8em; opacity: 0.8; margin-left: auto;">(PDF)</span> </a> </div> </div> <div class="detail-section"> <h2>🎓 Apprentissages clés</h2> <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-top: 20px;"> <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;"> <div> <h4 style="color: #2c3e50; margin-bottom: 10px;">💼 Professionnel</h4> <p style="color: #555;">Gestion de projet en environnement réel, communication avec les utilisateurs, respect des délais</p> </div> <div> <h4 style="color: #2c3e50; margin-bottom: 10px;">🛠️ Technique</h4> <p style="color: #555;">Maîtrise d'outils professionnels (OCS, FOG, WDS), résolution de problèmes complexes, automatisation de tâches</p> </div> <div> <h4 style="color: #2c3e50; margin-bottom: 10px;">👥 Relationnel</h4> <p style="color: #555;">Travail en équipe, adaptation à différents interlocuteurs, écoute active des besoins utilisateurs</p> </div> </div> </div> </div> </div> </div> </section> <script> // Fonction de navigation function navigateTo(page) { window.location.href = page; return false; } // Vérification des fichiers PDF document.addEventListener('DOMContentLoaded', async function() { const pdfFiles = [ './images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf', './images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf', './images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf', './images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf', './images/Feuilles_suivi_estivale.pdf', './images/2025_Ordinateurs_Benné.pdf', './images/2025-06-16 Sans Emplacement.pdf', './images/2025-06-16 Inactifs depuis 30 jours.csv.pdf' ]; // Vérifier chaque fichier for (const file of pdfFiles) { try { const response = await fetch(file, { method: 'HEAD' }); if (!response.ok) { console.warn(Fichier manquant: ${file}); } } catch (error) { console.warn(Erreur de chargement: ${file}, error); } } }); </script> </body> </html>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stage 1 - Systèmes & Réseaux</title>
+<meta name="description" content="Stage en systèmes et réseaux informatiques – gestion de parc, déploiement, Windows Server, OCS, WDS">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
+.navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+.nav-link { color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease; }
+.nav-link:hover { background: #667eea; color: white; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.back-button { display: inline-block; color: white; text-decoration: none; margin-bottom: 20px; padding: 10px 15px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s ease; }
+.back-button:hover { background: rgba(255,255,255,0.2); color: white; text-decoration: none; }
+.ap-header { text-align: center; margin-bottom: 40px; color: white; }
+.ap-badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; margin-bottom: 15px; }
+.stage-badge { background: #e74c3c; }
+.ap-header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+.ap-date { font-size: 1.1em; opacity: 0.9; }
+.ap-details-grid { background: white; border-radius: 15px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 40px; }
+.detail-section { margin-bottom: 40px; }
+.detail-section h2 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; display: flex; align-items: center; gap: 10px; }
+.detail-section p { color: #555; line-height: 1.8; font-size: 1.1em; }
+.info-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+.info-column { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #667eea; }
+.info-column h3 { color: #2c3e50; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+.info-column ul { list-style: none; }
+.info-column li { margin-bottom: 10px; padding-left: 20px; position: relative; color: #555; }
+.info-column li:before { content: "→"; position: absolute; left: 0; color: #667eea; font-weight: bold; }
+.info-column p { color: #555; line-height: 1.6; }
+.info-column strong { color: #2c3e50; }
+.stage-periods { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+.period-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border: 2px solid #e9ecef; transition: transform 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; }
+.period-card:hover { transform: translateY(-5px); border-color: #667eea; box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1); }
+.period-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+.period-card ul { list-style: none; margin-bottom: 20px; }
+.period-card li { margin-bottom: 8px; padding-left: 20px; position: relative; color: #555; font-size: 0.95em; }
+.period-card li:before { content: "•"; position: absolute; left: 0; color: #28a745; font-weight: bold; }
+.pdf-button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; transition: background 0.3s ease; text-align: center; width: 100%; justify-content: center; }
+.pdf-button:hover { background: #218838; color: white; text-decoration: none; }
+.doc-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px; }
+.doc-link { background: #17a2b8; color: white; padding: 15px; border-radius: 8px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: all 0.3s ease; font-size: 0.95em; }
+.doc-link:hover { background: #138496; color: white; text-decoration: none; transform: translateY(-2px); }
+.achievements-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0; }
+.achievement-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #ffc107; }
+.achievement-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+.environment-details { background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0; }
+.environment-details h4 { color: #2c3e50; margin-bottom: 15px; }
+@media (max-width: 768px) {
+.nav-container { flex-direction: column; gap: 10px; text-align: center; }
+.ap-header h1 { font-size: 2em; }
+.ap-details-grid { padding: 20px; }
+.info-table { grid-template-columns: 1fr; }
+.stage-periods { grid-template-columns: 1fr; }
+.doc-links { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<script>
+  // Vérification d'authentification
+  const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+  if (!sessionData || !sessionData.isLoggedIn) {
+    window.location.href = 'index.html';
+  }
+
+  // Vérification des fichiers PDF
+  document.addEventListener('DOMContentLoaded', async function() {
+    const pdfFiles = [
+      './images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf',
+      './images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf',
+      './images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf',
+      './images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf',
+      './images/Feuilles_suivi_estivale.pdf',
+      './images/2025_Ordinateurs_Benné.pdf',
+      './images/2025-06-16 Sans Emplacement.pdf',
+      './images/2025-06-16 Inactifs depuis 30 jours.csv.pdf'
+    ];
+
+    for (const file of pdfFiles) {
+      try {
+        const response = await fetch(file, { method: 'HEAD' });
+        if (!response.ok) {
+          console.warn(`Fichier manquant : ${file}`);
+        }
+      } catch (error) {
+        console.warn(`Erreur de chargement : ${file}`, error);
+      }
+    }
+  });
+</script>
+
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-link">🏠 Accueil</a>
+    <a href="aps.html" class="nav-link">📚 APs</a>
+    <a href="stages.html" class="nav-link">💼 Stages</a>
+    <a href="cv.html" class="nav-link">📄 CV</a>
+    <a href="veille.html" class="nav-link">🔍 Veille</a>
+  </div>
+</nav>
+
+<section class="section">
+<div class="container">
+  <a href="stages.html" class="back-button">← Retour aux Stages</a>
+
+  <div class="ap-header">
+    <div class="ap-badge stage-badge">STAGE</div>
+    <h1>Stage en Systèmes & Réseaux Informatiques</h1>
+    <p class="ap-date">Saint Charles Sainte-Croix - Le Mans | Juin - Juillet 2025 (4 semaines)</p>
+  </div>
+
+  <div class="ap-details-grid">
+
+    <!-- Description et contexte -->
+    <div class="detail-section">
+      <h2>🏢 Description du Stage</h2>
+      <p>Stage intensif de 4 semaines en systèmes et réseaux au sein de l'établissement scolaire Saint Charles Sainte-Croix au Mans. Cette expérience professionnelle m'a permis d'intervenir sur l'ensemble de l'infrastructure réseau de l'établissement, avec un focus particulier sur le support technique, la maintenance du parc informatique et le déploiement de nouveaux équipements.</p>
+
+      <div class="environment-details">
+        <h4>📊 Contexte du stage :</h4>
+        <ul style="list-style: none; color: #555;">
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Établissement scolaire multi-sites</strong> : Lycée + Campus</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Parc informatique hétérogène</strong> : 300+ postes, 30 salles</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Contraintes pédagogiques</strong> : Support aux examens, maintenance estivale</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Équipe informatique</strong> : Travail en collaboration avec l'administrateur réseau</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technologies, compétences et statistiques -->
+    <div class="info-table">
+      <div class="info-column">
+        <h3>🛠️ Technologies maîtrisées</h3>
+        <ul>
+          <li>OCS Inventory (gestion de parc)</li>
+          <li>FOG Project (déploiement d'images)</li>
+          <li>WDS (Windows Deployment Services)</li>
+          <li>Windows Server 2019/2022</li>
+          <li>GPO (Group Policy Objects)</li>
+          <li>VEYON MASTER (surveillance de salle)</li>
+          <li>Active Directory</li>
+          <li>GNPI (Gestionnaire de Parc Informatique)</li>
+        </ul>
+      </div>
+      <div class="info-column">
+        <h3>🎯 Compétences développées</h3>
+        <ul>
+          <li>Gestion du patrimoine informatique</li>
+          <li>Réponse aux incidents techniques</li>
+          <li>Déploiement de postes de travail</li>
+          <li>Maintenance préventive et corrective</li>
+          <li>Documentation technique</li>
+          <li>Travail en autonomie et en équipe</li>
+          <li>Gestion de projet technique</li>
+        </ul>
+      </div>
+      <div class="info-column">
+        <h3>📈 Statistiques clés</h3>
+        <div style="text-align: center; margin-top: 10px;">
+          <div style="margin-bottom: 15px;"><h4 style="color: #28a745; font-size: 1.8em;">36</h4><p style="color: #555; font-size: 0.9em;">Nouveaux postes installés</p></div>
+          <div style="margin-bottom: 15px;"><h4 style="color: #007bff; font-size: 1.8em;">28</h4><p style="color: #555; font-size: 0.9em;">Équipements recyclés</p></div>
+          <div><h4 style="color: #ffc107; font-size: 1.8em;">15+</h4><p style="color: #555; font-size: 0.9em;">Salles maintenues</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Missions par semaine -->
+    <div class="detail-section">
+      <h2>📅 Missions de Stage par semaine</h2>
+      <div class="stage-periods">
+
+        <!-- Semaine 1 -->
+        <div class="period-card">
+          <h4>📅 Semaine 1 : 9-13 Juin 2025</h4>
+          <ul>
+            <li>Présentation de l'infrastructure réseau</li>
+            <li>Dépannage projecteurs et câblage HDMI</li>
+            <li>Initiation Windows Server et GPO</li>
+            <li>Décâblage et rangement équipements</li>
+            <li>Support administratif</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 2 -->
+        <div class="period-card">
+          <h4>📅 Semaine 2 : 16-20 Juin 2025</h4>
+          <ul>
+            <li>Utilisation d'OCS Inventory</li>
+            <li>Préparation des postes pour le baccalauréat</li>
+            <li>Création d'un suivi Excel des salles</li>
+            <li>Test et démontage de matériel</li>
+            <li>Vérification fonctionnelle des salles</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 3 -->
+        <div class="period-card">
+          <h4>📅 Semaine 3 : 23-27 Juin 2025</h4>
+          <ul>
+            <li>Installation de 18 postes (salle F02)</li>
+            <li>Tri et recyclage d'équipements</li>
+            <li>Travail sur GNPI et OCS Inventory</li>
+            <li>Vérification fonctionnelle des salles</li>
+            <li>Mise à jour des fichiers de suivi</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 4 -->
+        <div class="period-card">
+          <h4>📅 Semaine 4 : 7-11 Juillet 2025</h4>
+          <ul>
+            <li>Montage de 13 unités centrales</li>
+            <li>Désinstallation salles C15 et R25</li>
+            <li>Déploiement d'images via WDS</li>
+            <li>Gestion de domaines Active Directory</li>
+            <li>Finalisation des installations</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Réalisations majeures -->
+    <div class="detail-section">
+      <h2>🏆 Réalisations
