@@ -1,28 +1,33 @@
-name: Mise à jour veille
+name: Veille technologique automatique
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # tous les jours à 02h
+    - cron: "0 7 * * *"   # Tous les jours à 07h
   workflow_dispatch:
 
 jobs:
-  update:
+  update-veille:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+    - name: 📥 Récupération du dépôt
+      uses: actions/checkout@v4
 
-      - name: Mettre à jour les articles
-        run: |
-          echo "Simuler récupération d'articles..."
-          # Ici tu peux ajouter un script Python/Node.js pour récupérer automatiquement les articles depuis RSS ou APIs
-          # python3 scripts/update_articles.py
+    - name: 🐍 Installation Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
 
-      - name: Commit & Push
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add veilles-data/*.json
-          git commit -m "Mise à jour quotidienne des articles"
-          git push
+    - name: 📦 Dépendances
+      run: pip install feedparser
+
+    - name: 🔄 Mise à jour des articles
+      run: python veille_rss.py
+
+    - name: 💾 Commit automatique
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git add veilles-data/*.json
+        git commit -m "🔄 Mise à jour automatique de la veille" || echo "Aucune modification"
+        git push
