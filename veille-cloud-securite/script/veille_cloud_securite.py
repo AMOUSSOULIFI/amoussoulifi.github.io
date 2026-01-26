@@ -1,7 +1,7 @@
 import feedparser
 import json
 from datetime import datetime, timedelta
-from collections import Counter
+import os
 
 RSS_FEEDS = {
     "ANSSI": "https://www.cert.ssi.gouv.fr/feed/",
@@ -29,6 +29,13 @@ for source, url in RSS_FEEDS.items():
 
 articles.sort(key=lambda x: x["date"], reverse=True)
 
-with open("veille-cloud-securite/data/articles.json", "w", encoding="utf-8") as f:
+# 🔥 CRÉATION DU DOSSIER SI NÉCESSAIRE
+output_dir = "veille-cloud-securite/data"
+os.makedirs(output_dir, exist_ok=True)
+
+output_path = os.path.join(output_dir, "articles.json")
+
+with open(output_path, "w", encoding="utf-8") as f:
     json.dump(articles, f, indent=2, ensure_ascii=False)
 
+print(f"{len(articles)} articles enregistrés")
