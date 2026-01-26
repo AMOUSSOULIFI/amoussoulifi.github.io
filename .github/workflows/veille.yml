@@ -2,7 +2,7 @@ name: Veille Cloud & Sécurité
 
 on:
   schedule:
-    - cron: '0 7 * * 1'
+    - cron: '0 7 * * 1'  # tous les lundis à 7h
   workflow_dispatch:
 
 jobs:
@@ -16,16 +16,19 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Installer dépendances
+      - name: Installer feedparser
         run: pip install feedparser
 
-      - name: Lancer la veille
-        run: python script/veille_cloud_securite.py
+      - name: Créer dossier data
+        run: mkdir -p veille-cloud-securite/data
+
+      - name: Lancer le script de veille
+        run: python veille-cloud-securite/script/veille_cloud_securite.py
 
       - name: Commit automatique
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add .
-          git commit -m "Mise à jour veille Cloud & Sécurité" || exit 0
+          git add veille-cloud-securite/data/articles.json
+          git commit -m "Mise à jour veille Cloud & Sécurité" || echo "Rien à committer"
           git push
