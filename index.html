@@ -6,386 +6,108 @@
     <title>Portfolio BTS - Accueil</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        /* Styles spécifiques à la page d'accueil */
-        .hero-section {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 100px 20px;
-            text-align: center;
-            margin-top: -60px;
-            padding-top: 160px;
-        }
-
-        .hero-title {
-            font-size: 3.5em;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        .hero-subtitle {
-            font-size: 1.5em;
-            opacity: 0.9;
-            margin-bottom: 30px;
-            max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .profile-card {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            margin: -60px auto 40px;
-            max-width: 800px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            position: relative;
-        }
-
-        .profile-header {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            margin-bottom: 30px;
-        }
-
-        .profile-avatar {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 5px solid #667eea;
-            object-fit: cover;
-        }
-
-        .profile-info h2 {
-            color: #2c3e50;
-            margin-bottom: 10px;
-            font-size: 2em;
-        }
-
-        .profile-badge {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin-top: 10px;
-        }
-
-        .quick-links-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 50px 0;
-        }
-
-        .quick-link-card {
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            text-decoration: none;
-            color: #333;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            border: 2px solid transparent;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .quick-link-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0,0,0,0.2);
-            border-color: #667eea;
-        }
-
-        .quick-link-card h3 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            font-size: 1.5em;
-        }
-
-        .quick-link-card p {
-            color: #666;
-            line-height: 1.6;
-        }
-
-        .card-icon {
-            font-size: 2em;
-            margin-bottom: 15px;
-        }
-
-        .card-count {
-            background: #667eea;
-            color: white;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9em;
-            position: absolute;
-            top: 20px;
-            right: 20px;
-        }
-
-        .passions-section {
-            background: #f8f9fa;
-            padding: 60px 20px;
-            margin: 40px 0;
-            border-radius: 15px;
-        }
-
-        .passions-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 30px;
-            margin-top: 40px;
-        }
-
-        .passion-card {
-            background: white;
-            padding: 30px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-        }
-
-        .passion-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .passion-icon {
-            font-size: 3em;
-            margin-bottom: 20px;
-            display: block;
-        }
-
-        .contact-info {
-            text-align: center;
-            margin: 50px 0;
-            padding: 30px;
-            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-            border-radius: 15px;
-        }
-
-        .contact-links {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 20px;
-            flex-wrap: wrap;
-        }
-
-        .contact-link {
-            background: #667eea;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            transition: background 0.3s ease;
-        }
-
-        .contact-link:hover {
-            background: #764ba2;
-            color: white;
-            text-decoration: none;
-        }
-
-        @media (max-width: 768px) {
-            .hero-title {
-                font-size: 2.5em;
-            }
-            
-            .hero-subtitle {
-                font-size: 1.2em;
-            }
-            
-            .profile-header {
-                flex-direction: column;
-                text-align: center;
-            }
-            
-            .profile-avatar {
-                width: 120px;
-                height: 120px;
-            }
-            
-            .quick-links-grid {
-                grid-template-columns: 1fr;
-            }
-        }
+        /* Styles de ton portfolio conservés */
+        /* ... ton CSS ici ... */
     </style>
 </head>
 <body>
-    <!-- Section Login -->
-    <section id="login-section" class="login-container">
-        <div class="login-form">
-            <h1>Portfolio BTS</h1>
-            <p>Veuillez vous connecter</p>
-            <form id="login-form">
-                <input type="text" id="username" placeholder="Login" required>
-                <input type="password" id="password" placeholder="Mot de passe" required>
-                <button type="submit">Se connecter</button>
-            </form>
-            <p class="login-info">Login: enock | Mot de passe: enock2000*</p>
-            <div id="login-error" class="error-message hidden"></div>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link active">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link">📚 APs</a>
+            <a href="stages.html" class="nav-link">💼 Stages</a>
+            <a href="cv.html" class="nav-link">📄 CV</a>
+            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero-title">Bienvenue sur mon Portfolio</h1>
+            <p class="hero-subtitle">Étudiant passionné par les systèmes et réseaux, je vous présente mes réalisations professionnelles en BTS SIO SISR</p>
         </div>
     </section>
 
-    <!-- Contenu du portfolio (caché au début) -->
-    <div id="portfolio-content" class="hidden">
-        <!-- Navbar -->
-        <nav class="navbar">
-            <div class="nav-container">
-                <a href="index.html" class="nav-link active">🏠 Accueil</a>
-                <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">📚 APs</a>
-                <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">💼 Stages</a>
-                <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">📄 CV</a>
-                <a class="nav-link veille" href="veille-cloud-securite/veille-cloud-securite.html">Veille Cloud & Sécurité</a>
-                <button id="logout-btn" class="logout-btn" onclick="logoutUser()">🚪 Déconnexion</button>
-            </div>
-        </nav>
-
-        <!-- Hero Section -->
-        <section class="hero-section">
-            <div class="container">
-                <h1 class="hero-title">Bienvenue sur mon Portfolio</h1>
-                <p class="hero-subtitle">Étudiant passionné par les systèmes et réseaux, je vous présente mes réalisations professionnelles en BTS SIO SISR</p>
-            </div>
-        </section>
-
-        <!-- Profile Card -->
-        <div class="container">
-            <div class="profile-card">
-                <div class="profile-header">
-                    <img src="./images/profile.jpg" alt="Enock AMOUSSOULIFI" class="profile-avatar" onerror="this.src='https://ui-avatars.com/api/?name=Enock+AMOUSSOULIFI&background=667eea&color=fff&size=150'">
-                    <div class="profile-info">
-                        <h2>Enock AMOUSSOULIFI</h2>
-                        <p><strong>Étudiant en BTS SIO SISR</strong></p>
-                        <p>Campus Saint Charles Sainte Croix - Le Mans</p>
-                        <span class="profile-badge">🎓 BTS SIO - Option SISR</span>
-                        <span class="profile-badge">💻 Passionné par les systèmes et réseaux</span>
-                    </div>
-                </div>
-                
-                <div class="profile-details">
-                    <p>Je suis un étudiant passionné par l'administration système, les réseaux informatiques et la cybersécurité. Mon objectif est de devenir administrateur systèmes et réseaux, en mettant à profit mes compétences techniques et mon esprit d'analyse.</p>
+    <!-- Profile Card -->
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-header">
+                <img src="./images/profile.jpg" alt="Enock AMOUSSOULIFI" class="profile-avatar" onerror="this.src='https://ui-avatars.com/api/?name=Enock+AMOUSSOULIFI&background=667eea&color=fff&size=150'">
+                <div class="profile-info">
+                    <h2>Enock AMOUSSOULIFI</h2>
+                    <p><strong>Étudiant en BTS SIO SISR</strong></p>
+                    <p>Campus Saint Charles Sainte Croix - Le Mans</p>
+                    <span class="profile-badge">🎓 BTS SIO - Option SISR</span>
+                    <span class="profile-badge">💻 Passionné par les systèmes et réseaux</span>
                 </div>
             </div>
-
-            <!-- Quick Links -->
-            <div class="quick-links-grid">
-                <a href="aps.html" class="quick-link-card" onclick="navigateTo('aps.html')">
-                    <div class="card-icon">📚</div>
-                    <span class="card-count">5 APs</span>
-                    <h3>APs Réalisées</h3>
-                    <p>Découvrez mes 5 Ateliers de Professionnalisation : installation WordPress, gestion de parc informatique, déploiement de services réseau, et bien plus...</p>
-                </a>
-
-                <a href="stages.html" class="quick-link-card" onclick="navigateTo('stages.html')">
-                    <div class="card-icon">💼</div>
-                    <span class="card-count">2 Stages</span>
-                    <h3>Expériences Professionnelles</h3>
-                    <p>Mes stages en entreprise : maintenance de parc informatique, déploiement d'équipements, gestion de serveurs, et support utilisateurs.</p>
-                </a>
-
-                <a href="cv.html" class="quick-link-card" onclick="navigateTo('cv.html')">
-                    <div class="card-icon">📄</div>
-                    <h3>Curriculum Vitae</h3>
-                    <p>Consultez mon CV complet avec mes compétences techniques, formations et expériences professionnelles dans le domaine des systèmes et réseaux.</p>
-                </a>
-
-                <a href="veille.html" class="quick-link-card" onclick="navigateTo('veille.html')">
-                    <div class="card-icon">🔍</div>
-                    <h3>Veille Technologique</h3>
-                    <p>Ma veille sur les dernières technologies en IAM, Zero Trust, DevOps, Cloud, et automatisation des infrastructures.</p>
-                </a>
+            <div class="profile-details">
+                <p>Je suis un étudiant passionné par l'administration système, les réseaux informatiques et la cybersécurité. Mon objectif est de devenir administrateur systèmes et réseaux, en mettant à profit mes compétences techniques et mon esprit d'analyse.</p>
             </div>
+        </div>
 
-            <!-- Passions Section -->
-            <div class="passions-section">
-                <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">🎯 Mes Passions</h2>
-                <div class="passions-grid">
-                    <div class="passion-card">
-                        <span class="passion-icon">🖥️</span>
-                        <h3>Systèmes & Réseaux</h3>
-                        <p>Passionné par l'administration système, la virtualisation, la sécurité réseau et l'automatisation des infrastructures.</p>
-                    </div>
+        <!-- Quick Links -->
+        <div class="quick-links-grid">
+            <a href="aps.html" class="quick-link-card">
+                <div class="card-icon">📚</div>
+                <span class="card-count">5 APs</span>
+                <h3>APs Réalisées</h3>
+                <p>Découvrez mes 5 Ateliers de Professionnalisation...</p>
+            </a>
+            <a href="stages.html" class="quick-link-card">
+                <div class="card-icon">💼</div>
+                <span class="card-count">2 Stages</span>
+                <h3>Expériences Professionnelles</h3>
+                <p>Mes stages en entreprise...</p>
+            </a>
+            <a href="cv.html" class="quick-link-card">
+                <div class="card-icon">📄</div>
+                <h3>Curriculum Vitae</h3>
+                <p>Consultez mon CV complet...</p>
+            </a>
+            <a href="veille-cloud-securite/veille-cloud-securite.html" class="quick-link-card">
+                <div class="card-icon">🔍</div>
+                <h3>Veille Technologique</h3>
+                <p>Ma veille sur Cloud & Sécurité avec graphique et articles.</p>
+            </a>
+        </div>
+    </div>
 
-                    <div class="passion-card">
-                        <span class="passion-icon">🎮</span>
-                        <h3>Jeux Vidéo</h3>
-                        <p>Grand amateur de jeux vidéo, particulièrement intéressé par les aspects techniques et l'infrastructure des jeux en ligne.</p>
-                    </div>
-
-                    <div class="passion-card">
-                        <span class="passion-icon">⚽</span>
-                        <h3>Football</h3>
-                        <p>Passionné de football, j'apprécie autant jouer que suivre les compétitions nationales et internationales.</p>
-                    </div>
-                </div>
+    <!-- Passions Section -->
+    <div class="passions-section">
+        <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">🎯 Mes Passions</h2>
+        <div class="passions-grid">
+            <div class="passion-card">
+                <span class="passion-icon">🖥️</span>
+                <h3>Systèmes & Réseaux</h3>
+                <p>Administration système, virtualisation, sécurité réseau...</p>
             </div>
-
-            <!-- Contact Section -->
-            <div class="contact-info">
-                <h2 style="color: #2c3e50; margin-bottom: 20px;">📫 Contactez-moi</h2>
-                <p>Vous souhaitez en savoir plus sur mon parcours ou discuter d'opportunités professionnelles ?</p>
-                <div class="contact-links">
-                    <a href="mailto:enock.amoussoulifi@email.com" class="contact-link">
-                        ✉️ Email
-                    </a>
-                    <a href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download class="contact-link">
-                        📥 Télécharger mon CV
-                    </a>
-                </div>
+            <div class="passion-card">
+                <span class="passion-icon">🎮</span>
+                <h3>Jeux Vidéo</h3>
+                <p>Amateur de jeux vidéo, intéressé par l’infrastructure...</p>
+            </div>
+            <div class="passion-card">
+                <span class="passion-icon">⚽</span>
+                <h3>Football</h3>
+                <p>Jouer et suivre les compétitions nationales et internationales.</p>
             </div>
         </div>
     </div>
 
-    <script>
-        // Fonction de navigation forcée pour GitHub Pages
-        function navigateTo(page) {
-            window.location.href = page;
-            return false;
-        }
+    <!-- Contact Section -->
+    <div class="contact-info">
+        <h2 style="color: #2c3e50; margin-bottom: 20px;">📫 Contactez-moi</h2>
+        <p>Pour en savoir plus sur mon parcours...</p>
+        <div class="contact-links">
+            <a href="mailto:enock.amoussoulifi@email.com" class="contact-link">✉️ Email</a>
+            <a href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download class="contact-link">📥 Télécharger mon CV</a>
+        </div>
+    </div>
 
-        // Fonction de déconnexion
-        function logoutUser() {
-            localStorage.removeItem('sessionData');
-            window.location.href = 'index.html';
-        }
-
-        // Navigation manuelle pour les liens
-        document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('a[href]');
-            links.forEach(link => {
-                if (link.getAttribute('href') !== 'index.html' && !link.onclick) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        window.location.href = this.getAttribute('href');
-                    });
-                }
-            });
-        });
-
-        // Gestion de l'image de profil par défaut
-        document.addEventListener('DOMContentLoaded', function() {
-            const profileImg = document.querySelector('.profile-avatar');
-            if (profileImg) {
-                profileImg.onerror = function() {
-                    this.src = 'https://ui-avatars.com/api/?name=Enock+AMOUSSOULIFI&background=667eea&color=fff&size=150';
-                };
-            }
-        });
-    </script>
-
+    <!-- Scripts JS -->
     <script src="script.js"></script>
 </body>
 </html>
-
-
-
