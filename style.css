@@ -121,52 +121,101 @@ a {
     margin-top: 5px;
 }
 
-/* ===== QUICK LINKS ===== */
+/* ===== QUICK LINKS (APS, Stages, CV, Veille) ===== */
 .quick-links-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
 }
 
 .quick-link-card {
-    background: white;
-    padding: 30px 20px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 20px;
+    padding: 25px 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: all 0.4s ease;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid rgba(255,255,255,0.3);
 }
 
 .quick-link-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.quick-link-card::before {
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    top: -10%;
+    left: -10%;
+    background: linear-gradient(45deg, #667eea, #764ba2, #38bdf8);
+    opacity: 0.1;
+    z-index: 0;
+    transition: opacity 0.4s;
+    border-radius: 20px;
+}
+
+.quick-link-card:hover::before {
+    opacity: 0.25;
 }
 
 .quick-link-card h3 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     margin: 15px 0;
-    color: #2c3e50;
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
 }
 
 .quick-link-card p {
-    font-size: 0.95em;
-    color: #555;
+    font-size: 1em;
+    color: #e0e7ff;
+    line-height: 1.5;
+    position: relative;
+    z-index: 1;
 }
 
 .card-icon {
-    font-size: 2.2em;
+    font-size: 2.5em;
+    position: relative;
+    z-index: 1;
 }
 
 .card-count {
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: #667eea;
-    color: white;
-    padding: 5px 12px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    padding: 6px 15px;
+    font-weight: 600;
     border-radius: 15px;
     font-size: 0.85em;
+    z-index: 1;
 }
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .quick-links-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quick-link-card h3 {
+        font-size: 1.4em;
+    }
+
+    .quick-link-card p {
+        font-size: 0.95em;
+    }
+}
+
 
 /* ===== PASSIONS ===== */
 .passions-section {
@@ -246,3 +295,4 @@ a {
     .profile-avatar { width: 120px; height: 120px; }
     .quick-links-grid, .passions-grid { grid-template-columns: 1fr; }
 }
+
