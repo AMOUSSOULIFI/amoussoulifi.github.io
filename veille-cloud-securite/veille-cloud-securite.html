@@ -2,28 +2,44 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Veille Cloud & Sécurité</title>
     <link rel="stylesheet" href="veille-cloud-securite.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 
-<header>
-    <h1>Veille technologique – Cloud & Sécurité</h1>
-    <p>Veille automatisée sur 12 mois</p>
-</header>
+<!-- Navbar identique à index.html -->
+<nav class="navbar">
+    <div class="nav-container">
+        <a href="../index.html" class="nav-link">🏠 Accueil</a>
+        <a href="../aps.html" class="nav-link">📚 APs</a>
+        <a href="../stages.html" class="nav-link">💼 Stages</a>
+        <a href="../cv.html" class="nav-link">📄 CV</a>
+        <a href="veille-cloud-securite.html" class="nav-link active">🔍 Veille Cloud & Sécurité</a>
+    </div>
+</nav>
 
+<!-- Hero section -->
+<section class="hero-section">
+    <div class="container">
+        <h1 class="hero-title">Veille technologique – Cloud & Sécurité</h1>
+        <p class="hero-subtitle">Suivi automatique des articles récents et graphique d’évolution mensuelle</p>
+    </div>
+</section>
+
+<!-- Graphique -->
 <section>
     <h2>Évolution des publications</h2>
     <canvas id="graphique"></canvas>
 </section>
 
+<!-- Articles -->
 <section>
     <h2>Articles récents</h2>
-    <div id="articles"></div>
+    <div id="articles" class="articles-container"></div>
 </section>
 
 <script src="veille-cloud-securite.js"></script>
 </body>
 </html>
-
