@@ -1,1 +1,722 @@
-
+[
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0057/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0061/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0059/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apache Struts (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0060/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0056/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0058/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0055/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-002 (19 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-002/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité Microsoft Power Apps (19 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0064/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Desktop App (19 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0062/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (19 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0063/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle MySQL (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0070/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0069/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0071/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Python (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0067/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0068/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Atlassian (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0065/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0074/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0073/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Google Chrome (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0066/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0075/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Systems (21 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0072/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Recommandations à destination  des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Cisco (22 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0076/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Ceph (22 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0078/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Python (22 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0079/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Symantec (22 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0077/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Broadcom Web Security Services Agent (23 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0080/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (23 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0083/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (23 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0082/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (23 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0081/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-004 (26 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-004/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (26 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0084/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (26 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0086/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Belden (26 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0087/",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans NetApp Brocade SAN Navigator (26 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0085/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cable cuts, storms, and DNS: a look at Internet disruptions in Q4 2025",
+    "link": "https://blog.cloudflare.com/q4-2025-internet-disruption-summary/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Route leak incident on January 22, 2026",
+    "link": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we mitigated a vulnerability in Cloudflare’s ACME validation logic",
+    "link": "https://blog.cloudflare.com/acme-path-vulnerability/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Astro is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/astro-joins-cloudflare/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Human Native is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/human-native-joins-cloudflare/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "What came first: the CNAME or the A record?",
+    "link": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "What we know about Iran’s Internet shutdown",
+    "link": "https://blog.cloudflare.com/iran-protests-internet-shutdown/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "A closer look at a BGP anomaly in Venezuela",
+    "link": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "From runtime risk to real‑time defense: Securing AI agents",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft Security success stories: Why integrated security is the foundation of AI transformation",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Resurgence of a multi‑stage AiTM phishing and BEC campaign abusing SharePoint",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "A new era of agents, a new era of posture",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/new-era-of-agents-new-era-of-posture/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Four priorities for AI-powered identity and network access security in 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/20/four-priorities-for-ai-powered-identity-and-network-access-security-in-2026/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft named a Leader in IDC MarketScape for Unified AI Governance Platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Inside RedVDS: How a single virtual desktop provider fueled worldwide cybercriminal operations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/14/inside-redvds-how-a-single-virtual-desktop-provider-fueled-worldwide-cybercriminal-operations/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "How Microsoft builds privacy and security to work hand-in-hand",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/13/how-microsoft-builds-privacy-and-security-to-work-hand-in-hand/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Explore the latest Microsoft Incident Response proactive services for enhanced resilience",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/07/explore-the-latest-microsoft-incident-response-proactive-services-for-enhanced-resilience/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Phishing actors exploit complex routing and misconfigurations to spoof domains",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Firewall Flaws, AI-Built Malware, Browser Traps, Critical CVEs & More",
+    "link": "https://thehackernews.com/2026/01/weekly-recap-firewall-flaws-ai-built.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Winning Against AI-Based Attacks Requires a Combined Defensive Approach",
+    "link": "https://thehackernews.com/2026/01/winning-against-ai-based-attacks.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Konni Hackers Deploy AI-Generated PowerShell Backdoor Against Blockchain Developers",
+    "link": "https://thehackernews.com/2026/01/konni-hackers-deploy-ai-generated.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Multi-Stage Phishing Campaign Targets Russia with Amnesia RAT and Ransomware",
+    "link": "https://thehackernews.com/2026/01/multi-stage-phishing-campaign-targets.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New DynoWiper Malware Used in Attempted Sandworm Attack on Polish Power Sector",
+    "link": "https://thehackernews.com/2026/01/new-dynowiper-malware-used-in-attempted.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Who Approved This Agent? Rethinking Access, Accountability, and Risk in the Age of AI Agents",
+    "link": "https://thehackernews.com/2026/01/who-approved-this-agent-rethinking.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog",
+    "link": "https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
+    "link": "https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fortinet Confirms Active FortiCloud SSO Bypass on Fully Patched FortiGate Firewalls",
+    "link": "https://thehackernews.com/2026/01/fortinet-confirms-active-forticloud-sso.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TikTok Forms U.S. Joint Venture to Continue Operations Under 2025 Executive Order",
+    "link": "https://thehackernews.com/2026/01/tiktok-forms-us-joint-venture-to.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Phishing Attack Uses Stolen Credentials to Install LogMeIn RMM for Persistent Access",
+    "link": "https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Flags Multi-Stage AitM Phishing and BEC Attacks Targeting Energy Firms",
+    "link": "https://thehackernews.com/2026/01/microsoft-flags-multi-stage-aitm.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Osiris Ransomware Emerges as New Strain Using POORTRY Driver in BYOVD Attack",
+    "link": "https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
+    "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Pixel Zero-Click, Redis RCE, China C2s, RAT Ads, Crypto Scams & 15+ Stories",
+    "link": "https://thehackernews.com/2026/01/threatsday-bulletin-pixel-zero-click.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Filling the Most Common Gaps in Google Workspace Security",
+    "link": "https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
+    "link": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
+    "link": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
+    "link": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
+    "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
+    "link": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
+    "link": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webinar: How Smart MSSPs Using AI to Boost Margins with Half the Staff",
+    "link": "https://thehackernews.com/2026/01/webinar-how-smart-mssps-using-ai-to.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Exposure Assessment Platforms Signal a Shift in Focus",
+    "link": "https://thehackernews.com/2026/01/exposure-assessment-platforms-signal.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chainlit AI Framework Flaws Enable Data Theft via File Read and SSRF Bugs",
+    "link": "https://thehackernews.com/2026/01/chainlit-ai-framework-flaws-enable-data.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "VoidLink Linux Malware Framework Built with AI Assistance Reaches 88,000 Lines of Code",
+    "link": "https://thehackernews.com/2026/01/voidlink-linux-malware-framework-built.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LastPass Warns of Fake Maintenance Messages Targeting Users’ Master Passwords",
+    "link": "https://thehackernews.com/2026/01/lastpass-warns-of-fake-maintenance.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT/CC Warns binary-parser Bug Allows Node.js Privilege-Level Code Execution",
+    "link": "https://thehackernews.com/2026/01/certcc-warns-binary-parser-bug-allows.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korea-Linked Hackers Target Developers via Malicious VS Code Projects",
+    "link": "https://thehackernews.com/2026/01/north-korea-linked-hackers-target.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three Flaws in Anthropic MCP Git Server Enable File Access and Code Execution",
+    "link": "https://thehackernews.com/2026/01/three-flaws-in-anthropic-mcp-git-server.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
+    "link": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Hidden Risk of Orphan Accounts",
+    "link": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
+    "link": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cloudflare Fixes ACME Validation Bug Allowing WAF Bypass to Origin Servers",
+    "link": "https://thehackernews.com/2026/01/cloudflare-fixes-acme-validation-bug.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why Secrets in JavaScript Bundles are Still Being Missed",
+    "link": "https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
+    "link": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
+    "link": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
+    "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses",
+    "link": "https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs",
+    "link": "https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CrashFix Chrome Extension Delivers ModeloRAT Using ClickFix-Style Browser Crash Lures",
+    "link": "https://thehackernews.com/2026/01/crashfix-chrome-extension-delivers.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Security Bug in StealC Malware Panel Let Researchers Spy on Threat Actor Operations",
+    "link": "https://thehackernews.com/2026/01/security-bug-in-stealc-malware-panel.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Black Basta Ransomware Leader Added to EU Most Wanted and INTERPOL Red Notice",
+    "link": "https://thehackernews.com/2026/01/black-basta-ransomware-hacker-leader.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI to Show Ads in ChatGPT for Logged-In U.S. Adults on Free and Go Plans",
+    "link": "https://thehackernews.com/2026/01/openai-to-show-ads-in-chatgpt-for.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GootLoader Malware Uses 500–1,000 Concatenated ZIP Archives to Evade Detection",
+    "link": "https://thehackernews.com/2026/01/gootloader-malware-uses-5001000.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Five Malicious Chrome Extensions Impersonate Workday and NetSuite to Hijack Accounts",
+    "link": "https://thehackernews.com/2026/01/five-malicious-chrome-extensions.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your Digital Footprint Can Lead Right to Your Front Door",
+    "link": "https://thehackernews.com/2026/01/your-digital-footprint-can-lead-right.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing",
+    "link": "https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusion",
+    "link": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches Zero-Day RCE Exploited by China-Linked APT in Secure Email Gateways",
+    "link": "https://thehackernews.com/2026/01/cisco-patches-zero-day-rce-exploited-by.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (18 décembre 2025)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-1122/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Workers powers our internal maintenance scheduling pipeline",
+    "link": "https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Code Orange: Fail Small — our resilience plan following recent incidents",
+    "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Innovating to address streaming abuse — and our latest transparency report",
+    "link": "https://blog.cloudflare.com/h1-2025-transparency-report/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
+    "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks",
+    "link": "https://blog.cloudflare.com/radar-2025-year-in-review/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "ChatGPT's rivals, Kwai's quiet rise: the top Internet services of 2025",
+    "link": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "React2Shell and related RSC vulnerabilities threat brief: early exploitation activity and threat actor techniques",
+    "link": "https://blog.cloudflare.com/react2shell-rsc-vulnerabilities-exploitation-threat-brief/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code",
+    "link": "https://blog.cloudflare.com/shift-left-enterprise-scale/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
+    "link": "https://blog.cloudflare.com/python-workers-advancements/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare outage on December 5, 2025",
+    "link": "https://blog.cloudflare.com/5-december-2025-outage/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare WAF proactively protects against React vulnerability",
+    "link": "https://blog.cloudflare.com/waf-rules-react-vulnerability/",
+    "date": "2025-12"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare's 2025 Q3 DDoS threat report -- including Aisuru, the apex of botnets",
+    "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q3/",
+    "date": "2025-12"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration (06 novembre 2025)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0970/",
+    "date": "2025-11"
+  }
+]
