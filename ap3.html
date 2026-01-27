@@ -153,20 +153,101 @@ h1{
 
 <body>
 
-<nav class="navbar">
-    <a href="index.html" class="nav-link">🏠 Accueil</a>
-    <a href="aps.html" class="nav-link">📚 APs</a>
-</nav>
+<script>
+        // Vérification d'authentification
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) { window.location.href = 'index.html'; }
+    </script>
 
-<div class="container">
-<h1>AP3 – Mairie de Pénestin<br>GED & NAS</h1>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-link">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link">📚 APs</a>
+            <a href="stages.html" class="nav-link">💼 Stages</a>
+            <a href="cv.html" class="nav-link">📄 CV</a>
+            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
+        </div>
+    </nav>
 
-<div class="tabs">
-    <button class="tab-btn active" onclick="openTab(event,'presentation')">📽️ Présentation</button>
-    <button class="tab-btn" onclick="openTab(event,'devis')">📄 Devis</button>
-    <button class="tab-btn" onclick="openTab(event,'manuel')">📘 Manuel</button>
-</div>
+    <section class="section">
+        <div class="container">
+            <a href="aps.html" class="back-button">← Retour aux APs</a>
 
+            <div class="ap-header">
+                <div class="ap-badge">AP3</div>
+                <h1>Mairie de Pénestin - GED et NAS</h1>
+                <p class="ap-date">Janvier - Mars 2025</p>
+            </div>
+
+            <div class="ap-details-grid">
+                <!-- Description -->
+                <div class="detail-section">
+                    <h2>📋 Description de l'AP</h2>
+                    <p>Mise en place complète d'une solution GED et configuration d'un serveur NAS pour la mairie de Pénestin.</p>
+                </div>
+
+                <!-- Infos techniques -->
+                <div class="info-table">
+                    <div class="info-column">
+                        <h3>🛠️ Technologies utilisées</h3>
+                        <ul>
+                            <li>OpenKM (GED)</li>
+                            <li>Debian Server</li>
+                            <li>Open Media Vault (NAS)</li>
+                            <li>MySQL</li>
+                            <li>Apache Tomcat</li>
+                        </ul>
+                    </div>
+                    <div class="info-column">
+                        <h3>🎯 Compétences développées</h3>
+                        <ul>
+                            <li>Gérer le patrimoine informatique</li>
+                            <li>Répondre aux incidents et aux demandes d’assistance</li>
+                            <li>Travailler en mode projet</li>
+                        </ul>
+                    </div>
+                    <div class="info-column">
+                        <h3>👥 Mode de travail</h3>
+                        <p><strong>Travail en binôme</strong></p>
+                        <ul>
+                            <li>Analyse des besoins client</li>
+                            <li>Installation et configuration</li>
+                            <li>Tests et validation</li>
+                            <li>Documentation collaborative</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Réalisations -->
+                <div class="detail-section">
+                    <h2>🚀 Réalisations principales</h2>
+                    <div class="realisations-grid">
+                        <div class="realisation-card">
+                            <h4>📊 Installation GED OpenKM</h4>
+                            <ul>
+                                <li>Installation sur Debian</li>
+                                <li>Configuration MySQL</li>
+                                <li>Paramétrage des droits d'accès</li>
+                                <li>Migration des documents existants</li>
+                            </ul>
+                        </div>
+                        <div class="realisation-card">
+                            <h4>💾 Configuration NAS</h4>
+                            <ul>
+                                <li>Installation Open Media Vault</li>
+                                <li>Partages SMB/NFS</li>
+                                <li>Quotas d'espace disque</li>
+                            </ul>
+                        </div>
+                        <div class="realisation-card">
+                            <h4>🔒 Sécurisation</h4>
+                            <ul>
+                                <li>Configuration pare-feu</li>
+                                <li>Sauvegarde automatique</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 <!-- PRÉSENTATION : TOUTES LES IMAGES -->
 <div id="presentation" class="tab-content active">
 <div class="gallery">
@@ -238,3 +319,4 @@ function closeModal(){
 
 </body>
 </html>
+
