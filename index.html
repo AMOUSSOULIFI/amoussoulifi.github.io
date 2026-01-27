@@ -1,207 +1,508 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio BTS - Accueil</title>
-    <link rel="stylesheet" href="style.css">
-   <style>
-/* ===== QUICK LINKS (APS, Stages, CV, Veille) ===== */
+/* ===== VARIABLES & RESET ===== */
+:root {
+    --primary: #667eea;
+    --primary-dark: #5a67d8;
+    --secondary: #764ba2;
+    --accent: #38bdf8;
+    --dark: #0f172a;
+    --light: #f8fafc;
+    --gray: #64748b;
+    --gray-light: #e2e8f0;
+    --radius: 16px;
+    --shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    --shadow-hover: 0 20px 40px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    --gradient: linear-gradient(135deg, var(--primary), var(--secondary));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--dark);
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.9);
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--gray);
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-link::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient);
+    transition: left 0.4s ease;
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.nav-link:hover::before {
+    left: 0;
+}
+
+.nav-link:hover {
+    color: white;
+    transform: translateY(-2px);
+}
+
+.nav-link.active {
+    background: var(--gradient);
+    color: white;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+    padding: 5rem 2rem;
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    margin-bottom: 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #f5f7fa, transparent);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #fff, var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-subtitle {
+    font-size: 1.3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    color: var(--gray-light);
+    font-weight: 300;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* ===== PROFILE CARD ===== */
+.profile-card {
+    background: white;
+    border-radius: var(--radius);
+    padding: 3rem;
+    box-shadow: var(--shadow);
+    margin: -80px auto 3rem auto;
+    position: relative;
+    z-index: 2;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    transition: var(--transition);
+}
+
+.profile-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-hover);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.profile-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+}
+
+.profile-avatar:hover {
+    transform: scale(1.05);
+}
+
+.profile-info h2 {
+    font-size: 2.5rem;
+    color: var(--dark);
+    margin-bottom: 0.5rem;
+}
+
+.profile-info p {
+    color: var(--gray);
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.profile-badge {
+    display: inline-block;
+    background: var(--gradient);
+    color: white;
+    padding: 0.5rem 1.2rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    margin: 0.3rem 0.3rem 0 0;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.profile-details {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 2rem;
+    border-radius: var(--radius);
+    border-left: 5px solid var(--primary);
+}
+
+.profile-details p {
+    font-size: 1.1rem;
+    color: var(--gray);
+    line-height: 1.8;
+}
+
+/* ===== QUICK LINKS ===== */
 .quick-links-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 30px;
-    margin-top: 40px;
+    margin: 4rem 0;
 }
 
 .quick-link-card {
     position: relative;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(12px);
-    border-radius: 20px;
-    padding: 25px 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    transition: all 0.4s ease;
+    background: white;
+    border-radius: var(--radius);
+    padding: 2rem;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
     overflow: hidden;
-    cursor: pointer;
-    border: 1px solid rgba(255,255,255,0.3);
-}
-
-.quick-link-card:hover {
-    transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    border-color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid var(--gray-light);
 }
 
 .quick-link-card::before {
     content: '';
     position: absolute;
-    width: 120%;
-    height: 120%;
-    top: -10%;
-    left: -10%;
-    background: linear-gradient(45deg, #667eea, #764ba2, #38bdf8);
-    opacity: 0.1;
-    z-index: 0;
-    transition: opacity 0.4s;
-    border-radius: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: var(--gradient);
+    transition: height 0.3s ease;
+}
+
+.quick-link-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-hover);
 }
 
 .quick-link-card:hover::before {
-    opacity: 0.25;
+    height: 100%;
+    opacity: 0.05;
 }
 
-.quick-link-card h3 {
-    font-size: 1.6em;
-    margin: 15px 0;
-    color: #ffffff;
-    position: relative;
-    z-index: 1;
-}
-
-.quick-link-card p {
-    font-size: 1em;
-    color: #e0e7ff;
-    line-height: 1.5;
+.quick-link-card > * {
     position: relative;
     z-index: 1;
 }
 
 .card-icon {
-    font-size: 2.5em;
-    position: relative;
-    z-index: 1;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: inline-block;
 }
 
 .card-count {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    background-color: #38bdf8;
-    color: #0f172a;
-    padding: 6px 15px;
+    top: 1rem;
+    right: 1rem;
+    background: var(--gradient);
+    color: white;
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
     font-weight: 600;
-    border-radius: 15px;
-    font-size: 0.85em;
-    z-index: 1;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
 }
 
+.quick-link-card h3 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin: 1rem 0;
+}
+
+.quick-link-card p {
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+/* ===== PASSIONS SECTION ===== */
+.passions-section {
+    background: white;
+    padding: 5rem 2rem;
+    margin: 4rem 0;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}
+
+.passions-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.passions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.passion-card {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 2.5rem 2rem;
+    border-radius: var(--radius);
+    text-align: center;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.passion-card:hover {
+    transform: translateY(-10px);
+    border-color: var(--primary);
+    box-shadow: var(--shadow-hover);
+}
+
+.passion-icon {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+}
+
+.passion-card h3 {
+    font-size: 1.5rem;
+    color: var(--dark);
+    margin-bottom: 1rem;
+}
+
+.passion-card p {
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-info {
+    background: var(--gradient);
+    color: white;
+    padding: 4rem 2rem;
+    text-align: center;
+    border-radius: var(--radius);
+    margin: 4rem auto;
+    max-width: 1200px;
+}
+
+.contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    background: white;
+    color: var(--primary);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    background: var(--dark);
+    color: white;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-info h2 {
+        font-size: 2rem;
+    }
+    
+    .nav-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+    
+    .nav-link {
+        width: 100%;
+        justify-content: center;
+    }
+    
     .quick-links-grid {
         grid-template-columns: 1fr;
     }
-
-    .quick-link-card h3 {
-        font-size: 1.4em;
+    
+    .passions-grid {
+        grid-template-columns: 1fr;
     }
-
-    .quick-link-card p {
-        font-size: 0.95em;
+    
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .container {
+        padding: 0 1rem;
     }
 }
-</style>
-</head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="nav-link active">🏠 Accueil</a>
-            <a href="aps.html" class="nav-link">📚 APs</a>
-            <a href="stages.html" class="nav-link">💼 Stages</a>
-            <a href="cv.html" class="nav-link">📄 CV</a>
-            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
 
-        </div>
-    </nav>
+/* ===== ANIMATIONS ===== */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <h1 class="hero-title">Bienvenue sur mon Portfolio</h1>
-            <p class="hero-subtitle">Étudiant passionné par les systèmes et réseaux, je vous présente mes réalisations professionnelles en BTS SIO SISR</p>
-        </div>
-    </section>
+.profile-card,
+.quick-link-card,
+.passion-card {
+    animation: fadeInUp 0.6s ease-out;
+}
 
-    <!-- Profile Card -->
-    <div class="container">
-        <div class="profile-card">
-            <div class="profile-header">
-                <img src="./images/profile.jpg" alt="Enock AMOUSSOULIFI" class="profile-avatar" onerror="this.src='https://ui-avatars.com/api/?name=Enock+AMOUSSOULIFI&background=667eea&color=fff&size=150'">
-                <div class="profile-info">
-                    <h2>Enock AMOUSSOULIFI</h2>
-                    <p><strong>Étudiant en BTS SIO SISR</strong></p>
-                    <p>Campus Saint Charles Sainte Croix - Le Mans</p>
-                    <span class="profile-badge">🎓 BTS SIO - Option SISR</span>
-                    <span class="profile-badge">💻 Passionné par les systèmes et réseaux</span>
-                </div>
-            </div>
-            <div class="profile-details">
-                <p>Je suis un étudiant passionné par l'administration système, les réseaux informatiques et la cybersécurité. Mon objectif est de devenir administrateur systèmes et réseaux, en mettant à profit mes compétences techniques et mon esprit d'analyse.</p>
-            </div>
-        </div>
+.quick-link-card:nth-child(2) { animation-delay: 0.1s; }
+.quick-link-card:nth-child(3) { animation-delay: 0.2s; }
+.quick-link-card:nth-child(4) { animation-delay: 0.3s; }
 
-        <!-- Quick Links -->
-        <div class="quick-links-grid">
-            <a href="aps.html" class="quick-link-card">
-                <div class="card-icon">📚</div>
-                <span class="card-count">5 APs</span>
-                <h3>APs Réalisées</h3>
-                <p>Découvrez mes 5 Ateliers de Professionnalisation...</p>
-            </a>
-            <a href="stages.html" class="quick-link-card">
-                <div class="card-icon">💼</div>
-                <span class="card-count">2 Stages</span>
-                <h3>Expériences Professionnelles</h3>
-                <p>Mes stages en entreprise...</p>
-            </a>
-            <a href="cv.html" class="quick-link-card">
-                <div class="card-icon">📄</div>
-                <h3>Curriculum Vitae</h3>
-                <p>Consultez mon CV complet...</p>
-            </a>
-            <a href="veille-cloud-securite/veille-cloud-securite.html" class="quick-link-card">
-                <div class="card-icon">🔍</div>
-                <h3>Veille Technologique</h3>
-                <p>Ma veille sur Cloud & Sécurité avec graphique et articles.</p>
-            </a>
-        </div>
-    </div>
+/* ===== SCROLLBAR ===== */
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-    <!-- Passions Section -->
-    <div class="passions-section">
-        <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">🎯 Mes Passions</h2>
-        <div class="passions-grid">
-            <div class="passion-card">
-                <span class="passion-icon">🖥️</span>
-                <h3>Systèmes & Réseaux</h3>
-                <p>Administration système, virtualisation, sécurité réseau...</p>
-            </div>
-            <div class="passion-card">
-                <span class="passion-icon">🎮</span>
-                <h3>Jeux Vidéo</h3>
-                <p>Amateur de jeux vidéo, intéressé par l’infrastructure...</p>
-            </div>
-            <div class="passion-card">
-                <span class="passion-icon">⚽</span>
-                <h3>Football</h3>
-                <p>Jouer et suivre les compétitions nationales et internationales.</p>
-            </div>
-        </div>
-    </div>
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
 
-    <!-- Contact Section -->
-    <div class="contact-info">
-        <h2 style="color: #2c3e50; margin-bottom: 20px;">📫 Contactez-moi</h2>
-        <p>Pour en savoir plus sur mon parcours...</p>
-        <div class="contact-links">
-            <a href="mailto:enock.amoussoulifi@email.com" class="contact-link">✉️ Email</a>
-            <a href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download class="contact-link">📥 Télécharger mon CV</a>
-        </div>
-    </div>
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+}
 
-    <!-- Scripts JS -->
-    <script src="script.js"></script>
-</body>
-</html>
-
-
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-dark);
+}
