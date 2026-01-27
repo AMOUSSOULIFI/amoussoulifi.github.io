@@ -277,6 +277,12 @@
   },
   {
     "source": "Microsoft Security",
+    "title": "Security strategies for safeguarding governmental data",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/26/security-strategies-for-safeguarding-governmental-data/",
+    "date": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
     "title": "From runtime risk to real‑time defense: Securing AI agents",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/",
     "date": "2026-01"
@@ -330,9 +336,15 @@
     "date": "2026-01"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Phishing actors exploit complex routing and misconfigurations to spoof domains",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/06/phishing-actors-exploit-complex-routing-and-misconfigurations-to-spoof-domains/",
+    "source": "The Hacker News",
+    "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
+    "link": "https://thehackernews.com/2026/01/indian-users-targeted-in-tax-phishing.html",
+    "date": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious VS Code AI Extensions with 1.5 Million Installs Steal Developer Source Code",
+    "link": "https://thehackernews.com/2026/01/malicious-vs-code-ai-extensions-with-15.html",
     "date": "2026-01"
   },
   {
@@ -621,18 +633,6 @@
     "source": "The Hacker News",
     "title": "LOTUSLITE Backdoor Targets U.S. Policy Entities Using Venezuela-Themed Spear Phishing",
     "link": "https://thehackernews.com/2026/01/lotuslite-backdoor-targets-us-policy.html",
-    "date": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked APT Exploited Sitecore Zero-Day in Critical Infrastructure Intrusion",
-    "link": "https://thehackernews.com/2026/01/china-linked-apt-exploits-sitecore-zero.html",
-    "date": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches Zero-Day RCE Exploited by China-Linked APT in Secure Email Gateways",
-    "link": "https://thehackernews.com/2026/01/cisco-patches-zero-day-rce-exploited-by.html",
     "date": "2026-01"
   },
   {
