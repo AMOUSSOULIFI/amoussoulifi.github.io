@@ -4,86 +4,221 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stages - Portfolio BTS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <script>
-        // Vérification d'authentification UNIQUE
-        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-        if (!sessionData || !sessionData.isLoggedIn) {
-            window.location.href = 'index.html';
-        }
-    </script>
 
+    <style>
+    /* ===== GLOBAL ===== */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        color: #1f2937;
+        margin: 0;
+        line-height: 1.6;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+    }
+
+    /* ===== NAVBAR ===== */
+    .navbar {
+        background: linear-gradient(90deg, #667eea, #764ba2);
+        padding: 16px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        flex-wrap: wrap;
+    }
+
+    .nav-link {
+        color: #ffffff;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 8px;
+        transition: background 0.3s, transform 0.2s;
+    }
+
+    .nav-link:hover {
+        background: rgba(255,255,255,0.15);
+        transform: translateY(-2px);
+    }
+
+    .nav-link.active {
+        background: #38bdf8;
+        color: #0f172a;
+    }
+
+    /* ===== SECTION ===== */
+    .section {
+        padding: 70px 0;
+    }
+
+    .section h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #6b7280;
+        margin-bottom: 50px;
+    }
+
+    /* ===== GRID STAGES ===== */
+    .grid-stages {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+    }
+
+    /* ===== STAGE CARD ===== */
+    .stage-card {
+        position: relative;
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 28px 24px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+    .stage-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .stage-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 6px;
+        background: linear-gradient(180deg, #38bdf8, #667eea);
+        border-radius: 18px 0 0 18px;
+    }
+
+    /* ===== CONTENT ===== */
+    .stage-badge {
+        display: inline-block;
+        background: #38bdf8;
+        color: #0f172a;
+        padding: 6px 14px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 0.85rem;
+        margin-bottom: 16px;
+    }
+
+    .stage-card h3 {
+        font-size: 1.4rem;
+        margin-bottom: 6px;
+        color: #111827;
+    }
+
+    .stage-period {
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin-bottom: 14px;
+    }
+
+    .stage-skills span {
+        display: inline-block;
+        background: #eef2ff;
+        color: #3730a3;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .company-info {
+        margin-top: 16px;
+        font-weight: 600;
+        color: #374151;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+        .section h2 {
+            font-size: 2rem;
+        }
+    }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
-            <a href="aps.html" class="nav-link" onclick="navigateTo('aps.html')">APs</a>
-            <a href="stages.html" class="nav-link active" onclick="navigateTo('stages.html')">Stages</a>
-            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
-           <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
-
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="aps.html" class="nav-link">APs</a>
+            <a href="stages.html" class="nav-link active">Stages</a>
+            <a href="cv.html" class="nav-link">CV</a>
+            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
         </div>
     </nav>
 
+    <!-- SECTION STAGES -->
     <section class="section">
         <div class="container">
             <h2>Stages Professionnels</h2>
-            <p class="section-subtitle">Cliquez sur un stage pour voir les détails complets</p>
-            
-            <div class="grid-aps">
-                <!-- Stage 1 : Saint Charles Sainte-Croix -->
-                <a href="stage1.html" class="ap-card-link" onclick="navigateTo('stage1.html')">
-                    <div class="ap-card stage-card">
-                        <div class="ap-number stage-badge">STAGE</div>
-                        <h3>Stage en Systèmes & Réseaux</h3>
-                        <p class="ap-period">9 Juin - 11 Juillet 2025 (4 semaines)</p>
-                        <div class="ap-preview">
-                            <span>Support technique • Déploiement • Maintenance • Virtualisation</span>
+            <p class="section-subtitle">
+                Expériences en entreprise réalisées durant le BTS SIO SISR
+            </p>
+
+            <div class="grid-stages">
+
+                <!-- STAGE 1 -->
+                <a href="stage1.html">
+                    <div class="stage-card">
+                        <div class="stage-badge">STAGE</div>
+                        <h3>Stage Systèmes & Réseaux</h3>
+                        <p class="stage-period">9 juin – 11 juillet 2025 (4 semaines)</p>
+                        <div class="stage-skills">
+                            <span>Support • Déploiement • Virtualisation • Maintenance</span>
                         </div>
                         <div class="company-info">
-                            <strong>Saint Charles Sainte-Croix - Le Mans</strong>
+                            Saint Charles Sainte-Croix – Le Mans
                         </div>
                     </div>
                 </a>
 
-                <!-- Stage 2 : Futur stage -->
-                <a href="stage2.html" class="ap-card-link" onclick="navigateTo('stage2.html')">
-                    <div class="ap-card">
-                        <div class="ap-number">STAGE2</div>
+                <!-- STAGE 2 -->
+                <a href="stage2.html">
+                    <div class="stage-card">
+                        <div class="stage-badge">STAGE</div>
                         <h3>Stage à venir</h3>
-                        <p class="ap-period">À définir</p>
-                        <div class="ap-preview">
-                            <span>Prochain stage en entreprise</span>
+                        <p class="stage-period">À définir</p>
+                        <div class="stage-skills">
+                            <span>Prochaine expérience professionnelle</span>
+                        </div>
+                        <div class="company-info">
+                            Entreprise à déterminer
                         </div>
                     </div>
                 </a>
-            </div>
 
-            
+            </div>
+        </div>
     </section>
 
-    <script>
-        // Fonction de navigation forcée pour GitHub Pages
-        function navigateTo(page) {
-            window.location.href = page;
-            return false;
-        }
-
-        // Navigation manuelle pour tous les liens
-        document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('a[href]');
-            links.forEach(link => {
-                if (!link.onclick) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        window.location.href = this.getAttribute('href');
-                    });
-                }
-            });
-        });
-    </script>
-
-    <script src="script.js"></script>
 </body>
 </html>
