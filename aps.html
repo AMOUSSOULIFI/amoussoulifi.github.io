@@ -4,285 +4,240 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>APs - Portfolio BTS</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<style>
-/* ===== GLOBAL ===== */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f8;
-    color: #2c3e50;
-    line-height: 1.6;
-    margin: 0;
-}
 
-/* ===== NAVBAR ===== */
-.navbar {
-    background-color: #667eea;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+    <style>
+    /* ===== GLOBAL ===== */
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f6f8;
+        color: #1f2937;
+        margin: 0;
+        line-height: 1.6;
+    }
 
-.navbar .nav-container {
-    display: flex;
-    gap: 25px;
-}
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 
-.navbar .nav-link {
-    color: white;
-    font-weight: 600;
-    padding: 8px 12px;
-    border-radius: 5px;
-    transition: background 0.3s, color 0.3s;
-}
+    .container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 20px;
+    }
 
-.navbar .nav-link:hover {
-    background-color: #556cd6;
-}
+    /* ===== NAVBAR ===== */
+    .navbar {
+        background: linear-gradient(90deg, #667eea, #764ba2);
+        padding: 16px 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
 
-.navbar .nav-link.active {
-    background-color: #38bdf8;
-    color: #0f172a;
-}
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        gap: 28px;
+        flex-wrap: wrap;
+    }
 
-/* ===== SECTION ===== */
-.section {
-    padding: 50px 20px;
-}
+    .nav-link {
+        color: #ffffff;
+        font-weight: 600;
+        padding: 8px 14px;
+        border-radius: 8px;
+        transition: background 0.3s, transform 0.2s;
+    }
 
-.section h2 {
-    text-align: center;
-    font-size: 2.2em;
-    margin-bottom: 10px;
-}
+    .nav-link:hover {
+        background: rgba(255,255,255,0.15);
+        transform: translateY(-2px);
+    }
 
-.section-subtitle {
-    text-align: center;
-    font-size: 1.1em;
-    color: #555;
-    margin-bottom: 40px;
-}
+    .nav-link.active {
+        background: #38bdf8;
+        color: #0f172a;
+    }
 
-/* ===== GRID APs ===== */
-.grid-aps {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 25px;
-}
+    /* ===== SECTION ===== */
+    .section {
+        padding: 70px 0;
+    }
 
-/* ===== AP CARD ===== */
-.ap-card-link {
-    text-decoration: none;
-}
+    .section h2 {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
 
-.ap-card {
-    position: relative;
-    background: rgba(255, 255, 255, 0.18);
-    backdrop-filter: blur(12px);
-    border-radius: 20px;
-    padding: 25px 20px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-    border: 1px solid rgba(255,255,255,0.3);
-    cursor: pointer;
-    overflow: hidden;
-}
+    .section-subtitle {
+        text-align: center;
+        font-size: 1.1rem;
+        color: #6b7280;
+        margin-bottom: 50px;
+    }
 
-.ap-card:hover {
-    transform: translateY(-8px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
-    border-color: rgba(255,255,255,0.5);
-}
-
-.ap-card::before {
-    content: '';
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    top: -10%;
-    left: -10%;
-    background: linear-gradient(45deg, #667eea, #764ba2, #38bdf8);
-    opacity: 0.08;
-    z-index: 0;
-    transition: opacity 0.4s;
-    border-radius: 20px;
-}
-
-.ap-card:hover::before {
-    opacity: 0.25;
-}
-
-/* ===== AP CONTENT ===== */
-.ap-number {
-    position: absolute;
-    top: 15px;
-    left: 15px;
-    background-color: #38bdf8;
-    color: #0f172a;
-    padding: 6px 12px;
-    font-weight: 700;
-    border-radius: 15px;
-    font-size: 0.85em;
-    z-index: 1;
-}
-
-.ap-card h3 {
-    font-size: 1.4em;
-    margin: 15px 0 5px 0;
-    color: #ffffff;
-    position: relative;
-    z-index: 1;
-}
-
-.ap-period {
-    font-size: 0.95em;
-    color: #e0e7ff;
-    margin-bottom: 10px;
-    position: relative;
-    z-index: 1;
-}
-
-.ap-preview span {
-    font-size: 0.9em;
-    color: #dbeafe;
-    position: relative;
-    z-index: 1;
-}
-
-/* ===== RESPONSIVE ===== */
-@media (max-width: 768px) {
+    /* ===== GRID APs ===== */
     .grid-aps {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+    }
+
+    /* ===== AP CARD ===== */
+    .ap-card {
+        position: relative;
+        background: #ffffff;
+        border-radius: 18px;
+        padding: 28px 24px;
+        border: 1px solid #e5e7eb;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        overflow: hidden;
+    }
+
+    .ap-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+    }
+
+    .ap-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 6px;
+        background: linear-gradient(180deg, #667eea, #38bdf8);
+        border-radius: 18px 0 0 18px;
+    }
+
+    /* ===== AP CONTENT ===== */
+    .ap-number {
+        display: inline-block;
+        background: #667eea;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 0.85rem;
+        margin-bottom: 16px;
     }
 
     .ap-card h3 {
-        font-size: 1.3em;
+        font-size: 1.4rem;
+        margin-bottom: 6px;
+        color: #111827;
     }
 
-    .ap-period, .ap-preview span {
-        font-size: 0.9em;
+    .ap-period {
+        font-size: 0.95rem;
+        color: #6b7280;
+        margin-bottom: 14px;
     }
-}
-</style>
+
+    .ap-preview span {
+        display: inline-block;
+        background: #eef2ff;
+        color: #3730a3;
+        padding: 8px 12px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+        .section h2 {
+            font-size: 2rem;
+        }
+    }
+    </style>
+</head>
 
 <body>
-    <script>
-        // Vérification d'authentification UNIQUE
-        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-        if (!sessionData || !sessionData.isLoggedIn) {
-            window.location.href = 'index.html';
-        }
-    </script>
 
+    <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link" onclick="navigateTo('index.html')">Accueil</a>
-            <a href="aps.html" class="nav-link active" onclick="navigateTo('aps.html')">APs</a>
-            <a href="stages.html" class="nav-link" onclick="navigateTo('stages.html')">Stages</a>
-            <a href="cv.html" class="nav-link" onclick="navigateTo('cv.html')">CV</a>
+            <a href="index.html" class="nav-link">Accueil</a>
+            <a href="aps.html" class="nav-link active">APs</a>
+            <a href="stages.html" class="nav-link">Stages</a>
+            <a href="cv.html" class="nav-link">CV</a>
             <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
-
         </div>
     </nav>
 
+    <!-- SECTION APs -->
     <section class="section">
         <div class="container">
-            <h2>APs (Activités Professionnelles)</h2>
-            <p class="section-subtitle">Cliquez sur une AP pour voir les détails complets</p>
-            
+            <h2>APs – Activités Professionnelles</h2>
+            <p class="section-subtitle">
+                Projets réalisés dans le cadre du BTS SIO option SISR
+            </p>
+
             <div class="grid-aps">
-                <!-- AP 1 : SCISS -->
-                <a href="ap1.html" class="ap-card-link" onclick="navigateTo('ap1.html')">
+
+                <a href="ap1.html">
                     <div class="ap-card">
                         <div class="ap-number">AP1</div>
                         <h3>SCISS</h3>
-                        <p class="ap-period">Septembre - Octobre 2024</p>
+                        <p class="ap-period">Septembre – Octobre 2024</p>
                         <div class="ap-preview">
                             <span>WordPress • Installation • Maintenance</span>
                         </div>
                     </div>
                 </a>
 
-                <!-- AP 2 : Bidule -->
-                <a href="ap2.html" class="ap-card-link" onclick="navigateTo('ap2.html')">
+                <a href="ap2.html">
                     <div class="ap-card">
                         <div class="ap-number">AP2</div>
-                        <h3>Bidule - Remaniement site numérique</h3>
-                        <p class="ap-period">Novembre 2024 - Janvier 2025</p>
+                        <h3>Bidule – Remaniement site numérique</h3>
+                        <p class="ap-period">Novembre 2024 – Janvier 2025</p>
                         <div class="ap-preview">
-                            <span>Google Sites • Adaptation jeunes étudiants</span>
+                            <span>Google Sites • UX • Contenu pédagogique</span>
                         </div>
                     </div>
                 </a>
 
-                <!-- AP 3 : Mairie de Pénestin -->
-                <a href="ap3.html" class="ap-card-link" onclick="navigateTo('ap3.html')">
+                <a href="ap3.html">
                     <div class="ap-card">
                         <div class="ap-number">AP3</div>
                         <h3>Mairie de Pénestin</h3>
-                        <p class="ap-period">Janvier - Mars 2025</p>
+                        <p class="ap-period">Janvier – Mars 2025</p>
                         <div class="ap-preview">
-                            <span>GED • Solution NAS • Gestion documentaire</span>
+                            <span>NAS • GED • Gestion documentaire</span>
                         </div>
                     </div>
                 </a>
 
-                <!-- AP 4 : Séparation services -->
-                <a href="ap4.html" class="ap-card-link" onclick="navigateTo('ap4.html')">
+                <a href="ap4.html">
                     <div class="ap-card">
                         <div class="ap-number">AP4</div>
-                        <h3>Séparation services + Sauvegarde</h3>
-                        <p class="ap-period">Mars - Mai 2025</p>
+                        <h3>Séparation des services & Sauvegarde</h3>
+                        <p class="ap-period">Mars – Mai 2025</p>
                         <div class="ap-preview">
-                            <span>Firewall • Debian • NAT • Sécurité</span>
+                            <span>Firewall • Debian • Sécurité • NAT</span>
                         </div>
                     </div>
                 </a>
 
-                <!-- AP 5 : Optionnel ou futur -->
-                <a href="ap5.html" class="ap-card-link" onclick="navigateTo('ap5.html')">
+                <a href="ap5.html">
                     <div class="ap-card">
                         <div class="ap-number">AP5</div>
-                        <h3>Projet personnel ou stage</h3>
+                        <h3>Projet personnel / Stage</h3>
                         <p class="ap-period">À définir</p>
                         <div class="ap-preview">
                             <span>Projet complémentaire</span>
                         </div>
                     </div>
                 </a>
+
             </div>
         </div>
     </section>
 
-    <script>
-        // Fonction de navigation forcée pour GitHub Pages
-        function navigateTo(page) {
-            window.location.href = page;
-            return false;
-        }
-
-        // Navigation manuelle pour tous les liens
-        document.addEventListener('DOMContentLoaded', function() {
-            const links = document.querySelectorAll('a[href]');
-            links.forEach(link => {
-                if (!link.onclick) {
-                    link.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        window.location.href = this.getAttribute('href');
-                    });
-                }
-            });
-        });
-    </script>
-
-    <script src="script.js"></script>
 </body>
-
 </html>
-
-
