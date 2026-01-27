@@ -13,7 +13,6 @@ RSS_FEEDS = {
 
 articles = []
 
-# 📅 Date limite : 12 derniers mois
 today = datetime.now()
 one_year_ago = today - timedelta(days=365)
 
@@ -21,12 +20,20 @@ for source, url in RSS_FEEDS.items():
     feed = feedparser.parse(url)
 
     for entry in feed.entries:
-        if not hasattr(entry, "published_parsed"):
+        # ✅ RÉCUPÉRATION DE LA DATE CORRECTE
+        date_struct = None
+
+        if hasattr(entry, "published_parsed"):
+            date_struct = entry.published_parsed
+        elif hasattr(entry, "updated_parsed"):
+            date_struct = entry.updated_parsed
+
+        if not date_struct:
             continue
 
-        published = datetime(*entry.published_parsed[:6])
+        published = datetime(*date_struct[:6])
 
-        # 🔎 FILTRAGE PAR DATE
+        # 🔎 FILTRAGE SUR 12 MOIS
         if published < one_year_ago:
             continue
 
@@ -34,24 +41,23 @@ for source, url in RSS_FEEDS.items():
             "source": source,
             "title": entry.title,
             "link": entry.link,
-            "date": published.strftime("%Y-%m-%d"),  # date complète
-            "month": published.strftime("%Y-%m")     # pour graphique
+            "date": published.strftime("%Y-%m-%d"),
+            "month": published.strftime("%Y-%m")
         })
 
-# 🔽 TRI DU PLUS RÉCENT AU PLUS ANCIEN
+# 🔽 TRI CORRECT (DATE RÉELLE)
 articles.sort(
     key=lambda x: datetime.strptime(x["date"], "%Y-%m-%d"),
     reverse=True
 )
 
-# 📁 Création du dossier si nécessaire
+# 📁 DOSSIER DE SORTIE
 output_dir = "veille-cloud-securite/data"
 os.makedirs(output_dir, exist_ok=True)
 
 output_path = os.path.join(output_dir, "articles.json")
 
-# 💾 Écriture JSON
 with open(output_path, "w", encoding="utf-8") as f:
     json.dump(articles, f, indent=2, ensure_ascii=False)
 
-print(f"{len(articles)} articles enregistrés (12 derniers mois)")
+print(f"✅ {len(articles)} articles enregistrés (12 derniers mois)")
