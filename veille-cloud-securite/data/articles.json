@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Google Disrupts IPIDEA — One of the World’s Largest Residential Proxy Networks",
+    "link": "https://thehackernews.com/2026/01/google-disrupts-ipidea-one-of-worlds.html",
+    "date": "2026-01-29",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0095/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SolarWinds Web Help Desk (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0099/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking Fabric Composer (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0094/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Fortinet (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0097/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Google Chrome (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0092/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Network Monitor (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0093/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSL (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0096/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Symfony (28 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0098/",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Moltbot AI Coding Assistant on VS Code Marketplace Drops Malware",
+    "link": "https://thehackernews.com/2026/01/fake-moltbot-ai-coding-assistant-on-vs.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+    "link": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Two High-Severity n8n Flaws Allow Authenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/01/two-high-severity-n8n-flaws-allow.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "From Triage to Threat Hunts: How AI Accelerates SecOps",
+    "link": "https://thehackernews.com/2026/01/from-triage-to-threat-hunts-how-ai.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical vm2 Node.js Flaw Allows Sandbox Escape and Arbitrary Code Execution",
+    "link": "https://thehackernews.com/2026/01/critical-vm2-nodejs-flaw-allows-sandbox.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mustang Panda Deploys Updated COOLCLIENT Backdoor in Government Cyber Attacks",
+    "link": "https://thehackernews.com/2026/01/mustang-panda-deploys-updated.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
+    "link": "https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Warns of Active Exploitation of WinRAR Vulnerability CVE-2025-8088",
+    "link": "https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Python Spellchecker Packages on PyPI Delivered Hidden Remote Access Trojan",
+    "link": "https://thehackernews.com/2026/01/fake-python-spellchecker-packages-on.html",
+    "date": "2026-01-28",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
     "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
     "date": "2026-01-28",
@@ -560,136 +686,10 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Hackers Use LinkedIn Messages to Spread RAT Malware Through DLL Sideloading",
-    "link": "https://thehackernews.com/2026/01/hackers-use-linkedin-messages-to-spread.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Hidden Risk of Orphan Accounts",
-    "link": "https://thehackernews.com/2026/01/the-hidden-risk-of-orphan-accounts.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Evelyn Stealer Malware Abuses VS Code Extensions to Steal Developer Credentials and Crypto",
-    "link": "https://thehackernews.com/2026/01/evelyn-stealer-malware-abuses-vs-code.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cloudflare Fixes ACME Validation Bug Allowing WAF Bypass to Origin Servers",
-    "link": "https://thehackernews.com/2026/01/cloudflare-fixes-acme-validation-bug.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Secrets in JavaScript Bundles are Still Being Missed",
-    "link": "https://thehackernews.com/2026/01/why-secrets-in-javascript-bundles-are.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Tudou Guarantee Marketplace Halts Telegram Transactions After Processing Over $12 Billion",
-    "link": "https://thehackernews.com/2026/01/tudou-guarantee-marketplace-halts.html",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-002 (19 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-002/",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité Microsoft Power Apps (19 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0064/",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Desktop App (19 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0062/",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (19 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0063/",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we mitigated a vulnerability in Cloudflare’s ACME validation logic",
     "link": "https://blog.cloudflare.com/acme-path-vulnerability/",
     "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Gemini Prompt Injection Flaw Exposed Private Calendar Data via Malicious Invites",
-    "link": "https://thehackernews.com/2026/01/google-gemini-prompt-injection-flaw.html",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Fortinet Exploits, RedLine Clipjack, NTLM Crack, Copilot Attack & More",
-    "link": "https://thehackernews.com/2026/01/weekly-recap-fortinet-exploits-redline.html",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DevOps & SaaS Downtime: The High (and Hidden) Costs for Cloud-First Businesses",
-    "link": "https://thehackernews.com/2026/01/high-costs-of-devops-saas-downtime.html",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New StackWarp Hardware Flaw Breaks AMD SEV-SNP Protections on Zen 1–5 CPUs",
-    "link": "https://thehackernews.com/2026/01/new-stackwarp-hardware-flaw-breaks-amd.html",
-    "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (16 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0061/",
-    "date": "2026-01-16",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (16 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0059/",
-    "date": "2026-01-16",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apache Struts (16 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0060/",
-    "date": "2026-01-16",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
-    "date": "2026-01-16",
     "month": "2026-01"
   },
   {
@@ -770,13 +770,6 @@
     "month": "2025-12"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (18 décembre 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-1122/",
-    "date": "2025-12-18",
-    "month": "2025-12"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
     "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
@@ -838,5 +831,12 @@
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0970/",
     "date": "2025-11-06",
     "month": "2025-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mitel (24 juillet 2025)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0618/",
+    "date": "2025-07-24",
+    "month": "2025-07"
   }
 ]
