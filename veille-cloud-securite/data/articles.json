@@ -1,5 +1,131 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0108/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0107/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités Ivanti Endpoint Manager Mobile (EPMM) (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0110/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Qnap QTS (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0104/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0105/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Splunk Enterprise (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0102/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0109/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Node.js (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0103/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0106/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-001/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Google’s AI advantage: why crawler separation is the only path to a fair Internet",
+    "link": "https://blog.cloudflare.com/uk-google-ai-crawler-policy/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building vertical microfrontends on Cloudflare’s platform",
+    "link": "https://blog.cloudflare.com/vertical-microfrontends/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Case study: Securing AI application supply chains",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Uncover Chrome Extensions Abusing Affiliate Links and Stealing ChatGPT Access",
+    "link": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UAT-8099 Targets IIS Servers in Asia with BadIIS SEO Malware",
+    "link": "https://thehackernews.com/2026/01/china-linked-uat-8099-targets-iis.html",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Badges, Bytes and Blackmail",
+    "link": "https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup",
+    "link": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
+    "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
+    "date": "2026-01-30",
+    "month": "2026-01"
+  },
+  {
     "source": "The Hacker News",
     "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
     "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
@@ -588,114 +714,9 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cisco Fixes Actively Exploited Zero-Day CVE-2026-20045 in Unified CM and Webex",
-    "link": "https://thehackernews.com/2026/01/cisco-fixes-actively-exploited-zero-day.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0070/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0069/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0071/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Python (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0067/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0068/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0074/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0073/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0075/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0072/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
     "source": "Microsoft Security",
     "title": "A new era of agents, a new era of posture",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/new-era-of-agents-new-era-of-posture/",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean PurpleBravo Campaign Targeted 3,136 IP Addresses via Fake Job Interviews",
-    "link": "https://thehackernews.com/2026/01/north-korean-purplebravo-campaign.html",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Zoom and GitLab Release Security Updates Fixing RCE, DoS, and 2FA Bypass Flaws",
-    "link": "https://thehackernews.com/2026/01/zoom-and-gitlab-release-security.html",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How Smart MSSPs Using AI to Boost Margins with Half the Staff",
-    "link": "https://thehackernews.com/2026/01/webinar-how-smart-mssps-using-ai-to.html",
-    "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Exposure Assessment Platforms Signal a Shift in Focus",
-    "link": "https://thehackernews.com/2026/01/exposure-assessment-platforms-signal.html",
     "date": "2026-01-21",
     "month": "2026-01"
   },
@@ -731,13 +752,6 @@
     "source": "Cloudflare",
     "title": "What came first: the CNAME or the A record?",
     "link": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
-    "date": "2026-01-14",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft named a Leader in IDC MarketScape for Unified AI Governance Platforms",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/14/microsoft-named-a-leader-in-idc-marketscape-for-unified-ai-governance-platforms/",
     "date": "2026-01-14",
     "month": "2026-01"
   },
@@ -809,20 +823,6 @@
     "title": "Shifting left at enterprise scale: how we manage Cloudflare with Infrastructure as Code",
     "link": "https://blog.cloudflare.com/shift-left-enterprise-scale/",
     "date": "2025-12-09",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Python Workers redux: fast cold starts, packages, and a uv-first workflow",
-    "link": "https://blog.cloudflare.com/python-workers-advancements/",
-    "date": "2025-12-08",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare outage on December 5, 2025",
-    "link": "https://blog.cloudflare.com/5-december-2025-outage/",
-    "date": "2025-12-05",
     "month": "2025-12"
   },
   {
