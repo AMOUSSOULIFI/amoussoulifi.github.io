@@ -1,5 +1,26 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Iran-Linked RedKitten Cyber Campaign Targets Human Rights NGOs and Activists",
+    "link": "https://thehackernews.com/2026/01/iran-linked-redkitten-cyber-campaign.html",
+    "date": "2026-01-31",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mandiant Finds ShinyHunters-Style Vishing Attacks Stealing MFA to Breach SaaS Platforms",
+    "link": "https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html",
+    "date": "2026-01-31",
+    "month": "2026-01"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
+    "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
+    "date": "2026-01-31",
+    "month": "2026-01"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0108/",
@@ -113,7 +134,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Ex-Google Engineer Convicted for Stealing 2,000 AI Trade Secrets for China Startup",
+    "title": "Ex-Google Engineer Convicted for Stealing AI Secrets for China Startup",
     "link": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
     "date": "2026-01-30",
     "month": "2026-01"
@@ -274,7 +295,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Russian ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
+    "title": "Russia-Aligned ELECTRUM Tied to December 2025 Cyber Attack on Polish Power Grid",
     "link": "https://thehackernews.com/2026/01/russian-electrum-tied-to-december-2025.html",
     "date": "2026-01-28",
     "month": "2026-01"
@@ -689,27 +710,6 @@
     "source": "The Hacker News",
     "title": "Filling the Most Common Gaps in Google Workspace Security",
     "link": "https://thehackernews.com/2026/01/filling-most-common-gaps-in-google.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious PyPI Package Impersonates SymPy, Deploys XMRig Miner on Linux Hosts",
-    "link": "https://thehackernews.com/2026/01/malicious-pypi-package-impersonates.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SmarterMail Auth Bypass Exploited in the Wild Two Days After Patch Release",
-    "link": "https://thehackernews.com/2026/01/smartermail-auth-bypass-exploited-in.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Automated FortiGate Attacks Exploit FortiCloud SSO to Alter Firewall Configurations",
-    "link": "https://thehackernews.com/2026/01/automated-fortigate-attacks-exploit.html",
     "date": "2026-01-22",
     "month": "2026-01"
   },
