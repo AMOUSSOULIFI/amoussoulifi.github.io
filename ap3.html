@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AP3 – GED & NAS – Mairie de Pénestin</title>
+<title>AP3 – GED & NAS – Mairie de Pénestin – PESv2</title>
 
 <style>
 body{
@@ -41,6 +41,13 @@ body{
     text-decoration:none;
     display:inline-block;
     margin-bottom:20px;
+    background:rgba(255,255,255,.1);
+    padding:8px 15px;
+    border-radius:6px;
+    transition:all 0.3s;
+}
+.back-button:hover{
+    background:rgba(255,255,255,.2);
 }
 
 .ap-header{
@@ -53,14 +60,21 @@ body{
     display:inline-block;
     padding:6px 20px;
     border-radius:20px;
+    margin-bottom:15px;
 }
 .ap-details{
     background:#fff;
     border-radius:15px;
     padding:35px;
+    box-shadow:0 5px 20px rgba(0,0,0,.1);
 }
 
-h2{border-bottom:2px solid #eee;padding-bottom:10px}
+h2{
+    border-bottom:2px solid #667eea;
+    padding-bottom:10px;
+    color:#444;
+}
+h3{color:#667eea;}
 
 .info-grid{
     display:grid;
@@ -73,12 +87,15 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     padding:20px;
     border-left:5px solid #667eea;
     border-radius:10px;
+    transition:transform 0.3s;
 }
+.info-box:hover{transform:translateY(-5px);}
 
 .tabs{
     display:flex;
     gap:10px;
     margin:25px 0;
+    flex-wrap:wrap;
 }
 .tab-btn{
     padding:10px 20px;
@@ -87,11 +104,18 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     cursor:pointer;
     background:#6c757d;
     color:white;
+    transition:all 0.3s;
 }
-.tab-btn.active{background:#007bff}
+.tab-btn:hover{background:#5a6268;}
+.tab-btn.active{background:#007bff;}
 
-.tab-content{display:none}
-.tab-content.active{display:block}
+.tab-content{display:none;animation:fadeIn 0.5s;}
+.tab-content.active{display:block;}
+
+@keyframes fadeIn{
+    from{opacity:0;}
+    to{opacity:1;}
+}
 
 .gallery{
     display:grid;
@@ -102,6 +126,12 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     width:100%;
     border-radius:10px;
     cursor:pointer;
+    transition:transform 0.3s, box-shadow 0.3s;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
+}
+.gallery img:hover{
+    transform:scale(1.03);
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
 }
 
 .pdf-viewer iframe{
@@ -109,12 +139,14 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     height:500px;
     border:none;
     border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.1);
 }
 
 .doc-actions{
     margin-top:15px;
     display:flex;
     gap:15px;
+    flex-wrap:wrap;
 }
 .doc-btn{
     background:#28a745;
@@ -122,8 +154,39 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     padding:10px 15px;
     border-radius:6px;
     text-decoration:none;
+    transition:all 0.3s;
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
 }
-.doc-btn.open{background:#007bff}
+.doc-btn:hover{
+    background:#218838;
+    transform:translateY(-2px);
+}
+.doc-btn.open{background:#007bff;}
+.doc-btn.open:hover{background:#0069d9;}
+
+/* Section PESv2 */
+.pesv2-section{
+    background:linear-gradient(135deg,#f8f9fa,#e9ecef);
+    border-radius:10px;
+    padding:20px;
+    margin:25px 0;
+    border-left:5px solid #28a745;
+}
+
+.benefits-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:15px;
+    margin-top:15px;
+}
+.benefit-item{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,.05);
+}
 
 /* MODAL */
 .modal{
@@ -140,6 +203,7 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
 .modal img{
     max-width:90%;
     max-height:90%;
+    border-radius:10px;
 }
 .close{
     position:absolute;
@@ -148,6 +212,28 @@ h2{border-bottom:2px solid #eee;padding-bottom:10px}
     font-size:40px;
     color:white;
     cursor:pointer;
+    transition:color 0.3s;
+}
+.close:hover{color:#ccc;}
+
+/* Timeline */
+.timeline{
+    margin:30px 0;
+}
+.timeline-item{
+    padding:15px;
+    margin-bottom:15px;
+    background:#f8f9fa;
+    border-left:4px solid #667eea;
+    border-radius:0 8px 8px 0;
+}
+
+/* Responsive */
+@media(max-width:768px){
+    .container{padding:15px;}
+    .nav-container{flex-direction:column;align-items:center;gap:10px;}
+    .gallery{grid-template-columns:1fr;}
+    .info-grid{grid-template-columns:1fr;}
 }
 </style>
 </head>
@@ -175,34 +261,122 @@ if(!sessionData || !sessionData.isLoggedIn){
 <a href="aps.html" class="back-button">← Retour aux APs</a>
 
 <div class="ap-header">
-<div class="ap-badge">AP3</div>
+<div class="ap-badge">AP3 – Conformité PESv2</div>
 <h1>Mairie de Pénestin – GED & NAS</h1>
-<p>Janvier – Mars 2025</p>
+<p>Janvier – Mars 2025 | Contexte : Mise en place du Protocole d'Échange Standard v2</p>
 </div>
 
 <div class="ap-details">
 
-<h2>Description</h2>
-<p>Conception et déploiement d'une solution de Gestion Électronique des Documents conforme au PESv2, incluant la virtualisation serveur, l'implémentation d'un système de sauvegarde automatisé et la rédaction d'une documentation utilisateur pour la dématérialisation des flux comptables de la mairie.</p>
+<div class="pesv2-section">
+<h2>📋 Contexte PESv2</h2>
+<p><strong>Protocole d'Échange Standard version 2</strong> : Dématérialisation complète des flux comptables pour les administrations publiques (arrêté du 3 août 2011).</p>
+    
+<div class="benefits-grid">
+<div class="benefit-item">📄 <strong>Réduction papier</strong><br>Suppression des transmissions papier</div>
+<div class="benefit-item">💰 <strong>Réduction coûts</strong><br>Édition et stockage</div>
+<div class="benefit-item">⚡ <strong>Délais réduits</strong><br>Accélération des paiements</div>
+<div class="benefit-item">🔍 <strong>Meilleur suivi</strong><br>Traçabilité complète</div>
+</div>
+</div>
+
+<h2>🎯 Description du projet</h2>
+<p>Conception et déploiement d'une solution de <strong>Gestion Électronique des Documents (GED)</strong> conforme au <strong>PESv2</strong> pour la Mairie de Pénestin (2050 habitants), incluant :</p>
+<ul>
+<li>Virtualisation serveur et infrastructure</li>
+<li>Implémentation d'un système de sauvegarde automatisé (NAS)</li>
+<li>Dématérialisation complète des flux comptables</li>
+<li>Rédaction de documentation utilisateur et formation</li>
+</ul>
+
+<h2>🏢 Spécificités de la Mairie de Pénestin</h2>
+<div class="info-grid">
+<div class="info-box">
+<h3>Organisation</h3>
+<ul>
+<li>4 secrétaires (2 étages)</li>
+<li>Services : urbanisme, paie, achats, marchés publics</li>
+<li>Progiciel existant : Berger-Levrault</li>
+</ul>
+</div>
+
+<div class="info-box">
+<h3>Contraintes</h3>
+<ul>
+<li>Budget matériel : 1400€ HT</li>
+<li>Logiciels gratuits et libres</li>
+<li>Sauvegarde automatisée à mettre en place</li>
+<li>Dématérialisation étendue aux archives</li>
+</ul>
+</div>
+
+<div class="info-box">
+<h3>Besoins PESv2</h3>
+<ul>
+<li>Numérisation et signature électronique</li>
+<li>Base de données tiers à jour</li>
+<li>Classement et indexation automatique</li>
+<li>Circuit de validation numérique</li>
+</ul>
+</div>
+</div>
+
+<h2>🛠️ Solution technique proposée</h2>
+
+<div class="timeline">
+<div class="timeline-item">
+<h3>1. Infrastructure serveur</h3>
+<ul>
+<li><strong>OpenKM</strong> : GED open source avec OCR intégré</li>
+<li><strong>Debian Server</strong> : Stabilité et sécurité</li>
+<li><strong>MySQL</strong> : Base de données documentaire</li>
+<li><strong>Apache Tomcat</strong> : Serveur d'applications Java</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<h3>2. Sauvegarde & stockage</h3>
+<ul>
+<li><strong>OpenMediaVault</strong> : NAS open source</li>
+<li>Sauvegarde automatisée des documents PESv2</li>
+<li>Redondance et sécurisation des données</li>
+<li>Accès réseau sécurisé</li>
+</ul>
+</div>
+
+<div class="timeline-item">
+<h3>3. Fonctionnalités GED</h3>
+<ul>
+<li>OCR (Reconnaissance Optique de Caractères)</li>
+<li>Classement automatique (LAD/RAD)</li>
+<li>Signature électronique des documents</li>
+<li>Recherche plein texte et indexation</li>
+<li>Workflow de validation numérique</li>
+</ul>
+</div>
+</div>
 
 <div class="info-grid">
 <div class="info-box">
 <h3>Technologies</h3>
 <ul>
-<li>OpenKM</li>
+<li>OpenKM (GED)</li>
 <li>Debian Server</li>
-<li>OpenMediaVault</li>
+<li>OpenMediaVault (NAS)</li>
 <li>MySQL</li>
 <li>Apache Tomcat</li>
+<li>Virtualisation</li>
 </ul>
 </div>
 
 <div class="info-box">
-<h3>Compétences</h3>
+<h3>Compétences mobilisées</h3>
 <ul>
 <li>Gestion du patrimoine informatique</li>
-<li>Support et sécurisation</li>
+<li>Support et sécurisation des services</li>
 <li>Travail en mode projet</li>
+<li>Analyse des besoins métier</li>
+<li>Documentation technique</li>
 </ul>
 </div>
 
@@ -210,51 +384,103 @@ if(!sessionData || !sessionData.isLoggedIn){
 <h3>Organisation</h3>
 <ul>
 <li>Travail en binôme</li>
-<li>Analyse des besoins</li>
-<li>Installation & tests</li>
+<li>Méthode QOQOCP (Qui, Quoi, Où...)</li>
+<li>Tests et validation</li>
+<li>Formation utilisateurs</li>
 </ul>
 </div>
 </div>
 
-<h2>Documentation</h2>
+<h2>📄 Documentation du projet</h2>
 
 <div class="tabs">
 <button class="tab-btn active" onclick="openTab(event,'presentation')">Présentation</button>
-<button class="tab-btn" onclick="openTab(event,'devis')">Devis</button>
-<button class="tab-btn" onclick="openTab(event,'manuel')">Manuel</button>
+<button class="tab-btn" onclick="openTab(event,'devis')">Devis & Budget</button>
+<button class="tab-btn" onclick="openTab(event,'manuel')">Manuel utilisateur</button>
+<button class="tab-btn" onclick="openTab(event,'context')">Contexte PESv2</button>
 </div>
 
 <div id="presentation" class="tab-content active">
+<h3>Diaporama de présentation</h3>
+<p>Support de présentation pour la soutenance avec captures d'écran, architecture et démonstration.</p>
 <div class="gallery">
-<img src="./images/AP3 1.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 2.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 3.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 4.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 5.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 6.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 7.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 8.PNG" onclick="openModal(this.src)">
-<img src="./images/AP3 9.PNG" onclick="openModal(this.src)">
+<img src="./images/AP3 1.PNG" onclick="openModal(this.src)" alt="Présentation slide 1">
+<img src="./images/AP3 2.PNG" onclick="openModal(this.src)" alt="Présentation slide 2">
+<img src="./images/AP3 3.PNG" onclick="openModal(this.src)" alt="Présentation slide 3">
+<img src="./images/AP3 4.PNG" onclick="openModal(this.src)" alt="Présentation slide 4">
+<img src="./images/AP3 5.PNG" onclick="openModal(this.src)" alt="Présentation slide 5">
+<img src="./images/AP3 6.PNG" onclick="openModal(this.src)" alt="Présentation slide 6">
+<img src="./images/AP3 7.PNG" onclick="openModal(this.src)" alt="Présentation slide 7">
+<img src="./images/AP3 8.PNG" onclick="openModal(this.src)" alt="Présentation slide 8">
+<img src="./images/AP3 9.PNG" onclick="openModal(this.src)" alt="Présentation slide 9">
 </div>
 </div>
 
 <div id="devis" class="tab-content">
+<h3>Devis technique et budgétaire</h3>
+<p>Proposition commerciale respectant le budget de 1400€ HT avec solutions libres et gratuites.</p>
 <div class="pdf-viewer">
-<iframe src="./images/Devis.pdf"></iframe>
+<iframe src="./images/Devis.pdf" title="Devis technique"></iframe>
 </div>
 <div class="doc-actions">
-<a class="doc-btn" href="./images/Devis.pdf" download>Télécharger</a>
-<a class="doc-btn open" href="./images/Devis.pdf" target="_blank">Ouvrir</a>
+<a class="doc-btn" href="./images/Devis.pdf" download>📥 Télécharger le devis</a>
+<a class="doc-btn open" href="./images/Devis.pdf" target="_blank">👁️ Ouvrir dans un nouvel onglet</a>
 </div>
 </div>
 
 <div id="manuel" class="tab-content">
+<h3>Manuel utilisateur</h3>
+<p>Documentation complète à destination des secrétaires de mairie pour l'utilisation de la GED dans le cadre du PESv2.</p>
 <div class="pdf-viewer">
-<iframe src="./images/DOCUMENTATION DE Corine et Enock (1).pdf"></iframe>
+<iframe src="./images/DOCUMENTATION DE Corine et Enock (1).pdf" title="Manuel utilisateur"></iframe>
 </div>
 <div class="doc-actions">
-<a class="doc-btn" href="./images/DOCUMENTATION DE Corine et Enock (1).pdf" download>Télécharger</a>
-<a class="doc-btn open" href="./images/DOCUMENTATION DE Corine et Enock (1).pdf" target="_blank">Ouvrir</a>
+<a class="doc-btn" href="./images/DOCUMENTATION DE Corine et Enock (1).pdf" download>📥 Télécharger le manuel</a>
+<a class="doc-btn open" href="./images/DOCUMENTATION DE Corine et Enock (1).pdf" target="_blank">👁️ Ouvrir dans un nouvel onglet</a>
+</div>
+</div>
+
+<div id="context" class="tab-content">
+<h3>📖 Contexte réglementaire PESv2</h3>
+<div class="pesv2-section">
+<h4>Cadre légal</h4>
+<ul>
+<li><strong>Arrêté du 3 août 2011</strong> : Impulsion à la dématérialisation</li>
+<li><strong>Échéance 1ᵉʳ janvier 2015</strong> : Remplacement des protocoles antérieurs</li>
+<li><strong>Objectif</strong> : Flux comptable "de bout en bout" sans rupture de chaîne</li>
+</ul>
+
+<h4>Processus avant/après PESv2</h4>
+<div class="info-grid">
+<div class="info-box">
+<h5>Avant PESv2 (manuel)</h5>
+<ul>
+<li>Édition papier des mandats</li>
+<li>Joindre RIB fournisseur</li>
+<li>Validation par visa manuscrit</li>
+<li>Envoi physique au Trésor Public</li>
+</ul>
+</div>
+
+<div class="info-box">
+<h5>Après PESv2 (numérique)</h5>
+<ul>
+<li>Gestion numérique complète</li>
+<li>Signature électronique</li>
+<li>Envoi via portail Hélios (XML)</li>
+<li>Contrôle et accusé immédiat</li>
+</ul>
+</div>
+</div>
+
+<h4>Bénéfices pour la collectivité</h4>
+<ul>
+<li>✅ Traçabilité complète des documents</li>
+<li>✅ Réduction des coûts d'archivage</li>
+<li>✅ Sécurisation des échanges</li>
+<li>✅ Conformité réglementaire</li>
+<li>✅ Modernisation des processus</li>
+</ul>
 </div>
 </div>
 
@@ -263,7 +489,7 @@ if(!sessionData || !sessionData.isLoggedIn){
 
 <div class="modal" id="modal">
 <span class="close" onclick="closeModal()">×</span>
-<img id="modalImg">
+<img id="modalImg" alt="Image agrandie">
 </div>
 
 <script>
@@ -273,16 +499,28 @@ document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
 document.getElementById(id).classList.add('active');
 e.target.classList.add('active');
 }
+
 function openModal(src){
 document.getElementById('modalImg').src=src;
 document.getElementById('modal').style.display='flex';
+document.body.style.overflow='hidden';
 }
+
 function closeModal(){
 document.getElementById('modal').style.display='none';
+document.body.style.overflow='auto';
 }
+
+// Fermer la modal avec ESC
+document.addEventListener('keydown',function(e){
+if(e.key==='Escape')closeModal();
+});
+
+// Initialisation : ouvrir le premier onglet par défaut
+document.addEventListener('DOMContentLoaded',function(){
+openTab({target:document.querySelector('.tab-btn.active')},'presentation');
+});
 </script>
 
 </body>
 </html>
-
-
