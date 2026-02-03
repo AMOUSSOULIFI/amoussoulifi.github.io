@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP2 - Bidule - Remaniement site</title>
+    <title>AP2 - Bidul - Refonte de site événementiel</title>
     <style>
         * {
             margin: 0;
@@ -49,6 +49,11 @@
             color: white;
         }
 
+        .nav-link.active {
+            background: #38bdf8;
+            color: #0f172a;
+        }
+
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -68,8 +73,6 @@
 
         .back-button:hover {
             background: rgba(255,255,255,0.2);
-            color: white;
-            text-decoration: none;
         }
 
         .ap-header {
@@ -165,13 +168,224 @@
             font-weight: bold;
         }
 
-        .info-column p {
-            color: #555;
-            line-height: 1.6;
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
         }
 
-        .info-column strong {
+        .feature-card {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 5px solid #dc3545;
+        }
+
+        .feature-card h4 {
             color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-card ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .feature-card li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .feature-card li:before {
+            content: "✔";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        .tab-btn {
+            background: #6c757d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .tab-btn.active {
+            background: #007bff;
+        }
+
+        .tab-btn:hover {
+            background: #5a6268;
+        }
+
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .gallery-item {
+            background: #f8f9fa;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .gallery-item p {
+            padding: 15px;
+            color: #555;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .pdf-viewer {
+            width: 100%;
+            height: 600px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .pdf-viewer iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .doc-actions {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .doc-btn {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .doc-btn:hover {
+            background: #0056b3;
+        }
+
+        .doc-btn.open {
+            background: #28a745;
+        }
+
+        .doc-btn.open:hover {
+            background: #218838;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            padding-top: 60px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 80%;
+            border-radius: 8px;
+        }
+
+        .close {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        #caption {
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+        }
+
+        .results-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .result-card {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .result-card h4 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+
+        .result-card.blue {
+            background: #e8f4f8;
+        }
+
+        .result-card.blue h4 {
+            color: #17a2b8;
         }
 
         @media (max-width: 768px) {
@@ -189,17 +403,25 @@
                 padding: 20px;
             }
             
-            .info-table {
+            .info-table, .features-grid, .results-grid {
                 grid-template-columns: 1fr;
+            }
+            
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .pdf-viewer {
+                height: 400px;
             }
         }
     </style>
 </head>
 <body>
     <script>
-        // Vérification d'authentification SIMPLIFIÉE
+        // Vérification d'authentification
         const sessionData = JSON.parse(localStorage.getItem('sessionData'));
-        if (!sessionData) {
+        if (!sessionData || !sessionData.isLoggedIn) {
             window.location.href = 'index.html';
         }
     </script>
@@ -207,100 +429,223 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-link">🏠 Accueil</a>
-            <a href="aps.html" class="nav-link">📚 APs</a>
+            <a href="aps.html" class="nav-link active">📚 APs</a>
             <a href="stages.html" class="nav-link">💼 Stages</a>
             <a href="cv.html" class="nav-link">📄 CV</a>
             <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
-
         </div>
     </nav>
 
     <section class="section">
         <div class="container">
-            <a href="aps.html" class="back-button" onclick="navigateTo('aps.html')">← Retour aux APs</a>
+            <a href="aps.html" class="back-button">← Retour aux APs</a>
             
             <div class="ap-header">
                 <div class="ap-badge">AP2</div>
-                <h1>Bidule - Remaniement site numérique</h1>
+                <h1>ScissBidul - Refonte de site événementiel</h1>
                 <p class="ap-date">Novembre 2024 - Janvier 2025</p>
             </div>
 
             <div class="ap-details-grid">
                 <div class="detail-section">
                     <h2>📋 Description de l'AP</h2>
-                    <p>Remaniement complet d'un site numérique existant avec une adaptation spécifique pour le jeune public étudiant. Ce projet visait à moderniser l'interface utilisateur, améliorer l'expérience utilisateur (UX) et optimiser l'accessibilité pour répondre aux besoins spécifiques des étudiants.</p>
+                    <p>Refonte complète du site ScissBidul, une plateforme événementielle culturelle, avec création d'une version pédagogique personnalisée. Projet réalisé en équipe avec analyse comparative de CMS, choix de solution technique, et déploiement d'un site fonctionnel répondant aux besoins spécifiques : spectacles du mois, archives, sponsors, chroniques, espace d'annonces authentifié et forum de discussion.</p>
                 </div>
 
                 <div class="info-table">
                     <div class="info-column">
-                        <h3>🛠️ Outils utilisés</h3>
+                        <h3>🛠️ Technologies utilisées</h3>
                         <ul>
-                            <li>Google Sites</li>
+                            <li>Google Sites (CMS choisi)</li>
                             <li>Google Workspace (Drive, Docs, Sheets)</li>
-                            <li>Figma (design d'interface)</li>
-                            <li>Google Analytics</li>
-                            <li>Canva (graphismes)</li>
+                            <li>Figma (maquettage)</li>
+                            <li>PowerPoint (présentation)</li>
+                            <li>Excel (tableaux comparatifs)</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
-                        <h3>🎯 Compétences travaillées</h3>
+                        <h3>🎯 Compétences développées</h3>
                         <ul>
-                            <li>Gérer le patrimoine informatique</li>
-                            <li>Répondre aux incidents et aux demandes d’assistance et d’évolution</li>
-                            <li>Développer la présence en ligne de l’organisation</li>
-                            <li></li>Travailler en mode projet</li>
-                            <li>Mettre à disposition des utilisateurs un service informatique</li>
-                            <li>Organiser son développement professionnel</li>
-                            
+                            <li>Analyse comparative CMS (Joomla, Drupal, Wix, etc.)</li>
+                            <li>Gestion de projet en équipe</li>
+                            <li>Maquettage et design d'interface</li>
+                            <li>Hébergement web et pérennité</li>
+                            <li>Communication orale (2 soutenances)</li>
+                            <li>Documentation technique</li>
                         </ul>
                     </div>
                     
                     <div class="info-column">
                         <h3>👥 Mode de travail</h3>
-                        <p><strong>Travail en équipe</strong></p>
-                        <p>Collaboration efficace sur l'ensemble du projet :</p>
+                        <p><strong>Travail en équipe (3-4 personnes)</strong></p>
                         <ul>
-                            <li>Répartition des tâches par spécialités</li>
-                            <li>Réunions de suivi hebdomadaires</li>
-                            <li>Revues de code et design</li>
-                            <li>Tests utilisateurs croisés</li>
+                            <li>Binôme réseau/développeur</li>
+                            <li>Répartition des rôles par spécialité</li>
+                            <li>Collaboration sur choix CMS/hébergement</li>
+                            <li>Soutenances collectives</li>
                         </ul>
                     </div>
                 </div>
-               <div class="detail-section">
-                    <h2>📈 Résultats obtenus</h2>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 20px;">
-                        <div style="background: #e8f5e8; padding: 20px; border-radius: 10px; text-align: center;">
-                            <h4 style="color: #28a745; margin-bottom: 10px;">🟢 Site fonctionnel</h4>
-                            <p>Site WordPress opérationnel en production</p>
+
+                <div class="detail-section">
+                    <h2>🎭 Fonctionnalités du site</h2>
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <h4>📅 Spectacles & Archives</h4>
+                            <ul>
+                                <li>Spectacles du mois en cours</li>
+                                <li>Téléchargement des fiches</li>
+                                <li>Archives des mois passés</li>
+                                <li>Classement chronologique</li>
+                            </ul>
                         </div>
-                        <div style="background: #e8f4f8; padding: 20px; border-radius: 10px; text-align: center;">
-                            <h4 style="color: #17a2b8; margin-bottom: 10px;">⚡ Performance</h4>
-                            <p>Temps de chargement &lt; 2 secondes</p>
-                      
+                        <div class="feature-card">
+                            <h4>🤝 Espace interactif</h4>
+                            <ul>
+                                <li>Sponsors ("soutiens")</li>
+                                <li>Chroniques avec photos</li>
+                                <li>Forum de discussion</li>
+                                <li>Espace annonces authentifié</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h4>🔐 Administration</h4>
+                            <ul>
+                                <li>CMS Google Sites</li>
+                                <li>Hébergement pérenne</li>
+                                <li>Exportation des données</li>
+                                <li>Gestion des droits</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-               
 
-               
-                
+                <div class="detail-section">
+                    <h2>📊 Résultats obtenus</h2>
+                    <div class="results-grid">
+                        <div class="result-card">
+                            <h4>✅ CMS sélectionné</h4>
+                            <p>Google Sites choisi après analyse comparative</p>
+                        </div>
+                        <div class="result-card blue">
+                            <h4>⚡ Site opérationnel</h4>
+                            <p>Site hébergé et accessible jusqu'en janvier 2025</p>
+                        </div>
+                        <div class="result-card">
+                            <h4>📈 2 soutenances réussies</h4>
+                            <p>Présentations techniques et démonstrations</p>
+                        </div>
+                        <div class="result-card blue">
+                            <h4>🎯 Pérennité assurée</h4>
+                            <p>Solution d'exportation pour trace en 2026</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="detail-section">
+                    <h2>📄 Documentation & Présentation</h2>
+
+                    <div class="tabs">
+                        <button class="tab-btn active" onclick="openTab('presentation', this)">🎥 Présentation</button>
+                        <button class="tab-btn" onclick="openTab('specifications', this)">📋 Spécifications</button>
+                        <button class="tab-btn" onclick="openTab('maquette', this)">🎨 Maquette</button>
+                        <button class="tab-btn" onclick="openTab('comparatif', this)">📊 Comparatif CMS</button>
+                    </div>
+
+                    <div id="presentation" class="tab-content active">
+                        <h3>Présentation du projet AP2</h3>
+                        <div class="gallery-grid">
+                            <div class="gallery-item" onclick="openImageModal('./images/bidul-presentation1.jpg','Slide 1')">
+                                <img src="./images/bidul-presentation1.jpg" alt="Slide 1" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+1'">
+                                <p>Contexte du projet</p>
+                            </div>
+                            <div class="gallery-item" onclick="openImageModal('./images/bidul-presentation2.jpg','Slide 2')">
+                                <img src="./images/bidul-presentation2.jpg" alt="Slide 2" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+2'">
+                                <p>Analyse des besoins</p>
+                            </div>
+                            <div class="gallery-item" onclick="openImageModal('./images/bidul-presentation3.jpg','Slide 3')">
+                                <img src="./images/bidul-presentation3.jpg" alt="Slide 3" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+3'">
+                                <p>Architecture technique</p>
+                            </div>
+                            <div class="gallery-item" onclick="openImageModal('./images/bidul-presentation4.jpg','Slide 4')">
+                                <img src="./images/bidul-presentation4.jpg" alt="Slide 4" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+4'">
+                                <p>Résultats et démo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="specifications" class="tab-content">
+                        <h3>Spécifications fonctionnelles</h3>
+                        <div class="pdf-viewer">
+                            <iframe src="./images/pdf Caractéristiques du site ScissBidul 2024.pdf"></iframe>
+                        </div>
+                        <div class="doc-actions">
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" download class="doc-btn">⬇️ Télécharger</a>
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-btn open">📄 Ouvrir</a>
+                        </div>
+                    </div>
+
+                    <div id="maquette" class="tab-content">
+                        <h3>Maquette du site</h3>
+                        <div class="pdf-viewer">
+                            <iframe src="./images/Maquette.pptx"></iframe>
+                        </div>
+                        <div class="doc-actions">
+                            <a class="doc-btn" href="./images/Maquette.pptx" download>⬇️ Télécharger</a>
+                            <a class="doc-btn open" href="./images/Maquette.pptx" target="_blank">📄 Ouvrir</a>
+                        </div>
+                    </div>
+
+                    <div id="comparatif" class="tab-content">
+                        <h3>Analyse comparative des CMS</h3>
+                        <div class="pdf-viewer">
+                            <iframe src="./images/WIX.pdf"></iframe>
+                        </div>
+                        <div class="doc-actions">
+                            <a class="doc-btn" href="./images/WIX.pdf" download>⬇️ Télécharger</a>
+                            <a class="doc-btn open" href="./images/WIX.pdf" target="_blank">📄 Ouvrir</a>
+                        </div>
+                        <p style="margin-top: 20px; color: #666; font-style: italic;">
+                            Analyse détaillée de 6 CMS (Joomla, Drupal, Google Sites, Bubble, Blogger, Wix) 
+                            avec notation sur 5 critères : facilité d'utilisation, personnalisation, gestion des données, 
+                            gestion des utilisateurs, hébergement & durabilité.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
     <script>
-        // Fonction de navigation forcée pour GitHub Pages
-        function navigateTo(page) {
-            window.location.href = page;
-            return false;
+        function openTab(tabName, btn) {
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            btn.classList.add('active');
+        }
+
+        function openImageModal(src, caption) {
+            document.getElementById('imageModal').style.display = 'block';
+            document.getElementById('modalImage').src = src;
+            document.getElementById('caption').innerText = caption;
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+
+        window.onclick = function(e) {
+            if (e.target == document.getElementById('imageModal')) {
+                closeModal();
+            }
         }
     </script>
 </body>
 </html>
-
-
-
-
-
