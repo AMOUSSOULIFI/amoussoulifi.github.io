@@ -248,14 +248,14 @@
             to { opacity: 1; }
         }
 
-        .gallery-grid {
+        .doc-cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             gap: 20px;
             margin: 20px 0;
         }
 
-        .gallery-item {
+        .doc-card {
             background: #f8f9fa;
             border-radius: 10px;
             overflow: hidden;
@@ -264,23 +264,36 @@
             cursor: pointer;
             text-decoration: none;
             color: inherit;
+            border: 2px solid transparent;
         }
 
-        .gallery-item:hover {
+        .doc-card:hover {
             transform: translateY(-5px);
+            border-color: #007bff;
         }
 
-        .gallery-item img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-        }
-
-        .gallery-item p {
-            padding: 15px;
-            color: #555;
+        .doc-icon {
+            background: #667eea;
+            color: white;
+            font-size: 3em;
+            padding: 30px 0;
             text-align: center;
-            font-weight: 500;
+        }
+
+        .doc-card-content {
+            padding: 20px;
+        }
+
+        .doc-card h4 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .doc-card p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.5;
         }
 
         .pdf-viewer {
@@ -313,6 +326,7 @@
             border-radius: 5px;
             text-decoration: none;
             transition: 0.3s;
+            font-weight: 500;
         }
 
         .doc-btn:hover {
@@ -325,42 +339,6 @@
 
         .doc-btn.open:hover {
             background: #218838;
-        }
-
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1000;
-            padding-top: 60px;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0,0,0,0.9);
-        }
-
-        .modal-content {
-            margin: auto;
-            display: block;
-            max-width: 90%;
-            max-height: 80%;
-            border-radius: 8px;
-        }
-
-        .close {
-            position: absolute;
-            top: 20px;
-            right: 35px;
-            color: white;
-            font-size: 40px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        #caption {
-            text-align: center;
-            color: white;
-            padding: 10px 0;
         }
 
         .results-grid {
@@ -390,13 +368,6 @@
             color: #17a2b8;
         }
 
-        /* Nouveau style pour ouvrir PDF dans nouvel onglet */
-        .doc-link {
-            display: block;
-            text-decoration: none;
-            color: inherit;
-        }
-
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
@@ -412,11 +383,7 @@
                 padding: 20px;
             }
             
-            .info-table, .features-grid, .results-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .gallery-grid {
+            .info-table, .features-grid, .results-grid, .doc-cards-grid {
                 grid-template-columns: 1fr;
             }
             
@@ -556,31 +523,45 @@
                     <h2>📄 Documentation & Présentation</h2>
 
                     <div class="tabs">
-                        <button class="tab-btn active" onclick="openTab('presentation', this)">🎥 Présentation</button>
-                        <button class="tab-btn" onclick="openTab('specifications', this)">📋 Spécifications</button>
+                        <button class="tab-btn active" onclick="openTab('presentation', this)">📋 Documents du projet</button>
+                        <button class="tab-btn" onclick="openTab('specifications', this)">📄 Spécifications</button>
                         <button class="tab-btn" onclick="openTab('maquette', this)">🎨 Maquette</button>
                         <button class="tab-btn" onclick="openTab('comparatif', this)">📊 Comparatif CMS</button>
                     </div>
 
                     <div id="presentation" class="tab-content active">
-                        <h3>Présentation du projet AP2</h3>
-                        <div class="gallery-grid">
-                            <!-- MODIFICATION ICI : utilisation de liens pour ouvrir les PDF -->
-                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="gallery-item doc-link">
-                                <img src="./images/bidul-presentation1.jpg" alt="Spécifications" onerror="this.src='https://via.placeholder.com/300x200/667eea/ffffff?text=Spécifications'">
-                                <p>Spécifications du projet</p>
+                        <h3>Documents principaux du projet</h3>
+                        <div class="doc-cards-grid">
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-card">
+                                <div class="doc-icon">📋</div>
+                                <div class="doc-card-content">
+                                    <h4>Spécifications fonctionnelles</h4>
+                                    <p>Cahier des charges complet avec toutes les fonctionnalités demandées pour le site ScissBidul</p>
+                                </div>
                             </a>
-                            <a href="./images/Tableau comparatif.xlsx" target="_blank" class="gallery-item doc-link">
-                                <img src="./images/bidul-presentation2.jpg" alt="Tableau comparatif" onerror="this.src='https://via.placeholder.com/300x200/764ba2/ffffff?text=Tableau+comparatif'">
-                                <p>Tableau comparatif CMS</p>
+                            
+                            <a href="./images/Tableau comparatif.xlsx" target="_blank" class="doc-card">
+                                <div class="doc-icon">📊</div>
+                                <div class="doc-card-content">
+                                    <h4>Tableau comparatif CMS</h4>
+                                    <p>Analyse détaillée et notation des CMS selon 5 critères d'évaluation</p>
+                                </div>
                             </a>
-                            <a href="./images/Maquette.pptx" target="_blank" class="gallery-item doc-link">
-                                <img src="./images/bidul-presentation3.jpg" alt="Maquette" onerror="this.src='https://via.placeholder.com/300x200/38bdf8/ffffff?text=Maquette'">
-                                <p>Maquette du site</p>
+                            
+                            <a href="./images/Maquette.pptx" target="_blank" class="doc-card">
+                                <div class="doc-icon">🎨</div>
+                                <div class="doc-card-content">
+                                    <h4>Maquette PowerPoint</h4>
+                                    <p>Présentation des wireframes et design du site événementiel</p>
+                                </div>
                             </a>
-                            <a href="./images/WIX.pdf" target="_blank" class="gallery-item doc-link">
-                                <img src="./images/bidul-presentation4.jpg" alt="Analyse WIX" onerror="this.src='https://via.placeholder.com/300x200/28a745/ffffff?text=Analyse+WIX'">
-                                <p>Analyse détaillée WIX</p>
+                            
+                            <a href="./images/WIX.pdf" target="_blank" class="doc-card">
+                                <div class="doc-icon">🔍</div>
+                                <div class="doc-card-content">
+                                    <h4>Analyse WIX et CMS</h4>
+                                    <p>Étude comparative approfondie des solutions CMS disponibles</p>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -591,8 +572,8 @@
                             <iframe src="./images/pdf Caractéristiques du site ScissBidul 2024.pdf"></iframe>
                         </div>
                         <div class="doc-actions">
-                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" download class="doc-btn">⬇️ Télécharger</a>
-                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-btn open">📄 Ouvrir</a>
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" download class="doc-btn">⬇️ Télécharger le PDF</a>
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-btn open">📄 Ouvrir dans nouvel onglet</a>
                         </div>
                     </div>
 
@@ -602,8 +583,8 @@
                             <iframe src="./images/Maquette.pptx"></iframe>
                         </div>
                         <div class="doc-actions">
-                            <a class="doc-btn" href="./images/Maquette.pptx" download>⬇️ Télécharger</a>
-                            <a class="doc-btn open" href="./images/Maquette.pptx" target="_blank">📄 Ouvrir</a>
+                            <a class="doc-btn" href="./images/Maquette.pptx" download>⬇️ Télécharger la présentation</a>
+                            <a class="doc-btn open" href="./images/Maquette.pptx" target="_blank">📄 Ouvrir dans nouvel onglet</a>
                         </div>
                     </div>
 
@@ -613,8 +594,8 @@
                             <iframe src="./images/WIX.pdf"></iframe>
                         </div>
                         <div class="doc-actions">
-                            <a class="doc-btn" href="./images/WIX.pdf" download>⬇️ Télécharger</a>
-                            <a class="doc-btn open" href="./images/WIX.pdf" target="_blank">📄 Ouvrir</a>
+                            <a class="doc-btn" href="./images/WIX.pdf" download>⬇️ Télécharger l'analyse</a>
+                            <a class="doc-btn open" href="./images/WIX.pdf" target="_blank">📄 Ouvrir dans nouvel onglet</a>
                         </div>
                         <p style="margin-top: 20px; color: #666; font-style: italic;">
                             Analyse détaillée de 6 CMS (Joomla, Drupal, Google Sites, Bubble, Blogger, Wix) 
@@ -627,44 +608,12 @@
         </div>
     </section>
 
-    <div id="imageModal" class="modal">
-        <span class="close" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImage">
-        <div id="caption"></div>
-    </div>
-
     <script>
         function openTab(tabName, btn) {
             document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
             document.getElementById(tabName).classList.add('active');
             btn.classList.add('active');
-        }
-
-        // MODIFICATION ICI : Fonction simplifiée uniquement pour les images
-        function openImageModal(src, caption) {
-            // Vérifie si c'est une image (extension .jpg, .jpeg, .png, .gif)
-            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-            const isImage = imageExtensions.some(ext => src.toLowerCase().endsWith(ext));
-            
-            if (isImage) {
-                document.getElementById('imageModal').style.display = 'block';
-                document.getElementById('modalImage').src = src;
-                document.getElementById('caption').innerText = caption;
-            } else {
-                // Pour les PDF/PPTX, ouvrir dans un nouvel onglet
-                window.open(src, '_blank');
-            }
-        }
-
-        function closeModal() {
-            document.getElementById('imageModal').style.display = 'none';
-        }
-
-        window.onclick = function(e) {
-            if (e.target == document.getElementById('imageModal')) {
-                closeModal();
-            }
         }
     </script>
 </body>
