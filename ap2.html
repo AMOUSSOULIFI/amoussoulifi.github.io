@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP2 - Bidul - Refonte de site événementiel</title>
+    <title>AP2 - ScissBidul - Refonte de site événementiel</title>
     <style>
         * {
             margin: 0;
@@ -368,6 +368,55 @@
             color: #17a2b8;
         }
 
+        .comparatif-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .comparatif-table th {
+            background: #667eea;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .comparatif-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee;
+            text-align: center;
+        }
+
+        .comparatif-table tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        .comparatif-table tr:hover {
+            background: #f0f7ff;
+        }
+
+        .star-rating {
+            color: #ffc107;
+            font-size: 1.2em;
+        }
+
+        .cms-name {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .recommendation {
+            background: #e8f5e8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #28a745;
+        }
+
         @media (max-width: 768px) {
             .nav-container {
                 flex-direction: column;
@@ -389,6 +438,10 @@
             
             .pdf-viewer {
                 height: 400px;
+            }
+            
+            .comparatif-table {
+                font-size: 0.9em;
             }
         }
     </style>
@@ -426,6 +479,7 @@
                 <div class="detail-section">
                     <h2>📋 Description de l'AP</h2>
                     <p>Refonte complète du site ScissBidul, une plateforme événementielle culturelle, avec création d'une version pédagogique personnalisée. Projet réalisé en équipe avec analyse comparative de CMS, choix de solution technique, et déploiement d'un site fonctionnel répondant aux besoins spécifiques : spectacles du mois, archives, sponsors, chroniques, espace d'annonces authentifié et forum de discussion.</p>
+                    <p><strong>Contrainte :</strong> WordPress interdit pour ce projet</p>
                 </div>
 
                 <div class="info-table">
@@ -488,7 +542,7 @@
                         <div class="feature-card">
                             <h4>🔐 Administration</h4>
                             <ul>
-                                <li>CMS Google Sites</li>
+                                <li>Gestion des utilisateurs</li>
                                 <li>Hébergement pérenne</li>
                                 <li>Exportation des données</li>
                                 <li>Gestion des droits</li>
@@ -502,7 +556,7 @@
                     <div class="results-grid">
                         <div class="result-card">
                             <h4>✅ CMS sélectionné</h4>
-                            <p>Google Sites choisi après analyse comparative</p>
+                            <p>CMS choisi après analyse comparative</p>
                         </div>
                         <div class="result-card blue">
                             <h4>⚡ Site opérationnel</h4>
@@ -527,12 +581,13 @@
                         <button class="tab-btn" onclick="openTab('specifications', this)">📄 Spécifications</button>
                         <button class="tab-btn" onclick="openTab('maquette', this)">🎨 Maquette</button>
                         <button class="tab-btn" onclick="openTab('comparatif', this)">📊 Comparatif CMS</button>
+                        <button class="tab-btn" onclick="openTab('analyse', this)">🔍 Analyse détaillée</button>
                     </div>
 
                     <div id="presentation" class="tab-content active">
                         <h3>Documents principaux du projet</h3>
                         <div class="doc-cards-grid">
-                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-card">
+                            <a href="#specifications" onclick="openTab('specifications', document.querySelector('[onclick*=\"specifications\"]'))" class="doc-card">
                                 <div class="doc-icon">📋</div>
                                 <div class="doc-card-content">
                                     <h4>Spécifications fonctionnelles</h4>
@@ -540,7 +595,7 @@
                                 </div>
                             </a>
                             
-                            <a href="./images/Tableau comparatif.xlsx" target="_blank" class="doc-card">
+                            <a href="#comparatif" onclick="openTab('comparatif', document.querySelector('[onclick*=\"comparatif\"]'))" class="doc-card">
                                 <div class="doc-icon">📊</div>
                                 <div class="doc-card-content">
                                     <h4>Tableau comparatif CMS</h4>
@@ -548,15 +603,15 @@
                                 </div>
                             </a>
                             
-                            <a href="./images/Maquette.pptx" target="_blank" class="doc-card">
+                            <a href="#maquette" onclick="openTab('maquette', document.querySelector('[onclick*=\"maquette\"]'))" class="doc-card">
                                 <div class="doc-icon">🎨</div>
                                 <div class="doc-card-content">
-                                    <h4>Maquette PowerPoint</h4>
+                                    <h4>Maquette du site</h4>
                                     <p>Présentation des wireframes et design du site événementiel</p>
                                 </div>
                             </a>
                             
-                            <a href="./images/WIX.pdf" target="_blank" class="doc-card">
+                            <a href="#analyse" onclick="openTab('analyse', document.querySelector('[onclick*=\"analyse\"]'))" class="doc-card">
                                 <div class="doc-icon">🔍</div>
                                 <div class="doc-card-content">
                                     <h4>Analyse WIX et CMS</h4>
@@ -567,41 +622,139 @@
                     </div>
 
                     <div id="specifications" class="tab-content">
-                        <h3>Spécifications fonctionnelles</h3>
+                        <h3>Spécifications fonctionnelles du site ScissBidul</h3>
                         <div class="pdf-viewer">
                             <iframe src="./images/pdf Caractéristiques du site ScissBidul 2024.pdf"></iframe>
                         </div>
                         <div class="doc-actions">
                             <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" download class="doc-btn">⬇️ Télécharger le PDF</a>
-                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="doc-btn open">📄 Ouvrir dans nouvel onglet</a>
+                        </div>
+                        <div class="recommendation">
+                            <h4>🚀 Objectifs principaux :</h4>
+                            <ul>
+                                <li>Site personnalisé (forme et style libres)</li>
+                                <li>Hébergement jusqu'en janvier 2025</li>
+                                <li>Exportation des données pour trace en juin 2026</li>
+                                <li>Mention pédagogique obligatoire avec lien vers le site officiel</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div id="maquette" class="tab-content">
-                        <h3>Maquette du site</h3>
+                        <h3>Maquette du site ScissBidul</h3>
                         <div class="pdf-viewer">
-                            <iframe src="./images/Maquette.pptx"></iframe>
+                            <iframe src="./images/Maquette.pdf"></iframe>
                         </div>
                         <div class="doc-actions">
-                            <a class="doc-btn" href="./images/Maquette.pptx" download>⬇️ Télécharger la présentation</a>
-                            <a class="doc-btn open" href="./images/Maquette.pptx" target="_blank">📄 Ouvrir dans nouvel onglet</a>
+                            <a class="doc-btn" href="./images/Maquette.pdf" download>⬇️ Télécharger la maquette</a>
+                        </div>
+                        <div class="recommendation">
+                            <h4>📱 Pages principales :</h4>
+                            <ul>
+                                <li>Accueil avec spectacles du mois</li>
+                                <li>Page spectacle du mois</li>
+                                <li>Page chronique</li>
+                                <li>Page archives</li>
+                                <li>Forum de discussion</li>
+                                <li>Page sponsors</li>
+                                <li>Page login</li>
+                                <li>Page création d'annonce</li>
+                            </ul>
                         </div>
                     </div>
 
                     <div id="comparatif" class="tab-content">
                         <h3>Analyse comparative des CMS</h3>
                         <div class="pdf-viewer">
+                            <iframe src="./images/Tableau comparatif.pdf"></iframe>
+                        </div>
+                        <div class="doc-actions">
+                            <a class="doc-btn" href="./images/Tableau comparatif.pdf" download>⬇️ Télécharger le tableau</a>
+                        </div>
+                        
+                        <h4 style="margin-top: 30px;">📊 Synthèse du comparatif :</h4>
+                        <table class="comparatif-table">
+                            <thead>
+                                <tr>
+                                    <th>CMS</th>
+                                    <th>Facilité d'utilisation</th>
+                                    <th>Personnalisation</th>
+                                    <th>Gestion des données</th>
+                                    <th>Gestion utilisateurs</th>
+                                    <th>Hébergement & durabilité</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="cms-name">Joomla</td>
+                                    <td><span class="star-rating">★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="cms-name">Drupal</td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="cms-name">Google Sites</td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★★</span></td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="cms-name">Bubble</td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="cms-name">Blogger</td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★</span></td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                </tr>
+                                <tr>
+                                    <td class="cms-name">Wix</td>
+                                    <td><span class="star-rating">★★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                    <td><span class="star-rating">★★★★</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div id="analyse" class="tab-content">
+                        <h3>Analyse détaillée des CMS</h3>
+                        <div class="pdf-viewer">
                             <iframe src="./images/WIX.pdf"></iframe>
                         </div>
                         <div class="doc-actions">
                             <a class="doc-btn" href="./images/WIX.pdf" download>⬇️ Télécharger l'analyse</a>
-                            <a class="doc-btn open" href="./images/WIX.pdf" target="_blank">📄 Ouvrir dans nouvel onglet</a>
                         </div>
-                        <p style="margin-top: 20px; color: #666; font-style: italic;">
-                            Analyse détaillée de 6 CMS (Joomla, Drupal, Google Sites, Bubble, Blogger, Wix) 
-                            avec notation sur 5 critères : facilité d'utilisation, personnalisation, gestion des données, 
-                            gestion des utilisateurs, hébergement & durabilité.
-                        </p>
+                        
+                        <div class="recommendation">
+                            <h4>🎯 Recommandations pour le projet :</h4>
+                            <ol>
+                                <li><strong>Avec compétences techniques/développeur :</strong> Drupal (optimal pour fonctionnalités avancées)</li>
+                                <li><strong>Compromis flexibilité/accessibilité :</strong> Joomla (excellente option plus accessible)</li>
+                                <li><strong>Site simple et rapide :</strong> Wix (esthétique) ou Google Sites (minimaliste)</li>
+                                <li><strong>Personnalisation sans coder :</strong> Bubble (puissant mais temps d'apprentissage)</li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
             </div>
