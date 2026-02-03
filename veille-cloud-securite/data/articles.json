@@ -1,6 +1,90 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Mozilla Adds One-Click Option to Disable Generative AI Features in Firefox",
+    "link": "https://thehackernews.com/2026/02/mozilla-adds-one-click-option-to.html",
+    "date": "2026-02-03",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group",
+    "link": "https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html",
+    "date": "2026-02-03",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-005 (02 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-005/",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (02 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0112/",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans ESET Inspect Connector (02 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0111/",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Infostealers without borders: macOS, Python stealers, and platform abuse",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
+    "link": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
+    "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
+    "link": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks & New Threats",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Securing the Mid-Market Across the Complete Threat Lifecycle",
+    "link": "https://thehackernews.com/2026/02/securing-mid-market-across-complete.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Notepad++ Official Update Mechanism Hijacked to Deliver Malware to Select Users",
+    "link": "https://thehackernews.com/2026/02/notepad-official-update-mechanism.html",
+    "date": "2026-02-02",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
     "link": "https://thehackernews.com/2026/02/escan-antivirus-update-servers.html",
     "date": "2026-02-02",
@@ -99,7 +183,7 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
+    "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-001/",
     "date": "2026-01-30",
     "month": "2026-01"
@@ -567,13 +651,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited VMware vCenter Flaw CVE-2024-37079 to KEV Catalog",
-    "link": "https://thehackernews.com/2026/01/cisa-adds-actively-exploited-vmware.html",
-    "date": "2026-01-24",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Broadcom Web Security Services Agent (23 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0080/",
@@ -616,41 +693,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Updates KEV Catalog with Four Actively Exploited Software Vulnerabilities",
-    "link": "https://thehackernews.com/2026/01/cisa-updates-kev-catalog-with-four.html",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fortinet Confirms Active FortiCloud SSO Bypass on Fully Patched FortiGate Firewalls",
-    "link": "https://thehackernews.com/2026/01/fortinet-confirms-active-forticloud-sso.html",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TikTok Forms U.S. Joint Venture to Continue Operations Under 2025 Executive Order",
-    "link": "https://thehackernews.com/2026/01/tiktok-forms-us-joint-venture-to.html",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Phishing Attack Uses Stolen Credentials to Install LogMeIn RMM for Persistent Access",
-    "link": "https://thehackernews.com/2026/01/phishing-attack-uses-stolen-credentials.html",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Flags Multi-Stage AitM Phishing and BEC Attacks Targeting Energy Firms",
-    "link": "https://thehackernews.com/2026/01/microsoft-flags-multi-stage-aitm.html",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Recommandations à destination  des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
@@ -659,29 +701,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Cisco (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0076/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Ceph (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0078/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Python (22 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0079/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Symantec (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0077/",
     "date": "2026-01-22",
     "month": "2026-01"
   },
@@ -700,31 +721,10 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "New Osiris Ransomware Emerges as New Strain Using POORTRY Driver in BYOVD Attack",
-    "link": "https://thehackernews.com/2026/01/new-osiris-ransomware-emerges-as-new.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical GNU InetUtils telnetd Flaw Lets Attackers Bypass Login and Gain Root Access",
-    "link": "https://thehackernews.com/2026/01/critical-gnu-inetutils-telnetd-flaw.html",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
     "source": "Microsoft Security",
     "title": "A new era of agents, a new era of posture",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/new-era-of-agents-new-era-of-posture/",
     "date": "2026-01-21",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Four priorities for AI-powered identity and network access security in 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/20/four-priorities-for-ai-powered-identity-and-network-access-security-in-2026/",
-    "date": "2026-01-20",
     "month": "2026-01"
   },
   {
