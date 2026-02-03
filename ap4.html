@@ -55,6 +55,11 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
 .modal-content{margin:auto;display:block;max-width:90%;max-height:80%;border-radius:8px;}
 .close{position:absolute;top:20px;right:35px;color:white;font-size:40px;font-weight:bold;cursor:pointer;}
 #caption{text-align:center;color:white;padding:10px 0;}
+.doc-actions{margin-top:20px;display:flex;gap:15px;}
+.doc-btn{display:inline-block;background:#007bff;color:white;padding:10px 20px;border-radius:5px;text-decoration:none;transition:0.3s;}
+.doc-btn:hover{background:#0056b3;}
+.doc-btn.open{background:#28a745;}
+.doc-btn.open:hover{background:#218838;}
 @media(max-width:768px){.nav-container{flex-direction:column;gap:10px;}.ap-header h1{font-size:2em;}.ap-details-grid{padding:20px;}.info-table{grid-template-columns:1fr;}.gallery-grid{grid-template-columns:1fr;}.pdf-viewer{height:400px;}}
 </style>
 </head>
@@ -160,6 +165,8 @@ if(!sessionData||!sessionData.isLoggedIn){ window.location.href='index.html'; }
 <div class="tabs">
 <button class="tab-btn active" onclick="openTab('presentation', this)">🎥 Présentation</button>
 <button class="tab-btn" onclick="openTab('openkm', this)">📋 OPENKM</button>
+<button class="tab-btn" onclick="openTab('logiciel', this)">🖥️ Logiciel prise en main</button>
+<button class="tab-btn" onclick="openTab('regles', this)">🔧 Règles pfSense</button>
 </div>
 
 <div id="presentation" class="tab-content active">
@@ -179,26 +186,31 @@ if(!sessionData||!sessionData.isLoggedIn){ window.location.href='index.html'; }
 <div id="openkm" class="tab-content">
 <h3>Documentation OPENKM</h3>
 <div class="pdf-viewer"><iframe src="./images/Documentation OPENKM Utilisateurs.pdf"></iframe></div>
+<div class="doc-actions">
 <a href="./images/Documentation OPENKM Utilisateurs.pdf" download class="doc-btn">⬇️ Télécharger</a>
-<a href="./images/Documentation OPENKM Utilisateurs.pdf" target="_blank" class="doc-btn">📄 Ouvrir</a>
+<a href="./images/Documentation OPENKM Utilisateurs.pdf" target="_blank" class="doc-btn open">📄 Ouvrir</a>
+</div>
 </div>
 
-<div id="Compartif de logiciel" class="tab-content">
+<div id="logiciel" class="tab-content">
+<h3>Comparatif de logiciel de prise en main à distance</h3>
 <div class="pdf-viewer">
 <iframe src="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf"></iframe>
 </div>
 <div class="doc-actions">
-<a class="doc-btn" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" download>Télécharger</a>
-<a class="doc-btn open" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" target="_blank">Ouvrir</a>
+<a class="doc-btn" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" download>⬇️ Télécharger</a>
+<a class="doc-btn open" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" target="_blank">📄 Ouvrir</a>
 </div>
 </div>
-<div id="Règles pfsense" class="tab-content">
+
+<div id="regles" class="tab-content">
+<h3>Règles de filtrage pfSense</h3>
 <div class="pdf-viewer">
 <iframe src="./images/REGLES DE FILTRAGE PFSENSE – Copie.xlsx"></iframe>
 </div>
 <div class="doc-actions">
-<a class="doc-btn" href="./images/REGLES DE FILTRAGE PFSENSE – Copie.xlsx" download>Télécharger</a>
-<a class="doc-btn open" href="./images/REGLES DE FILTRAGE PFSENSE – Copie.xlsx" target="_blank">Ouvrir</a>
+<a class="doc-btn" href="./images/REGLES DE FILTRAGE PFSENSE – Copie.xlsx" download>⬇️ Télécharger</a>
+<a class="doc-btn open" href="./images/REGLES DE FILTRAGE PFSENSE – Copie.xlsx" target="_blank">📄 Ouvrir</a>
 </div>
 </div>  
 
@@ -229,9 +241,3 @@ window.onclick=function(e){if(e.target==document.getElementById('imageModal')) c
 </script>
 </body>
 </html>
-
-
-
-
-
-
