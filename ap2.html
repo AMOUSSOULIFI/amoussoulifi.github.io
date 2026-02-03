@@ -262,6 +262,8 @@
             box-shadow: 0 4px 10px rgba(0,0,0,0.1);
             transition: transform 0.3s ease;
             cursor: pointer;
+            text-decoration: none;
+            color: inherit;
         }
 
         .gallery-item:hover {
@@ -270,8 +272,8 @@
 
         .gallery-item img {
             width: 100%;
-            height: auto;
-            object-fit: contain;
+            height: 180px;
+            object-fit: cover;
         }
 
         .gallery-item p {
@@ -386,6 +388,13 @@
 
         .result-card.blue h4 {
             color: #17a2b8;
+        }
+
+        /* Nouveau style pour ouvrir PDF dans nouvel onglet */
+        .doc-link {
+            display: block;
+            text-decoration: none;
+            color: inherit;
         }
 
         @media (max-width: 768px) {
@@ -556,22 +565,23 @@
                     <div id="presentation" class="tab-content active">
                         <h3>Présentation du projet AP2</h3>
                         <div class="gallery-grid">
-                            <div class="gallery-item" onclick="openImageModal('./images/pdf Caractéristiques du site ScissBidul 2024.pdf','Slide 1')">
-                                <img src="./images/bidul-presentation1.jpg" alt="Slide 1" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+1'">
-                                <p>Contexte du projet</p>
-                            </div>
-                            <div class="gallery-item" onclick="openImageModal('./images/Tableau comparatif.pdf','Slide 2')">
-                                <img src="./images/bidul-presentation2.jpg" alt="Slide 2" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+2'">
-                                <p>Analyse des besoins</p>
-                            </div>
-                            <div class="gallery-item" onclick="openImageModal('./images/Maquette.pdf','Slide 3')">
-                                <img src="./images/bidul-presentation3.jpg" alt="Slide 3" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+3'">
-                                <p>Architecture technique</p>
-                            </div>
-                            <div class="gallery-item" onclick="openImageModal('./images/Wix.pdf','Slide 4')">
-                                <img src="./images/bidul-presentation4.jpg" alt="Slide 4" onerror="this.src='https://via.placeholder.com/300x200?text=Slide+4'">
-                                <p>Résultats et démo</p>
-                            </div>
+                            <!-- MODIFICATION ICI : utilisation de liens pour ouvrir les PDF -->
+                            <a href="./images/pdf Caractéristiques du site ScissBidul 2024.pdf" target="_blank" class="gallery-item doc-link">
+                                <img src="./images/bidul-presentation1.jpg" alt="Spécifications" onerror="this.src='https://via.placeholder.com/300x200/667eea/ffffff?text=Spécifications'">
+                                <p>Spécifications du projet</p>
+                            </a>
+                            <a href="./images/Tableau comparatif.xlsx" target="_blank" class="gallery-item doc-link">
+                                <img src="./images/bidul-presentation2.jpg" alt="Tableau comparatif" onerror="this.src='https://via.placeholder.com/300x200/764ba2/ffffff?text=Tableau+comparatif'">
+                                <p>Tableau comparatif CMS</p>
+                            </a>
+                            <a href="./images/Maquette.pptx" target="_blank" class="gallery-item doc-link">
+                                <img src="./images/bidul-presentation3.jpg" alt="Maquette" onerror="this.src='https://via.placeholder.com/300x200/38bdf8/ffffff?text=Maquette'">
+                                <p>Maquette du site</p>
+                            </a>
+                            <a href="./images/WIX.pdf" target="_blank" class="gallery-item doc-link">
+                                <img src="./images/bidul-presentation4.jpg" alt="Analyse WIX" onerror="this.src='https://via.placeholder.com/300x200/28a745/ffffff?text=Analyse+WIX'">
+                                <p>Analyse détaillée WIX</p>
+                            </a>
                         </div>
                     </div>
 
@@ -589,11 +599,11 @@
                     <div id="maquette" class="tab-content">
                         <h3>Maquette du site</h3>
                         <div class="pdf-viewer">
-                            <iframe src="./images/Maquette.pdf"></iframe>
+                            <iframe src="./images/Maquette.pptx"></iframe>
                         </div>
                         <div class="doc-actions">
-                            <a class="doc-btn" href="./images/Maquette.pdf" download>⬇️ Télécharger</a>
-                            <a class="doc-btn open" href="./images/Maquette.pdf" target="_blank">📄 Ouvrir</a>
+                            <a class="doc-btn" href="./images/Maquette.pptx" download>⬇️ Télécharger</a>
+                            <a class="doc-btn open" href="./images/Maquette.pptx" target="_blank">📄 Ouvrir</a>
                         </div>
                     </div>
 
@@ -631,10 +641,20 @@
             btn.classList.add('active');
         }
 
+        // MODIFICATION ICI : Fonction simplifiée uniquement pour les images
         function openImageModal(src, caption) {
-            document.getElementById('imageModal').style.display = 'block';
-            document.getElementById('modalImage').src = src;
-            document.getElementById('caption').innerText = caption;
+            // Vérifie si c'est une image (extension .jpg, .jpeg, .png, .gif)
+            const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+            const isImage = imageExtensions.some(ext => src.toLowerCase().endsWith(ext));
+            
+            if (isImage) {
+                document.getElementById('imageModal').style.display = 'block';
+                document.getElementById('modalImage').src = src;
+                document.getElementById('caption').innerText = caption;
+            } else {
+                // Pour les PDF/PPTX, ouvrir dans un nouvel onglet
+                window.open(src, '_blank');
+            }
         }
 
         function closeModal() {
@@ -649,4 +669,3 @@
     </script>
 </body>
 </html>
-
