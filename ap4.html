@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AP4 - Séparation services + Sécurité réseau</title>
+<title>AP2.2 - Accès distant sécurisé à la GED</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box;}
 body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;color:#333;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;}
@@ -18,7 +18,7 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
 .ap-header{text-align:center;margin-bottom:40px;color:white;}
 .ap-badge{display:inline-block;background: rgba(255,255,255,0.2);color:white;padding:8px 20px;border-radius:20px;font-size:0.9em;margin-bottom:15px;}
 .ap-header h1{font-size:2.5em;margin-bottom:10px;text-shadow:2px 2px 4px rgba(0,0,0,0.3);}
-.ap-date{font-size:1.1em;opacity:0.9;}
+.ap-context{font-size:1.1em;opacity:0.9;max-width:800px;margin:0 auto 20px;background: rgba(255,255,255,0.1);padding:15px;border-radius:10px;}
 .ap-details-grid{background:white;border-radius:15px;padding:40px;box-shadow:0 10px 30px rgba(0,0,0,0.2);margin-bottom:40px;}
 .detail-section{margin-bottom:40px;}
 .detail-section h2{color:#2c3e50;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid #f0f0f0;}
@@ -60,6 +60,11 @@ body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;line-height:1.6;col
 .doc-btn:hover{background:#0056b3;}
 .doc-btn.open{background:#28a745;}
 .doc-btn.open:hover{background:#218838;}
+.architecture-diagram{width:100%;max-width:900px;margin:30px auto;background:#f8f9fa;padding:20px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+.architecture-diagram img{width:100%;height:auto;border-radius:5px;}
+.deliverables-list{background:#e8f4fd;padding:20px;border-radius:10px;margin:20px 0;}
+.deliverables-list ul{margin-left:20px;}
+.deliverables-list li{margin-bottom:10px;}
 @media(max-width:768px){.nav-container{flex-direction:column;gap:10px;}.ap-header h1{font-size:2em;}.ap-details-grid{padding:20px;}.info-table{grid-template-columns:1fr;}.gallery-grid{grid-template-columns:1fr;}.pdf-viewer{height:400px;}}
 </style>
 </head>
@@ -84,121 +89,174 @@ if(!sessionData||!sessionData.isLoggedIn){ window.location.href='index.html'; }
 <a href="aps.html" class="back-button">← Retour aux APs</a>
 
 <div class="ap-header">
-<div class="ap-badge">AP4</div>
-<h1>Séparation services + Sauvegarde + NAT</h1>
-<p class="ap-date">Mars - Mai 2025</p>
+<div class="ap-badge">AP2.2 - Accès distant sécurisé</div>
+<h1>Sécurisation de l'accès WAN à la GED de la Mairie de Pénestin</h1>
+<p class="ap-context">Projet d'évolution de la solution de gestion électronique de documents pour permettre un accès sécurisé depuis l'extérieur (écoles primaires et centre social) tout en protégeant les données sensibles.</p>
 </div>
 
 <div class="ap-details-grid">
 <div class="detail-section">
-<h2>📋 Description de l'AP</h2>
-<p>Mise en place d'une architecture réseau sécurisée avec séparation des services (DMZ publique/privée) et configuration de règles de filtrage avancées pour permettre un accès distant fiable à la solution GED depuis les écoles et le centre social de la commune.</p>
+<h2>📋 Contexte du projet</h2>
+<p>La Mairie de Pénestin utilise depuis quelques mois notre solution de gestion électronique de documents (GED) et souhaite l'étendre aux écoles primaires et au centre social de la ville. Cette évolution nécessite :</p>
+<ul style="margin-left:20px;color:#555;margin-top:10px;">
+<li>Un accès sécurisé depuis l'extérieur (WAN)</li>
+<li>Une protection renforcée des données sensibles</li>
+<li>Une architecture réseau séparant les services</li>
+</ul>
 </div>
 
 <div class="info-table">
 <div class="info-column">
-<h3>🛠️ Technologies utilisées</h3>
+<h3>🎯 Objectifs principaux</h3>
 <ul>
-<li>pfSense (Firewall)</li>
-<li>Debian Server</li>
-<li>OpenKM</li>
-<li>Open Media Vault</li>
-<li>rsync</li>
-<li>IPtables</li>
+<li>Proposer une architecture client-serveur WordPress à 3 tiers</li>
+<li>Séparer les services en DMZ publique et privée</li>
+<li>Sécuriser l'accès à la solution GED</li>
+<li>Garantir l'accessibilité depuis LAN et WAN</li>
+<li>Mettre en place des sauvegardes automatisées</li>
 </ul>
 </div>
 <div class="info-column">
-<h3>🎯 Compétences développées</h3>
+<h3>🛠️ Ressources disponibles</h3>
 <ul>
-<li>Gestion du patrimoine informatique</li>
-<li>Support et incidents</li>
-<li>Travail en mode projet</li>
-<li>Documentation</li>
+<li>Serveur applicatif supplémentaire</li>
+<li>Serveur équipé de 4 cartes réseau</li>
+<li>VirtualBox pour la simulation WAN</li>
+<li>Routeur pour séparation des réseaux</li>
+<li>WordPress pour la mise en œuvre simplifiée</li>
 </ul>
 </div>
 <div class="info-column">
-<h3>👥 Mode de travail</h3>
-<p><strong>Travail en binôme</strong></p>
+<h3>🔐 Architecture imposée</h3>
 <ul>
-<li>Partenaire sécurité réseau</li>
-<li>Partenaire automatisation</li>
-<li>Tests et validations mutuelles</li>
-<li>Documentation collaborative</li>
+<li>Serveur web WordPress en DMZ publique</li>
+<li>Serveur de base de données en DMZ privée</li>
+<li>Serveur de fichiers dans le LAN</li>
+<li>Routeur avec règles de filtrage par interface</li>
+<li>Clients LAN et WAN avec accès contrôlé</li>
 </ul>
 </div>
 </div>
 
 <div class="detail-section">
-<h2>🛡️ Fonctionnalités de sécurité</h2>
+<h2>🏗️ Architecture réseau proposée</h2>
+<p>L'architecture suit le modèle à 3 tiers avec séparation stricte des zones :</p>
+<div class="architecture-diagram">
+<!-- Vous devrez ajouter votre schéma réseau ici -->
+<img src="./images/architecture-reseau-penestin.png" alt="Architecture réseau de la Mairie de Pénestin">
+<p style="text-align:center;margin-top:10px;color:#666;">Schéma réseau réalisé avec draw.io</p>
+</div>
+</div>
+
+<div class="detail-section">
+<h2>📦 Livrables attendus</h2>
+<div class="deliverables-list">
+<ul>
+<li><strong>Schéma réseau complet</strong> de la mairie de Pénestin (Visio ou draw.io)</li>
+<li><strong>Tableau des règles de filtrage</strong> pour chaque interface du routeur</li>
+<li><strong>Configuration du serveur de base de données</strong> pour le bon fonctionnement</li>
+<li><strong>Démonstration en laboratoire</strong> sur machines virtuelles</li>
+<li><strong>Script de sauvegarde automatisée</strong> de la base de données vers le serveur de fichiers</li>
+</ul>
+</div>
+</div>
+
+<div class="detail-section">
+<h2>🛡️ Mesures de sécurité implémentées</h2>
 <div class="features-grid">
 <div class="feature-card">
-<h4>🔐 Séparation des services</h4>
+<h4>🌐 Segmentation réseau</h4>
 <ul>
-<li>VLANs séparés</li>
-<li>DMZ pour services publics</li>
-<li>Segmentation stricte</li>
-<li>Contrôle d'accès</li>
+<li>DMZ publique pour services externes</li>
+<li>DMZ privée pour bases de données</li>
+<li>LAN isolé pour données sensibles</li>
+<li>Routeur avec règles de filtrage strictes</li>
 </ul>
 </div>
 <div class="feature-card">
-<h4>🌐 Configuration PfSense</h4>
+<h4>🔧 Configuration avancée</h4>
 <ul>
-<li>Interfaces réseau</li>
-<li>NAT 1:1</li>
-<li>Routage</li>
-<li>Firewall</li>
+<li>VirtualBox pour simulation WAN</li>
+<li>Configuration multi-interfaces</li>
+<li>Règles NAT et port forwarding</li>
+<li>Monitoring des flux réseau</li>
 </ul>
 </div>
 <div class="feature-card">
-<h4>💾 Sauvegardes</h4>
+<h4>💾 Sauvegarde & Récupération</h4>
 <ul>
-<li>Rsync</li>
-<li>Automatisation</li>
+<li>Sauvegarde automatisée BDD</li>
+<li>Transfert sécurisé vers serveur fichiers</li>
+<li>Vérification d'intégrité</li>
+<li>Plan de restauration</li>
 </ul>
 </div>
 </div>
 </div>
 
 <div class="detail-section">
-<h2>📄 Documentation & Présentation</h2>
+<h2>📄 Documentation & Productions</h2>
 
 <div class="tabs">
-<button class="tab-btn active" onclick="openTab('presentation', this)">🎥 Présentation</button>
-<button class="tab-btn" onclick="openTab('openkm', this)">📋 OPENKM</button>
-<button class="tab-btn" onclick="openTab('logiciel', this)">🖥️ Logiciel prise en main</button>
+<button class="tab-btn active" onclick="openTab('schema', this)">🏗️ Schéma réseau</button>
+<button class="tab-btn" onclick="openTab('regles', this)">📋 Règles de filtrage</button>
+<button class="tab-btn" onclick="openTab('demonstration', this)">🎥 Démonstration</button>
+<button class="tab-btn" onclick="openTab('sauvegarde', this)">💾 Script sauvegarde</button>
 </div>
 
-<div id="presentation" class="tab-content active">
-<h3>Présentation du projet AP4</h3>
+<div id="schema" class="tab-content active">
+<h3>Architecture réseau complète</h3>
 <div class="gallery-grid">
-<div class="gallery-item" onclick="openImageModal('./images/1.PNG','Slide 1')">
-<img src="./images/1.PNG" alt="Slide 1"><p>Slide 1</p></div>
-<div class="gallery-item" onclick="openImageModal('./images/2.PNG','Slide 2')">
-<img src="./images/2.PNG" alt="Slide 2"><p>Slide 2</p></div>
-<div class="gallery-item" onclick="openImageModal('./images/3.PNG','Slide 3')">
-<img src="./images/3.PNG" alt="Slide 3"><p>Slide 3</p></div>
-<div class="gallery-item" onclick="openImageModal('./images/4.PNG','Slide 4')">
-<img src="./images/4.PNG" alt="Slide 4"><p>Slide 4</p></div>
+<div class="gallery-item" onclick="openImageModal('./images/schema-reseau-complet.png','Architecture réseau globale')">
+<img src="./images/schema-reseau-complet.png" alt="Schéma réseau"><p>Architecture complète</p>
+</div>
+<div class="gallery-item" onclick="openImageModal('./images/dmz-detail.png','Détail DMZ')">
+<img src="./images/dmz-detail.png" alt="Détail DMZ"><p>Détail des zones DMZ</p>
 </div>
 </div>
-
-<div id="openkm" class="tab-content">
-<h3>Documentation OPENKM</h3>
-<div class="pdf-viewer"><iframe src="./images/Documentation OPENKM Utilisateurs.pdf"></iframe></div>
 <div class="doc-actions">
-<a href="./images/Documentation OPENKM Utilisateurs.pdf" download class="doc-btn">⬇️ Télécharger</a>
-<a href="./images/Documentation OPENKM Utilisateurs.pdf" target="_blank" class="doc-btn open">📄 Ouvrir</a>
+<a href="./images/schema-reseau-penestin.drawio" download class="doc-btn">⬇️ Télécharger .drawio</a>
+<a href="./images/schema-reseau-penestin.pdf" target="_blank" class="doc-btn open">📄 Voir PDF</a>
 </div>
 </div>
 
-<div id="logiciel" class="tab-content">
-<h3>Comparatif de logiciel de prise en main à distance</h3>
+<div id="regles" class="tab-content">
+<h3>Tableau des règles de filtrage</h3>
 <div class="pdf-viewer">
-<iframe src="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf"></iframe>
+<iframe src="./images/tableau-regles-filtrage.pdf"></iframe>
 </div>
 <div class="doc-actions">
-<a class="doc-btn" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" download>⬇️ Télécharger</a>
-<a class="doc-btn open" href="./images/LOGICIEL DE PRISE EN MAIN A DISTANCE 1.pdf" target="_blank">📄 Ouvrir</a>
+<a class="doc-btn" href="./images/tableau-regles-filtrage.pdf" download>⬇️ Télécharger PDF</a>
+<a class="doc-btn open" href="./images/tableau-regles-filtrage.xlsx" download>📊 Télécharger Excel</a>
+</div>
+</div>
+
+<div id="demonstration" class="tab-content">
+<h3>Démonstration des services fonctionnels</h3>
+<div class="gallery-grid">
+<div class="gallery-item" onclick="openImageModal('./images/demo-wordpress.png','WordPress fonctionnel')">
+<img src="./images/demo-wordpress.png" alt="WordPress"><p>WordPress en DMZ publique</p>
+</div>
+<div class="gallery-item" onclick="openImageModal('./images/demo-acces-ged.png','Accès GED')">
+<img src="./images/demo-acces-ged.png" alt="Accès GED"><p>Accès à la GED depuis WAN</p>
+</div>
+<div class="gallery-item" onclick="openImageModal('./images/demo-sauvegarde.png','Sauvegarde')">
+<img src="./images/demo-sauvegarde.png" alt="Sauvegarde"><p>Sauvegarde automatisée</p>
+</div>
+<div class="gallery-item" onclick="openImageModal('./images/demo-filtrage.png','Filtrage')">
+<img src="./images/demo-filtrage.png" alt="Filtrage"><p>Règles de filtrage actives</p>
+</div>
+</div>
+</div>
+
+<div id="sauvegarde" class="tab-content">
+<h3>Script de sauvegarde automatisée</h3>
+<div class="pdf-viewer">
+<iframe src="./images/script-sauvegarde-bdd.pdf"></iframe>
+</div>
+<div class="doc-actions">
+<a class="doc-btn" href="./images/script-sauvegarde-bdd.pdf" download>⬇️ Documentation</a>
+<a class="doc-btn open" href="./scripts/sauvegarde-bdd.sh" download>📜 Télécharger script</a>
 </div>
 </div>
 
