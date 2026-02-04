@@ -3,222 +3,1006 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stages - Portfolio BTS</title>
-
+    <title>Stages - Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-    /* ===== GLOBAL ===== */
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f4f6f8;
-        color: #1f2937;
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+        --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --secondary-gradient: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+        --accent-color: #38bdf8;
+        --dark-bg: #0f172a;
+        --light-bg: #f8fafc;
+        --card-bg: #ffffff;
+        --text-dark: #1e293b;
+        --text-light: #64748b;
+        --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        --border-radius: 16px;
+        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
         margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        background-color: var(--light-bg);
+        color: var(--text-dark);
         line-height: 1.6;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 0 20px;
+        overflow-x: hidden;
     }
 
     /* ===== NAVBAR ===== */
     .navbar {
-        background: linear-gradient(90deg, #667eea, #764ba2);
-        padding: 16px 20px;
+        background: var(--dark-bg);
+        padding: 1rem 0;
         position: sticky;
         top: 0;
-        z-index: 100;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 1000;
+        box-shadow: var(--shadow-md);
+        backdrop-filter: blur(10px);
+        background: rgba(15, 23, 42, 0.95);
     }
 
     .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
         display: flex;
-        justify-content: center;
-        gap: 28px;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        background: var(--primary-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nav-logo i {
+        font-size: 1.8rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1.5rem;
     }
 
     .nav-link {
-        color: #ffffff;
-        font-weight: 600;
-        padding: 8px 14px;
+        color: #cbd5e1;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
         border-radius: 8px;
-        transition: background 0.3s, transform 0.2s;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .nav-link:hover {
-        background: rgba(255,255,255,0.15);
+        color: #ffffff;
+        background: rgba(56, 189, 248, 0.1);
         transform: translateY(-2px);
     }
 
     .nav-link.active {
-        background: #38bdf8;
-        color: #0f172a;
+        color: #ffffff;
+        background: var(--secondary-gradient);
+        box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
     }
 
-    /* ===== SECTION ===== */
-    .section {
-        padding: 70px 0;
-    }
-
-    .section h2 {
-        text-align: center;
-        font-size: 2.4rem;
-        margin-bottom: 10px;
-    }
-
-    .section-subtitle {
-        text-align: center;
+    .nav-link i {
         font-size: 1.1rem;
-        color: #6b7280;
-        margin-bottom: 50px;
     }
 
-    /* ===== GRID STAGES ===== */
-    .grid-stages {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 30px;
-    }
-
-    /* ===== STAGE CARD ===== */
-    .stage-card {
+    /* ===== HERO SECTION ===== */
+    .hero {
+        padding: 5rem 0 3rem;
+        text-align: center;
+        background: linear-gradient(135deg, #0ea5e9 0%, #38bdf8 100%);
+        color: white;
         position: relative;
-        background: #ffffff;
-        border-radius: 18px;
-        padding: 28px 24px;
-        border: 1px solid #e5e7eb;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
         overflow: hidden;
     }
 
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+        background-size: cover;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .hero-badge {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+        margin: 0 auto 1.5rem;
+        width: fit-content;
+    }
+
+    .hero h1 {
+        font-size: 3.2rem;
+        margin-bottom: 1rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 2rem;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .stats {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 3rem;
+        flex-wrap: wrap;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        display: block;
+        background: linear-gradient(90deg, #fbbf24, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    /* ===== STAGES GRID SECTION ===== */
+    .section {
+        padding: 5rem 0;
+    }
+
+    .section-header {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .section-subtitle {
+        color: var(--text-light);
+        font-size: 1.1rem;
+        max-width: 600px;
+        margin: 0.5rem auto 0;
+    }
+
+    .timeline-container {
+        max-width: 1000px;
+        margin: 0 auto 4rem;
+        position: relative;
+        padding: 0 2rem;
+    }
+
+    .timeline {
+        position: relative;
+        margin: 3rem 0;
+    }
+
+    .timeline::before {
+        content: '';
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background: linear-gradient(to bottom, transparent, var(--accent-color), transparent);
+    }
+
+    .timeline-item {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        position: relative;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+        margin-right: auto;
+        margin-left: 0;
+        text-align: right;
+        padding-right: 4rem;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+        margin-left: auto;
+        margin-right: 0;
+        text-align: left;
+        padding-left: 4rem;
+    }
+
+    .timeline-dot {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 20px;
+        background: var(--secondary-gradient);
+        border-radius: 50%;
+        border: 4px solid white;
+        box-shadow: 0 0 0 4px rgba(56, 189, 248, 0.2);
+        z-index: 1;
+    }
+
+    .timeline-content {
+        width: 45%;
+        background: white;
+        padding: 2rem;
+        border-radius: var(--border-radius);
+        box-shadow: var(--shadow-md);
+        border: 1px solid #e2e8f0;
+        transition: var(--transition);
+    }
+
+    .timeline-content:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    /* ===== STAGE CARD ===== */
+    .grid-stages {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+        gap: 2rem;
+        padding: 0 2rem;
+    }
+
+    .stage-card {
+        background: var(--card-bg);
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        box-shadow: var(--shadow-md);
+        transition: var(--transition);
+        border: 1px solid #e2e8f0;
+        position: relative;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .stage-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--accent-color);
     }
 
     .stage-card::before {
-        content: "";
+        content: '';
         position: absolute;
-        left: 0;
         top: 0;
-        height: 100%;
-        width: 6px;
-        background: linear-gradient(180deg, #38bdf8, #667eea);
-        border-radius: 18px 0 0 18px;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background: var(--secondary-gradient);
     }
 
-    /* ===== CONTENT ===== */
+    .stage-card-content {
+        padding: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stage-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+    }
+
     .stage-badge {
-        display: inline-block;
-        background: #38bdf8;
-        color: #0f172a;
-        padding: 6px 14px;
-        border-radius: 999px;
-        font-weight: 700;
-        font-size: 0.85rem;
-        margin-bottom: 16px;
+        background: var(--secondary-gradient);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        box-shadow: 0 4px 10px rgba(56, 189, 248, 0.3);
+    }
+
+    .stage-status {
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .stage-status.completed {
+        background: #dcfce7;
+        color: #166534;
+    }
+
+    .stage-status.planned {
+        background: #fef3c7;
+        color: #92400e;
+    }
+
+    .stage-status.upcoming {
+        background: #e0e7ff;
+        color: #3730a3;
     }
 
     .stage-card h3 {
         font-size: 1.4rem;
-        margin-bottom: 6px;
-        color: #111827;
+        margin-bottom: 0.5rem;
+        color: var(--text-dark);
+    }
+
+    .stage-company {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent-color);
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .stage-company i {
+        font-size: 1rem;
     }
 
     .stage-period {
-        font-size: 0.95rem;
-        color: #6b7280;
-        margin-bottom: 14px;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
     }
 
-    .stage-skills span {
-        display: inline-block;
-        background: #eef2ff;
-        color: #3730a3;
-        padding: 8px 12px;
-        border-radius: 8px;
+    .stage-period i {
+        color: var(--accent-color);
+    }
+
+    .stage-description {
+        color: var(--text-light);
+        margin-bottom: 1.5rem;
+        flex-grow: 1;
+        font-size: 0.95rem;
+    }
+
+    .stage-tasks {
+        margin: 1rem 0;
+    }
+
+    .stage-tasks h4 {
+        color: var(--text-dark);
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .stage-tasks ul {
+        list-style: none;
+        padding-left: 1.5rem;
+    }
+
+    .stage-tasks li {
+        color: var(--text-light);
+        margin-bottom: 0.5rem;
         font-size: 0.9rem;
+        position: relative;
+    }
+
+    .stage-tasks li::before {
+        content: '▸';
+        position: absolute;
+        left: -1rem;
+        color: var(--accent-color);
+    }
+
+    .stage-skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .stage-skill {
+        background: #f1f5f9;
+        color: #475569;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
         font-weight: 500;
     }
 
-    .company-info {
-        margin-top: 16px;
+    .stage-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: auto;
+        padding-top: 1rem;
+        border-top: 1px solid #e2e8f0;
+    }
+
+    .stage-duration {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+        color: var(--text-light);
+    }
+
+    .stage-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        color: var(--accent-color);
         font-weight: 600;
-        color: #374151;
+        transition: var(--transition);
+    }
+
+    .stage-link:hover {
+        gap: 0.75rem;
+        color: #0ea5e9;
+    }
+
+    /* ===== FOOTER ===== */
+    .footer {
+        background: var(--dark-bg);
+        color: #cbd5e1;
+        padding: 3rem 0 2rem;
+        text-align: center;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-link {
+        color: #94a3b8;
+        transition: var(--transition);
+    }
+
+    .footer-link:hover {
+        color: #ffffff;
+    }
+
+    .footer-copyright {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #334155;
+        font-size: 0.9rem;
+        color: #94a3b8;
     }
 
     /* ===== RESPONSIVE ===== */
+    @media (max-width: 992px) {
+        .hero h1 {
+            font-size: 2.5rem;
+        }
+        
+        .grid-stages {
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+        
+        .timeline::before {
+            left: 2rem;
+        }
+        
+        .timeline-dot {
+            left: 2rem;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content,
+        .timeline-item:nth-child(even) .timeline-content {
+            width: calc(100% - 5rem);
+            margin-left: 5rem;
+            text-align: left;
+            padding: 1.5rem;
+        }
+    }
+
     @media (max-width: 768px) {
-        .section h2 {
+        .nav-container {
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        
+        .nav-links {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .hero {
+            padding: 4rem 0 2rem;
+        }
+        
+        .hero h1 {
             font-size: 2rem;
         }
+        
+        .hero p {
+            font-size: 1rem;
+        }
+        
+        .stats {
+            gap: 1.5rem;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+        }
+        
+        .section {
+            padding: 3rem 0;
+        }
+        
+        .grid-stages {
+            grid-template-columns: 1fr;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .grid-stages {
+            padding: 0 1rem;
+        }
+        
+        .hero h1 {
+            font-size: 1.8rem;
+        }
+        
+        .stage-card-content {
+            padding: 1rem;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content,
+        .timeline-item:nth-child(even) .timeline-content {
+            width: calc(100% - 3rem);
+            margin-left: 3rem;
+        }
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .stage-card {
+        animation: fadeInUp 0.5s ease-out forwards;
+        opacity: 0;
+    }
+
+    .stage-card:nth-child(1) { animation-delay: 0.1s; }
+    .stage-card:nth-child(2) { animation-delay: 0.2s; }
+
+    .timeline-item {
+        animation: fadeInUp 0.5s ease-out forwards;
+        opacity: 0;
+    }
+
+    .timeline-item:nth-child(1) { animation-delay: 0.1s; }
+    .timeline-item:nth-child(2) { animation-delay: 0.3s; }
+
+    /* ===== SCROLLBAR ===== */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #f1f5f9;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
     }
     </style>
 </head>
 
 <body>
-
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
-            <a href="index.html" class="nav-link">Accueil</a>
-            <a href="aps.html" class="nav-link">APs</a>
-            <a href="stages.html" class="nav-link active">Stages</a>
-            <a href="cv.html" class="nav-link">CV</a>
-            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
+            <div class="nav-logo">
+                <i class="fas fa-laptop-code"></i>
+                <span>Portfolio BTS SIO</span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="aps.html" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>APs</span>
+                </a>
+                <a href="stages.html" class="nav-link active">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Stages</span>
+                </a>
+                <a href="cv.html" class="nav-link">
+                    <i class="fas fa-user-tie"></i>
+                    <span>CV</span>
+                </a>
+                <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">
+                    <i class="fas fa-cloud"></i>
+                    <span>Veille</span>
+                </a>
+            </div>
         </div>
     </nav>
 
-    <!-- SECTION STAGES -->
-    <section class="section">
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-briefcase"></i>
+                Expériences Professionnelles
+            </div>
+            <h1>Stages en Entreprise</h1>
+            <p>Découvrez mes expériences professionnelles réalisées dans le cadre du BTS SIO. Ces stages m'ont permis d'appliquer en contexte réel les compétences acquises en formation.</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-number">2</span>
+                    <span class="stat-label">Stages</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Compétences</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label">Semaines</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TIMELINE SECTION -->
+    <section class="section" style="padding-top: 2rem;">
+        <div class="timeline-container">
+            <div class="section-header">
+                <h2>Parcours de Stages</h2>
+                <p class="section-subtitle">Chronologie de mes expériences professionnelles</p>
+            </div>
+
+            <div class="timeline">
+                <!-- STAGE 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="stage-header">
+                            <div class="stage-badge">Stage 1</div>
+                            <div class="stage-status completed">Terminé</div>
+                        </div>
+                        <h3>Stage en Systèmes & Réseaux</h3>
+                        <div class="stage-company">
+                            <i class="fas fa-building"></i>
+                            Saint Charles Sainte-Croix – Le Mans
+                        </div>
+                        <div class="stage-period">
+                            <i class="far fa-calendar-alt"></i>
+                            9 juin – 11 juillet 2025 (4 semaines)
+                        </div>
+                        <div class="stage-description">
+                            Stage de première année en infrastructure informatique au sein d'un établissement scolaire, avec mise en pratique des compétences en administration système et réseau.
+                        </div>
+                        <div class="stage-tasks">
+                            <h4><i class="fas fa-tasks"></i> Missions principales :</h4>
+                            <ul>
+                                <li>Support technique aux utilisateurs</li>
+                                <li>Déploiement et maintenance de postes de travail</li>
+                                <li>Gestion du parc informatique</li>
+                                <li>Virtualisation de serveurs</li>
+                                <li>Sauvegarde et sécurisation des données</li>
+                            </ul>
+                        </div>
+                        <div class="stage-skills">
+                            <span class="stage-skill">Support technique</span>
+                            <span class="stage-skill">Déploiement</span>
+                            <span class="stage-skill">Virtualisation</span>
+                            <span class="stage-skill">Maintenance</span>
+                            <span class="stage-skill">Windows Server</span>
+                            <span class="stage-skill">Active Directory</span>
+                        </div>
+                        <div class="stage-footer">
+                            <div class="stage-duration">
+                                <i class="far fa-clock"></i>
+                                4 semaines
+                            </div>
+                            <a href="stage1.html" class="stage-link">
+                                Voir le détail
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- STAGE 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="stage-header">
+                            <div class="stage-badge">Stage 2</div>
+                            <div class="stage-status upcoming">À venir</div>
+                        </div>
+                        <h3>Stage de spécialisation</h3>
+                        <div class="stage-company">
+                            <i class="fas fa-building"></i>
+                            Entreprise à déterminer
+                        </div>
+                        <div class="stage-period">
+                            <i class="far fa-calendar-alt"></i>
+                            À définir (5-6 semaines)
+                        </div>
+                        <div class="stage-description">
+                            Stage de deuxième année axé sur la spécialisation en solutions d'infrastructure, systèmes et réseaux, avec des missions plus complexes et responsabilisantes.
+                        </div>
+                        <div class="stage-tasks">
+                            <h4><i class="fas fa-tasks"></i> Missions prévues :</h4>
+                            <ul>
+                                <li>Administration de serveurs avancée</li>
+                                <li>Mise en place de solutions de sécurité réseau</li>
+                                <li>Gestion d'infrastructure virtualisée</li>
+                                <li>Automatisation de tâches d'administration</li>
+                                <li>Planification de la continuité d'activité</li>
+                            </ul>
+                        </div>
+                        <div class="stage-skills">
+                            <span class="stage-skill">Sécurité réseau</span>
+                            <span class="stage-skill">Virtualisation avancée</span>
+                            <span class="stage-skill">Scripting</span>
+                            <span class="stage-skill">Monitoring</span>
+                            <span class="stage-skill">PRA/PCA</span>
+                        </div>
+                        <div class="stage-footer">
+                            <div class="stage-duration">
+                                <i class="far fa-clock"></i>
+                                5-6 semaines
+                            </div>
+                            <span class="stage-link">
+                                En préparation
+                                <i class="fas fa-arrow-right"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- STAGES GRID SECTION -->
+    <section class="section" style="padding-top: 0;">
         <div class="container">
-            <h2>Stages Professionnels</h2>
-            <p class="section-subtitle">
-                Expériences en entreprise réalisées durant le BTS SIO SISR
-            </p>
+            <div class="section-header">
+                <h2>Détail des Stages</h2>
+                <p class="section-subtitle">Cliquez sur une carte pour accéder au rapport détaillé du stage</p>
+            </div>
 
             <div class="grid-stages">
-
                 <!-- STAGE 1 -->
-                <a href="stage1.html">
+                <a href="stage1.html" class="stage-card-link">
                     <div class="stage-card">
-                        <div class="stage-badge">STAGE</div>
-                        <h3>Stage Systèmes & Réseaux</h3>
-                        <p class="stage-period">9 juin – 11 juillet 2025 (4 semaines)</p>
-                        <div class="stage-skills">
-                            <span>Support • Déploiement • Virtualisation • Maintenance</span>
-                        </div>
-                        <div class="company-info">
-                            Saint Charles Sainte-Croix – Le Mans
+                        <div class="stage-card-content">
+                            <div class="stage-header">
+                                <div class="stage-badge">Stage 1</div>
+                                <div class="stage-status completed">Terminé</div>
+                            </div>
+                            <h3>Stage Systèmes & Réseaux</h3>
+                            <div class="stage-company">
+                                <i class="fas fa-building"></i>
+                                Saint Charles Sainte-Croix
+                            </div>
+                            <div class="stage-period">
+                                <i class="far fa-calendar-alt"></i>
+                                9 juin – 11 juillet 2025
+                            </div>
+                            <p class="stage-description">
+                                Stage de première année au sein d'un établissement scolaire, centré sur l'infrastructure informatique, le support utilisateur et la maintenance du parc informatique.
+                            </p>
+                            <div class="stage-skills">
+                                <span class="stage-skill">Support technique</span>
+                                <span class="stage-skill">Active Directory</span>
+                                <span class="stage-skill">Virtualisation</span>
+                                <span class="stage-skill">Maintenance</span>
+                                <span class="stage-skill">Windows Server</span>
+                            </div>
+                            <div class="stage-footer">
+                                <div class="stage-duration">
+                                    <i class="far fa-clock"></i>
+                                    4 semaines
+                                </div>
+                                <span class="stage-link">
+                                    Voir le rapport
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </a>
 
                 <!-- STAGE 2 -->
-                <a href="stage2.html">
+                <a href="stage2.html" class="stage-card-link">
                     <div class="stage-card">
-                        <div class="stage-badge">STAGE</div>
-                        <h3>Stage à venir</h3>
-                        <p class="stage-period">À définir</p>
-                        <div class="stage-skills">
-                            <span>Prochaine expérience professionnelle</span>
-                        </div>
-                        <div class="company-info">
-                            Entreprise à déterminer
+                        <div class="stage-card-content">
+                            <div class="stage-header">
+                                <div class="stage-badge">Stage 2</div>
+                                <div class="stage-status upcoming">À venir</div>
+                            </div>
+                            <h3>Stage de spécialisation</h3>
+                            <div class="stage-company">
+                                <i class="fas fa-building"></i>
+                                Entreprise à déterminer
+                            </div>
+                            <div class="stage-period">
+                                <i class="far fa-calendar-alt"></i>
+                                À définir
+                            </div>
+                            <p class="stage-description">
+                                Stage de deuxième année avec des missions plus complexes en infrastructure et sécurité réseau, permettant une spécialisation professionnelle.
+                            </p>
+                            <div class="stage-skills">
+                                <span class="stage-skill">Sécurité réseau</span>
+                                <span class="stage-skill">Virtualisation</span>
+                                <span class="stage-skill">Scripting</span>
+                                <span class="stage-skill">Monitoring</span>
+                                <span class="stage-skill">PRA/PCA</span>
+                            </div>
+                            <div class="stage-footer">
+                                <div class="stage-duration">
+                                    <i class="far fa-clock"></i>
+                                    5-6 semaines
+                                </div>
+                                <span class="stage-link">
+                                    En préparation
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </a>
-
             </div>
         </div>
     </section>
 
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="nav-logo" style="justify-content: center; margin-bottom: 1rem;">
+                <i class="fas fa-laptop-code"></i>
+                <span>Portfolio BTS SIO</span>
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Accueil</a>
+                <a href="aps.html" class="footer-link">APs</a>
+                <a href="stages.html" class="footer-link">Stages</a>
+                <a href="cv.html" class="footer-link">CV</a>
+                <a href="veille-cloud-securite/veille-cloud-securite.html" class="footer-link">Veille Technologique</a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2025 Portfolio BTS SIO - Tous droits réservés
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate stats counter
+        const statNumbers = document.querySelectorAll('.stat-number');
+        statNumbers.forEach(stat => {
+            const target = parseInt(stat.textContent);
+            let current = 0;
+            const increment = target / 50;
+            const timer = setInterval(() => {
+                current += increment;
+                if (current >= target) {
+                    current = target;
+                    clearInterval(timer);
+                }
+                stat.textContent = Math.floor(current);
+            }, 30);
+        });
+        
+        // Add hover effect to cards
+        const stageCards = document.querySelectorAll('.stage-card, .timeline-content');
+        stageCards.forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px) scale(1.02)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0) scale(1)';
+            });
+        });
+        
+        // Add scroll animation for timeline
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.timeline-item').forEach(item => {
+            observer.observe(item);
+        });
+    });
+    </script>
 </body>
 </html>
