@@ -3,132 +3,442 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Portfolio BTS SIO SISR</title>
-
+    <title>CV - Enock AMOUSSOULIFI | BTS SIO SISR</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-    /* ===== GLOBAL ===== */
-    body {
+    /* ===== VARIABLES & RESET ===== */
+    :root {
+        --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        --secondary-gradient: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
+        --success-gradient: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+        --accent-color: #38bdf8;
+        --dark-bg: #0f172a;
+        --light-bg: #f8fafc;
+        --card-bg: #ffffff;
+        --text-dark: #1e293b;
+        --text-light: #64748b;
+        --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        --border-radius: 16px;
+        --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
         margin: 0;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f4f6f8;
-        color: #1f2937;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        background-color: var(--light-bg);
+        color: var(--text-dark);
         line-height: 1.6;
-    }
-
-    a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    .container {
-        max-width: 1200px;
-        margin: auto;
-        padding: 0 20px;
+        overflow-x: hidden;
     }
 
     /* ===== NAVBAR ===== */
     .navbar {
-        background: linear-gradient(90deg, #667eea, #764ba2);
-        padding: 16px 20px;
+        background: var(--dark-bg);
+        padding: 1rem 0;
         position: sticky;
         top: 0;
-        z-index: 100;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        z-index: 1000;
+        box-shadow: var(--shadow-md);
+        backdrop-filter: blur(10px);
+        background: rgba(15, 23, 42, 0.95);
     }
 
     .nav-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
         display: flex;
-        justify-content: center;
-        gap: 28px;
-        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logo {
+        font-size: 1.5rem;
+        font-weight: 700;
+        background: var(--primary-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .nav-logo i {
+        font-size: 1.8rem;
+    }
+
+    .nav-links {
+        display: flex;
+        gap: 1.5rem;
     }
 
     .nav-link {
-        color: #ffffff;
-        font-weight: 600;
-        padding: 8px 14px;
+        color: #cbd5e1;
+        font-weight: 500;
+        padding: 0.5rem 1rem;
         border-radius: 8px;
-        transition: background 0.3s, transform 0.2s;
+        transition: var(--transition);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .nav-link:hover {
-        background: rgba(255,255,255,0.15);
+        color: #ffffff;
+        background: rgba(56, 189, 248, 0.1);
         transform: translateY(-2px);
     }
 
     .nav-link.active {
-        background: #38bdf8;
-        color: #0f172a;
+        color: #ffffff;
+        background: var(--secondary-gradient);
+        box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
     }
 
-    /* ===== HEADER ===== */
-    .cv-header {
-        text-align: center;
-        margin: 60px 0 40px;
+    /* ===== HERO SECTION ===== */
+    .hero {
+        padding: 4rem 0 3rem;
+        background: var(--primary-gradient);
+        color: white;
+        position: relative;
+        overflow: hidden;
     }
 
-    .cv-badge {
+    .hero::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.05)"/></svg>');
+        background-size: cover;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 1;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.2);
+        box-shadow: var(--shadow-lg);
+        object-fit: cover;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 3rem;
+    }
+
+    .profile-info {
+        flex: 1;
+    }
+
+    .hero-badge {
         display: inline-block;
-        background: #38bdf8;
-        color: #0f172a;
-        padding: 6px 18px;
-        border-radius: 999px;
-        font-weight: 700;
-        margin-bottom: 12px;
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 50px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
     }
 
-    .cv-header h1 {
-        font-size: 2.5rem;
-        margin-bottom: 8px;
+    .hero h1 {
+        font-size: 2.8rem;
+        margin-bottom: 0.5rem;
+        font-weight: 800;
+        line-height: 1.2;
     }
 
-    .cv-header p {
-        color: #6b7280;
+    .hero p {
+        font-size: 1.2rem;
+        opacity: 0.9;
+        margin-bottom: 1.5rem;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.95rem;
+        opacity: 0.9;
+    }
+
+    .contact-item i {
         font-size: 1.1rem;
     }
 
-    /* ===== CARD ===== */
-    .cv-card {
-        background: #ffffff;
-        border-radius: 18px;
-        padding: 40px;
-        box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-        margin-bottom: 60px;
+    /* ===== MAIN CONTENT ===== */
+    .main-content {
+        max-width: 1200px;
+        margin: -2rem auto 3rem;
+        padding: 0 2rem;
+        position: relative;
+        z-index: 2;
     }
 
-    /* ===== INFO GRID ===== */
-    .info-grid {
+    /* ===== CV CONTAINER ===== */
+    .cv-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px;
-        margin-bottom: 40px;
+        grid-template-columns: 1fr 350px;
+        gap: 2rem;
+        margin-bottom: 3rem;
     }
 
-    .info-box {
-        background: #f9fafb;
-        border-radius: 14px;
-        padding: 24px;
-        border-left: 5px solid #667eea;
+    /* ===== LEFT COLUMN ===== */
+    .left-column {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
-    .info-box h3 {
-        margin-bottom: 10px;
-        color: #111827;
+    /* ===== RIGHT COLUMN ===== */
+    .right-column {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
     }
 
-    .info-box p {
-        color: #4b5563;
+    /* ===== CV SECTIONS ===== */
+    .cv-section {
+        background: var(--card-bg);
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid #e2e8f0;
+        transition: var(--transition);
+    }
+
+    .cv-section:hover {
+        box-shadow: var(--shadow-lg);
+        transform: translateY(-3px);
+    }
+
+    .section-header {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 2px solid #f1f5f9;
+    }
+
+    .section-header i {
+        font-size: 1.5rem;
+        background: var(--primary-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .section-header h2 {
+        font-size: 1.5rem;
+        color: var(--text-dark);
+    }
+
+    /* ===== EXPERIENCE ===== */
+    .timeline {
+        position: relative;
+        padding-left: 2rem;
+    }
+
+    .timeline::before {
+        content: '';
+        position: absolute;
+        left: 0.5rem;
+        top: 0;
+        bottom: 0;
+        width: 2px;
+        background: linear-gradient(to bottom, #e2e8f0, #cbd5e1, #e2e8f0);
+    }
+
+    .timeline-item {
+        position: relative;
+        margin-bottom: 2rem;
+        padding-left: 1.5rem;
+    }
+
+    .timeline-item::before {
+        content: '';
+        position: absolute;
+        left: -0.5rem;
+        top: 0.5rem;
+        width: 1rem;
+        height: 1rem;
+        border-radius: 50%;
+        background: var(--secondary-gradient);
+        border: 3px solid white;
+        box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.1);
+    }
+
+    .timeline-date {
+        display: inline-block;
+        background: #f1f5f9;
+        color: var(--text-light);
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.85rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-content h3 {
+        font-size: 1.1rem;
+        margin-bottom: 0.25rem;
+        color: var(--text-dark);
+    }
+
+    .timeline-content p {
+        color: var(--text-light);
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .timeline-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .tag {
+        background: #e0e7ff;
+        color: #3730a3;
+        padding: 0.25rem 0.75rem;
+        border-radius: 20px;
+        font-size: 0.75rem;
+        font-weight: 500;
+    }
+
+    /* ===== SKILLS ===== */
+    .skills-grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    .skill-category h4 {
+        margin-bottom: 1rem;
+        color: var(--text-dark);
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+    }
+
+    .skill-category h4 i {
+        color: var(--accent-color);
+    }
+
+    .skill {
+        margin-bottom: 1rem;
+    }
+
+    .skill-header {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0.5rem;
+    }
+
+    .skill-name {
+        font-weight: 500;
         font-size: 0.95rem;
     }
 
-    /* ===== PDF ===== */
+    .skill-percent {
+        font-weight: 600;
+        color: var(--accent-color);
+        font-size: 0.9rem;
+    }
+
+    .skill-bar {
+        height: 8px;
+        background: #e2e8f0;
+        border-radius: 4px;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .skill-progress {
+        height: 100%;
+        background: var(--secondary-gradient);
+        border-radius: 4px;
+        transition: width 1s ease-out;
+    }
+
+    /* ===== LANGUAGES ===== */
+    .languages-grid {
+        display: grid;
+        gap: 1.5rem;
+    }
+
+    .language-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.75rem;
+        background: #f8fafc;
+        border-radius: 10px;
+        border-left: 4px solid var(--accent-color);
+    }
+
+    .language-name {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        font-weight: 500;
+    }
+
+    .language-level {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    /* ===== PDF VIEWER ===== */
+    .pdf-section {
+        background: var(--card-bg);
+        border-radius: var(--border-radius);
+        padding: 2rem;
+        box-shadow: var(--shadow-md);
+        border: 1px solid #e2e8f0;
+        margin-bottom: 3rem;
+    }
+
     .pdf-viewer {
         width: 100%;
-        height: 800px;
-        border-radius: 14px;
+        height: 700px;
+        border-radius: 12px;
         overflow: hidden;
-        border: 1px solid #e5e7eb;
-        margin-bottom: 30px;
+        border: 1px solid #e2e8f0;
+        margin: 1.5rem 0;
+        box-shadow: var(--shadow-sm);
     }
 
     .pdf-viewer iframe {
@@ -137,237 +447,650 @@
         border: none;
     }
 
-    /* ===== BUTTONS ===== */
     .action-buttons {
-        text-align: center;
-        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        margin-top: 2rem;
+        flex-wrap: wrap;
     }
 
-    .btn {
-        display: inline-block;
-        margin: 10px;
-        padding: 14px 26px;
+    .action-btn {
+        padding: 0.75rem 1.5rem;
         border-radius: 10px;
         font-weight: 600;
-        font-size: 1rem;
-        transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .btn-download {
-        background: #22c55e;
-        color: #ffffff;
-    }
-
-    .btn-print {
-        background: #3b82f6;
-        color: #ffffff;
-    }
-
-    .btn:hover {
-        transform: translateY(-3px);
-        box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-    }
-
-    /* ===== SKILLS ===== */
-    .skills-section h2 {
-        text-align: center;
-        margin-bottom: 30px;
-    }
-
-    .skills-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 25px;
-    }
-
-    .skill-box {
-        background: #f9fafb;
-        border-radius: 14px;
-        padding: 24px;
-    }
-
-    .skill-box h4 {
-        margin-bottom: 16px;
-        border-bottom: 2px solid #e5e7eb;
-        padding-bottom: 6px;
-    }
-
-    .skill {
-        margin-bottom: 14px;
-    }
-
-    .skill-name {
         display: flex;
-        justify-content: space-between;
-        font-size: 0.9rem;
-        margin-bottom: 4px;
+        align-items: center;
+        gap: 0.5rem;
+        transition: var(--transition);
+        border: none;
+        cursor: pointer;
+        font-size: 1rem;
     }
 
-    .skill-bar {
-        height: 8px;
-        background: #e5e7eb;
-        border-radius: 6px;
-        overflow: hidden;
+    .action-btn.download {
+        background: var(--success-gradient);
+        color: white;
     }
 
-    .skill-level {
-        height: 100%;
-        background: linear-gradient(90deg, #667eea, #38bdf8);
+    .action-btn.print {
+        background: #3b82f6;
+        color: white;
+    }
+
+    .action-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: var(--shadow-lg);
     }
 
     /* ===== FOOTER ===== */
     .footer {
+        background: var(--dark-bg);
+        color: #cbd5e1;
+        padding: 3rem 0 2rem;
         text-align: center;
-        padding: 30px 0;
-        color: #6b7280;
+        margin-top: 3rem;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-link {
+        color: #94a3b8;
+        transition: var(--transition);
+    }
+
+    .footer-link:hover {
+        color: #ffffff;
+    }
+
+    .footer-copyright {
+        margin-top: 2rem;
+        padding-top: 2rem;
+        border-top: 1px solid #334155;
         font-size: 0.9rem;
+        color: #94a3b8;
     }
 
     /* ===== RESPONSIVE ===== */
-    @media (max-width: 768px) {
+    @media (max-width: 992px) {
+        .cv-container {
+            grid-template-columns: 1fr;
+        }
+        
+        .hero-content {
+            flex-direction: column;
+            text-align: center;
+            gap: 2rem;
+        }
+        
+        .contact-info {
+            justify-content: center;
+        }
+        
         .pdf-viewer {
             height: 500px;
         }
+    }
 
-        .cv-card {
-            padding: 24px;
+    @media (max-width: 768px) {
+        .nav-container {
+            flex-direction: column;
+            gap: 1rem;
+            padding: 1rem;
+        }
+        
+        .nav-links {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .hero {
+            padding: 3rem 0 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 2rem;
+        }
+        
+        .hero p {
+            font-size: 1rem;
+        }
+        
+        .main-content {
+            padding: 0 1rem;
+        }
+        
+        .cv-section {
+            padding: 1.5rem;
+        }
+        
+        .action-buttons {
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .action-btn {
+            width: 100%;
+            max-width: 300px;
+            justify-content: center;
         }
     }
 
+    @media (max-width: 480px) {
+        .profile-image {
+            width: 140px;
+            height: 140px;
+            font-size: 2rem;
+        }
+        
+        .pdf-viewer {
+            height: 400px;
+        }
+    }
+
+    /* ===== ANIMATIONS ===== */
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .cv-section {
+        animation: fadeInUp 0.5s ease-out forwards;
+        opacity: 0;
+    }
+
+    .cv-section:nth-child(1) { animation-delay: 0.1s; }
+    .cv-section:nth-child(2) { animation-delay: 0.2s; }
+    .cv-section:nth-child(3) { animation-delay: 0.3s; }
+    .cv-section:nth-child(4) { animation-delay: 0.4s; }
+    .pdf-section { animation-delay: 0.5s; }
+
+    /* ===== PRINT STYLES ===== */
     @media print {
-        .navbar, .action-buttons {
+        .navbar, .action-buttons, .footer {
             display: none;
         }
+        
         body {
             background: #ffffff;
+            color: #000000;
         }
-        .cv-card {
+        
+        .cv-section, .pdf-section {
             box-shadow: none;
-            padding: 0;
+            border: 1px solid #ddd;
+            break-inside: avoid;
+        }
+        
+        .hero {
+            background: #ffffff !important;
+            color: #000000 !important;
+            padding: 1rem 0 !important;
+        }
+        
+        .profile-image {
+            border-color: #ddd !important;
+        }
+        
+        .skill-progress {
+            background: #000000 !important;
         }
     }
     </style>
 </head>
 
 <body>
-
-<!-- NAVBAR -->
-<nav class="navbar">
-    <div class="nav-container">
-        <a href="index.html" class="nav-link">Accueil</a>
-        <a href="aps.html" class="nav-link">APs</a>
-        <a href="stages.html" class="nav-link">Stages</a>
-        <a href="cv.html" class="nav-link active">CV</a>
-        <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille</a>
-    </div>
-</nav>
-
-<section class="container">
-
-    <!-- HEADER -->
-    <div class="cv-header">
-        <div class="cv-badge">CV</div>
-        <h1>Enock AMOUSSOULIFI</h1>
-        <p>BTS SIO – Option SISR</p>
-    </div>
-
-    <!-- CARD -->
-    <div class="cv-card">
-
-        <!-- INFO -->
-        <div class="info-grid">
-            <div class="info-box">
-                <h3>🎯 Profil</h3>
-                <p>
-                    Étudiant en BTS SIO SISR, passionné par l’administration système,
-                    les réseaux et la cybersécurité.
-                </p>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-laptop-code"></i>
+                <span>Portfolio BTS SIO</span>
             </div>
-
-            <div class="info-box">
-                <h3>📧 Contact</h3>
-                <p>
-                    📍 Le Mans<br>
-                    ✉️ enock.amoussoulifi@email.com<br>
-                    📱 +33 7 51 32 14 12
-                </p>
-            </div>
-
-            <div class="info-box">
-                <h3>🎓 Formation</h3>
-                <p>
-                    <strong>BTS SIO SISR</strong><br>
-                    Lycée Saint Charles Sainte-Croix<br>
-                    2023 – 2025
-                </p>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Accueil</span>
+                </a>
+                <a href="aps.html" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>APs</span>
+                </a>
+                <a href="stages.html" class="nav-link">
+                    <i class="fas fa-briefcase"></i>
+                    <span>Stages</span>
+                </a>
+                <a href="cv.html" class="nav-link active">
+                    <i class="fas fa-user-tie"></i>
+                    <span>CV</span>
+                </a>
+                <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">
+                    <i class="fas fa-cloud"></i>
+                    <span>Veille</span>
+                </a>
             </div>
         </div>
+    </nav>
 
-        <!-- PDF -->
-        <div class="pdf-viewer">
-            <iframe src="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf"></iframe>
-        </div>
-
-        <!-- ACTIONS -->
-        <div class="action-buttons">
-            <a class="btn btn-download" href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download>
-                📥 Télécharger le CV
-            </a>
-            <button class="btn btn-print" onclick="window.print()">
-                🖨️ Imprimer
-            </button>
-        </div>
-
-        <!-- SKILLS -->
-        <div class="skills-section">
-            <h2>💻 Compétences Techniques</h2>
-
-            <div class="skills-grid">
-                <div class="skill-box">
-                    <h4>Administration Système</h4>
-                    <div class="skill">
-                        <div class="skill-name">Windows Server <span>85%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
-                    </div>
-                    <div class="skill">
-                        <div class="skill-name">Linux <span>80%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
-                    </div>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="profile-image">
+                <i class="fas fa-user"></i>
+            </div>
+            <div class="profile-info">
+                <div class="hero-badge">
+                    <i class="fas fa-graduation-cap"></i>
+                    Étudiant BTS SIO SISR
                 </div>
-
-                <div class="skill-box">
-                    <h4>Réseaux & Sécurité</h4>
-                    <div class="skill">
-                        <div class="skill-name">TCP/IP <span>90%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:90%"></div></div>
+                <h1>Enock AMOUSSOULIFI</h1>
+                <p>Passionné par l'administration système, les réseaux et la cybersécurité. À la recherche d'une alternance pour septembre 2025.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Le Mans, France</span>
                     </div>
-                    <div class="skill">
-                        <div class="skill-name">Pare-feu <span>75%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:75%"></div></div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>enock.amoussoulifi@email.com</span>
                     </div>
-                </div>
-
-                <div class="skill-box">
-                    <h4>Outils</h4>
-                    <div class="skill">
-                        <div class="skill-name">OCS / FOG <span>85%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:85%"></div></div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+33 7 51 32 14 12</span>
                     </div>
-                    <div class="skill">
-                        <div class="skill-name">GPO / Scripts <span>80%</span></div>
-                        <div class="skill-bar"><div class="skill-level" style="width:80%"></div></div>
+                    <div class="contact-item">
+                        <i class="fas fa-link"></i>
+                        <span>linkedin.com/in/enockamoussoulifi</span>
                     </div>
                 </div>
             </div>
         </div>
+    </section>
 
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <!-- PDF VIEWER SECTION -->
+        <div class="pdf-section">
+            <div class="section-header">
+                <i class="fas fa-file-pdf"></i>
+                <h2>CV Téléchargeable</h2>
+            </div>
+            
+            <div class="pdf-viewer">
+                <iframe src="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf"></iframe>
+            </div>
+            
+            <div class="action-buttons">
+                <a class="action-btn download" href="./images/CV AMOUSSOULIFI ENOCK BTS-B2-SISR.pdf" download>
+                    <i class="fas fa-download"></i>
+                    Télécharger le CV (PDF)
+                </a>
+                <button class="action-btn print" onclick="window.print()">
+                    <i class="fas fa-print"></i>
+                    Imprimer le CV
+                </button>
+            </div>
+        </div>
+
+        <!-- TWO-COLUMN LAYOUT -->
+        <div class="cv-container">
+            <!-- LEFT COLUMN -->
+            <div class="left-column">
+                <!-- EXPERIENCE -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h2>Expérience Professionnelle</h2>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Juin - Juillet 2025</div>
+                            <div class="timeline-content">
+                                <h3>Stage en Systèmes & Réseaux</h3>
+                                <p>Saint Charles Sainte-Croix – Le Mans</p>
+                                <p>Support technique, déploiement de postes, virtualisation, maintenance du parc informatique.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Windows Server</span>
+                                    <span class="tag">Active Directory</span>
+                                    <span class="tag">Virtualisation</span>
+                                    <span class="tag">Support</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">À venir 2025</div>
+                            <div class="timeline-content">
+                                <h3>Stage de spécialisation</h3>
+                                <p>Entreprise à déterminer</p>
+                                <p>Administration avancée, sécurité réseau, infrastructure virtualisée, automatisation.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Sécurité</span>
+                                    <span class="tag">Scripting</span>
+                                    <span class="tag">Monitoring</span>
+                                    <span class="tag">PRA/PCA</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORMATION -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h2>Formation</h2>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">2023 - 2025</div>
+                            <div class="timeline-content">
+                                <h3>BTS Services Informatiques aux Organisations</h3>
+                                <p>Option SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</p>
+                                <p>Lycée Saint Charles Sainte-Croix – Le Mans</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">Réseaux</span>
+                                    <span class="tag">Sécurité</span>
+                                    <span class="tag">Virtualisation</span>
+                                    <span class="tag">Administration</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJETS -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <h2>Projets Significatifs</h2>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">Mars - Mai 2025</div>
+                            <div class="timeline-content">
+                                <h3>AP4 - Accès distant sécurisé</h3>
+                                <p>Architecture réseau avec DMZ, pfSense, sauvegarde automatisée</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">pfSense</span>
+                                    <span class="tag">DMZ</span>
+                                    <span class="tag">Sécurité</span>
+                                    <span class="tag">WordPress</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-item">
+                            <div class="timeline-date">Janvier - Mars 2025</div>
+                            <div class="timeline-content">
+                                <h3>AP3 - GED Mairie de Pénestin</h3>
+                                <p>Solution de gestion électronique de documents avec OpenKM</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">OpenKM</span>
+                                    <span class="tag">GED</span>
+                                    <span class="tag">NAS</span>
+                                    <span class="tag">Archivage</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="right-column">
+                <!-- COMPÉTENCES TECHNIQUES -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-code"></i>
+                        <h2>Compétences Techniques</h2>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4><i class="fas fa-server"></i> Administration Système</h4>
+                            <div class="skill" data-percent="85">
+                                <div class="skill-header">
+                                    <span class="skill-name">Windows Server</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="80">
+                                <div class="skill-header">
+                                    <span class="skill-name">Linux (Debian)</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">Virtualisation</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4><i class="fas fa-network-wired"></i> Réseaux & Sécurité</h4>
+                            <div class="skill" data-percent="90">
+                                <div class="skill-header">
+                                    <span class="skill-name">TCP/IP</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">Pare-feu (pfSense)</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="85">
+                                <div class="skill-header">
+                                    <span class="skill-name">OCS / FOG</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4><i class="fas fa-tools"></i> Outils & Scripting</h4>
+                            <div class="skill" data-percent="80">
+                                <div class="skill-header">
+                                    <span class="skill-name">GPO / Scripts</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="70">
+                                <div class="skill-header">
+                                    <span class="skill-name">PowerShell</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="65">
+                                <div class="skill-header">
+                                    <span class="skill-name">Bash</span>
+                                    <span class="skill-percent">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- LANGUES -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-language"></i>
+                        <h2>Langues</h2>
+                    </div>
+                    
+                    <div class="languages-grid">
+                        <div class="language-item">
+                            <div class="language-name">
+                                <i class="fas fa-flag"></i>
+                                <span>Français</span>
+                            </div>
+                            <div class="language-level">Langue maternelle</div>
+                        </div>
+                        <div class="language-item">
+                            <div class="language-name">
+                                <i class="fas fa-flag"></i>
+                                <span>Anglais</span>
+                            </div>
+                            <div class="language-level">Technique (B1)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CENTRES D'INTÉRÊT -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-heart"></i>
+                        <h2>Centres d'Intérêt</h2>
+                    </div>
+                    
+                    <div class="interests-grid">
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+                            <span style="background: #e0f2fe; color: #0369a1; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-shield-alt"></i> Cybersécurité
+                            </span>
+                            <span style="background: #fef3c7; color: #92400e; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-cloud"></i> Cloud Computing
+                            </span>
+                            <span style="background: #dcfce7; color: #166534; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-robot"></i> Automatisation
+                            </span>
+                            <span style="background: #f3e8ff; color: #6b21a8; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-gamepad"></i> Jeux vidéo
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-</section>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="nav-logo" style="justify-content: center; margin-bottom: 1rem;">
+                <i class="fas fa-laptop-code"></i>
+                <span>Portfolio BTS SIO</span>
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html" class="footer-link">Accueil</a>
+                <a href="aps.html" class="footer-link">APs</a>
+                <a href="stages.html" class="footer-link">Stages</a>
+                <a href="cv.html" class="footer-link">CV</a>
+                <a href="veille-cloud-securite/veille-cloud-securite.html" class="footer-link">Veille Technologique</a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2025 Portfolio BTS SIO - Enock AMOUSSOULIFI - Tous droits réservés
+            </div>
+        </div>
+    </footer>
 
-<div class="footer">
-    © 2024 – Portfolio BTS SIO SISR | Enock AMOUSSOULIFI
-</div>
-
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Animate skill bars
+        const skills = document.querySelectorAll('.skill');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skill = entry.target;
+                    const percent = skill.getAttribute('data-percent');
+                    const progressBar = skill.querySelector('.skill-progress');
+                    
+                    setTimeout(() => {
+                        progressBar.style.width = percent + '%';
+                    }, 300);
+                    
+                    observer.unobserve(skill);
+                }
+            });
+        }, {
+            threshold: 0.5,
+            rootMargin: '0px 0px -50px 0px'
+        });
+        
+        skills.forEach(skill => {
+            skill.querySelector('.skill-progress').style.width = '0%';
+            observer.observe(skill);
+        });
+        
+        // Add hover effect to sections
+        const sections = document.querySelectorAll('.cv-section');
+        sections.forEach(section => {
+            section.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-5px)';
+            });
+            
+            section.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+        
+        // Print functionality
+        document.querySelector('.action-btn.print').addEventListener('click', function() {
+            window.print();
+        });
+        
+        // Initialize animations
+        const animatedElements = document.querySelectorAll('.cv-section, .pdf-section');
+        animatedElements.forEach((el, index) => {
+            el.style.animationDelay = (index * 0.1) + 's';
+        });
+    });
+    </script>
 </body>
 </html>
