@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
+    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
+    "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "L’intelligence artificielle générative face aux attaques informatiques (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-001/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Google Pixel (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0113/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Moxa (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0116/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0117/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0114/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (04 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0115/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Detecting backdoored language models at scale",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models",
+    "link": "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DEAD#VAX Malware Campaign Deploys AsyncRAT via IPFS-Hosted VHD Phishing Files",
+    "link": "https://thehackernews.com/2026/02/deadvax-malware-campaign-deploys.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Amaranth-Dragon Exploits WinRAR Flaw in Espionage Campaigns",
+    "link": "https://thehackernews.com/2026/02/china-linked-amaranth-dragon-exploits.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
+    "link": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The First 90 Seconds: How Early Decisions Shape Incident Response Investigations",
+    "link": "https://thehackernews.com/2026/02/the-first-90-seconds-how-early.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
+    "link": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
+    "date": "2026-02-04",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
     "link": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
     "date": "2026-02-04",
@@ -560,55 +665,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "WhatsApp Rolls Out Lockdown-Style Security Mode to Protect Targeted Users From Spyware",
-    "link": "https://thehackernews.com/2026/01/whatsapp-rolls-out-lockdown-style.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Experts Detect Pakistan-Linked Cyber Campaigns Aimed at Indian Government Entities",
-    "link": "https://thehackernews.com/2026/01/experts-detect-pakistan-linked-cyber.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClickFix Attacks Expand Using Fake CAPTCHAs, Microsoft Scripts, and Trusted Web Services",
-    "link": "https://thehackernews.com/2026/01/clickfix-attacks-expand-using-fake.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CTEM in Practice: Prioritization, Validation, and Outcomes That Matter",
-    "link": "https://thehackernews.com/2026/01/ctem-in-practice-prioritization.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Office Zero-Day (CVE-2026-21509) - Emergency Patch Issued for Active Exploitation",
-    "link": "https://thehackernews.com/2026/01/microsoft-issues-emergency-patch-for.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Grist-Core Vulnerability Allows RCE Attacks via Spreadsheet Formulas",
-    "link": "https://thehackernews.com/2026/01/critical-grist-core-vulnerability.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Have Used the PeckBirdy JavaScript C2 Framework Since 2023",
-    "link": "https://thehackernews.com/2026/01/china-linked-hackers-have-used.html",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-004 (26 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-004/",
@@ -658,37 +714,9 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Indian Users Targeted in Tax Phishing Campaign Delivering Blackmoon Malware",
-    "link": "https://thehackernews.com/2026/01/indian-users-targeted-in-tax-phishing.html",
-    "date": "2026-01-26",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Broadcom Web Security Services Agent (23 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0080/",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (23 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0083/",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (23 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0082/",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (23 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0081/",
     "date": "2026-01-23",
     "month": "2026-01"
   },
@@ -707,30 +735,9 @@
     "month": "2026-01"
   },
   {
-    "source": "ANSSI",
-    "title": "Recommandations à destination  des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0079/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Microsoft Security success stories: Why integrated security is the foundation of AI transformation",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/",
-    "date": "2026-01-22",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Resurgence of a multi‑stage AiTM phishing and BEC campaign abusing SharePoint",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/21/multistage-aitm-phishing-bec-campaign-abusing-sharepoint/",
     "date": "2026-01-22",
     "month": "2026-01"
   },
@@ -824,13 +831,6 @@
     "link": "https://blog.cloudflare.com/react2shell-rsc-vulnerabilities-exploitation-threat-brief/",
     "date": "2025-12-11",
     "month": "2025-12"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration (06 novembre 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0970/",
-    "date": "2025-11-06",
-    "month": "2025-11"
   },
   {
     "source": "ANSSI",
