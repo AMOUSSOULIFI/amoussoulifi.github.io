@@ -1,6 +1,83 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
+    "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
+    "date": "2026-02-06",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Splunk (05 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0118/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (05 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0119/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits F5 (05 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0120/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults",
+    "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q4/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "New Clickfix variant ‘CrashFix’ deploying Python Remote Access Trojan",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "The security implementation gap: Why Microsoft is supporting Operation Winter SHIELD",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
+    "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Buyer’s Guide to AI Usage Control",
+    "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
+    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
+    "date": "2026-02-05",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
     "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
     "date": "2026-02-05",
@@ -588,41 +665,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Mustang Panda Deploys Updated COOLCLIENT Backdoor in Government Cyber Attacks",
-    "link": "https://thehackernews.com/2026/01/mustang-panda-deploys-updated.html",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Password Reuse in Disguise: An Often-Missed Risky Workaround",
-    "link": "https://thehackernews.com/2026/01/password-reuse-in-disguise-often-missed.html",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Warns of Active Exploitation of WinRAR Vulnerability CVE-2025-8088",
-    "link": "https://thehackernews.com/2026/01/google-warns-of-active-exploitation-of.html",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Python Spellchecker Packages on PyPI Delivered Hidden Remote Access Trojan",
-    "link": "https://thehackernews.com/2026/01/fake-python-spellchecker-packages-on.html",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fortinet Patches CVE-2026-24858 After Active FortiOS SSO Exploitation Detected",
-    "link": "https://thehackernews.com/2026/01/fortinet-patches-cve-2026-24858-after.html",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (27 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0089/",
@@ -673,13 +715,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (26 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0084/",
-    "date": "2026-01-26",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans CPython (26 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0086/",
     "date": "2026-01-26",
@@ -689,13 +724,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Belden (26 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0087/",
-    "date": "2026-01-26",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans NetApp Brocade SAN Navigator (26 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0085/",
     "date": "2026-01-26",
     "month": "2026-01"
   },
@@ -714,31 +742,10 @@
     "month": "2026-01"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (23 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0083/",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
     "source": "Cloudflare",
     "title": "Route leak incident on January 22, 2026",
     "link": "https://blog.cloudflare.com/route-leak-incident-january-22-2026/",
     "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "From runtime risk to real‑time defense: Securing AI agents",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/23/runtime-risk-realtime-defense-securing-ai-agents/",
-    "date": "2026-01-23",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft Security success stories: Why integrated security is the foundation of AI transformation",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/22/microsoft-security-success-stories-why-integrated-security-is-the-foundation-of-ai-transformation/",
-    "date": "2026-01-22",
     "month": "2026-01"
   },
   {
@@ -823,13 +830,6 @@
     "title": "ChatGPT's rivals, Kwai's quiet rise: the top Internet services of 2025",
     "link": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
     "date": "2025-12-15",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "React2Shell and related RSC vulnerabilities threat brief: early exploitation activity and threat actor techniques",
-    "link": "https://blog.cloudflare.com/react2shell-rsc-vulnerabilities-exploitation-threat-brief/",
-    "date": "2025-12-11",
     "month": "2025-12"
   },
   {
