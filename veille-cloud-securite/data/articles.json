@@ -7,6 +7,13 @@
     "month": "2026-02"
   },
   {
+    "source": "The Hacker News",
+    "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
+    "link": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
+    "date": "2026-02-07",
+    "month": "2026-02"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (06 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0130/",
@@ -682,13 +689,6 @@
     "source": "The Hacker News",
     "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
     "link": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Disrupts IPIDEA — One of the World’s Largest Residential Proxy Networks",
-    "link": "https://thehackernews.com/2026/01/google-disrupts-ipidea-one-of-worlds.html",
     "date": "2026-01-29",
     "month": "2026-01"
   },
