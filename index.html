@@ -168,11 +168,8 @@
 
 <!-- ================= SCRIPTS ================= -->
 <script>
-function login(event) {
-    // Empêche le rechargement de la page si le bouton est dans un <form>
-    if (event) event.preventDefault();
-
-    const user = document.getElementById("username").value.trim();
+function doLogin() {
+    const user = document.getElementById("login").value.trim(); // ID corrigé
     const pass = document.getElementById("password").value.trim();
 
     // 🔐 Identifiants
@@ -190,14 +187,30 @@ function login(event) {
         window.location.href = "aps.html";
 
     } else {
-        alert("Identifiant ou mot de passe incorrect");
+        document.getElementById("login-error").textContent = "Identifiant ou mot de passe incorrect";
     }
 }
+
+// Optionnel : déconnexion
+function logout() {
+    localStorage.removeItem("sessionData");
+    location.reload();
+}
+
+// Vérifie si la session est encore active
+window.addEventListener("DOMContentLoaded", () => {
+    const session = JSON.parse(localStorage.getItem("sessionData"));
+    if (session && session.isLoggedIn && session.expiresAt > Date.now()) {
+        document.getElementById("login-overlay").style.display = "none";
+    }
+});
 </script>
+
 
 
 
 </body>
 </html>
+
 
 
