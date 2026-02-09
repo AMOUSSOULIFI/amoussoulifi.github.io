@@ -168,10 +168,14 @@
 
 <!-- ================= SCRIPTS ================= -->
 <script>
-function login() {
-    const user = document.getElementById("username").value;
-    const pass = document.getElementById("password").value;
+function login(event) {
+    // Empêche le rechargement de la page si le bouton est dans un <form>
+    if (event) event.preventDefault();
 
+    const user = document.getElementById("username").value.trim();
+    const pass = document.getElementById("password").value.trim();
+
+    // 🔐 Identifiants
     if (user === "enock" && pass === "enock2000") {
 
         const expiration = Date.now() + (30 * 60 * 1000); // 30 minutes
@@ -182,14 +186,18 @@ function login() {
             expiresAt: expiration
         }));
 
+        // 🔁 Redirection après connexion
         window.location.href = "aps.html";
+
     } else {
-        alert("Identifiants incorrects");
+        alert("Identifiant ou mot de passe incorrect");
     }
 }
 </script>
 
 
+
 </body>
 </html>
+
 
