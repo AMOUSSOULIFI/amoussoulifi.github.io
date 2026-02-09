@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
+    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
+    "date": "2026-02-08",
+    "month": "2026-02"
+  },
+  {
     "source": "Microsoft Security",
     "title": "Analysis of active exploitation of SolarWinds Web Help Desk",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/",
@@ -682,13 +689,6 @@
     "source": "The Hacker News",
     "title": "3 Decisions CISOs Need to Make to Prevent Downtime Risk in 2026",
     "link": "https://thehackernews.com/2026/01/3-decisions-cisos-need-to-make-to.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SolarWinds Fixes Four Critical Web Help Desk Flaws With Unauthenticated RCE and Auth Bypass",
-    "link": "https://thehackernews.com/2026/01/solarwinds-fixes-four-critical-web-help.html",
     "date": "2026-01-29",
     "month": "2026-01"
   },
