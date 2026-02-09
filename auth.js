@@ -1,7 +1,21 @@
 (function () {
-    const session = JSON.parse(localStorage.getItem("sessionData"));
+    const sessionStr = localStorage.getItem("sessionData");
+    if (!sessionStr) {
+        window.location.href = "index.html";
+        return;
+    }
 
-    if (!session || !session.isLoggedIn) {
+    let session;
+    try {
+        session = JSON.parse(sessionStr);
+    } catch (e) {
+        // Données corrompues → déconnexion
+        localStorage.removeItem("sessionData");
+        window.location.href = "index.html";
+        return;
+    }
+
+    if (!session.isLoggedIn) {
         window.location.href = "index.html";
         return;
     }
@@ -13,4 +27,3 @@
         window.location.href = "index.html";
     }
 })();
-
