@@ -168,49 +168,28 @@
 
 <!-- ================= SCRIPTS ================= -->
 <script>
-    const LOGIN_USER = "admin";
-    const LOGIN_PASS = "bts2025";
+function login() {
+    const user = document.getElementById("username").value;
+    const pass = document.getElementById("password").value;
 
-    function doLogin() {
-        const user = document.getElementById("login").value;
-        const pass = document.getElementById("password").value;
+    if (user === "enock" && pass === "enock2000") {
 
-        if (user === LOGIN_USER && pass === LOGIN_PASS) {
-            localStorage.setItem("sessionData", JSON.stringify({ isLoggedIn: true }));
-            document.getElementById("login-overlay").style.display = "none";
-            showProtected();
-        } else {
-            document.getElementById("login-error").innerText = "Identifiants incorrects";
-        }
+        const expiration = Date.now() + (30 * 60 * 1000); // 30 minutes
+
+        localStorage.setItem("sessionData", JSON.stringify({
+            isLoggedIn: true,
+            user: user,
+            expiresAt: expiration
+        }));
+
+        window.location.href = "aps.html";
+    } else {
+        alert("Identifiants incorrects");
     }
-
-    function logout() {
-        localStorage.removeItem("sessionData");
-        location.reload();
-    }
-
-    function showProtected() {
-        document.querySelectorAll(".protected").forEach(el => {
-            el.style.display = "block";
-        });
-    }
-
-    function hideProtected() {
-        document.querySelectorAll(".protected").forEach(el => {
-            el.style.display = "none";
-        });
-    }
-
-    document.addEventListener("DOMContentLoaded", () => {
-        const session = JSON.parse(localStorage.getItem("sessionData"));
-        if (session && session.isLoggedIn) {
-            document.getElementById("login-overlay").style.display = "none";
-            showProtected();
-        } else {
-            hideProtected();
-        }
-    });
+}
 </script>
+
 
 </body>
 </html>
+
