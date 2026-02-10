@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
+    "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-006 (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-006/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans VMware Tanzu Greenplum (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0132/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans GitLab AI Gateway (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0135/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Fortinet FortiClientEMS (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0136/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (09 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0134/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "A one-prompt attack that breaks LLM safety alignment",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
+    "link": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
+    "link": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring",
+    "link": "https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bloody Wolf Targets Uzbekistan, Russia Using NetSupport RAT in Spear-Phishing Campaign",
+    "link": "https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
+    "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
+    "date": "2026-02-09",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
     "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
     "date": "2026-02-08",
@@ -602,48 +707,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Badges, Bytes and Blackmail",
-    "link": "https://thehackernews.com/2026/01/badges-bytes-and-blackmail.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ex-Google Engineer Convicted for Stealing AI Secrets for China Startup",
-    "link": "https://thehackernews.com/2026/01/ex-google-engineer-convicted-for.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SmarterMail Fixes Critical Unauthenticated RCE Flaw with CVSS 9.3 Score",
-    "link": "https://thehackernews.com/2026/01/smartermail-fixes-critical.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Ivanti EPMM Zero-Day RCE Flaws Actively Exploited, Security Updates Released",
-    "link": "https://thehackernews.com/2026/01/two-ivanti-epmm-zero-day-rce-flaws.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits WithSecure (29 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0100/",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Siemens (29 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0101/",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Moltworker: a self-hosted personal AI agent, minus the minis",
     "link": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
@@ -665,34 +728,6 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Find 175,000 Publicly Exposed Ollama AI Servers Across 130 Countries",
-    "link": "https://thehackernews.com/2026/01/researchers-find-175000-publicly.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: New RCEs, Darknet Busts, Kernel Bugs & 25+ More Stories",
-    "link": "https://thehackernews.com/2026/01/threatsday-bulletin-new-rces-darknet.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Survey of 100+ Energy Systems Reveals Critical OT Cybersecurity Gaps",
-    "link": "https://thehackernews.com/2026/01/survey-of-100-energy-systems-reveals.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3 Decisions CISOs Need to Make to Prevent Downtime Risk in 2026",
-    "link": "https://thehackernews.com/2026/01/3-decisions-cisos-need-to-make-to.html",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SolarWinds Web Help Desk (28 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0099/",
@@ -700,37 +735,9 @@
     "month": "2026-01"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Fortinet (28 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0097/",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans OpenSSL (28 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0096/",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Symfony (28 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0098/",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
     "source": "Cloudflare",
     "title": "Building a serverless, post-quantum Matrix homeserver",
     "link": "https://blog.cloudflare.com/serverless-matrix-homeserver-workers/",
-    "date": "2026-01-27",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft announces the 2026 Security Excellence Awards winners",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/27/microsoft-announces-the-2026-security-excellence-awards-winners/",
     "date": "2026-01-27",
     "month": "2026-01"
   },
@@ -831,12 +838,5 @@
     "link": "https://blog.cloudflare.com/radar-2025-year-in-review-internet-services/",
     "date": "2025-12-15",
     "month": "2025-12"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mitel (24 juillet 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-0618/",
-    "date": "2025-07-24",
-    "month": "2025-07"
   }
 ]
