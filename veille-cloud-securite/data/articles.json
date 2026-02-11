@@ -1,8 +1,106 @@
 [
   {
     "source": "The Hacker News",
+    "title": "North Korea-Linked UNC1069 Uses AI Lures to Attack Cryptocurrency Organizations",
+    "link": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Axis (10 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0140/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Siemens (10 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0139/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Schneider Electric (10 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0138/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (10 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0141/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GnuTLS (10 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0137/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "80% of Fortune 500 use active AI Agents: Observability, governance, and security shape the new frontier",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Manipulating AI memory for profit: The rise of AI Recommendation Poisoning",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DPRK Operatives Impersonate Professionals on LinkedIn to Infiltrate Companies",
+    "link": "https://thehackernews.com/2026/02/dprk-operatives-impersonate.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools",
+    "link": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "From Ransomware to Residency: Inside the Rise of the Digital Parasite",
+    "link": "https://thehackernews.com/2026/02/from-ransomware-to-residency-inside.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
     "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ZAST.AI Raises $6M Pre-A to Scale \"Zero False Positive\" AI-Powered Code Security",
+    "link": "https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
+    "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+    "date": "2026-02-10",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
+    "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
     "date": "2026-02-10",
     "month": "2026-02"
   },
@@ -567,41 +665,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "eScan Antivirus Update Servers Compromised to Deliver Multi-Stage Malware",
-    "link": "https://thehackernews.com/2026/02/escan-antivirus-update-servers.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Open VSX Supply Chain Attack Used Compromised Dev Account to Spread GlassWorm",
-    "link": "https://thehackernews.com/2026/02/open-vsx-supply-chain-attack-used.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iran-Linked RedKitten Cyber Campaign Targets Human Rights NGOs and Activists",
-    "link": "https://thehackernews.com/2026/01/iran-linked-redkitten-cyber-campaign.html",
-    "date": "2026-01-31",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mandiant Finds ShinyHunters-Style Vishing Attacks Stealing MFA to Breach SaaS Platforms",
-    "link": "https://thehackernews.com/2026/01/mandiant-finds-shinyhunters-using.html",
-    "date": "2026-01-31",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CERT Polska Details Coordinated Cyber Attacks on 30+ Wind and Solar Farms",
-    "link": "https://thehackernews.com/2026/01/poland-attributes-december-cyber.html",
-    "date": "2026-01-31",
-    "month": "2026-01"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0108/",
@@ -624,36 +687,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Qnap QTS (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0104/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0105/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Splunk Enterprise (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0102/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (30 janvier 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0109/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Node.js (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0103/",
     "date": "2026-01-30",
     "month": "2026-01"
   },
@@ -693,45 +728,10 @@
     "month": "2026-01"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Uncover Chrome Extensions Abusing Affiliate Links and Stealing ChatGPT Access",
-    "link": "https://thehackernews.com/2026/01/researchers-uncover-chrome-extensions.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked UAT-8099 Targets IIS Servers in Asia with BadIIS SEO Malware",
-    "link": "https://thehackernews.com/2026/01/china-linked-uat-8099-targets-iis.html",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Moltworker: a self-hosted personal AI agent, minus the minis",
     "link": "https://blog.cloudflare.com/moltworker-self-hosted-ai-agent/",
     "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Turning threat reports into detection insights with AI",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/29/turning-threat-reports-detection-insights-ai/",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "New Microsoft Data Security Index report explores secure AI adoption to protect sensitive data",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/29/new-microsoft-data-security-index-report-explores-secure-ai-adoption-to-protect-sensitive-data/",
-    "date": "2026-01-29",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SolarWinds Web Help Desk (28 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0099/",
-    "date": "2026-01-28",
     "month": "2026-01"
   },
   {
