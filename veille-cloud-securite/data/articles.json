@@ -1,6 +1,146 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Apple Devices",
+    "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+    "date": "2026-02-12",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0142/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology Storage Manager (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0143/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0146/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0144/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0152/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Office (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0149/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0150/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Intel (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0148/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0145/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft .Net (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0151/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0147/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (11 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0153/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "The strategic SIEM buyer’s guide: Choosing an AI-ready platform for the agentic era",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
+    "link": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities",
+    "link": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms",
+    "link": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
+    "link": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
+    "link": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
+    "link": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+    "date": "2026-02-11",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "North Korea-Linked UNC1069 Uses AI Lures to Attack Cryptocurrency Organizations",
     "link": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
     "date": "2026-02-11",
@@ -428,20 +568,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "L’intelligence artificielle générative face aux attaques informatiques (04 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-001/",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Google Pixel (04 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0113/",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Moxa (04 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0116/",
     "date": "2026-02-04",
@@ -451,20 +577,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GLPI (04 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0117/",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (04 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0114/",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (04 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0115/",
     "date": "2026-02-04",
     "month": "2026-02"
   },
@@ -588,116 +700,11 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Notepad++ Hosting Breach Attributed to China-Linked Lotus Blossom Hacking Group",
-    "link": "https://thehackernews.com/2026/02/notepad-hosting-breach-attributed-to.html",
-    "date": "2026-02-03",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-005 (02 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-005/",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (02 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0112/",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans ESET Inspect Connector (02 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0111/",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Infostealers without borders: macOS, Python stealers, and platform abuse",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/02/infostealers-without-borders-macos-python-stealers-and-platform-abuse/",
     "date": "2026-02-02",
     "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Find 341 Malicious ClawHub Skills Stealing Data from OpenClaw Users",
-    "link": "https://thehackernews.com/2026/02/researchers-find-341-malicious-clawhub.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenClaw Bug Enables One-Click Remote Code Execution via Malicious Link",
-    "link": "https://thehackernews.com/2026/02/openclaw-bug-enables-one-click-remote.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Begins NTLM Phase-Out With Three-Stage Plan to Move Windows to Kerberos",
-    "link": "https://thehackernews.com/2026/02/microsoft-begins-ntlm-phase-out-with.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Proxy Botnet, Office Zero-Day, MongoDB Ransoms, AI Hijacks & New Threats",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-proxy-botnet-office-zero.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Securing the Mid-Market Across the Complete Threat Lifecycle",
-    "link": "https://thehackernews.com/2026/02/securing-mid-market-across-complete.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Notepad++ Official Update Mechanism Hijacked to Deliver Malware to Select Users",
-    "link": "https://thehackernews.com/2026/02/notepad-official-update-mechanism.html",
-    "date": "2026-02-02",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0108/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0107/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités Ivanti Endpoint Manager Mobile (EPMM) (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0110/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0109/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0106/",
-    "date": "2026-01-30",
-    "month": "2026-01"
   },
   {
     "source": "ANSSI",
@@ -717,13 +724,6 @@
     "source": "Cloudflare",
     "title": "Building vertical microfrontends on Cloudflare’s platform",
     "link": "https://blog.cloudflare.com/vertical-microfrontends/",
-    "date": "2026-01-30",
-    "month": "2026-01"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Case study: Securing AI application supply chains",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/01/30/case-study-securing-ai-application-supply-chains/",
     "date": "2026-01-30",
     "month": "2026-01"
   },
