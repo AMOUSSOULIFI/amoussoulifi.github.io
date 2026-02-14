@@ -1,6 +1,132 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0169/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0170/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Tenable Nessus Agent (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0161/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0168/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0167/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0165/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Juniper Networks Secure Analytics (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0162/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PostgreSQL (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0164/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0171/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HAProxy (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0163/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (13 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0166/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Shedding old code with ecdysis: graceful restarts for Rust services at Cloudflare",
+    "link": "https://blog.cloudflare.com/ecdysis-rust-graceful-restarts/",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
+    "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
+    "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
+    "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
+    "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
+    "link": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
+    "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
+    "date": "2026-02-13",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SPIP (12 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0155/",
     "date": "2026-02-12",
@@ -351,20 +477,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-006 (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-006/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans VMware Tanzu Greenplum (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0132/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
     "date": "2026-02-09",
@@ -381,13 +493,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans Fortinet FortiClientEMS (09 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0136/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0134/",
     "date": "2026-02-09",
     "month": "2026-02"
   },
@@ -466,62 +571,6 @@
     "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
     "link": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
     "date": "2026-02-07",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0130/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans NetApp ONTAP 9 (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0127/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans ESET Management Agent (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0126/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0129/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0128/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0124/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Moxa (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0125/",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (06 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0131/",
-    "date": "2026-02-06",
     "month": "2026-02"
   },
   {
@@ -658,51 +707,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Orchid Security Introduces Continuous Identity Observability for Enterprise Applications",
-    "link": "https://thehackernews.com/2026/02/orchid-security-introduces-continuous.html",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The First 90 Seconds: How Early Decisions Shape Incident Response Investigations",
-    "link": "https://thehackernews.com/2026/02/the-first-90-seconds-how-early.html",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns Python Infostealers Target macOS via Fake Ads and Installers",
-    "link": "https://thehackernews.com/2026/02/microsoft-warns-python-infostealers.html",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Eclipse Foundation Mandates Pre-Publish Security Checks for Open VSX Extensions",
-    "link": "https://thehackernews.com/2026/02/eclipse-foundation-mandates-pre-publish.html",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited SolarWinds Web Help Desk RCE to KEV Catalog",
-    "link": "https://thehackernews.com/2026/02/cisa-adds-actively-exploited-solarwinds.html",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
     "source": "Cloudflare",
     "title": "Improve global upload performance with R2 Local Uploads",
     "link": "https://blog.cloudflare.com/r2-local-uploads/",
-    "date": "2026-02-03",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Docker Fixes Critical Ask Gordon AI Flaw Allowing Code Execution via Image Metadata",
-    "link": "https://thehackernews.com/2026/02/docker-fixes-critical-ask-gordon-ai.html",
     "date": "2026-02-03",
     "month": "2026-02"
   },
@@ -823,13 +830,6 @@
     "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
     "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
     "date": "2025-12-18",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The 2025 Cloudflare Radar Year in Review: The rise of AI, post-quantum, and record-breaking DDoS attacks",
-    "link": "https://blog.cloudflare.com/radar-2025-year-in-review/",
-    "date": "2025-12-15",
     "month": "2025-12"
   },
   {
