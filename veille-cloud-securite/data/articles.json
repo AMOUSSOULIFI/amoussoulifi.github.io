@@ -1,6 +1,69 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta",
+    "link": "https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-007 (16 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-007/",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Google Chrome (16 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0172/",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Infostealer Steals OpenClaw AI Agent Configuration Files and Gateway Tokens",
+    "link": "https://thehackernews.com/2026/02/infostealer-steals-openclaw-ai-agent.html",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Study Uncovers 25 Password Recovery Attacks in Major Cloud Password Managers",
+    "link": "https://thehackernews.com/2026/02/study-uncovers-25-password-recovery.html",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Weekly Recap: Outlook Add-Ins Hijack, 0-Day Patches, Wormable Botnet & AI Malware",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-outlook-add-ins-hijack-0.html",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Safe and Inclusive E‑Society: How Lithuania Is Bracing for AI‑Driven Cyber Fraud",
+    "link": "https://thehackernews.com/2026/02/safe-and-inclusive-esociety-how.html",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
+    "link": "https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
     "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
     "date": "2026-02-16",
@@ -490,27 +553,6 @@
     "month": "2026-02"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans GitLab AI Gateway (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0135/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Fortinet FortiClientEMS (09 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0136/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "A one-prompt attack that breaks LLM safety alignment",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/",
@@ -658,51 +700,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Codespaces RCE, AsyncRAT C2, BYOVD Abuse, AI Cloud Intrusions & 15+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-codespaces-rce.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Buyer’s Guide to AI Usage Control",
-    "link": "https://thehackernews.com/2026/02/the-buyers-guide-to-ai-usage-control.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Infy Hackers Resume Operations with New C2 Servers After Iran Internet Blackout Ends",
-    "link": "https://thehackernews.com/2026/02/infy-hackers-resume-operations-with-new.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical n8n Flaw CVE-2026-25049 Enables System Command Execution via Malicious Workflows",
-    "link": "https://thehackernews.com/2026/02/critical-n8n-flaw-cve-2026-25049.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious NGINX Configurations Enable Large-Scale Web Traffic Hijacking Campaign",
-    "link": "https://thehackernews.com/2026/02/hackers-exploit-react2shell-to-hijack.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Detecting backdoored language models at scale",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/",
-    "date": "2026-02-04",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Develops Scanner to Detect Backdoors in Open-Weight Large Language Models",
-    "link": "https://thehackernews.com/2026/02/microsoft-develops-scanner-to-detect.html",
     "date": "2026-02-04",
     "month": "2026-02"
   },
@@ -712,13 +712,6 @@
     "link": "https://blog.cloudflare.com/r2-local-uploads/",
     "date": "2026-02-03",
     "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-001/",
-    "date": "2026-01-30",
-    "month": "2026-01"
   },
   {
     "source": "Cloudflare",
@@ -767,6 +760,13 @@
     "title": "How we mitigated a vulnerability in Cloudflare’s ACME validation logic",
     "link": "https://blog.cloudflare.com/acme-path-vulnerability/",
     "date": "2026-01-19",
+    "month": "2026-01"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
+    "date": "2026-01-16",
     "month": "2026-01"
   },
   {
