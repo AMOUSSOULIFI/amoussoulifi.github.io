@@ -1,6 +1,90 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
+    "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (17 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (17 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0174/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (17 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0177/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (17 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0175/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Unify now or pay later: New research exposes the operational cost of a fragmented SOC",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/17/unify-now-or-pay-later-new-research-exposes-the-operational-cost-of-a-fragmented-soc/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
+    "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies",
+    "link": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Keenadu Firmware Backdoor Infects Android Tablets via Signed OTA Updates",
+    "link": "https://thehackernews.com/2026/02/keenadu-firmware-backdoor-infects.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SmartLoader Attack Uses Trojanized Oura MCP Server to Deploy StealC Infostealer",
+    "link": "https://thehackernews.com/2026/02/smartloader-attack-uses-trojanized-oura.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "My Day Getting My Hands Dirty with an NDR System",
+    "link": "https://thehackernews.com/2026/02/my-day-getting-my-hands-dirty-with-ndr.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Finds “Summarize with AI” Prompts Manipulating Chatbot Recommendations",
+    "link": "https://thehackernews.com/2026/02/microsoft-finds-summarize-with-ai.html",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Apple Tests End-to-End Encrypted RCS Messaging in iOS 26.4 Developer Beta",
     "link": "https://thehackernews.com/2026/02/apple-tests-end-to-end-encrypted-rcs.html",
     "date": "2026-02-17",
@@ -260,7 +344,7 @@
   },
   {
     "source": "Microsoft Security",
-    "title": "Copilot Studio agent security: Top 10 risks you can detect and prevent",
+    "title": "Top 10 actions to build agents securely with Microsoft Copilot Studio",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/",
     "date": "2026-02-12",
     "month": "2026-02"
@@ -455,41 +539,6 @@
     "month": "2026-02"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Axis (10 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0140/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Siemens (10 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0139/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Schneider Electric (10 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0138/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SAP (10 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0141/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GnuTLS (10 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0137/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "80% of Fortune 500 use active AI Agents: Observability, governance, and security shape the new frontier",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/",
@@ -630,48 +679,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Linked DKnife AitM Framework Targets Routers for Traffic Hijacking, Malware Delivery",
-    "link": "https://thehackernews.com/2026/02/china-linked-dknife-aitm-framework.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Orders Removal of Unsupported Edge Devices to Reduce Federal Network Risk",
-    "link": "https://thehackernews.com/2026/02/cisa-orders-removal-of-unsupported-edge.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Asian State-Backed Group TGR-STA-1030 Breaches 70 Government, Infrastructure Entities",
-    "link": "https://thehackernews.com/2026/02/asian-state-backed-group-tgr-sta-1030.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How Samsung Knox Helps Stop Your Network Security Breach",
-    "link": "https://thehackernews.com/2026/02/how-samsung-knox-helps-stop-your-network-security-breach.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Compromised dYdX npm and PyPI Packages Deliver Wallet Stealers and RAT Malware",
-    "link": "https://thehackernews.com/2026/02/compromised-dydx-npm-and-pypi-packages.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Opus 4.6 Finds 500+ High-Severity Flaws Across Major Open-Source Libraries",
-    "link": "https://thehackernews.com/2026/02/claude-opus-46-finds-500-high-severity.html",
-    "date": "2026-02-06",
-    "month": "2026-02"
-  },
-  {
     "source": "Cloudflare",
     "title": "2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q4/",
@@ -690,20 +697,6 @@
     "title": "The security implementation gap: Why Microsoft is supporting Operation Winter SHIELD",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/",
     "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AISURU/Kimwolf Botnet Launches Record-Setting 31.4 Tbps DDoS Attack",
-    "link": "https://thehackernews.com/2026/02/aisurukimwolf-botnet-launches-record.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Detecting backdoored language models at scale",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/04/detecting-backdoored-language-models-at-scale/",
-    "date": "2026-02-04",
     "month": "2026-02"
   },
   {
