@@ -1,5 +1,110 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Atlassian Confluence (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0182/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Security Center (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0178/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0179/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0184/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apache Tomcat (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0181/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Windows (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0185/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans NetApp StorageGRID (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0180/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans HPE Aruba Networking ClearPass Policy Manager (18 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0183/",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
+    "link": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
+    "link": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
+    "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
+    "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
+    "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "3 Ways to Start Your Intelligent Workflow Program",
+    "link": "https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
+    "link": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
+    "date": "2026-02-18",
+    "month": "2026-02"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
     "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
@@ -400,27 +505,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MongoDB (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0142/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synology Storage Manager (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0143/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0146/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager (11 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0144/",
     "date": "2026-02-11",
@@ -435,43 +519,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Office (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0149/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0150/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Intel (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0148/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0145/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft .Net (11 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0151/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0147/",
     "date": "2026-02-11",
     "month": "2026-02"
   },
@@ -623,58 +672,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI Skill Malware, 31Tbps DDoS, Notepad++ Hack, LLM Backdoors and More",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-ai-skill-malware-31tbps.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How Top CISOs Solve Burnout and Speed up MTTR without Extra Hiring",
-    "link": "https://thehackernews.com/2026/02/how-top-cisos-solve-burnout-and-speed.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bloody Wolf Targets Uzbekistan, Russia Using NetSupport RAT in Spear-Phishing Campaign",
-    "link": "https://thehackernews.com/2026/02/bloody-wolf-targets-uzbekistan-russia.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TeamPCP Worm Exploits Cloud Infrastructure to Build Criminal Infrastructure",
-    "link": "https://thehackernews.com/2026/02/teampcp-worm-exploits-cloud.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BeyondTrust Fixes Critical Pre-Auth RCE Vulnerability in Remote Support and PRA",
-    "link": "https://thehackernews.com/2026/02/beyondtrust-fixes-critical-pre-auth-rce.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenClaw Integrates VirusTotal Scanning to Detect Malicious ClawHub Skills",
-    "link": "https://thehackernews.com/2026/02/openclaw-integrates-virustotal-scanning.html",
-    "date": "2026-02-08",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Analysis of active exploitation of SolarWinds Web Help Desk",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/",
-    "date": "2026-02-07",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "German Agencies Warn of Signal Phishing Targeting Politicians, Military, Journalists",
-    "link": "https://thehackernews.com/2026/02/german-agencies-warn-of-signal-phishing.html",
     "date": "2026-02-07",
     "month": "2026-02"
   },
