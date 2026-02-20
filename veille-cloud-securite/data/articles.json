@@ -1,5 +1,110 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+    "link": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (19 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0186/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (19 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0190/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans F5 BIG-IP (19 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0189/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Security Center (19 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0187/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Splunk (19 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0188/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "New e-book: Establishing a proactive defense with Microsoft Security Exposure Management",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/19/new-e-book-establishing-a-proactive-defense-with-microsoft-security-exposure-management/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Running OpenClaw safely: identity, isolation, and runtime risk",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely-identity-isolation-runtime-risk/",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PromptSpy Android Malware Abuses Gemini AI to Automate Recent-Apps Persistence",
+    "link": "https://thehackernews.com/2026/02/promptspy-android-malware-abuses-google.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
+    "link": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
+    "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
+    "link": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake IPTV Apps Spread Massiv Android Malware Targeting Mobile Banking Users",
+    "link": "https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware",
+    "link": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
+    "date": "2026-02-19",
+    "month": "2026-02"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Atlassian Confluence (18 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0182/",
@@ -414,13 +519,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0154/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Keycloak (12 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0159/",
     "date": "2026-02-12",
@@ -511,27 +609,6 @@
     "month": "2026-02"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0152/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft .Net (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0151/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (11 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0153/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "The strategic SIEM buyer’s guide: Choosing an AI-ready platform for the agentic era",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/",
@@ -609,65 +686,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Reynolds Ransomware Embeds BYOVD Driver to Disable EDR Security Tools",
-    "link": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "From Ransomware to Residency: Inside the Rise of the Digital Parasite",
-    "link": "https://thehackernews.com/2026/02/from-ransomware-to-residency-inside.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fortinet Patches Critical SQLi Flaw Enabling Unauthenticated Code Execution",
-    "link": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ZAST.AI Raises $6M Pre-A to Scale \"Zero False Positive\" AI-Powered Code Security",
-    "link": "https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Warlock Ransomware Breaches SmarterTools Through Unpatched SmarterMail Server",
-    "link": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Dutch Authorities Confirm Ivanti Zero-Day Exploit Exposed Employee Contact Data",
-    "link": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "A one-prompt attack that breaks LLM safety alignment",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked UNC3886 Targets Singapore Telecom Sector in Cyber Espionage Campaign",
-    "link": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SolarWinds Web Help Desk Exploited for RCE in Multi-Stage Attacks on Exposed Servers",
-    "link": "https://thehackernews.com/2026/02/solarwinds-web-help-desk-exploited-for.html",
     "date": "2026-02-09",
     "month": "2026-02"
   },
@@ -682,20 +703,6 @@
     "source": "Cloudflare",
     "title": "2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q4/",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "New Clickfix variant ‘CrashFix’ deploying Python Remote Access Trojan",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/05/clickfix-variant-crashfix-deploying-python-rat-trojan/",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "The security implementation gap: Why Microsoft is supporting Operation Winter SHIELD",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/05/the-security-implementation-gap-why-microsoft-is-supporting-operation-winter-shield/",
     "date": "2026-02-05",
     "month": "2026-02"
   },
@@ -823,13 +830,6 @@
     "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
     "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
     "date": "2025-12-18",
-    "month": "2025-12"
-  },
-  {
-    "source": "ANSSI",
-    "title": "[MàJ] Vulnérabilité dans React Server Components (05 décembre 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2025-ALE-014/",
-    "date": "2025-12-05",
     "month": "2025-12"
   }
 ]
