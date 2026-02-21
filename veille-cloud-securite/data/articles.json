@@ -1,7 +1,98 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0196/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0191/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0193/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0194/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0192/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0195/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Code Mode: give agents an entire API in 1,000 tokens",
+    "link": "https://blog.cloudflare.com/code-mode-mcp/",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
     "source": "The Hacker News",
-    "title": "Three Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
+    "title": "BeyondTrust Flaw Used for Web Shells, Backdoors, and Data Exfiltration",
+    "link": "https://thehackernews.com/2026/02/beyondtrust-flaw-used-for-web-shells.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cline CLI 2.3.0 Supply Chain Attack Installed OpenClaw on Developer Systems",
+    "link": "https://thehackernews.com/2026/02/cline-cli-230-supply-chain-attack.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ClickFix Campaign Abuses Compromised Sites to Deploy MIMICRAT Malware",
+    "link": "https://thehackernews.com/2026/02/clickfix-campaign-abuses-compromised.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Identity Cyber Scores: The New Metric Shaping Cyber Insurance in 2026",
+    "link": "https://thehackernews.com/2026/02/identity-cyber-scores-new-metric.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ukrainian National Sentenced to 5 Years in North Korea IT Worker Fraud Case",
+    "link": "https://thehackernews.com/2026/02/ukrainian-national-sentenced-to-5-years.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Reports 1,900 ATM Jackpotting Incidents Since 2020, $20M Lost in 2025",
+    "link": "https://thehackernews.com/2026/02/fbi-reports-1900-atm-jackpotting.html",
+    "date": "2026-02-20",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Former Google Engineers Indicted Over Trade Secret Transfers to Iran",
     "link": "https://thehackernews.com/2026/02/three-former-google-engineers-indicted.html",
     "date": "2026-02-20",
     "month": "2026-02"
@@ -497,48 +588,6 @@
     "month": "2026-02"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0155/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0160/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Qnap (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0157/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Keycloak (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0159/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0156/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (12 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0158/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Markdown for Agents",
     "link": "https://blog.cloudflare.com/markdown-for-agents/",
@@ -630,41 +679,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Over 60 Software Vendors Issue Security Fixes Across OS, Cloud, and Network Platforms",
-    "link": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Exposed Training Open the Door for Crypto-Mining in Fortune 500 Cloud Environments",
-    "link": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches 59 Vulnerabilities Including Six Actively Exploited Zero-Days",
-    "link": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SSHStalker Botnet Uses IRC C2 to Control Linux Systems via Legacy Kernel Exploits",
-    "link": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korea-Linked UNC1069 Uses AI Lures to Attack Cryptocurrency Organizations",
-    "link": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "80% of Fortune 500 use active AI Agents: Observability, governance, and security shape the new frontier",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/",
@@ -675,13 +689,6 @@
     "source": "Microsoft Security",
     "title": "Manipulating AI memory for profit: The rise of AI Recommendation Poisoning",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DPRK Operatives Impersonate Professionals on LinkedIn to Infiltrate Companies",
-    "link": "https://thehackernews.com/2026/02/dprk-operatives-impersonate.html",
     "date": "2026-02-10",
     "month": "2026-02"
   },
@@ -823,13 +830,6 @@
     "title": "Innovating to address streaming abuse — and our latest transparency report",
     "link": "https://blog.cloudflare.com/h1-2025-transparency-report/",
     "date": "2025-12-19",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing support for GROUP BY, SUM, and other aggregation queries in R2 SQL",
-    "link": "https://blog.cloudflare.com/r2-sql-aggregations/",
-    "date": "2025-12-18",
     "month": "2025-12"
   }
 ]
