@@ -1,5 +1,40 @@
 [
   {
+    "source": "Cloudflare",
+    "title": "Cloudflare outage on February 20, 2026",
+    "link": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
+    "date": "2026-02-21",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Assisted Threat Actor Compromises 600+ FortiGate Devices in 55 Countries",
+    "link": "https://thehackernews.com/2026/02/ai-assisted-threat-actor-compromises.html",
+    "date": "2026-02-21",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Launches Claude Code Security for AI-Powered Vulnerability Scanning",
+    "link": "https://thehackernews.com/2026/02/anthropic-launches-claude-code-security.html",
+    "date": "2026-02-21",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Two Actively Exploited Roundcube Flaws to KEV Catalog",
+    "link": "https://thehackernews.com/2026/02/cisa-adds-two-actively-exploited.html",
+    "date": "2026-02-21",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "EC-Council Expands AI Certification Portfolio to Strengthen U.S. AI Workforce Readiness and Security",
+    "link": "https://thehackernews.com/2026/02/ec-council-expands-ai-certification.html",
+    "date": "2026-02-21",
+    "month": "2026-02"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (20 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0196/",
@@ -637,20 +672,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "83% of Ivanti EPMM Exploits Linked to Single IP on Bulletproof Hosting Infrastructure",
-    "link": "https://thehackernews.com/2026/02/83-of-ivanti-epmm-exploits-linked-to.html",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Fixes Exploited Zero-Day Affecting iOS, macOS, and Other Devices",
-    "link": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager (11 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0144/",
@@ -661,20 +682,6 @@
     "source": "Microsoft Security",
     "title": "The strategic SIEM buyer’s guide: Choosing an AI-ready platform for the agentic era",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/11/the-strategic-siem-buyers-guide-choosing-an-ai-ready-platform-for-the-agentic-era/",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "First Malicious Outlook Add-In Found Stealing 4,000+ Microsoft Credentials",
-    "link": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
-    "date": "2026-02-11",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT36 and SideCopy Launch Cross-Platform RAT Campaigns Against Indian Entities",
-    "link": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
     "date": "2026-02-11",
     "month": "2026-02"
   },
@@ -822,13 +829,6 @@
     "source": "Cloudflare",
     "title": "Code Orange: Fail Small — our resilience plan following recent incidents",
     "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
-    "date": "2025-12-19",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Innovating to address streaming abuse — and our latest transparency report",
-    "link": "https://blog.cloudflare.com/h1-2025-transparency-report/",
     "date": "2025-12-19",
     "month": "2025-12"
   }
