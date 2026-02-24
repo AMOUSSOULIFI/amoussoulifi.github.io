@@ -1,5 +1,75 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
+    "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-008 (23 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-008/",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (23 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0197/",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare One is the first SASE offering modern post-quantum encryption across the full platform",
+    "link": "https://blog.cloudflare.com/post-quantum-sase/",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT28 Targeted European Entities Using Webhook-Based Macro Malware",
+    "link": "https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
+    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More",
+    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Exposed Endpoints Increase Risk Across LLM Infrastructure",
+    "link": "https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious npm Packages Harvest Crypto Keys, CI Secrets, and API Tokens",
+    "link": "https://thehackernews.com/2026/02/malicious-npm-packages-harvest-crypto.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MuddyWater Targets MENA Organizations with GhostFetch, CHAR, and HTTP_VIP",
+    "link": "https://thehackernews.com/2026/02/muddywater-targets-mena-organizations.html",
+    "date": "2026-02-23",
+    "month": "2026-02"
+  },
+  {
     "source": "Cloudflare",
     "title": "Cloudflare outage on February 20, 2026",
     "link": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
@@ -512,13 +582,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Tenable Nessus Agent (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0161/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (13 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0168/",
     "date": "2026-02-13",
@@ -535,13 +598,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans Mattermost Server (13 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0165/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Juniper Networks Secure Analytics (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0162/",
     "date": "2026-02-13",
     "month": "2026-02"
   },
@@ -602,27 +658,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Malicious Chrome Extensions Caught Stealing Business Data, Emails, and Browsing History",
-    "link": "https://thehackernews.com/2026/02/malicious-chrome-extensions-caught.html",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "npm’s Update to Harden Their Supply Chain, and Points to Consider",
-    "link": "https://thehackernews.com/2026/02/npms-update-to-harden-their-supply.html",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Observe In-the-Wild Exploitation of BeyondTrust CVSS 9.9 Vulnerability",
-    "link": "https://thehackernews.com/2026/02/researchers-observe-in-wild.html",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Markdown for Agents",
     "link": "https://blog.cloudflare.com/markdown-for-agents/",
@@ -640,34 +675,6 @@
     "source": "Microsoft Security",
     "title": "Your complete guide to Microsoft experiences at RSAC™ 2026 Conference",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Reports State-Backed Hackers Using Gemini AI for Recon and Attack Support",
-    "link": "https://thehackernews.com/2026/02/google-reports-state-backed-hackers.html",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lazarus Campaign Plants Malicious Packages in npm and PyPI Ecosystems",
-    "link": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: AI Prompt RCE, Claude 0-Click, RenEngine Loader, Auto 0-Days & 25+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-ai-prompt-rce.html",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The CTEM Divide: Why 84% of Security Programs Are Falling Behind",
-    "link": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
     "date": "2026-02-12",
     "month": "2026-02"
   },
@@ -823,13 +830,6 @@
     "title": "How Workers powers our internal maintenance scheduling pipeline",
     "link": "https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/",
     "date": "2025-12-22",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Code Orange: Fail Small — our resilience plan following recent incidents",
-    "link": "https://blog.cloudflare.com/fail-small-resilience-plan/",
-    "date": "2025-12-19",
     "month": "2025-12"
   }
 ]
