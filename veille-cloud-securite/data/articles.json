@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Confirms Active Exploitation of FileZen CVE-2026-25108 Vulnerability",
+    "link": "https://thehackernews.com/2026/02/cisa-confirms-active-exploitation-of.html",
+    "date": "2026-02-25",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0199/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0202/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Centreon open tickets (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0200/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0201/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure Linux (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0203/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (24 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0198/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we rebuilt Next.js with AI in one week",
+    "link": "https://blog.cloudflare.com/vinext/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Developer-targeting campaign using malicious Next.js repositories",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/24/c2-developer-targeting-campaign/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Scaling security operations with Microsoft Defender autonomous defense and expert-led services",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/24/scaling-security-operations-with-microsoft-defender-autonomous-defense-and-expert-led-services/",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RoguePilot Flaw in GitHub Codespaces Enabled Copilot to Leak GITHUB_TOKEN",
+    "link": "https://thehackernews.com/2026/02/roguepilot-flaw-in-github-codespaces.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAC-0050 Targets European Financial Institution With Spoofed Domain and RMS Malware",
+    "link": "https://thehackernews.com/2026/02/uac-0050-targets-european-financial.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Identity Prioritization isn't a Backlog Problem - It's a Risk Math Problem",
+    "link": "https://thehackernews.com/2026/02/identity-prioritization-isnt-backlog.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Lazarus Group Uses Medusa Ransomware in Middle East and U.S. Healthcare Attacks",
+    "link": "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UnsolicitedBooker Targets Central Asian Telecoms With LuciDoor and MarsSnake Backdoors",
+    "link": "https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html",
+    "date": "2026-02-24",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
     "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
     "date": "2026-02-24",
@@ -546,27 +651,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "New ZeroDayRAT Mobile Spyware Enables Real-Time Surveillance and Data Theft",
-    "link": "https://thehackernews.com/2026/02/new-zerodayrat-mobile-spyware-enables.html",
-    "date": "2026-02-16",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Chrome Zero-Day (CVE-2026-2441) Under Active Attack — Patch Released",
-    "link": "https://thehackernews.com/2026/02/new-chrome-zero-day-cve-2026-2441-under.html",
-    "date": "2026-02-16",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Discloses DNS-Based ClickFix Attack Using Nslookup for Malware Staging",
-    "link": "https://thehackernews.com/2026/02/microsoft-discloses-dns-based-clickfix.html",
-    "date": "2026-02-15",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (13 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0169/",
@@ -582,50 +666,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0168/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0167/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Server (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0165/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PostgreSQL (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0164/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (13 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0171/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans HAProxy (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0163/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (13 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0166/",
     "date": "2026-02-13",
     "month": "2026-02"
   },
@@ -633,27 +675,6 @@
     "source": "Cloudflare",
     "title": "Shedding old code with ecdysis: graceful restarts for Rust services at Cloudflare",
     "link": "https://blog.cloudflare.com/ecdysis-rust-graceful-restarts/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Ties Suspected Russian Actor to CANFAIL Malware Attacks on Ukrainian Orgs",
-    "link": "https://thehackernews.com/2026/02/google-ties-suspected-russian-actor-to.html",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Links China, Iran, Russia, North Korea to Coordinated Defense Sector Cyber Operations",
-    "link": "https://thehackernews.com/2026/02/google-links-china-iran-russia-north.html",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-9921 Deploys VoidLink Malware to Target Technology and Financial Sectors",
-    "link": "https://thehackernews.com/2026/02/uat-9921-deploys-voidlink-malware-to.html",
     "date": "2026-02-13",
     "month": "2026-02"
   },
@@ -666,7 +687,7 @@
   },
   {
     "source": "Microsoft Security",
-    "title": "Top 10 actions to build agents securely with Microsoft Copilot Studio",
+    "title": "Detecting and mitigating common agent misconfigurations",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/",
     "date": "2026-02-12",
     "month": "2026-02"
@@ -704,20 +725,6 @@
     "title": "Manipulating AI memory for profit: The rise of AI Recommendation Poisoning",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/",
     "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "A one-prompt attack that breaks LLM safety alignment",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/09/prompt-attack-breaks-llm-safety/",
-    "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Analysis of active exploitation of SolarWinds Web Help Desk",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/06/active-exploitation-solarwinds-web-help-desk/",
-    "date": "2026-02-07",
     "month": "2026-02"
   },
   {
@@ -824,12 +831,5 @@
     "link": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
     "date": "2026-01-06",
     "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How Workers powers our internal maintenance scheduling pipeline",
-    "link": "https://blog.cloudflare.com/building-our-maintenance-scheduler-on-workers/",
-    "date": "2025-12-22",
-    "month": "2025-12"
   }
 ]
