@@ -1,5 +1,110 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0218/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Centreon (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0212/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans PostgreSQL (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0216/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0215/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0217/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0214/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0213/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Wireshark (26 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0211/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Threat modeling AI applications",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown",
+    "link": "https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAT-10027 Targets U.S. Education and Healthcare with Dohdoor Backdoor",
+    "link": "https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
+    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Expert Recommends: Prepare for PQC Right Now",
+    "link": "https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware",
+    "link": "https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious StripeApi NuGet Package Mimicked Official Library and Stole API Tokens",
+    "link": "https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html",
+    "date": "2026-02-26",
+    "month": "2026-02"
+  },
+  {
     "source": "The Hacker News",
     "title": "Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access",
     "link": "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
@@ -57,7 +162,7 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
+    "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
     "date": "2026-02-25",
     "month": "2026-02"
@@ -526,20 +631,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Atlassian Confluence (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0182/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Security Center (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0178/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SPIP (18 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0179/",
     "date": "2026-02-18",
@@ -554,29 +645,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Apache Tomcat (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0181/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Windows (18 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0185/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans NetApp StorageGRID (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0180/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans HPE Aruba Networking ClearPass Policy Manager (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0183/",
     "date": "2026-02-18",
     "month": "2026-02"
   },
@@ -609,65 +679,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Dell RecoverPoint for VMs Zero-Day CVE-2026-22769 Exploited Since Mid-2024",
-    "link": "https://thehackernews.com/2026/02/dell-recoverpoint-for-vms-zero-day-cve.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3 Ways to Start Your Intelligent Workflow Program",
-    "link": "https://thehackernews.com/2026/02/3-ways-to-start-your-intelligent.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Notepad++ Fixes Hijacked Update Mechanism Used to Deliver Targeted Malware",
-    "link": "https://thehackernews.com/2026/02/notepad-fixes-hijacked-update-mechanism.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Four Security Flaws Under Active Exploitation in Latest KEV Update",
-    "link": "https://thehackernews.com/2026/02/cisa-flags-four-security-flaws-under.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Server (17 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
-    "date": "2026-02-17",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Moodle (17 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0177/",
-    "date": "2026-02-17",
-    "month": "2026-02"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Unify now or pay later: New research exposes the operational cost of a fragmented SOC",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/17/unify-now-or-pay-later-new-research-exposes-the-operational-cost-of-a-fragmented-soc/",
-    "date": "2026-02-17",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How Modern SOC Teams Use AI and Context to Investigate Cloud Breaches Faster",
-    "link": "https://thehackernews.com/2026/02/cloud-forensics-webinar-learn-how-ai.html",
-    "date": "2026-02-17",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Show Copilot and Grok Can Be Abused as Malware C2 Proxies",
-    "link": "https://thehackernews.com/2026/02/researchers-show-copilot-and-grok-can.html",
     "date": "2026-02-17",
     "month": "2026-02"
   },
@@ -717,13 +731,6 @@
     "source": "Microsoft Security",
     "title": "80% of Fortune 500 use active AI Agents: Observability, governance, and security shape the new frontier",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/80-of-fortune-500-use-active-ai-agents-observability-governance-and-security-shape-the-new-frontier/",
-    "date": "2026-02-10",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Manipulating AI memory for profit: The rise of AI Recommendation Poisoning",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/10/ai-recommendation-poisoning/",
     "date": "2026-02-10",
     "month": "2026-02"
   },
