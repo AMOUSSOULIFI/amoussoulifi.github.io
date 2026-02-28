@@ -1,5 +1,152 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
+    "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
+    "date": "2026-02-28",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0225/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0223/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0224/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Centreon (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0221/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0226/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0222/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0227/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Stormshield Network Security (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0219/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (27 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0220/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Toxic combinations: when small signals add up to a security incident",
+    "link": "https://blog.cloudflare.com/toxic-combinations-security/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "We deserve a better streams API for JavaScript",
+    "link": "https://blog.cloudflare.com/a-better-web-streams-api/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The most-seen UI on the Internet? Redesigning Turnstile and Challenge Pages",
+    "link": "https://blog.cloudflare.com/the-most-seen-ui-on-the-internet-redesigning-turnstile-and-challenge-pages/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Bringing more transparency to post-quantum usage, encrypted messaging, and routing security",
+    "link": "https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "ASPA: making Internet routing more secure",
+    "link": "https://blog.cloudflare.com/aspa-secure-internet/",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
+    "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
+    "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
+    "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks",
+    "link": "https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms",
+    "link": "https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta Files Lawsuits Against Brazil, China, Vietnam Advertisers Over Celeb-Bait Scams",
+    "link": "https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html",
+    "date": "2026-02-27",
+    "month": "2026-02"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits VMware (26 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0218/",
@@ -442,29 +589,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (20 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0191/",
-    "date": "2026-02-20",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0193/",
-    "date": "2026-02-20",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0194/",
-    "date": "2026-02-20",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0192/",
     "date": "2026-02-20",
     "month": "2026-02"
   },
@@ -533,36 +659,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (19 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0186/",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (19 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0190/",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans F5 BIG-IP (19 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0189/",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Tenable Security Center (19 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0187/",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Splunk (19 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0188/",
     "date": "2026-02-19",
     "month": "2026-02"
   },
@@ -609,72 +707,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "From Exposure to Exploitation: How AI Collapses Your Response Window",
-    "link": "https://thehackernews.com/2026/02/from-exposure-to-exploitation-how-ai.html",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake IPTV Apps Spread Massiv Android Malware Targeting Mobile Banking Users",
-    "link": "https://thehackernews.com/2026/02/fake-iptv-apps-spread-massiv-android.html",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CRESCENTHARVEST Campaign Targets Iran Protest Supporters With RAT Malware",
-    "link": "https://thehackernews.com/2026/02/crescentharvest-campaign-targets-iran.html",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SPIP (18 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0179/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0184/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Windows (18 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0185/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Citizen Lab Finds Cellebrite Tool Used on Kenyan Activist’s Phone in Police Custody",
-    "link": "https://thehackernews.com/2026/02/citizen-lab-finds-cellebrite-tool-used.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Grandstream GXP1600 VoIP Phones Exposed to Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/02/grandstream-gxp1600-voip-phones-exposed.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Flaws Found in Four VS Code Extensions with Over 125 Million Installs",
-    "link": "https://thehackernews.com/2026/02/critical-flaws-found-in-four-vs-code.html",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cybersecurity Tech Predictions for 2026: Operating in a World of Permanent Instability",
-    "link": "https://thehackernews.com/2026/02/cybersecurity-tech-predictions-for-2026.html",
     "date": "2026-02-18",
     "month": "2026-02"
   },
@@ -795,41 +830,6 @@
     "title": "How we mitigated a vulnerability in Cloudflare’s ACME validation logic",
     "link": "https://blog.cloudflare.com/acme-path-vulnerability/",
     "date": "2026-01-19",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Astro is joining Cloudflare",
-    "link": "https://blog.cloudflare.com/astro-joins-cloudflare/",
-    "date": "2026-01-16",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Human Native is joining Cloudflare",
-    "link": "https://blog.cloudflare.com/human-native-joins-cloudflare/",
-    "date": "2026-01-15",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "What came first: the CNAME or the A record?",
-    "link": "https://blog.cloudflare.com/cname-a-record-order-dns-standards/",
-    "date": "2026-01-14",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "What we know about Iran’s Internet shutdown",
-    "link": "https://blog.cloudflare.com/iran-protests-internet-shutdown/",
-    "date": "2026-01-13",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "A closer look at a BGP anomaly in Venezuela",
-    "link": "https://blog.cloudflare.com/bgp-route-leak-venezuela/",
-    "date": "2026-01-06",
     "month": "2026-01"
   }
 ]
