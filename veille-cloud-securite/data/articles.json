@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
+    "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
+    "date": "2026-02-28",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
+    "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
+    "date": "2026-02-28",
+    "month": "2026-02"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
     "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
     "date": "2026-02-28",
@@ -689,20 +703,6 @@
     "source": "The Hacker News",
     "title": "INTERPOL Operation Red Card 2.0 Arrests 651 in African Cybercrime Crackdown",
     "link": "https://thehackernews.com/2026/02/interpol-operation-red-card-20-arrests.html",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches CVE-2026-26119 Privilege Escalation in Windows Admin Center",
-    "link": "https://thehackernews.com/2026/02/microsoft-patches-cve-2026-26119.html",
-    "date": "2026-02-19",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: OpenSSL RCE, Foxit 0-Days, Copilot Leak, AI Password Flaws & 20+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-openssl-rce-foxit-0.html",
     "date": "2026-02-19",
     "month": "2026-02"
   },
