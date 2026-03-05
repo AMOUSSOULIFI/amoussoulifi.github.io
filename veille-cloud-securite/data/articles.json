@@ -1,6 +1,118 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks",
+    "link": "https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html",
+    "date": "2026-03-05",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI and Europol Seize LeakBase Forum Used to Trade Stolen Credentials",
+    "link": "https://thehackernews.com/2026/03/fbi-and-europol-seize-leakbase-forum.html",
+    "date": "2026-03-05",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Pixel (04 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0233/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking AOS (04 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0235/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Tenable Nessus Manager (04 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0234/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
+    "link": "https://blog.cloudflare.com/attack-signature-detection/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Mind the gap: new tools for continuous enforcement from boot to login",
+    "link": "https://blog.cloudflare.com/mandatory-authentication-mfa/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Defeating the deepfake: stopping laptop farms and insider threats",
+    "link": "https://blog.cloudflare.com/deepfakes-insider-threats-identity-verification/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Moving from license plates to badges: the Gateway Authorization Proxy",
+    "link": "https://blog.cloudflare.com/gateway-authorization-proxy-identity-aware-policies/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Stop reacting to breaches and start preventing them with User Risk Scoring",
+    "link": "https://blog.cloudflare.com/adaptive-access-user-risk-scoring/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Inside Tycoon2FA: How a leading AiTM phishing kit operated at scale",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle East Conflict",
+    "link": "https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Coruna iOS Exploit Kit Uses 23 Exploits Across Five Chains Targeting iOS 13–17.2.1",
+    "link": "https://thehackernews.com/2026/03/coruna-ios-exploit-kit-uses-23-exploits.html",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New RFP Template for AI Usage Control and AI Governance",
+    "link": "https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Laravel Packages on Packagist Deploy RAT on Windows, macOS, and Linux",
+    "link": "https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
+    "link": "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
+    "date": "2026-03-04",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
     "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
     "date": "2026-03-04",
@@ -610,22 +722,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (24 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0199/",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits SonicWall (24 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0202/",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Centreon open tickets (24 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0200/",
     "date": "2026-02-24",
     "month": "2026-02"
   },
@@ -640,13 +738,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Azure Linux (24 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0203/",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (24 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0198/",
     "date": "2026-02-24",
     "month": "2026-02"
   },
@@ -693,73 +784,10 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Lazarus Group Uses Medusa Ransomware in Middle East and U.S. Healthcare Attacks",
-    "link": "https://thehackernews.com/2026/02/lazarus-group-uses-medusa-ransomware-in.html",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UnsolicitedBooker Targets Central Asian Telecoms With LuciDoor and MarsSnake Backdoors",
-    "link": "https://thehackernews.com/2026/02/unsolicitedbooker-targets-central-asian.html",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Says Chinese AI Firms Used 16 Million Claude Queries to Copy Model",
-    "link": "https://thehackernews.com/2026/02/anthropic-says-chinese-ai-firms-used-16.html",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare One is the first SASE offering modern post-quantum encryption across the full platform",
     "link": "https://blog.cloudflare.com/post-quantum-sase/",
     "date": "2026-02-23",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT28 Targeted European Entities Using Webhook-Based Macro Malware",
-    "link": "https://thehackernews.com/2026/02/apt28-targeted-european-entities-using.html",
-    "date": "2026-02-23",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Wormable XMRig Campaign Uses BYOVD Exploit and Time-Based Logic Bomb",
-    "link": "https://thehackernews.com/2026/02/wormable-xmrig-campaign-uses-byovd.html",
-    "date": "2026-02-23",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Double-Tap Skimmers, PromptSpy AI, 30Tbps DDoS, Docker Malware & More",
-    "link": "https://thehackernews.com/2026/02/weekly-recap-double-tap-skimmers.html",
-    "date": "2026-02-23",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How Exposed Endpoints Increase Risk Across LLM Infrastructure",
-    "link": "https://thehackernews.com/2026/02/how-exposed-endpoints-increase-risk.html",
-    "date": "2026-02-23",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare outage on February 20, 2026",
-    "link": "https://blog.cloudflare.com/cloudflare-outage-february-20-2026/",
-    "date": "2026-02-21",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Code Mode: give agents an entire API in 1,000 tokens",
-    "link": "https://blog.cloudflare.com/code-mode-mcp/",
-    "date": "2026-02-20",
     "month": "2026-02"
   },
   {
@@ -791,23 +819,9 @@
     "month": "2026-02"
   },
   {
-    "source": "Cloudflare",
-    "title": "Shedding old code with ecdysis: graceful restarts for Rust services at Cloudflare",
-    "link": "https://blog.cloudflare.com/ecdysis-rust-graceful-restarts/",
-    "date": "2026-02-13",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SPIP (12 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0155/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Markdown for Agents",
-    "link": "https://blog.cloudflare.com/markdown-for-agents/",
     "date": "2026-02-12",
     "month": "2026-02"
   },
@@ -816,20 +830,6 @@
     "title": "Detecting and mitigating common agent misconfigurations",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/12/copilot-studio-agent-security-top-10-risks-detect-prevent/",
     "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Your complete guide to Microsoft experiences at RSAC™ 2026 Conference",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/12/your-complete-guide-to-microsoft-experiences-at-rsac-2026-conference/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "2025 Q4 DDoS threat report: A record-setting 31.4 Tbps attack caps a year of massive DDoS assaults",
-    "link": "https://blog.cloudflare.com/ddos-threat-report-2025-q4/",
-    "date": "2026-02-05",
     "month": "2026-02"
   }
 ]
