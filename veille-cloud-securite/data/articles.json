@@ -1,6 +1,118 @@
 [
   {
     "source": "ANSSI",
+    "title": "Vulnérabilité dans Nextcloud Flow (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0244/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0249/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Zabbix (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0245/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0246/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0247/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0243/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0248/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
+    "link": "https://blog.cloudflare.com/unified-data-security/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "AI as tradecraft: How threat actors operationalize AI",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India",
+    "link": "https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT",
+    "link": "https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity",
+    "link": "https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor",
+    "link": "https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks",
+    "link": "https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer",
+    "link": "https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog",
+    "link": "https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html",
+    "date": "2026-03-06",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (05 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0237/",
     "date": "2026-03-05",
@@ -560,13 +672,6 @@
     "month": "2026-02"
   },
   {
-    "source": "Cloudflare",
-    "title": "Bringing more transparency to post-quantum usage, encrypted messaging, and routing security",
-    "link": "https://blog.cloudflare.com/radar-origin-pq-key-transparency-aspa/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
     "source": "The Hacker News",
     "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
     "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
@@ -617,13 +722,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Centreon (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0212/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans PostgreSQL (26 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0216/",
     "date": "2026-02-26",
@@ -654,13 +752,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (26 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0213/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Wireshark (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0211/",
     "date": "2026-02-26",
     "month": "2026-02"
   },
@@ -714,93 +805,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cisco SD-WAN Zero-Day CVE-2026-20127 Exploited Since 2023 for Admin Access",
-    "link": "https://thehackernews.com/2026/02/cisco-sd-wan-zero-day-cve-2026-20127.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Synology (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0208/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0209/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0207/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Trend Micro (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0206/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Cisco Catalyst SD-WAN (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0210/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Disrupts UNC2814 GRIDTIDE Campaign After 53 Breaches Across 42 Countries",
-    "link": "https://thehackernews.com/2026/02/google-disrupts-unc2814-gridtide.html",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Code Flaws Allow Remote Code Execution and API Key Exfiltration",
-    "link": "https://thehackernews.com/2026/02/claude-code-flaws-allow-remote-code.html",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SLH Offers $500–$1,000 Per Call to Recruit Women for IT Help Desk Vishing Attacks",
-    "link": "https://thehackernews.com/2026/02/slh-offers-5001000-per-call-to-recruit.html",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Top 5 Ways Broken Triage Increases Business Risk Instead of Reducing It",
-    "link": "https://thehackernews.com/2026/02/top-5-ways-broken-triage-increases.html",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious NuGet Packages Stole ASP.NET Data; npm Package Dropped Malware",
-    "link": "https://thehackernews.com/2026/02/malicious-nuget-packages-stole-aspnet.html",
-    "date": "2026-02-25",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Manual Processes Are Putting National Security at Risk",
-    "link": "https://thehackernews.com/2026/02/manual-processes-are-putting-national.html",
     "date": "2026-02-25",
     "month": "2026-02"
   },
@@ -826,10 +833,10 @@
     "month": "2026-02"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Running OpenClaw safely: identity, isolation, and runtime risk",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/19/running-openclaw-safely-identity-isolation-runtime-risk/",
-    "date": "2026-02-19",
-    "month": "2026-02"
+    "source": "ANSSI",
+    "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
+    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-010/",
+    "date": "2025-09-11",
+    "month": "2025-09"
   }
 ]
