@@ -63,55 +63,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Transparent Tribe Uses AI to Mass-Produce Malware Implants in Campaign Targeting India",
-    "link": "https://thehackernews.com/2026/03/transparent-tribe-uses-ai-to-mass.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Multi-Stage VOID#GEIST Malware Delivering XWorm, AsyncRAT, and Xeno RAT",
-    "link": "https://thehackernews.com/2026/03/multi-stage-voidgeist-malware.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The MSP Guide to Using AI-Powered Risk Management to Scale Cybersecurity",
-    "link": "https://thehackernews.com/2026/03/the-msp-guide-to-using-ai-powered-risk.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iran-Linked MuddyWater Hackers Target U.S. Networks With New Dindoor Backdoor",
-    "link": "https://thehackernews.com/2026/03/iran-linked-muddywater-hackers-target.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Use TernDoor, PeerTime, BruteEntry in South American Telecom Attacks",
-    "link": "https://thehackernews.com/2026/03/china-linked-hackers-use-terndoor.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer",
-    "link": "https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog",
-    "link": "https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (05 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0237/",
@@ -196,62 +147,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cisco Confirms Active Exploitation of Two Catalyst SD-WAN Manager Vulnerabilities",
-    "link": "https://thehackernews.com/2026/03/cisco-confirms-active-exploitation-of.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Preparing for the Quantum Era: Post-Quantum Cryptography Webinar for Security Leaders",
-    "link": "https://thehackernews.com/2026/03/preparing-for-quantum-era-post-quantum.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: DDR5 Bot Scalping, Samsung TV Tracking, Reddit Privacy Fine & More",
-    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-redis-rce-ddr5-bot.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Dust Specter Targets Iraqi Officials with New SPLITDROP and GHOSTFORM Malware",
-    "link": "https://thehackernews.com/2026/03/dust-specter-targets-iraqi-officials.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Where Multi-Factor Authentication Stops and Credential Abuse Starts",
-    "link": "https://thehackernews.com/2026/03/where-multi-factor-authentication-stops.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT28-Linked Campaign Deploys BadPaw Loader and MeowMeow Backdoor in Ukraine",
-    "link": "https://thehackernews.com/2026/03/apt28-linked-campaign-deploys-badpaw.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Europol-Led Operation Takes Down Tycoon 2FA Phishing-as-a-Service Linked to 64,000 Attacks",
-    "link": "https://thehackernews.com/2026/03/europol-led-operation-takes-down-tycoon.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI and Europol Seize LeakBase Forum Used to Trade Stolen Credentials",
-    "link": "https://thehackernews.com/2026/03/fbi-and-europol-seize-leakbase-forum.html",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Pixel (04 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0233/",
@@ -311,48 +206,6 @@
     "source": "Microsoft Security",
     "title": "Inside Tycoon2FA: How a leading AiTM phishing kit operated at scale",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/04/inside-tycoon2fa-how-a-leading-aitm-phishing-kit-operated-at-scale/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "149 Hacktivist DDoS Attacks Hit 110 Organizations in 16 Countries After Middle East Conflict",
-    "link": "https://thehackernews.com/2026/03/149-hacktivist-ddos-attacks-hit-110.html",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Coruna iOS Exploit Kit Uses 23 Exploits Across Five Chains Targeting iOS 13–17.2.1",
-    "link": "https://thehackernews.com/2026/03/coruna-ios-exploit-kit-uses-23-exploits.html",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New RFP Template for AI Usage Control and AI Governance",
-    "link": "https://thehackernews.com/2026/03/new-rfp-template-for-ai-usage-control.html",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Laravel Packages on Packagist Deploy RAT on Windows, macOS, and Linux",
-    "link": "https://thehackernews.com/2026/03/fake-laravel-packages-on-packagist.html",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT41-Linked Silver Dragon Targets Governments Using Cobalt Strike and Google Drive C2",
-    "link": "https://thehackernews.com/2026/03/apt41-linked-silver-dragon-targets.html",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited VMware Aria Operations Flaw CVE-2026-22719 to KEV Catalog",
-    "link": "https://thehackernews.com/2026/03/cisa-adds-actively-exploited-vmware.html",
     "date": "2026-03-04",
     "month": "2026-03"
   },
@@ -420,62 +273,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Fake Tech Support Spam Deploys Customized Havoc C2 Across Organizations",
-    "link": "https://thehackernews.com/2026/03/fake-tech-support-spam-deploys.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Building a High-Impact Tier 1: The 3 Steps CISOs Must Follow",
-    "link": "https://thehackernews.com/2026/03/building-high-impact-tier-1-3-steps.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Open-Source CyberStrikeAI Deployed in AI-Driven FortiGate Attacks Across 55 Countries",
-    "link": "https://thehackernews.com/2026/03/open-source-cyberstrikeai-deployed-in.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI Agents: The Next Wave Identity Dark Matter - Powerful, Invisible, and Unmanaged",
-    "link": "https://thehackernews.com/2026/03/ai-agents-next-wave-identity-dark.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Starkiller Phishing Suite Uses AitM Reverse Proxy to Bypass Multi-Factor Authentication",
-    "link": "https://thehackernews.com/2026/03/starkiller-phishing-suite-uses-aitm.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns OAuth Redirect Abuse Delivers Malware to Government Targets",
-    "link": "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited",
-    "link": "https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SloppyLemming Targets Pakistan and Bangladesh Governments Using Dual Malware Chains",
-    "link": "https://thehackernews.com/2026/03/sloppylemming-targets-pakistan-and.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-009 (02 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-009/",
@@ -523,69 +320,6 @@
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/",
     "date": "2026-03-02",
     "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel",
-    "link": "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Develops Merkle Tree Certificates to Enable Quantum-Resistant HTTPS in Chrome",
-    "link": "https://thehackernews.com/2026/03/google-develops-merkle-tree.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More",
-    "link": "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Protect Your SaaS from Bot Attacks with SafeLine WAF",
-    "link": "https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
-    "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
-    "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
-    "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
-    "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
-    "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
   },
   {
     "source": "ANSSI",
@@ -672,48 +406,6 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
-    "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
-    "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
-    "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks",
-    "link": "https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms",
-    "link": "https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Meta Files Lawsuits Against Brazil, China, Vietnam Advertisers Over Celeb-Bait Scams",
-    "link": "https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits VMware (26 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0218/",
@@ -759,48 +451,6 @@
     "source": "Microsoft Security",
     "title": "Threat modeling AI applications",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown",
-    "link": "https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-10027 Targets U.S. Education and Healthcare with Dohdoor Backdoor",
-    "link": "https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Expert Recommends: Prepare for PQC Right Now",
-    "link": "https://thehackernews.com/2026/02/expert-recommends-prepare-for-pqc-right.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns Developers of Fake Next.js Job Repos Delivering In-Memory Malware",
-    "link": "https://thehackernews.com/2026/02/fake-nextjs-repos-target-developers.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious StripeApi NuGet Package Mimicked Official Library and Stole API Tokens",
-    "link": "https://thehackernews.com/2026/02/malicious-stripeapi-nuget-package.html",
     "date": "2026-02-26",
     "month": "2026-02"
   },
