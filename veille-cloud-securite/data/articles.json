@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-010 (09 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-010/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache Zookeeper (09 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0251/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Moxa (09 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0252/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (09 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0253/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apereo CAS (09 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0250/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Fixing request smuggling vulnerabilities in Pingora OSS deployments",
+    "link": "https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Active defense: introducing a stateful vulnerability scanner for APIs",
+    "link": "https://blog.cloudflare.com/vulnerability-scanner/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Complexity is a choice. SASE migrations shouldn’t take years.",
+    "link": "https://blog.cloudflare.com/complexity-is-a-choice-sase-migrations-shouldnt-take-years/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Secure agentic AI for your Frontier Transformation",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials",
+    "link": "https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device",
+    "link": "https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Can the Security Platform Finally Deliver for the Mid-Market?",
+    "link": "https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft",
+    "link": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
+    "date": "2026-03-09",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
     "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
     "date": "2026-03-09",
@@ -672,27 +777,6 @@
     "month": "2026-02"
   },
   {
-    "source": "Cloudflare",
-    "title": "Toxic combinations: when small signals add up to a security incident",
-    "link": "https://blog.cloudflare.com/toxic-combinations-security/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "We deserve a better streams API for JavaScript",
-    "link": "https://blog.cloudflare.com/a-better-web-streams-api/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The most-seen UI on the Internet? Redesigning Turnstile and Challenge Pages",
-    "link": "https://blog.cloudflare.com/the-most-seen-ui-on-the-internet-redesigning-turnstile-and-challenge-pages/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
     "source": "The Hacker News",
     "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
     "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
@@ -714,65 +798,9 @@
     "month": "2026-02"
   },
   {
-    "source": "The Hacker News",
-    "title": "ScarCruft Uses Zoho WorkDrive and USB Malware to Breach Air-Gapped Networks",
-    "link": "https://thehackernews.com/2026/02/scarcruft-uses-zoho-workdrive-and-usb.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trojanized Gaming Tools Spread Java-Based RAT via Browser and Chat Platforms",
-    "link": "https://thehackernews.com/2026/02/trojanized-gaming-tools-spread-java.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Meta Files Lawsuits Against Brazil, China, Vietnam Advertisers Over Celeb-Bait Scams",
-    "link": "https://thehackernews.com/2026/02/meta-files-lawsuits-against-brazil.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0218/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans PostgreSQL (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0216/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0215/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans SPIP (26 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0217/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0214/",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0213/",
     "date": "2026-02-26",
     "month": "2026-02"
   },
@@ -781,34 +809,6 @@
     "title": "Threat modeling AI applications",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/26/threat-modeling-ai-applications/",
     "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Aeternum C2 Botnet Stores Encrypted Commands on Polygon Blockchain to Evade Takedown",
-    "link": "https://thehackernews.com/2026/02/aeternum-c2-botnet-stores-encrypted.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-10027 Targets U.S. Education and Healthcare with Dohdoor Backdoor",
-    "link": "https://thehackernews.com/2026/02/uat-10027-targets-us-education-and.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Kali Linux + Claude, Chrome Crash Traps, WinRAR Flaws, LockBit & 15+ Stories",
-    "link": "https://thehackernews.com/2026/02/threatsday-bulletin-kali-linux-claude.html",
-    "date": "2026-02-26",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
-    "date": "2026-02-25",
     "month": "2026-02"
   },
   {
@@ -823,13 +823,6 @@
     "title": "Scaling security operations with Microsoft Defender autonomous defense and expert-led services",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/24/scaling-security-operations-with-microsoft-defender-autonomous-defense-and-expert-led-services/",
     "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "New e-book: Establishing a proactive defense with Microsoft Security Exposure Management",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/19/new-e-book-establishing-a-proactive-defense-with-microsoft-security-exposure-management/",
-    "date": "2026-02-19",
     "month": "2026-02"
   },
   {
