@@ -1,6 +1,118 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
+    "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Siemens (10 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0255/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft CBL-Mariner (10 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0258/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mozilla Focus (10 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0257/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (10 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0256/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Schneider Electric (10 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0254/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Investigating multi-vector attacks in Log Explorer",
+    "link": "https://blog.cloudflare.com/investigating-multi-vector-attacks-in-log-explorer/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building a security overview dashboard for actionable insights",
+    "link": "https://blog.cloudflare.com/security-overview-dashboard/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Translating risk insights into actionable protection: leveling up security posture with Cloudflare and Mastercard",
+    "link": "https://blog.cloudflare.com/attack-surface-intelligence/",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
+    "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
+    "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet",
+    "link": "https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New \"LeakyLooker\" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries",
+    "link": "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
+    "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT28 Uses BEARDSHELL and COVENANT Malware to Spy on Ukrainian Military",
+    "link": "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool",
+    "link": "https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html",
+    "date": "2026-03-10",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
     "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
     "date": "2026-03-10",
@@ -623,27 +735,6 @@
     "month": "2026-03"
   },
   {
-    "source": "Cloudflare",
-    "title": "Modernizing with agile SASE: a Cloudflare One blog takeover",
-    "link": "https://blog.cloudflare.com/modernize-agile-sase/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Beyond the blank slate: how Cloudflare accelerates your Zero Trust journey",
-    "link": "https://blog.cloudflare.com/cloudflare-one-onboarding-project-helix/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The truly programmable SASE platform",
-    "link": "https://blog.cloudflare.com/programmable-sase/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
     "source": "Microsoft Security",
     "title": "OAuth redirection abuse enables phishing and malware delivery",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/",
@@ -679,51 +770,9 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "APT28 Tied to CVE-2026-21513 MSHTML 0-Day Exploited Before Feb 2026 Patch Tuesday",
-    "link": "https://thehackernews.com/2026/03/apt28-tied-to-cve-2026-21513-mshtml-0.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Hackers Publish 26 npm Packages Hiding Pastebin C2 for Cross-Platform RAT",
-    "link": "https://thehackernews.com/2026/03/north-korean-hackers-publish-26-npm.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClawJacked Flaw Lets Malicious Sites Hijack Local OpenClaw AI Agents via WebSocket",
-    "link": "https://thehackernews.com/2026/02/clawjacked-flaw-lets-malicious-sites.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Thousands of Public Google Cloud API Keys Exposed with Gemini Access After API Enablement",
-    "link": "https://thehackernews.com/2026/02/thousands-of-public-google-cloud-api.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Pentagon Designates Anthropic Supply Chain Risk Over AI Military Dispute",
-    "link": "https://thehackernews.com/2026/02/pentagon-designates-anthropic-supply.html",
-    "date": "2026-02-28",
-    "month": "2026-02"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0225/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0223/",
     "date": "2026-02-27",
     "month": "2026-02"
   },
@@ -736,13 +785,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Centreon (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0221/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0226/",
     "date": "2026-02-27",
@@ -750,50 +792,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0222/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0227/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Stormshield Network Security (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0219/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0220/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DoJ Seizes $61 Million in Tether Linked to Pig Butchering Crypto Scams",
-    "link": "https://thehackernews.com/2026/02/doj-seizes-61-million-in-tether-linked.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "900+ Sangoma FreePBX Instances Compromised in Ongoing Web Shell Attacks",
-    "link": "https://thehackernews.com/2026/02/900-sangoma-freepbx-instances.html",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Go Crypto Module Steals Passwords, Deploys Rekoobe Backdoor",
-    "link": "https://thehackernews.com/2026/02/malicious-go-crypto-module-steals.html",
     "date": "2026-02-27",
     "month": "2026-02"
   },
