@@ -1,6 +1,202 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
+    "date": "2026-03-12",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Panorama de la cybermenace 2025 (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Curl (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0269/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Intel (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0261/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans VMware Tanzu (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0266/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans WordPress (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0260/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Ivanti Desktop and Server Management (DSM) (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0263/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0271/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0274/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Stormshield Network Security (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0259/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0273/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking AOS-CX (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0262/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Office (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0270/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (11 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0268/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Slashing agent token costs by 98% with RFC 9457-compliant error responses",
+    "link": "https://blog.cloudflare.com/rfc-9457-agent-error-pages/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "AI Security for Apps is now generally available",
+    "link": "https://blog.cloudflare.com/ai-security-for-apps-ga/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Contagious Interview: Malware delivered through fake developer job interviews",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/11/contagious-interview-malware-delivered-through-fake-developer-job-interviews/",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Trick Perplexity's Comet AI Browser Into Phishing Scam in Under Four Minutes",
+    "link": "https://thehackernews.com/2026/03/researchers-trick-perplexitys-comet-ai.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical n8n Flaws Allow Remote Code Execution and Exposure of Stored Credentials",
+    "link": "https://thehackernews.com/2026/03/critical-n8n-flaws-allow-remote-code.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta Disables 150K Accounts Linked to Southeast Asia Scam Centers in Global Crackdown",
+    "link": "https://thehackernews.com/2026/03/meta-disables-150k-accounts-linked-to.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
+    "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
+    "link": "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
+    "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
+    "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
+    "date": "2026-03-11",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
     "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
     "date": "2026-03-11",
@@ -351,13 +547,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (05 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0237/",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (05 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0242/",
     "date": "2026-03-05",
@@ -367,20 +556,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans ClamAV (05 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0241/",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans NetApp ONTAP 9 (05 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0238/",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (05 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0236/",
     "date": "2026-03-05",
     "month": "2026-03"
   },
@@ -490,27 +665,6 @@
     "month": "2026-03"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Pixel (04 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0233/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking AOS (04 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0235/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Tenable Nessus Manager (04 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0234/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
     "link": "https://blog.cloudflare.com/attack-signature-detection/",
@@ -595,27 +749,6 @@
     "month": "2026-03"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (03 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0232/",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Android (03 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0231/",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Docker Desktop (03 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0230/",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing the 2026 Cloudflare Threat Report",
     "link": "https://blog.cloudflare.com/2026-threat-report/",
@@ -633,20 +766,6 @@
     "source": "Cloudflare",
     "title": "How Cloudy translates complex security into human action",
     "link": "https://blog.cloudflare.com/cloudy-upgrades-for-cloudflare-one/",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "From reactive to proactive: closing the phishing gap with LLMs",
-    "link": "https://blog.cloudflare.com/email-security-phishing-gap-llm/",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "See risk, fix risk: introducing Remediation in Cloudflare CASB",
-    "link": "https://blog.cloudflare.com/remediation-in-cloudflare-casb/",
     "date": "2026-03-03",
     "month": "2026-03"
   },
@@ -686,123 +805,11 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Starkiller Phishing Suite Uses AitM Reverse Proxy to Bypass Multi-Factor Authentication",
-    "link": "https://thehackernews.com/2026/03/starkiller-phishing-suite-uses-aitm.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns OAuth Redirect Abuse Delivers Malware to Government Targets",
-    "link": "https://thehackernews.com/2026/03/microsoft-warns-oauth-redirect-abuse.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Confirms CVE-2026-21385 in Qualcomm Android Component Exploited",
-    "link": "https://thehackernews.com/2026/03/google-confirms-cve-2026-21385-in.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SloppyLemming Targets Pakistan and Bangladesh Governments Using Dual Malware Chains",
-    "link": "https://thehackernews.com/2026/03/sloppylemming-targets-pakistan-and.html",
-    "date": "2026-03-03",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-009 (02 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-009/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MISP (02 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0229/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (02 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0228/",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
     "source": "Microsoft Security",
     "title": "OAuth redirection abuse enables phishing and malware delivery",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/02/oauth-redirection-abuse-enables-phishing-malware-delivery/",
     "date": "2026-03-02",
     "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Chrome Vulnerability Let Malicious Extensions Escalate Privileges via Gemini Panel",
-    "link": "https://thehackernews.com/2026/03/new-chrome-vulnerability-let-malicious.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Develops Merkle Tree Certificates to Enable Quantum-Resistant HTTPS in Chrome",
-    "link": "https://thehackernews.com/2026/03/google-develops-merkle-tree.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: SD-WAN 0-Day, Critical CVEs, Telegram Probe, Smart TV Proxy SDK and More",
-    "link": "https://thehackernews.com/2026/03/weekly-recap-sd-wan-0-day-critical-cves.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Protect Your SaaS from Bot Attacks with SafeLine WAF",
-    "link": "https://thehackernews.com/2026/03/how-to-protect-your-saas-from-bot.html",
-    "date": "2026-03-02",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0225/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0224/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0226/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0227/",
-    "date": "2026-02-27",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (26 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0217/",
-    "date": "2026-02-26",
-    "month": "2026-02"
   },
   {
     "source": "Microsoft Security",
@@ -815,13 +822,6 @@
     "source": "Microsoft Security",
     "title": "Developer-targeting campaign using malicious Next.js repositories",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/02/24/c2-developer-targeting-campaign/",
-    "date": "2026-02-24",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Scaling security operations with Microsoft Defender autonomous defense and expert-led services",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/24/scaling-security-operations-with-microsoft-defender-autonomous-defense-and-expert-led-services/",
     "date": "2026-02-24",
     "month": "2026-02"
   },
