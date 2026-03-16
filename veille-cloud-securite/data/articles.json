@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
+    "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
+    "date": "2026-03-16",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
     "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
     "date": "2026-03-14",
@@ -738,13 +745,6 @@
     "source": "The Hacker News",
     "title": "Microsoft Reveals ClickFix Campaign Using Windows Terminal to Deploy Lumma Stealer",
     "link": "https://thehackernews.com/2026/03/microsoft-reveals-clickfix-campaign.html",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hikvision and Rockwell Automation CVSS 9.8 Flaws Added to CISA KEV Catalog",
-    "link": "https://thehackernews.com/2026/03/hikvision-and-rockwell-automation-cvss.html",
     "date": "2026-03-06",
     "month": "2026-03"
   },
