@@ -1,5 +1,110 @@
 [
   {
+    "source": "Cloudflare",
+    "title": "Introducing Custom Regions for precision data control",
+    "link": "https://blog.cloudflare.com/custom-regions/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+    "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+    "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Spring AI (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0305/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Microsoft (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0307/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Kaspersky (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0301/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Xen (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0300/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Python (17 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0302/",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Flaws in Amazon Bedrock, LangSmith, and SGLang Enable Data Exfiltration and RCE",
+    "link": "https://thehackernews.com/2026/03/ai-flaws-in-amazon-bedrock-langsmith.html",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LeakNet Ransomware Uses ClickFix via Hacked Sites, Deploys Deno In-Memory Loader",
+    "link": "https://thehackernews.com/2026/03/leaknet-ransomware-uses-clickfix-via.html",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI is Everywhere, But CISOs are Still Securing It with Yesterday's Skills and Tools, Study Finds",
+    "link": "https://thehackernews.com/2026/03/ai-is-everywhere-but-cisos-are-still.html",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
+    "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
+    "date": "2026-03-17",
+    "month": "2026-03"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
     "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
@@ -421,64 +526,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Panorama de la cybermenace 2025 (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-002/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Curl (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0269/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Adobe (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0264/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0267/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans VMware Tanzu (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0266/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0265/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Ivanti Desktop and Server Management (DSM) (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0263/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0271/",
     "date": "2026-03-11",
     "month": "2026-03"
   },
@@ -493,27 +542,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Azure (11 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0273/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking AOS-CX (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0262/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Office (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0270/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0268/",
     "date": "2026-03-11",
     "month": "2026-03"
   },
@@ -714,48 +742,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Qualcomm 0-Day, iOS Exploit Chains, AirSnitch Attack & Vibe-Coded Malware",
-    "link": "https://thehackernews.com/2026/03/weekly-recap-qualcomm-0-day-ios-exploit.html",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Can the Security Platform Finally Deliver for the Mid-Market?",
-    "link": "https://thehackernews.com/2026/03/can-security-platform-finally-deliver.html",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chrome Extension Turns Malicious After Ownership Transfer, Enabling Code Injection and Data Theft",
-    "link": "https://thehackernews.com/2026/03/chrome-extension-turns-malicious-after.html",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Web Server Exploits and Mimikatz Used in Attacks Targeting Asian Critical Infrastructure",
-    "link": "https://thehackernews.com/2026/03/web-server-exploits-and-mimikatz-used.html",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Codex Security Scanned 1.2 Million Commits and Found 10,561 High-Severity Issues",
-    "link": "https://thehackernews.com/2026/03/openai-codex-security-scanned-12.html",
-    "date": "2026-03-07",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Finds 22 Firefox Vulnerabilities Using Claude Opus 4.6 AI Model",
-    "link": "https://thehackernews.com/2026/03/anthropic-finds-22-firefox.html",
-    "date": "2026-03-07",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
     "link": "https://blog.cloudflare.com/unified-data-security/",
@@ -833,10 +819,24 @@
     "month": "2026-03"
   },
   {
-    "source": "Cloudflare",
-    "title": "Stop reacting to breaches and start preventing them with User Risk Scoring",
-    "link": "https://blog.cloudflare.com/adaptive-access-user-risk-scoring/",
-    "date": "2026-03-04",
-    "month": "2026-03"
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (17 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
+    "date": "2026-02-17",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
+    "date": "2026-02-16",
+    "month": "2026-02"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
+    "date": "2026-01-16",
+    "month": "2026-01"
   }
 ]
