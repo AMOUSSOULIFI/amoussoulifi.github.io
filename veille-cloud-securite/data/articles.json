@@ -1,5 +1,68 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Citrix XenServer (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0311/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0310/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Apple (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0315/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Suricata (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0309/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Node.js (18 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0308/",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
     "source": "Cloudflare",
     "title": "Introducing Custom Regions for precision data control",
     "link": "https://blog.cloudflare.com/custom-regions/",
@@ -7,16 +70,65 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
-    "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
+    "source": "Microsoft Security",
+    "title": "Observability for AI Systems: Strengthening visibility for proactive risk detection",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/18/observability-ai-systems-strengthening-visibility-proactive-risk-detection/",
     "date": "2026-03-18",
     "month": "2026-03"
   },
   {
     "source": "The Hacker News",
-    "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE via Port 23",
+    "title": "OFAC Sanctions DPRK IT Worker Network Funding WMD Programs Through Fake Remote Jobs",
+    "link": "https://thehackernews.com/2026/03/ofac-sanctions-dprk-it-worker-network.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Interlock Ransomware Exploits Cisco FMC Zero-Day CVE-2026-20131 for Root Access",
+    "link": "https://thehackernews.com/2026/03/interlock-ransomware-exploits-cisco-fmc.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Unpatched Telnetd Flaw (CVE-2026-32746) Enables Unauthenticated Root RCE",
     "link": "https://thehackernews.com/2026/03/critical-telnetd-flaw-cve-2026-32746.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Code Security and Magecart: Getting the Threat Model Right",
+    "link": "https://thehackernews.com/2026/03/claude-code-security-and-magecart.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "9 Critical IP KVM Flaws Enable Unauthenticated Root Access Across Four Vendors",
+    "link": "https://thehackernews.com/2026/03/9-critical-ip-kvm-flaws-enable.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Product Walkthrough: How Mesh CSMA Reveals and Breaks Attack Paths to Crown Jewels",
+    "link": "https://thehackernews.com/2026/03/product-walkthrough-how-mesh-csma.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ubuntu CVE-2026-3888 Bug Lets Attackers Gain Root via systemd Cleanup Timing Exploit",
+    "link": "https://thehackernews.com/2026/03/ubuntu-cve-2026-3888-bug-lets-attackers.html",
+    "date": "2026-03-18",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
+    "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
     "date": "2026-03-18",
     "month": "2026-03"
   },
@@ -372,36 +484,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0277/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Splunk (12 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0281/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans GLPI (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0275/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0278/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Cisco IOS XR (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0279/",
     "date": "2026-03-12",
     "month": "2026-03"
   },
@@ -423,13 +507,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (12 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0284/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0276/",
     "date": "2026-03-12",
     "month": "2026-03"
   },
@@ -522,27 +599,6 @@
     "title": "CISA Flags Actively Exploited n8n RCE Bug as 24,700 Instances Remain Exposed",
     "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-n8n-rce.html",
     "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0272/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0274/",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (11 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0273/",
-    "date": "2026-03-11",
     "month": "2026-03"
   },
   {
@@ -665,41 +721,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "New \"LeakyLooker\" Flaws in Google Looker Studio Could Enable Cross-Tenant SQL Queries",
-    "link": "https://thehackernews.com/2026/03/new-leakylooker-flaws-in-google-looker.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Zero-Day Scramble is Avoidable: A Guide to Attack Surface Reduction",
-    "link": "https://thehackernews.com/2026/03/the-zero-day-scramble-is-avoidable.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT28 Uses BEARDSHELL and COVENANT Malware to Spy on Ukrainian Military",
-    "link": "https://thehackernews.com/2026/03/apt28-uses-beardshell-and-covenant.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Threat Actors Mass-Scan Salesforce Experience Cloud via Modified AuraInspector Tool",
-    "link": "https://thehackernews.com/2026/03/threat-actors-mass-scan-salesforce.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags SolarWinds, Ivanti, and Workspace One Vulnerabilities as Actively Exploited",
-    "link": "https://thehackernews.com/2026/03/cisa-flags-solarwinds-ivanti-and.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Fixing request smuggling vulnerabilities in Pingora OSS deployments",
     "link": "https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/",
@@ -724,20 +745,6 @@
     "source": "Microsoft Security",
     "title": "Secure agentic AI for your Frontier Transformation",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/09/secure-agentic-ai-for-your-frontier-transformation/",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Package Posing as OpenClaw Installer Deploys RAT, Steals macOS Credentials",
-    "link": "https://thehackernews.com/2026/03/malicious-npm-package-posing-as.html",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC4899 Breached Crypto Firm After Developer AirDropped Trojanized File to Work Device",
-    "link": "https://thehackernews.com/2026/03/unc4899-used-airdrop-file-transfer-and.html",
     "date": "2026-03-09",
     "month": "2026-03"
   },
@@ -780,13 +787,6 @@
     "source": "Microsoft Security",
     "title": "Women’s History Month: Encouraging women in cybersecurity at every career stage",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Malicious AI Assistant Extensions Harvest LLM Chat Histories",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/",
     "date": "2026-03-05",
     "month": "2026-03"
   },
