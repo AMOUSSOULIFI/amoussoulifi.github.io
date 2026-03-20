@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks",
+    "link": "https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html",
+    "date": "2026-03-20",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Warns Older iPhones Vulnerable to Coruna, DarkSword Exploit Kit Attacks",
+    "link": "https://thehackernews.com/2026/03/apple-warns-older-iphones-vulnerable-to.html",
+    "date": "2026-03-20",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Mitel (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0319/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0321/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Python (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0317/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Splunk Universal Forwarder (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0318/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
+    "link": "https://blog.cloudflare.com/workers-ai-large-models/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "New tools and guidance: Announcing Zero Trust for AI",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "When tax season becomes cyberattack season: Phishing and malware campaigns using tax-related lures",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/19/when-tax-season-becomes-cyberattack-season-phishing-and-malware-campaigns-using-tax-related-lures/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
+    "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "54 EDR Killers Use BYOVD to Exploit 35 Signed Vulnerable Drivers and Disable Security",
+    "link": "https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: FortiGate RaaS, Citrix Exploits, MCP Abuse, LiveChat Phish & More",
+    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-fortigate-raas.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Perseus Android Banking Malware Monitors Notes Apps to Extract Sensitive Data",
+    "link": "https://thehackernews.com/2026/03/new-perseus-android-banking-malware.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Ceros Gives Security Teams Visibility and Control in Claude Code",
+    "link": "https://thehackernews.com/2026/03/how-ceros-gives-security-teams.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DarkSword iOS Exploit Kit Uses 6 Flaws, 3 Zero-Days for Full Device Takeover",
+    "link": "https://thehackernews.com/2026/03/darksword-ios-exploit-kit-uses-6-flaws.html",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks",
     "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
     "date": "2026-03-19",
@@ -351,13 +470,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (13 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0285/",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (13 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0294/",
     "date": "2026-03-13",
@@ -480,41 +592,6 @@
     "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
     "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
     "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Splunk (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0281/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0280/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Veeam Backup & Replication (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0282/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0284/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (12 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0283/",
-    "date": "2026-03-12",
     "month": "2026-03"
   },
   {
@@ -644,41 +721,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Dozens of Vendors Patch Security Flaws Across Enterprise Software and Network Devices",
-    "link": "https://thehackernews.com/2026/03/dozens-of-vendors-patch-security-flaws.html",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What Boards Must Demand in the Age of AI-Automated Exploitation",
-    "link": "https://thehackernews.com/2026/03/what-boards-must-demand-in-age-of-ai.html",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches 84 Flaws in March Patch Tuesday, Including Two Public Zero-Days",
-    "link": "https://thehackernews.com/2026/03/microsoft-patches-84-flaws-in-march.html",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC6426 Exploits nx npm Supply-Chain Attack to Gain AWS Admin Access in 72 Hours",
-    "link": "https://thehackernews.com/2026/03/unc6426-exploits-nx-npm-supply-chain.html",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Five Malicious Rust Crates and AI Bot Exploit CI/CD Pipelines to Steal Developer Secrets",
-    "link": "https://thehackernews.com/2026/03/five-malicious-rust-crates-and-ai-bot.html",
-    "date": "2026-03-11",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Investigating multi-vector attacks in Log Explorer",
     "link": "https://blog.cloudflare.com/investigating-multi-vector-attacks-in-log-explorer/",
@@ -696,27 +738,6 @@
     "source": "Cloudflare",
     "title": "Translating risk insights into actionable protection: leveling up security posture with Cloudflare and Mastercard",
     "link": "https://blog.cloudflare.com/attack-surface-intelligence/",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FortiGate Devices Exploited to Breach Networks and Steal Service Account Credentials",
-    "link": "https://thehackernews.com/2026/03/fortigate-devices-exploited-to-breach.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Stop AI Data Leaks: A Webinar Guide to Auditing Modern Agentic Workflows",
-    "link": "https://thehackernews.com/2026/03/how-to-stop-ai-data-leaks-webinar-guide.html",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "KadNap Malware Infects 14,000+ Edge Devices to Power Stealth Proxy Botnet",
-    "link": "https://thehackernews.com/2026/03/kadnap-malware-infects-14000-edge.html",
     "date": "2026-03-10",
     "month": "2026-03"
   },
@@ -756,13 +777,6 @@
     "month": "2026-03"
   },
   {
-    "source": "Microsoft Security",
-    "title": "AI as tradecraft: How threat actors operationalize AI",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/06/ai-as-tradecraft-how-threat-actors-operationalize-ai/",
-    "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Ending the \"silent drop\": how Dynamic Path MTU Discovery makes the Cloudflare One Client more resilient",
     "link": "https://blog.cloudflare.com/client-dynamic-path-mtu-discovery/",
@@ -784,13 +798,6 @@
     "month": "2026-03"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Women’s History Month: Encouraging women in cybersecurity at every career stage",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/05/womens-history-month-encouraging-women-in-cybersecurity-at-every-career-stage/",
-    "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
     "link": "https://blog.cloudflare.com/attack-signature-detection/",
@@ -808,13 +815,6 @@
     "source": "Cloudflare",
     "title": "Defeating the deepfake: stopping laptop farms and insider threats",
     "link": "https://blog.cloudflare.com/deepfakes-insider-threats-identity-verification/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Moving from license plates to badges: the Gateway Authorization Proxy",
-    "link": "https://blog.cloudflare.com/gateway-authorization-proxy-identity-aware-policies/",
     "date": "2026-03-04",
     "month": "2026-03"
   },
