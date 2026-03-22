@@ -1,5 +1,33 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
+    "link": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
+    "date": "2026-03-21",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
+    "link": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
+    "date": "2026-03-21",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
+    "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
+    "date": "2026-03-21",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
+    "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
+    "date": "2026-03-21",
+    "month": "2026-03"
+  },
+  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Microsoft (20 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0334/",
@@ -682,34 +710,6 @@
     "source": "The Hacker News",
     "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
     "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Scale Phishing Detection in Your SOC: 3 Steps for CISOs",
-    "link": "https://thehackernews.com/2026/03/how-to-scale-phishing-detection-in-your.html",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: OAuth Trap, EDR Killer, Signal Phishing, Zombie ZIP, AI Platform Hack & More",
-    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-oauth-trap-edr.html",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Don't Just Send Phishing Emails. They Weaponize Your SOC's Workload",
-    "link": "https://thehackernews.com/2026/03/attackers-dont-just-send-phishing.html",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Issues Security Updates for Older iOS Devices Targeted by Coruna WebKit Exploit",
-    "link": "https://thehackernews.com/2026/03/apple-issues-security-updates-for-older.html",
     "date": "2026-03-12",
     "month": "2026-03"
   },
