@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
+    "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
     "link": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
     "date": "2026-03-21",
@@ -703,13 +710,6 @@
     "source": "The Hacker News",
     "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
     "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hive0163 Uses AI-Assisted Slopoly Malware for Persistent Access in Ransomware Attacks",
-    "link": "https://thehackernews.com/2026/03/hive0163-uses-ai-assisted-slopoly.html",
     "date": "2026-03-12",
     "month": "2026-03"
   },
