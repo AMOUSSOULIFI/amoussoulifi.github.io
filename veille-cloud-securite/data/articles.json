@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
+    "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citrix Urges Patching Critical NetScaler Flaw Allowing Unauthenticated Data Leaks",
+    "link": "https://thehackernews.com/2026/03/citrix-urges-patching-critical.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-012 (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-012/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Citrix (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0337/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0335/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0339/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Qnap (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0336/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0340/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Synology (23 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Inside Gen 13: how we built our most powerful server yet",
+    "link": "https://blog.cloudflare.com/gen13-config/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Launching Cloudflare’s Gen 13 servers: trading cache for cores for 2x edge compute performance",
+    "link": "https://blog.cloudflare.com/gen13-launch/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/23/case-study-predictive-shielding-defender-stopped-gpo-based-ransomware-before-started/",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korean Hackers Abuse VS Code Auto-Run Tasks to Deploy StoatWaffle Malware",
+    "link": "https://thehackernews.com/2026/03/north-korean-hackers-abuse-vs-code-auto.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: CI/CD Backdoor, FBI Buys Location Data, WhatsApp Ditches Numbers & More",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-cicd-backdoor-fbi-buys.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
+    "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
+    "link": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
+    "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
+    "date": "2026-03-23",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
     "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
     "date": "2026-03-23",
@@ -449,13 +575,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0303/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
     "date": "2026-03-17",
@@ -463,29 +582,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Kaspersky (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0301/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Xen (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0304/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Mattermost Server (17 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0300/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Python (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0302/",
     "date": "2026-03-17",
     "month": "2026-03"
   },
@@ -522,13 +620,6 @@
     "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
     "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
     "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (16 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0299/",
-    "date": "2026-03-16",
     "month": "2026-03"
   },
   {
@@ -637,48 +728,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Storm-2561 Spreads Trojan VPN Clients via SEO Poisoning to Steal Credentials",
-    "link": "https://thehackernews.com/2026/03/storm-2561-spreads-trojan-vpn-clients.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Investigating a New Click-Fix Variant",
-    "link": "https://thehackernews.com/2026/03/investigating-new-click-fix-variant.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Fixes Two Chrome Zero-Days Exploited in the Wild Affecting Skia and V8",
-    "link": "https://thehackernews.com/2026/03/google-fixes-two-chrome-zero-days.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Nine CrackArmor Flaws in Linux AppArmor Enable Root Escalation, Bypass Container Isolation",
-    "link": "https://thehackernews.com/2026/03/nine-crackarmor-flaws-in-linux-apparmor.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Authorities Disrupt SocksEscort Proxy Botnet Exploiting 369,000 IPs Across 163 Countries",
-    "link": "https://thehackernews.com/2026/03/authorities-disrupt-socksescort-proxy.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Veeam Patches 7 Critical Backup & Replication Flaws Allowing Remote Code Execution",
-    "link": "https://thehackernews.com/2026/03/veeam-patches-7-critical-backup.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans",
     "link": "https://blog.cloudflare.com/account-abuse-protection/",
@@ -696,20 +745,6 @@
     "source": "Microsoft Security",
     "title": "From transparency to action: What the latest Microsoft email security benchmark reveals",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/from-transparency-to-action-what-the-latest-microsoft-email-security-benchmark-reveals/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Detecting and analyzing prompt abuse in AI tools",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/detecting-analyzing-prompt-abuse-in-ai-tools/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rust-Based VENON Malware Targets 33 Brazilian Banks with Credential-Stealing Overlays",
-    "link": "https://thehackernews.com/2026/03/rust-based-venon-malware-targets-33.html",
     "date": "2026-03-12",
     "month": "2026-03"
   },
@@ -803,40 +838,5 @@
     "link": "https://blog.cloudflare.com/attack-signature-detection/",
     "date": "2026-03-04",
     "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Mind the gap: new tools for continuous enforcement from boot to login",
-    "link": "https://blog.cloudflare.com/mandatory-authentication-mfa/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Defeating the deepfake: stopping laptop farms and insider threats",
-    "link": "https://blog.cloudflare.com/deepfakes-insider-threats-identity-verification/",
-    "date": "2026-03-04",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Server (17 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0176/",
-    "date": "2026-02-17",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (16 février 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0173/",
-    "date": "2026-02-16",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (16 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0052/",
-    "date": "2026-01-16",
-    "month": "2026-01"
   }
 ]
