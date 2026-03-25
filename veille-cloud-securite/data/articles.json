@@ -1,5 +1,131 @@
 [
   {
+    "source": "Microsoft Security",
+    "title": "Guidance for detecting, investigating, and defending against the Trivy supply chain compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/24/detecting-investigating-defending-against-trivy-supply-chain-compromise/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Ruby on Rails (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0349/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Xen (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0347/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Trend Micro Deep Discovery Inspector (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0348/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans LibreNMS (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0345/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Spring Cloud Config (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0343/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0342/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans VMware Tanzu pour Postgres (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0346/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans strongSwan (24 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0344/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Sandboxing AI agents, 100x faster",
+    "link": "https://blog.cloudflare.com/dynamic-workers/",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Governing AI agent behavior: Aligning user, developer, role, and organizational intent",
+    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/governing-ai-agent-behavior-aligning-user-developer-role-and-organizational-inte/4503551",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise",
+    "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
+    "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents",
+    "link": "https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner",
+    "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Hidden Cost of Cybersecurity Specialization: Losing Foundational Skills",
+    "link": "https://thehackernews.com/2026/03/the-hidden-cost-of-cybersecurity.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ghost Campaign Uses 7 npm Packages to Steal Crypto Wallets and Credentials",
+    "link": "https://thehackernews.com/2026/03/ghost-campaign-uses-7-npm-packages-to.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TeamPCP Hacks Checkmarx GitHub Actions Using Stolen CI Credentials",
+    "link": "https://thehackernews.com/2026/03/teampcp-hacks-checkmarx-github-actions.html",
+    "date": "2026-03-24",
+    "month": "2026-03"
+  },
+  {
     "source": "The Hacker News",
     "title": "U.S. Sentences Russian Hacker to 6.75 Years for Role in $9M Ransomware Damage",
     "link": "https://thehackernews.com/2026/03/us-sentences-russian-hacker-to-675.html",
@@ -435,20 +561,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Citrix XenServer (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0311/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MongoDB (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0310/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Apple (18 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
     "date": "2026-03-18",
@@ -472,20 +584,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Suricata (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0309/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Node.js (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0308/",
     "date": "2026-03-18",
     "month": "2026-03"
   },
@@ -557,34 +655,6 @@
     "title": "Apple Fixes WebKit Vulnerability Enabling Same-Origin Policy Bypass on iOS and macOS",
     "link": "https://thehackernews.com/2026/03/apple-fixes-webkit-vulnerability.html",
     "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Spring AI (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0305/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Microsoft (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0307/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Redmine (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0306/",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (17 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0300/",
-    "date": "2026-03-17",
     "month": "2026-03"
   },
   {
@@ -672,34 +742,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "DRILLAPP Backdoor Targets Ukraine, Abuses Microsoft Edge Debugging for Stealth Espionage",
-    "link": "https://thehackernews.com/2026/03/drillapp-backdoor-targets-ukraine.html",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Android 17 Blocks Non-Accessibility Apps from Accessibility API to Prevent Malware Abuse",
-    "link": "https://thehackernews.com/2026/03/android-17-blocks-non-accessibility.html",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenClaw AI Agent Flaws Could Enable Prompt Injection and Data Exfiltration",
-    "link": "https://thehackernews.com/2026/03/openclaw-ai-agent-flaws-could-enable.html",
-    "date": "2026-03-14",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GlassWorm Supply-Chain Attack Abuses 72 Open VSX Extensions to Target Developers",
-    "link": "https://thehackernews.com/2026/03/glassworm-supply-chain-attack-abuses-72.html",
-    "date": "2026-03-14",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "From legacy architecture to Cloudflare One",
     "link": "https://blog.cloudflare.com/legacy-to-agile-sase/",
@@ -707,44 +749,9 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Chinese Hackers Target Southeast Asian Militaries with AppleChris and MemFun Malware",
-    "link": "https://thehackernews.com/2026/03/chinese-hackers-target-southeast-asian.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Meta to Shut Down Instagram End-to-End Encrypted Chat Support Starting May 2026",
-    "link": "https://thehackernews.com/2026/03/meta-to-shut-down-instagram-end-to-end.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INTERPOL Dismantles 45,000 Malicious IPs, Arrests 94 in Global Cybercrime",
-    "link": "https://thehackernews.com/2026/03/interpol-dismantles-45000-malicious-ips.html",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans",
     "link": "https://blog.cloudflare.com/account-abuse-protection/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Storm-2561 uses SEO poisoning to distribute fake VPN clients for credential theft",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/storm-2561-uses-seo-poisoning-to-distribute-fake-vpn-clients-for-credential-theft/",
-    "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "From transparency to action: What the latest Microsoft email security benchmark reveals",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/12/from-transparency-to-action-what-the-latest-microsoft-email-security-benchmark-reveals/",
     "date": "2026-03-12",
     "month": "2026-03"
   },
@@ -830,13 +837,6 @@
     "title": "A QUICker SASE client: re-building Proxy Mode",
     "link": "https://blog.cloudflare.com/faster-sase-proxy-mode-quic/",
     "date": "2026-03-05",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Always-on detections: eliminating the WAF “log versus block” trade-off",
-    "link": "https://blog.cloudflare.com/attack-signature-detection/",
-    "date": "2026-03-04",
     "month": "2026-03"
   }
 ]
