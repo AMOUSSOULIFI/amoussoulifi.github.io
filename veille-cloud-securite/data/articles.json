@@ -1,8 +1,120 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0354/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0355/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Tenable OT Platform (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0351/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Zabbix (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0353/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans ISC Kea (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0356/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0357/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits F5 (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0352/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Citrix XenServer (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0358/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Squid (25 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0350/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Identity security is the new pressure point for modern cyberattacks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/25/identity-security-is-the-new-pressure-point-for-modern-cyberattacks/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
     "source": "Microsoft Security",
     "title": "Guidance for detecting, investigating, and defending against the Trivy supply chain compromise",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/24/detecting-investigating-defending-against-trivy-supply-chain-compromise/",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LeakBase Admin Arrested in Russia Over Massive Stolen Credential Marketplace",
+    "link": "https://thehackernews.com/2026/03/leakbase-admin-arrested-in-russia-over.html",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GlassWorm Malware Uses Solana Dead Drops to Deliver RAT and Steal Browser, Crypto Data",
+    "link": "https://thehackernews.com/2026/03/glassworm-malware-uses-solana-dead.html",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Kill Chain Is Obsolete When Your AI Agent Is the Threat",
+    "link": "https://thehackernews.com/2026/03/the-kill-chain-is-obsolete-when-your-ai.html",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian Hacker Sentenced to 2 Years for TA551 Botnet-Driven Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/03/russian-hacker-sentenced-to-2-years-for.html",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse",
+    "link": "https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html",
+    "date": "2026-03-25",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
+    "link": "https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html",
     "date": "2026-03-25",
     "month": "2026-03"
   },
@@ -449,43 +561,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Mitel (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0319/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (19 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0321/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0317/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Splunk Universal Forwarder (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0318/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0316/",
     "date": "2026-03-19",
     "month": "2026-03"
   },
@@ -557,34 +634,6 @@
     "title": "CISA Warns of Zimbra, SharePoint Flaw Exploits; Cisco Zero-Day Hit in Ransomware Attacks",
     "link": "https://thehackernews.com/2026/03/cisa-warns-of-zimbra-sharepoint-flaw.html",
     "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Apple (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0313/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Atlassian (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0314/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0315/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GLPI (18 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0312/",
-    "date": "2026-03-18",
     "month": "2026-03"
   },
   {
@@ -679,20 +728,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Konni Deploys EndRAT Through Phishing, Uses KakaoTalk to Propagate Malware",
-    "link": "https://thehackernews.com/2026/03/konni-deploys-endrat-through-spear.html",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Actively Exploited Wing FTP Vulnerability Leaking Server Paths",
-    "link": "https://thehackernews.com/2026/03/cisa-flags-actively-exploited-wing-ftp.html",
-    "date": "2026-03-17",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Standing up for the open Internet: why we appealed Italy’s \"Piracy Shield\" fine",
     "link": "https://blog.cloudflare.com/standing-up-for-the-open-internet/",
@@ -703,41 +738,6 @@
     "source": "Microsoft Security",
     "title": "New Microsoft Purview innovations for Fabric to safely accelerate your AI transformation",
     "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-microsoft-purview-innovations-for-fabric-to-safely-accelerate-your-ai-transf/4502156",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Help on the line: How a Microsoft Teams support call led to compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/16/help-on-the-line-how-a-microsoft-teams-support-call-led-to-compromise/",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GlassWorm Attack Uses Stolen GitHub Tokens to Force-Push Malware Into Python Repos",
-    "link": "https://thehackernews.com/2026/03/glassworm-attack-uses-stolen-github.html",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Chrome 0-Days, Router Botnets, AWS Breach, Rogue AI Agents & More",
-    "link": "https://thehackernews.com/2026/03/weekly-recap-chrome-0-days-router.html",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Security Validation Is Becoming Agentic",
-    "link": "https://thehackernews.com/2026/03/why-security-validation-is-becoming.html",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClickFix Campaigns Spread MacSync macOS Infostealer via Fake AI Tool Installers",
-    "link": "https://thehackernews.com/2026/03/clickfix-campaigns-spread-macsync-macos.html",
     "date": "2026-03-16",
     "month": "2026-03"
   },
