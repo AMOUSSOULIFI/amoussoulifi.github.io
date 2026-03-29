@@ -1,8 +1,15 @@
 [
   {
     "source": "The Hacker News",
-    "title": "TA446 Deploys Leaked DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
-    "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
+    "title": "Iran-Linked Hackers Breach FBI Director’s Personal Email, Hit Stryker With Wiper Attack",
+    "link": "https://thehackernews.com/2026/03/iran-linked-hackers-breach-fbi.html",
+    "date": "2026-03-28",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citrix NetScaler Under Active Recon for CVE-2026-3055 (CVSS 9.3) Memory Overread Bug",
+    "link": "https://thehackernews.com/2026/03/citrix-netscaler-under-active-recon-for.html",
     "date": "2026-03-28",
     "month": "2026-03"
   },
@@ -10,6 +17,13 @@
     "source": "The Hacker News",
     "title": "CISA Adds CVE-2025-53521 to KEV After Active F5 BIG-IP APM Exploitation",
     "link": "https://thehackernews.com/2026/03/cisa-adds-cve-2025-53521-to-kev-after.html",
+    "date": "2026-03-28",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TA446 Deploys DarkSword iOS Exploit Kit in Targeted Spear-Phishing Campaign",
+    "link": "https://thehackernews.com/2026/03/ta446-deploys-leaked-darksword-ios.html",
     "date": "2026-03-28",
     "month": "2026-03"
   },
@@ -689,20 +703,6 @@
     "source": "Microsoft Security",
     "title": "When tax season becomes cyberattack season: Phishing and malware campaigns using tax-related lures",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/19/when-tax-season-becomes-cyberattack-season-phishing-and-malware-campaigns-using-tax-related-lures/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Speagle Malware Hijacks Cobra DocGuard to Steal Data via Compromised Servers",
-    "link": "https://thehackernews.com/2026/03/speagle-malware-hijacks-cobra-docguard.html",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "54 EDR Killers Use BYOVD to Exploit 35 Signed Vulnerable Drivers and Disable Security",
-    "link": "https://thehackernews.com/2026/03/54-edr-killers-use-byovd-to-exploit-34.html",
     "date": "2026-03-19",
     "month": "2026-03"
   },
