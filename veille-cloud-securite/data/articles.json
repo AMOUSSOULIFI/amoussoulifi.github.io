@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
+    "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-013 (30 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-013/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Docker Desktop (30 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0374/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (30 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0376/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (30 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0375/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Roundcube (30 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0373/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
+    "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Addressing the OWASP Top 10 Risks in Agentic AI with Microsoft Copilot Studio",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/30/addressing-the-owasp-top-10-risks-in-agentic-ai-with-microsoft-copilot-studio/",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Patches ChatGPT Data Exfiltration Flaw and Codex GitHub Token Vulnerability",
+    "link": "https://thehackernews.com/2026/03/openai-patches-chatgpt-data.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DeepLoad Malware Uses ClickFix and WMI Persistence to Steal Browser Credentials",
+    "link": "https://thehackernews.com/2026/03/deepload-malware-uses-clickfix-and-wmi.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Telecom Sleeper Cells, LLM Jailbreaks, Apple Forces U.K. Age Checks and More",
+    "link": "https://thehackernews.com/2026/03/weekly-recap-telecom-sleeper-cells-llm.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "3 SOC Process Fixes That Unlock Tier 1 Productivity",
+    "link": "https://thehackernews.com/2026/03/3-soc-process-fixes-that-unlock-tier-1.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian CTRL Toolkit Delivered via Malicious LNK Files Hijacks RDP via FRP Tunnels",
+    "link": "https://thehackernews.com/2026/03/russian-ctrl-toolkit-delivered-via.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The State of Secrets Sprawl 2026: 9 Takeaways for CISOs",
+    "link": "https://thehackernews.com/2026/03/the-state-of-secrets-sprawl-2026-9.html",
+    "date": "2026-03-30",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Three China-Linked Clusters Target Southeast Asian Government in 2025 Cyber Campaign",
     "link": "https://thehackernews.com/2026/03/three-china-linked-clusters-target.html",
     "date": "2026-03-30",
@@ -504,41 +602,6 @@
     "month": "2026-03"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Citrix (23 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0337/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (23 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0341/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (23 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0339/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (23 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0340/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Synology (23 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0338/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Inside Gen 13: how we built our most powerful server yet",
     "link": "https://blog.cloudflare.com/gen13-config/",
@@ -623,13 +686,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Flags Apple, Craft CMS, Laravel Bugs in KEV, Orders Patching by April 3, 2026",
-    "link": "https://thehackernews.com/2026/03/cisa-flags-apple-craft-cms-laravel-bugs.html",
-    "date": "2026-03-21",
-    "month": "2026-03"
-  },
-  {
     "source": "Microsoft Security",
     "title": "CTI-REALM: A new benchmark for end-to-end detection rule generation with AI agents",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/20/cti-realm-a-new-benchmark-for-end-to-end-detection-rule-generation-with-ai-agents/",
@@ -640,48 +696,6 @@
     "source": "Microsoft Security",
     "title": "Secure agentic AI end-to-end",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/20/secure-agentic-ai-end-to-end/",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trivy Security Scanner GitHub Actions Breached, 75 Tags Hijacked to Steal CI/CD Secrets",
-    "link": "https://thehackernews.com/2026/03/trivy-security-scanner-github-actions.html",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Langflow Flaw CVE-2026-33017 Triggers Attacks within 20 Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/03/critical-langflow-flaw-cve-2026-33017.html",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Adds 24-Hour Wait for Unverified App Sideloading to Reduce Malware and Scams",
-    "link": "https://thehackernews.com/2026/03/google-adds-24-hour-wait-for-unverified.html",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Importance of Behavioral Analytics in AI-Enabled Cyber Attacks",
-    "link": "https://thehackernews.com/2026/03/the-importance-of-behavioral-analytics.html",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Magento PolyShell Flaw Enables Unauthenticated Uploads, RCE and Account Takeover",
-    "link": "https://thehackernews.com/2026/03/magento-polyshell-flaw-enables.html",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DoJ Disrupts 3 Million-Device IoT Botnets Behind Record 31.4 Tbps Global DDoS Attacks",
-    "link": "https://thehackernews.com/2026/03/doj-disrupts-3-million-device-iot.html",
     "date": "2026-03-20",
     "month": "2026-03"
   },
@@ -710,13 +724,6 @@
     "source": "Cloudflare",
     "title": "Introducing Custom Regions for precision data control",
     "link": "https://blog.cloudflare.com/custom-regions/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Observability for AI Systems: Strengthening visibility for proactive risk detection",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/18/observability-ai-systems-strengthening-visibility-proactive-risk-detection/",
     "date": "2026-03-18",
     "month": "2026-03"
   },
@@ -809,13 +816,6 @@
     "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
     "link": "https://blog.cloudflare.com/unified-data-security/",
     "date": "2026-03-06",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Ending the \"silent drop\": how Dynamic Path MTU Discovery makes the Cloudflare One Client more resilient",
-    "link": "https://blog.cloudflare.com/client-dynamic-path-mtu-discovery/",
-    "date": "2026-03-05",
     "month": "2026-03"
   },
   {
