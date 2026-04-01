@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
+    "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
+    "date": "2026-04-01",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
+    "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
+    "date": "2026-04-01",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Papercut (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0377/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits FoxIT (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0382/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Symantec Data Loss Prevention (DLP) (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0378/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Elastic OpenTelemetry Java (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0379/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0381/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0380/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans F5 BIG-IP Access Policy Manager (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-004/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Programmable Flow Protection: custom DDoS mitigation logic for Magic Transit customers",
+    "link": "https://blog.cloudflare.com/programmable-flow-protection/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "The threat to critical infrastructure has changed. Has your readiness?",
+    "link": "https://www.microsoft.com/en-us/security/security-insider/threat-landscape/threat-to-critical-infrastructure-has-changed",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Applying security fundamentals to AI: Practical advice for CISOs",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "WhatsApp malware campaign delivers VBScript and MSI backdoors",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
+    "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
+    "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
+    "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
+    "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Silver Fox Expands Asia Cyber Campaign with AtlasCross RAT and Fake Domains",
+    "link": "https://thehackernews.com/2026/03/silver-fox-expands-asia-cyber-campaign.html",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Axios Supply Chain Attack Pushes Cross-Platform RAT via Compromised npm Account",
     "link": "https://thehackernews.com/2026/03/axios-supply-chain-attack-pushes-cross.html",
     "date": "2026-03-31",
@@ -476,55 +602,6 @@
     "month": "2026-03"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Xen (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0347/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Trend Micro Deep Discovery Inspector (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0348/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans LibreNMS (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0345/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Spring Cloud Config (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0343/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0342/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans VMware Tanzu pour Postgres (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0346/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans strongSwan (24 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0344/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Sandboxing AI agents, 100x faster",
     "link": "https://blog.cloudflare.com/dynamic-workers/",
@@ -637,55 +714,6 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "We Found Eight Attack Vectors Inside AWS Bedrock. Here's What Attackers Can Do with Them",
-    "link": "https://thehackernews.com/2026/03/we-found-eight-attack-vectors-inside.html",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns IRS Phishing Hits 29,000 Users, Deploys RMM Malware",
-    "link": "https://thehackernews.com/2026/03/microsoft-warns-irs-phishing-hits-29000.html",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trivy Hack Spreads Infostealer via Docker, Triggers Worm and Kubernetes Wiper",
-    "link": "https://thehackernews.com/2026/03/trivy-hack-spreads-infostealer-via.html",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit CVE-2025-32975 (CVSS 10.0) to Hijack Unpatched Quest KACE SMA Systems",
-    "link": "https://thehackernews.com/2026/03/hackers-exploit-cve-2025-32975-cvss-100.html",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI Warns Russian Hackers Target Signal, WhatsApp in Mass Phishing Attacks",
-    "link": "https://thehackernews.com/2026/03/fbi-warns-russian-hackers-target-signal.html",
-    "date": "2026-03-21",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Oracle Patches Critical CVE-2026-21992 Enabling Unauthenticated RCE in Identity Manager",
-    "link": "https://thehackernews.com/2026/03/oracle-patches-critical-cve-2026-21992.html",
-    "date": "2026-03-21",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trivy Supply Chain Attack Triggers Self-Spreading CanisterWorm Across 47 npm Packages",
-    "link": "https://thehackernews.com/2026/03/trivy-supply-chain-attack-triggers-self.html",
-    "date": "2026-03-21",
-    "month": "2026-03"
-  },
-  {
     "source": "Microsoft Security",
     "title": "CTI-REALM: A new benchmark for end-to-end detection rule generation with AI agents",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/20/cti-realm-a-new-benchmark-for-end-to-end-detection-rule-generation-with-ai-agents/",
@@ -693,30 +721,9 @@
     "month": "2026-03"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Secure agentic AI end-to-end",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/20/secure-agentic-ai-end-to-end/",
-    "date": "2026-03-20",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
     "link": "https://blog.cloudflare.com/workers-ai-large-models/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "New tools and guidance: Announcing Zero Trust for AI",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/19/new-tools-and-guidance-announcing-zero-trust-for-ai/",
-    "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "When tax season becomes cyberattack season: Phishing and malware campaigns using tax-related lures",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/19/when-tax-season-becomes-cyberattack-season-phishing-and-malware-campaigns-using-tax-related-lures/",
     "date": "2026-03-19",
     "month": "2026-03"
   },
@@ -809,13 +816,6 @@
     "title": "Complexity is a choice. SASE migrations shouldn’t take years.",
     "link": "https://blog.cloudflare.com/complexity-is-a-choice-sase-migrations-shouldnt-take-years/",
     "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "From the endpoint to the prompt: a unified data security vision in Cloudflare One",
-    "link": "https://blog.cloudflare.com/unified-data-security/",
-    "date": "2026-03-06",
     "month": "2026-03"
   },
   {
