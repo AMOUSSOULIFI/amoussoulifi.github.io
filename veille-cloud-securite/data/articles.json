@@ -1,5 +1,110 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Expiration de certificats Secure Boot en juin 2026 (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-014/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure Linux (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0389/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Belden NetModule Router Software (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0390/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSH (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0391/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0388/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Netgate (02 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0387/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Why we're rethinking cache for the AI era",
+    "link": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Threat actor abuse of AI accelerates from tool to cyberattack surface",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Cookie-controlled PHP webshells: A stealthy tradecraft in Linux hosting environments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/cookie-controlled-php-webshells-tradecraft-linux-hosting-environments/",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
+    "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
+    "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion & 10 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners",
+    "link": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The State of Trusted Open Source Report",
+    "link": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WhatsApp Alerts 200 Users After Fake iOS App Installed Spyware; Italian Firm Faces Action",
+    "link": "https://thehackernews.com/2026/04/whatsapp-alerts-200-users-after-fake.html",
+    "date": "2026-04-02",
+    "month": "2026-04"
+  },
+  {
     "source": "The Hacker News",
     "title": "Apple Expands iOS 18.7.7 Update to More Devices to Block DarkSword Exploit",
     "link": "https://thehackernews.com/2026/04/apple-expands-ios-1877-update-to-more.html",
@@ -574,48 +679,6 @@
     "month": "2026-03"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0354/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0355/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Zabbix (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0353/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans ISC Kea (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0356/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0357/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Citrix XenServer (25 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0358/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Identity security is the new pressure point for modern cyberattacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/03/25/identity-security-is-the-new-pressure-point-for-modern-cyberattacks/",
@@ -658,58 +721,9 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Device Code Phishing Hits 340+ Microsoft 365 Orgs Across Five Countries via OAuth Abuse",
-    "link": "https://thehackernews.com/2026/03/device-code-phishing-hits-340-microsoft.html",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FCC Bans New Foreign-Made Routers Over Supply Chain and Cyber Risk Concerns",
-    "link": "https://thehackernews.com/2026/03/fcc-bans-new-foreign-made-routers-over.html",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "Sandboxing AI agents, 100x faster",
     "link": "https://blog.cloudflare.com/dynamic-workers/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Governing AI agent behavior: Aligning user, developer, role, and organizational intent",
-    "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/governing-ai-agent-behavior-aligning-user-developer-role-and-organizational-inte/4503551",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TeamPCP Backdoors LiteLLM Versions 1.82.7–1.82.8 via Trivy CI/CD Compromise",
-    "link": "https://thehackernews.com/2026/03/teampcp-backdoors-litellm-versions.html",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Tax Search Ads Deliver ScreenConnect Malware Using Huawei Driver to Disable EDR",
-    "link": "https://thehackernews.com/2026/03/tax-search-ads-deliver-screenconnect.html",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "5 Learnings from the First-Ever Gartner Market Guide for Guardian Agents",
-    "link": "https://thehackernews.com/2026/03/5-learnings-from-first-ever-gartner.html",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Use Fake Resumes to Steal Enterprise Credentials and Deploy Crypto Miner",
-    "link": "https://thehackernews.com/2026/03/hackers-use-fake-resumes-to-steal.html",
     "date": "2026-03-24",
     "month": "2026-03"
   },
@@ -724,13 +738,6 @@
     "source": "Cloudflare",
     "title": "Launching Cloudflare’s Gen 13 servers: trading cache for cores for 2x edge compute performance",
     "link": "https://blog.cloudflare.com/gen13-launch/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Case study: How predictive shielding in Defender stopped GPO-based ransomware before it started",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/23/case-study-predictive-shielding-defender-stopped-gpo-based-ransomware-before-started/",
     "date": "2026-03-23",
     "month": "2026-03"
   },
@@ -812,13 +819,6 @@
     "month": "2026-03"
   },
   {
-    "source": "Cloudflare",
-    "title": "Fixing request smuggling vulnerabilities in Pingora OSS deployments",
-    "link": "https://blog.cloudflare.com/pingora-oss-smuggling-vulnerabilities/",
-    "date": "2026-03-09",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-002/",
@@ -837,139 +837,6 @@
     "title": "Multiples vulnérabilités dans Roundcube (09 février 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0133/",
     "date": "2026-02-09",
-    "month": "2026-02"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical AWS IAM Vulnerability Allows Privilege Escalation via Misconfigured Policies",
-    "link": "https://thehackernews.com/2025/11/aws-iam-privilege-escalation.html",
-    "date": "2025-11-03",
-    "month": "2025-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Kubernetes (novembre 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-1101/",
-    "date": "2025-11-07",
-    "month": "2025-11"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Mitigating large-scale DDoS attacks targeting cloud workloads",
-    "link": "https://blog.cloudflare.com/ddos-mitigation-nov-2025/",
-    "date": "2025-11-12",
-    "month": "2025-11"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Azure Kubernetes Service (AKS) secret leakage via misconfigured RBAC",
-    "link": "https://www.microsoft.com/en-us/security/blog/2025/11/18/aks-secret-leak/",
-    "date": "2025-11-18",
-    "month": "2025-11"
-  },
-  {
-    "source": "e-connect",
-    "title": "Cloud mal sécurisé : les erreurs fréquentes en entreprise",
-    "link": "https://www.e-connect.fr/cloud-erreurs-securite-2025",
-    "date": "2025-11-22",
-    "month": "2025-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Cloud Run Vulnerability Exposes Source Code and Secrets",
-    "link": "https://thehackernews.com/2025/12/google-cloud-run-leak.html",
-    "date": "2025-12-05",
-    "month": "2025-12"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Docker Desktop permettant une évasion de conteneur",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2025-AVI-1202/",
-    "date": "2025-12-10",
-    "month": "2025-12"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Zero Trust architecture for multi-cloud environments",
-    "link": "https://blog.cloudflare.com/zero-trust-multicloud/",
-    "date": "2025-12-14",
-    "month": "2025-12"
-  },
-  {
-    "source": "e-connect",
-    "title": "Ransomware as a Service ciblant les buckets S3 mal configurés",
-    "link": "https://www.e-connect.fr/ransomware-s3-buckets",
-    "date": "2025-12-18",
-    "month": "2025-12"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft Defender for Cloud now detects AI model poisoning",
-    "link": "https://www.microsoft.com/en-us/security/blog/2025/12/20/defender-ai-poisoning/",
-    "date": "2025-12-20",
-    "month": "2025-12"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New CVE-2026-0123: Critical RCE in AWS Lambda Runtime",
-    "link": "https://thehackernews.com/2026/01/aws-lambda-rce.html",
-    "date": "2026-01-15",
-    "month": "2026-01"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les services Azure (janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0105/",
-    "date": "2026-01-20",
-    "month": "2026-01"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing API Shield to protect cloud-native APIs",
-    "link": "https://blog.cloudflare.com/api-shield-ga/",
-    "date": "2026-01-25",
-    "month": "2026-01"
-  },
-  {
-    "source": "e-connect",
-    "title": "Les failles SSRF dans les fournisseurs cloud : comment s’en protéger ?",
-    "link": "https://www.e-connect.fr/ssrf-cloud-protection",
-    "date": "2026-01-28",
-    "month": "2026-01"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Cloud Functions Credential Harvesting via Logging Misconfiguration",
-    "link": "https://thehackernews.com/2026/02/gcp-functions-cred-leak.html",
-    "date": "2026-02-05",
-    "month": "2026-02"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Terraform Cloud : fuite de tokens d’accès",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0208/",
-    "date": "2026-02-12",
-    "month": "2026-02"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft Entra ID now supports conditional access for multi-cloud workloads",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/02/18/entra-multicloud-ca/",
-    "date": "2026-02-18",
-    "month": "2026-02"
-  },
-  {
-    "source": "e-connect",
-    "title": "Le risque des secrets exposés dans les dépôts GitHub des équipes cloud",
-    "link": "https://www.e-connect.fr/secrets-github-cloud",
-    "date": "2026-02-22",
-    "month": "2026-02"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare One for SMBs: affordable cloud security",
-    "link": "https://blog.cloudflare.com/cloudflare-one-smb/",
-    "date": "2026-02-25",
     "month": "2026-02"
   }
 ]
