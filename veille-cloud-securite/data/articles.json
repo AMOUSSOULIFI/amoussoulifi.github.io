@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+    "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+    "date": "2026-04-05",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+    "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+    "date": "2026-04-05",
+    "month": "2026-04"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans VMware Tanzu (03 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0394/",
@@ -710,20 +724,6 @@
     "source": "The Hacker News",
     "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
     "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
-    "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Masters of Imitation: How Hackers and Art Forgers Perfect the Art of Deception",
-    "link": "https://thehackernews.com/2026/03/masters-of-imitation-how-hackers-and.html",
-    "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: PQC Push, AI Vuln Hunting, Pirated Traps, Phishing Kits & 20 More Stories",
-    "link": "https://thehackernews.com/2026/03/threatsday-bulletin-pqc-push-ai-vuln.html",
     "date": "2026-03-26",
     "month": "2026-03"
   },
