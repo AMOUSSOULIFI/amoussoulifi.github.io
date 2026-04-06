@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
+    "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
+    "date": "2026-04-05",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
     "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
     "date": "2026-04-05",
@@ -710,20 +724,6 @@
     "source": "The Hacker News",
     "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
     "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
-    "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[Webinar] Stop Guessing. Learn to Validate Your Defenses Against Real Attacks",
-    "link": "https://thehackernews.com/2026/03/webinar-stop-guessing-learn-to-validate.html",
-    "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Extension Flaw Enabled Zero-Click XSS Prompt Injection via Any Website",
-    "link": "https://thehackernews.com/2026/03/claude-extension-flaw-enabled-zero.html",
     "date": "2026-03-26",
     "month": "2026-03"
   },
