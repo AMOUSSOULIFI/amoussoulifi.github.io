@@ -1,6 +1,83 @@
 [
   {
     "source": "The Hacker News",
+    "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
+    "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
+    "date": "2026-04-07",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
+    "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
+    "date": "2026-04-07",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
+    "link": "https://blog.cloudflare.com/organizations-beta/",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Inside an AI‑enabled device code phishing campaign",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iran-Linked Password-Spraying Campaign Targets 300+ Israeli Microsoft 365 Organizations",
+    "link": "https://thehackernews.com/2026/04/iran-linked-password-spraying-campaign.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DPRK-Linked Hackers Use GitHub as C2 in Multi-Stage Attacks Targeting South Korea",
+    "link": "https://thehackernews.com/2026/04/dprk-linked-hackers-use-github-as-c2-in.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Multi-OS Cyberattacks: How SOCs Close a Critical Risk in 3 Steps",
+    "link": "https://thehackernews.com/2026/04/multi-os-cyberattacks-how-socs-close.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+    "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Qilin and Warlock Ransomware Use Vulnerable Drivers to Disable 300+ EDR Tools",
+    "link": "https://thehackernews.com/2026/04/qilin-and-warlock-ransomware-use.html",
+    "date": "2026-04-06",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
     "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
     "date": "2026-04-06",
@@ -665,80 +742,10 @@
     "month": "2026-03"
   },
   {
-    "source": "The Hacker News",
-    "title": "Apple Sends Lock Screen Alerts to Outdated iPhones Over Active Web-Based Exploits",
-    "link": "https://thehackernews.com/2026/03/apple-sends-lock-screen-alerts-to.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TeamPCP Pushes Malicious Telnyx Versions to PyPI, Hides Stealer in WAV Files",
-    "link": "https://thehackernews.com/2026/03/teampcp-pushes-malicious-telnyx.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Open VSX Bug Let Malicious VS Code Extensions Bypass Pre-Publish Security Checks",
-    "link": "https://thehackernews.com/2026/03/open-vsx-bug-let-malicious-vs-code.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AitM Phishing Targets TikTok Business Accounts Using Cloudflare Turnstile Evasion",
-    "link": "https://thehackernews.com/2026/03/aitm-phishing-targets-tiktok-business.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "We Are At War",
-    "link": "https://thehackernews.com/2026/03/we-are-at-war.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bearlyfy Hits Russian Firms with Custom GenieLocker Ransomware",
-    "link": "https://thehackernews.com/2026/03/bearlyfy-hits-70-russian-firms-with.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LangChain, LangGraph Flaws Expose Files, Secrets, Databases in Widely Used AI Frameworks",
-    "link": "https://thehackernews.com/2026/03/langchain-langgraph-flaws-expose-files.html",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
     "source": "Cloudflare",
     "title": "A one-line Kubernetes fix that saved 600 hours a year",
     "link": "https://blog.cloudflare.com/one-line-kubernetes-fix-saved-600-hours-a-year/",
     "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Red Menshen Uses Stealthy BPFDoor Implants to Spy via Telecom Networks",
-    "link": "https://thehackernews.com/2026/03/china-linked-red-menshen-uses-stealthy.html",
-    "date": "2026-03-26",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Identity security is the new pressure point for modern cyberattacks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/25/identity-security-is-the-new-pressure-point-for-modern-cyberattacks/",
-    "date": "2026-03-25",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Guidance for detecting, investigating, and defending against the Trivy supply chain compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/24/detecting-investigating-defending-against-trivy-supply-chain-compromise/",
-    "date": "2026-03-25",
     "month": "2026-03"
   },
   {
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Building a security overview dashboard for actionable insights",
     "link": "https://blog.cloudflare.com/security-overview-dashboard/",
-    "date": "2026-03-10",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Translating risk insights into actionable protection: leveling up security posture with Cloudflare and Mastercard",
-    "link": "https://blog.cloudflare.com/attack-surface-intelligence/",
     "date": "2026-03-10",
     "month": "2026-03"
   }
