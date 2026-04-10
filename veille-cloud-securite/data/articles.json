@@ -1,5 +1,138 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
+    "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
+    "date": "2026-04-10",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
+    "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
+    "date": "2026-04-10",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0407/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0413/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0408/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0414/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0410/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0412/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0409/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mitel MiCollab (09 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0411/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "The agentic SOC—Rethinking SecOps for the next decade",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Intent redirection vulnerability in third-party SDK exposed millions of Android wallets to potential risk",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
+    "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
+    "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+    "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025",
+    "link": "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
+    "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
+    "date": "2026-04-09",
+    "month": "2026-04"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans OpenSSL (08 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0403/",
@@ -560,58 +693,9 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "New Chrome Zero-Day CVE-2026-5281 Under Active Exploitation — Patch Released",
-    "link": "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html",
-    "date": "2026-04-01",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3 Reasons Attackers Are Using Your Trusted Tools Against You (And Why You Don’t See It Coming)",
-    "link": "https://thehackernews.com/2026/04/3-reasons-attackers-are-using-your.html",
-    "date": "2026-04-01",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Attributes Axios npm Supply Chain Attack to North Korean Group UNC1069",
-    "link": "https://thehackernews.com/2026/04/google-attributes-axios-npm-supply.html",
-    "date": "2026-04-01",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Code Source Leaked via npm Packaging Error, Anthropic Confirms",
-    "link": "https://thehackernews.com/2026/04/claude-code-tleaked-via-npm-packaging.html",
-    "date": "2026-04-01",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Papercut (31 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0377/",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits FoxIT (31 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0382/",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Symantec Data Loss Prevention (DLP) (31 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0378/",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Elastic OpenTelemetry Java (31 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0379/",
     "date": "2026-03-31",
     "month": "2026-03"
   },
@@ -651,72 +735,9 @@
     "month": "2026-03"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Applying security fundamentals to AI: Practical advice for CISOs",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/31/applying-security-fundamentals-to-ai-practical-advice-for-cisos/",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "WhatsApp malware campaign delivers VBScript and MSI backdoors",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/31/whatsapp-malware-campaign-delivers-vbs-payloads-msi-backdoors/",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Android Developer Verification Rollout Begins Ahead of September Enforcement",
-    "link": "https://thehackernews.com/2026/03/android-developer-verification-rollout.html",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TrueConf Zero-Day Exploited in Attacks on Southeast Asian Government Networks",
-    "link": "https://thehackernews.com/2026/03/trueconf-zero-day-exploited-in-attacks.html",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Vertex AI Vulnerability Exposes Google Cloud Data and Private Artifacts",
-    "link": "https://thehackernews.com/2026/03/vertex-ai-vulnerability-exposes-google.html",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The AI Arms Race – Why Unified Exposure Management Is Becoming a Boardroom Priority",
-    "link": "https://thehackernews.com/2026/03/the-ai-arms-race-why-unified-exposure.html",
-    "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-013 (30 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-013/",
-    "date": "2026-03-30",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Docker Desktop (30 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0374/",
-    "date": "2026-03-30",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (30 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0376/",
-    "date": "2026-03-30",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (30 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0375/",
     "date": "2026-03-30",
     "month": "2026-03"
   },
@@ -732,27 +753,6 @@
     "title": "Cloudflare Client-Side Security: smarter detection, now open to everyone",
     "link": "https://blog.cloudflare.com/client-side-security-open-to-everyone/",
     "date": "2026-03-30",
-    "month": "2026-03"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Addressing the OWASP Top 10 Risks in Agentic AI with Microsoft Copilot Studio",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/03/30/addressing-the-owasp-top-10-risks-in-agentic-ai-with-microsoft-copilot-studio/",
-    "date": "2026-03-30",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (27 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0371/",
-    "date": "2026-03-27",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (27 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0372/",
-    "date": "2026-03-27",
     "month": "2026-03"
   },
   {
