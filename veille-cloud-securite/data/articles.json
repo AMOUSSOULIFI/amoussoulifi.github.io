@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
+    "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Welcome to Agents Week",
+    "link": "https://blog.cloudflare.com/welcome-to-agents-week/",
+    "date": "2026-04-12",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
     "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
     "date": "2026-04-12",
@@ -707,13 +721,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "The State of Trusted Open Source Report",
-    "link": "https://thehackernews.com/2026/04/the-state-of-trusted-open-source-report.html",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Our ongoing commitment to privacy for the 1.1.1.1 public DNS resolver",
     "link": "https://blog.cloudflare.com/1111-privacy-examination-2026/",
@@ -830,13 +837,6 @@
     "title": "Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans",
     "link": "https://blog.cloudflare.com/account-abuse-protection/",
     "date": "2026-03-12",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Slashing agent token costs by 98% with RFC 9457-compliant error responses",
-    "link": "https://blog.cloudflare.com/rfc-9457-agent-error-pages/",
-    "date": "2026-03-11",
     "month": "2026-03"
   }
 ]
