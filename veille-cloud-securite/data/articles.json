@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
+    "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
+    "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilités et risques des produits d’automatisation par IA agentique sur les postes de travail (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-016/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-017 (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-017/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Adobe Acrobat (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0429/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Foxit PDF Services API (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0425/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Python (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0426/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0428/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (13 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0427/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building a CLI for all of Cloudflare",
+    "link": "https://blog.cloudflare.com/cf-cli-local-explorer/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Durable Objects in Dynamic Workers: Give each AI-generated app its own database",
+    "link": "https://blog.cloudflare.com/durable-object-facets-dynamic-workers/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Agents have their own computers with Sandboxes GA",
+    "link": "https://blog.cloudflare.com/sandbox-ga/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Dynamic, identity-aware, and secure Sandbox auth",
+    "link": "https://blog.cloudflare.com/sandbox-auth/",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
+    "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI and Indonesian Police Dismantle W3LL Phishing Network Behind $20M Fraud Attempts",
+    "link": "https://thehackernews.com/2026/04/fbi-and-indonesian-police-dismantle.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Fiber Optic Spying, Windows Rootkit, AI Vulnerability Hunting and More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-fiber-optic-spying-windows.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your MTTD Looks Great. Your Post-Alert Gap Doesn't",
+    "link": "https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korea's APT37 Uses Facebook Social Engineering to Deliver RokRAT Malware",
+    "link": "https://thehackernews.com/2026/04/north-koreas-apt37-uses-facebook-social.html",
+    "date": "2026-04-13",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident",
     "link": "https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html",
     "date": "2026-04-13",
@@ -575,20 +701,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0392/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Synology Mail Station (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0393/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (03 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0398/",
     "date": "2026-04-03",
@@ -616,62 +728,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Why Third-Party Risk Is the Biggest Gap in Your Clients' Security Posture",
-    "link": "https://thehackernews.com/2026/04/why-third-party-risk-is-biggest-gap-in.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New SparkCat Variant in iOS, Android Apps Steals Crypto Wallet Recovery Phrase Images",
-    "link": "https://thehackernews.com/2026/04/new-sparkcat-variant-in-ios-android.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drift Loses $285 Million in Durable Nonce Social Engineering Attack Linked to DPRK",
-    "link": "https://thehackernews.com/2026/04/drift-loses-285-million-in-durable.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Azure Linux (02 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0389/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Belden NetModule Router Software (02 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0390/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans OpenSSH (02 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0391/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (02 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0388/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Netgate (02 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0387/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Why we're rethinking cache for the AI era",
     "link": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
@@ -689,34 +745,6 @@
     "source": "Microsoft Security",
     "title": "Cookie-controlled PHP webshells: A stealthy tradecraft in Linux hosting environments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/cookie-controlled-php-webshells-tradecraft-linux-hosting-environments/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit CVE-2025-55182 to Breach 766 Next.js Hosts, Steal Credentials",
-    "link": "https://thehackernews.com/2026/04/hackers-exploit-cve-2025-55182-to.html",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches 9.8 CVSS IMC and SSM Flaws Allowing Remote System Compromise",
-    "link": "https://thehackernews.com/2026/04/cisco-patches-98-cvss-imc-and-ssm-flaws.html",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Pre-Auth Chains, Android Rootkits, CloudTrail Evasion & 10 More Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-pre-auth-chains.html",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Uncover Mining Operation Using ISO Lures to Spread RATs and Crypto Miners",
-    "link": "https://thehackernews.com/2026/04/researchers-uncover-mining-operation.html",
     "date": "2026-04-02",
     "month": "2026-04"
   },
@@ -809,34 +837,6 @@
     "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
     "link": "https://blog.cloudflare.com/workers-ai-large-models/",
     "date": "2026-03-19",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Custom Regions for precision data control",
-    "link": "https://blog.cloudflare.com/custom-regions/",
-    "date": "2026-03-18",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Standing up for the open Internet: why we appealed Italy’s \"Piracy Shield\" fine",
-    "link": "https://blog.cloudflare.com/standing-up-for-the-open-internet/",
-    "date": "2026-03-16",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "From legacy architecture to Cloudflare One",
-    "link": "https://blog.cloudflare.com/legacy-to-agile-sase/",
-    "date": "2026-03-13",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare Account Abuse Protection: prevent fraudulent attacks from bots and humans",
-    "link": "https://blog.cloudflare.com/account-abuse-protection/",
-    "date": "2026-03-12",
     "month": "2026-03"
   }
 ]
