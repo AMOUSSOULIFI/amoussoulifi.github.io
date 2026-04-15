@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
+    "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
+    "date": "2026-04-15",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0434/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0435/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology SSL VPN Client (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0431/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Python (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0430/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Schneider Electric (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0433/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Siemens (14 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0432/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
+    "link": "https://blog.cloudflare.com/improved-developer-security/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP",
+    "link": "https://blog.cloudflare.com/enterprise-mcp/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Managed OAuth for Access: make internal apps agent-ready in one click",
+    "link": "https://blog.cloudflare.com/managed-oauth-for-access/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh",
+    "link": "https://blog.cloudflare.com/mesh/",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
+    "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
+    "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
+    "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
+    "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
+    "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
+    "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
+    "date": "2026-04-14",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
     "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
     "date": "2026-04-14",
@@ -491,20 +610,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Android (07 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0399/",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Fortinet FortiClientEMS (07 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0400/",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GLPI (07 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0401/",
     "date": "2026-04-07",
@@ -644,90 +749,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks",
-    "link": "https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html",
-    "date": "2026-04-06",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "$285 Million Drift Hack Traced to Six-Month DPRK Social Engineering Operation",
-    "link": "https://thehackernews.com/2026/04/285-million-drift-hack-traced-to-six.html",
-    "date": "2026-04-05",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
-    "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
-    "date": "2026-04-05",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
-    "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
-    "date": "2026-04-05",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans VMware Tanzu (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0394/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0395/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0397/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0396/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (03 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0398/",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked TA416 Targets European Governments with PlugX and OAuth-Based Phishing",
-    "link": "https://thehackernews.com/2026/04/china-linked-ta416-targets-european.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Details Cookie-Controlled PHP Web Shells Persisting via Cron on Linux Servers",
-    "link": "https://thehackernews.com/2026/04/microsoft-details-cookie-controlled-php.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC1069 Social Engineering of Axios Maintainer Led to npm Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/04/unc1069-social-engineering-of-axios.html",
-    "date": "2026-04-03",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Why we're rethinking cache for the AI era",
     "link": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
@@ -812,30 +833,9 @@
     "month": "2026-03"
   },
   {
-    "source": "Cloudflare",
-    "title": "Sandboxing AI agents, 100x faster",
-    "link": "https://blog.cloudflare.com/dynamic-workers/",
-    "date": "2026-03-24",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Inside Gen 13: how we built our most powerful server yet",
-    "link": "https://blog.cloudflare.com/gen13-config/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Launching Cloudflare’s Gen 13 servers: trading cache for cores for 2x edge compute performance",
-    "link": "https://blog.cloudflare.com/gen13-launch/",
-    "date": "2026-03-23",
-    "month": "2026-03"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Powering the agents: Workers AI now runs large models, starting with Kimi K2.5",
-    "link": "https://blog.cloudflare.com/workers-ai-large-models/",
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
     "date": "2026-03-19",
     "month": "2026-03"
   }
