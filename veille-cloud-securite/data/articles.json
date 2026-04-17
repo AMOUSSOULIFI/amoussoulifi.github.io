@@ -1,6 +1,167 @@
 [
   {
     "source": "The Hacker News",
+    "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
+    "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
+    "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
+    "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0446/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Drupal (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0447/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0451/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apache Kafka (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0449/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0448/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Splunk (16 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0450/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
+    "link": "https://blog.cloudflare.com/ai-platform/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building the foundation for running extra-large language models",
+    "link": "https://blog.cloudflare.com/high-performance-llms/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "AI Search: the search primitive for your agents",
+    "link": "https://blog.cloudflare.com/ai-search-agent-primitive/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
+    "link": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Artifacts: versioned storage that speaks Git",
+    "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
+    "link": "https://blog.cloudflare.com/email-for-agents/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Building your cryptographic inventory: A customer strategy for cryptographic posture management",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Dissecting Sapphire Sleet’s macOS intrusion from lure to compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
+    "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
+    "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
+    "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
+    "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
     "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
     "date": "2026-04-16",
@@ -78,6 +239,13 @@
   },
   {
     "source": "Cloudflare",
+    "title": "Project Think: building the next generation of AI agents on Cloudflare",
+    "link": "https://blog.cloudflare.com/project-think/",
+    "date": "2026-04-15",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
     "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
     "link": "https://blog.cloudflare.com/introducing-agent-lee/",
     "date": "2026-04-15",
@@ -87,13 +255,6 @@
     "source": "Cloudflare",
     "title": "Register domains wherever you build: Cloudflare Registrar API now in beta",
     "link": "https://blog.cloudflare.com/registrar-api-beta/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Project Think: building the next generation of AI agents on Cloudflare",
-    "link": "https://blog.cloudflare.com/project-think/",
     "date": "2026-04-15",
     "month": "2026-04"
   },
@@ -413,13 +574,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Welcome to Agents Week",
-    "link": "https://blog.cloudflare.com/welcome-to-agents-week/",
-    "date": "2026-04-12",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "CPUID Breach Distributes STX RAT via Trojanized CPU-Z and HWMonitor Downloads",
     "link": "https://thehackernews.com/2026/04/cpuid-breach-distributes-stx-rat-via.html",
@@ -511,13 +665,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "500 Tbps of capacity: 16 years of scaling our global network",
-    "link": "https://blog.cloudflare.com/500-tbps-of-capacity/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
     "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
@@ -550,48 +697,6 @@
     "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
     "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
     "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0413/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0414/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0410/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0412/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0409/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mitel MiCollab (09 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0411/",
-    "date": "2026-04-09",
     "month": "2026-04"
   },
   {
@@ -658,13 +763,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "From bytecode to bytes: automated magic packet generation",
-    "link": "https://blog.cloudflare.com/from-bpf-to-packet/",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
     "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
@@ -707,87 +805,10 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Iran-Linked Hackers Disrupt U.S. Critical Infrastructure by Targeting Internet-Exposed PLCs",
-    "link": "https://thehackernews.com/2026/04/iran-linked-hackers-disrupt-us-critical.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare targets 2029 for full post-quantum security",
-    "link": "https://blog.cloudflare.com/post-quantum-roadmap/",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
     "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian State-Linked APT28 Exploits SOHO Routers in Global DNS Hijacking Campaign",
-    "link": "https://thehackernews.com/2026/04/russian-state-linked-apt28-exploits.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
-    "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Docker CVE-2026-34040 Lets Attackers Bypass Authorization and Gain Host Access",
-    "link": "https://thehackernews.com/2026/04/docker-cve-2026-34040-lets-attackers.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
-    "link": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Hidden Cost of Recurring Credential Incidents",
-    "link": "https://thehackernews.com/2026/04/the-hidden-cost-of-recurring-credential.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New GPUBreach Attack Enables Full CPU Privilege Escalation via GDDR6 Bit-Flips",
-    "link": "https://thehackernews.com/2026/04/new-gpubreach-attack-enables-full-cpu.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Storm-1175 Exploits Zero-Days to Rapidly Deploy Medusa Ransomware",
-    "link": "https://thehackernews.com/2026/04/china-linked-storm-1175-exploits-zero.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Flowise AI Agent Builder Under Active CVSS 10.0 RCE Exploitation; 12,000+ Instances Exposed",
-    "link": "https://thehackernews.com/2026/04/flowise-ai-agent-builder-under-active.html",
-    "date": "2026-04-07",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How we built Organizations to help enterprises manage Cloudflare at scale",
-    "link": "https://blog.cloudflare.com/organizations-beta/",
-    "date": "2026-04-06",
     "month": "2026-04"
   },
   {
@@ -805,31 +826,10 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Why we're rethinking cache for the AI era",
-    "link": "https://blog.cloudflare.com/rethinking-cache-ai-humans/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Threat actor abuse of AI accelerates from tool to cyberattack surface",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
     "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Cookie-controlled PHP webshells: A stealthy tradecraft in Linux hosting environments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/cookie-controlled-php-webshells-tradecraft-linux-hosting-environments/",
-    "date": "2026-04-02",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Mitigating the Axios npm supply chain compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/01/mitigating-the-axios-npm-supply-chain-compromise/",
-    "date": "2026-04-01",
     "month": "2026-04"
   },
   {
