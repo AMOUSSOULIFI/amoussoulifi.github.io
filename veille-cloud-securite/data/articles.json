@@ -1,6 +1,118 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
+    "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
+    "date": "2026-04-18",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0452/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0454/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (17 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0456/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans IBM QRadar (17 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0455/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (17 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0453/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing the Agent Readiness score. Is your site agent-ready?",
+    "link": "https://blog.cloudflare.com/agent-readiness/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Shared Dictionaries: compression that keeps up with the agentic web",
+    "link": "https://blog.cloudflare.com/shared-dictionaries/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Redirects for AI Training enforces canonical content",
+    "link": "https://blog.cloudflare.com/ai-redirects/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
+    "link": "https://blog.cloudflare.com/unweight-tensor-compression/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Agents that remember: introducing Agent Memory",
+    "link": "https://blog.cloudflare.com/introducing-agent-memory/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Agents Week: network performance update",
+    "link": "https://blog.cloudflare.com/network-performance-agents-week/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Flagship: feature flags built for the age of AI",
+    "link": "https://blog.cloudflare.com/flagship/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Containing a domain compromise: How predictive shielding shut down lateral movement",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
+    "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
+    "link": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
+    "date": "2026-04-17",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
     "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
     "date": "2026-04-17",
@@ -78,6 +190,13 @@
   },
   {
     "source": "Cloudflare",
+    "title": "Artifacts: versioned storage that speaks Git",
+    "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
+    "date": "2026-04-16",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
     "title": "AI Search: the search primitive for your agents",
     "link": "https://blog.cloudflare.com/ai-search-agent-primitive/",
     "date": "2026-04-16",
@@ -87,13 +206,6 @@
     "source": "Cloudflare",
     "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
     "link": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Artifacts: versioned storage that speaks Git",
-    "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
     "date": "2026-04-16",
     "month": "2026-04"
   },
@@ -143,13 +255,6 @@
     "source": "The Hacker News",
     "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
     "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hidden Passenger? How Taboola Routes Logged-In Banking Sessions to Temu",
-    "link": "https://thehackernews.com/2026/04/hidden-passenger-how-taboola-routes.html",
     "date": "2026-04-16",
     "month": "2026-04"
   },
@@ -378,27 +483,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Scaling MCP adoption: Our reference architecture for simpler, safer and cheaper enterprise deployments of MCP",
-    "link": "https://blog.cloudflare.com/enterprise-mcp/",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Managed OAuth for Access: make internal apps agent-ready in one click",
-    "link": "https://blog.cloudflare.com/managed-oauth-for-access/",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Secure private networking for everyone: users, nodes, agents, Workers — introducing Cloudflare Mesh",
-    "link": "https://blog.cloudflare.com/mesh/",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
     "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
@@ -504,34 +588,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Building a CLI for all of Cloudflare",
-    "link": "https://blog.cloudflare.com/cf-cli-local-explorer/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Durable Objects in Dynamic Workers: Give each AI-generated app its own database",
-    "link": "https://blog.cloudflare.com/durable-object-facets-dynamic-workers/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Agents have their own computers with Sandboxes GA",
-    "link": "https://blog.cloudflare.com/sandbox-ga/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Dynamic, identity-aware, and secure Sandbox auth",
-    "link": "https://blog.cloudflare.com/sandbox-auth/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
     "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
@@ -596,36 +652,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0418/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (10 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0420/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Security Center (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0415/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Desktop App (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0419/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Spring Cloud Gateway (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0417/",
     "date": "2026-04-10",
     "month": "2026-04"
   },
@@ -647,13 +675,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0422/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Juniper Networks (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0416/",
     "date": "2026-04-10",
     "month": "2026-04"
   },
@@ -791,20 +812,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
-    "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
-    "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
@@ -823,13 +830,6 @@
     "title": "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/",
     "date": "2026-04-06",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Threat actor abuse of AI accelerates from tool to cyberattack surface",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/02/threat-actor-abuse-of-ai-accelerates-from-tool-to-cyberattack-surface/",
-    "date": "2026-04-02",
     "month": "2026-04"
   },
   {
