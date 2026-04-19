@@ -1,5 +1,26 @@
 [
   {
+    "source": "Microsoft Security",
+    "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
+    "date": "2026-04-18",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "date": "2026-04-18",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
+    "link": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
+    "date": "2026-04-18",
+    "month": "2026-04"
+  },
+  {
     "source": "The Hacker News",
     "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
     "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
@@ -241,13 +262,6 @@
     "source": "The Hacker News",
     "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
     "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
-    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
     "date": "2026-04-16",
     "month": "2026-04"
   },
@@ -805,13 +819,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
-    "link": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
@@ -822,13 +829,6 @@
     "source": "Microsoft Security",
     "title": "Inside an AI‑enabled device code phishing campaign",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
-    "date": "2026-04-06",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Storm-1175 focuses gaze on vulnerable web-facing assets in high-tempo Medusa ransomware operations",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/storm-1175-focuses-gaze-on-vulnerable-web-facing-assets-in-high-tempo-medusa-ransomware-operations/",
     "date": "2026-04-06",
     "month": "2026-04"
   },
