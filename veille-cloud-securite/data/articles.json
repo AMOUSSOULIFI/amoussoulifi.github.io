@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
+    "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
+    "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
     "source": "Microsoft Security",
     "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
@@ -801,20 +815,6 @@
     "source": "The Hacker News",
     "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
     "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Masjesu Botnet Emerges as DDoS-for-Hire Service Targeting Global IoT Devices",
-    "link": "https://thehackernews.com/2026/04/masjesu-botnet-emerges-as-ddos-for-hire.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT28 Deploys PRISMEX Malware in Campaign Targeting Ukraine and NATO Allies",
-    "link": "https://thehackernews.com/2026/04/apt28-deploys-prismex-malware-in.html",
     "date": "2026-04-08",
     "month": "2026-04"
   },
