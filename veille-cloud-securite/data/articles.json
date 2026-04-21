@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
+    "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-018 (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-018/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0463/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0459/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0462/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Spring Framework (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0457/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Moxa (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0458/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache Kafka (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0461/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Xen (20 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0460/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
+    "link": "https://blog.cloudflare.com/agents-week-in-review/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The AI engineering stack we built internally — on the platform we ship",
+    "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Orchestrating AI Code Review at scale",
+    "link": "https://blog.cloudflare.com/ai-code-review/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Making opportunistic cyberattacks harder by design",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
+    "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why Most AI Deployments Stall After the Demo",
+    "link": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
+    "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+    "date": "2026-04-20",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
     "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
     "date": "2026-04-20",
@@ -399,20 +518,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Rearchitecting the Workflows control plane for the agentic era",
-    "link": "https://blog.cloudflare.com/workflows-v2/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Add voice to your agent",
-    "link": "https://blog.cloudflare.com/voice-agents/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Incident response for AI: Same fire, different fuel",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
@@ -504,13 +609,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Securing non-human identities: automated revocation, OAuth, and scoped permissions",
-    "link": "https://blog.cloudflare.com/improved-developer-security/",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
     "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
@@ -581,41 +679,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Adobe Acrobat (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0429/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Foxit PDF Services API (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0425/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Python (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0426/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0428/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0427/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
     "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
@@ -676,41 +739,6 @@
     "title": "Citizen Lab: Law Enforcement Used Webloc to Track 500 Million Devices via Ad Data",
     "link": "https://thehackernews.com/2026/04/citizen-lab-law-enforcement-used-webloc.html",
     "date": "2026-04-11",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0420/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0424/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0421/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0422/",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0423/",
-    "date": "2026-04-10",
     "month": "2026-04"
   },
   {
@@ -784,41 +812,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Hybrid P2P Botnet, 13-Year-Old Apache RCE and 18 More Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-hybrid-p2p-botnet.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
-    "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adobe Reader Zero-Day Exploited via Malicious PDFs Since December 2025",
-    "link": "https://thehackernews.com/2026/04/adobe-reader-zero-day-exploited-via.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitter-Linked Hack-for-Hire Campaign Targets Journalists Across MENA Region",
-    "link": "https://thehackernews.com/2026/04/bitter-linked-hack-for-hire-campaign.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Chaos Variant Targets Misconfigured Cloud Deployments, Adds SOCKS Proxy",
-    "link": "https://thehackernews.com/2026/04/new-chaos-variant-targets-misconfigured.html",
-    "date": "2026-04-08",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
@@ -826,17 +819,24 @@
     "month": "2026-04"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Inside an AI‑enabled device code phishing campaign",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
-    "date": "2026-04-06",
-    "month": "2026-04"
+    "source": "ANSSI",
+    "title": "Note d’alerte – Ciblage des messageries instantanées (20 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-003/",
+    "date": "2026-03-20",
+    "month": "2026-03"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
     "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (06 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0243/",
+    "date": "2026-03-06",
     "month": "2026-03"
   }
 ]
