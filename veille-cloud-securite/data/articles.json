@@ -1,5 +1,89 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (21 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0466/",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Typo3 (21 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0464/",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (21 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0465/",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Moving past bots vs. humans",
+    "link": "https://blog.cloudflare.com/past-bots-and-humans/",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Detection strategies across cloud and identities against infiltrating IT workers",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
+    "link": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
+    "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
+    "link": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
+    "link": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+    "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
+    "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
+    "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
+    "date": "2026-04-21",
+    "month": "2026-04"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
     "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
@@ -511,13 +595,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Browser Run: give your agents a browser",
-    "link": "https://blog.cloudflare.com/browser-run-for-ai-agents/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Incident response for AI: Same fire, different fuel",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
@@ -584,13 +661,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Synology SSL VPN Client (14 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0431/",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Python (14 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0430/",
     "date": "2026-04-14",
     "month": "2026-04"
   },
@@ -665,20 +735,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilités et risques des produits d’automatisation par IA agentique sur les postes de travail (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-016/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-017 (13 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-017/",
-    "date": "2026-04-13",
-    "month": "2026-04"
-  },
-  {
     "source": "The Hacker News",
     "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
     "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
@@ -742,41 +798,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "GlassWorm Campaign Uses Zig Dropper to Infect Multiple Developer IDEs",
-    "link": "https://thehackernews.com/2026/04/glassworm-campaign-uses-zig-dropper-to.html",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About",
-    "link": "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Rolls Out DBSC in Chrome 146 to Block Session Theft on Windows",
-    "link": "https://thehackernews.com/2026/04/google-rolls-out-dbsc-in-chrome-146-to.html",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Marimo RCE Flaw CVE-2026-39987 Exploited Within 10 Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/04/marimo-rce-flaw-cve-2026-39987.html",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Backdoored Smart Slider 3 Pro Update Distributed via Compromised Nextend Servers",
-    "link": "https://thehackernews.com/2026/04/backdoored-smart-slider-3-pro-update.html",
-    "date": "2026-04-10",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "The agentic SOC—Rethinking SecOps for the next decade",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
@@ -795,27 +816,6 @@
     "title": "Intent redirection vulnerability in third-party SDK exposed millions of Android wallets to potential risk",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/intent-redirection-vulnerability-third-party-sdk-android/",
     "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "EngageLab SDK Flaw Exposed 50M Android Users, Including 30M Crypto Wallet Installs",
-    "link": "https://thehackernews.com/2026/04/engagelab-sdk-flaw-exposed-50m-android.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-10362 Targets Taiwanese NGOs with LucidRook Malware in Spear-Phishing Campaigns",
-    "link": "https://thehackernews.com/2026/04/uat-10362-targets-taiwanese-ngos-with.html",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "SOHO router compromise leads to DNS hijacking and adversary-in-the-middle attacks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/",
-    "date": "2026-04-07",
     "month": "2026-04"
   },
   {
