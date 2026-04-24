@@ -1,5 +1,117 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
+    "date": "2026-04-24",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0486/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0482/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Stormshield Management Center (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0483/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0487/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans strongSwan (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0484/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Apple (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0481/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (23 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0485/",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UNC6692 Impersonates IT Helpdesk via Microsoft Teams to Deploy SNOW Malware",
+    "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
+    "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+    "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
+    "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
+    "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
+    "link": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
+    "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
+    "date": "2026-04-23",
+    "month": "2026-04"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle PeopleSoft (22 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0470/",
@@ -546,41 +658,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Drupal (16 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0447/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (16 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0451/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apache Kafka (16 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0449/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (16 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0448/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Splunk (16 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0450/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
     "link": "https://blog.cloudflare.com/ai-platform/",
@@ -672,20 +749,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (15 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0440/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (15 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0436/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Project Think: building the next generation of AI agents on Cloudflare",
     "link": "https://blog.cloudflare.com/project-think/",
@@ -746,69 +809,6 @@
     "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
     "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
     "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New PHP Composer Flaws Enable Arbitrary Command Execution — Patches Released",
-    "link": "https://thehackernews.com/2026/04/new-php-composer-flaws-enable-arbitrary.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Adds Rust-Based DNS Parser into Pixel 10 Modem to Enhance Security",
-    "link": "https://thehackernews.com/2026/04/google-adds-rust-based-dns-parser-into.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
-    "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mirax Android RAT Turns Devices into SOCKS5 Proxies, Reaching 220,000 via Meta Ads",
-    "link": "https://thehackernews.com/2026/04/mirax-android-rat-turns-devices-into.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
-    "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "108 Malicious Chrome Extensions Steal Google and Telegram Data, Affecting 20,000 Users",
-    "link": "https://thehackernews.com/2026/04/108-malicious-chrome-extensions-steal.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ShowDoc RCE Flaw CVE-2025-0520 Actively Exploited on Unpatched Servers",
-    "link": "https://thehackernews.com/2026/04/showdoc-rce-flaw-cve-2025-0520-actively.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds 6 Known Exploited Flaws in Fortinet, Microsoft, and Adobe Software",
-    "link": "https://thehackernews.com/2026/04/cisa-adds-6-known-exploited-flaws-in.html",
-    "date": "2026-04-14",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "JanelaRAT Malware Targets Latin American Banks with 14,739 Attacks in Brazil in 2025",
-    "link": "https://thehackernews.com/2026/04/janelarat-malware-targets-latin.html",
-    "date": "2026-04-13",
     "month": "2026-04"
   },
   {
