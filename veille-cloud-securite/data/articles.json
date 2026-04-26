@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
+    "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
+    "date": "2026-04-25",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
     "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
     "date": "2026-04-25",
@@ -787,13 +794,6 @@
     "source": "The Hacker News",
     "title": "Obsidian Plugin Abuse Delivers PHANTOMPULSE RAT in Targeted Finance, Crypto Attacks",
     "link": "https://thehackernews.com/2026/04/obsidian-plugin-abuse-delivers.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAC-0247 Targets Ukrainian Clinics and Government in Data-Theft Malware Campaign",
-    "link": "https://thehackernews.com/2026/04/uac-0247-targets-ukrainian-clinics-and.html",
     "date": "2026-04-16",
     "month": "2026-04"
   },
