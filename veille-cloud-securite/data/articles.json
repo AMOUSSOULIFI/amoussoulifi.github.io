@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
+    "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+    "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Confirms Active Exploitation of Windows Shell CVE-2026-32202",
+    "link": "https://thehackernews.com/2026/04/microsoft-confirms-active-exploitation.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-019 (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-019/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0503/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans VMware Tanzu (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0500/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0502/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits FoxIT (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0501/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Moxa (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0499/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Zabbix Agent2 (27 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0498/",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Checkmarx Confirms GitHub Repository Data Posted on Dark Web After March 23 Attack",
+    "link": "https://thehackernews.com/2026/04/checkmarx-confirms-github-repository.html",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Fast16 Malware, XChat Launch, Federal Backdoor, AI Employee Tracking & More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-fast16-malware-xchat.html",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
+    "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
+    "link": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
+    "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
+    "date": "2026-04-27",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
     "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
     "date": "2026-04-27",
@@ -176,7 +281,7 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Server (23 avril 2026)",
+    "title": "Multiples vulnérabilités dans Mattermost Server (23 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0485/",
     "date": "2026-04-23",
     "month": "2026-04"
@@ -414,13 +519,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Typo3 (21 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0464/",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Mattermost Server (21 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0465/",
     "date": "2026-04-21",
@@ -494,41 +592,6 @@
     "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
     "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
     "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-018 (20 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-018/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (20 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0463/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (20 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0462/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Kafka (20 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0461/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Xen (20 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0460/",
-    "date": "2026-04-20",
     "month": "2026-04"
   },
   {
@@ -686,41 +749,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Three Microsoft Defender Zero-Days Actively Exploited; Two Still Unpatched",
-    "link": "https://thehackernews.com/2026/04/three-microsoft-defender-zero-days.html",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Blocks 8.3B Policy-Violating Ads in 2025, Launches Android 17 Privacy Overhaul",
-    "link": "https://thehackernews.com/2026/04/google-blocks-83b-policy-violating-ads.html",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NIST Limits CVE Enrichment After 263% Surge in Vulnerability Submissions",
-    "link": "https://thehackernews.com/2026/04/nist-limits-cve-enrichment-after-263.html",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Operation PowerOFF Seizes 53 DDoS Domains, Exposes 3 Million Criminal Accounts",
-    "link": "https://thehackernews.com/2026/04/operation-poweroff-seizes-53-ddos.html",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apache ActiveMQ CVE-2026-34197 Added to CISA KEV Amid Active Exploitation",
-    "link": "https://thehackernews.com/2026/04/apache-activemq-cve-2026-34197-added-to.html",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
     "link": "https://blog.cloudflare.com/ai-platform/",
@@ -777,27 +805,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Newly Discovered PowMix Botnet Hits Czech Workers Using Randomized C2 Traffic",
-    "link": "https://thehackernews.com/2026/04/newly-discovered-powmix-botnet-hits.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Defender 0-Day, SonicWall Brute-Force, 17-Year-Old Excel RCE and 15 More Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-17-year-old-excel.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches Four Critical Identity Services, Webex Flaws Enabling Code Execution",
-    "link": "https://thehackernews.com/2026/04/cisco-patches-four-critical-identity.html",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Project Think: building the next generation of AI agents on Cloudflare",
     "link": "https://blog.cloudflare.com/project-think/",
@@ -831,12 +838,5 @@
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
     "date": "2026-04-09",
     "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Note d’alerte – Ciblage des messageries instantanées (20 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-003/",
-    "date": "2026-03-20",
-    "month": "2026-03"
   }
 ]
