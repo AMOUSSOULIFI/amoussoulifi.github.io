@@ -1,6 +1,90 @@
 [
   {
     "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
+    "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Python (28 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0505/",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Spring (28 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0504/",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
+    "link": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
+    "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
+    "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
+    "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
+    "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "After Mythos: New Playbooks For a Zero-Window Era",
+    "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+    "date": "2026-04-28",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Chinese Silk Typhoon Hacker Extradited to U.S. Over COVID Research Cyberattacks",
     "link": "https://thehackernews.com/2026/04/chinese-silk-typhoon-hacker-extradited.html",
     "date": "2026-04-28",
@@ -511,20 +595,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (21 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0466/",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mattermost Server (21 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0465/",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Moving past bots vs. humans",
     "link": "https://blog.cloudflare.com/past-bots-and-humans/",
@@ -630,65 +700,9 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Vercel Hack, Push Fraud, QEMU Abused, New Android RATs Emerge & More",
-    "link": "https://thehackernews.com/2026/04/weekly-recap-vercel-hack-push-fraud.html",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Most AI Deployments Stall After the Demo",
-    "link": "https://thehackernews.com/2026/04/why-most-ai-deployments-stall-after-demo.html",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
-    "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Detect ZionSiphon Malware Targeting Israeli Water, Desalination OT Systems",
-    "link": "https://thehackernews.com/2026/04/researchers-detect-zionsiphon-malware.html",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Vercel Breach Tied to Context AI Hack Exposes Limited Customer Credentials",
-    "link": "https://thehackernews.com/2026/04/vercel-breach-tied-to-context-ai-hack.html",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
-    "date": "2026-04-18",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data",
-    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
-    "date": "2026-04-18",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "$13.74M Hack Shuts Down Sanctioned Grinex Exchange After Intelligence Claims",
-    "link": "https://thehackernews.com/2026/04/1374m-hack-shuts-down-sanctioned-grinex.html",
-    "date": "2026-04-18",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mirai Variant Nexcorium Exploits CVE-2024-3721 to Hijack TBK DVRs for DDoS Botnet",
-    "link": "https://thehackernews.com/2026/04/mirai-variant-nexcorium-exploits-cve.html",
     "date": "2026-04-18",
     "month": "2026-04"
   },
@@ -812,13 +826,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Introducing Agent Lee - a new interface to the Cloudflare stack",
-    "link": "https://blog.cloudflare.com/introducing-agent-lee/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Incident response for AI: Same fire, different fuel",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
@@ -829,13 +836,6 @@
     "source": "Microsoft Security",
     "title": "The agentic SOC—Rethinking SecOps for the next decade",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
-    "date": "2026-04-09",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Investigating Storm-2755: “Payroll pirate” attacks targeting Canadian employees",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/investigating-storm-2755-payroll-pirate-attacks-targeting-canadian-employees/",
     "date": "2026-04-09",
     "month": "2026-04"
   }
