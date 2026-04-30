@@ -1,5 +1,124 @@
 [
   {
+    "source": "Cloudflare",
+    "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+    "link": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
+    "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Xen (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0509/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Elastic Package Registry (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0511/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0508/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0513/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0512/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Curl (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0514/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0507/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0506/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Citrix XenServer (29 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0510/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "8 best practices for CISOs conducting risk reviews",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+    "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
+    "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
+    "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
+    "link": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
+    "date": "2026-04-29",
+    "month": "2026-04"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
     "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
@@ -428,27 +547,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0470/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0467/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0474/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Spring (22 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0477/",
     "date": "2026-04-22",
@@ -458,20 +556,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Atlassian (22 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0479/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0471/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0475/",
     "date": "2026-04-22",
     "month": "2026-04"
   },
@@ -491,36 +575,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0473/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0469/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0468/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits NetApp (22 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0476/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0472/",
     "date": "2026-04-22",
     "month": "2026-04"
   },
@@ -630,41 +686,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "5 Places where Mature SOCs Keep MTTR Fast and Others Waste Time",
-    "link": "https://thehackernews.com/2026/04/5-places-where-mature-socs-keep-mttr.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
-    "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "No Exploit Needed: How Attackers Walk Through the Front Door via Identity-Based Attacks",
-    "link": "https://thehackernews.com/2026/04/no-exploit-needed-how-attackers-walk.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Patches Antigravity IDE Flaw Enabling Prompt Injection Code Execution",
-    "link": "https://thehackernews.com/2026/04/google-patches-antigravity-ide-flaw.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds 8 Exploited Flaws to KEV, Sets April-May 2026 Federal Deadlines",
-    "link": "https://thehackernews.com/2026/04/cisa-adds-8-exploited-flaws-to-kev-sets.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
     "link": "https://blog.cloudflare.com/agents-week-in-review/",
@@ -689,13 +710,6 @@
     "source": "Microsoft Security",
     "title": "Making opportunistic cyberattacks harder by design",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SGLang CVE-2026-5760 (CVSS 9.8) Enables RCE via Malicious GGUF Model Files",
-    "link": "https://thehackernews.com/2026/04/sglang-cve-2026-5760-cvss-98-enables.html",
     "date": "2026-04-20",
     "month": "2026-04"
   },
@@ -819,24 +833,10 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Project Think: building the next generation of AI agents on Cloudflare",
-    "link": "https://blog.cloudflare.com/project-think/",
-    "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Incident response for AI: Same fire, different fuel",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
     "date": "2026-04-15",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "The agentic SOC—Rethinking SecOps for the next decade",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
-    "date": "2026-04-09",
     "month": "2026-04"
   }
 ]
