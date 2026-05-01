@@ -1,8 +1,134 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Netgate (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0516/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Exim (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0524/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Wireshark (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0518/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0523/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0521/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0522/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0517/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0520/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0519/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
+    "link": "https://blog.cloudflare.com/post-quantum-ipsec/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
     "source": "Cloudflare",
     "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
     "link": "https://blog.cloudflare.com/agents-stripe-projects/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "What’s new, updated, or recently released in Microsoft Security",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Email threat landscape: Q1 2026 trends and insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
+    "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
+    "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
+    "link": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
+    "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
     "date": "2026-04-30",
     "month": "2026-04"
   },
@@ -449,43 +575,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0482/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Stormshield Management Center (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0483/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Chrome (23 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0487/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans strongSwan (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0484/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Apple (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0481/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0485/",
     "date": "2026-04-23",
     "month": "2026-04"
   },
@@ -546,41 +637,6 @@
     "month": "2026-04"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Spring (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0477/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Atlassian (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0479/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0480/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft .Net (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0478/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits NetApp (22 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0476/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
     "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
@@ -637,20 +693,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Mustang Panda’s New LOTUSLITE Variant Targets India Banks, South Korea Policy Circles",
-    "link": "https://thehackernews.com/2026/04/mustang-pandas-new-lotuslite-variant.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
-    "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Moving past bots vs. humans",
     "link": "https://blog.cloudflare.com/past-bots-and-humans/",
@@ -661,27 +703,6 @@
     "source": "Microsoft Security",
     "title": "Detection strategies across cloud and identities against infiltrating IT workers",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SystemBC C2 Server Reveals 1,570+ Victims in The Gentlemen Ransomware Operation",
-    "link": "https://thehackernews.com/2026/04/systembc-c2-server-reveals-1570-victims.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "22 BRIDGE:BREAK Flaws Expose Thousands of Lantronix and Silex Serial-to-IP Converters",
-    "link": "https://thehackernews.com/2026/04/22-bridgebreak-flaws-expose-20000.html",
-    "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ransomware Negotiator Pleads Guilty to Aiding BlackCat Attacks in 2023",
-    "link": "https://thehackernews.com/2026/04/ransomware-negotiator-pleads-guilty-to.html",
     "date": "2026-04-21",
     "month": "2026-04"
   },
@@ -812,31 +833,10 @@
     "month": "2026-04"
   },
   {
-    "source": "Cloudflare",
-    "title": "Cloudflare Email Service: now in public beta. Ready for your agents",
-    "link": "https://blog.cloudflare.com/email-for-agents/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Building your cryptographic inventory: A customer strategy for cryptographic posture management",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/",
     "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Dissecting Sapphire Sleet’s macOS intrusion from lure to compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Incident response for AI: Same fire, different fuel",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
-    "date": "2026-04-15",
     "month": "2026-04"
   }
 ]
