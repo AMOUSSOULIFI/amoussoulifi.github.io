@@ -1,5 +1,82 @@
 [
   {
+    "source": "Microsoft Security",
+    "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
+    "date": "2026-05-02",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+    "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+    "date": "2026-05-02",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
+    "link": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Dynamic Workflows: durable execution that follows the tenant",
+    "link": "https://blog.cloudflare.com/dynamic-workflows/",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+    "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
+    "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
+    "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
+    "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
+    "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
+    "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
+    "date": "2026-05-01",
+    "month": "2026-05"
+  },
+  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Netgate (30 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0516/",
@@ -630,13 +707,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Apple Fixes iOS Flaw That Let FBI Recover Deleted Signal Messages",
-    "link": "https://thehackernews.com/2026/04/apple-patches-ios-flaw-that-stored.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
     "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
@@ -647,48 +717,6 @@
     "source": "Microsoft Security",
     "title": "AI-powered defense for an AI-accelerated threat landscape",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious KICS Docker Images and VS Code Extensions Hit Checkmarx Supply Chain",
-    "link": "https://thehackernews.com/2026/04/malicious-kics-docker-images-and-vs.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Self-Propagating Supply Chain Worm Hijacks npm Packages to Steal Developer Tokens",
-    "link": "https://thehackernews.com/2026/04/self-propagating-supply-chain-worm.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Harvester Deploys Linux GoGra Backdoor in South Asia Using Microsoft Graph API",
-    "link": "https://thehackernews.com/2026/04/harvester-deploys-linux-gogra-backdoor.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lotus Wiper Malware Targets Venezuelan Energy Systems in Destructive Attack",
-    "link": "https://thehackernews.com/2026/04/lotus-wiper-malware-targets-venezuelan.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
-    "link": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches Critical ASP.NET Core CVE-2026-40372 Privilege Escalation Bug",
-    "link": "https://thehackernews.com/2026/04/microsoft-patches-critical-aspnet-core.html",
     "date": "2026-04-22",
     "month": "2026-04"
   },
@@ -791,13 +819,6 @@
     "month": "2026-04"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Containing a domain compromise: How predictive shielding shut down lateral movement",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/17/domain-compromise-predictive-shielding-shut-down-lateral-movement/",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
     "link": "https://blog.cloudflare.com/ai-platform/",
@@ -815,27 +836,6 @@
     "source": "Cloudflare",
     "title": "Artifacts: versioned storage that speaks Git",
     "link": "https://blog.cloudflare.com/artifacts-git-for-agents-beta/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "AI Search: the search primitive for your agents",
-    "link": "https://blog.cloudflare.com/ai-search-agent-primitive/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Deploy Postgres and MySQL databases with PlanetScale + Workers",
-    "link": "https://blog.cloudflare.com/deploy-planetscale-postgres-with-workers/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Building your cryptographic inventory: A customer strategy for cryptographic posture management",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/building-your-cryptographic-inventory-a-customer-strategy-for-cryptographic-posture-management/",
     "date": "2026-04-16",
     "month": "2026-04"
   }
