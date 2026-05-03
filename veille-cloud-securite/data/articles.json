@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
+    "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
+    "date": "2026-05-03",
+    "month": "2026-05"
+  },
+  {
     "source": "Microsoft Security",
     "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
@@ -696,13 +703,6 @@
     "source": "The Hacker News",
     "title": "China-Linked GopherWhisper Infects 12 Mongolian Government Systems with Go Backdoors",
     "link": "https://thehackernews.com/2026/04/china-linked-gopherwhisper-infects-12.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Vercel Finds More Compromised Accounts in Context.ai-Linked Breach",
-    "link": "https://thehackernews.com/2026/04/vercel-finds-more-compromised-accounts.html",
     "date": "2026-04-23",
     "month": "2026-04"
   },
