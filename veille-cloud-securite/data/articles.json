@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
+    "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+    "link": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-020 (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-020/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans VMware Tanzu Kubernetes Runtime (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0527/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0525/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0529/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Qnap QTS (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0528/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (04 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0526/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
+    "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+    "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "2026: The Year of AI-Assisted Attacks",
+    "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
+    "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
+    "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
+    "date": "2026-05-04",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
     "link": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
     "date": "2026-05-04",
@@ -568,34 +673,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synology DSM (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0491/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Tenable (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0489/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Spring Boot (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0488/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0492/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Edge (24 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0493/",
     "date": "2026-04-24",
@@ -605,13 +682,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (24 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0496/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0490/",
     "date": "2026-04-24",
     "month": "2026-04"
   },
@@ -637,72 +707,9 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "26 FakeWallet Apps Found on Apple App Store Targeting Crypto Seed Phrases",
-    "link": "https://thehackernews.com/2026/04/26-fakewallet-apps-found-on-apple-app.html",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Tropic Trooper Uses Trojanized SumatraPDF and GitHub to Deploy AdaptixC2",
-    "link": "https://thehackernews.com/2026/04/tropic-trooper-uses-trojanized.html",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0486/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Chrome (23 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0487/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC6692 Impersonates IT Help Desk via Microsoft Teams to Deploy SNOW Malware",
-    "link": "https://thehackernews.com/2026/04/unc6692-impersonates-it-helpdesk-via.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitwarden CLI Compromised in Ongoing Checkmarx Supply Chain Campaign",
-    "link": "https://thehackernews.com/2026/04/bitwarden-cli-compromised-in-ongoing.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
-    "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Project Glasswing Proved AI Can Find the Bugs. Who's Going to Fix Them?",
-    "link": "https://thehackernews.com/2026/04/project-glasswing-proved-ai-can-find.html",
     "date": "2026-04-23",
     "month": "2026-04"
   },
@@ -760,13 +767,6 @@
     "title": "Making opportunistic cyberattacks harder by design",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/20/making-opportunistic-cyberattacks-harder-by-design/",
     "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/",
-    "date": "2026-04-18",
     "month": "2026-04"
   },
   {
