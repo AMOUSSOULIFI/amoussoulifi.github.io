@@ -1,6 +1,97 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
+    "link": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
+    "date": "2026-05-06",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache HTTP Server (05 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0530/",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (05 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0531/",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Google Android (05 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0534/",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Papercut (05 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0533/",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Progress MOVEit Automation (05 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0532/",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+    "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
+    "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
+    "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+    "link": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MetInfo CMS CVE-2026-29014 Exploited for Remote Code Execution Attacks",
+    "link": "https://thehackernews.com/2026/05/metinfo-cms-cve-2026-29014-exploited.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
+    "link": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ScarCruft Hacks Gaming Platform to Deploy BirdCall Malware on Android and Windows",
+    "link": "https://thehackernews.com/2026/05/scarcruft-hacks-gaming-platform-to.html",
+    "date": "2026-05-05",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Weaver E-cology RCE Flaw CVE-2026-22679 Actively Exploited via Debug API",
     "link": "https://thehackernews.com/2026/05/weaver-e-cology-rce-flaw-cve-2026-22679.html",
     "date": "2026-05-05",
@@ -613,97 +704,6 @@
     "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
     "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
     "date": "2026-04-27",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PhantomCore Exploits TrueConf Vulnerabilities to Breach Russian Networks",
-    "link": "https://thehackernews.com/2026/04/phantomcore-exploits-trueconf.html",
-    "date": "2026-04-27",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Uncover 73 Fake VS Code Extensions Delivering GlassWorm v2 Malware",
-    "link": "https://thehackernews.com/2026/04/researchers-uncover-73-fake-vs-code.html",
-    "date": "2026-04-27",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake CAPTCHA IRSF Scam and 120 Keitaro Campaigns Drive Global SMS, Crypto Fraud",
-    "link": "https://thehackernews.com/2026/04/fake-captcha-irsf-scam-and-120-keitaro.html",
-    "date": "2026-04-27",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Uncover Pre-Stuxnet ‘fast16’ Malware Targeting Engineering Software",
-    "link": "https://thehackernews.com/2026/04/researchers-uncover-pre-stuxnet-fast16.html",
-    "date": "2026-04-25",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds 4 Exploited Flaws to KEV, Sets May 2026 Federal Deadline",
-    "link": "https://thehackernews.com/2026/04/cisa-adds-4-exploited-flaws-to-kev-sets.html",
-    "date": "2026-04-25",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0495/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0497/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Microsoft (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0494/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0493/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (24 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0496/",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FIRESTARTER Backdoor Hit Federal Cisco Firepower Device, Survives Security Patches",
-    "link": "https://thehackernews.com/2026/04/firestarter-backdoor-hit-federal-cisco.html",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NASA Employees Duped in Chinese Phishing Scheme Targeting U.S. Defense Software",
-    "link": "https://thehackernews.com/2026/04/nasa-employees-duped-in-chinese.html",
-    "date": "2026-04-24",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine",
-    "link": "https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html",
-    "date": "2026-04-24",
     "month": "2026-04"
   },
   {
