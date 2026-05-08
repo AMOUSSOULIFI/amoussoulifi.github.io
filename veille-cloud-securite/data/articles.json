@@ -1,6 +1,153 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+    "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0547/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0546/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0552/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0545/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0544/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0551/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0550/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0549/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0548/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Spring Cloud Config (07 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0543/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building for the future",
+    "link": "https://blog.cloudflare.com/building-for-the-future/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
+    "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "World Passkey Day: Advancing passwordless authentication",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
+    "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
+    "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
+    "link": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
+    "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
+    "date": "2026-05-07",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
     "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
     "date": "2026-05-07",
@@ -561,64 +708,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Xen (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0509/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Elastic Package Registry (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0511/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Moodle (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0508/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0513/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0512/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Curl (29 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0514/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0507/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0506/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Citrix XenServer (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0510/",
     "date": "2026-04-29",
     "month": "2026-04"
   },
@@ -658,34 +749,6 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical cPanel Authentication Vulnerability Identified — Update Your Server Immediately",
-    "link": "https://thehackernews.com/2026/04/critical-cpanel-authentication.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited ConnectWise and Windows Flaws to KEV",
-    "link": "https://thehackernews.com/2026/04/cisa-adds-actively-exploited.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (28 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0505/",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "link": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
@@ -693,58 +756,9 @@
     "month": "2026-04"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Simplifying AWS defense with Microsoft Sentinel UEBA",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/28/simplifying-aws-defense-microsoft-sentinel-ueba/",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Discover Critical GitHub CVE-2026-3854 RCE Flaw Exploitable via Single Git Push",
-    "link": "https://thehackernews.com/2026/04/researchers-discover-critical-github.html",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Brazilian LofyGang Resurfaces After Three Years With Minecraft LofyStealer Campaign",
-    "link": "https://thehackernews.com/2026/04/brazilian-lofygang-resurfaces-after.html",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "VECT 2.0 Ransomware Irreversibly Destroys Files Over 131KB on Windows, Linux, ESXi",
-    "link": "https://thehackernews.com/2026/04/vect-20-ransomware-irreversibly.html",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Secure Data Movement Is the Zero Trust Bottleneck Nobody Talks About",
-    "link": "https://thehackernews.com/2026/04/why-secure-data-movement-is-zero-trust.html",
-    "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (23 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0487/",
-    "date": "2026-04-23",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
     "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
-    "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "AI-powered defense for an AI-accelerated threat landscape",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
     "date": "2026-04-22",
     "month": "2026-04"
   },
@@ -823,20 +837,6 @@
     "title": "Introducing Flagship: feature flags built for the age of AI",
     "link": "https://blog.cloudflare.com/flagship/",
     "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare’s AI Platform: an inference layer designed for agents",
-    "link": "https://blog.cloudflare.com/ai-platform/",
-    "date": "2026-04-16",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Building the foundation for running extra-large language models",
-    "link": "https://blog.cloudflare.com/high-performance-llms/",
-    "date": "2026-04-16",
     "month": "2026-04"
   }
 ]
