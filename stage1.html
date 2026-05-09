@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Stage 1 - Systèmes & Réseaux</title>
-<meta name="description" content="Stage en systèmes et réseaux informatiques – gestion de parc, déploiement, Windows Server, OCS, WDS">
+<title>Stage 1 - Saint Charles Sainte-Croix - Gestion de Parc Informatique</title>
+<meta name="description" content="Stage en systèmes et réseaux informatiques – Gestion de parc, inventaire des salles, déploiement WDS, OCS Inventory, recyclage de 28 équipements">
 <style>
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); min-height: 100vh; }
-.navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
 .nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
 .nav-link { color: #667eea; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease; }
 .nav-link:hover { background: #667eea; color: white; }
@@ -17,11 +17,11 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .back-button:hover { background: rgba(255,255,255,0.2); color: white; text-decoration: none; }
 .ap-header { text-align: center; margin-bottom: 40px; color: white; }
 .ap-badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; margin-bottom: 15px; }
-.stage-badge { background: #e74c3c; }
+.stage-badge { background: linear-gradient(135deg, #e74c3c, #c0392b); }
 .ap-header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
 .ap-date { font-size: 1.1em; opacity: 0.9; }
 .ap-details-grid { background: white; border-radius: 15px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 40px; }
-.detail-section { margin-bottom: 40px; }
+.detail-section { margin-bottom: 50px; }
 .detail-section h2 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; display: flex; align-items: center; gap: 10px; }
 .detail-section p { color: #555; line-height: 1.8; font-size: 1.1em; }
 .info-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
@@ -30,67 +30,50 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
 .info-column ul { list-style: none; }
 .info-column li { margin-bottom: 10px; padding-left: 20px; position: relative; color: #555; }
 .info-column li:before { content: "→"; position: absolute; left: 0; color: #667eea; font-weight: bold; }
-.info-column p { color: #555; line-height: 1.6; }
-.info-column strong { color: #2c3e50; }
-.stage-periods { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
-.period-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border: 2px solid #e9ecef; transition: transform 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; }
-.period-card:hover { transform: translateY(-5px); border-color: #667eea; box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1); }
+.stage-periods { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 30px 0; }
+.period-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border: 2px solid #e9ecef; transition: transform 0.3s ease; position: relative; }
+.period-card:hover { transform: translateY(-5px); border-color: #667eea; box-shadow: 0 5px 15px rgba(102,126,234,0.1); }
 .period-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
 .period-card ul { list-style: none; margin-bottom: 20px; }
 .period-card li { margin-bottom: 8px; padding-left: 20px; position: relative; color: #555; font-size: 0.95em; }
 .period-card li:before { content: "•"; position: absolute; left: 0; color: #28a745; font-weight: bold; }
-.pdf-button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; transition: background 0.3s ease; text-align: center; width: 100%; justify-content: center; }
+.pdf-button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; transition: background 0.3s ease; text-align: center; width: 100%; justify-content: center; }
 .pdf-button:hover { background: #218838; color: white; text-decoration: none; }
-.doc-links { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px; }
-.doc-link { background: #17a2b8; color: white; padding: 15px; border-radius: 8px; text-decoration: none; display: flex; align-items: center; gap: 10px; transition: all 0.3s ease; font-size: 0.95em; }
-.doc-link:hover { background: #138496; color: white; text-decoration: none; transform: translateY(-2px); }
 .achievements-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0; }
 .achievement-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #ffc107; }
 .achievement-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
 .environment-details { background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0; }
 .environment-details h4 { color: #2c3e50; margin-bottom: 15px; }
+.stats-container { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin: 20px 0; }
+.stat-box { text-align: center; padding: 20px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 15px; color: white; min-width: 150px; }
+.stat-number { font-size: 2.5em; font-weight: bold; }
+.stat-label { font-size: 0.9em; opacity: 0.9; }
+.salle-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+.salle-tag { background: #e9ecef; padding: 5px 12px; border-radius: 15px; font-size: 0.85em; color: #495057; }
+.salle-tag.termine { background: #d4edda; color: #155724; }
+.salle-tag.en-cours { background: #fff3cd; color: #856404; }
+.salle-tag.necessaire { background: #f8d7da; color: #721c24; }
+.table-inventory { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+.table-inventory th { background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 15px; text-align: left; font-weight: 600; }
+.table-inventory td { padding: 12px 15px; border-bottom: 1px solid #eee; color: #555; }
+.table-inventory tr:hover { background-color: #f8f9fa; }
 @media (max-width: 768px) {
 .nav-container { flex-direction: column; gap: 10px; text-align: center; }
 .ap-header h1 { font-size: 2em; }
 .ap-details-grid { padding: 20px; }
 .info-table { grid-template-columns: 1fr; }
 .stage-periods { grid-template-columns: 1fr; }
-.doc-links { grid-template-columns: 1fr; }
+.stat-box { min-width: 120px; }
+.salle-list { justify-content: center; }
 }
 </style>
 </head>
 <body>
 <script>
-  // Vérification d'authentification
   const sessionData = JSON.parse(localStorage.getItem('sessionData'));
   if (!sessionData || !sessionData.isLoggedIn) {
     window.location.href = 'index.html';
   }
-
-  // Vérification des fichiers PDF
-  document.addEventListener('DOMContentLoaded', async function() {
-    const pdfFiles = [
-      './images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf',
-      './images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf',
-      './images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf',
-      './images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf',
-      './images/Feuilles_suivi_estivale.pdf',
-      './images/2025_Ordinateurs_Benné.pdf',
-      './images/2025-06-16 Sans Emplacement.pdf',
-      './images/2025-06-16 Inactifs depuis 30 jours.csv.pdf'
-    ];
-
-    for (const file of pdfFiles) {
-      try {
-        const response = await fetch(file, { method: 'HEAD' });
-        if (!response.ok) {
-          console.warn(`Fichier manquant : ${file}`);
-        }
-      } catch (error) {
-        console.warn(`Erreur de chargement : ${file}`, error);
-      }
-    }
-  });
 </script>
 
 <nav class="navbar">
@@ -99,8 +82,7 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
     <a href="aps.html" class="nav-link">📚 APs</a>
     <a href="stages.html" class="nav-link">💼 Stages</a>
     <a href="cv.html" class="nav-link">📄 CV</a>
-   <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
-
+    <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille</a>
   </div>
 </nav>
 
@@ -109,42 +91,50 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
   <a href="stages.html" class="back-button">← Retour aux Stages</a>
 
   <div class="ap-header">
-    <div class="ap-badge stage-badge">STAGE</div>
-    <h1>Stage en Systèmes & Réseaux Informatiques</h1>
-    <p class="ap-date">Saint Charles Sainte-Croix - Le Mans | Juin - Juillet 2025 (4 semaines)</p>
+    <div class="ap-badge stage-badge">STAGE 1</div>
+    <h1>Stage en Systèmes & Réseaux</h1>
+    <p class="ap-date">Saint Charles Sainte-Croix - Le Mans | 9 Juin – 11 Juillet 2025 (4 semaines)</p>
   </div>
 
   <div class="ap-details-grid">
 
-    <!-- Description et contexte -->
+    <!-- Description -->
     <div class="detail-section">
       <h2>🏢 Description du Stage</h2>
-      <p>Stage intensif de 4 semaines en systèmes et réseaux au sein de l'établissement scolaire Saint Charles Sainte-Croix au Mans. Cette expérience professionnelle m'a permis d'intervenir sur l'ensemble de l'infrastructure réseau de l'établissement, avec un focus particulier sur le support technique, la maintenance du parc informatique et le déploiement de nouveaux équipements.</p>
+      <p>Stage intensif de 4 semaines en systèmes et réseaux au sein de l'établissement scolaire Saint Charles Sainte-Croix au Mans. Cette expérience m'a permis d'intervenir sur l'ensemble de l'infrastructure réseau, avec un focus sur la gestion de parc informatique, l'inventaire des salles, le déploiement de postes et la maintenance estivale.</p>
 
       <div class="environment-details">
-        <h4>📊 Contexte du stage :</h4>
-        <ul style="list-style: none; color: #555;">
-          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Établissement scolaire multi-sites</strong> : Lycée + Campus</li>
-          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Parc informatique hétérogène</strong> : 300+ postes, 30 salles</li>
-          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Contraintes pédagogiques</strong> : Support aux examens, maintenance estivale</li>
-          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #667eea;">•</span> <strong>Équipe informatique</strong> : Travail en collaboration avec l'administrateur réseau</li>
+        <h4>📊 Contexte :</h4>
+        <ul style="list-style: none;">
+          <li style="margin-bottom: 8px; padding-left: 20px;">• <strong>Établissement scolaire multi-sites</strong> : Lycée + Campus</li>
+          <li style="margin-bottom: 8px; padding-left: 20px;">• <strong>Parc informatique</strong> : 300+ postes, 80+ salles inventoriées</li>
+          <li style="margin-bottom: 8px; padding-left: 20px;">• <strong>Mission principale</strong> : Inventaire et maintenance estivale</li>
+          <li style="margin-bottom: 8px; padding-left: 20px;">• <strong>Logiciels métier</strong> : OCS Inventory, GNPI, WDS, VEYON</li>
         </ul>
       </div>
     </div>
 
-    <!-- Technologies, compétences et statistiques -->
+    <!-- Statistiques -->
+    <div class="stats-container">
+      <div class="stat-box"><div class="stat-number">80+</div><div class="stat-label">Salles inventoriées</div></div>
+      <div class="stat-box"><div class="stat-number">28</div><div class="stat-label">Équipements recyclés</div></div>
+      <div class="stat-box"><div class="stat-number">18</div><div class="stat-label">Postes installés (salle F02)</div></div>
+      <div class="stat-box"><div class="stat-number">13</div><div class="stat-label">Unités centrales montées</div></div>
+    </div>
+
+    <!-- Technologies -->
     <div class="info-table">
       <div class="info-column">
         <h3>🛠️ Technologies maîtrisées</h3>
         <ul>
-          <li>OCS Inventory (gestion de parc)</li>
-          <li>FOG Project (déploiement d'images)</li>
+          <li>OCS Inventory (inventaire parc)</li>
           <li>WDS (Windows Deployment Services)</li>
           <li>Windows Server 2019/2022</li>
           <li>GPO (Group Policy Objects)</li>
-          <li>VEYON MASTER (surveillance de salle)</li>
+          <li>VEYON MASTER (surveillance)</li>
           <li>Active Directory</li>
-          <li>GNPI (Gestionnaire de Parc Informatique)</li>
+          <li>GNPI (Gestionnaire de Parc)</li>
+          <li>Macrium Reflect (clonage)</li>
         </ul>
       </div>
       <div class="info-column">
@@ -154,81 +144,206 @@ body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height
           <li>Réponse aux incidents techniques</li>
           <li>Déploiement de postes de travail</li>
           <li>Maintenance préventive et corrective</li>
-          <li>Documentation technique</li>
-          <li>Travail en autonomie et en équipe</li>
+          <li>Inventaire et documentation</li>
           <li>Gestion de projet technique</li>
         </ul>
       </div>
       <div class="info-column">
-        <h3>📈 Statistiques clés</h3>
-        <div style="text-align: center; margin-top: 10px;">
-          <div style="margin-bottom: 15px;"><h4 style="color: #28a745; font-size: 1.8em;">36</h4><p style="color: #555; font-size: 0.9em;">Nouveaux postes installés</p></div>
-          <div style="margin-bottom: 15px;"><h4 style="color: #007bff; font-size: 1.8em;">28</h4><p style="color: #555; font-size: 0.9em;">Équipements recyclés</p></div>
-          <div><h4 style="color: #ffc107; font-size: 1.8em;">15+</h4><p style="color: #555; font-size: 0.9em;">Salles maintenues</p></div>
-        </div>
+        <h3>🖥️ Logiciels déployés</h3>
+        <ul>
+          <li>Adobe Acrobat Reader</li>
+          <li>LibreOffice 6.4</li>
+          <li>Python / Edupython</li>
+          <li>Scilab / GeoGebra</li>
+          <li>VirtualBox / VMware</li>
+          <li>XAMPP / Git / WINRAR</li>
+        </ul>
       </div>
     </div>
 
     <!-- Missions par semaine -->
     <div class="detail-section">
-      <h2>📅 Missions de Stage par semaine</h2>
+      <h2>📅 Missions par semaine</h2>
       <div class="stage-periods">
-
-        <!-- Semaine 1 -->
         <div class="period-card">
-          <h4>📅 Semaine 1 : 9-13 Juin 2025</h4>
+          <h4>📅 Semaine 1 : 9-13 Juin</h4>
           <ul>
-            <li>Présentation de l'infrastructure réseau</li>
+            <li>Présentation infrastructure réseau</li>
             <li>Dépannage projecteurs et câblage HDMI</li>
             <li>Initiation Windows Server et GPO</li>
             <li>Décâblage et rangement équipements</li>
-            <li>Support administratif</li>
           </ul>
-          <a href="./images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+          <a href="./images/RAPPORT DE STAGE DU 9 JUIN AU 13 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Rapport S1</a>
         </div>
-
-        <!-- Semaine 2 -->
         <div class="period-card">
-          <h4>📅 Semaine 2 : 16-20 Juin 2025</h4>
+          <h4>📅 Semaine 2 : 16-20 Juin</h4>
           <ul>
             <li>Utilisation d'OCS Inventory</li>
-            <li>Préparation des postes pour le baccalauréat</li>
+            <li>Préparation des postes pour le bac</li>
             <li>Création d'un suivi Excel des salles</li>
-            <li>Test et démontage de matériel</li>
             <li>Vérification fonctionnelle des salles</li>
           </ul>
-          <a href="./images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+          <a href="./images/RAPPORT DE STAGE DU 16 JUIN AU 20 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Rapport S2</a>
         </div>
-
-        <!-- Semaine 3 -->
         <div class="period-card">
-          <h4>📅 Semaine 3 : 23-27 Juin 2025</h4>
+          <h4>📅 Semaine 3 : 23-27 Juin</h4>
           <ul>
             <li>Installation de 18 postes (salle F02)</li>
-            <li>Tri et recyclage d'équipements</li>
+            <li>Tri et recyclage de 28 équipements</li>
             <li>Travail sur GNPI et OCS Inventory</li>
-            <li>Vérification fonctionnelle des salles</li>
             <li>Mise à jour des fichiers de suivi</li>
           </ul>
-          <a href="./images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+          <a href="./images/RAPPORT DE STAGE DU 23 JUIN AU 27 JUIN 2025.pdf" class="pdf-button" target="_blank">📄 Rapport S3</a>
         </div>
-
-        <!-- Semaine 4 -->
         <div class="period-card">
-          <h4>📅 Semaine 4 : 7-11 Juillet 2025</h4>
+          <h4>📅 Semaine 4 : 7-11 Juillet</h4>
           <ul>
             <li>Montage de 13 unités centrales</li>
             <li>Désinstallation salles C15 et R25</li>
             <li>Déploiement d'images via WDS</li>
             <li>Gestion de domaines Active Directory</li>
-            <li>Finalisation des installations</li>
           </ul>
-          <a href="./images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+          <a href="./images/RAPPORT DE STAGE DU 07 JUILLET AU 11 JUILLET 2025.pdf" class="pdf-button" target="_blank">📄 Rapport S4</a>
         </div>
-
       </div>
+    </div>
+
+    <!-- Inventaire des salles -->
+    <div class="detail-section">
+      <h2>📋 Inventaire des Salles</h2>
+      <p>Lors de ce stage, j'ai réalisé l'inventaire complet des salles informatiques et des équipements multimédia :</p>
+      
+      <div style="margin: 20px 0;">
+        <h4>🏫 Lycée - Salles contrôlées :</h4>
+        <div class="salle-list">
+          <span class="salle-tag termine">A08 ✓</span> <span class="salle-tag termine">A09 ✓</span> <span class="salle-tag termine">A13 ✓</span>
+          <span class="salle-tag termine">A14 ✓</span> <span class="salle-tag termine">A16 ✓</span> <span class="salle-tag termine">A17 ✓</span>
+          <span class="salle-tag termine">A18 ✓</span> <span class="salle-tag termine">B10 ✓</span> <span class="salle-tag termine">B11 ✓</span>
+          <span class="salle-tag en-cours">B13 ⏳</span> <span class="salle-tag termine">B14 ✓</span> <span class="salle-tag termine">B16 ✓</span>
+          <span class="salle-tag termine">B20 ✓</span> <span class="salle-tag termine">B21 ✓</span> <span class="salle-tag termine">B22 ✓</span>
+          <span class="salle-tag termine">B23 ✓</span> <span class="salle-tag termine">B24 ✓</span> <span class="salle-tag termine">C21 ✓</span>
+          <span class="salle-tag termine">C22 ✓</span> <span class="salle-tag termine">C23 ✓</span> <span class="salle-tag termine">C24 ✓</span>
+          <span class="salle-tag termine">C25 ✓</span> <span class="salle-tag termine">C26 ✓</span> <span class="salle-tag termine">C27 ✓</span>
+          <span class="salle-tag necessaire">C31 ⚠️</span> <span class="salle-tag termine">R11 ✓</span> <span class="salle-tag termine">R12 ✓</span>
+          <span class="salle-tag termine">R13 ✓</span> <span class="salle-tag necessaire">R15 ⚠️</span> <span class="salle-tag termine">R17 ✓</span>
+          <span class="salle-tag termine">R18 ✓</span> <span class="salle-tag termine">R19 ✓</span> <span class="salle-tag necessaire">R21 ⚠️</span>
+          <span class="salle-tag necessaire">R22 ⚠️</span> <span class="salle-tag termine">R23 ✓</span> <span class="salle-tag en-cours">R25 ⏳</span>
+          <span class="salle-tag necessaire">R26 ⚠️</span> <span class="salle-tag necessaire">R27 ⚠️</span> <span class="salle-tag en-cours">S11 ⏳</span>
+        </div>
+        
+        <h4 style="margin-top: 20px;">🏫 Campus - Salles contrôlées :</h4>
+        <div class="salle-list">
+          <span class="salle-tag termine">D11 ✓</span> <span class="salle-tag necessaire">D12 ⚠️</span> <span class="salle-tag necessaire">D13 ⚠️</span>
+          <span class="salle-tag termine">D14 ✓</span> <span class="salle-tag termine">D21 ✓</span> <span class="salle-tag termine">D22 ✓</span>
+          <span class="salle-tag necessaire">D23 ⚠️</span> <span class="salle-tag necessaire">E01 ⚠️</span> <span class="salle-tag necessaire">F01 ⚠️</span>
+          <span class="salle-tag termine">F02 ✓</span> <span class="salle-tag termine">F03 ✓</span> <span class="salle-tag termine">F11 ✓</span>
+          <span class="salle-tag termine">F12 ✓</span> <span class="salle-tag termine">F13 ✓</span> <span class="salle-tag termine">G21 ✓</span>
+          <span class="salle-tag termine">G22 ✓</span> <span class="salle-tag termine">G23 ✓</span> <span class="salle-tag termine">G31 ✓</span>
+          <span class="salle-tag termine">G32 ✓</span> <span class="salle-tag termine">G33 ✓</span> <span class="salle-tag termine">H01 ✓</span>
+          <span class="salle-tag termine">H02 ✓</span> <span class="salle-tag termine">H03 ✓</span> <span class="salle-tag termine">H11 ✓</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pannes et résolutions -->
+    <div class="detail-section">
+      <h2>🔧 Pannes et Résolutions</h2>
+      <table class="table-inventory">
+        <thead><tr><th>Salle</th><th>Équipement</th><th>Problème</th><th>Résolution</th></tr></thead>
+        <tbody>
+          <tr><td>A09</td><td>Haut-parleur</td><td>Haut-parleur gauche ne fonctionne pas</td><td>À diagnostiquer</td></tr>
+          <tr><td>A13</td><td>Projecteur</td><td>Projecteur penche légèrement vers la gauche</td><td>À réaligner</td></tr>
+          <tr><td>A14</td><td>Haut-parleur</td><td>Léger grésillement</td><td>À vérifier</td></tr>
+          <tr><td>B10</td><td>Vidéoprojecteur</td><td>Problème d'affichage (câble vidéo)</td><td>Câble à remplacer</td></tr>
+          <tr><td>B11</td><td>Clavier</td><td>Touches ECHAP, CRTL, F3 absentes</td><td>Claviers remplacés</td></tr>
+          <tr><td>B11</td><td>VEYON</td><td>PC visible mais inaccessible à distance</td><td>Configuration à vérifier</td></tr>
+          <tr><td>D11</td><td>PC</td><td>"A disk read error occurred"</td><td>Disque à diagnostiquer</td></tr>
+          <tr><td>D13</td><td>PC</td><td>16 PC ne s'allument pas</td><td>Alimentation à vérifier</td></tr>
+          <tr><td>R21</td><td>Haut-parleur</td><td>HP côté prof sans son + grésillement</td><td>À réparer</td></tr>
+          <tr><td>R22</td><td>PC</td><td>Problème démarrage OS (écran bleu)</td><td>Résolu en cliquant sur OK</td></tr>
+          <tr><td>R25</td><td>Souris/Clavier</td><td>2 souris HS, 1 clavier manquant</td><td>Périphériques changés</td></tr>
+          <tr><td>S11</td><td>Imprimante</td><td>Non connectée, pas d'adresse IP</td><td>Connexion réseau à rétablir</td></tr>
+          <tr><td>S31</td><td>Souris</td><td>Manque 2 souris</td><td>Souris installées</td></tr>
+        </tbody>
+      </table>
     </div>
 
     <!-- Réalisations majeures -->
     <div class="detail-section">
-      <h2>🏆 Réalisations
+      <h2>🏆 Réalisations Majeures</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h4>📦 Inventaire complet</h4>
+          <ul>
+            <li>80+ salles inventoriées (Lycée + Campus)</li>
+            <li>Suivi des équipements défectueux</li>
+            <li>Création d'un fichier Excel de suivi</li>
+            <li>Mise à jour de la base OCS Inventory</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h4>🖥️ Installation de 18 postes (salle F02)</h4>
+          <ul>
+            <li>Déploiement complet de 18 postes</li>
+            <li>Installation de Windows et logiciels métier</li>
+            <li>Connexion au domaine Active Directory</li>
+            <li>Tests de fonctionnement validés</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h4>♻️ Recyclage de 28 équipements</h4>
+          <ul>
+            <li>Démantèlement de 28 ordinateurs</li>
+            <li>Triées : 19 Dell OptiPlex 780, 1 Dell 760, 1 HP</li>
+            <li>Composants récupérés ou éliminés</li>
+            <li>Conformité environnementale</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h4>🖼️ Déploiement WDS</h4>
+          <ul>
+            <li>Installation de 13 unités centrales</li>
+            <li>Déploiement d'images via WDS</li>
+            <li>Gestion des domaines Active Directory</li>
+            <li>Standardisation des configurations</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Documents -->
+    <div class="detail-section">
+      <hh2>📄 Documents Produits</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px;">
+        <a href="./images/Feuilles_suivi_estivale.pdf" class="pdf-button" target="_blank" style="background: #17a2b8;">📊 Feuille de suivi estivale</a>
+        <a href="./images/2025_Ordinateurs_Benné.pdf" class="pdf-button" target="_blank" style="background: #17a2b8;">♻️ Ordinateurs à benner</a>
+        <a href="./images/2025-06-16 Sans Emplacement.pdf" class="pdf-button" target="_blank" style="background: #17a2b8;">📍 Machines sans emplacement</a>
+        <a href="./images/2025-06-16 Inactifs depuis 30 jours.csv.pdf" class="pdf-button" target="_blank" style="background: #17a2b8;">⏰ Machines inactives +30j</a>
+      </div>
+    </div>
+
+    <!-- Bilan -->
+    <div class="detail-section">
+      <h2>📊 Bilan du Stage</h2>
+      <div class="environment-details">
+        <h4>✅ Compétences acquises :</h4>
+        <ul>
+          <li>Maîtrise d'OCS Inventory et GNPI pour la gestion de parc</li>
+          <li>Autonomie dans la résolution d'incidents matériels/logiciels</li>
+          <li>Déploiement et configuration de postes à grande échelle</li>
+          <li>Documentation technique et suivi d'inventaire</li>
+        </ul>
+        <h4 style="margin-top: 20px;">🎓 Apports pour la formation :</h4>
+        <ul>
+          <li>Mise en pratique des compétences BTS SIO SISR</li>
+          <li>Découverte du métier d'administrateur système en milieu scolaire</li>
+          <li>Responsabilité sur des projets concrets (inventaire, déploiement)</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+</body>
+</html>
