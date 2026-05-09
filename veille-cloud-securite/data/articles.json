@@ -1,6 +1,62 @@
 [
   {
     "source": "The Hacker News",
+    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
+    "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
+    "date": "2026-05-09",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
+    "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
+    "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
+    "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
+    "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+    "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+    "date": "2026-05-08",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
     "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
     "date": "2026-05-08",
@@ -115,13 +171,6 @@
     "source": "The Hacker News",
     "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
     "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
     "date": "2026-05-07",
     "month": "2026-05"
   },
@@ -693,58 +742,9 @@
     "month": "2026-04"
   },
   {
-    "source": "The Hacker News",
-    "title": "New Linux 'Copy Fail' Vulnerability Enables Root Access on Major Distributions",
-    "link": "https://thehackernews.com/2026/04/new-linux-copy-fail-vulnerability.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Fixes CVSS 10 Gemini CLI CI RCE and Cursor Flaws Enable Code Execution",
-    "link": "https://thehackernews.com/2026/04/google-fixes-cvss-10-gemini-cli-ci-rce.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Curl (29 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0514/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "8 best practices for CISOs conducting risk reviews",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/29/8-best-practices-for-cisos-conducting-risk-reviews/",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SAP-Related npm Packages Compromised in Credential-Stealing Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/04/sap-npm-packages-compromised-by-mini.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
-    "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How to Automate Exposure Validation to Match the Speed of AI Attacks",
-    "link": "https://thehackernews.com/2026/04/webinar-how-to-automate-exposure.html",
-    "date": "2026-04-29",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What to Look for in an Exposure Management Platform (And What Most of Them Get Wrong)",
-    "link": "https://thehackernews.com/2026/04/what-to-look-for-in-exposure-management.html",
     "date": "2026-04-29",
     "month": "2026-04"
   },
