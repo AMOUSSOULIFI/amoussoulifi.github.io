@@ -202,9 +202,21 @@
         padding: 5rem 0;
     }
 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
     .section-header {
         text-align: center;
         margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+        font-size: 2.2rem;
+        color: var(--text-dark);
+        margin-bottom: 0.5rem;
     }
 
     .section-subtitle {
@@ -233,7 +245,7 @@
         transform: translateX(-50%);
         width: 2px;
         height: 100%;
-        background: linear-gradient(to bottom, transparent, var(--accent-color), transparent);
+        background: linear-gradient(to bottom, transparent, var(--accent-color), var(--accent-color), transparent);
     }
 
     .timeline-item {
@@ -241,6 +253,10 @@
         justify-content: center;
         margin-bottom: 4rem;
         position: relative;
+    }
+
+    .timeline-item:last-child {
+        margin-bottom: 0;
     }
 
     .timeline-item:nth-child(odd) .timeline-content {
@@ -285,12 +301,26 @@
         box-shadow: var(--shadow-lg);
     }
 
+    .timeline-content .stage-footer {
+        margin-top: 1rem;
+    }
+
+    .stage-card-link {
+        text-decoration: none;
+        display: block;
+    }
+
+    .stage-card-link:hover .stage-card {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--accent-color);
+    }
+
     /* ===== STAGE CARD ===== */
     .grid-stages {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
         gap: 2rem;
-        padding: 0 2rem;
     }
 
     .stage-card {
@@ -304,12 +334,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-    }
-
-    .stage-card:hover {
-        transform: translateY(-10px);
-        box-shadow: var(--shadow-lg);
-        border-color: var(--accent-color);
     }
 
     .stage-card::before {
@@ -360,16 +384,6 @@
     .stage-status.completed {
         background: #dcfce7;
         color: #166534;
-    }
-
-    .stage-status.planned {
-        background: #fef3c7;
-        color: #92400e;
-    }
-
-    .stage-status.upcoming {
-        background: #e0e7ff;
-        color: #3730a3;
     }
 
     .stage-card h3 {
@@ -484,6 +498,7 @@
         color: var(--accent-color);
         font-weight: 600;
         transition: var(--transition);
+        cursor: pointer;
     }
 
     .stage-link:hover {
@@ -516,6 +531,7 @@
     .footer-link {
         color: #94a3b8;
         transition: var(--transition);
+        text-decoration: none;
     }
 
     .footer-link:hover {
@@ -554,6 +570,10 @@
             margin-left: 5rem;
             text-align: left;
             padding: 1.5rem;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content {
+            padding-right: 1.5rem;
         }
     }
 
@@ -596,13 +616,13 @@
         .grid-stages {
             grid-template-columns: 1fr;
         }
+        
+        .container {
+            padding: 0 1rem;
+        }
     }
 
     @media (max-width: 480px) {
-        .grid-stages {
-            padding: 0 1rem;
-        }
-        
         .hero h1 {
             font-size: 1.8rem;
         }
@@ -667,6 +687,14 @@
 </head>
 
 <body>
+    <!-- Authentification -->
+    <script>
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
@@ -715,12 +743,12 @@
                     <span class="stat-label">Stages</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">10+</span>
-                    <span class="stat-label">Compétences</span>
+                    <span class="stat-number">13</span>
+                    <span class="stat-label">Semaines</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">4</span>
-                    <span class="stat-label">Semaines</span>
+                    <span class="stat-number">20+</span>
+                    <span class="stat-label">Compétences</span>
                 </div>
             </div>
         </div>
@@ -743,7 +771,7 @@
                             <div class="stage-badge">Stage 1</div>
                             <div class="stage-status completed">Terminé</div>
                         </div>
-                        <h3>Stage en Systèmes & Réseaux</h3>
+                        <h3>Stage Infrastructure & Réseaux</h3>
                         <div class="stage-company">
                             <i class="fas fa-building"></i>
                             Saint Charles Sainte-Croix – Le Mans
@@ -753,25 +781,25 @@
                             9 juin – 11 juillet 2025 (4 semaines)
                         </div>
                         <div class="stage-description">
-                            Stage de première année en infrastructure informatique au sein d'un établissement scolaire, avec mise en pratique des compétences en administration système et réseau.
+                            Stage de première année au sein d'un établissement scolaire, centré sur l'infrastructure informatique, le support utilisateur et la maintenance du parc informatique.
                         </div>
                         <div class="stage-tasks">
                             <h4><i class="fas fa-tasks"></i> Missions principales :</h4>
                             <ul>
-                                <li>Support technique aux utilisateurs</li>
-                                <li>Déploiement et maintenance de postes de travail</li>
-                                <li>Gestion du parc informatique</li>
-                                <li>Virtualisation de serveurs</li>
-                                <li>Sauvegarde et sécurisation des données</li>
+                                <li>Support technique aux utilisateurs (panne projecteurs, câblage)</li>
+                                <li>Déploiement et maintenance de 36 postes de travail</li>
+                                <li>Gestion du parc avec OCS Inventory et GNPI</li>
+                                <li>Déploiement d'images via WDS et FOG Project</li>
+                                <li>Recyclage de 28 équipements</li>
                             </ul>
                         </div>
                         <div class="stage-skills">
                             <span class="stage-skill">Support technique</span>
-                            <span class="stage-skill">Déploiement</span>
-                            <span class="stage-skill">Virtualisation</span>
-                            <span class="stage-skill">Maintenance</span>
-                            <span class="stage-skill">Windows Server</span>
+                            <span class="stage-skill">OCS Inventory</span>
+                            <span class="stage-skill">WDS / FOG</span>
                             <span class="stage-skill">Active Directory</span>
+                            <span class="stage-skill">Windows Server</span>
+                            <span class="stage-skill">GPO</span>
                         </div>
                         <div class="stage-footer">
                             <div class="stage-duration">
@@ -792,46 +820,47 @@
                     <div class="timeline-content">
                         <div class="stage-header">
                             <div class="stage-badge">Stage 2</div>
-                            <div class="stage-status upcoming">À venir</div>
+                            <div class="stage-status completed">Terminé</div>
                         </div>
-                        <h3>Stage de spécialisation</h3>
+                        <h3>Stage Maintenance & Déploiement</h3>
                         <div class="stage-company">
                             <i class="fas fa-building"></i>
-                            Entreprise à déterminer
+                            Informatique Service Plus
                         </div>
                         <div class="stage-period">
                             <i class="far fa-calendar-alt"></i>
-                            À définir (5-6 semaines)
+                            19 janvier – 20 février 2026 (5 semaines)
                         </div>
                         <div class="stage-description">
-                            Stage de deuxième année axé sur la spécialisation en solutions d'infrastructure, systèmes et réseaux, avec des missions plus complexes et responsabilisantes.
+                            Stage de deuxième année en SSII spécialisée dans les services informatiques aux entreprises et particuliers. Missions variées : résolution de pannes, maintenance, installation de nouveaux équipements.
                         </div>
                         <div class="stage-tasks">
-                            <h4><i class="fas fa-tasks"></i> Missions prévues :</h4>
+                            <h4><i class="fas fa-tasks"></i> Missions principales :</h4>
                             <ul>
-                                <li>Administration de serveurs avancée</li>
-                                <li>Mise en place de solutions de sécurité réseau</li>
-                                <li>Gestion d'infrastructure virtualisée</li>
-                                <li>Automatisation de tâches d'administration</li>
-                                <li>Planification de la continuité d'activité</li>
+                                <li>Déploiement de 12+ postes Windows 11 (Lenovo, Acer, HP)</li>
+                                <li>Configuration UEFI (Secure Boot, TPM 2.0) et optimisation</li>
+                                <li>Clonage de disques via Macrium Reflect et Acronis</li>
+                                <li>Configuration d'un NAS Synology en RAID 1</li>
+                                <li>Récupération de données (EaseUS) et destruction sécurisée</li>
                             </ul>
                         </div>
                         <div class="stage-skills">
-                            <span class="stage-skill">Sécurité réseau</span>
-                            <span class="stage-skill">Virtualisation avancée</span>
-                            <span class="stage-skill">Scripting</span>
-                            <span class="stage-skill">Monitoring</span>
-                            <span class="stage-skill">PRA/PCA</span>
+                            <span class="stage-skill">Windows 11</span>
+                            <span class="stage-skill">Macrium Reflect</span>
+                            <span class="stage-skill">Ninite / WinToys</span>
+                            <span class="stage-skill">Synology NAS RAID 1</span>
+                            <span class="stage-skill">Récupération données</span>
+                            <span class="stage-skill">Conformité RGPD</span>
                         </div>
                         <div class="stage-footer">
                             <div class="stage-duration">
                                 <i class="far fa-clock"></i>
-                                5-6 semaines
+                                5 semaines
                             </div>
-                            <span class="stage-link">
-                                En préparation
+                            <a href="stage2.html" class="stage-link">
+                                Voir le détail
                                 <i class="fas fa-arrow-right"></i>
-                            </span>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -856,7 +885,7 @@
                                 <div class="stage-badge">Stage 1</div>
                                 <div class="stage-status completed">Terminé</div>
                             </div>
-                            <h3>Stage Systèmes & Réseaux</h3>
+                            <h3>Stage Infrastructure & Réseaux</h3>
                             <div class="stage-company">
                                 <i class="fas fa-building"></i>
                                 Saint Charles Sainte-Croix
@@ -870,10 +899,11 @@
                             </p>
                             <div class="stage-skills">
                                 <span class="stage-skill">Support technique</span>
+                                <span class="stage-skill">OCS Inventory</span>
+                                <span class="stage-skill">WDS / FOG</span>
                                 <span class="stage-skill">Active Directory</span>
-                                <span class="stage-skill">Virtualisation</span>
-                                <span class="stage-skill">Maintenance</span>
                                 <span class="stage-skill">Windows Server</span>
+                                <span class="stage-skill">GPO</span>
                             </div>
                             <div class="stage-footer">
                                 <div class="stage-duration">
@@ -895,34 +925,35 @@
                         <div class="stage-card-content">
                             <div class="stage-header">
                                 <div class="stage-badge">Stage 2</div>
-                                <div class="stage-status upcoming">À venir</div>
+                                <div class="stage-status completed">Terminé</div>
                             </div>
-                            <h3>Stage de spécialisation</h3>
+                            <h3>Stage Maintenance & Déploiement</h3>
                             <div class="stage-company">
                                 <i class="fas fa-building"></i>
-                                Entreprise à déterminer
+                                Informatique Service Plus
                             </div>
                             <div class="stage-period">
                                 <i class="far fa-calendar-alt"></i>
-                                À définir
+                                19 janvier – 20 février 2026
                             </div>
                             <p class="stage-description">
-                                Stage de deuxième année avec des missions plus complexes en infrastructure et sécurité réseau, permettant une spécialisation professionnelle.
+                                Stage de deuxième année en SSII spécialisée dans les services informatiques. Missions variées : résolution de pannes, maintenance, installation de nouveaux équipements.
                             </p>
                             <div class="stage-skills">
-                                <span class="stage-skill">Sécurité réseau</span>
-                                <span class="stage-skill">Virtualisation</span>
-                                <span class="stage-skill">Scripting</span>
-                                <span class="stage-skill">Monitoring</span>
-                                <span class="stage-skill">PRA/PCA</span>
+                                <span class="stage-skill">Windows 11</span>
+                                <span class="stage-skill">Macrium Reflect</span>
+                                <span class="stage-skill">Ninite / WinToys</span>
+                                <span class="stage-skill">Synology RAID 1</span>
+                                <span class="stage-skill">Récupération</span>
+                                <span class="stage-skill">RGPD</span>
                             </div>
                             <div class="stage-footer">
                                 <div class="stage-duration">
                                     <i class="far fa-clock"></i>
-                                    5-6 semaines
+                                    5 semaines
                                 </div>
                                 <span class="stage-link">
-                                    En préparation
+                                    Voir le rapport
                                     <i class="fas fa-arrow-right"></i>
                                 </span>
                             </div>
@@ -959,8 +990,11 @@
     document.addEventListener('DOMContentLoaded', function() {
         // Animate stats counter
         const statNumbers = document.querySelectorAll('.stat-number');
-        statNumbers.forEach(stat => {
-            const target = parseInt(stat.textContent);
+        const targets = [2, 13, 20];
+        let currentIndex = 0;
+        
+        statNumbers.forEach((stat, index) => {
+            const target = targets[index];
             let current = 0;
             const increment = target / 50;
             const timer = setInterval(() => {
@@ -974,14 +1008,14 @@
         });
         
         // Add hover effect to cards
-        const stageCards = document.querySelectorAll('.stage-card, .timeline-content');
+        const stageCards = document.querySelectorAll('.stage-card');
         stageCards.forEach(card => {
             card.addEventListener('mouseenter', function() {
-                this.style.transform = 'translateY(-10px) scale(1.02)';
+                this.style.transform = 'translateY(-10px)';
             });
             
             card.addEventListener('mouseleave', function() {
-                this.style.transform = 'translateY(0) scale(1)';
+                this.style.transform = 'translateY(0)';
             });
         });
         
