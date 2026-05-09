@@ -1,1 +1,380 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stage 2 - Systèmes & Réseaux - Informatique Service Plus</title>
+<meta name="description" content="Stage en systèmes et réseaux informatiques – Résolution de panne, maintenance, installation de nouveaux équipements, déploiement Windows, configuration NAS">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%); min-height: 100vh; }
+.navbar { background: white; padding: 15px 0; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+.nav-container { max-width: 1200px; margin: 0 auto; padding: 0 20px; display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+.nav-link { color: #1a2980; text-decoration: none; font-weight: 500; padding: 8px 15px; border-radius: 5px; transition: all 0.3s ease; }
+.nav-link:hover { background: #1a2980; color: white; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+.back-button { display: inline-block; color: white; text-decoration: none; margin-bottom: 20px; padding: 10px 15px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s ease; }
+.back-button:hover { background: rgba(255,255,255,0.2); color: white; text-decoration: none; }
+.ap-header { text-align: center; margin-bottom: 40px; color: white; }
+.ap-badge { display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 8px 20px; border-radius: 20px; font-size: 0.9em; margin-bottom: 15px; }
+.stage-badge { background: linear-gradient(135deg, #e74c3c, #c0392b); }
+.ap-header h1 { font-size: 2.5em; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+.ap-date { font-size: 1.1em; opacity: 0.9; }
+.ap-details-grid { background: white; border-radius: 15px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.2); margin-bottom: 40px; }
+.detail-section { margin-bottom: 40px; }
+.detail-section h2 { color: #2c3e50; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #f0f0f0; display: flex; align-items: center; gap: 10px; }
+.detail-section p { color: #555; line-height: 1.8; font-size: 1.1em; }
+.info-table { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin: 40px 0; }
+.info-column { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #1a2980; }
+.info-column h3 { color: #2c3e50; margin-bottom: 20px; display: flex; align-items: center; gap: 10px; }
+.info-column ul { list-style: none; }
+.info-column li { margin-bottom: 10px; padding-left: 20px; position: relative; color: #555; }
+.info-column li:before { content: "→"; position: absolute; left: 0; color: #1a2980; font-weight: bold; }
+.info-column p { color: #555; line-height: 1.6; }
+.info-column strong { color: #2c3e50; }
+.stage-periods { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0; }
+.period-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border: 2px solid #e9ecef; transition: transform 0.3s ease, border-color 0.3s ease; position: relative; overflow: hidden; }
+.period-card:hover { transform: translateY(-5px); border-color: #1a2980; box-shadow: 0 5px 15px rgba(26, 41, 128, 0.1); }
+.period-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+.period-card ul { list-style: none; margin-bottom: 20px; }
+.period-card li { margin-bottom: 8px; padding-left: 20px; position: relative; color: #555; font-size: 0.95em; }
+.period-card li:before { content: "•"; position: absolute; left: 0; color: #28a745; font-weight: bold; }
+.pdf-button { background: #28a745; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-flex; align-items: center; gap: 10px; font-size: 14px; transition: background 0.3s ease; text-align: center; width: 100%; justify-content: center; }
+.pdf-button:hover { background: #218838; color: white; text-decoration: none; }
+.achievements-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 30px 0; }
+.achievement-card { background: #f8f9fa; padding: 25px; border-radius: 10px; border-left: 5px solid #ffc107; }
+.achievement-card h4 { color: #2c3e50; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+.environment-details { background: #f8f9fa; padding: 25px; border-radius: 10px; margin: 20px 0; }
+.environment-details h4 { color: #2c3e50; margin-bottom: 15px; }
+.tech-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 15px; margin-top: 15px; }
+.tech-item { background: white; padding: 10px; border-radius: 8px; text-align: center; font-weight: 500; color: #1a2980; border: 1px solid #dee2e6; }
+.stats-container { display: flex; justify-content: space-around; flex-wrap: wrap; gap: 20px; margin: 20px 0; }
+.stat-box { text-align: center; padding: 20px; background: linear-gradient(135deg, #1a2980, #26d0ce); border-radius: 15px; color: white; min-width: 150px; }
+.stat-number { font-size: 2.5em; font-weight: bold; }
+.stat-label { font-size: 0.9em; opacity: 0.9; }
+@media (max-width: 768px) {
+.nav-container { flex-direction: column; gap: 10px; text-align: center; }
+.ap-header h1 { font-size: 2em; }
+.ap-details-grid { padding: 20px; }
+.info-table { grid-template-columns: 1fr; }
+.stage-periods { grid-template-columns: 1fr; }
+.stat-box { min-width: 120px; }
+}
+</style>
+</head>
+<body>
+<script>
+  // Vérification d'authentification
+  const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+  if (!sessionData || !sessionData.isLoggedIn) {
+    window.location.href = 'index.html';
+  }
+</script>
 
+<nav class="navbar">
+  <div class="nav-container">
+    <a href="index.html" class="nav-link">🏠 Accueil</a>
+    <a href="aps.html" class="nav-link">📚 APs</a>
+    <a href="stages.html" class="nav-link">💼 Stages</a>
+    <a href="cv.html" class="nav-link">📄 CV</a>
+    <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud & Sécurité</a>
+  </div>
+</nav>
+
+<section class="section">
+<div class="container">
+  <a href="stages.html" class="back-button">← Retour aux Stages</a>
+
+  <div class="ap-header">
+    <div class="ap-badge stage-badge">STAGE 2</div>
+    <h1>Stage en Systèmes & Réseaux Informatiques</h1>
+    <p class="ap-date">Informatique Service Plus | 19 Janvier - 20 Février 2026 (5 semaines)</p>
+  </div>
+
+  <div class="ap-details-grid">
+
+    <!-- Description et contexte -->
+    <div class="detail-section">
+      <h2>🏢 Description de l'Entreprise</h2>
+      <p>Informatique Service Plus est une entreprise spécialisée dans les services informatiques aux entreprises et particuliers. Durant ce stage de 5 semaines, j'ai été amené à intervenir sur l'ensemble des activités de la société : résolution de pannes, maintenance des équipements, installation de nouveaux postes, déploiement de systèmes d'exploitation, configuration de serveurs NAS et gestion du parc informatique.</p>
+
+      <div class="environment-details">
+        <h4>📊 Contexte du stage :</h4>
+        <ul style="list-style: none; color: #555;">
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #1a2980;">•</span> <strong>SSII de proximité</strong> : Services IT pour PME/PMI et particuliers</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #1a2980;">•</span> <strong>Parc multi-constructeurs</strong> : Lenovo, Acer, HP, Dell, ASUS</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #1a2980;">•</span> <strong>Intervention terrain</strong> : Maintenance sur site et en atelier</li>
+          <li style="margin-bottom: 10px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #1a2980;">•</span> <strong>Mission globale</strong> : Déploiement, maintenance, sauvegarde, conseil</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Technologies, compétences et statistiques -->
+    <div class="info-table">
+      <div class="info-column">
+        <h3>🛠️ Technologies maîtrisées</h3>
+        <ul>
+          <li>Windows 10/11 Pro (Déploiement et configuration)</li>
+          <li>Macrium Reflect (Clonage de disques)</li>
+          <li>Acronis (Sauvegarde et récupération)</li>
+          <li>EaseUS Data Recovery (Récupération de données)</li>
+          <li>Ninite (Déploiement automatisé de logiciels)</li>
+          <li>WinToys (Optimisation Windows)</li>
+          <li>Synology NAS (Configuration RAID 1)</li>
+          <li>UEFI/BIOS (Configuration sécurité)</li>
+          <li>Active Directory / GPO (Gestion de domaines)</li>
+        </ul>
+      </div>
+      <div class="info-column">
+        <h3>🎯 Compétences développées</h3>
+        <ul>
+          <li>Résolution de pannes logicielles et matérielles</li>
+          <li>Maintenance préventive et corrective</li>
+          <li>Déploiement et configuration de postes de travail</li>
+          <li>Gestion du patrimoine informatique (ITAM)</li>
+          <li>Sauvegarde et récupération de données (PRA)</li>
+          <li>Configuration de serveurs NAS</li>
+          <li>Autonomie et rigueur professionnelle</li>
+        </ul>
+      </div>
+      <div class="info-column">
+        <h3>📈 Statistiques clés</h3>
+        <div class="stats-container">
+          <div class="stat-box">
+            <div class="stat-number">12+</div>
+            <div class="stat-label">Postes déployés</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">6+</div>
+            <div class="stat-label">Disques recyclés</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-number">1</div>
+            <div class="stat-label">NAS configuré</div>
+          </div>
+        </div>
+        <div class="tech-grid">
+          <div class="tech-item">Windows 11</div>
+          <div class="tech-item">Macrium Reflect</div>
+          <div class="tech-item">Ninite</div>
+          <div class="tech-item">Synology</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Missions par semaine -->
+    <div class="detail-section">
+      <h2>📅 Missions par Semaine</h2>
+      <div class="stage-periods">
+
+        <!-- Semaine 1 : 19-23 Janvier -->
+        <div class="period-card">
+          <h4>📅 Semaine 1 : 19-23 Janvier 2026</h4>
+          <ul>
+            <li>Découverte de l'entreprise et de l'infrastructure</li>
+            <li>Maintenance matérielle (démontage/remontage de postes)</li>
+            <li>Accès au BIOS/UEFI sur différents constructeurs (Acer, HP, Dell, ASUS)</li>
+            <li>Configuration UEFI : désactivation Secure Boot, définition mot de passe superviseur</li>
+            <li>Installation de Windows 11 sur 4 PC Acer neufs</li>
+            <li>Création de comptes utilisateurs locaux (commande start ms-cxh:localhosty)</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 19 JANVIER 2026 AU 23 JANVIER 2026 (1).pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 2 : 26-30 Janvier -->
+        <div class="period-card">
+          <h4>📅 Semaine 2 : 26-30 Janvier 2026</h4>
+          <ul>
+            <li>Préparation matérielle de 2 PC Acer neufs</li>
+            <li>Installation Windows 11 avec optimisation</li>
+            <li>Déploiement logiciel via Ninite (Chrome, VLC, AnyDesk, 7-Zip, LibreOffice)</li>
+            <li>Optimisation Windows avec WinToys (désactivation démarrage, fond transparent, publicités)</li>
+            <li>Personnalisation interface utilisateur (barre des tâches, raccourcis bureau)</li>
+            <li>Diagnostic et remise à neuf d'un PC HP (boucle réparation automatique)</li>
+            <li>Sauvegarde par clonage (Acronis, Macrium Reflect)</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 26 JANVIER 2026 AU 30 JANVIER 2026.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 3 : 2-6 Février -->
+        <div class="period-card">
+          <h4>📅 Semaine 3 : 2-6 Février 2026</h4>
+          <ul>
+            <li>Intégration de 2 postes Lenovo (Lot 1)</li>
+            <li>Configuration UEFI et sécurisation initiale</li>
+            <li>Déploiement Windows 11 Pro avec bypass OOBE (OOBE\BYPASSNRO)</li>
+            <li>Hardening : Réactivation Secure Boot et TPM 2.0</li>
+            <li>Déploiement automatisé via Ninite et optimisation WinToys</li>
+            <li>Récupération de données utilisateur (EaseUS Data Recovery)</li>
+            <li>Recyclage sécurisé de 6 disques durs (conformité RGPD)</li>
+            <li>Clonage de masse via Macrium Reflect (Golden Image)</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 02 AU 06 fevrier 2026.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 4 : 9-13 Février -->
+        <div class="period-card">
+          <h4>📅 Semaine 4 : 9-13 Février 2026</h4>
+          <ul>
+            <li>Intégration poste Lenovo</li>
+            <li>Configuration UEFI (Secure Boot, TPM 2.0)</li>
+            <li>Déploiement Windows 11 Pro avec bypass OOBE</li>
+            <li>Déploiement logiciel Ninite et optimisation WinToys</li>
+            <li>Configuration et documentation Golden Image</li>
+            <li>Mise en place d'un NAS Synology en RAID 1 (RAID miroir)</li>
+            <li>Objectif : tolérance aux pannes, sauvegarde centralisée</li>
+            <li>Utilisation de sfc /scannow pour vérification intégrité système</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 09 AU 13 fevrier 2026.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+        <!-- Semaine 5 : 16-20 Février -->
+        <div class="period-card">
+          <h4>📅 Semaine 5 : 16-20 Février 2026</h4>
+          <ul>
+            <li>Intégration poste Acer</li>
+            <li>Configuration UEFI et sécurisation</li>
+            <li>Déploiement Windows 11 Pro avec bypass OOBE</li>
+            <li>Clonage disque avec Macrium Reflect</li>
+            <li>Déploiement logiciel Ninite et optimisation WinToys</li>
+            <li>Documentation Golden Image</li>
+            <li>Vérification intégrité système (sfc /scannow)</li>
+            <li>Utilisation de Super Droper (déploiement automatisé Mac)</li>
+          </ul>
+          <a href="./images/RAPPORT DE STAGE DU 16 AU 20 fevrier 2026.pdf" class="pdf-button" target="_blank">📄 Voir le rapport hebdomadaire</a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Réalisations majeures -->
+    <div class="detail-section">
+      <h2>🏆 Réalisations Majeures</h2>
+      <div class="achievements-grid">
+        <div class="achievement-card">
+          <h4>💾 Configuration NAS Synology RAID 1</h4>
+          <ul>
+            <li>Paramétrage d'un serveur NAS en RAID miroir</li>
+            <li>Duplication des données sur 2 disques durs</li>
+            <li>Tolérance aux pannes et haute disponibilité</li>
+            <li>Sauvegarde centralisée et partage de fichiers sécurisé</li>
+            <li>Solution adaptée aux besoins des PME</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h4>⚙️ Industrialisation du déploiement</h4>
+          <ul>
+            <li>Création d'une "Golden Image" de référence</li>
+            <li>Utilisation de Macrium Reflect pour clonage de masse</li>
+            <li>Standardisation des installations sur 12+ postes</li>
+            <li>Réduction significative du temps d'intervention</li>
+            <li>Limitation des erreurs humaines</li>
+          </ul>
+        </div>
+        <div class="achievement-card">
+          <h4>🛡️ Sécurisation et conformité</h4>
+          <ul>
+            <li>Configuration UEFI avec Secure Boot et TPM 2.0</li>
+            <li>Destruction sécurisée de 6 disques durs (conformité RGPD)</li>
+            <li>Récupération de données sensibles avec EaseUS</li>
+            <li>Documentation des procédures de déploiement</li>
+            <li>Mise à jour de la base CMDB</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outils et méthodologies -->
+    <div class="detail-section">
+      <h2>🔧 Outils et Méthodologies</h2>
+      <div class="info-table">
+        <div class="info-column">
+          <h3>📦 Déploiement et Configuration</h3>
+          <ul>
+            <li><strong>Ninite</strong> : Installation automatisée de logiciels standards</li>
+            <li><strong>WinToys</strong> : Optimisation des performances Windows</li>
+            <li><strong>Macrium Reflect</strong> : Clonage de disques et imagerie</li>
+            <li><strong>Super Droper</strong> : Déploiement automatisé sur Mac</li>
+          </ul>
+        </div>
+        <div class="info-column">
+          <h3>💾 Sauvegarde et Récupération</h3>
+          <ul>
+            <li><strong>Acronis</strong> : Sauvegarde complète par clonage</li>
+            <li><strong>EaseUS Data Recovery</strong> : Récupération de fichiers supprimés</li>
+            <li><strong>sfc /scannow</strong> : Vérification intégrité fichiers système</li>
+            <li><strong>DISM</strong> : Réparation avancée de l'image système</li>
+          </ul>
+        </div>
+        <div class="info-column">
+          <h3>🔐 Sécurité et Conformité</h3>
+          <ul>
+            <li><strong>UEFI Secure Boot</strong> : Sécurisation chaîne de boot</li>
+            <li><strong>TPM 2.0</strong> : Chiffrement matériel</li>
+            <li><strong>RGPD</strong> : Destruction sécurisée des supports</li>
+            <li><strong>OOBE\BYPASSNRO</strong> : Contournement création compte Microsoft</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Compétences BTS SIO -->
+    <div class="detail-section">
+      <h2>🎯 Compétences BTS SIO SISR</h2>
+      <div class="info-table">
+        <div class="info-column">
+          <h3>🔧 Support et Maintenance</h3>
+          <ul>
+            <li>Répondre aux incidents et demandes d'assistance</li>
+            <li>Diagnostiquer et résoudre les pannes logicielles/matérielles</li>
+            <li>Assurer la maintenance préventive du parc</li>
+            <li>Mettre à disposition un service informatique de qualité</li>
+          </ul>
+        </div>
+        <div class="info-column">
+          <h3>📊 Gestion de Projet</h3>
+          <ul>
+            <li>Gérer le patrimoine informatique (ITAM)</li>
+            <li>Travailler en mode projet (déploiement 12+ postes)</li>
+            <li>Documenter les procédures et configurations</li>
+            <li>Organiser son développement professionnel</li>
+          </ul>
+        </div>
+        <div class="info-column">
+          <h3>🌐 Infrastructure et Sécurité</h3>
+          <ul>
+            <li>Configurer et sécuriser des postes de travail</li>
+            <li>Implémenter des solutions de sauvegarde (NAS RAID 1)</li>
+            <li>Assurer la conformité RGPD</li>
+            <li>Développer la présence en ligne de l'organisation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bilan -->
+    <div class="detail-section">
+      <h2>📊 Bilan du Stage</h2>
+      <div class="environment-details">
+        <h4>✅ Compétences acquises en autonomie</h4>
+        <ul>
+          <li><strong>Maîtrise des environnements Windows :</strong> Déploiement, optimisation, hardening</li>
+          <li><strong>Expertise en clonage et imagerie :</strong> Macrium Reflect, Acronis</li>
+          <li><strong>Configuration NAS :</strong> Synology en RAID 1 pour PME</li>
+          <li><strong>Gestion de projet technique :</strong> Planification et exécution du déploiement</li>
+          <li><strong>Autonomie et rigueur :</strong> Travail en autonomie sur le terrain</li>
+        </ul>
+        <h4 style="margin-top: 20px;">🎓 Apports pour la formation</h4>
+        <ul>
+          <li>Mise en pratique des compétences théoriques du BTS SIO SISR</li>
+          <li>Découverte du métier de technicien système et réseau en SSII</li>
+          <li>Confirmation de l'intérêt pour les métiers de l'infrastructure et de la sécurité</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+</section>
+</body>
+</html>
