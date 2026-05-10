@@ -3,42 +3,259 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio BTS - Accueil</title>
-    <link rel="stylesheet" href="style.css">
-
+    <title>Portfolio BTS - Enock AMOUSSOULIFI</title>
     <style>
-        /* ================== QUICK LINKS ================== */
+        /* ================== RESET & VARIABLES ================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #667eea;
+            --primary-dark: #5a67d8;
+            --secondary: #764ba2;
+            --dark: #1e293b;
+            --light: #f8fafc;
+            --gray: #64748b;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --danger: #ef4444;
+            --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.1);
+            --shadow-md: 0 10px 15px -3px rgba(0,0,0,0.1);
+            --shadow-lg: 0 20px 25px -5px rgba(0,0,0,0.1);
+            --radius: 16px;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--dark);
+        }
+
+        /* ================== NAVBAR ================== */
+        .navbar {
+            background: white;
+            padding: 1rem 0;
+            box-shadow: var(--shadow-md);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .nav-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-link:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .nav-link.active {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+        }
+
+        .logout-btn {
+            background: var(--danger);
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logout-btn:hover {
+            background: #dc2626;
+            transform: translateY(-2px);
+        }
+
+        /* ================== HERO ================== */
+        .hero-section {
+            text-align: center;
+            padding: 5rem 2rem;
+            color: white;
+        }
+
+        .hero-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .hero-subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* ================== QUICK LINKS - NOUVEAU DESIGN ================== */
         .quick-links-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 32px;
-            margin: 60px 0;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
         }
 
         .quick-link-card {
-            position: relative;
-            background: #ffffff;
-            border-radius: 16px;
-            padding: 28px 24px;
+            background: white;
+            border-radius: var(--radius);
+            padding: 2rem;
             text-decoration: none;
-            color: #1f2937;
-            border: 1px solid #e5e7eb;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.06);
-            transition: all 0.3s ease;
+            color: var(--dark);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .quick-link-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, var(--primary), var(--secondary));
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.4s ease;
+        }
+
+        .quick-link-card:hover::before {
+            transform: scaleX(1);
         }
 
         .quick-link-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 18px 35px rgba(0,0,0,0.12);
-            border-color: #667eea;
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+            border-color: var(--primary);
         }
 
         .card-icon {
-            font-size: 2.8rem;
-            margin-bottom: 16px;
+            font-size: 3rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f0f4ff;
+            border-radius: 20px;
         }
 
-        /* Login overlay */
+        .quick-link-card h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--dark);
+            margin: 0;
+        }
+
+        .quick-link-card p {
+            color: var(--gray);
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .card-arrow {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            color: var(--primary);
+            transition: transform 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .quick-link-card:hover .card-arrow {
+            transform: translateX(8px);
+        }
+
+        .card-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: linear-gradient(135deg, var(--success), #059669);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        /* Carte Veille spécifique */
+        .quick-link-card.veille {
+            background: linear-gradient(135deg, #1e293b, #0f172a);
+            color: white;
+        }
+
+        .quick-link-card.veille .card-icon {
+            background: rgba(255,255,255,0.1);
+            -webkit-background-clip: unset;
+            background-clip: unset;
+            color: #38bdf8;
+        }
+
+        .quick-link-card.veille h3 {
+            color: white;
+        }
+
+        .quick-link-card.veille p {
+            color: #94a3b8;
+        }
+
+        /* ================== LOGIN OVERLAY ================== */
         #login-overlay {
             position: fixed;
             inset: 0;
@@ -47,86 +264,176 @@
             align-items: center;
             justify-content: center;
             z-index: 9999;
+            backdrop-filter: blur(10px);
         }
 
         .login-box {
             background: white;
-            padding: 40px;
-            border-radius: 16px;
+            padding: 2.5rem;
+            border-radius: 24px;
             width: 100%;
             max-width: 420px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.25);
             text-align: center;
+            animation: fadeInUp 0.5s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .login-box h2 {
+            margin-bottom: 0.5rem;
+            color: var(--dark);
+        }
+
+        .login-box p {
+            color: var(--gray);
+            margin-bottom: 1.5rem;
         }
 
         .login-box input {
             width: 100%;
-            padding: 12px;
-            margin-bottom: 15px;
-            border-radius: 8px;
-            border: 1px solid #ccc;
+            padding: 0.875rem;
+            margin-bottom: 1rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .login-box input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
         }
 
         .login-box button {
             width: 100%;
-            padding: 12px;
-            background: #667eea;
+            padding: 0.875rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             color: white;
             border: none;
-            border-radius: 8px;
-            font-size: 16px;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
             cursor: pointer;
+            transition: all 0.3s ease;
         }
 
-        .logout-btn {
-            background: #ef4444;
+        .login-box button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        #login-error {
+            color: var(--danger);
+            margin-top: 1rem;
+            font-size: 0.875rem;
+        }
+
+        /* ================== STATS SECTION ================== */
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 3rem 0;
+            text-align: center;
+        }
+
+        .stat-card {
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 1.5rem;
             color: white;
-            border: none;
-            padding: 8px 14px;
-            border-radius: 6px;
-            cursor: pointer;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 800;
+            display: block;
+        }
+
+        .stat-label {
             font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* ================== RESPONSIVE ================== */
+        @media (max-width: 768px) {
+            .nav-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .nav-links {
+                justify-content: center;
+            }
+            
+            .hero-title {
+                font-size: 2rem;
+            }
+            
+            .quick-links-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-section {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .stats-section {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 1rem;
+            }
         }
     </style>
 </head>
-
 <body>
 
 <!-- ================= LOGIN ================= -->
 <div id="login-overlay">
     <div class="login-box">
-        <h2>🔐 Accès au portfolio</h2>
-        <p>Connexion requise</p>
+        <h2>🔐 Portfolio BTS SIO</h2>
+        <p>Enock AMOUSSOULIFI — Systèmes & Réseaux</p>
 
         <input id="login" type="text" placeholder="Identifiant">
         <input id="password" type="password" placeholder="Mot de passe">
 
         <button onclick="doLogin()">Se connecter</button>
-        <p id="login-error" style="color:red; margin-top:10px;"></p>
+        <p id="login-error"></p>
     </div>
 </div>
 
 <!-- ================= NAVBAR ================= -->
 <nav class="navbar">
     <div class="nav-container">
-        <a href="index.html" class="nav-link active">🏠 Accueil</a>
-
-        <!-- Liens protégés -->
-        <a href="aps.html" class="nav-link protected">📚 APs</a>
-        <a href="stages.html" class="nav-link protected">💼 Stages</a>
-        <a href="cv.html" class="nav-link protected">📄 CV</a>
-
-        <!-- Veille TOUJOURS visible -->
-        <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">
-            🔍 Veille Cloud & Sécurité
-        </a>
-
-        <!-- Déconnexion -->
-        <button class="logout-btn" onclick="logout()">Déconnexion</button>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link active">🏠 Accueil</a>
+            <a href="aps.html" class="nav-link protected">📚 APs</a>
+            <a href="stages.html" class="nav-link protected">💼 Stages</a>
+            <a href="cv.html" class="nav-link protected">📄 CV</a>
+            <a href="veille-cloud-securite/veille-cloud-securite.html" class="nav-link">🔍 Veille Cloud</a>
+        </div>
+        <button class="logout-btn" onclick="logout()">🔓 Déconnexion</button>
     </div>
 </nav>
 
-<!-- ================= CONTENU ================= -->
+<!-- ================= HERO ================= -->
 <section class="hero-section">
     <div class="container">
         <h1 class="hero-title">Bienvenue sur mon Portfolio</h1>
@@ -137,44 +444,75 @@
 </section>
 
 <div class="container">
-    <div class="quick-links-grid">
+    
+    <!-- Statistiques -->
+    <div class="stats-section">
+        <div class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Stages réalisés</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Postes déployés</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">80+</span>
+            <span class="stat-label">Salles inventoriées</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">10+</span>
+            <span class="stat-label">Projets techniques</span>
+        </div>
+    </div>
 
+    <!-- Grille des boutons améliorée -->
+    <div class="quick-links-grid">
+        <!-- Carte APs -->
         <a href="aps.html" class="quick-link-card protected">
             <div class="card-icon">📚</div>
-            <h3>APs Réalisées</h3>
-            <p>Projets techniques systèmes et réseaux.</p>
+            <h3>Ateliers Professionnels</h3>
+            <p>Découvrez mes projets techniques en systèmes, réseaux et sécurité informatique.</p>
+            <span class="card-arrow">Explorer →</span>
+            <span class="card-badge">5 projets</span>
         </a>
 
+        <!-- Carte Stages -->
         <a href="stages.html" class="quick-link-card protected">
             <div class="card-icon">💼</div>
-            <h3>Stages</h3>
-            <p>Expériences professionnelles.</p>
+            <h3>Expériences en entreprise</h3>
+            <p>Deux stages en milieu professionnel : maintenance, déploiement et infrastructure.</p>
+            <span class="card-arrow">Découvrir →</span>
+            <span class="card-badge">9 semaines</span>
         </a>
 
+        <!-- Carte CV -->
         <a href="cv.html" class="quick-link-card protected">
             <div class="card-icon">📄</div>
             <h3>Curriculum Vitae</h3>
-            <p>CV détaillé et téléchargeable.</p>
+            <p>Mon parcours, mes compétences et mes certifications en informatique.</p>
+            <span class="card-arrow">Télécharger →</span>
+            <span class="card-badge">À jour</span>
         </a>
 
-        <a href="veille-cloud-securite/veille-cloud-securite.html" class="quick-link-card">
+        <!-- Carte Veille -->
+        <a href="veille-cloud-securite/veille-cloud-securite.html" class="quick-link-card veille">
             <div class="card-icon">🔍</div>
             <h3>Veille Technologique</h3>
-            <p>Cloud & Sécurité automatisée.</p>
+            <p>Suivi des actualités Cloud & Sécurité avec alertes automatisées.</p>
+            <span class="card-arrow">Consulter →</span>
+            <span class="card-badge" style="background: #38bdf8;">Live</span>
         </a>
-
     </div>
 </div>
 
 <!-- ================= SCRIPTS ================= -->
 <script>
 function doLogin() {
-    const user = document.getElementById("login").value.trim(); // ID corrigé
+    const user = document.getElementById("login").value.trim();
     const pass = document.getElementById("password").value.trim();
 
     // 🔐 Identifiants
     if (user === "enock" && pass === "enock2000") {
-
         const expiration = Date.now() + (30 * 60 * 1000); // 30 minutes
 
         localStorage.setItem("sessionData", JSON.stringify({
@@ -183,34 +521,39 @@ function doLogin() {
             expiresAt: expiration
         }));
 
-        // 🔁 Redirection après connexion
         window.location.href = "aps.html";
-
     } else {
         document.getElementById("login-error").textContent = "Identifiant ou mot de passe incorrect";
     }
 }
 
-// Optionnel : déconnexion
 function logout() {
     localStorage.removeItem("sessionData");
     location.reload();
 }
 
-// Vérifie si la session est encore active
+// Vérification session
 window.addEventListener("DOMContentLoaded", () => {
     const session = JSON.parse(localStorage.getItem("sessionData"));
     if (session && session.isLoggedIn && session.expiresAt > Date.now()) {
         document.getElementById("login-overlay").style.display = "none";
     }
+
+    // Masquer les éléments protégés si non connecté
+    const protectedElements = document.querySelectorAll('.protected');
+    if (!session || !session.isLoggedIn || session.expiresAt <= Date.now()) {
+        protectedElements.forEach(el => {
+            el.style.pointerEvents = "none";
+            el.style.opacity = "0.5";
+            el.style.cursor = "default";
+        });
+    } else {
+        protectedElements.forEach(el => {
+            el.style.pointerEvents = "auto";
+            el.style.opacity = "1";
+        });
+    }
 });
 </script>
-
-
-
-
 </body>
 </html>
-
-
-
