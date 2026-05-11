@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+    "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+    "date": "2026-05-10",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
     "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
     "date": "2026-05-09",
@@ -724,20 +738,6 @@
     "source": "The Hacker News",
     "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
     "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Python Backdoor Uses Tunneling Service to Steal Browser and Cloud Credentials",
-    "link": "https://thehackernews.com/2026/04/new-python-backdoor-uses-tunneling.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "EtherRAT Distribution Spoofing Administrative Tools via GitHub Facades",
-    "link": "https://thehackernews.com/2026/04/etherrat-distribution-spoofing.html",
     "date": "2026-04-30",
     "month": "2026-04"
   },
