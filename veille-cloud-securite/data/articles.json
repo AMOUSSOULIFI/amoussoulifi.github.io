@@ -1,6 +1,118 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
+    "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
+    "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
+    "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
+    "link": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-021 (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-021/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0556/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Spring (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0554/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0558/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PHP (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0553/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0557/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (11 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0555/",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
+    "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+    "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
+    "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
+    "date": "2026-05-11",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
     "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
     "date": "2026-05-11",
@@ -560,13 +672,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
-    "link": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
-    "date": "2026-05-02",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Code Orange: Fail Small is complete. The result is a stronger Cloudflare network",
     "link": "https://blog.cloudflare.com/code-orange-fail-small-complete/",
@@ -588,65 +693,9 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
-    "link": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cybercrime Groups Using Vishing and SSO Abuse in Rapid SaaS Extortion Attacks",
-    "link": "https://thehackernews.com/2026/05/cybercrime-groups-using-vishing-and-sso.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Target Asian Governments, NATO State, Journalists, and Activists",
-    "link": "https://thehackernews.com/2026/05/china-linked-hackers-target-asian.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Top Five Sales Challenges Costing MSPs Cybersecurity Revenue",
-    "link": "https://thehackernews.com/2026/05/top-five-sales-challenges-costing-msps.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Cybersecurity Professionals Get 4-Year Sentences in BlackCat Ransomware Attacks",
-    "link": "https://thehackernews.com/2026/05/two-cybersecurity-professionals-get-4.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Poisoned Ruby Gems and Go Modules Exploit CI Pipelines for Credential Theft",
-    "link": "https://thehackernews.com/2026/05/poisoned-ruby-gems-and-go-modules.html",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Netgate (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0516/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Exim (30 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0524/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Wireshark (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0518/",
     "date": "2026-04-30",
     "month": "2026-04"
   },
@@ -666,36 +715,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 avril 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0522/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SonicWall (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0517/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0520/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0519/",
     "date": "2026-04-30",
     "month": "2026-04"
   },
@@ -725,27 +746,6 @@
     "title": "Email threat landscape: Q1 2026 trends and insights",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
     "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
-    "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: SMS Blaster Busts, OpenEMR Flaws, 600K Roblox Hacks and 25 More Stories",
-    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-sms-blaster-busts.html",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Curl (29 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0514/",
-    "date": "2026-04-29",
     "month": "2026-04"
   },
   {
