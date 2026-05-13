@@ -173,71 +173,6 @@
             margin-bottom: 20px;
         }
 
-        .info-table {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 40px;
-            margin: 50px 0;
-        }
-
-        .info-column {
-            background: linear-gradient(145deg, #ffffff, #f8f9fa);
-            padding: 35px;
-            border-radius: 20px;
-            border-left: 8px solid #4a69bd;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            transition: all 0.4s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .info-column:before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 5px;
-            background: linear-gradient(90deg, #4a69bd, #0c2461);
-        }
-
-        .info-column:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
-        }
-
-        .info-column h3 {
-            color: #0c2461;
-            margin-bottom: 30px;
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            font-size: 1.6em;
-        }
-
-        .info-column ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .info-column li {
-            margin-bottom: 15px;
-            padding-left: 30px;
-            position: relative;
-            color: #555;
-            line-height: 1.7;
-            font-size: 1.1em;
-        }
-
-        .info-column li:before {
-            content: "▸";
-            position: absolute;
-            left: 0;
-            color: #4a69bd;
-            font-weight: bold;
-            font-size: 1.3em;
-        }
-
         .network-table {
             width: 100%;
             border-collapse: separate;
@@ -473,45 +408,6 @@
             font-size: 1.4em;
         }
 
-        .architecture-visual {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 25px;
-            margin: 40px 0;
-        }
-
-        .architecture-item {
-            background: linear-gradient(135deg, #4a69bd, #0c2461);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 25px rgba(74, 105, 189, 0.3);
-        }
-
-        .architecture-item:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 20px 40px rgba(74, 105, 189, 0.4);
-        }
-
-        .architecture-item h4 {
-            font-size: 1.4em;
-            margin-bottom: 15px;
-            color: white;
-        }
-
-        .architecture-item p {
-            font-size: 1.1em;
-            opacity: 0.9;
-            margin-bottom: 5px;
-        }
-
-        .architecture-item small {
-            font-size: 0.9em;
-            opacity: 0.7;
-        }
-
         .doc-actions {
             display: flex;
             gap: 20px;
@@ -567,10 +463,6 @@
             
             .ap-details-grid {
                 padding: 25px;
-            }
-            
-            .info-table {
-                grid-template-columns: 1fr;
             }
             
             .tab-btn {
@@ -670,71 +562,6 @@
                             <li><strong>Documentation :</strong> Produire une documentation technique complète</li>
                             <li><strong>Validation :</strong> Tester et valider la configuration de sécurité</li>
                         </ul>
-                    </div>
-                </div>
-
-                <!-- Infrastructure Déployée -->
-                <div class="detail-section">
-                    <h2>🏗️ Infrastructure Déployée</h2>
-                    <div class="features-grid">
-                        <div class="feature-card">
-                            <h4>🎓 Moodle</h4>
-                            <ul>
-                                <li>Plateforme e-learning</li>
-                                <li>Apache + PHP</li>
-                                <li>Base MariaDB distante</li>
-                                <li>Accessible en HTTPS</li>
-                                <li>Authentification LDAP (AD)</li>
-                            </ul>
-                        </div>
-                        <div class="feature-card">
-                            <h4>🎫 GLPI</h4>
-                            <ul>
-                                <li>Gestion des tickets d'incidents</li>
-                                <li>Inventaire du parc informatique</li>
-                                <li>Agents GLPI/FusionInventory</li>
-                                <li>Centralisation du support</li>
-                                <li>Base MariaDB dédiée</li>
-                            </ul>
-                        </div>
-                        <div class="feature-card">
-                            <h4>📊 Zabbix</h4>
-                            <ul>
-                                <li>Supervision réseau centralisée</li>
-                                <li>Surveillance des serveurs</li>
-                                <li>Alertes systèmes temps réel</li>
-                                <li>Monitoring des performances</li>
-                                <li>Remontée d'incidents vers GLPI (API)</li>
-                            </ul>
-                        </div>
-                        <div class="feature-card">
-                            <h4>🖥️ Active Directory</h4>
-                            <ul>
-                                <li>Gestion centralisée des utilisateurs</li>
-                                <li>Authentification LDAP pour Moodle/GLPI</li>
-                                <li>DNS interne</li>
-                                <li>Gestion des stratégies GPO</li>
-                                <li>Contrôleur de domaine Windows Server</li>
-                            </ul>
-                        </div>
-                        <div class="feature-card">
-                            <h4>🗄️ MariaDB</h4>
-                            <ul>
-                                <li>Base de données mutualisée</li>
-                                <li>Accès sécurisé depuis DMZ Publique</li>
-                                <li>Sauvegarde quotidienne vers NAS</li>
-                                <li>Optimisation des performances</li>
-                            </ul>
-                        </div>
-                        <div class="feature-card">
-                            <h4>💾 NAS</h4>
-                            <ul>
-                                <li>Sauvegarde centralisée NFS</li>
-                                <li>Backup quotidien des bases et données</li>
-                                <li>Haute disponibilité des données</li>
-                                <li>Plan de reprise d'activité (PRA)</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
 
@@ -1058,70 +885,6 @@
                                         <td>2049</td>
                                         <td>Sauvegardes NFS vers NAS</td>
                                     </tr>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>172.16.46.103/32</td>
-                                        <td>389</td>
-                                        <td>Moodle → LDAP Active Directory</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>172.16.46.103/32</td>
-                                        <td>389</td>
-                                        <td>GLPI → LDAP Active Directory</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            
-                            <h4 style="margin-top: 40px;">DMZ Privée - Règles Configurées</h4>
-                            <table class="network-table">
-                                <thead>
-                                    <tr>
-                                        <th>Action</th>
-                                        <th>Protocole</th>
-                                        <th>Source</th>
-                                        <th>Destination</th>
-                                        <th>Port</th>
-                                        <th>Description</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>172.16.46.100/32</td>
-                                        <td>3306</td>
-                                        <td>Moodle → MariaDB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>172.16.46.100/32</td>
-                                        <td>3306</td>
-                                        <td>GLPI → MariaDB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.16.46.102/32</td>
-                                        <td>*</td>
-                                        <td>10050-10051</td>
-                                        <td>Supervision Zabbix → Agents</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>172.16.46.103/32</td>
-                                        <td>389</td>
-                                        <td>Moodle → LDAP AD</td>
-                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -1134,173 +897,48 @@
                     </div>
 
                     <!-- Onglet Architecture -->
-<div id="architecture" class="tab-content">
-    <h3>Architecture Réseau - Conception Individuelle</h3>
-    
-    <!-- Première image : Schéma d'architecture -->
-    <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-        <img src="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" alt="Schéma architecture réseau" 
-             style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
-             onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_19.png', 'Schéma architecture réseau - pfSense - Moodle - GLPI - Zabbix - Active Directory - NAS')"
-             onerror="this.src='https://via.placeholder.com/800x500/4a69bd/ffffff?text=Schema+Architecture+Reseau'">
-    </div>
-    
-    <!-- Deuxième image : Règles de filtrage / Diagramme des flux -->
-    <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-        <img src="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" alt="Diagramme des flux réseau" 
-             style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
-             onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_36.png', 'Diagramme des flux réseau - Règles pfSense')"
-             onerror="this.src='https://via.placeholder.com/800x500/28a745/ffffff?text=Diagramme+des+Flux'">
-    </div>
-    
-    <div class="doc-actions">
-        <a href="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" download="Schema_Architecture_AP5.png" class="doc-btn">
-            📐 Télécharger le schéma 1
-        </a>
-        <a href="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" download="Diagramme_Flux_AP5.png" class="doc-btn">
-            📊 Télécharger le schéma 2
-        </a>
-    </div>
-</div>
-
-                <!-- Compétences -->
-                <div class="detail-section">
-                    <h2>🎯 Compétences Développées en Autonomie</h2>
-                    <div class="info-table">
-                        <div class="info-column">
-                            <h3>🔧 Compétences Techniques</h3>
-                            <ul>
-                                <li>Configuration avancée de pfSense</li>
-                                <li>Segmentation VLAN et sous-réseaux</li>
-                                <li>Définition de politiques de sécurité</li>
-                                <li>Architecture réseau multi-services (Moodle, GLPI, Zabbix, AD)</li>
-                                <li>Routage et filtrage avancé</li>
-                                <li>Monitoring et journalisation</li>
-                                <li>Diagnostic et troubleshooting</li>
-                                <li>Mise en place de sauvegardes centralisées NFS</li>
-                            </ul>
+                    <div id="architecture" class="tab-content">
+                        <h3>Architecture Réseau - Conception Individuelle</h3>
+                        
+                        <!-- Première image : Schéma d'architecture -->
+                        <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                            <img src="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" alt="Schéma architecture réseau" 
+                                 style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
+                                 onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_19.png', 'Schéma architecture réseau - pfSense - Moodle - GLPI - Zabbix - Active Directory - NAS')"
+                                 onerror="this.src='https://via.placeholder.com/800x500/4a69bd/ffffff?text=Schema+Architecture+Reseau'">
                         </div>
                         
-                        <div class="info-column">
-                            <h3>📊 Compétences Méthodologiques</h3>
-                            <ul>
-                                <li>Gestion autonome de projet complexe</li>
-                                <li>Planification et organisation des phases de déploiement</li>
-                                <li>Documentation technique précise</li>
-                                <li>Tests de validation complets</li>
-                                <li>Résolution de problèmes complexes</li>
-                                <li>Veille technologique active</li>
-                                <li>Auto-évaluation critique</li>
-                            </ul>
+                        <!-- Deuxième image : Règles de filtrage / Diagramme des flux -->
+                        <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                            <img src="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" alt="Diagramme des flux réseau" 
+                                 style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
+                                 onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_36.png', 'Diagramme des flux réseau - Règles pfSense')"
+                                 onerror="this.src='https://via.placeholder.com/800x500/28a745/ffffff?text=Diagramme+des+Flux'">
                         </div>
                         
-                        <div class="info-column">
-                            <h3>🎓 Compétences BTS SIO SISR</h3>
-                            <ul>
-                                <li><strong>Gérer le patrimoine informatique :</strong> Configuration et sécurisation des services</li>
-                                <li><strong>Répondre aux incidents :</strong> Diagnostic et résolution (GLPI + Zabbix)</li>
-                                <li><strong>Travailler en mode projet :</strong> Gestion autonome du déploiement</li>
-                                <li><strong>Mettre à disposition un service :</strong> Déploiement sécurisé de Moodle, GLPI</li>
-                                <li><strong>Organiser son développement :</strong> Auto-formation et progression</li>
-                            </ul>
+                        <div class="doc-actions">
+                            <a href="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" download="Schema_Architecture_AP5.png" class="doc-btn">
+                                📐 Télécharger le schéma 1
+                            </a>
+                            <a href="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" download="Diagramme_Flux_AP5.png" class="doc-btn">
+                                📊 Télécharger le schéma 2
+                            </a>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Scripts -->
-                <div class="detail-section">
-                    <h2>⚙️ Scripts de Configuration pfSense</h2>
-                    <div style="background: linear-gradient(145deg, #ffffff, #f8f9fa); padding: 40px; border-radius: 20px; border-left: 8px solid #4a69bd;">
-                        <h4 style="color: #0c2461; margin-bottom: 25px;">Exemple de script de configuration pfSense :</h4>
-                        <pre style="background: #2c3e50; color: #fff; padding: 30px; border-radius: 15px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 1.1em; line-height: 1.6;">
-#!/bin/bash
-# Script de configuration pfSense - Infrastructure Multi-Services
-# Réalisé en autonomie complète
-# Architecture : Moodle + GLPI + Zabbix + AD + MariaDB + NAS
-
-echo "=== Configuration pfSense - Infrastructure Sécurisée ==="
-
-# Configuration des interfaces
-echo "1. Configuration des interfaces..."
-cat > /cf/conf/interfaces.conf << EOF
-# WAN - Internet (VLAN 3040)
-wan="vmx1"
-wan_ip="10.30.40.1/24"
-
-# LAN - Utilisateurs internes (VLAN 3042)
-lan="vmx2"
-lan_ip="192.168.42.254/24"
-
-# DMZ Publique - Moodle + GLPI (VLAN 3044)
-opt1="vmx3"
-opt1_ip="172.30.44.254/24"
-
-# DMZ Privée - Backend (VLAN 3046)
-opt2="vmx0"
-opt2_ip="172.16.46.254/24"
-EOF
-
-# Configuration des alias
-echo "2. Configuration des alias..."
-cat > /cf/conf/aliases.conf << EOF
-# DMZ Publique - Services web
-moodle_server="172.30.44.100"
-glpi_server="172.30.44.101"
-
-# DMZ Privée - Services backend
-db_server="172.16.46.100"      # MariaDB
-nas_server="172.16.46.101"     # NAS NFS
-zabbix_server="172.16.46.102"  # Supervision
-ad_server="172.16.46.103"      # Active Directory
-
-# Administration
-admin_lan="192.168.42.50"
-admin_wan="10.30.40.100"
-clients_lan="192.168.42.10-99"
-
-# Réseaux
-lan_net="192.168.42.0/24"
-dmz_pub_net="172.30.44.0/24"
-dmz_priv_net="172.16.46.0/24"
-EOF
-
-# Règles firewall
-echo "3. Application des règles firewall..."
-cat > /cf/conf/rules.conf << EOF
-# === WAN ===
-pass in quick on wan proto tcp from admin_wan to wan port 22
-pass in quick on wan proto tcp from any to moodle_server port 443
-pass in quick on wan proto tcp from any to glpi_server port 443
-block in quick on wan from any to wan_net
-
-# === LAN ===
-pass in quick on lan proto tcp from lan_net to moodle_server port {80,443}
-pass in quick on lan proto tcp from lan_net to glpi_server port {80,443}
-pass in quick on lan proto tcp from admin_lan to nas_server port {22,445}
-pass out quick on lan proto tcp from lan_net to any port {53,80,443}
-
-# === DMZ Publique ===
-pass in quick on opt1 proto tcp from any to moodle_server port 443
-pass in quick on opt1 proto tcp from any to glpi_server port 443
-pass out quick on opt1 proto tcp from moodle_server to db_server port 3306
-pass out quick on opt1 proto tcp from glpi_server to db_server port 3306
-pass out quick on opt1 proto tcp from dmz_pub_net to nas_server port 2049
-pass out quick on opt1 proto tcp from moodle_server to ad_server port 389
-pass out quick on opt1 proto tcp from glpi_server to ad_server port 389
-
-# === DMZ Privée ===
-pass in quick on opt2 proto tcp from zabbix_server to any port {10050,10051}
-EOF
-
-echo "=== Configuration terminée avec succès ==="
-                        </pre>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Modal pour les images -->
+    <div id="imageModal" class="modal" style="display: none; position: fixed; z-index: 1000; padding-top: 60px; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.9);">
+        <span class="close" onclick="closeModal()" style="position: absolute; top: 20px; right: 35px; color: white; font-size: 40px; font-weight: bold; cursor: pointer;">&times;</span>
+        <img class="modal-content" id="modalImage" style="margin: auto; display: block; max-width: 90%; max-height: 80%;">
+        <div id="caption" style="text-align: center; color: white; padding: 10px 0; height: 150px;"></div>
+    </div>
+
     <script>
+        // Fonction pour ouvrir les onglets
         function openTab(event, tabName) {
             const tabContents = document.querySelectorAll('.tab-content');
             const tabButtons = document.querySelectorAll('.tab-btn');
@@ -1315,6 +953,30 @@ echo "=== Configuration terminée avec succès ==="
             
             document.getElementById(tabName).classList.add('active');
             event.currentTarget.classList.add('active');
+        }
+
+        // Fonction pour ouvrir le modal d'image
+        function openImageModal(imageSrc, captionText) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const caption = document.getElementById('caption');
+            
+            modal.style.display = "block";
+            modalImg.src = imageSrc;
+            caption.innerHTML = captionText;
+        }
+
+        // Fonction pour fermer le modal
+        function closeModal() {
+            document.getElementById('imageModal').style.display = "none";
+        }
+
+        // Fermer le modal en cliquant en dehors de l'image
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target === modal) {
+                closeModal();
+            }
         }
 
         document.addEventListener('DOMContentLoaded', function() {
