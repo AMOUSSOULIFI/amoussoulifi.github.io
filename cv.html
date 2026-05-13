@@ -11,6 +11,7 @@
         --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         --secondary-gradient: linear-gradient(135deg, #38bdf8 0%, #0ea5e9 100%);
         --success-gradient: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+        --excel-gradient: linear-gradient(135deg, #1d6f42 0%, #0f5a35 100%);
         --accent-color: #38bdf8;
         --dark-bg: #0f172a;
         --light-bg: #f8fafc;
@@ -421,8 +422,8 @@
         font-weight: 500;
     }
 
-    /* ===== PDF VIEWER ===== */
-    .pdf-section {
+    /* ===== PDF & EXCEL VIEWER ===== */
+    .pdf-section, .excel-section {
         background: var(--card-bg);
         border-radius: var(--border-radius);
         padding: 2rem;
@@ -447,6 +448,33 @@
         border: none;
     }
 
+    .excel-viewer {
+        width: 100%;
+        height: 600px;
+        border-radius: 12px;
+        overflow: hidden;
+        border: 1px solid #e2e8f0;
+        margin: 1.5rem 0;
+        box-shadow: var(--shadow-sm);
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .excel-viewer .excel-placeholder {
+        text-align: center;
+        padding: 3rem;
+    }
+
+    .excel-viewer i {
+        font-size: 4rem;
+        color: #1d6f42;
+        margin-bottom: 1rem;
+    }
+
     .action-buttons {
         display: flex;
         justify-content: center;
@@ -466,10 +494,16 @@
         border: none;
         cursor: pointer;
         font-size: 1rem;
+        text-decoration: none;
     }
 
     .action-btn.download {
         background: var(--success-gradient);
+        color: white;
+    }
+
+    .action-btn.excel {
+        background: var(--excel-gradient);
         color: white;
     }
 
@@ -509,6 +543,7 @@
     .footer-link {
         color: #94a3b8;
         transition: var(--transition);
+        text-decoration: none;
     }
 
     .footer-link:hover {
@@ -541,6 +576,10 @@
         
         .pdf-viewer {
             height: 500px;
+        }
+        
+        .excel-viewer {
+            height: 400px;
         }
     }
 
@@ -586,6 +625,10 @@
             max-width: 300px;
             justify-content: center;
         }
+        
+        .excel-viewer {
+            height: 350px;
+        }
     }
 
     @media (max-width: 480px) {
@@ -597,6 +640,10 @@
         
         .pdf-viewer {
             height: 400px;
+        }
+        
+        .excel-viewer {
+            height: 300px;
         }
     }
 
@@ -612,7 +659,7 @@
         }
     }
 
-    .cv-section {
+    .cv-section, .pdf-section, .excel-section {
         animation: fadeInUp 0.5s ease-out forwards;
         opacity: 0;
     }
@@ -622,6 +669,7 @@
     .cv-section:nth-child(3) { animation-delay: 0.3s; }
     .cv-section:nth-child(4) { animation-delay: 0.4s; }
     .pdf-section { animation-delay: 0.5s; }
+    .excel-section { animation-delay: 0.6s; }
 
     /* ===== PRINT STYLES ===== */
     @media print {
@@ -634,7 +682,7 @@
             color: #000000;
         }
         
-        .cv-section, .pdf-section {
+        .cv-section, .pdf-section, .excel-section {
             box-shadow: none;
             border: 1px solid #ddd;
             break-inside: avoid;
@@ -658,6 +706,13 @@
 </head>
 
 <body>
+    <script>
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
@@ -728,7 +783,40 @@
 
     <!-- MAIN CONTENT -->
     <div class="main-content">
-        <!-- PDF VIEWER SECTION -->
+        <!-- SECTION TABLEAU DE COMPÉTENCES EXCEL -->
+        <div class="excel-section">
+            <div class="section-header">
+                <i class="fas fa-table"></i>
+                <h2>Tableau de Compétences BTS SIO</h2>
+            </div>
+            
+            <div class="excel-viewer">
+                <div class="excel-placeholder">
+                    <i class="fas fa-file-excel"></i>
+                    <h3>Tableau de compétences - Enock AMOUSSOULIFI</h3>
+                    <p>Fichier Excel récapitulant l'ensemble des compétences acquises durant la formation BTS SIO option SISR</p>
+                    <div class="action-buttons" style="margin-top: 1rem;">
+                        <a class="action-btn excel" href="./images/BTS SIO - 2025 - Tableau de compétences - enock AMOUSSOULIFI.xlsx" download>
+                            <i class="fas fa-download"></i>
+                            Télécharger le tableau Excel
+                        </a>
+                        <a class="action-btn excel" href="./images/BTS SIO - 2025 - Tableau de compétences - enock AMOUSSOULIFI.xlsx" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Ouvrir dans Excel
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="action-buttons">
+                <a class="action-btn excel" href="./images/BTS SIO - 2025 - Tableau de compétences - enock AMOUSSOULIFI.xlsx" download>
+                    <i class="fas fa-download"></i>
+                    Télécharger le tableau de compétences (Excel)
+                </a>
+            </div>
+        </div>
+
+        <!-- SECTION CV PDF -->
         <div class="pdf-section">
             <div class="section-header">
                 <i class="fas fa-file-pdf"></i>
@@ -755,7 +843,7 @@
         <div class="cv-container">
             <!-- LEFT COLUMN -->
             <div class="left-column">
-                <!-- EXPERIENCE -->
+                <!-- EXPÉRIENCE PROFESSIONNELLE -->
                 <div class="cv-section">
                     <div class="section-header">
                         <i class="fas fa-briefcase"></i>
@@ -763,32 +851,34 @@
                     </div>
                     
                     <div class="timeline">
+                        <!-- Stage 1 -->
                         <div class="timeline-item">
                             <div class="timeline-date">Juin - Juillet 2025</div>
                             <div class="timeline-content">
                                 <h3>Stage en Systèmes & Réseaux</h3>
                                 <p>Saint Charles Sainte-Croix – Le Mans</p>
-                                <p>Support technique, déploiement de postes, virtualisation, maintenance du parc informatique.</p>
+                                <p>Inventaire de 80+ salles, déploiement de 18 postes (salle F02), recyclage de 28 équipements, utilisation d'OCS Inventory, WDS, GNPI et support technique aux utilisateurs.</p>
                                 <div class="timeline-tags">
-                                    <span class="tag">Windows Server</span>
+                                    <span class="tag">OCS Inventory</span>
+                                    <span class="tag">WDS</span>
                                     <span class="tag">Active Directory</span>
-                                    <span class="tag">Virtualisation</span>
                                     <span class="tag">Support</span>
                                 </div>
                             </div>
                         </div>
                         
+                        <!-- Stage 2 -->
                         <div class="timeline-item">
-                            <div class="timeline-date">À venir 2025</div>
+                            <div class="timeline-date">Janvier - Février 2026</div>
                             <div class="timeline-content">
-                                <h3>Stage de spécialisation</h3>
-                                <p>Entreprise à déterminer</p>
-                                <p>Administration avancée, sécurité réseau, infrastructure virtualisée, automatisation.</p>
+                                <h3>Stage Maintenance & Déploiement</h3>
+                                <p>Informatique Service Plus</p>
+                                <p>Déploiement de 12+ postes Windows 11, configuration UEFI (Secure Boot, TPM 2.0), clonage de disques (Macrium Reflect, Acronis), configuration NAS Synology RAID 1, récupération de données et destruction sécurisée.</p>
                                 <div class="timeline-tags">
-                                    <span class="tag">Sécurité</span>
-                                    <span class="tag">Scripting</span>
-                                    <span class="tag">Monitoring</span>
-                                    <span class="tag">PRA/PCA</span>
+                                    <span class="tag">Windows 11</span>
+                                    <span class="tag">Macrium Reflect</span>
+                                    <span class="tag">Synology NAS</span>
+                                    <span class="tag">RGPD</span>
                                 </div>
                             </div>
                         </div>
@@ -828,25 +918,42 @@
                     </div>
                     
                     <div class="timeline">
+                        <!-- AP5 - pfSense -->
                         <div class="timeline-item">
-                            <div class="timeline-date">Mars - Mai 2025</div>
+                            <div class="timeline-date">2025 - 2026</div>
                             <div class="timeline-content">
-                                <h3>AP4 - Accès distant sécurisé</h3>
-                                <p>Architecture réseau avec DMZ, pfSense, sauvegarde automatisée</p>
+                                <h3>AP5 - Infrastructure Sécurisée Multi-Services</h3>
+                                <p>Configuration pfSense avec DMZ publique/privée, VLANs, règles firewall. Déploiement de Moodle, GLPI, Zabbix, Active Directory et NAS.</p>
                                 <div class="timeline-tags">
                                     <span class="tag">pfSense</span>
-                                    <span class="tag">DMZ</span>
-                                    <span class="tag">Sécurité</span>
-                                    <span class="tag">WordPress</span>
+                                    <span class="tag">Moodle</span>
+                                    <span class="tag">GLPI</span>
+                                    <span class="tag">Zabbix</span>
                                 </div>
                             </div>
                         </div>
                         
+                        <!-- AP4 - GLPI -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2025 - 2026</div>
+                            <div class="timeline-content">
+                                <h3>AP4 - Déploiement GLPI</h3>
+                                <p>Solution de gestion de parc et ticketing intégré à l'existant (Moodle, Zabbix, NAS). Supervision centralisée et inventaire automatisé.</p>
+                                <div class="timeline-tags">
+                                    <span class="tag">GLPI</span>
+                                    <span class="tag">MariaDB</span>
+                                    <span class="tag">FusionInventory</span>
+                                    <span class="tag">API</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- AP3 - GED -->
                         <div class="timeline-item">
                             <div class="timeline-date">Janvier - Mars 2025</div>
                             <div class="timeline-content">
                                 <h3>AP3 - GED Mairie de Pénestin</h3>
-                                <p>Solution de gestion électronique de documents avec OpenKM</p>
+                                <p>Solution de gestion électronique de documents avec OpenKM, serveur NAS, gestion des droits d'accès et archivage numérique sécurisé.</p>
                                 <div class="timeline-tags">
                                     <span class="tag">OpenKM</span>
                                     <span class="tag">GED</span>
@@ -873,7 +980,7 @@
                             <h4><i class="fas fa-server"></i> Administration Système</h4>
                             <div class="skill" data-percent="85">
                                 <div class="skill-header">
-                                    <span class="skill-name">Windows Server</span>
+                                    <span class="skill-name">Windows Server / 11</span>
                                     <span class="skill-percent">85%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -891,7 +998,7 @@
                             </div>
                             <div class="skill" data-percent="75">
                                 <div class="skill-header">
-                                    <span class="skill-name">Virtualisation</span>
+                                    <span class="skill-name">Virtualisation (ESXi)</span>
                                     <span class="skill-percent">75%</span>
                                 </div>
                                 <div class="skill-bar">
@@ -904,17 +1011,8 @@
                             <h4><i class="fas fa-network-wired"></i> Réseaux & Sécurité</h4>
                             <div class="skill" data-percent="90">
                                 <div class="skill-header">
-                                    <span class="skill-name">TCP/IP</span>
+                                    <span class="skill-name">TCP/IP / VLAN</span>
                                     <span class="skill-percent">90%</span>
-                                </div>
-                                <div class="skill-bar">
-                                    <div class="skill-progress"></div>
-                                </div>
-                            </div>
-                            <div class="skill" data-percent="75">
-                                <div class="skill-header">
-                                    <span class="skill-name">Pare-feu (pfSense)</span>
-                                    <span class="skill-percent">75%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress"></div>
@@ -922,8 +1020,17 @@
                             </div>
                             <div class="skill" data-percent="85">
                                 <div class="skill-header">
-                                    <span class="skill-name">OCS / FOG</span>
+                                    <span class="skill-name">pfSense / Pare-feu</span>
                                     <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="90">
+                                <div class="skill-header">
+                                    <span class="skill-name">OCS / GLPI</span>
+                                    <span class="skill-percent">90%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress"></div>
@@ -933,10 +1040,19 @@
                         
                         <div class="skill-category">
                             <h4><i class="fas fa-tools"></i> Outils & Scripting</h4>
-                            <div class="skill" data-percent="80">
+                            <div class="skill" data-percent="85">
                                 <div class="skill-header">
-                                    <span class="skill-name">GPO / Scripts</span>
-                                    <span class="skill-percent">80%</span>
+                                    <span class="skill-name">GPO / Active Directory</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">PowerShell</span>
+                                    <span class="skill-percent">75%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress"></div>
@@ -944,17 +1060,39 @@
                             </div>
                             <div class="skill" data-percent="70">
                                 <div class="skill-header">
-                                    <span class="skill-name">PowerShell</span>
+                                    <span class="skill-name">Bash</span>
                                     <span class="skill-percent">70%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress"></div>
                                 </div>
                             </div>
-                            <div class="skill" data-percent="65">
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4><i class="fas fa-database"></i> Supervision & Monitoring</h4>
+                            <div class="skill" data-percent="80">
                                 <div class="skill-header">
-                                    <span class="skill-name">Bash</span>
-                                    <span class="skill-percent">65%</span>
+                                    <span class="skill-name">Zabbix</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="85">
+                                <div class="skill-header">
+                                    <span class="skill-name">Macrium Reflect / Acronis</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"></div>
+                                </div>
+                            </div>
+                            <div class="skill" data-percent="75">
+                                <div class="skill-header">
+                                    <span class="skill-name">WDS / FOG</span>
+                                    <span class="skill-percent">75%</span>
                                 </div>
                                 <div class="skill-bar">
                                     <div class="skill-progress"></div>
@@ -985,6 +1123,31 @@
                                 <span>Anglais</span>
                             </div>
                             <div class="language-level">Technique (B1)</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CERTIFICATIONS -->
+                <div class="cv-section">
+                    <div class="section-header">
+                        <i class="fas fa-certificate"></i>
+                        <h2>Certifications</h2>
+                    </div>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">En cours</div>
+                            <div class="timeline-content">
+                                <h3>PIX</h3>
+                                <p>Compétences numériques</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">En cours</div>
+                            <div class="timeline-content">
+                                <h3>SST (Sauveteur Secouriste du Travail)</h3>
+                                <p>Premiers secours en milieu professionnel</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1041,6 +1204,12 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
+        // Authentication check
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+
         // Animate skill bars
         const skills = document.querySelectorAll('.skill');
         
@@ -1069,7 +1238,7 @@
         });
         
         // Add hover effect to sections
-        const sections = document.querySelectorAll('.cv-section');
+        const sections = document.querySelectorAll('.cv-section, .pdf-section, .excel-section');
         sections.forEach(section => {
             section.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-5px)';
@@ -1080,13 +1249,8 @@
             });
         });
         
-        // Print functionality
-        document.querySelector('.action-btn.print').addEventListener('click', function() {
-            window.print();
-        });
-        
         // Initialize animations
-        const animatedElements = document.querySelectorAll('.cv-section, .pdf-section');
+        const animatedElements = document.querySelectorAll('.cv-section, .pdf-section, .excel-section');
         animatedElements.forEach((el, index) => {
             el.style.animationDelay = (index * 0.1) + 's';
         });
