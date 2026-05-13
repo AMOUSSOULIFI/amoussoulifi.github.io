@@ -1134,68 +1134,34 @@
                     </div>
 
                     <!-- Onglet Architecture -->
-                    <div id="architecture" class="tab-content">
-                        <h3>Architecture Réseau - Conception Individuelle</h3>
-                        <p>Architecture complète conçue et implémentée individuellement :</p>
-                        
-                        <div class="architecture-visual">
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #dc3545, #c82333);">
-                                <h4>🌐 WAN</h4>
-                                <p>VLAN 3040</p>
-                                <p>10.30.40.0/24</p>
-                                <small>Zone internet - Non fiable</small>
-                            </div>
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #28a745, #218838);">
-                                <h4>🏠 LAN</h4>
-                                <p>VLAN 3042</p>
-                                <p>192.168.42.0/24</p>
-                                <small>Utilisateurs internes + AD</small>
-                            </div>
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #ffc107, #e0a800);">
-                                <h4>🛡️ DMZ Publique</h4>
-                                <p>VLAN 3044</p>
-                                <p>172.30.44.0/24</p>
-                                <small>Moodle (100) / GLPI (101)</small>
-                            </div>
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #17a2b8, #138496);">
-                                <h4>🔒 DMZ Privée</h4>
-                                <p>VLAN 3046</p>
-                                <p>172.16.46.0/24</p>
-                                <small>BDD / NAS / Zabbix</small>
-                            </div>
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #6f42c1, #59359c);">
-                                <h4>🖥️ Active Directory</h4>
-                                <p>172.16.46.103</p>
-                                <p>DNS / LDAP / GPO</p>
-                                <small>Contrôleur de domaine</small>
-                            </div>
-                            <div class="architecture-item" style="background: linear-gradient(135deg, #fd7e14, #e8590c);">
-                                <h4>📊 Zabbix</h4>
-                                <p>172.16.46.102</p>
-                                <p>10050-10051</p>
-                                <small>Supervision centralisée</small>
-                            </div>
-                        </div>
-                        
-                        <div style="background: white; padding: 30px; border-radius: 15px; margin-top: 30px; border: 3px solid #4a69bd;">
-                            <h4>🔗 Flux Autorisés - Configuration Personnelle</h4>
-                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 15px; margin-top: 20px;">
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🌐 → 🛡️</strong> Internet → Moodle/GLPI : HTTPS (443)</div>
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🏠 → 🛡️</strong> LAN → DMZ Publique : HTTP/HTTPS (80/443)</div>
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🔒</strong> Serveurs web → MariaDB : MySQL (3306)</div>
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🏠</strong> DMZ Publique → NAS : NFS (2049)</div>
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🖥️</strong> Moodle/GLPI → AD : LDAP (389)</div>
-                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>📊 → 🔧</strong> Zabbix → Agents : 10050-10051</div>
-                            </div>
-                        </div>
-                        
-                        <div class="doc-actions">
-                            <a href="./images/10.png" download="Schema_Reseau_TP_Individuel.png" class="doc-btn">
-                                📐 Télécharger le schéma réseau complet
-                            </a>
-                        </div>
-                    </div>
-                </div>
+<div id="architecture" class="tab-content">
+    <h3>Architecture Réseau - Conception Individuelle</h3>
+    
+    <!-- Première image : Schéma d'architecture -->
+    <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        <img src="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" alt="Schéma architecture réseau" 
+             style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
+             onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_19.png', 'Schéma architecture réseau - pfSense - Moodle - GLPI - Zabbix - Active Directory - NAS')"
+             onerror="this.src='https://via.placeholder.com/800x500/4a69bd/ffffff?text=Schema+Architecture+Reseau'">
+    </div>
+    
+    <!-- Deuxième image : Règles de filtrage / Diagramme des flux -->
+    <div style="background: white; border-radius: 15px; padding: 20px; margin: 30px 0; text-align: center; border: 2px solid #4a69bd; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+        <img src="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" alt="Diagramme des flux réseau" 
+             style="max-width: 100%; height: auto; border-radius: 10px; cursor: pointer;"
+             onclick="openImageModal('./images/ChatGPT Image 13 mai 2026, 02_49_36.png', 'Diagramme des flux réseau - Règles pfSense')"
+             onerror="this.src='https://via.placeholder.com/800x500/28a745/ffffff?text=Diagramme+des+Flux'">
+    </div>
+    
+    <div class="doc-actions">
+        <a href="./images/ChatGPT Image 13 mai 2026, 02_49_19.png" download="Schema_Architecture_AP5.png" class="doc-btn">
+            📐 Télécharger le schéma 1
+        </a>
+        <a href="./images/ChatGPT Image 13 mai 2026, 02_49_36.png" download="Diagramme_Flux_AP5.png" class="doc-btn">
+            📊 Télécharger le schéma 2
+        </a>
+    </div>
+</div>
 
                 <!-- Compétences -->
                 <div class="detail-section">
