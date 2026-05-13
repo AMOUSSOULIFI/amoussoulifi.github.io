@@ -101,10 +101,6 @@
         box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
     }
 
-    .nav-link i {
-        font-size: 1.1rem;
-    }
-
     /* ===== HERO SECTION ===== */
     .hero {
         padding: 5rem 0 3rem;
@@ -775,7 +771,7 @@
                     </div>
                 </a>
 
-                <!-- AP4 - Déploiement GLPI -->
+                <!-- AP4 - Séparation services + Sauvegarde + NAT -->
                 <a href="ap4.html" class="ap-card-link">
                     <div class="ap-card" data-status="completed">
                         <div class="ap-card-content">
@@ -783,21 +779,21 @@
                                 <div class="ap-number">AP4</div>
                                 <div class="ap-status completed">Terminé</div>
                             </div>
-                            <h3>Déploiement GLPI - Gestion de parc et tickets</h3>
+                            <h3>Séparation services + Sauvegarde + NAT</h3>
                             <div class="ap-period">
                                 <i class="far fa-calendar-alt"></i>
-                                2025 – 2026
+                                Mars – Mai 2025
                             </div>
                             <p class="ap-description">
-                                Déploiement de GLPI pour la gestion de parc informatique et la gestion de tickets d'incidents. Intégration avec l'existant (Moodle, Zabbix, NAS) et supervision centralisée.
+                                Mise en place d'une architecture réseau sécurisée avec séparation des services (DMZ publique/privée), configuration de règles de filtrage avancées pfSense, sauvegarde automatisée et accès distant sécurisé pour la solution GED.
                             </p>
                             <div class="ap-tags">
-                                <span class="ap-tag">GLPI</span>
-                                <span class="ap-tag">MariaDB</span>
-                                <span class="ap-tag">FusionInventory</span>
-                                <span class="ap-tag">Zabbix</span>
-                                <span class="ap-tag">API</span>
-                                <span class="ap-tag">VMware Horizon</span>
+                                <span class="ap-tag">pfSense</span>
+                                <span class="ap-tag">DMZ</span>
+                                <span class="ap-tag">NAT</span>
+                                <span class="ap-tag">Sauvegarde</span>
+                                <span class="ap-tag">WordPress</span>
+                                <span class="ap-tag">VirtualBox</span>
                             </div>
                             <div class="ap-footer">
                                 <div class="ap-duration">
@@ -853,7 +849,7 @@
                     </div>
                 </a>
 
-                <!-- AP6 - Projet complémentaire (planifié) -->
+                <!-- AP6 - Projet complémentaire -->
                 <a href="ap6.html" class="ap-card-link">
                     <div class="ap-card" data-status="planned">
                         <div class="ap-card-content">
@@ -914,21 +910,17 @@
     </footer>
 
     <script>
-    // Filter functionality
     document.addEventListener('DOMContentLoaded', function() {
         const filterButtons = document.querySelectorAll('.filter-btn');
         const apCards = document.querySelectorAll('.ap-card');
         
         filterButtons.forEach(button => {
             button.addEventListener('click', function() {
-                // Remove active class from all buttons
                 filterButtons.forEach(btn => btn.classList.remove('active'));
-                // Add active class to clicked button
                 this.classList.add('active');
                 
                 const filterValue = this.getAttribute('data-filter');
                 
-                // Show/hide cards based on filter
                 apCards.forEach(card => {
                     const cardStatus = card.getAttribute('data-status');
                     const cardLink = card.closest('.ap-card-link');
@@ -950,7 +942,6 @@
             });
         });
         
-        // Add hover effect to cards
         apCards.forEach(card => {
             card.addEventListener('mouseenter', function() {
                 this.style.transform = 'translateY(-10px) scale(1.02)';
@@ -961,7 +952,6 @@
             });
         });
         
-        // Animate stats counter
         const statNumbers = document.querySelectorAll('.stat-number');
         statNumbers.forEach(stat => {
             const target = parseInt(stat.textContent);
