@@ -196,9 +196,21 @@
         padding: 5rem 0;
     }
 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 2rem;
+    }
+
     .section-header {
         text-align: center;
         margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+        font-size: 2.2rem;
+        color: var(--text-dark);
+        margin-bottom: 0.5rem;
     }
 
     .section-subtitle {
@@ -245,7 +257,17 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
         gap: 2rem;
-        padding: 0 2rem;
+    }
+
+    .ap-card-link {
+        text-decoration: none;
+        display: block;
+    }
+
+    .ap-card-link:hover .ap-card {
+        transform: translateY(-10px);
+        box-shadow: var(--shadow-lg);
+        border-color: var(--accent-color);
     }
 
     /* ===== AP CARD ===== */
@@ -260,12 +282,6 @@
         height: 100%;
         display: flex;
         flex-direction: column;
-    }
-
-    .ap-card:hover {
-        transform: translateY(-10px);
-        box-shadow: var(--shadow-lg);
-        border-color: var(--accent-color);
     }
 
     .ap-card::before {
@@ -428,6 +444,7 @@
     .footer-link {
         color: #94a3b8;
         transition: var(--transition);
+        text-decoration: none;
     }
 
     .footer-link:hover {
@@ -488,12 +505,15 @@
         .section {
             padding: 3rem 0;
         }
+        
+        .container {
+            padding: 0 1rem;
+        }
     }
 
     @media (max-width: 480px) {
         .grid-aps {
             grid-template-columns: 1fr;
-            padding: 0 1rem;
         }
         
         .filter-buttons {
@@ -532,6 +552,7 @@
     .ap-card:nth-child(3) { animation-delay: 0.3s; }
     .ap-card:nth-child(4) { animation-delay: 0.4s; }
     .ap-card:nth-child(5) { animation-delay: 0.5s; }
+    .ap-card:nth-child(6) { animation-delay: 0.6s; }
 
     /* ===== SCROLLBAR ===== */
     ::-webkit-scrollbar {
@@ -554,6 +575,13 @@
 </head>
 
 <body>
+    <script>
+        const sessionData = JSON.parse(localStorage.getItem('sessionData'));
+        if (!sessionData || !sessionData.isLoggedIn) {
+            window.location.href = 'index.html';
+        }
+    </script>
+
     <!-- NAVBAR -->
     <nav class="navbar">
         <div class="nav-container">
@@ -593,7 +621,7 @@
                 <i class="fas fa-graduation-cap"></i>
                 BTS SIO - Option SISR
             </div>
-            <h1>Activités Professionnelles</h1>
+            <h1>Ateliers Professionnels</h1>
             <p>Découvrez l'ensemble des projets réalisés dans le cadre de ma formation en BTS Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux.</p>
             
             <div class="stats">
@@ -606,7 +634,7 @@
                     <span class="stat-label">Technologies</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">8</span>
+                    <span class="stat-number">12</span>
                     <span class="stat-label">Mois</span>
                 </div>
             </div>
@@ -617,11 +645,11 @@
     <section class="section">
         <div class="container">
             <div class="section-header">
-                <h2>Mes Activités Professionnelles</h2>
+                <h2>Mes Ateliers Professionnels</h2>
                 <p class="section-subtitle">Chaque projet représente une étape dans l'acquisition des compétences techniques et professionnelles du référentiel BTS SIO SISR.</p>
             </div>
 
-            <!-- Filter buttons (optional functionality) -->
+            <!-- Filter buttons -->
             <div class="filter-buttons">
                 <button class="filter-btn active" data-filter="all">
                     <i class="fas fa-layer-group"></i>
@@ -747,7 +775,7 @@
                     </div>
                 </a>
 
-                <!-- AP4 -->
+                <!-- AP4 - Déploiement GLPI -->
                 <a href="ap4.html" class="ap-card-link">
                     <div class="ap-card" data-status="completed">
                         <div class="ap-card-content">
@@ -755,21 +783,21 @@
                                 <div class="ap-number">AP4</div>
                                 <div class="ap-status completed">Terminé</div>
                             </div>
-                            <h3>Accès distant sécurisé à la GED</h3>
+                            <h3>Déploiement GLPI - Gestion de parc et tickets</h3>
                             <div class="ap-period">
                                 <i class="far fa-calendar-alt"></i>
-                                Mars – Mai 2025
+                                2025 – 2026
                             </div>
                             <p class="ap-description">
-                                Évolution de la solution GED avec architecture réseau sécurisée (DMZ publique/privée), accès WAN pour écoles et centre social, configuration pfSense et sauvegarde automatisée.
+                                Déploiement de GLPI pour la gestion de parc informatique et la gestion de tickets d'incidents. Intégration avec l'existant (Moodle, Zabbix, NAS) et supervision centralisée.
                             </p>
                             <div class="ap-tags">
-                                <span class="ap-tag">pfSense</span>
-                                <span class="ap-tag">DMZ</span>
-                                <span class="ap-tag">Sécurité réseau</span>
-                                <span class="ap-tag">WordPress</span>
-                                <span class="ap-tag">Sauvegarde</span>
-                                <span class="ap-tag">VirtualBox</span>
+                                <span class="ap-tag">GLPI</span>
+                                <span class="ap-tag">MariaDB</span>
+                                <span class="ap-tag">FusionInventory</span>
+                                <span class="ap-tag">Zabbix</span>
+                                <span class="ap-tag">API</span>
+                                <span class="ap-tag">VMware Horizon</span>
                             </div>
                             <div class="ap-footer">
                                 <div class="ap-duration">
@@ -785,26 +813,66 @@
                     </div>
                 </a>
 
-                <!-- AP5 -->
+                <!-- AP5 - Infrastructure sécurisée Multi-Services -->
                 <a href="ap5.html" class="ap-card-link">
-                    <div class="ap-card" data-status="planned">
+                    <div class="ap-card" data-status="completed">
                         <div class="ap-card-content">
                             <div class="ap-header">
                                 <div class="ap-number">AP5</div>
+                                <div class="ap-status completed">Terminé</div>
+                            </div>
+                            <h3>Infrastructure sécurisée Multi-Services</h3>
+                            <div class="ap-period">
+                                <i class="far fa-calendar-alt"></i>
+                                2025 – 2026
+                            </div>
+                            <p class="ap-description">
+                                Configuration d'une infrastructure réseau sécurisée avec pfSense : DMZ publique/privée, VLANs, règles firewall, supervision Zabbix, Moodle, GLPI, Active Directory et sauvegarde NAS.
+                            </p>
+                            <div class="ap-tags">
+                                <span class="ap-tag">pfSense</span>
+                                <span class="ap-tag">Moodle</span>
+                                <span class="ap-tag">GLPI</span>
+                                <span class="ap-tag">Zabbix</span>
+                                <span class="ap-tag">Active Directory</span>
+                                <span class="ap-tag">NAS</span>
+                                <span class="ap-tag">DMZ</span>
+                                <span class="ap-tag">VLAN</span>
+                            </div>
+                            <div class="ap-footer">
+                                <div class="ap-duration">
+                                    <i class="far fa-clock"></i>
+                                    4 mois
+                                </div>
+                                <span class="ap-link">
+                                    Voir le projet
+                                    <i class="fas fa-arrow-right"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- AP6 - Projet complémentaire (planifié) -->
+                <a href="ap6.html" class="ap-card-link">
+                    <div class="ap-card" data-status="planned">
+                        <div class="ap-card-content">
+                            <div class="ap-header">
+                                <div class="ap-number">AP6</div>
                                 <div class="ap-status planned">Planifié</div>
                             </div>
-                            <h3>Projet Personnel / Stage</h3>
+                            <h3>Projet complémentaire</h3>
                             <div class="ap-period">
                                 <i class="far fa-calendar-alt"></i>
                                 À définir
                             </div>
                             <p class="ap-description">
-                                Projet complémentaire ou stage en entreprise pour consolider les compétences acquises et développer une expertise spécifique en infrastructure et sécurité.
+                                Projet complémentaire pour approfondir les compétences en infrastructure et sécurité réseau, ou stage en entreprise pour une spécialisation technique.
                             </p>
                             <div class="ap-tags">
                                 <span class="ap-tag">Projet Personnel</span>
-                                <span class="ap-tag">Stage</span>
-                                <span class="ap-tag">Spécialisation</span>
+                                <span class="ap-tag">Infrastructure</span>
+                                <span class="ap-tag">Sécurité</span>
                             </div>
                             <div class="ap-footer">
                                 <div class="ap-duration">
@@ -846,7 +914,7 @@
     </footer>
 
     <script>
-    // Filter functionality (optional)
+    // Filter functionality
     document.addEventListener('DOMContentLoaded', function() {
         const filterButtons = document.querySelectorAll('.filter-btn');
         const apCards = document.querySelectorAll('.ap-card');
