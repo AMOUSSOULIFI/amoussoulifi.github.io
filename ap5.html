@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AP5 - Déploiement GLPI & Moodle - Portfolio BTS SIO</title>
+    <title>AP5 - Infrastructure Sécurisée Multi-Services</title>
     <style>
         * {
             margin: 0;
@@ -15,14 +15,14 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             color: #333;
-            background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+            background: linear-gradient(135deg, #0c2461 0%, #1e3799 50%, #4a69bd 100%);
             min-height: 100vh;
         }
 
         .navbar {
             background: white;
             padding: 15px 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -39,17 +39,20 @@
         }
 
         .nav-link {
-            color: #1a2980;
+            color: #0c2461;
             text-decoration: none;
-            font-weight: 500;
-            padding: 8px 15px;
-            border-radius: 5px;
+            font-weight: 600;
+            padding: 10px 20px;
+            border-radius: 8px;
             transition: all 0.3s ease;
+            border: 2px solid transparent;
         }
 
         .nav-link:hover {
-            background: #1a2980;
+            background: #0c2461;
             color: white;
+            border-color: #0c2461;
+            transform: translateY(-2px);
         }
 
         .container {
@@ -59,146 +62,337 @@
         }
 
         .back-button {
-            display: inline-block;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
             color: white;
             text-decoration: none;
-            margin-bottom: 20px;
-            padding: 10px 15px;
-            background: rgba(255,255,255,0.1);
-            border-radius: 5px;
-            transition: background 0.3s ease;
+            margin-bottom: 30px;
+            padding: 12px 20px;
+            background: rgba(255,255,255,0.15);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255,255,255,0.3);
+            font-weight: 500;
         }
 
         .back-button:hover {
-            background: rgba(255,255,255,0.2);
+            background: rgba(255,255,255,0.25);
             color: white;
             text-decoration: none;
+            transform: translateX(-5px);
         }
 
         .ap-header {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             color: white;
+            padding: 30px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
         }
 
         .ap-badge {
             display: inline-block;
-            background: rgba(255,255,255,0.2);
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
             color: white;
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-size: 0.9em;
-            margin-bottom: 15px;
+            padding: 12px 30px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(238, 90, 36, 0.3);
         }
 
         .ap-header h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+            background: linear-gradient(90deg, #fff, #a5d8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
 
         .ap-date {
-            font-size: 1.1em;
+            font-size: 1.3em;
             opacity: 0.9;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+
+        .ap-subtitle {
+            font-size: 1.2em;
+            color: #a5d8ff;
+            font-weight: 500;
         }
 
         .ap-details-grid {
-            background: white;
-            border-radius: 15px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-            margin-bottom: 40px;
+            background: rgba(255,255,255,0.97);
+            border-radius: 20px;
+            padding: 50px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+            margin-bottom: 50px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
         }
 
         .detail-section {
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
 
         .detail-section h2 {
-            color: #2c3e50;
-            margin-bottom: 20px;
-            padding-bottom: 10px;
-            border-bottom: 2px solid #f0f0f0;
+            color: #0c2461;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #4a69bd;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            position: relative;
+        }
+
+        .detail-section h2:after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
+            border-radius: 3px;
         }
 
         .detail-section p {
-            color: #555;
+            color: #444;
             line-height: 1.8;
-            font-size: 1.1em;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
 
         .info-table {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin: 50px 0;
         }
 
         .info-column {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #1a2980;
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #4a69bd;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-column:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
+        }
+
+        .info-column:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         }
 
         .info-column h3 {
-            color: #2c3e50;
-            margin-bottom: 20px;
+            color: #0c2461;
+            margin-bottom: 30px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
+            font-size: 1.6em;
         }
 
         .info-column ul {
             list-style: none;
+            padding-left: 0;
         }
 
         .info-column li {
-            margin-bottom: 10px;
-            padding-left: 20px;
+            margin-bottom: 15px;
+            padding-left: 30px;
             position: relative;
             color: #555;
+            line-height: 1.7;
+            font-size: 1.1em;
         }
 
         .info-column li:before {
-            content: "→";
+            content: "▸";
             position: absolute;
             left: 0;
-            color: #1a2980;
+            color: #4a69bd;
             font-weight: bold;
+            font-size: 1.3em;
+        }
+
+        .network-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 40px 0;
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 2px solid #4a69bd;
+        }
+
+        .network-table th {
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
+            color: white;
+            padding: 20px 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 1.1em;
+            border-bottom: 3px solid #0c2461;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .network-table td {
+            padding: 18px 15px;
+            border-bottom: 1px solid #eee;
+            color: #444;
+            font-size: 1.05em;
+        }
+
+        .network-table tr:hover {
+            background-color: #f8f9fa;
+        }
+
+        .network-table .pass {
+            color: #28a745;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .network-table .block {
+            color: #dc3545;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 15px;
+            margin: 40px 0;
+            flex-wrap: wrap;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid #dee2e6;
+        }
+
+        .tab-btn {
+            background: linear-gradient(135deg, #6c757d, #495057);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            min-width: 200px;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .tab-btn.active {
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
+            box-shadow: 0 6px 20px rgba(12, 36, 97, 0.4);
+            transform: translateY(-2px);
+        }
+
+        .tab-btn:hover {
+            background: linear-gradient(135deg, #495057, #6c757d);
+            transform: translateY(-2px);
+        }
+
+        .tab-content {
+            display: none;
+            animation: slideIn 0.5s ease;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            margin: 30px 0;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
         }
 
         .feature-card {
-            background: #f8f9fa;
-            padding: 25px;
-            border-radius: 10px;
-            border-left: 5px solid #26d0ce;
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #4a69bd;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .feature-card:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
         }
 
         .feature-card h4 {
-            color: #2c3e50;
-            margin-bottom: 15px;
+            color: #0c2461;
+            margin-bottom: 25px;
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 15px;
+            font-size: 1.4em;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 15px;
         }
 
         .feature-card ul {
             list-style: none;
+            padding-left: 0;
         }
 
         .feature-card li {
-            margin-bottom: 8px;
-            padding-left: 20px;
+            margin-bottom: 15px;
+            padding-left: 30px;
             position: relative;
             color: #555;
+            line-height: 1.7;
         }
 
         .feature-card li:before {
@@ -207,50 +401,157 @@
             left: 0;
             color: #28a745;
             font-weight: bold;
+            font-size: 1.2em;
         }
 
-        .architecture-phase {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 10px;
-            border: 2px solid #1a2980;
-            margin-bottom: 15px;
-        }
-
-        .architecture-phase h4 {
-            color: #1a2980;
-            margin-bottom: 15px;
-        }
-
-        .phase-list {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        .phase-list li {
-            margin-bottom: 8px;
-            padding-left: 20px;
+        .individual-work {
+            background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            border-left: 8px solid #1976d2;
+            box-shadow: 0 15px 35px rgba(33, 150, 243, 0.2);
             position: relative;
-            color: #555;
+            overflow: hidden;
         }
 
-        .phase-list li:before {
-            content: "▸";
+        .individual-work:before {
+            content: '👤 TRAVAIL INDIVIDUEL';
             position: absolute;
-            left: 0;
-            color: #26d0ce;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #1976d2, #0d47a1);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 0.9em;
+            letter-spacing: 1px;
         }
 
-        .competence-box {
-            background: linear-gradient(135deg, #e8f4f8, #d1e7f0);
-            padding: 20px;
+        .individual-work h3 {
+            color: #0c2461;
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.8em;
+        }
+
+        .grid-2-col {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 40px;
+            margin: 30px 0;
+        }
+
+        .excel-preview {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            overflow-x: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 2px solid #4a69bd;
+            margin: 20px 0;
+        }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #fff3cd, #ffeaa7);
+            border-left: 8px solid #ffc107;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px 0;
+            box-shadow: 0 10px 25px rgba(255, 193, 7, 0.2);
+        }
+
+        .highlight-box h4 {
+            color: #856404;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.4em;
+        }
+
+        .architecture-visual {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .architecture-item {
+            background: linear-gradient(135deg, #4a69bd, #0c2461);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(74, 105, 189, 0.3);
+        }
+
+        .architecture-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(74, 105, 189, 0.4);
+        }
+
+        .architecture-item h4 {
+            font-size: 1.4em;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .architecture-item p {
+            font-size: 1.1em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .architecture-item small {
+            font-size: 0.9em;
+            opacity: 0.7;
+        }
+
+        .doc-actions {
+            display: flex;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .doc-btn {
+            background: linear-gradient(135deg, #4a69bd, #0c2461);
+            color: white;
+            border: none;
+            padding: 15px 30px;
             border-radius: 10px;
-            margin: 15px 0;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            font-weight: 600;
+            box-shadow: 0 6px 20px rgba(74, 105, 189, 0.4);
+            min-width: 200px;
+            justify-content: center;
         }
 
-        .competence-box h4 {
-            color: #1a2980;
-            margin-bottom: 10px;
+        .doc-btn:hover {
+            background: linear-gradient(135deg, #0c2461, #4a69bd);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(74, 105, 189, 0.6);
+            color: white;
+            text-decoration: none;
+        }
+
+        .excel-btn {
+            background: linear-gradient(135deg, #1d6f42, #155d32);
+        }
+
+        .excel-btn:hover {
+            background: linear-gradient(135deg, #155d32, #1d6f42);
         }
 
         @media (max-width: 768px) {
@@ -259,14 +560,30 @@
                 gap: 10px;
                 text-align: center;
             }
+            
             .ap-header h1 {
-                font-size: 2em;
+                font-size: 2.2em;
             }
+            
             .ap-details-grid {
-                padding: 20px;
+                padding: 25px;
             }
+            
             .info-table {
                 grid-template-columns: 1fr;
+            }
+            
+            .tab-btn {
+                min-width: 100%;
+                margin-bottom: 10px;
+            }
+            
+            .grid-2-col {
+                grid-template-columns: 1fr;
+            }
+            
+            .doc-btn {
+                min-width: 100%;
             }
         }
     </style>
@@ -294,194 +611,749 @@
             <a href="aps.html" class="back-button">← Retour aux APs</a>
             
             <div class="ap-header">
-                <div class="ap-badge">AP5 - Réalisation Professionnelle</div>
-                <h1>Déploiement GLPI & Plateforme Moodle</h1>
-                <p class="ap-date">2025/2026 - Atelier Professionnel (Labo)</p>
+                <div class="ap-badge">AP5 - TP INDIVIDUEL</div>
+                <h1>Infrastructure Sécurisée Multi-Services</h1>
+                <p class="ap-date">TP Sécurité - Réalisé en autonomie complète</p>
+                <p class="ap-subtitle">Mise en place d'une infrastructure sécurisée multi-services avec pfSense, Moodle, GLPI, Zabbix, Active Directory et NAS</p>
             </div>
 
             <div class="ap-details-grid">
-                <!-- Description -->
-                <div class="detail-section">
-                    <h2>📋 Description de la Réalisation Professionnelle</h2>
-                    <p>Ce projet consistait à déployer une infrastructure complète de services informatiques pour un organisme de formation. Deux solutions principales ont été mises en place :</p>
-                    <ul style="margin-top: 15px; margin-left: 30px; color: #555;">
-                        <li><strong>GLPI</strong> : Solution de gestion de parc informatique et de gestion de tickets d'incidents</li>
-                        <li><strong>Moodle</strong> : Plateforme de e-learning avec authentification et accès sécurisé à distance</li>
-                    </ul>
-                    <p style="margin-top: 15px;">L'infrastructure repose sur un hyperviseur ESXi VMware Horizon, avec des VM dédiées, une base de données MariaDB, une supervision via Zabbix et des sauvegardes vers un NAS.</p>
-                </div>
-
-                <!-- Compétences du référentiel -->
-                <div class="detail-section">
-                    <h2>🎯 Compétences du Référentiel BTS SIO SISR</h2>
-                    <div class="info-table">
-                        <div class="info-column">
-                            <h3>🔧 Concevoir une solution d'infrastructure réseau</h3>
+                <!-- Section Travail Individuel -->
+                <div class="individual-work">
+                    <h3>👤 Travail Réalisé en Autonomie Complète</h3>
+                    <p><strong>Statut :</strong> TP individuel réalisé seul - Configuration complète pfSense</p>
+                    <p><strong>Contexte :</strong> Ce TP a été réalisé en totale autonomie. L'objectif était de configurer une infrastructure réseau sécurisée pour une plateforme e-learning (Moodle), une solution de ticketing (GLPI), une supervision (Zabbix), un annuaire LDAP (Active Directory) et des sauvegardes centralisées (NAS).</p>
+                    
+                    <div class="grid-2-col">
+                        <div>
+                            <h4>📋 Tâches principales réalisées seul :</h4>
                             <ul>
-                                <li>Analyser les besoins et les contraintes</li>
-                                <li>Proposer une architecture adaptée (3-tiers)</li>
-                                <li>Choisir les composants technologiques</li>
-                                <li>Planifier le déploiement</li>
+                                <li>Installation et configuration complète de pfSense</li>
+                                <li>Création et configuration des 4 VLANs</li>
+                                <li>Définition des alias réseau pour simplification</li>
+                                <li>Configuration des règles firewall pour chaque interface</li>
+                                <li>Tests approfondis de la sécurité</li>
+                                <li>Documentation technique détaillée</li>
                             </ul>
                         </div>
-                        <div class="info-column">
-                            <h3>⚙️ Installer, tester et déployer une solution d'infrastructure réseau</h3>
+                        <div>
+                            <h4>🎯 Objectifs personnels atteints :</h4>
                             <ul>
-                                <li>Installer et configurer les services (Moodle, GLPI, MariaDB)</li>
-                                <li>Mettre en place la séparation des services (Web/BDD)</li>
-                                <li>Configurer la séparation des réseaux (VLAN, DMZ)</li>
-                                <li>Déployer des certificats SSL/TLS pour HTTPS</li>
-                            </ul>
-                        </div>
-                        <div class="info-column">
-                            <h3>📊 Exploiter, dépanner et superviser une solution d'infrastructure réseau</h3>
-                            <ul>
-                                <li>Mettre en place une supervision avec Zabbix</li>
-                                <li>Configurer des sauvegardes automatiques vers NAS</li>
-                                <li>Gérer les incidents via GLPI</li>
-                                <li>Assurer la maintenance et les mises à jour</li>
+                                <li>Maîtrise complète de pfSense</li>
+                                <li>Compréhension approfondie des politiques de sécurité</li>
+                                <li>Capacité à isoler efficacement les services</li>
+                                <li>Gestion autonome d'un projet de sécurité réseau</li>
+                                <li>Production d'une documentation professionnelle</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Solutions déployées -->
                 <div class="detail-section">
-                    <h2>🖥️ Solutions Déployées</h2>
+                    <h2>📋 Présentation du TP</h2>
+                    <p>Ce TP individuel consistait à configurer un firewall pfSense pour sécuriser une infrastructure complète dédiée à un organisme de formation. L'infrastructure intègre :</p>
+                    <ul style="margin-left: 40px; margin-top: 15px; color: #555;">
+                        <li><strong>Moodle</strong> : Plateforme e-learning</li>
+                        <li><strong>GLPI</strong> : Gestion de parc et ticketing</li>
+                        <li><strong>Zabbix</strong> : Supervision centralisée</li>
+                        <li><strong>Active Directory</strong> : Authentification LDAP/DNS</li>
+                        <li><strong>MariaDB</strong> : Base de données mutualisée</li>
+                        <li><strong>NAS</strong> : Sauvegarde centralisée NFS</li>
+                    </ul>
+                    
+                    <div class="highlight-box">
+                        <h4>🎯 Objectifs du TP</h4>
+                        <ul>
+                            <li><strong>Sécurisation :</strong> Isoler les différents services dans des zones réseau distinctes</li>
+                            <li><strong>Contrôle :</strong> Mettre en place des règles de filtrage granulaires</li>
+                            <li><strong>Accessibilité :</strong> Permettre un accès contrôlé depuis l'internet et le LAN</li>
+                            <li><strong>Documentation :</strong> Produire une documentation technique complète</li>
+                            <li><strong>Validation :</strong> Tester et valider la configuration de sécurité</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Infrastructure Déployée -->
+                <div class="detail-section">
+                    <h2>🏗️ Infrastructure Déployée</h2>
                     <div class="features-grid">
                         <div class="feature-card">
-                            <h4>📊 GLPI - Gestion de Parc et Tickets</h4>
+                            <h4>🎓 Moodle</h4>
                             <ul>
-                                <li>Gestion centralisée du parc informatique</li>
-                                <li>Gestion des tickets d'incidents et demandes</li>
-                                <li>Plugin FusionInventory pour inventaire automatique</li>
-                                <li>Base de données MariaDB dédiée</li>
-                                <li>Lien API avec Zabbix pour la supervision</li>
+                                <li>Plateforme e-learning</li>
+                                <li>Apache + PHP</li>
+                                <li>Base MariaDB distante</li>
+                                <li>Accessible en HTTPS</li>
+                                <li>Authentification LDAP (AD)</li>
                             </ul>
                         </div>
                         <div class="feature-card">
-                            <h4>📚 Moodle - Plateforme E-learning</h4>
+                            <h4>🎫 GLPI</h4>
                             <ul>
-                                <li>Plateforme pédagogique accessible à distance</li>
-                                <li>Séparation des services Web/Base de données</li>
-                                <li>Authentification sécurisée</li>
-                                <li>Accès HTTPS avec certificat SSL/TLS</li>
-                                <li>Séparation des réseaux (DMZ)</li>
+                                <li>Gestion des tickets d'incidents</li>
+                                <li>Inventaire du parc informatique</li>
+                                <li>Agents GLPI/FusionInventory</li>
+                                <li>Centralisation du support</li>
+                                <li>Base MariaDB dédiée</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h4>📊 Zabbix</h4>
+                            <ul>
+                                <li>Supervision réseau centralisée</li>
+                                <li>Surveillance des serveurs</li>
+                                <li>Alertes systèmes temps réel</li>
+                                <li>Monitoring des performances</li>
+                                <li>Remontée d'incidents vers GLPI (API)</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h4>🖥️ Active Directory</h4>
+                            <ul>
+                                <li>Gestion centralisée des utilisateurs</li>
+                                <li>Authentification LDAP pour Moodle/GLPI</li>
+                                <li>DNS interne</li>
+                                <li>Gestion des stratégies GPO</li>
+                                <li>Contrôleur de domaine Windows Server</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h4>🗄️ MariaDB</h4>
+                            <ul>
+                                <li>Base de données mutualisée</li>
+                                <li>Accès sécurisé depuis DMZ Publique</li>
+                                <li>Sauvegarde quotidienne vers NAS</li>
+                                <li>Optimisation des performances</li>
+                            </ul>
+                        </div>
+                        <div class="feature-card">
+                            <h4>💾 NAS</h4>
+                            <ul>
+                                <li>Sauvegarde centralisée NFS</li>
+                                <li>Backup quotidien des bases et données</li>
+                                <li>Haute disponibilité des données</li>
+                                <li>Plan de reprise d'activité (PRA)</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Architecture -->
+                <!-- Configuration pfSense -->
                 <div class="detail-section">
-                    <h2>🏗️ Architecture Technique</h2>
-                    <div class="architecture-phase">
-                        <h4>Hyperviseur : ESXi VMware Horizon</h4>
-                        <ul class="phase-list">
-                            <li>VM1 : Serveur Web (Moodle) + GLPI</li>
-                            <li>VM2 : Serveur Base de données MariaDB</li>
-                            <li>VM3 : Serveur Supervision Zabbix</li>
-                            <li>NAS : Sauvegarde des données</li>
-                        </ul>
-                    </div>
+                    <h2>🛡️ Configuration pfSense - Travail Individuel</h2>
                     
-                    <div class="architecture-phase">
-                        <h4>Phases de déploiement</h4>
-                        <ul class="phase-list">
-                            <li><strong>1er temps :</strong> Mise en place de la solution Web/SGBD sur un unique serveur</li>
-                            <li><strong>2ème temps :</strong> Séparation des services (Web/BDD)</li>
-                            <li><strong>3ème temps :</strong> Séparation des réseaux (VLAN, DMZ publique/privée)</li>
-                            <li><strong>4ème temps :</strong> Implémentation du protocole sécurisé HTTPS</li>
-                        </ul>
+                    <div class="tabs" id="pfSenseTabs">
+                        <button class="tab-btn active" onclick="openTab(event, 'interfaces')">🌐 Interfaces & VLANs</button>
+                        <button class="tab-btn" onclick="openTab(event, 'alias')">🏷️ Alias Réseau</button>
+                        <button class="tab-btn" onclick="openTab(event, 'regles')">📜 Règles Firewall</button>
+                        <button class="tab-btn" onclick="openTab(event, 'architecture')">🏗️ Architecture</button>
+                    </div>
+
+                    <!-- Onglet Interfaces -->
+                    <div id="interfaces" class="tab-content active">
+                        <h3>Configuration des Interfaces pfSense</h3>
+                        <p>Configuration réalisée individuellement des 4 interfaces avec VLANs dédiés :</p>
+                        
+                        <table class="network-table">
+                            <thead>
+                                <tr>
+                                    <th>Interface pfSense</th>
+                                    <th>Nom logique</th>
+                                    <th>VLAN</th>
+                                    <th>Réseau</th>
+                                    <th>Passerelle</th>
+                                    <th>Zone</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>WAN</strong></td>
+                                    <td>vmx1</td>
+                                    <td>3040</td>
+                                    <td>10.30.40.0/24</td>
+                                    <td>10.30.40.1</td>
+                                    <td>Internet - Zone non fiable</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>LAN</strong></td>
+                                    <td>vmx2</td>
+                                    <td>3042</td>
+                                    <td>192.168.42.0/24</td>
+                                    <td>192.168.42.254</td>
+                                    <td>Utilisateurs internes + AD</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>OPT1 (DMZ Publique)</strong></td>
+                                    <td>vmx3</td>
+                                    <td>3044</td>
+                                    <td>172.30.44.0/24</td>
+                                    <td>172.30.44.254</td>
+                                    <td>Serveurs web (Moodle/GLPI)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>OPT2 (DMZ Privée)</strong></td>
+                                    <td>vmx0</td>
+                                    <td>3046</td>
+                                    <td>172.16.46.0/24</td>
+                                    <td>172.16.46.254</td>
+                                    <td>Services backend (BDD, NAS, Zabbix, AD)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        
+                        <div class="highlight-box">
+                            <h4>💡 Stratégie de Segmentation - Conception Personnelle</h4>
+                            <ul>
+                                <li><strong>WAN (3040) :</strong> Interface internet - Zone non fiable - Accès strictement contrôlé (HTTPS uniquement)</li>
+                                <li><strong>LAN (3042) :</strong> Utilisateurs internes + AD - Zone de confiance - Accès aux services autorisés</li>
+                                <li><strong>DMZ Publique (3044) :</strong> Serveurs web (Moodle, GLPI) - Zone semi-fiable - Exposition contrôlée à internet</li>
+                                <li><strong>DMZ Privée (3046) :</strong> Services backend (BDD, NAS, Zabbix, AD) - Zone sécurisée - Aucun accès direct depuis internet</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Onglet Alias -->
+                    <div id="alias" class="tab-content">
+                        <h3>Alias Réseau Définis - Configuration Individuelle</h3>
+                        <p>Création d'alias pour simplifier la gestion des règles firewall :</p>
+                        
+                        <table class="network-table">
+                            <thead>
+                                <tr>
+                                    <th>Nom Alias</th>
+                                    <th>Type</th>
+                                    <th>Contenu</th>
+                                    <th>Description</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Serveur_Moodle</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.30.44.100</td>
+                                    <td>Serveur Moodle Apache/PHP (DMZ Publique)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Serveur_GLPI</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.30.44.101</td>
+                                    <td>Serveur GLPI Apache/PHP (DMZ Publique)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Serveur_SGBD</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.16.46.100</td>
+                                    <td>Serveur MariaDB (DMZ Privée)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Serveur_NAS</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.16.46.101</td>
+                                    <td>NAS de sauvegarde NFS (DMZ Privée)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Serveur_Zabbix</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.16.46.102</td>
+                                    <td>Serveur de supervision (DMZ Privée)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Serveur_AD</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>172.16.46.103</td>
+                                    <td>Contrôleur Active Directory (LAN)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Admin_LAN</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>192.168.42.50</td>
+                                    <td>Poste administrateur local (LAN)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Admin_WAN</strong></td>
+                                    <td>Host(s)</td>
+                                    <td>10.30.40.100</td>
+                                    <td>Poste administrateur distant (WAN)</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Clients_LAN</strong></td>
+                                    <td>Network</td>
+                                    <td>192.168.42.10-99</td>
+                                    <td>Postes utilisateurs du domaine Active Directory</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Réseau_LAN</strong></td>
+                                    <td>Network</td>
+                                    <td>192.168.42.0/24</td>
+                                    <td>Réseau des utilisateurs internes</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>DMZ_Pub_Net</strong></td>
+                                    <td>Network</td>
+                                    <td>172.30.44.0/24</td>
+                                    <td>Réseau DMZ Publique</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>DMZ_Priv_Net</strong></td>
+                                    <td>Network</td>
+                                    <td>172.16.46.0/24</td>
+                                    <td>Réseau DMZ Privée</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <!-- Onglet Règles -->
+                    <div id="regles" class="tab-content">
+                        <h3>Règles de Filtrage - Configuration Individuelle Complète</h3>
+                        <p>Toutes ces règles ont été configurées individuellement dans pfSense :</p>
+                        
+                        <div class="excel-preview">
+                            <h4>Interface WAN - Règles Configurées</h4>
+                            <table class="network-table">
+                                <thead>
+                                    <tr>
+                                        <th>Action</th>
+                                        <th>Protocole</th>
+                                        <th>Source</th>
+                                        <th>Destination</th>
+                                        <th>Port</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>10.30.40.100/32</td>
+                                        <td>10.30.40.252/32</td>
+                                        <td>22</td>
+                                        <td>Admin distant SSH (accès restreint)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>*</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>443</td>
+                                        <td>Internet → Moodle HTTPS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>*</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>443</td>
+                                        <td>Internet → GLPI HTTPS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="block">❌ Bloquer</td>
+                                        <td>IPv4</td>
+                                        <td>*</td>
+                                        <td>10.30.40.0/24</td>
+                                        <td>*</td>
+                                        <td>Tout autre accès vers le WAN</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h4 style="margin-top: 40px;">Interface LAN - Règles Configurées</h4>
+                            <table class="network-table">
+                                <thead>
+                                    <tr>
+                                        <th>Action</th>
+                                        <th>Protocole</th>
+                                        <th>Source</th>
+                                        <th>Destination</th>
+                                        <th>Port</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>192.168.42.0/24</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>80,443</td>
+                                        <td>Clients LAN → Moodle</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>192.168.42.0/24</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>80,443</td>
+                                        <td>Clients LAN → GLPI</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>192.168.42.50/32</td>
+                                        <td>192.168.42.100/32</td>
+                                        <td>22,445</td>
+                                        <td>Admin local → NAS (SSH/SMB)</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>192.168.42.0/24</td>
+                                        <td>*</td>
+                                        <td>53,80,443</td>
+                                        <td>Clients → Internet (DNS/HTTP/HTTPS)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h4 style="margin-top: 40px;">DMZ Publique - Règles Configurées</h4>
+                            <table class="network-table">
+                                <thead>
+                                    <tr>
+                                        <th>Action</th>
+                                        <th>Protocole</th>
+                                        <th>Source</th>
+                                        <th>Destination</th>
+                                        <th>Port</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>*</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>443</td>
+                                        <td>Internet → Moodle HTTPS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>*</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>443</td>
+                                        <td>Internet → GLPI HTTPS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>172.16.46.100/32</td>
+                                        <td>3306</td>
+                                        <td>Moodle → MariaDB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>172.16.46.100/32</td>
+                                        <td>3306</td>
+                                        <td>GLPI → MariaDB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.0/24</td>
+                                        <td>172.16.46.101/32</td>
+                                        <td>2049</td>
+                                        <td>Sauvegardes NFS vers NAS</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>172.16.46.103/32</td>
+                                        <td>389</td>
+                                        <td>Moodle → LDAP Active Directory</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>172.16.46.103/32</td>
+                                        <td>389</td>
+                                        <td>GLPI → LDAP Active Directory</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h4 style="margin-top: 40px;">DMZ Privée - Règles Configurées</h4>
+                            <table class="network-table">
+                                <thead>
+                                    <tr>
+                                        <th>Action</th>
+                                        <th>Protocole</th>
+                                        <th>Source</th>
+                                        <th>Destination</th>
+                                        <th>Port</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>172.16.46.100/32</td>
+                                        <td>3306</td>
+                                        <td>Moodle → MariaDB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.101/32</td>
+                                        <td>172.16.46.100/32</td>
+                                        <td>3306</td>
+                                        <td>GLPI → MariaDB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.16.46.102/32</td>
+                                        <td>*</td>
+                                        <td>10050-10051</td>
+                                        <td>Supervision Zabbix → Agents</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="pass">✅ Passer</td>
+                                        <td>TCP/IPv4</td>
+                                        <td>172.30.44.100/32</td>
+                                        <td>172.16.46.103/32</td>
+                                        <td>389</td>
+                                        <td>Moodle → LDAP AD</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="doc-actions">
+                            <a href="./images/REGLES DE FILTRAGE PFSENSE – Copie (1).xlsx" download="Regles_Filtrage_pfSense_TP_Individuel.xlsx" class="doc-btn excel-btn">
+                                📊 Télécharger le fichier Excel complet
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Onglet Architecture -->
+                    <div id="architecture" class="tab-content">
+                        <h3>Architecture Réseau - Conception Individuelle</h3>
+                        <p>Architecture complète conçue et implémentée individuellement :</p>
+                        
+                        <div class="architecture-visual">
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #dc3545, #c82333);">
+                                <h4>🌐 WAN</h4>
+                                <p>VLAN 3040</p>
+                                <p>10.30.40.0/24</p>
+                                <small>Zone internet - Non fiable</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #28a745, #218838);">
+                                <h4>🏠 LAN</h4>
+                                <p>VLAN 3042</p>
+                                <p>192.168.42.0/24</p>
+                                <small>Utilisateurs internes + AD</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #ffc107, #e0a800);">
+                                <h4>🛡️ DMZ Publique</h4>
+                                <p>VLAN 3044</p>
+                                <p>172.30.44.0/24</p>
+                                <small>Moodle (100) / GLPI (101)</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #17a2b8, #138496);">
+                                <h4>🔒 DMZ Privée</h4>
+                                <p>VLAN 3046</p>
+                                <p>172.16.46.0/24</p>
+                                <small>BDD / NAS / Zabbix</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #6f42c1, #59359c);">
+                                <h4>🖥️ Active Directory</h4>
+                                <p>172.16.46.103</p>
+                                <p>DNS / LDAP / GPO</p>
+                                <small>Contrôleur de domaine</small>
+                            </div>
+                            <div class="architecture-item" style="background: linear-gradient(135deg, #fd7e14, #e8590c);">
+                                <h4>📊 Zabbix</h4>
+                                <p>172.16.46.102</p>
+                                <p>10050-10051</p>
+                                <small>Supervision centralisée</small>
+                            </div>
+                        </div>
+                        
+                        <div style="background: white; padding: 30px; border-radius: 15px; margin-top: 30px; border: 3px solid #4a69bd;">
+                            <h4>🔗 Flux Autorisés - Configuration Personnelle</h4>
+                            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 15px; margin-top: 20px;">
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🌐 → 🛡️</strong> Internet → Moodle/GLPI : HTTPS (443)</div>
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🏠 → 🛡️</strong> LAN → DMZ Publique : HTTP/HTTPS (80/443)</div>
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🔒</strong> Serveurs web → MariaDB : MySQL (3306)</div>
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🏠</strong> DMZ Publique → NAS : NFS (2049)</div>
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>🛡️ → 🖥️</strong> Moodle/GLPI → AD : LDAP (389)</div>
+                                <div style="padding: 12px; background: #f8f9fa; border-radius: 10px;"><strong>📊 → 🔧</strong> Zabbix → Agents : 10050-10051</div>
+                            </div>
+                        </div>
+                        
+                        <div class="doc-actions">
+                            <a href="./images/Schéma réseau TP 1.drawio.png" download="Schema_Reseau_TP_Individuel.png" class="doc-btn">
+                                📐 Télécharger le schéma réseau complet
+                            </a>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Composants techniques -->
+                <!-- Compétences -->
                 <div class="detail-section">
-                    <h2>🔧 Composants Techniques</h2>
+                    <h2>🎯 Compétences Développées en Autonomie</h2>
                     <div class="info-table">
                         <div class="info-column">
-                            <h3>📦 Logiciels & Services</h3>
+                            <h3>🔧 Compétences Techniques</h3>
                             <ul>
-                                <li>GLPI (Gestion de parc et tickets)</li>
-                                <li>Moodle (Plateforme e-learning)</li>
-                                <li>MariaDB (Base de données)</li>
-                                <li>Zabbix (Supervision)</li>
-                                <li>FusionInventory (Inventaire automatique)</li>
-                                <li>Apache2 / Nginx</li>
+                                <li>Configuration avancée de pfSense</li>
+                                <li>Segmentation VLAN et sous-réseaux</li>
+                                <li>Définition de politiques de sécurité</li>
+                                <li>Architecture réseau multi-services (Moodle, GLPI, Zabbix, AD)</li>
+                                <li>Routage et filtrage avancé</li>
+                                <li>Monitoring et journalisation</li>
+                                <li>Diagnostic et troubleshooting</li>
+                                <li>Mise en place de sauvegardes centralisées NFS</li>
                             </ul>
                         </div>
+                        
                         <div class="info-column">
-                            <h3>🛡️ Infrastructure & Sécurité</h3>
+                            <h3>📊 Compétences Méthodologiques</h3>
                             <ul>
-                                <li>ESXi VMware Horizon</li>
-                                <li>NAS de sauvegarde</li>
-                                <li>Certificats SSL/TLS (HTTPS)</li>
-                                <li>Séparation des réseaux (DMZ)</li>
-                                <li>Authentification sécurisée</li>
+                                <li>Gestion autonome de projet complexe</li>
+                                <li>Planification et organisation des phases de déploiement</li>
+                                <li>Documentation technique précise</li>
+                                <li>Tests de validation complets</li>
+                                <li>Résolution de problèmes complexes</li>
+                                <li>Veille technologique active</li>
+                                <li>Auto-évaluation critique</li>
                             </ul>
                         </div>
+                        
                         <div class="info-column">
-                            <h3>📄 Documentation</h3>
+                            <h3>🎓 Compétences BTS SIO SISR</h3>
                             <ul>
-                                <li>Fiche mot de passe et gestion utilisateurs</li>
-                                <li>Documentation technique d'installation</li>
-                                <li>Procédures de sauvegarde</li>
-                                <li>Schémas d'architecture</li>
+                                <li><strong>Gérer le patrimoine informatique :</strong> Configuration et sécurisation des services</li>
+                                <li><strong>Répondre aux incidents :</strong> Diagnostic et résolution (GLPI + Zabbix)</li>
+                                <li><strong>Travailler en mode projet :</strong> Gestion autonome du déploiement</li>
+                                <li><strong>Mettre à disposition un service :</strong> Déploiement sécurisé de Moodle, GLPI</li>
+                                <li><strong>Organiser son développement :</strong> Auto-formation et progression</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <!-- Conditions de réalisation -->
+                <!-- Scripts -->
                 <div class="detail-section">
-                    <h2>📋 Conditions de Réalisation</h2>
-                    <div class="competence-box">
-                        <h4>Ressources fournies :</h4>
-                        <ul style="margin-left: 20px; color: #555;">
-                            <li>Hyperviseur ESXi VMware Horizon</li>
-                            <li>VM dédiée GLPI + VM MariaDB</li>
-                            <li>Certificat HTTPS</li>
-                            <li>FusionInventory pour inventaire automatique</li>
-                            <li>Lien Zabbix → GLPI (API)</li>
-                            <li>Sauvegarde vers NAS</li>
-                        </ul>
-                    </div>
-                    <div class="competence-box">
-                        <h4>Résultats attendus :</h4>
-                        <ul style="margin-left: 20px; color: #555;">
-                            <li>GLPI accessible en interne et externe</li>
-                            <li>Inventaire automatisé du parc</li>
-                            <li>Sauvegarde quotidienne des données</li>
-                            <li>Supervision avec Zabbix</li>
-                            <li>Moodle accessible avec authentification sécurisée</li>
-                        </ul>
-                    </div>
-                </div>
+                    <h2>⚙️ Scripts de Configuration pfSense</h2>
+                    <div style="background: linear-gradient(145deg, #ffffff, #f8f9fa); padding: 40px; border-radius: 20px; border-left: 8px solid #4a69bd;">
+                        <h4 style="color: #0c2461; margin-bottom: 25px;">Exemple de script de configuration pfSense :</h4>
+                        <pre style="background: #2c3e50; color: #fff; padding: 30px; border-radius: 15px; overflow-x: auto; font-family: 'Courier New', monospace; font-size: 1.1em; line-height: 1.6;">
+#!/bin/bash
+# Script de configuration pfSense - Infrastructure Multi-Services
+# Réalisé en autonomie complète
+# Architecture : Moodle + GLPI + Zabbix + AD + MariaDB + NAS
 
-                <!-- Modalité de travail -->
-                <div class="detail-section">
-                    <h2>👤 Modalité de Travail</h2>
-                    <div class="competence-box">
-                        <p><strong>Réalisation individuelle</strong> - Travail en autonomie complète sur l'ensemble du projet.</p>
-                        <p style="margin-top: 10px;">Cette réalisation a été effectuée dans le cadre de l'Atelier Professionnel (LABO) pendant l'année 2025/2026.</p>
-                    </div>
-                </div>
+echo "=== Configuration pfSense - Infrastructure Sécurisée ==="
 
-                <!-- Documents associés -->
-                <div class="detail-section">
-                    <h2>📄 Fiches Descriptives E6</h2>
-                    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
-                        <a href="./images/E6 SISR - fiche descriptive1 AMOUSSOULIFI ENOCK.pdf" class="back-button" style="background: #1a2980; color: white; text-decoration: none;" target="_blank">
-                            📄 Fiche E6 - Moodle
-                        </a>
-                        <a href="./images/E6 SISR - fiche descriptive2 AMOUSSOULIFI ENOCK.pdf" class="back-button" style="background: #1a2980; color: white; text-decoration: none;" target="_blank">
-                            📄 Fiche E6 - GLPI
-                        </a>
+# Configuration des interfaces
+echo "1. Configuration des interfaces..."
+cat > /cf/conf/interfaces.conf << EOF
+# WAN - Internet (VLAN 3040)
+wan="vmx1"
+wan_ip="10.30.40.1/24"
+
+# LAN - Utilisateurs internes (VLAN 3042)
+lan="vmx2"
+lan_ip="192.168.42.254/24"
+
+# DMZ Publique - Moodle + GLPI (VLAN 3044)
+opt1="vmx3"
+opt1_ip="172.30.44.254/24"
+
+# DMZ Privée - Backend (VLAN 3046)
+opt2="vmx0"
+opt2_ip="172.16.46.254/24"
+EOF
+
+# Configuration des alias
+echo "2. Configuration des alias..."
+cat > /cf/conf/aliases.conf << EOF
+# DMZ Publique - Services web
+moodle_server="172.30.44.100"
+glpi_server="172.30.44.101"
+
+# DMZ Privée - Services backend
+db_server="172.16.46.100"      # MariaDB
+nas_server="172.16.46.101"     # NAS NFS
+zabbix_server="172.16.46.102"  # Supervision
+ad_server="172.16.46.103"      # Active Directory
+
+# Administration
+admin_lan="192.168.42.50"
+admin_wan="10.30.40.100"
+clients_lan="192.168.42.10-99"
+
+# Réseaux
+lan_net="192.168.42.0/24"
+dmz_pub_net="172.30.44.0/24"
+dmz_priv_net="172.16.46.0/24"
+EOF
+
+# Règles firewall
+echo "3. Application des règles firewall..."
+cat > /cf/conf/rules.conf << EOF
+# === WAN ===
+pass in quick on wan proto tcp from admin_wan to wan port 22
+pass in quick on wan proto tcp from any to moodle_server port 443
+pass in quick on wan proto tcp from any to glpi_server port 443
+block in quick on wan from any to wan_net
+
+# === LAN ===
+pass in quick on lan proto tcp from lan_net to moodle_server port {80,443}
+pass in quick on lan proto tcp from lan_net to glpi_server port {80,443}
+pass in quick on lan proto tcp from admin_lan to nas_server port {22,445}
+pass out quick on lan proto tcp from lan_net to any port {53,80,443}
+
+# === DMZ Publique ===
+pass in quick on opt1 proto tcp from any to moodle_server port 443
+pass in quick on opt1 proto tcp from any to glpi_server port 443
+pass out quick on opt1 proto tcp from moodle_server to db_server port 3306
+pass out quick on opt1 proto tcp from glpi_server to db_server port 3306
+pass out quick on opt1 proto tcp from dmz_pub_net to nas_server port 2049
+pass out quick on opt1 proto tcp from moodle_server to ad_server port 389
+pass out quick on opt1 proto tcp from glpi_server to ad_server port 389
+
+# === DMZ Privée ===
+pass in quick on opt2 proto tcp from zabbix_server to any port {10050,10051}
+EOF
+
+echo "=== Configuration terminée avec succès ==="
+                        </pre>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <script>
+        function openTab(event, tabName) {
+            const tabContents = document.querySelectorAll('.tab-content');
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            
+            tabContents.forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            tabButtons.forEach(button => {
+                button.classList.remove('active');
+            });
+            
+            document.getElementById(tabName).classList.add('active');
+            event.currentTarget.classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page AP5 - Infrastructure Multi-Services chargée');
+        });
+    </script>
 </body>
 </html>
