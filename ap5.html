@@ -173,6 +173,71 @@
             margin-bottom: 20px;
         }
 
+        .info-table {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 40px;
+            margin: 50px 0;
+        }
+
+        .info-column {
+            background: linear-gradient(145deg, #ffffff, #f8f9fa);
+            padding: 35px;
+            border-radius: 20px;
+            border-left: 8px solid #4a69bd;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .info-column:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #4a69bd, #0c2461);
+        }
+
+        .info-column:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+        .info-column h3 {
+            color: #0c2461;
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 1.6em;
+        }
+
+        .info-column ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .info-column li {
+            margin-bottom: 15px;
+            padding-left: 30px;
+            position: relative;
+            color: #555;
+            line-height: 1.7;
+            font-size: 1.1em;
+        }
+
+        .info-column li:before {
+            content: "▸";
+            position: absolute;
+            left: 0;
+            color: #4a69bd;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+
         .network-table {
             width: 100%;
             border-collapse: separate;
@@ -541,6 +606,33 @@
                     </div>
                 </div>
 
+                <!-- Section Compétences développées (ajoutée) -->
+                <div class="detail-section">
+                    <h2>🎯 Compétences développées</h2>
+                    <div class="info-table">
+                        <div class="info-column">
+                            <h3>💼 Compétences professionnelles</h3>
+                            <ul>
+                                <li><strong>Gérer le patrimoine informatique</strong> - Configuration et sécurisation des services (pfSense, VLANs, DMZ)</li>
+                                <li><strong>Répondre aux incidents et aux demandes d'assistance et d'évolution</strong> - Diagnostic et résolution des problèmes de connectivité et de règles firewall</li>
+                                <li><strong>Travailler en mode projet</strong> - Gestion autonome du déploiement de l'infrastructure complète</li>
+                                <li><strong>Mettre à disposition des utilisateurs un service informatique</strong> - Déploiement sécurisé de Moodle, GLPI, et services associés</li>
+                            </ul>
+                        </div>
+                        <div class="info-column">
+                            <h3>🔧 Compétences techniques</h3>
+                            <ul>
+                                <li>Configuration avancée de pfSense (règles firewall, NAT, VLANs)</li>
+                                <li>Mise en place d'une architecture DMZ publique/privée</li>
+                                <li>Installation et configuration de Moodle, GLPI, Zabbix, Active Directory</li>
+                                <li>Administration de serveurs Linux (Debian) et Windows Server</li>
+                                <li>Supervision et monitoring avec Zabbix</li>
+                                <li>Scripting et automatisation (Bash, PowerShell)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="detail-section">
                     <h2>📋 Présentation du TP</h2>
                     <p>Ce TP individuel consistait à configurer un firewall pfSense pour sécuriser une infrastructure complète dédiée à un organisme de formation. L'infrastructure intègre :</p>
@@ -595,35 +687,35 @@
                             <tbody>
                                 <tr>
                                     <td><strong>WAN</strong></td>
-                                    <td>vmx1</td>
-                                    <td>3040</td>
-                                    <td>10.30.40.0/24</td>
-                                    <td>10.30.40.1</td>
-                                    <td>Internet - Zone non fiable</td>
+                                    <td>vmx1</span></td>
+                                    <td>3040</span></tr>
+                                    <td>10.30.40.0/24</span></td>
+                                    <td>10.30.40.1</span></td>
+                                    <td>Internet - Zone non fiable</span></tr>
                                 </tr>
                                 <tr>
-                                    <td><strong>LAN</strong></td>
-                                    <td>vmx2</td>
-                                    <td>3042</td>
-                                    <td>192.168.42.0/24</td>
-                                    <td>192.168.42.254</td>
-                                    <td>Utilisateurs internes + AD</td>
+                                    <td><strong>LAN</strong></span></td>
+                                    <td>vmx2</span></td>
+                                    <td>3042</span></td>
+                                    <td>192.168.42.0/24</span></td>
+                                    <td>192.168.42.254</span></td>
+                                    <td>Utilisateurs internes + AD</span></tr>
                                 </tr>
                                 <tr>
-                                    <td><strong>OPT1 (DMZ Publique)</strong></td>
-                                    <td>vmx3</td>
-                                    <td>3044</td>
-                                    <td>172.30.44.0/24</td>
-                                    <td>172.30.44.254</td>
-                                    <td>Serveurs web (Moodle/GLPI)</td>
+                                    <td><strong>OPT1 (DMZ Publique)</strong></span></td>
+                                    <td>vmx3</span></td>
+                                    <td>3044</span></td>
+                                    <td>172.30.44.0/24</span></td>
+                                    <td>172.30.44.254</span></td>
+                                    <td>Serveurs web (Moodle/GLPI)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>OPT2 (DMZ Privée)</strong></td>
-                                    <td>vmx0</td>
-                                    <td>3046</td>
-                                    <td>172.16.46.0/24</td>
-                                    <td>172.16.46.254</td>
-                                    <td>Services backend (BDD, NAS, Zabbix, AD)</td>
+                                    <td><strong>OPT2 (DMZ Privée)</strong></span></td>
+                                    <td>vmx0</span></td>
+                                    <td>3046</span></td>
+                                    <td>172.16.46.0/24</span></td>
+                                    <td>172.16.46.254</span></td>
+                                    <td>Services backend (BDD, NAS, Zabbix, AD)</span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -655,76 +747,76 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><strong>Serveur_Moodle</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.30.44.100</td>
-                                    <td>Serveur Moodle Apache/PHP (DMZ Publique)</td>
+                                    <td><strong>Serveur_Moodle</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>172.30.44.100</span></td>
+                                    <td>Serveur Moodle Apache/PHP (DMZ Publique)</span></tr>
                                 </tr>
                                 <tr>
-                                    <td><strong>Serveur_GLPI</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.30.44.101</td>
-                                    <td>Serveur GLPI Apache/PHP (DMZ Publique)</td>
+                                    <td><strong>Serveur_GLPI</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>172.30.44.101</span></td>
+                                    <td>Serveur GLPI Apache/PHP (DMZ Publique)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Serveur_SGBD</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.16.46.100</td>
-                                    <td>Serveur MariaDB (DMZ Privée)</td>
+                                    <td><strong>Serveur_SGBD</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>172.16.46.100</span></td>
+                                    <td>Serveur MariaDB (DMZ Privée)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Serveur_NAS</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.16.46.101</td>
-                                    <td>NAS de sauvegarde NFS (DMZ Privée)</td>
+                                    <td><strong>Serveur_NAS</strong></span></td>
+                                    <td>Host(s)</span></table>
+                                    <td>172.16.46.101</span></td>
+                                    <td>NAS de sauvegarde NFS (DMZ Privée)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Serveur_Zabbix</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.16.46.102</td>
-                                    <td>Serveur de supervision (DMZ Privée)</td>
+                                    <td><strong>Serveur_Zabbix</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>172.16.46.102</span></td>
+                                    <td>Serveur de supervision (DMZ Privée)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Serveur_AD</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>172.16.46.103</td>
-                                    <td>Contrôleur Active Directory (LAN)</td>
+                                    <td><strong>Serveur_AD</strong></span><table>
+                                    <td>Host(s)</span></td>
+                                    <td>172.16.46.103</span></td>
+                                    <td>Contrôleur Active Directory (LAN)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Admin_LAN</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>192.168.42.50</td>
-                                    <td>Poste administrateur local (LAN)</td>
+                                    <td><strong>Admin_LAN</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>192.168.42.50</span></td>
+                                    <td>Poste administrateur local (LAN)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Admin_WAN</strong></td>
-                                    <td>Host(s)</td>
-                                    <td>10.30.40.100</td>
-                                    <td>Poste administrateur distant (WAN)</td>
+                                    <td><strong>Admin_WAN</strong></span></td>
+                                    <td>Host(s)</span></td>
+                                    <td>10.30.40.100</span></td>
+                                    <td>Poste administrateur distant (WAN)</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Clients_LAN</strong></td>
-                                    <td>Network</td>
-                                    <td>192.168.42.10-99</td>
-                                    <td>Postes utilisateurs du domaine Active Directory</td>
+                                    <td><strong>Clients_LAN</strong></span></td>
+                                    <td>Network</span></td>
+                                    <td>192.168.42.10-99</span></td>
+                                    <td>Postes utilisateurs du domaine Active Directory</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Réseau_LAN</strong></td>
-                                    <td>Network</td>
-                                    <td>192.168.42.0/24</td>
-                                    <td>Réseau des utilisateurs internes</td>
+                                    <td><strong>Réseau_LAN</strong></span></td>
+                                    <td>Network</span></td>
+                                    <td>192.168.42.0/24</span></td>
+                                    <td>Réseau des utilisateurs internes</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>DMZ_Pub_Net</strong></td>
-                                    <td>Network</td>
-                                    <td>172.30.44.0/24</td>
-                                    <td>Réseau DMZ Publique</td>
+                                    <td><strong>DMZ_Pub_Net</strong></span></td>
+                                    <td>Network</span></td>
+                                    <td>172.30.44.0/24</span></td>
+                                    <td>Réseau DMZ Publique</span></td>
                                 </tr>
                                 <tr>
-                                    <td><strong>DMZ_Priv_Net</strong></td>
-                                    <td>Network</td>
-                                    <td>172.16.46.0/24</td>
-                                    <td>Réseau DMZ Privée</td>
+                                    <td><strong>DMZ_Priv_Net</strong></span></td>
+                                    <td>Network</span></td>
+                                    <td>172.16.46.0/24</span></td>
+                                    <td>Réseau DMZ Privée</span></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -750,36 +842,36 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>10.30.40.100/32</td>
-                                        <td>10.30.40.252/32</td>
-                                        <td>22</td>
-                                        <td>Admin distant SSH (accès restreint)</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>10.30.40.100/32</span></td>
+                                        <td>10.30.40.252/32</span></td>
+                                        <td>22</span></td>
+                                        <td>Admin distant SSH (accès restreint)</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>*</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>443</td>
-                                        <td>Internet → Moodle HTTPS</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>*</span></td>
+                                        <td>172.30.44.100/32</span></td>
+                                        <td>443</span></td>
+                                        <td>Internet → Moodle HTTPS</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>*</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>443</td>
-                                        <td>Internet → GLPI HTTPS</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>*</span></td>
+                                        <td>172.30.44.101/32</span></td>
+                                        <td>443</span></td>
+                                        <td>Internet → GLPI HTTPS</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="block">❌ Bloquer</td>
-                                        <td>IPv4</td>
-                                        <td>*</td>
-                                        <td>10.30.40.0/24</td>
-                                        <td>*</td>
-                                        <td>Tout autre accès vers le WAN</td>
+                                        <td class="block">❌ Bloquer</span></td>
+                                        <td>IPv4</span></td>
+                                        <td>*</span></td>
+                                        <td>10.30.40.0/24</span></td>
+                                        <td>*</span></td>
+                                        <td>Tout autre accès vers le WAN</span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -798,36 +890,36 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>192.168.42.0/24</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>80,443</td>
-                                        <td>Clients LAN → Moodle</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>192.168.42.0/24</span></td>
+                                        <td>172.30.44.100/32</span></td>
+                                        <td>80,443</span></td>
+                                        <td>Clients LAN → Moodle</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>192.168.42.0/24</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>80,443</td>
-                                        <td>Clients LAN → GLPI</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>192.168.42.0/24</span></td>
+                                        <td>172.30.44.101/32</span></td>
+                                        <td>80,443</span></td>
+                                        <td>Clients LAN → GLPI</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>192.168.42.50/32</td>
-                                        <td>192.168.42.100/32</td>
-                                        <td>22,445</td>
-                                        <td>Admin local → NAS (SSH/SMB)</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>192.168.42.50/32</span></td>
+                                        <td>192.168.42.100/32</span></td>
+                                        <td>22,445</span></td>
+                                        <td>Admin local → NAS (SSH/SMB)</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>192.168.42.0/24</td>
-                                        <td>*</td>
-                                        <td>53,80,443</td>
-                                        <td>Clients → Internet (DNS/HTTP/HTTPS)</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>192.168.42.0/24</span></td>
+                                        <td>*</span></td>
+                                        <td>53,80,443</span></td>
+                                        <td>Clients → Internet (DNS/HTTP/HTTPS)</span></td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -846,44 +938,44 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>*</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>443</td>
-                                        <td>Internet → Moodle HTTPS</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>*</span></td>
+                                        <td>172.30.44.100/32</span></td>
+                                        <td>443</span></td>
+                                        <td>Internet → Moodle HTTPS</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>*</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>443</td>
-                                        <td>Internet → GLPI HTTPS</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>*</span></td>
+                                        <td>172.30.44.101/32</span></td>
+                                        <td>443</span></td>
+                                        <td>Internet → GLPI HTTPS</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.100/32</td>
-                                        <td>172.16.46.100/32</td>
-                                        <td>3306</td>
-                                        <td>Moodle → MariaDB</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>172.30.44.100/32</span></td>
+                                        <td>172.16.46.100/32</span></td>
+                                        <td>3306</span></td>
+                                        <td>Moodle → MariaDB</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.101/32</td>
-                                        <td>172.16.46.100/32</td>
-                                        <td>3306</td>
-                                        <td>GLPI → MariaDB</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>172.30.44.101/32</span></td>
+                                        <td>172.16.46.100/32</span></td>
+                                        <td>3306</span></td>
+                                        <td>GLPI → MariaDB</span></td>
                                     </tr>
                                     <tr>
-                                        <td class="pass">✅ Passer</td>
-                                        <td>TCP/IPv4</td>
-                                        <td>172.30.44.0/24</td>
-                                        <td>172.16.46.101/32</td>
-                                        <td>2049</td>
-                                        <td>Sauvegardes NFS vers NAS</td>
+                                        <td class="pass">✅ Passer</span></td>
+                                        <td>TCP/IPv4</span></td>
+                                        <td>172.30.44.0/24</span></td>
+                                        <td>172.16.46.101/32</span></td>
+                                        <td>2049</span></td>
+                                        <td>Sauvegardes NFS vers NAS</span></td>
                                     </tr>
                                 </tbody>
                             </table>
