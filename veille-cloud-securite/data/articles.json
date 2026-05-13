@@ -1,8 +1,197 @@
 [
   {
+    "source": "ANSSI",
+    "title": "🇬🇧 Cyber Threat Overview 2025 (13 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-003/",
+    "date": "2026-05-13",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GemStuffer Abuses 150+ RubyGems to Exfiltrate Scraped U.K. Council Portal Data",
+    "link": "https://thehackernews.com/2026/05/gemstuffer-abuses-150-rubygems-to.html",
+    "date": "2026-05-13",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+    "link": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+    "date": "2026-05-13",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0561/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0562/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0560/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Siemens (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0565/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Axis (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0568/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0571/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Nextcloud (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0569/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0563/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0564/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0567/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Schneider Electric (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0566/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Centreon (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0572/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0570/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PostgreSQL PgBouncer  (12 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0559/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
+    "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Accelerating detection engineering using AI-assisted synthetic attack logs generation",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/accelerating-detection-engineering-using-ai-assisted-synthetic-attack-logs-generation/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Defense at AI speed: Microsoft’s new multi-model agentic security system tops leading industry benchmark",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defense-at-ai-speed-microsofts-new-multi-model-agentic-security-system-tops-leading-industry-benchmark/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Defending consumer web properties against modern DDoS attacks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/defending-consumer-web-properties-against-modern-ddos-attacks/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Undermining the trust boundary: Investigating a stealthy intrusion through third-party compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/12/undermining-the-trust-boundary-investigating-a-stealthy-intrusion-through-third-party-compromise/",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Exim BDAT Vulnerability Exposes GnuTLS Builds to Potential Code Execution",
+    "link": "https://thehackernews.com/2026/05/new-exim-bdat-vulnerability-exposes.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RubyGems Suspends New Signups After Hundreds of Malicious Packages Are Uploaded",
+    "link": "https://thehackernews.com/2026/05/rubygems-suspends-new-signups-after.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New TrickMo Variant Uses TON C2 and SOCKS5 to Create Android Network Pivots",
+    "link": "https://thehackernews.com/2026/05/new-trickmo-variant-uses-ton-c2-and.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webinar: What the Riskiest SOC Alerts Go Unanswered - and How Radiant Security Can Help",
+    "link": "https://thehackernews.com/2026/05/webinar-what-riskiest-soc-alerts-go.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
     "source": "The Hacker News",
     "title": "Mini Shai-Hulud Worm Compromises TanStack, Mistral AI, Guardrails AI & More Packages",
     "link": "https://thehackernews.com/2026/05/mini-shai-hulud-worm-compromises.html",
+    "date": "2026-05-12",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why Agentic AI Is Security's Next Blind Spot",
+    "link": "https://thehackernews.com/2026/05/why-agentic-ai-is-securitys-next-blind.html",
     "date": "2026-05-12",
     "month": "2026-05"
   },
@@ -462,41 +651,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache HTTP Server (05 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0530/",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (05 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0531/",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Google Android (05 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0534/",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Papercut (05 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0533/",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Progress MOVEit Automation (05 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0532/",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
     "source": "The Hacker News",
     "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
     "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
@@ -560,48 +714,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-020 (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-020/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans VMware Tanzu Kubernetes Runtime (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0527/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0525/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0529/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Qnap QTS (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0528/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (04 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0526/",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
@@ -613,62 +725,6 @@
     "title": "Phishing Campaign Hits 80+ Orgs Using SimpleHelp and ScreenConnect RMM Tools",
     "link": "https://thehackernews.com/2026/05/phishing-campaign-hits-80-orgs-using.html",
     "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
-    "link": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE & More",
-    "link": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "2026: The Year of AI-Assisted Attacks",
-    "link": "https://thehackernews.com/2026/05/2026-year-of-ai-assisted-attacks.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Silver Fox Deploys ABCDoor Malware via Tax-Themed Phishing in India and Russia",
-    "link": "https://thehackernews.com/2026/05/silver-fox-deploys-abcdoor-malware-via.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical cPanel Vulnerability Weaponized to Target Government and MSP Networks",
-    "link": "https://thehackernews.com/2026/05/critical-cpanel-vulnerability.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Global Crackdown Arrests 276, Shuts 9 Crypto Scam Centers, Seizes $701M",
-    "link": "https://thehackernews.com/2026/05/global-crackdown-arrests-276-shuts-9.html",
-    "date": "2026-05-04",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited Linux Root Access Bug CVE-2026-31431 to KEV",
-    "link": "https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html",
-    "date": "2026-05-03",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "CVE-2026-31431: Copy Fail vulnerability enables Linux root privilege escalation across cloud environments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/cve-2026-31431-copy-fail-vulnerability-enables-linux-root-privilege-escalation/",
-    "date": "2026-05-02",
     "month": "2026-05"
   },
   {
@@ -686,41 +742,6 @@
     "month": "2026-05"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-    "date": "2026-05-01",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Exim (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0524/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0523/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0521/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0522/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
     "source": "Cloudflare",
     "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
     "link": "https://blog.cloudflare.com/post-quantum-ipsec/",
@@ -731,20 +752,6 @@
     "source": "Cloudflare",
     "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
     "link": "https://blog.cloudflare.com/agents-stripe-projects/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "What’s new, updated, or recently released in Microsoft Security",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/whats-new-updated-or-recently-released-in-microsoft-security/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Email threat landscape: Q1 2026 trends and insights",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/30/email-threat-landscape-q1-2026-trends-and-insights/",
     "date": "2026-04-30",
     "month": "2026-04"
   },
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Agents Week: network performance update",
     "link": "https://blog.cloudflare.com/network-performance-agents-week/",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Flagship: feature flags built for the age of AI",
-    "link": "https://blog.cloudflare.com/flagship/",
     "date": "2026-04-17",
     "month": "2026-04"
   }
