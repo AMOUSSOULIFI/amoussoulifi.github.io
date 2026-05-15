@@ -1,6 +1,97 @@
 [
   {
     "source": "The Hacker News",
+    "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+    "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+    "link": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
+    "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Defense in depth for autonomous AI agents",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Kazuar: Anatomy of a nation-state botnet",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+    "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+    "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How AI Hallucinations Are Creating Real Security Risks",
+    "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+    "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+    "date": "2026-05-14",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
     "link": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
     "date": "2026-05-14",
@@ -644,94 +735,10 @@
     "month": "2026-05"
   },
   {
-    "source": "Microsoft Security",
-    "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
     "source": "The Hacker News",
     "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
     "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
     "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MuddyWater Uses Microsoft Teams to Steal Credentials in False Flag Ransomware Attack",
-    "link": "https://thehackernews.com/2026/05/muddywater-uses-microsoft-teams-to.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Hacker News Launches 'Cybersecurity Stars Awards 2026' — Submissions Now Open",
-    "link": "https://thehackernews.com/2026/05/the-hacker-news-launches-cybersecurity.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
-    "link": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google's Android Apps Get Public Verification to Stop Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/05/android-apps-get-public-verification.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Windows Phone Link Exploited by CloudZ RAT to Steal Credentials and OTPs",
-    "link": "https://thehackernews.com/2026/05/windows-phone-link-exploited-by-cloudz.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Palo Alto PAN-OS Flaw Under Active Exploitation Enables Remote Code Execution",
-    "link": "https://thehackernews.com/2026/05/palo-alto-pan-os-flaw-under-active.html",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
-    "link": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DAEMON Tools Supply Chain Attack Compromises Official Installers with Malware",
-    "link": "https://thehackernews.com/2026/05/daemon-tools-supply-chain-attack.html",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked UAT-8302 Targets Governments Using Shared APT Malware Across Regions",
-    "link": "https://thehackernews.com/2026/05/china-linked-uat-8302-targets.html",
-    "date": "2026-05-05",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Breaking the code: Multi-stage ‘code of conduct’ phishing campaign leads to AiTM token compromise",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/04/breaking-the-code-multi-stage-code-of-conduct-phishing-campaign-leads-to-aitm-token-compromise/",
-    "date": "2026-05-04",
     "month": "2026-05"
   },
   {
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
     "link": "https://blog.cloudflare.com/unweight-tensor-compression/",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Agents that remember: introducing Agent Memory",
-    "link": "https://blog.cloudflare.com/introducing-agent-memory/",
     "date": "2026-04-17",
     "month": "2026-04"
   }
