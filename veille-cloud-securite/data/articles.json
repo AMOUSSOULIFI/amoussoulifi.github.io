@@ -1,5 +1,159 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0600/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0603/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian  (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0605/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Network Monitor (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0592/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Shibboleth (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0597/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0598/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0601/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0593/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0596/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0602/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0599/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0604/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0606/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apple Safari (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0590/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0594/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PostgreSQL (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0595/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits F5 (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0591/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+    "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+    "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
+    "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+    "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+    "date": "2026-05-15",
+    "month": "2026-05"
+  },
+  {
     "source": "The Hacker News",
     "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
     "link": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
@@ -288,41 +442,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0561/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans LibreNMS (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0562/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0560/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Siemens (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0565/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Axis (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0568/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Azure (12 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0571/",
     "date": "2026-05-12",
@@ -337,34 +456,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0563/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0564/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SAP (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0567/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Schneider Electric (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0566/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Centreon (12 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0572/",
     "date": "2026-05-12",
@@ -374,13 +465,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (12 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0570/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PostgreSQL PgBouncer  (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0559/",
     "date": "2026-05-12",
     "month": "2026-05"
   },
@@ -480,55 +564,6 @@
     "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
     "link": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
     "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-021 (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-021/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0556/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Spring (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0554/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0558/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PHP (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0553/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0557/",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (11 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0555/",
-    "date": "2026-05-11",
     "month": "2026-05"
   },
   {
@@ -644,13 +679,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (07 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0552/",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Building for the future",
     "link": "https://blog.cloudflare.com/building-for-the-future/",
@@ -707,37 +735,9 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Day Zero Readiness: The Operational Gaps That Break Incident Response",
-    "link": "https://thehackernews.com/2026/05/day-zero-readiness-operational-gaps.html",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PyPI Packages Deliver ZiChatBot Malware via Zulip APIs on Windows and Linux",
-    "link": "https://thehackernews.com/2026/05/pypi-packages-deliver-zichatbot-malware.html",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "vm2 Node.js Library Vulnerabilities Enable Sandbox Escape and Arbitrary Code Execution",
-    "link": "https://thehackernews.com/2026/05/vm2-nodejs-library-vulnerabilities.html",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "When DNSSEC goes wrong: how we responded to the .de TLD outage",
     "link": "https://blog.cloudflare.com/de-tld-outage-dnssec/",
-    "date": "2026-05-06",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mirai-Based xlabs_v1 Botnet Exploits ADB to Hijack IoT Devices for DDoS Attacks",
-    "link": "https://thehackernews.com/2026/05/mirai-based-xlabsv1-botnet-exploits-adb.html",
     "date": "2026-05-06",
     "month": "2026-05"
   },
