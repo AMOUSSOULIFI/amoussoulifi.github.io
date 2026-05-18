@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
+    "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
+    "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
+    "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
+    "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
+    "date": "2026-05-17",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
     "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
     "date": "2026-05-17",
@@ -679,20 +707,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
-    "link": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
-    "link": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Building for the future",
     "link": "https://blog.cloudflare.com/building-for-the-future/",
@@ -717,20 +731,6 @@
     "source": "Microsoft Security",
     "title": "World Passkey Day: Advancing passwordless authentication",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ivanti EPMM CVE-2026-6973 RCE Under Active Exploitation Grants Admin-Level Access",
-    "link": "https://thehackernews.com/2026/05/ivanti-epmm-cve-2026-6973-rce-under.html",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PCPJack Credential Stealer Exploits 5 CVEs to Spread Worm-Like Across Cloud Systems",
-    "link": "https://thehackernews.com/2026/05/pcpjack-credential-stealer-exploits-5.html",
     "date": "2026-05-07",
     "month": "2026-05"
   },
