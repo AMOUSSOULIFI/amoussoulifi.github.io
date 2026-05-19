@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
+    "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Compromised Nx Console 18.95.0 Targeted VS Code Developers with Credential Stealer",
+    "link": "https://thehackernews.com/2026/05/compromised-nx-console-18950-targeted.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Popular GitHub Action Tags Redirected to Imposter Commit to Steal CI/CD Credentials",
+    "link": "https://thehackernews.com/2026/05/github-actions-supply-chain-attack.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mini Shai-Hulud Pushes Malicious AntV npm Packages via Compromised Maintainer Account",
+    "link": "https://thehackernews.com/2026/05/mini-shai-hulud-pushes-malicious-antv.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-022 (18 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-022/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux  (18 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0608/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (18 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0607/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Project Glasswing: what Mythos showed us",
+    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "How Storm-2949 turned a compromised identity into a cloud-wide breach",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/storm-2949-turned-compromised-identity-into-cloud-wide-breach/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "How to better protect your growing business in an AI-powered world",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
+    "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
+    "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Developer Workstations Are Now Part of the Software Supply Chain",
+    "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
+    "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
+    "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
     "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
     "date": "2026-05-18",
@@ -483,34 +588,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0571/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Nextcloud (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0569/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Centreon (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0572/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0570/",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "When \"idle\" isn't idle: how a Linux kernel optimization became a QUIC bug",
     "link": "https://blog.cloudflare.com/quic-death-spiral-fix/",
@@ -637,72 +714,9 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Your Purple Team Isn't Purple — It's Just Red and Blue in the Same Room",
-    "link": "https://thehackernews.com/2026/05/your-purple-team-isnt-purple-its-just.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
-    "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
-    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
-    "date": "2026-05-10",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "cPanel, WHM Release Fixes for Three New Vulnerabilities — Patch Now",
-    "link": "https://thehackernews.com/2026/05/cpanel-whm-patch-3-new-vulnerabilities.html",
-    "date": "2026-05-09",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TCLBANKER Banking Trojan Targets Financial Platforms via WhatsApp and Outlook Worms",
-    "link": "https://thehackernews.com/2026/05/tclbanker-banking-trojan-targets.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Call History Apps Stole Payments From Users After 7.3 Million Play Store Downloads",
-    "link": "https://thehackernews.com/2026/05/fake-call-history-apps-stole-payments.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
-    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
-    "link": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "One Missed Threat Per Week: What 25M Alerts Reveal About Low-Severity Risk",
-    "link": "https://thehackernews.com/2026/05/one-missed-threat-per-week-what-25m.html",
     "date": "2026-05-08",
     "month": "2026-05"
   },
@@ -717,20 +731,6 @@
     "source": "Cloudflare",
     "title": "How Cloudflare responded to the “Copy Fail” Linux vulnerability",
     "link": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
-    "date": "2026-05-07",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "World Passkey Day: Advancing passwordless authentication",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/world-passkey-day-advancing-passwordless-authentication/",
     "date": "2026-05-07",
     "month": "2026-05"
   },
@@ -754,6 +754,13 @@
     "link": "https://blog.cloudflare.com/dynamic-workflows/",
     "date": "2026-05-01",
     "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
+    "date": "2026-04-30",
+    "month": "2026-04"
   },
   {
     "source": "Cloudflare",
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Redirects for AI Training enforces canonical content",
     "link": "https://blog.cloudflare.com/ai-redirects/",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Unweight: how we compressed an LLM 22% without sacrificing quality",
-    "link": "https://blog.cloudflare.com/unweight-tensor-compression/",
     "date": "2026-04-17",
     "month": "2026-04"
   }
