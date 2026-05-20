@@ -1,6 +1,97 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Releases Mitigation for YellowKey BitLocker Bypass CVE-2026-45585 Exploit",
+    "link": "https://thehackernews.com/2026/05/microsoft-releases-mitigation-for.html",
+    "date": "2026-05-20",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Grafana GitHub Breach Exposes Source Code via TanStack npm Attack",
+    "link": "https://thehackernews.com/2026/05/grafana-github-breach-exposes-source.html",
+    "date": "2026-05-20",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Breached — Employee Device Hack Led to Exfiltration of 3,800+ Internal Repos",
+    "link": "https://thehackernews.com/2026/05/github-investigating-teampcp-claimed.html",
+    "date": "2026-05-20",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (19 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0612/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure (19 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0611/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (19 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0610/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (19 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0609/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Announcing Claude Managed Agents on Cloudflare",
+    "link": "https://blog.cloudflare.com/claude-managed-agents/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Exposing Fox Tempest: A malware-signing service operation",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/19/exposing-fox-tempest-a-malware-signing-service-operation/",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trapdoor Android Ad Fraud Scheme Hit 659 Million Daily Bid Requests Using 455 Apps",
+    "link": "https://thehackernews.com/2026/05/trapdoor-android-ad-fraud-scheme-hit.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DirtyDecrypt PoC Released for Linux Kernel CVE-2026-31635 LPE Vulnerability",
+    "link": "https://thehackernews.com/2026/05/dirtydecrypt-poc-released-for-linux.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The New Phishing Click: How OAuth Consent Bypasses MFA",
+    "link": "https://thehackernews.com/2026/05/the-new-phishing-click-how-oauth.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Drupal to Release Urgent Core Security Updates on May 20, Sites Told to Prepare",
+    "link": "https://thehackernews.com/2026/05/drupal-to-release-urgent-core-security.html",
+    "date": "2026-05-19",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "SEPPMail Secure E-Mail Gateway Vulnerabilities Enable RCE and Mail Traffic Access",
     "link": "https://thehackernews.com/2026/05/seppmail-secure-e-mail-gateway.html",
     "date": "2026-05-19",
@@ -407,22 +498,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "🇬🇧 Cyber Threat Overview 2025 (13 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-003/",
-    "date": "2026-05-13",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Intel (13 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0582/",
-    "date": "2026-05-13",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (13 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0573/",
     "date": "2026-05-13",
     "month": "2026-05"
   },
@@ -498,13 +575,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (13 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0575/",
-    "date": "2026-05-13",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (13 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0588/",
     "date": "2026-05-13",
@@ -514,13 +584,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans MongoDB (13 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0581/",
-    "date": "2026-05-13",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Ivanti (13 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0576/",
     "date": "2026-05-13",
     "month": "2026-05"
   },
@@ -665,62 +728,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Instructure Reaches Ransom Agreement with ShinyHunters to Stop 3.65TB Canvas Leak",
-    "link": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Launches Daybreak for AI-Powered Vulnerability Detection and Patch Validation",
-    "link": "https://thehackernews.com/2026/05/openai-launches-daybreak-for-ai-powered.html",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "iOS 26.5 Brings Default End-to-End Encrypted RCS Messaging Between iPhone and Android",
-    "link": "https://thehackernews.com/2026/05/ios-265-brings-default-end-to-end.html",
-    "date": "2026-05-12",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TeamPCP Compromises Checkmarx Jenkins AST Plugin Weeks After KICS Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/05/teampcp-compromises-checkmarx-jenkins.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "cPanel CVE-2026-41940 Under Active Exploitation to Deploy Filemanager Backdoor",
-    "link": "https://thehackernews.com/2026/05/cpanel-cve-2026-41940-under-active.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
-    "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Linux Rootkit, macOS Crypto Stealer, WebSocket Skimmers and More",
-    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-rootkit-macos-crypto.html",
-    "date": "2026-05-11",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Active attack: Dirty Frag Linux vulnerability expands post-compromise risk",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/08/active-attack-dirty-frag-linux-vulnerability-expands-post-compromise-risk/",
-    "date": "2026-05-08",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Building for the future",
     "link": "https://blog.cloudflare.com/building-for-the-future/",
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Shared Dictionaries: compression that keeps up with the agentic web",
     "link": "https://blog.cloudflare.com/shared-dictionaries/",
-    "date": "2026-04-17",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Redirects for AI Training enforces canonical content",
-    "link": "https://blog.cloudflare.com/ai-redirects/",
     "date": "2026-04-17",
     "month": "2026-04"
   }
