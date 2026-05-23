@@ -1,6 +1,153 @@
 [
   {
     "source": "The Hacker News",
+    "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
+    "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
+    "date": "2026-05-23",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
+    "date": "2026-05-23",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0635/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Sensor Proxy (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0630/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0637/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0633/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0640/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Microsoft (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0634/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans le noyau Linux de Debian LTS (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0636/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0639/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Stormshield Network Security (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0631/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0638/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0641/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
+    "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
+    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
+    "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
+    "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
     "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
     "date": "2026-05-22",
@@ -498,92 +645,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Azure (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0600/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0603/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian  (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0605/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Shibboleth (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0597/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0598/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0601/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0596/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0602/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0599/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0604/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (15 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0606/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PostgreSQL (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0595/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
     "date": "2026-05-15",
     "month": "2026-05"
   },
@@ -637,72 +700,9 @@
     "month": "2026-05"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Defense in depth for autonomous AI agents",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Kazuar: Anatomy of a nation-state botnet",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/kazuar-anatomy-of-a-nation-state-botnet/",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
     "source": "The Hacker News",
     "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
     "link": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
-    "link": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
-    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
-    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
-    "link": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How AI Hallucinations Are Creating Real Security Risks",
-    "link": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
-    "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
-    "link": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
     "date": "2026-05-14",
     "month": "2026-05"
   },
