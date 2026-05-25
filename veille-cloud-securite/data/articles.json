@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
+    "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
+    "date": "2026-05-25",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
+    "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
+    "date": "2026-05-25",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
     "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
     "date": "2026-05-23",
@@ -682,20 +696,6 @@
     "source": "The Hacker News",
     "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
     "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
-    "link": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What 45 Days of Watching Your Own Tools Will Tell You About Your Real Attack Surface",
-    "link": "https://thehackernews.com/2026/05/what-45-days-of-watching-your-own-tools.html",
     "date": "2026-05-15",
     "month": "2026-05"
   },
