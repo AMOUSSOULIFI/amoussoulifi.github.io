@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
+    "link": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+    "date": "2026-05-27",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-023 (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-023/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0647/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0644/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Nginx (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0643/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Spring AI (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0646/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Firefox pour iOS (26 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0645/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+    "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+    "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+    "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
+    "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
+    "link": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
+    "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
+    "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
+    "date": "2026-05-26",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
+    "date": "2026-05-25",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
+    "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
+    "date": "2026-05-25",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Alert Firehose Finally Meets Its Match",
+    "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
+    "date": "2026-05-25",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
     "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
     "date": "2026-05-25",
@@ -101,6 +227,13 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Microsoft (22 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0634/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Trend Micro (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0642/",
     "date": "2026-05-22",
     "month": "2026-05"
   },
@@ -490,13 +623,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GLPI (19 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0609/",
-    "date": "2026-05-19",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Claude Managed Agents on Cloudflare",
     "link": "https://blog.cloudflare.com/claude-managed-agents/",
@@ -567,27 +693,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-022 (18 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-022/",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux  (18 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0608/",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (18 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0607/",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Project Glasswing: what Mythos showed us",
     "link": "https://blog.cloudflare.com/cyber-frontier-models/",
@@ -602,13 +707,6 @@
     "month": "2026-05"
   },
   {
-    "source": "Microsoft Security",
-    "title": "How to better protect your growing business in an AI-powered world",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/18/how-to-better-protect-your-growing-business-in-an-ai-powered-world/",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
     "source": "The Hacker News",
     "title": "INTERPOL Operation Ramz Disrupts MENA Cybercrime Networks with 201 Arrests",
     "link": "https://thehackernews.com/2026/05/interpol-operation-ramz-disrupts-mena.html",
@@ -616,101 +714,10 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
-    "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Reduce Phishing Exposure Before It Turns into Business Disruption",
-    "link": "https://thehackernews.com/2026/05/how-to-reduce-phishing-exposure-before.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Developer Workstations Are Now Part of the Software Supply Chain",
-    "link": "https://thehackernews.com/2026/05/developer-workstations-are-now-part-of.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ivanti, Fortinet, SAP, VMware, n8n Patch RCE, SQL Injection, Privilege Escalation Flaws",
-    "link": "https://thehackernews.com/2026/05/ivanti-fortinet-sap-vmware-n8n-patch.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MiniPlasma Windows 0-Day Enables SYSTEM Privilege Escalation on Fully Patched Systems",
-    "link": "https://thehackernews.com/2026/05/miniplasma-windows-0-day-enables-system.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Four Malicious npm Packages Deliver Infostealers and Phantom Bot DDoS Malware",
-    "link": "https://thehackernews.com/2026/05/four-malicious-npm-packages-deliver.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Pre-Stuxnet Fast16 Malware Tampered with Nuclear Weapons Simulations",
-    "link": "https://thehackernews.com/2026/05/pre-stuxnet-fast16-malware-tampered.html",
-    "date": "2026-05-18",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NGINX CVE-2026-42945 Exploited in the Wild, Causing Worker Crashes and Possible RCE",
-    "link": "https://thehackernews.com/2026/05/nginx-cve-2026-42945-exploited-in-wild.html",
-    "date": "2026-05-17",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Grafana GitHub Token Breach Led to Codebase Download and Extortion Attempt",
-    "link": "https://thehackernews.com/2026/05/grafana-github-token-breach-led-to.html",
-    "date": "2026-05-17",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Funnel Builder Flaw Under Active Exploitation Enables WooCommerce Checkout Skimming",
-    "link": "https://thehackernews.com/2026/05/funnel-builder-flaw-under-active.html",
-    "date": "2026-05-16",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0606/",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
-    "link": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
-    "date": "2026-05-15",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Our billing pipeline was suddenly slow. The culprit was a hidden bottleneck in ClickHouse",
     "link": "https://blog.cloudflare.com/clickhouse-query-plan-contention/",
     "date": "2026-05-14",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (13 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0574/",
-    "date": "2026-05-13",
     "month": "2026-05"
   },
   {
@@ -761,13 +768,6 @@
     "link": "https://blog.cloudflare.com/dynamic-workflows/",
     "date": "2026-05-01",
     "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
-    "date": "2026-04-30",
-    "month": "2026-04"
   },
   {
     "source": "Cloudflare",
