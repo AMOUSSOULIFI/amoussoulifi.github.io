@@ -1,8 +1,120 @@
 [
   {
     "source": "Microsoft Security",
+    "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
+    "date": "2026-05-30",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
+    "date": "2026-05-30",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Centreon Web (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0659/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Elastic Kibana (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0661/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0664/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0663/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0667/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0662/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0666/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0665/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0660/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "Microsoft Security",
     "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
+    "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
+    "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
+    "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
+    "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
     "date": "2026-05-29",
     "month": "2026-05"
   },
@@ -547,41 +659,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans ISC BIND (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0626/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Splunk (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0627/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Cisco Secure Workload (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0628/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apereo (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0625/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Progress MOVEit Automation (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0624/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Drupal (21 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0629/",
     "date": "2026-05-21",
@@ -637,79 +714,9 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "GitHub Internal Repositories Breached via Malicious Nx Console VS Code Extension",
-    "link": "https://thehackernews.com/2026/05/github-internal-repositories-breached.html",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Highly Critical Drupal Core Flaw Exposes PostgreSQL Sites to RCE Attacks",
-    "link": "https://thehackernews.com/2026/05/highly-critical-drupal-core-flaw.html",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (20 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0623/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (20 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0622/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (20 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0613/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Securing the gaming culture of cultures",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/securing-the-gaming-culture-of-cultures/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
-    "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Takes Down Malware-Signing Service Behind Ransomware Attacks",
-    "link": "https://thehackernews.com/2026/05/microsoft-takes-down-malware-signing.html",
-    "date": "2026-05-20",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webworm Deploys EchoCreep and GraphWorm Backdoors Using Discord and MS Graph API",
-    "link": "https://thehackernews.com/2026/05/webworm-deploys-echocreep-and-graphworm.html",
     "date": "2026-05-20",
     "month": "2026-05"
   },
@@ -831,12 +838,5 @@
     "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
     "date": "2026-04-20",
     "month": "2026-04"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans telnetd (21 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-003/",
-    "date": "2026-01-21",
-    "month": "2026-01"
   }
 ]
