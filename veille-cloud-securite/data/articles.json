@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
+    "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
+    "link": "https://thehackernews.com/2026/06/dashlane-discloses-brute-force-attack.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-024 (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-024/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Kaspersky Anti Targeted Attack Platform (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0668/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mitel (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0672/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Keycloak (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0669/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0673/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0674/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits NetApp (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0671/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Laravel (01 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0670/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we reduced core unit boot time from hours to minutes",
+    "link": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
+    "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
+    "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
+    "date": "2026-06-01",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
     "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
     "date": "2026-06-01",
@@ -526,36 +624,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans SPIP (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0635/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Sensor Proxy (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0630/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (22 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0637/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0633/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
     "date": "2026-05-22",
     "month": "2026-05"
   },
@@ -568,13 +638,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Microsoft (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0634/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Trend Micro (22 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0642/",
     "date": "2026-05-22",
@@ -582,22 +645,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans le noyau Linux de Debian LTS (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0636/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (22 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0639/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Stormshield Network Security (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0631/",
     "date": "2026-05-22",
     "month": "2026-05"
   },
@@ -658,41 +707,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Making Vulnerable Drivers Exploitable Without Hardware - The BYOVD Perspective",
-    "link": "https://thehackernews.com/2026/05/making-vulnerable-drivers-exploitable.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kimwolf DDoS Botnet Operator Arrested in Canada Over DDoS-for-Hire Attacks",
-    "link": "https://thehackernews.com/2026/05/kimwolf-ddos-botnet-operator-arrested.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited Langflow and Trend Micro Apex One Vulnerabilities to KEV",
-    "link": "https://thehackernews.com/2026/05/cisa-adds-exploited-langflow-and-trend.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches CVSS 10.0 Secure Workload REST API Flaw Enabling Data Access",
-    "link": "https://thehackernews.com/2026/05/cisco-patches-cvss-100-secure-workload.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Drupal (21 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0629/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
     "link": "https://blog.cloudflare.com/casb-anthropic-integration/",
@@ -703,13 +717,6 @@
     "source": "Microsoft Security",
     "title": "What’s new in Microsoft Security: May 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Showboat Linux Malware Hits Middle East Telecom with SOCKS5 Proxy Backdoor",
-    "link": "https://thehackernews.com/2026/05/showboat-linux-malware-hits-middle-east.html",
     "date": "2026-05-21",
     "month": "2026-05"
   },
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
     "link": "https://blog.cloudflare.com/agents-week-in-review/",
-    "date": "2026-04-20",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The AI engineering stack we built internally — on the platform we ship",
-    "link": "https://blog.cloudflare.com/internal-ai-engineering-stack/",
     "date": "2026-04-20",
     "month": "2026-04"
   }
