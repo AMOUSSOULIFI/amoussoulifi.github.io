@@ -1,5 +1,124 @@
 [
   {
+    "source": "Microsoft Security",
+    "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+    "link": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+    "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+    "link": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0676/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Android (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0679/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0681/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0675/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Ivanti (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0677/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apache Kafka (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0678/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (02 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0680/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google June 2026 Android Update Patches 124 Flaws, One Actively Exploited",
+    "link": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gamaredon Exploits WinRAR to Deliver GammaWorm and GammaSteel Against Ukraine",
+    "link": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Oracle WebLogic CVE-2024-21182 Added to KEV Catalog After Active Exploitation",
+    "link": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
+    "link": "https://thehackernews.com/2026/06/ai-driven-exploitation-is-destroying.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
+    "link": "https://thehackernews.com/2026/06/how-leading-organizations-are-turning.html",
+    "date": "2026-06-02",
+    "month": "2026-06"
+  },
+  {
     "source": "The Hacker News",
     "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
     "link": "https://thehackernews.com/2026/06/pakistan-linked-sidecopy-targets.html",
@@ -470,13 +589,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Nginx (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0643/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Spring AI (26 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0646/",
     "date": "2026-05-26",
@@ -588,83 +700,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Packagist Supply Chain Attack Infects 8 Packages Using GitHub-Hosted Linux Malware",
-    "link": "https://thehackernews.com/2026/05/packagist-supply-chain-attack-infects-8.html",
-    "date": "2026-05-23",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
-    "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
-    "date": "2026-05-23",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Laravel-Lang PHP Packages Compromised to Deliver Cross-Platform Credential Stealer",
-    "link": "https://thehackernews.com/2026/05/laravel-lang-php-packages-compromised.html",
-    "date": "2026-05-23",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteSpeed cPanel Plugin CVE-2026-48172 Exploited to Run Scripts as Root",
-    "link": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html",
-    "date": "2026-05-23",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drupal Core SQL Injection Bug Actively Exploited, Added to CISA KEV",
-    "link": "https://thehackernews.com/2026/05/drupal-core-sql-injection-bug-actively.html",
-    "date": "2026-05-23",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0637/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0640/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Trend Micro (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0642/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0639/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0638/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0641/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
@@ -686,45 +721,10 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "First VPN Dismantled in Global Takedown Over Use by 25 Ransomware Groups",
-    "link": "https://thehackernews.com/2026/05/first-vpn-dismantled-in-global-takedown.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ghostwriter Targets Ukraine Government Entities with Prometheus Phishing Malware",
-    "link": "https://thehackernews.com/2026/05/ghostwriter-targets-ukraine-government.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Megalodon GitHub Attack Targets 5,561 Repos with Malicious CI/CD Workflows",
-    "link": "https://thehackernews.com/2026/05/megalodon-github-attack-targets-5561.html",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
     "link": "https://blog.cloudflare.com/casb-anthropic-integration/",
     "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "What’s new in Microsoft Security: May 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
-    "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
-    "date": "2026-05-20",
     "month": "2026-05"
   },
   {
