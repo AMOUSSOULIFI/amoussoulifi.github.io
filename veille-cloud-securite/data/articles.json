@@ -1,8 +1,120 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
+    "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
+    "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
+    "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (03 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0685/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (03 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0684/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans HPE Aruba Networking AOS-CX (03 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0683/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Laravel (03 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0682/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Enforcing the First AS in BGP AS_PATHs",
+    "link": "https://blog.cloudflare.com/enforce-first-as-bgp/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
     "source": "Microsoft Security",
     "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+    "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
+    "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+    "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
+    "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+    "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+    "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+    "link": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
     "date": "2026-06-03",
     "month": "2026-06"
   },
@@ -567,41 +679,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-023 (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-023/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0647/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0644/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Spring AI (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0646/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Firefox pour iOS (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0645/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
@@ -620,83 +697,6 @@
     "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
     "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
     "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
-    "link": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MFA Prompt Bombing: Why Your Second Factor Isn't Saving You",
-    "link": "https://thehackernews.com/2026/05/mfa-prompt-bombing-why-your-second.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CERT-In Recommends 12-Hour Patching for Internet-Facing Flaws Amid AI-Assisted Attacks",
-    "link": "https://thehackernews.com/2026/05/cert-in-mandates-12-hour-patching-for.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iranian Hackers Deploy MiniFast and MiniJunk V2 via Phishing and SEO Poisoning",
-    "link": "https://thehackernews.com/2026/05/iranian-hackers-deploy-minifast-and.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "KnowledgeDeliver LMS Flaw Exploited to Deploy Godzilla and Cobalt Strike",
-    "link": "https://thehackernews.com/2026/05/knowledgedeliver-lms-flaw-exploited-to.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Linux Flaws, Defender 0-Days, Router Botnets, and Supply Chain Chaos",
-    "link": "https://thehackernews.com/2026/05/weekly-recap-linux-flaws-defender-0.html",
-    "date": "2026-05-25",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
-    "link": "https://thehackernews.com/2026/05/ghost-cms-cve-2026-26980-exploited-to.html",
-    "date": "2026-05-25",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Alert Firehose Finally Meets Its Match",
-    "link": "https://thehackernews.com/2026/05/the-alert-firehose-finally-meets-its.html",
-    "date": "2026-05-25",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
-    "link": "https://thehackernews.com/2026/05/lazarus-deploys-remotepe-memory-only.html",
-    "date": "2026-05-25",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
-    "link": "https://thehackernews.com/2026/05/trapdoor-supply-chain-attack-spreads.html",
-    "date": "2026-05-25",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/05/npm-adds-2fa-gated-publishing-and.html",
-    "date": "2026-05-23",
     "month": "2026-05"
   },
   {
@@ -798,6 +798,13 @@
     "month": "2026-05"
   },
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
+    "date": "2026-04-30",
+    "month": "2026-04"
+  },
+  {
     "source": "Cloudflare",
     "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
     "link": "https://blog.cloudflare.com/post-quantum-ipsec/",
@@ -830,13 +837,6 @@
     "title": "Moving past bots vs. humans",
     "link": "https://blog.cloudflare.com/past-bots-and-humans/",
     "date": "2026-04-21",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Building the agentic cloud: everything we launched during Agents Week 2026",
-    "link": "https://blog.cloudflare.com/agents-week-in-review/",
-    "date": "2026-04-20",
     "month": "2026-04"
   }
 ]
