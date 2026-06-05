@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+    "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
+    "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
+    "link": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Cisco (04 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0689/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits NetApp (04 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0686/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology Chat Server pour DSM (04 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0687/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans FreeRadius (04 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0688/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "VoidZero is joining Cloudflare",
+    "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+    "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+    "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
+    "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
+    "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
+    "date": "2026-06-04",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
     "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
     "date": "2026-06-04",
@@ -10,13 +115,6 @@
     "source": "The Hacker News",
     "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
     "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
-    "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
     "date": "2026-06-04",
     "month": "2026-06"
   },
@@ -78,6 +176,27 @@
   },
   {
     "source": "The Hacker News",
+    "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+    "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
+    "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
+    "date": "2026-06-03",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver DesckVB RAT",
     "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
     "date": "2026-06-03",
@@ -94,20 +213,6 @@
     "source": "The Hacker News",
     "title": "Microsoft 365 Android Apps Let Any App Steal Account Tokens via Leftover Debug Flag",
     "link": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
-    "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
-    "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
     "date": "2026-06-03",
     "month": "2026-06"
   },
@@ -582,29 +687,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Kaspersky Anti Targeted Attack Platform (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0648/",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Joomla! (27 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0649/",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Samba (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0651/",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Check Point (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0650/",
     "date": "2026-05-27",
     "month": "2026-05"
   },
@@ -616,13 +700,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Veeam Backup & Replication (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0652/",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
     "link": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
@@ -630,72 +707,9 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "Grandoreiro Malware and BTMOB RAT Campaigns Target Windows and Android Users",
-    "link": "https://thehackernews.com/2026/05/grandoreiro-malware-and-btmob-rat.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Package Stole Files From Claude AI User Directory via GitHub",
-    "link": "https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
-    "link": "https://thehackernews.com/2026/05/5-steps-to-managing-shadow-ai-tools.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GlassWorm Malware Takedown Disrupts Developer Supply Chain Attack Infrastructure",
-    "link": "https://thehackernews.com/2026/05/glassworm-malware-takedown-disrupts.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3 SOC Steps that Shut Down Incident Risks Early",
-    "link": "https://thehackernews.com/2026/05/3-soc-steps-that-shut-down-incident.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
-    "link": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
-    "link": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
-    "link": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
-    "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
-    "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
     "date": "2026-05-26",
     "month": "2026-05"
   },
@@ -710,13 +724,6 @@
     "source": "Microsoft Security",
     "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
     "date": "2026-05-22",
     "month": "2026-05"
   },
@@ -830,13 +837,6 @@
     "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
     "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
     "date": "2026-04-22",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Moving past bots vs. humans",
-    "link": "https://blog.cloudflare.com/past-bots-and-humans/",
-    "date": "2026-04-21",
     "month": "2026-04"
   }
 ]
