@@ -1,6 +1,153 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+    "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+    "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+    "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0693/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0699/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0692/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0697/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans CPython (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0691/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0696/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0690/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0694/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0698/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (05 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0695/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Your AI bill is out of control. Cloudflare can fix it now.",
+    "link": "https://blog.cloudflare.com/ai-gateway-spend-limits/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Securing CI/CD in an agentic world: Claude Code Github action case",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "IronWorm and New Miasma Worm Variant Hit npm in Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android Spyware Asin Targets Arabic Users via Fake News, PDF and War Map Apps",
+    "link": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Threat Cluster OP-512 Targets Microsoft IIS Servers with Custom Web Shell Framework",
+    "link": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver",
+    "link": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
+    "date": "2026-06-05",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
     "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
     "date": "2026-06-05",
@@ -176,7 +323,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "One-Click GitHub Dev Attack Lets Attackers Steal Full GitHub OAuth Tokens",
+    "title": "Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens",
     "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
     "date": "2026-06-03",
     "month": "2026-06"
@@ -477,20 +624,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Centreon Web (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0659/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Elastic Kibana (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0661/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (29 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0664/",
     "date": "2026-05-29",
@@ -532,13 +665,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0660/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Microsoft is named a Leader in the 2026 Gartner® Magic Quadrant™ for Endpoint Protection",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/microsoft-is-named-a-leader-in-the-2026-gartner-magic-quadrant-for-endpoint-protection/",
@@ -574,62 +700,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
-    "link": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-    "link": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-    "link": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits NetApp (28 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0656/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (28 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0655/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apereo CAS (28 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0654/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (28 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0658/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Veeam (28 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0657/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we built Cloudflare's data platform and an AI agent on top of it",
     "link": "https://blog.cloudflare.com/our-unified-data-platform/",
@@ -641,62 +711,6 @@
     "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
     "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-    "link": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-    "link": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Slams Public Zero-Day Disclosures Amid GitHub Researcher Account Removal",
-    "link": "https://thehackernews.com/2026/05/microsoft-slams-public-zero-day.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
-    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New AI Usage Report: Enterprise AI Risk Is Heavily Concentrated Among a Small Group of AI \"Power users\"",
-    "link": "https://thehackernews.com/2026/05/new-ai-usage-report-enterprise-ai-risk.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "JINX-0164 Targets Cryptocurrency Firms with Fake Recruiter Lures and macOS Malware",
-    "link": "https://thehackernews.com/2026/05/jinx-0164-targets-cryptocurrency-firms.html",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Joomla! (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0649/",
-    "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Symfony (27 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0653/",
-    "date": "2026-05-27",
     "month": "2026-05"
   },
   {
@@ -717,13 +731,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "From edge appliance to enterprise compromise: Multi-stage Linux intrusion via F5 and Confluence",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/from-edge-appliance-to-enterprise-compromise-multi-stage-linux-intrusion-via-f5-and-confluence/",
     "date": "2026-05-22",
     "month": "2026-05"
   },
@@ -830,13 +837,6 @@
     "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
     "link": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
     "date": "2026-04-28",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Making Rust Workers reliable: panic and abort recovery in wasm‑bindgen",
-    "link": "https://blog.cloudflare.com/making-rust-workers-reliable/",
-    "date": "2026-04-22",
     "month": "2026-04"
   }
 ]
