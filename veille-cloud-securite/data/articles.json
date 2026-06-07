@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+    "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+    "date": "2026-06-06",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
     "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
     "date": "2026-06-06",
@@ -689,13 +696,6 @@
     "source": "The Hacker News",
     "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
     "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
-    "link": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html",
     "date": "2026-05-29",
     "month": "2026-05"
   },
