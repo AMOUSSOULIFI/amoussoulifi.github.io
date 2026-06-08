@@ -1,6 +1,27 @@
 [
   {
     "source": "The Hacker News",
+    "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
+    "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
+    "link": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
     "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
     "date": "2026-06-06",
@@ -623,13 +644,6 @@
     "month": "2026-05"
   },
   {
-    "source": "The Hacker News",
-    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-    "link": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-    "date": "2026-05-30",
-    "month": "2026-05"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (29 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0664/",
@@ -682,20 +696,6 @@
     "source": "Microsoft Security",
     "title": "Typosquatted npm packages used to steal cloud and CI/CD secrets",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/typosquatted-npm-packages-used-steal-cloud-ci-cd-secrets/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
-    "link": "https://thehackernews.com/2026/05/chatgphish-vulnerability-turns-chatgpt.html",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
-    "link": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html",
     "date": "2026-05-29",
     "month": "2026-05"
   },
