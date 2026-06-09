@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
+    "date": "2026-06-09",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-025 (08 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-025/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (08 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0701/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Laravel (08 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0703/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (08 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0700/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Spring Micrometer (08 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0702/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
+    "link": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One-Character Linux Kernel Flaw Enables Local Root Access, Exploits Now Public",
+    "link": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta Blocks NSO Group's New WhatsApp Phishing Attack, Files Contempt Order",
+    "link": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Check Point VPN Flaw Exploited to Bypass Passwords in IKEv1 Setups",
+    "link": "https://thehackernews.com/2026/06/critical-check-point-vpn-flaw-exploited.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+    "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Hardest Fork",
+    "link": "https://thehackernews.com/2026/06/the-hardest-fork.html",
+    "date": "2026-06-08",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
     "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
     "date": "2026-06-08",
@@ -588,55 +686,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-    "link": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
-    "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Aligned Groups Ramp Up Attacks: Dragon Weave Hits Czech Republic & Taiwan",
-    "link": "https://thehackernews.com/2026/06/china-aligned-groups-ramp-up-attacks.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
-    "link": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-    "link": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-    "date": "2026-06-01",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-    "link": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-    "date": "2026-05-31",
-    "month": "2026-05"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Malicious npm packages abuse dependency confusion to profile developer environments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/29/33-malicious-npm-packages-abuse-dependency-confusion-profile-developer-environments/",
@@ -645,43 +694,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0664/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0663/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (29 mai 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0667/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0662/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0666/",
-    "date": "2026-05-29",
-    "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (29 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0665/",
     "date": "2026-05-29",
     "month": "2026-05"
   },
@@ -725,13 +739,6 @@
     "title": "From poisoned search results to GPU mining: A cryptojacking campaign abusing ScreenConnect and Microsoft .NET utilities",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/05/26/poisoned-search-results-gpu-mining-cryptojacking-campaign-abusing-screenconnect-microsoft-net-utilities/",
     "date": "2026-05-26",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft recognized as a Leader in The Forrester Wave™ for Workforce Identity Security Platforms",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-recognized-as-a-leader-in-the-forrester-wave-for-workforce-identity-security-platforms/",
-    "date": "2026-05-22",
     "month": "2026-05"
   },
   {
@@ -830,13 +837,6 @@
     "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
     "link": "https://blog.cloudflare.com/agents-stripe-projects/",
     "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Shutdowns, power outages, and conflict: a review of Q1 2026 Internet disruptions",
-    "link": "https://blog.cloudflare.com/q1-2026-internet-disruption-summary/",
-    "date": "2026-04-28",
     "month": "2026-04"
   }
 ]
