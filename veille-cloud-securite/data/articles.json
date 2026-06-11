@@ -1,6 +1,188 @@
 [
   {
     "source": "The Hacker News",
+    "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
+    "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0725/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans FreeBSD (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0716/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Office (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0727/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Xen (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0721/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Typo3 (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0722/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0728/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft .Net (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0729/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0726/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans PostgreSQL (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0718/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Stormshield Network Security (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0723/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0731/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Ivanti (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0724/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSL (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0717/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Spring (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0719/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Adobe (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0720/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (10 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0730/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Route public traffic to private applications with Cloudflare",
+    "link": "https://blog.cloudflare.com/private-origins-dns-routing/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Turn specs into evals for any agent with ASSERT",
+    "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
+    "link": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
+    "link": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Cisco, Chrome, and Arista Flaws to KEV Catalog Amid Active Exploitation",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-cisco-chrome-and-arista-flaws.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
+    "link": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
+    "link": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html",
+    "date": "2026-06-10",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
     "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
     "date": "2026-06-10",
@@ -365,13 +547,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0692/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (05 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0697/",
     "date": "2026-06-05",
@@ -379,22 +554,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans CPython (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0691/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (05 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0696/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0690/",
     "date": "2026-06-05",
     "month": "2026-06"
   },
@@ -483,34 +644,6 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Cisco (04 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0689/",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits NetApp (04 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0686/",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synology Chat Server pour DSM (04 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0687/",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans FreeRadius (04 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0688/",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "VoidZero is joining Cloudflare",
     "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
@@ -567,55 +700,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
-    "link": "https://thehackernews.com/2026/06/fake-sites-mimicking-open-source-tools.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
-    "link": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
-    "link": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (03 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0685/",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Firefox (03 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0684/",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans HPE Aruba Networking AOS-CX (03 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0683/",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Laravel (03 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0682/",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Enforcing the First AS in BGP AS_PATHs",
     "link": "https://blog.cloudflare.com/enforce-first-as-bgp/",
@@ -627,69 +711,6 @@
     "title": "Preinstall to persistence: Inside the Red Hat npm Miasma credential-stealing campaign",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/preinstall-persistence-inside-red-hat-npm-miasma-credential-stealing-campaign/",
     "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
-    "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Fixes One-Click GitHub Dev Attack That Let Attackers Steal OAuth Tokens",
-    "link": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Autonomous AI Tool Finds 2-Year-Old RCE Flaw in Redis (CVE-2026-23479)",
-    "link": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
-    "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google DoubleClick Abused in New Malspam Campaign to Deliver .NET Loader",
-    "link": "https://thehackernews.com/2026/06/google-doubleclick-abused-in-new.html",
-    "date": "2026-06-03",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Android (02 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0679/",
-    "date": "2026-06-02",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (02 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0681/",
-    "date": "2026-06-02",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apache Kafka (02 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0678/",
-    "date": "2026-06-02",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (02 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0680/",
-    "date": "2026-06-02",
     "month": "2026-06"
   },
   {
@@ -731,13 +752,6 @@
     "source": "Cloudflare",
     "title": "How we built Cloudflare's data platform and an AI agent on top of it",
     "link": "https://blog.cloudflare.com/our-unified-data-platform/",
-    "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "The Gentlemen ransomware: Dissecting a self-propagating Go encryptor",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/28/the-gentlemen-ransomware-dissecting-a-self-propagating-go-encryptor/",
     "date": "2026-05-28",
     "month": "2026-05"
   },
@@ -824,19 +838,5 @@
     "link": "https://blog.cloudflare.com/dynamic-workflows/",
     "date": "2026-05-01",
     "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MISP (30 avril 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0515/",
-    "date": "2026-04-30",
-    "month": "2026-04"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Post-quantum encryption for Cloudflare IPsec is generally available",
-    "link": "https://blog.cloudflare.com/post-quantum-ipsec/",
-    "date": "2026-04-30",
-    "month": "2026-04"
   }
 ]
