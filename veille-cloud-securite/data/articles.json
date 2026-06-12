@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
+    "link": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+    "date": "2026-06-12",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
+    "link": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html",
+    "date": "2026-06-12",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
+    "link": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html",
+    "date": "2026-06-12",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0735/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0734/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0737/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Splunk (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0736/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0738/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0733/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0732/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Spring (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0739/",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
+    "link": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+    "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New GreatXML Exploit Bypasses Windows BitLocker via Recovery Partition XML Files",
+    "link": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Gentlemen Ransomware Claims 478 Victims, Can Spread Like a Worm",
+    "link": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cybersecurity Stars Awards 2026: Winners Announced Across 95 Categories",
+    "link": "https://thehackernews.com/2026/06/cybersecurity-stars-awards-2026-winners.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
+    "link": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html",
+    "date": "2026-06-11",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
     "link": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html",
     "date": "2026-06-11",
@@ -155,7 +281,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+    "title": "Langflow Vulnerability CVE-2026-5027 Exploited for Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
     "date": "2026-06-10",
     "month": "2026-06"
@@ -379,29 +505,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-025 (08 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-025/",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (08 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0701/",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Laravel (08 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0703/",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (08 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0700/",
     "date": "2026-06-08",
     "month": "2026-06"
   },
@@ -533,50 +638,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0693/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (05 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0699/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0697/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0696/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0694/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0698/",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (05 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0695/",
     "date": "2026-06-05",
     "month": "2026-06"
   },
@@ -616,34 +679,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Only 10% of SOCs Say They’re Getting Excellent Value From AI. Here’s What the Second Wave Has to Deliver",
-    "link": "https://thehackernews.com/2026/06/only-10-of-socs-say-theyre-getting.html",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
-    "link": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
-    "link": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
-    "link": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
-    "date": "2026-06-05",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "VoidZero is joining Cloudflare",
     "link": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
@@ -654,48 +689,6 @@
     "source": "Microsoft Security",
     "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
-    "link": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
-    "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
-    "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: AI Agents Gone Wrong, Sketchy C2 Tools, ClickFix Tricks, JS Backdoors & 20+ New Stories",
-    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-ai-agents-gone.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked TA4922 Expands Phishing Attacks to U.K., Germany, Italy, and South Africa",
-    "link": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html",
-    "date": "2026-06-04",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FlutterShell Backdoor Spreads to macOS via Malicious Google and YouTube Ads",
-    "link": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html",
     "date": "2026-06-04",
     "month": "2026-06"
   },
@@ -781,6 +774,13 @@
     "title": "Project Glasswing: what Mythos showed us",
     "link": "https://blog.cloudflare.com/cyber-frontier-models/",
     "date": "2026-05-18",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "[Màj] Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
+    "date": "2026-05-15",
     "month": "2026-05"
   },
   {
