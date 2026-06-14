@@ -1,6 +1,13 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+    "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+    "date": "2026-06-13",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
     "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
     "date": "2026-06-13",
@@ -654,13 +661,6 @@
     "source": "The Hacker News",
     "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
     "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
-    "date": "2026-06-06",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
-    "link": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
     "date": "2026-06-06",
     "month": "2026-06"
   },
