@@ -1,5 +1,75 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-026 (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-026/",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0753/",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits HPE Aruba Networking (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0750/",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Spring AI (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0751/",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0752/",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
+    "link": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
+    "link": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
+    "link": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
+    "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
+    "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
+    "date": "2026-06-15",
+    "month": "2026-06"
+  },
+  {
     "source": "The Hacker News",
     "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
     "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
@@ -351,13 +421,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans OpenSSL (10 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0717/",
-    "date": "2026-06-10",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Spring (10 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0719/",
     "date": "2026-06-10",
@@ -459,34 +522,6 @@
     "title": "Six Proto6 Vulnerabilities in protobuf.js Expose Node.js Apps to RCE and DoS",
     "link": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html",
     "date": "2026-06-10",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SAP (09 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0715/",
-    "date": "2026-06-09",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Schneider Electric EcoStruxure IT Data Center Expert (09 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0713/",
-    "date": "2026-06-09",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Veeam Backup & Replication (09 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0712/",
-    "date": "2026-06-09",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Siemens (09 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0714/",
-    "date": "2026-06-09",
     "month": "2026-06"
   },
   {
@@ -627,41 +662,6 @@
     "title": "The Hardest Fork",
     "link": "https://thehackernews.com/2026/06/the-hardest-fork.html",
     "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "VerdantBamboo Deploys BSD Variant of BRICKSTORM on Linux Appliances",
-    "link": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC3753 Used Vishing and Physical Intrusions in U.S. Data Theft Extortion Campaign",
-    "link": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "VS Code Adds 2-Hour Extension Auto-Update Delay to Limit Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html",
-    "date": "2026-06-08",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
-    "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
-    "date": "2026-06-06",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
-    "link": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
-    "date": "2026-06-06",
     "month": "2026-06"
   },
   {
