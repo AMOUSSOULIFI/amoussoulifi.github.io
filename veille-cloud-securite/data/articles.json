@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
+    "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
+    "date": "2026-06-20",
+    "month": "2026-06"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (19 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0788/",
@@ -717,13 +724,6 @@
     "source": "The Hacker News",
     "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
     "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
-    "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
-    "link": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html",
     "date": "2026-06-12",
     "month": "2026-06"
   },
