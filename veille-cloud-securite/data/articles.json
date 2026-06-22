@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+    "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
+    "link": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
+    "link": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+    "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
     "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
     "date": "2026-06-20",
@@ -686,44 +721,9 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
-    "link": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html",
-    "date": "2026-06-13",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
     "link": "https://blog.cloudflare.com/scaling-security-scans/",
-    "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
-    "link": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html",
-    "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
-    "link": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html",
-    "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
-    "link": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html",
-    "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
-    "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
     "date": "2026-06-12",
     "month": "2026-06"
   },
