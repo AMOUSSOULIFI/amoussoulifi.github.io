@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
+    "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
+    "link": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
+    "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-027 (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-027/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0792/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Postfix (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0793/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0791/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans PaperCut Print Deploy Client (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0789/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython pour Windows (22 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0790/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we found a bug in the hyper HTTP library",
+    "link": "https://blog.cloudflare.com/hyper-bug/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Guarding AI memory",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "One intrusion, two cyberattackers: Uncovering parallel threat activity",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/one-intrusion-two-cyberattackers-uncovering-parallel-threat-activity/",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
+    "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
+    "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
+    "date": "2026-06-22",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
     "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
     "date": "2026-06-22",
@@ -491,20 +610,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Redmine (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0754/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans LibreNMS (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0755/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (16 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0757/",
     "date": "2026-06-16",
@@ -609,27 +714,6 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-026 (15 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-026/",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (15 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0753/",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (15 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0752/",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "link": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -665,62 +749,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes",
-    "link": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Chrome 0-Day, UniFi Exploits, macOS Stealers, VPN Flaw and More",
-    "link": "https://thehackernews.com/2026/06/weekly-recap-chrome-0-day-unifi.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
-    "link": "https://thehackernews.com/2026/06/the-onboarding-password-mistake-that.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
-    "link": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
-    "link": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
-    "link": "https://thehackernews.com/2026/06/sniper-dz-scams-target-mena-users-via.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
-    "link": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
-    "link": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
-    "date": "2026-06-13",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
     "link": "https://blog.cloudflare.com/scaling-security-scans/",
@@ -735,23 +763,9 @@
     "month": "2026-06"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Turn specs into evals for any agent with ASSERT",
-    "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
-    "date": "2026-06-10",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
     "link": "https://blog.cloudflare.com/frontier-model-defense/",
-    "date": "2026-06-09",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Reconstructing AI activity in investigations",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/",
     "date": "2026-06-09",
     "month": "2026-06"
   },
@@ -805,13 +819,6 @@
     "month": "2026-05"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
-    "date": "2026-05-22",
-    "month": "2026-05"
-  },
-  {
     "source": "Cloudflare",
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
     "link": "https://blog.cloudflare.com/casb-anthropic-integration/",
@@ -823,13 +830,6 @@
     "title": "Announcing Claude Managed Agents on Cloudflare",
     "link": "https://blog.cloudflare.com/claude-managed-agents/",
     "date": "2026-05-19",
-    "month": "2026-05"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Project Glasswing: what Mythos showed us",
-    "link": "https://blog.cloudflare.com/cyber-frontier-models/",
-    "date": "2026-05-18",
     "month": "2026-05"
   },
   {
