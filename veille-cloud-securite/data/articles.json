@@ -1,6 +1,76 @@
 [
   {
     "source": "The Hacker News",
+    "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
+    "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
+    "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (23 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0794/",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Squid (23 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0795/",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The post-quantum EO is an important milestone. Now it’s time to get to work",
+    "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
+    "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+    "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
+    "link": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
+    "link": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+    "date": "2026-06-23",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
     "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
     "date": "2026-06-23",
@@ -92,15 +162,15 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
+    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
     "date": "2026-06-22",
     "month": "2026-06"
   },
   {
     "source": "The Hacker News",
-    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
     "date": "2026-06-22",
     "month": "2026-06"
   },
@@ -386,7 +456,7 @@
   },
   {
     "source": "Microsoft Security",
-    "title": "New Forrester study shows customers who unified with Microsoft Security benefited from 124% ROI",
+    "title": "New Forrester Total Economic Impact™ study projects a 124% ROI from unifying with Microsoft Security",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
     "date": "2026-06-18",
     "month": "2026-06"
@@ -610,20 +680,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0757/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Cisco Catalyst (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0756/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Moxa (16 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0760/",
     "date": "2026-06-16",
@@ -686,34 +742,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
-    "link": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-    "link": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
-    "link": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags LiteSpeed cPanel Plugin Flaw Exploited for Root Privilege Escalation",
-    "link": "https://thehackernews.com/2026/06/cisa-flags-litespeed-cpanel-plugin-flaw.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "link": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
@@ -724,27 +752,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chinese Hackers Abused Google Workspace Rules to Steal Research and Defense Emails",
-    "link": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Hackers Are Turning Developer Tools Into Malware Delivery Channels",
-    "link": "https://thehackernews.com/2026/06/north-korean-hackers-are-turning.html",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers",
-    "link": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html",
     "date": "2026-06-15",
     "month": "2026-06"
   },
@@ -823,13 +830,6 @@
     "title": "Announcing Claude Compliance API support with Cloudflare CASB",
     "link": "https://blog.cloudflare.com/casb-anthropic-integration/",
     "date": "2026-05-21",
-    "month": "2026-05"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing Claude Managed Agents on Cloudflare",
-    "link": "https://blog.cloudflare.com/claude-managed-agents/",
-    "date": "2026-05-19",
     "month": "2026-05"
   },
   {
