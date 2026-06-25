@@ -1,6 +1,90 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
+    "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Catalyst SD-WAN Zero-Day CVE-2026-20245 Exploited to Gain Root Access",
+    "link": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day-cve-2026.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans cURL et libcurl (24 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0797/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (24 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0796/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (24 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0798/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
+    "link": "https://blog.cloudflare.com/oauth-for-all/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Warns Critical Lantronix EDS5000 Flaw Is Being Actively Exploited",
+    "link": "https://thehackernews.com/2026/06/cisa-warns-critical-lantronix-eds5000.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Amadey and StealC Malware Network Disrupted, 27M Stolen Credentials Recovered",
+    "link": "https://thehackernews.com/2026/06/amadey-and-stealc-malware-network.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
+    "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dawn of the Apex Agentic Adversary",
+    "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+    "date": "2026-06-24",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
     "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
     "date": "2026-06-24",
@@ -616,13 +700,6 @@
     "month": "2026-06"
   },
   {
-    "source": "Microsoft Security",
-    "title": "AI is accelerating cyberattacks—here’s how to stay ahead",
-    "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
     "source": "The Hacker News",
     "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
     "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
@@ -672,34 +749,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Warns of Actively Exploited Joomla JCE Flaw Allowing PHP Code Execution",
-    "link": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Moxa (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0760/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Spring (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0759/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Azure (16 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0758/",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare DMARC Management is now generally available",
     "link": "https://blog.cloudflare.com/dmarc-management-ga/",
@@ -707,51 +756,9 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
-    "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClickFix Campaigns Expand Malware Delivery With New Loaders and Fake Update Lures",
-    "link": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Rokarolla Android Malware Steals PINs, SMS Codes, and Crypto Wallet Funds",
-    "link": "https://thehackernews.com/2026/06/new-rokarolla-android-malware-steals.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
-    "link": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-    "link": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-    "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "link": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
-    "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft Defender email security benchmarking: Key insights from one year of data",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/15/microsoft-defender-email-security-benchmarking-key-insights-from-one-year-of-data/",
     "date": "2026-06-15",
     "month": "2026-06"
   },
@@ -823,13 +830,6 @@
     "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
     "link": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
     "date": "2026-05-27",
-    "month": "2026-05"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing Claude Compliance API support with Cloudflare CASB",
-    "link": "https://blog.cloudflare.com/casb-anthropic-integration/",
-    "date": "2026-05-21",
     "month": "2026-05"
   },
   {
