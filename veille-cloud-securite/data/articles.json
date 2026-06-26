@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
+    "link": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russia Used Cellebrite on Jailed Activist's iPhone Months After Sales Cutoff",
+    "link": "https://thehackernews.com/2026/06/russia-used-cellebrite-on-jailed.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Details Turla's New STOCKSTAY Backdoor Used in Ukraine Espionage Attacks",
+    "link": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (25 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0802/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (25 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0801/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (25 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0799/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans CPython (25 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0800/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we built saga rollbacks for Cloudflare Workflows",
+    "link": "https://blog.cloudflare.com/rollbacks-for-workflows/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chrome Ad Blocker with 10M+ Installs Found with Dormant Script Injection Capability",
+    "link": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay Bulletin: Smart TV Proxyware, 24-Year curl Bug, AI Crime Forums + 13 More Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-smart-tv-proxyware.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Surviving the Mythos Era: Richard Bejtlich on the Case for NDR",
+    "link": "https://thehackernews.com/2026/06/surviving-mythos-era-richard-bejtlich.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Gaslight macOS Malware Uses Prompt Injection to Disrupt AI-Assisted Analysis",
+    "link": "https://thehackernews.com/2026/06/new-gaslight-macos-malware-uses-prompt.html",
+    "date": "2026-06-25",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New Mistic Backdoor Linked to KongTuke in ClickFix and ModeloRAT Campaigns",
     "link": "https://thehackernews.com/2026/06/new-mistic-backdoor-linked-to-kongtuke.html",
     "date": "2026-06-25",
@@ -113,7 +211,7 @@
   },
   {
     "source": "Cloudflare",
-    "title": "The post-quantum EO is an important milestone. Now it’s time to get to work",
+    "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
     "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
     "date": "2026-06-23",
     "month": "2026-06"
@@ -603,20 +701,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Qnap (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0762/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0761/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle PeopleSoft (17 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0766/",
     "date": "2026-06-17",
@@ -645,20 +729,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0764/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Moxa (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0763/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Weblogic (17 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0769/",
     "date": "2026-06-17",
@@ -682,69 +752,6 @@
     "source": "Microsoft Security",
     "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Beyond the benchmark: Advancing security at AI speed",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "​​Forrester names Microsoft a Leader in the 2026 Extended Detection and Response Platforms Wave™ report",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/forrester-names-microsoft-a-leader-in-the-2026-extended-detection-and-response-platforms-wave-report/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Crypto Clipper Campaign Abuses Fake Reviews, AI Narrators, and VirusTotal Comments",
-    "link": "https://thehackernews.com/2026/06/crypto-clipper-campaign-abuses-fake.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Confirms RoguePlanet Defender Zero-Day, Says Patch is in Development",
-    "link": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Junior Hacker Used Tailscale and OpenSSH to Keep Access After His C2 Went Offline",
-    "link": "https://thehackernews.com/2026/06/junior-hacker-used-tailscale-and.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adversarial Exposure Validation Turns Security Visibility into Confident Prioritization",
-    "link": "https://thehackernews.com/2026/06/adversarial-exposure-validation-turns.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
-    "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Top 10 Attack Surface Exposures in 2026",
-    "link": "https://thehackernews.com/2026/06/the-top-10-attack-surface-exposures-in.html",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "145 Mastra npm Packages Compromised via Hijacked Contributor Account",
-    "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
     "date": "2026-06-17",
     "month": "2026-06"
   },
@@ -823,13 +830,6 @@
     "title": "How we built Cloudflare's data platform and an AI agent on top of it",
     "link": "https://blog.cloudflare.com/our-unified-data-platform/",
     "date": "2026-05-28",
-    "month": "2026-05"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Iran's Internet is partially restored, Cloudflare Radar data shows",
-    "link": "https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/",
-    "date": "2026-05-27",
     "month": "2026-05"
   },
   {
