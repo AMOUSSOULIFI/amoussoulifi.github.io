@@ -1,5 +1,124 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0809/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0810/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0807/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Nessus (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0804/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0808/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Asterisk (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0805/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0803/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (26 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0806/",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
+    "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
+    "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
+    "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
+    "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
+    "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Exploited PTC Windchill RCE Flaw to KEV as Web Shell Attacks Continue",
+    "link": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New DirtyClone Linux Kernel Flaw Lets Local Users Gain Root via Cloned Packets",
+    "link": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Guardian Agents: The Next Layer of Identity Governance",
+    "link": "https://thehackernews.com/2026/06/guardian-agents-next-layer-of-identity.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Miasma Malware Targets npm Packages and GitHub Actions in Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html",
+    "date": "2026-06-26",
+    "month": "2026-06"
+  },
+  {
     "source": "The Hacker News",
     "title": "Microsoft Warns of Photo ZIP Phishing Campaign Targeting Hotels with Node.js Implant",
     "link": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html",
@@ -546,20 +665,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Salesforce Disables Klue App Integration After OAuth Token Abuse Exposes Customer Data",
-    "link": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Patches Beats Studio Buds Flaw Letting Nearby Attackers Spy via Microphone",
-    "link": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
@@ -570,27 +675,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans Synacor Zimbra Collaboration (18 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0776/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0772/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Drupal (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0771/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mitel (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0770/",
     "date": "2026-06-18",
     "month": "2026-06"
   },
@@ -648,90 +732,6 @@
     "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
     "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "F5 Patches Two Critical NGINX Open Source Flaws Enabling Remote Code Execution",
-    "link": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
-    "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
-    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Details Windows Clipper Malware Campaign Using USB LNK Worm and Tor-Based C2",
-    "link": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INC Ransomware Emerges as Major RaaS Threat in 2026 with 830+ Victims Since 2023",
-    "link": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Scripts on Your Checkout Page Are Now a PCI DSS Problem",
-    "link": "https://thehackernews.com/2026/06/the-scripts-on-your-checkout-page-are.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DragonForce Hackers Abuse Microsoft Teams Relays to Hide Backdoor.Turn C2 Traffic",
-    "link": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0766/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0765/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0767/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0768/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (17 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0769/",
-    "date": "2026-06-17",
     "month": "2026-06"
   },
   {
