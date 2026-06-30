@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
+    "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
+    "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+    "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans HAProxy (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0814/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0813/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans KeyCloak (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0815/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0812/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0811/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Stormshield Management Center (29 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0816/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Chromium extension uses AI‑related branding to redirect browser search",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+    "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+    "link": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
+    "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
+    "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Why Post-Quantum Cryptography Starts With Credentials",
     "link": "https://thehackernews.com/2026/06/why-post-quantum-cryptography-starts.html",
     "date": "2026-06-29",
@@ -518,69 +637,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
-    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New OXLOADER Loader Uses Malicious Google Ads to Deliver CastleStealer",
-    "link": "https://thehackernews.com/2026/06/new-oxloader-loader-uses-malicious.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Sets Sept. 30 Deadline for Android Developer Verification in Four Countries",
-    "link": "https://thehackernews.com/2026/06/google-sets-sept-30-deadline-for.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
-    "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Browser Bugs, EDR Killers, TV Botnet, OpenBSD Flaw, Android Trojan, and More",
-    "link": "https://thehackernews.com/2026/06/weekly-recap-browser-bugs-edr-killers.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Canada’s Spy Agency Used First-of-Its-Kind Warrant to Clean Botnet-Infected Devices",
-    "link": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AryStinger Malware Infects 4,300 Legacy Routers to Build Reconnaissance Proxy Network",
-    "link": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
-    "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Gravity SMTP WordPress Plugin Bug to Expose API Keys",
-    "link": "https://thehackernews.com/2026/06/hackers-exploit-gravity-smtp-wordpress.html",
-    "date": "2026-06-20",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (19 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0788/",
@@ -665,48 +721,6 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Synacor Zimbra Collaboration (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0776/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Splunk AI Toolkit (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0774/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Nginx (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0775/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Atlassian (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0773/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Android 17 (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0778/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Build your own vulnerability harness",
     "link": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
@@ -745,13 +759,6 @@
     "source": "Cloudflare",
     "title": "Introducing the Cloudflare One stack: agent-powered deployment",
     "link": "https://blog.cloudflare.com/cloudflare-one-stack/",
-    "date": "2026-06-17",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Crypto Clipper uses Tor and worm-like propagation for persistence and control",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/crypto-clipper-uses-tor-worm-like-propagation-for-persistence-control/",
     "date": "2026-06-17",
     "month": "2026-06"
   },
@@ -831,12 +838,5 @@
     "link": "https://blog.cloudflare.com/our-unified-data-platform/",
     "date": "2026-05-28",
     "month": "2026-05"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Note d’alerte – Ciblage des messageries instantanées (20 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-003/",
-    "date": "2026-03-20",
-    "month": "2026-03"
   }
 ]
