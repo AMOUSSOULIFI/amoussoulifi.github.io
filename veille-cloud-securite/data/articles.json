@@ -1,6 +1,146 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+    "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+    "date": "2026-07-01",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
+    "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
+    "date": "2026-07-01",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
+    "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
+    "date": "2026-07-01",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
+    "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
+    "date": "2026-07-01",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
+    "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
+    "date": "2026-07-01",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache Tomcat (30 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0817/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (30 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0818/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology MailPlus Server (30 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0819/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Accelerating the quantum-safe timeline",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "​​What’s new in Microsoft Security: June 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/whats-new-in-microsoft-security-june-2026/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Securing AI agents: When AI tools move from reading to acting",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+    "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
+    "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+    "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
+    "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+    "link": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
+    "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
+    "link": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
+    "link": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
+    "link": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
+    "date": "2026-06-30",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
     "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
     "date": "2026-06-30",
@@ -10,13 +150,6 @@
     "source": "The Hacker News",
     "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
     "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
-    "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
     "date": "2026-06-30",
     "month": "2026-06"
   },
@@ -85,6 +218,13 @@
   },
   {
     "source": "The Hacker News",
+    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
+    "link": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "date": "2026-06-29",
+    "month": "2026-06"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
     "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
     "date": "2026-06-29",
@@ -92,8 +232,8 @@
   },
   {
     "source": "The Hacker News",
-    "title": "WhatsApp is Finally Getting Usernames to Help Keep Phone Numbers Private",
-    "link": "https://thehackernews.com/2026/06/whatsapp-is-finally-getting-usernames.html",
+    "title": "Apple Patches 30+ iOS, macOS, Safari Flaws, Including AI-Discovered WebKit Bugs",
+    "link": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html",
     "date": "2026-06-29",
     "month": "2026-06"
   },
@@ -455,34 +595,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cordyceps CI/CD Flaws Expose 300+ GitHub Repositories to Supply-Chain Attacks",
-    "link": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-expose-300-github.html",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Dawn of the Apex Agentic Adversary",
-    "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DoJ Seizes Huione Cloud Account Tied to Cyber Scam Money Laundering",
-    "link": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account-tied-to.html",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Unified CM Flaw Exploited After PoC Reveals File-Write Path to Root",
-    "link": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited-after.html",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Moodle (23 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0794/",
@@ -500,62 +612,6 @@
     "source": "Cloudflare",
     "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
     "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FortiBleed Targeted FortiGate Firewalls in 110 Million-Credential Harvesting Operation",
-    "link": "https://thehackernews.com/2026/06/fortibleed-targeted-fortigate-firewalls.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
-    "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trump Order Sets 2030 Deadline for Federal Post-Quantum Crypto Migration",
-    "link": "https://thehackernews.com/2026/06/trump-order-sets-2030-deadline-for.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitHub Updates actions/checkout to Block Common Pwn Request Attack Patterns",
-    "link": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
-    "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Packages Pose as PostCSS Tools to Deliver Windows RAT",
-    "link": "https://thehackernews.com/2026/06/malicious-npm-packages-pose-as-postcss.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WhatsApp VBScript Campaign Uses Fake Documents to Install ManageEngine RMM Tool",
-    "link": "https://thehackernews.com/2026/06/whatsapp-vbscript-campaign-uses-fake.html",
-    "date": "2026-06-23",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Expands Daybreak With GPT-5.5-Cyber to Help Defenders Patch Security Flaws",
-    "link": "https://thehackernews.com/2026/06/openai-expands-daybreak-with-gpt-55.html",
     "date": "2026-06-23",
     "month": "2026-06"
   },
@@ -623,20 +679,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "ShapedPlugin WordPress Pro Plugins Backdoored in Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/06/shapedplugin-wordpress-pro-plugins.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "29-Year-Old Squid Proxy Bug 'Squidbleed' Can Leak Cleartext HTTP Requests",
-    "link": "https://thehackernews.com/2026/06/29-year-old-squid-proxy-bug-squidbleed.html",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (19 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0788/",
@@ -673,20 +715,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Apereo CAS (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0780/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0781/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Node.js (19 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0786/",
     "date": "2026-06-19",
@@ -700,23 +728,9 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Pixel (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0779/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Temporary Cloudflare Accounts for AI agents",
     "link": "https://blog.cloudflare.com/temporary-accounts/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "AutoJack: How a single page can RCE the host running your AI agent",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/autojack-single-page-rce-host-running-ai-agent/",
     "date": "2026-06-19",
     "month": "2026-06"
   },
@@ -731,20 +745,6 @@
     "source": "Cloudflare",
     "title": "Celebrating 12 years of Project Galileo",
     "link": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "New Forrester Total Economic Impact™ study projects a 124% ROI from unifying with Microsoft Security",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/18/new-forrester-study-shows-customers-who-unified-with-microsoft-security-benefited-from-124-roi/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "From package to postinstall payload: Inside the Mastra npm supply chain compromise by Sapphire Sleet",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/postinstall-payload-inside-mastra-npm-supply-chain-compromise/",
     "date": "2026-06-18",
     "month": "2026-06"
   },
