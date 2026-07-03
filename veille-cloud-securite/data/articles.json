@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
+    "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
+    "date": "2026-07-03",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0827/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0828/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans ClamAV (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0824/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0825/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0826/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0823/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (02 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0829/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Improving security posture across the Microsoft partner ecosystem",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
+    "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
+    "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
+    "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
+    "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
+    "date": "2026-07-02",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
     "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
     "date": "2026-07-02",
@@ -469,13 +567,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "OpenAI Previews GPT-5.6 Sol With Restricted Access and Stronger Cyber Safeguards",
-    "link": "https://thehackernews.com/2026/06/openai-limits-gpt-56-rollout-as-sol.html",
-    "date": "2026-06-27",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (26 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0809/",
@@ -528,41 +619,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (26 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0806/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI Warns Russian Intelligence Hackers Target Signal Backup Recovery Keys",
-    "link": "https://thehackernews.com/2026/06/fbi-warns-russian-intelligence-hackers.html",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New SharkLoader Malware Deploys Cobalt Strike in StrikeShark Cyberattacks",
-    "link": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chinese-Speaking APT Deploys New TinyRCT Backdoor in Southeast Asia Campaign",
-    "link": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Linux pedit COW Exploit Enables Root Access by Poisoning Cached Binaries",
-    "link": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Amazon Q Developer Flaw Could Let Malicious Repos Run Code via MCP Configs",
-    "link": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
     "date": "2026-06-26",
     "month": "2026-06"
   },
@@ -680,13 +736,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-027 (22 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-027/",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (22 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0792/",
     "date": "2026-06-22",
@@ -707,59 +756,10 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans PaperCut Print Deploy Client (22 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0789/",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython pour Windows (22 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0790/",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we found a bug in the hyper HTTP library",
     "link": "https://blog.cloudflare.com/hyper-bug/",
     "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Guarding AI memory",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
-    "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0788/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0787/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Node.js (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0786/",
-    "date": "2026-06-19",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (19 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0785/",
-    "date": "2026-06-19",
     "month": "2026-06"
   },
   {
