@@ -1,5 +1,19 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
+    "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
+    "date": "2026-07-04",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
+    "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
+    "date": "2026-07-04",
+    "month": "2026-07"
+  },
+  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans FreeBSD (03 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0830/",
@@ -584,20 +598,6 @@
     "source": "The Hacker News",
     "title": "Mustang Panda Uses Zoho WorkDrive as Command Channel in Indian Government Attacks",
     "link": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Linux Kernel Flaws, AI Malware Tricks, Turla Backdoor, Infostealers and More",
-    "link": "https://thehackernews.com/2026/06/weekly-recap-linux-kernel-flaws-ai.html",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "236,000 DCloud Uni-App Sites Used in Crypto Scams, Phishing, and Wallet Drainers",
-    "link": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html",
     "date": "2026-06-29",
     "month": "2026-06"
   },
