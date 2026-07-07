@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
+    "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
+    "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BeyondTrust Patches Critical Auth Bypass Flaws in Remote Support and PRA",
+    "link": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-029 (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-029/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans PostgreSQL JDBC (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0837/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0835/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSH (06 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0836/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Your Worker can now have its own cache in front of it",
+    "link": "https://blog.cloudflare.com/workers-cache/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iran-Linked Hackers Use New Cavern C2 Framework to Target Israeli Organizations",
+    "link": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "16-Year-Old Linux KVM Flaw Lets Guest VMs Escape to Host on Intel and AMD x86 Systems",
+    "link": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Threat Actors Probe Gitea Docker Flaw CVE-2026-20896 13 Days After Disclosure",
+    "link": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+    "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
+    "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
+    "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
+    "date": "2026-07-06",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
     "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
     "date": "2026-07-06",
@@ -483,69 +588,6 @@
     "month": "2026-06"
   },
   {
-    "source": "The Hacker News",
-    "title": "Silent Swap Crypto Clipper Uses Fake Google Notes Extension to Replace Wallet Addresses",
-    "link": "https://thehackernews.com/2026/06/silent-swap-crypto-clipper-uses-fake.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
-    "link": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "282 iOS AI Apps Leak API Keys and Open AI Proxy Access in Network Traffic Study",
-    "link": "https://thehackernews.com/2026/06/282-ios-apps-found-leaking-llm-api-keys.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What the Numbers Say About FIFA 2026 Cyber Risk",
-    "link": "https://thehackernews.com/2026/06/what-numbers-say-about-fifa-2026-cyber.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit SimpleHelp CVE-2026-48558 to Deploy TaskWeaver and Djinn Stealer",
-    "link": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AirDrop and Quick Share Flaws Let Nearby Attackers Trigger Crashes and Bypass Checks",
-    "link": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New BioShocking Attack Tricks AI Browsers Into Leaking User Credentials",
-    "link": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Progress Kemp LoadMaster Flaw Could Let Attackers Run Root Commands Pre-Auth",
-    "link": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Oracle E-Business Suite Flaw CVE-2026-46817 Actively Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
@@ -673,13 +715,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (25 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0799/",
-    "date": "2026-06-25",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans CPython (25 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0800/",
     "date": "2026-06-25",
@@ -707,27 +742,6 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans cURL et libcurl (24 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0797/",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (24 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0796/",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (24 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0798/",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
     "link": "https://blog.cloudflare.com/oauth-for-all/",
@@ -738,13 +752,6 @@
     "source": "Microsoft Security",
     "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "StealC and Amadey: Breaking down infostealers and the cybercrime services that deliver them",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/stealc-and-amadey-breaking-down-infostealers-and-the-cybercrime-services-that-deliver-them/",
     "date": "2026-06-24",
     "month": "2026-06"
   },
@@ -830,13 +837,6 @@
     "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
     "link": "https://blog.cloudflare.com/frontier-model-defense/",
     "date": "2026-06-09",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Turning Cloudflare’s threat indicators into real-time WAF rules",
-    "link": "https://blog.cloudflare.com/realtime-threat-intel-waf-rules/",
-    "date": "2026-06-08",
     "month": "2026-06"
   }
 ]
