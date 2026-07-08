@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
+    "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
+    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PHP (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0843/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0838/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Postfix (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0842/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0840/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mozilla Firefox pour iOS (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0839/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Synacor Zimbra Collaboration (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0844/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (07 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0841/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
+    "link": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
+    "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
+    "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+    "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
+    "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
+    "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
+    "date": "2026-07-07",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
     "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
     "date": "2026-07-07",
@@ -483,48 +602,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Microsoft Accelerates Post-Quantum Cryptography Shift to 2029",
-    "link": "https://thehackernews.com/2026/07/microsoft-accelerates-post-quantum.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
-    "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Restores Claude Fable 5 After U.S. Lifts Jailbreak-Linked Export Controls",
-    "link": "https://thehackernews.com/2026/07/anthropic-restores-claude-fable-5-after.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Azure CLI Password Spray Hits at Least 78 Microsoft Accounts in 81M+ Attempts",
-    "link": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researcher Analyzes 3,000 Live ClickFix Payloads, Exposing API-Driven Malware Delivery",
-    "link": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Citrix Patches Six NetScaler Flaws Allowing File Read and Denial-of-Service",
-    "link": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Apache Tomcat (30 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0817/",
@@ -563,27 +640,6 @@
     "source": "Microsoft Security",
     "title": "Securing AI agents: When AI tools move from reading to acting",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
-    "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "RustDuck Botnet Rebuilds in Rust to Hijack Routers and Servers for DDoS",
-    "link": "https://thehackernews.com/2026/06/rustduck-botnet-rebuilds-in-rust-to.html",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
-    "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
     "date": "2026-06-30",
     "month": "2026-06"
   },
@@ -666,58 +722,9 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Nessus (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0804/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (26 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0808/",
     "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Asterisk (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0805/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0803/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0806/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (25 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0802/",
-    "date": "2026-06-25",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (25 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0801/",
-    "date": "2026-06-25",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans CPython (25 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0800/",
-    "date": "2026-06-25",
     "month": "2026-06"
   },
   {
@@ -830,13 +837,6 @@
     "title": "Route public traffic to private applications with Cloudflare",
     "link": "https://blog.cloudflare.com/private-origins-dns-routing/",
     "date": "2026-06-10",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Defend against frontier cyber models: Cloudflare's architecture as customer zero",
-    "link": "https://blog.cloudflare.com/frontier-model-defense/",
-    "date": "2026-06-09",
     "month": "2026-06"
   }
 ]
