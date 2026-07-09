@@ -1,6 +1,139 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
+    "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta's New AI Image Tool Lets Others Use Your Public Instagram Photos in AI Images",
+    "link": "https://thehackernews.com/2026/07/metas-new-ai-image-tool-lets-others-use.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Top AI Agents Built to Catch Malicious Code Can Be Tricked Into Running It",
+    "link": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GhostApproval Symlink Flaws Could Let Malicious Repos Run Code in AI Coding Agents",
+    "link": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake 7-Zip Installers Turn Devices Into Residential Proxy Nodes",
+    "link": "https://thehackernews.com/2026/07/fake-7-zip-installers-turn-devices-into.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Foxit (08 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0845/",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (08 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0846/",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Joomla! (08 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0847/",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Meerkat: an experiment in global consensus",
+    "link": "https://blog.cloudflare.com/meerkat-introduction/",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers",
+    "link": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware",
+    "link": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ubiquiti Patches Critical UniFi Flaws Across Connect, Talk, Access, Protect, and OS",
+    "link": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Ghost Phishing Wave Is Breaking Traditional Email Security",
+    "link": "https://thehackernews.com/2026/07/new-ghost-phishing-wave-is-breaking.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SCMBANKER Malware Uses ClickFix Lures to Target Mexican Banking Users",
+    "link": "https://thehackernews.com/2026/07/scmbanker-malware-uses-clickfix-lures.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub 'Verified' Commits Can Be Rewritten Into New Hashes Without Breaking Signatures",
+    "link": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Verification Step Is the New ATO Battleground in 2026",
+    "link": "https://thehackernews.com/2026/07/the-verification-step-is-new-ato.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Copilot Refuses Harmful Requests in Chat, Then Writes Them in Code",
+    "link": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UAT-7810 Expands ORB Network With New LONGLEASH Malware",
+    "link": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html",
+    "date": "2026-07-08",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "15-Year-Old GhostLock Flaw Enables Root and Container Escape on Most Linux Distros",
     "link": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html",
     "date": "2026-07-08",
@@ -441,34 +574,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "AI Agent Exploits Langflow RCE to Automate Database Ransomware Attack",
-    "link": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FortiBleed Credential Theft Linked to INC and Lynx Ransomware Operations",
-    "link": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New ChocoPoC RAT Targets Vulnerability Researchers via Fake PoC Exploit Repos",
-    "link": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SharePoint RCE CVE-2026-45659 Added to CISA KEV After Active Exploitation",
-    "link": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Mozilla Firefox (01 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0820/",
@@ -528,76 +633,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft named a leader in the Frost Radar for cloud and application runtime security",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/01/microsoft-named-a-leader-in-the-frost-radar-for-cloud-and-application-runtime-security/",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Unpatched Argo CD Repo-Server Flaw Could Let Attackers Take Over Kubernetes Clusters",
-    "link": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "19-Year-Old Scattered Spider Suspect Extradited to Face U.S. Hacking Charges",
-    "link": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SEO-Poisoned Software Sites Abuse ScreenConnect to Deploy AsyncRAT",
-    "link": "https://thehackernews.com/2026/07/seo-poisoned-software-sites-abuse.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "VEIL#DROP Malware Chain Uses Blogger Platform to Deliver PureLogs Stealer",
-    "link": "https://thehackernews.com/2026/07/veildrop-malware-chain-uses-blogger.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ousaban Banking Trojan Targets Iberian Bank Users with Fake PDF Lures",
-    "link": "https://thehackernews.com/2026/07/ousaban-banking-trojan-targets-iberian.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adobe Patches 7 CVSS 10.0 Flaws in ColdFusion and Campaign Classic",
-    "link": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
-    "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Progress Kemp LoadMaster Pre-Auth RCE Flaw Faces Active Exploitation Attempts",
-    "link": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows, Linux, macOS, Android",
-    "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "2026 Cybersecurity Assessment: The Gap Between Awareness and Resilience",
-    "link": "https://thehackernews.com/2026/07/2026-cybersecurity-assessment-gap.html",
     "date": "2026-07-01",
     "month": "2026-07"
   },
@@ -701,29 +736,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0809/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (26 juin 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0810/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0807/",
-    "date": "2026-06-26",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0808/",
     "date": "2026-06-26",
     "month": "2026-06"
   },
@@ -752,13 +766,6 @@
     "source": "Cloudflare",
     "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
     "link": "https://blog.cloudflare.com/oauth-for-all/",
-    "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "CNAPP evolution: How Microsoft aligns with leading cloud risk management platforms",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/24/cnapp-evolution-how-microsoft-aligns-with-leading-cloud-risk-management-platforms/",
     "date": "2026-06-24",
     "month": "2026-06"
   },
@@ -830,13 +837,6 @@
     "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
     "link": "https://blog.cloudflare.com/scaling-security-scans/",
     "date": "2026-06-12",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Route public traffic to private applications with Cloudflare",
-    "link": "https://blog.cloudflare.com/private-origins-dns-routing/",
-    "date": "2026-06-10",
     "month": "2026-06"
   }
 ]
