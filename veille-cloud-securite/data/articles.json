@@ -1,6 +1,139 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransomware Negotiator Gets 70 Months in Prison for Aiding BlackCat Attacks",
+    "link": "https://thehackernews.com/2026/07/ransomware-negotiator-gets-70-months-in.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0852/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0853/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0854/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0851/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Wireshark (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0849/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0855/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0850/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0848/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Why we cannot wait for better post-quantum signature algorithms",
+    "link": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+    "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New GigaWiper Windows Backdoor Bundles Disk Wiping, Fake Ransomware, and Spyware",
+    "link": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "npm 12 Disables Install Scripts by Default to Reduce Supply Chain Risk",
+    "link": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Cloud Bucket Hijacking, Windows LPE Chain, Global Fraud Bust + 17 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-cloud-bucket-hijacking.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Attacks Move in Minutes. Join This Webinar on Building a Defense That Keeps Up",
+    "link": "https://thehackernews.com/2026/07/ai-attacks-move-in-minutes-join-this.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Summer of Clearinghouses",
+    "link": "https://thehackernews.com/2026/07/summer-of-clearinghouses.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GodDamn Ransomware Uses PoisonX Driver to Disable Endpoint Defenses",
+    "link": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Microsoft Patches RoguePlanet Defender Flaw That Can Grant SYSTEM Privileges",
     "link": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html",
     "date": "2026-07-09",
@@ -455,34 +588,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "North Korea-Linked npm Packages Mimic Rollup Polyfills to Steal Developer Secrets",
-    "link": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Armored Likho Targets Government Agencies, Power Sector with BusySnake Stealer",
-    "link": "https://thehackernews.com/2026/07/armored-likho-targets-government.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "European Parliament Member Investigating Spyware Was Hacked With Pegasus",
-    "link": "https://thehackernews.com/2026/07/european-parliament-member.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PamStealer Uses Fake Maccy Sites and PAM Checks to Steal Mac Login Passwords",
-    "link": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Mozilla Thunderbird (02 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0827/",
@@ -535,41 +640,6 @@
     "source": "Microsoft Security",
     "title": "Improving security posture across the Microsoft partner ecosystem",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Disrupts NetNut Residential Proxy Network Spanning 2 Million Home Devices",
-    "link": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ransomware Groups Turn to Citrix Bleed 2, BYOVD, and Supply Chain Credentials",
-    "link": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: AI Compute Hijacking, Apple Email Flaw, BlueHammer Ransomware + 14 Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ToddyCat-Linked Umbrij Malware Abuses OAuth to Access Gmail via Google API",
-    "link": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Identity Lifecycle Management Wasn't Built for AI Agents",
-    "link": "https://thehackernews.com/2026/07/identity-lifecycle-management.html",
     "date": "2026-07-02",
     "month": "2026-07"
   },
@@ -679,66 +749,10 @@
     "month": "2026-06"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-028 (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-028/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans HAProxy (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0814/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0813/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans KeyCloak (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0815/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0812/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0811/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Stormshield Management Center (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0816/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Chromium extension uses AI‑related branding to redirect browser search",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
     "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (26 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0810/",
-    "date": "2026-06-26",
     "month": "2026-06"
   },
   {
@@ -752,13 +766,6 @@
     "source": "Microsoft Security",
     "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
-    "date": "2026-06-25",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft a Leader in The Forrester Wave™ for Endpoint Management Platforms",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/microsoft-a-leader-in-the-forrester-wave-for-endpoint-management-platforms/",
     "date": "2026-06-25",
     "month": "2026-06"
   },
@@ -830,13 +837,6 @@
     "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
     "link": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
     "date": "2026-06-15",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Scaling Security Insights: how we achieved a 10x increase in global scanning capacity",
-    "link": "https://blog.cloudflare.com/scaling-security-scans/",
-    "date": "2026-06-12",
     "month": "2026-06"
   }
 ]
