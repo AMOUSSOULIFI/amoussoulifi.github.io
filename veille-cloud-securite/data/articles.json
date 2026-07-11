@@ -1,7 +1,182 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain $3.1 Million From Cryptocurrency Wallets",
+    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
+    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
+    "date": "2026-07-11",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0866/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Suricata (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0859/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans NetApp ONTAP 9 (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0857/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0861/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Siemens (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0860/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0865/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0863/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Progress MOVEit Transfer (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0856/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0864/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0858/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (10 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0862/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
+    "link": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
+    "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
+    "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Six New U-Boot Flaws Could Let Malicious Images Crash Devices or Run Code at Boot",
+    "link": "https://thehackernews.com/2026/07/six-new-u-boot-flaws-could-let.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Laser Attack Resets Tangem Wallet Passwords on Cards That Can't Be Patched",
+    "link": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+    "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New MODBEACON RAT Uses gRPC Streaming for Encrypted C2 Traffic",
+    "link": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
+    "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
+    "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Exposed Hacker Server Reveals WP-SHELLSTORM Backdooring Thousands of WordPress Sites",
+    "link": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Study of 281 Free Android VPN Apps Finds Traffic Leaks, Unencrypted Data, and Tracking",
+    "link": "https://thehackernews.com/2026/07/study-of-281-free-android-vpn-apps.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Use Fake Microsoft Entra Passkey Enrollment to Gain Microsoft 365 Access",
+    "link": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html",
+    "date": "2026-07-10",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit 'Ill Bloom' Vulnerability to Drain Over $5 Million From Cryptocurrency Wallets",
     "link": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html",
     "date": "2026-07-10",
     "month": "2026-07"
@@ -469,69 +644,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
-    "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How to Evaluate an AI SOC Platform in 2026: 6 Capabilities That Separate Leaders from Bolt-On AI solutions",
-    "link": "https://thehackernews.com/2026/07/how-to-evaluate-ai-soc-platform-in-2026.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected China-Nexus Hackers Use Fake Indian Tax Filing Utility to Deploy DcRAT",
-    "link": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New TrojPix Attack Leaks Data From Air-Gapped Systems via Video Cable Emissions",
-    "link": "https://thehackernews.com/2026/07/new-trojpix-attack-leaks-data-from-air.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Java-Based QuimaRAT MaaS Built to Run on Windows, Linux, and macOS",
-    "link": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Opera GX Flaw Let Malicious Sites Auto-Install Mods to Steal Data From Visited Pages",
-    "link": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
-    "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Government Entity Paid Kairos $1 Million in Data-Theft Extortion Case",
-    "link": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html",
-    "date": "2026-07-04",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Hackers Publish 108 Malicious Packages and Extensions in PolinRider Campaign",
-    "link": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html",
-    "date": "2026-07-04",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans FreeBSD (03 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0830/",
@@ -567,65 +679,9 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Unpatched Flaws Disclosed in Filesystem Bundled Into Millions of Embedded Devices",
-    "link": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New \"Bad Epoll\" Linux Kernel Flaw Lets Unprivileged Users Gain Root, Hits Android",
-    "link": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Avalon Malware Framework Packs CrownX Ransomware Capabilities",
-    "link": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (02 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0827/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans CPython (02 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0828/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans ClamAV (02 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0824/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (02 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0825/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (02 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0826/",
-    "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (02 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0823/",
     "date": "2026-07-02",
     "month": "2026-07"
   },
@@ -641,27 +697,6 @@
     "title": "Improving security posture across the Microsoft partner ecosystem",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/02/improving-security-posture-across-the-microsoft-partner-ecosystem/",
     "date": "2026-07-02",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mozilla Firefox (01 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0820/",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Citrix (01 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0822/",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Adobe ColdFusion (01 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0821/",
-    "date": "2026-07-01",
     "month": "2026-07"
   },
   {
@@ -707,27 +742,6 @@
     "month": "2026-07"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (30 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0817/",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (30 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0818/",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synology MailPlus Server (30 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0819/",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Accelerating the quantum-safe timeline",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/microsoft-advances-quantum-safe-security-as-the-risk-timeline-shifts/",
@@ -759,13 +773,6 @@
     "source": "Cloudflare",
     "title": "How we built saga rollbacks for Cloudflare Workflows",
     "link": "https://blog.cloudflare.com/rollbacks-for-workflows/",
-    "date": "2026-06-25",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Photo ZIP campaign targeting hospitality industry delivers Node.js implant for persistent access",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/25/photo-zip-campaign-targeting-hospitality-industry-delivers-node-js-implant-persistent-access/",
     "date": "2026-06-25",
     "month": "2026-06"
   },
@@ -830,13 +837,6 @@
     "title": "Cloudflare DMARC Management is now generally available",
     "link": "https://blog.cloudflare.com/dmarc-management-ga/",
     "date": "2026-06-16",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Growing the Cloudflare AI team with talent from Ensemble AI",
-    "link": "https://blog.cloudflare.com/ensemble-ai-talent-joins-cloudflare/",
-    "date": "2026-06-15",
     "month": "2026-06"
   }
 ]
