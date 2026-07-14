@@ -1,5 +1,26 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
+    "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
+    "date": "2026-07-14",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
+    "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
+    "date": "2026-07-14",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
+    "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+    "date": "2026-07-14",
+    "month": "2026-07"
+  },
+  {
     "source": "ANSSI",
     "title": "Ciblage et compromission d’entités françaises au moyen du mode opératoire d’attaque Turla (13 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-004/",
@@ -10,6 +31,90 @@
     "source": "ANSSI",
     "title": "Targeting and Compromise of French Entities Using the Turla Intrusion Set (13 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-005/",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-030 (13 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-030/",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
+    "link": "https://blog.cloudflare.com/introducing-precursor/",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Defending SaaS-based applications against ShinyHunters OAuth abuse",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
+    "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
+    "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
+    "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
+    "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
+    "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
+    "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
+    "date": "2026-07-13",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
+    "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
     "date": "2026-07-13",
     "month": "2026-07"
   },
@@ -185,13 +290,6 @@
     "source": "The Hacker News",
     "title": "Unpatched XRING Flaw in XQUIC Lets Remote Clients Crash HTTP/3 Servers",
     "link": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "From 17,000 to 1.1 Million Assets: How Lumen Technologies Rebuilt Exposure Management at Scale",
-    "link": "https://thehackernews.com/2026/07/from-17000-to-11-million-assets-how.html",
     "date": "2026-07-10",
     "month": "2026-07"
   },
@@ -490,13 +588,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Adds 4 Actively Exploited Adobe, Joomla, and Langflow Flaws to KEV",
-    "link": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html",
-    "date": "2026-07-08",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans PHP (07 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0843/",
@@ -553,69 +644,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "RedWing MaaS Packages Android Bank Fraud as a Telegram Rental Service",
-    "link": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
-    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DEBULL Tooling Abuses Microsoft Device-Code Flow to Target M365 Accounts",
-    "link": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
-    "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Court Filing Reveals Windows Device ID Helped FBI Trace Alleged Scattered Spider Hacker",
-    "link": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
-    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What Changes When Your Software Supply Chain Includes AI Writing Your Code?",
-    "link": "https://thehackernews.com/2026/07/what-changes-when-your-software-supply.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected China-Aligned Hackers Exploit Roundcube Flaws Against Universities",
-    "link": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CERT/CC Warns of Hidden Admin Backdoor in Tenda Router Firmware",
-    "link": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html",
-    "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-029 (06 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-029/",
@@ -659,13 +687,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans FreeBSD (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0830/",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (03 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0832/",
     "date": "2026-07-03",
@@ -682,13 +703,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (03 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0834/",
-    "date": "2026-07-03",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (03 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0831/",
     "date": "2026-07-03",
     "month": "2026-07"
   },
@@ -756,20 +770,6 @@
     "month": "2026-06"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Securing AI agents: When AI tools move from reading to acting",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
-    "date": "2026-06-30",
-    "month": "2026-06"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Chromium extension uses AI‑related branding to redirect browser search",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/29/chromium-extension-uses-airelated-branding-redirect-browser-search/",
-    "date": "2026-06-29",
-    "month": "2026-06"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we built saga rollbacks for Cloudflare Workflows",
     "link": "https://blog.cloudflare.com/rollbacks-for-workflows/",
@@ -833,10 +833,10 @@
     "month": "2026-06"
   },
   {
-    "source": "Cloudflare",
-    "title": "Cloudflare DMARC Management is now generally available",
-    "link": "https://blog.cloudflare.com/dmarc-management-ga/",
-    "date": "2026-06-16",
-    "month": "2026-06"
+    "source": "ANSSI",
+    "title": "[Màj] Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
+    "date": "2026-05-15",
+    "month": "2026-05"
   }
 ]
