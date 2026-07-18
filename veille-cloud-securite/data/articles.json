@@ -1,5 +1,145 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0900/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Windows (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0895/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0898/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0901/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0899/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0896/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (17 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0897/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
+    "link": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New wp2shell WordPress Core Flaw Lets Unauthenticated Attackers Run Code",
+    "link": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenSSL HollowByte Flaw Could Freeze Server Memory with 11-Byte TLS Requests",
+    "link": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
+    "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
+    "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
+    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
+    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
+    "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
+    "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
+    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
+    "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
+    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
+    "date": "2026-07-17",
+    "month": "2026-07"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
     "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
@@ -484,13 +624,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Ciblage et compromission d’entités françaises au moyen du mode opératoire d’attaque Turla (13 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-004/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Targeting and Compromise of French Entities Using the Turla Intrusion Set (13 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-005/",
     "date": "2026-07-13",
@@ -553,111 +686,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Forg365 PhaaS Targets Microsoft 365 with Device Code and AitM Session Theft",
-    "link": "https://thehackernews.com/2026/07/forg365-phaas-targets-microsoft-365.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Meta Files Patent for AI That Can Listen All Day and Track How You're Feeling",
-    "link": "https://thehackernews.com/2026/07/meta-files-patent-for-ai-that-can.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Thinking Fast and Slow in the SOC: The Case for Combining Autonomous AI with Analyst Copilots",
-    "link": "https://thehackernews.com/2026/07/thinking-fast-and-slow-in-soc-case-for.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory",
-    "link": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Misconfigured Server Reveals Three Evilginx Phishing Operations Targeting Microsoft 365",
-    "link": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "iCagenda and Balbooa Forms Joomla Flaws Reportedly Exploited as Zero-Days",
-    "link": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Compromised jscrambler 8.14.0 npm Release Drops Rust Infostealer During Install",
-    "link": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html",
-    "date": "2026-07-11",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Weaponize Balochistan Police Portal in Multi-Group Espionage Campaigns",
-    "link": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html",
-    "date": "2026-07-11",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Zimbra Flaw Could Let Crafted Emails Run Malicious Code in User Sessions",
-    "link": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html",
-    "date": "2026-07-11",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0866/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0861/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0865/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0863/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0864/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (10 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0862/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "link": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
@@ -668,20 +696,6 @@
     "source": "Microsoft Security",
     "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "URGENT - Progress Tells ShareFile Customers to Shut Down Storage Zone Controllers Over Security Threat",
-    "link": "https://thehackernews.com/2026/07/urgent-progress-tells-sharefile.html",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Injective Labs GitHub Compromise Pushes Wallet-Key-Stealing npm Packages",
-    "link": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html",
     "date": "2026-07-10",
     "month": "2026-07"
   },
@@ -724,13 +738,6 @@
     "source": "Cloudflare",
     "title": "Your Worker can now have its own cache in front of it",
     "link": "https://blog.cloudflare.com/workers-cache/",
-    "date": "2026-07-06",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "5 insights from Frost & Sullivan’s 2025 Frost Radar™ for Cloud Security Posture Management",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/06/5-insights-from-frost-sullivans-2025-frost-radar-for-cloud-security-posture-management/",
     "date": "2026-07-06",
     "month": "2026-07"
   },
@@ -823,13 +830,6 @@
     "title": "Celebrating 12 years of Project Galileo",
     "link": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
     "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Bringing more agent harnesses and frameworks to Cloudflare, starting with Flue",
-    "link": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
-    "date": "2026-06-17",
     "month": "2026-06"
   },
   {
