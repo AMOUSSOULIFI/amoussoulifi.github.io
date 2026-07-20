@@ -1,6 +1,76 @@
 [
   {
     "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-031 (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-031/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0902/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0904/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0903/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "World's Largest AI Model Repository Hugging Face Breached by Autonomous AI Agent",
+    "link": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SleeperGem Uses Three Malicious RubyGems Packages to Target Developer Machines",
+    "link": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution",
+    "link": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html",
+    "date": "2026-07-19",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware",
+    "link": "https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html",
+    "date": "2026-07-19",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access",
+    "link": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html",
+    "date": "2026-07-19",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0900/",
     "date": "2026-07-17",
@@ -386,13 +456,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Office (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0868/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Veeam Backup & Replication (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0878/",
     "date": "2026-07-15",
@@ -402,13 +465,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits SAP (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0877/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0867/",
     "date": "2026-07-15",
     "month": "2026-07"
   },
@@ -616,27 +672,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Microsoft Maps Three Salesforce Attack Paths Tied to a Year of ShinyHunters Activity",
-    "link": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Targeting and Compromise of French Entities Using the Turla Intrusion Set (13 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-005/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-030 (13 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-030/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
     "link": "https://blog.cloudflare.com/introducing-precursor/",
@@ -654,34 +689,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CrashStealer macOS Malware Uses Notarized Dropper to Pass Gatekeeper Checks",
-    "link": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google and Microsoft Pull ModHeader With 1.6 Million Installs After Dormant Collector Found",
-    "link": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: ShareFile Threat, Citrix Bleed 2 Ransomware, AI Coding Attacks, and More",
-    "link": "https://thehackernews.com/2026/07/weekly-recap-sharefile-threat-citrix.html",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email",
-    "link": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html",
     "date": "2026-07-13",
     "month": "2026-07"
   },
@@ -831,12 +838,5 @@
     "link": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
     "date": "2026-06-18",
     "month": "2026-06"
-  },
-  {
-    "source": "ANSSI",
-    "title": "[Màj] Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-005/",
-    "date": "2026-05-15",
-    "month": "2026-05"
   }
 ]
