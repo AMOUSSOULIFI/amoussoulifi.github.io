@@ -1,5 +1,26 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
+    "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
+    "date": "2026-07-21",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
+    "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
+    "date": "2026-07-21",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
+    "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
+    "date": "2026-07-21",
+    "month": "2026-07"
+  },
+  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-031 (20 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-031/",
@@ -31,6 +52,69 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare Internal DNS is now generally available",
+    "link": "https://blog.cloudflare.com/internal-dns/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
+    "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
+    "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "HollowGraph Malware Hides C2 and Stolen Files in Microsoft 365 Events Dated 2050",
+    "link": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: WordPress RCE, SonicWall 0-Days, AI Service Attacks, SharePoint 0-Day and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-wordpress-rce-sonicwall-0.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian Intelligence Hacks IP Cameras to Spy on Military Logistics Across NATO States and Ukraine",
+    "link": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+    "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New 7-Zip Vulnerability Could Let Crafted XZ Archives Run Code During Extraction",
+    "link": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
     "date": "2026-07-20",
     "month": "2026-07"
   },
@@ -595,83 +679,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "SAP Patches CVSS 9.9 NetWeaver ABAP Flaw That Could Expose or Modify Data",
-    "link": "https://thehackernews.com/2026/07/sap-patches-cvss-99-netweaver-abap-flaw.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Say Claude for Chrome Flaw Lets Rogue Extensions Trigger Gmail Reads",
-    "link": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LabubaRAT Masquerades as NVIDIA Software to Control Windows Hosts",
-    "link": "https://thehackernews.com/2026/07/labubarat-masquerades-as-nvidia.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "RabbitMQ Flaws Could Leak OAuth Secrets and Expose Cross-Tenant Queue Metadata",
-    "link": "https://thehackernews.com/2026/07/rabbitmq-flaws-could-leak-oauth-secrets.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "11 Old Microsoft-Signed Linux UEFI Shims Could Let Attackers Bypass Secure Boot",
-    "link": "https://thehackernews.com/2026/07/11-old-microsoft-signed-linux-uefi.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Study of 85 Crypto Wallet Extensions Finds Address Leaks and Cross-Site Tracking Risks",
-    "link": "https://thehackernews.com/2026/07/study-of-85-crypto-wallet-extensions.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How Pentera Turns AI Security Workflows into Validation Engines",
-    "link": "https://thehackernews.com/2026/07/how-pentera-turns-ai-security-workflows.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OAuth Client ID Spoofing Lets Attackers Validate Stolen Microsoft Entra Credentials",
-    "link": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Grok Build Uploaded Entire Git Repositories to xAI Storage, Not Just Files It Read",
-    "link": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Sanctions First VPN Service and Malware Cryptor Seller Over Ransomware Support",
-    "link": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "148 npm Packages Disguised as Student Proxies Turned Browsers Into a DDoS Botnet",
-    "link": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
     "link": "https://blog.cloudflare.com/introducing-precursor/",
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "Build your own vulnerability harness",
     "link": "https://blog.cloudflare.com/build-your-own-vulnerability-harness/",
-    "date": "2026-06-18",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Celebrating 12 years of Project Galileo",
-    "link": "https://blog.cloudflare.com/celebrating-12-years-of-project-galileo/",
     "date": "2026-06-18",
     "month": "2026-06"
   }
