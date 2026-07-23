@@ -1,6 +1,111 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
+    "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0909/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0907/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0908/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0910/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0906/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
+    "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
+    "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
+    "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Fastest Path to AI Adoption Runs Through Security",
+    "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
+    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Why Modern SOCs Need Multi-Layered Detections",
+    "link": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
+    "date": "2026-07-22",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
     "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
     "date": "2026-07-22",
@@ -17,13 +122,6 @@
     "source": "The Hacker News",
     "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
     "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
     "date": "2026-07-22",
     "month": "2026-07"
   },
@@ -490,65 +588,9 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
-    "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New TELEPUZ Malware Spreads via ClickFix to Steal Data and Run Commands",
-    "link": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New ClickLock macOS Stealer Kills Apps Every 210ms Until Victims Type Their Password",
-    "link": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "20+ Hijacked Government Websites Became an Attack Channel",
-    "link": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Agent Data Injection Attack Can Make AI Agents Misclick or Run Attacker Commands",
-    "link": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Daxin Resurfaces in Taiwan Alongside Stupig Pre-Login SYSTEM Backdoor",
-    "link": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI Can Find Bugs, But Human Knowledge Still Proves Them",
-    "link": "https://thehackernews.com/2026/07/ai-can-find-bugs-but-human-knowledge.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Progress LoadMaster (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0883/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0872/",
     "date": "2026-07-15",
     "month": "2026-07"
   },
@@ -563,34 +605,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Apache Tomcat (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0876/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0871/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0874/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access 1000 (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0875/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure Linux (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0873/",
     "date": "2026-07-15",
     "month": "2026-07"
   },
@@ -735,13 +749,6 @@
     "month": "2026-07"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Protecting Microsoft at AI speed: How SFI proactively hardens our cloud",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/",
-    "date": "2026-07-08",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
     "link": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
@@ -796,13 +803,6 @@
     "link": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
     "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (29 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0813/",
-    "date": "2026-06-29",
-    "month": "2026-06"
   },
   {
     "source": "Cloudflare",
