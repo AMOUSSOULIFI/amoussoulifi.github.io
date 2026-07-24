@@ -1,6 +1,181 @@
 [
   {
     "source": "The Hacker News",
+    "title": "NodeBB Patches Eight AI-Found Flaws Exposing Admin Access and Private Chats",
+    "link": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html",
+    "date": "2026-07-24",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+    "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+    "date": "2026-07-24",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Notepad++ Plugin Delivers MATCHBOIL.V2 in UAC-0099 Attacks",
+    "link": "https://thehackernews.com/2026/07/fake-notepad-plugin-delivers.html",
+    "date": "2026-07-24",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0917/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0913/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Check Point (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0912/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Systems (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0918/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Weblogic (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0920/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mitel (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0911/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Java SE (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0915/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Database Server (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0914/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Oracle MySQL (23 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0916/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Cache Response Rules",
+    "link": "https://blog.cloudflare.com/introducing-cache-response-rules/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Email threat landscape: Q2 2026 trends and insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian Espionage Group Exploited Zimbra Zero-Day to Steal Mail and 2FA Codes",
+    "link": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chaos Ransomware Uses msaRAT to Route C2 Traffic Through Headless Chrome and Edge",
+    "link": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Nexus JadeProx Uses New TriBack Loader in Government and Healthcare Attacks",
+    "link": "https://thehackernews.com/2026/07/china-nexus-jadeprox-uses-new-triback.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How Synthetic Identity Fraud is Coming for Machine Identities",
+    "link": "https://thehackernews.com/2026/07/how-synthetic-identity-fraud-is-coming.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Weaponize GitHub Actions Runners to Target cPanel and WHM Servers",
+    "link": "https://thehackernews.com/2026/07/attackers-weaponize-github-actions.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Adds Selfie Video Recovery for Users Locked Out of Their Accounts",
+    "link": "https://thehackernews.com/2026/07/google-adds-selfie-video-recovery-for.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Nine-Year-Old RefluXFS Linux Flaw Gives Local Users Root on Default RHEL Installs",
+    "link": "https://thehackernews.com/2026/07/nine-year-old-refluxfs-linux-flaw-gives.html",
+    "date": "2026-07-23",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Check Point Patches Exploited SmartConsole Flaw Allowing Full Admin Access",
     "link": "https://thehackernews.com/2026/07/check-point-patches-exploited.html",
     "date": "2026-07-23",
@@ -434,76 +609,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Seven Malicious Vite npm Packages Use Blockchain C2 to Deliver a RAT",
-    "link": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New NadMesh Botnet Hunts Exposed AI Services for Cloud Keys and Kubernetes Tokens",
-    "link": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GoldenEyeDog Subgroup Linked to DigiCert Breach and Code-Signing Certificate Theft",
-    "link": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Coding Tests Deliver OtterCookie-Aligned Malware Hidden in SVG Flag Images",
-    "link": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "E.U. Orders Google to Open Android Mic, Camera and Screen to Rival AI Assistants",
-    "link": "https://thehackernews.com/2026/07/eu-orders-google-to-open-android-mic.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Race to Field Military Autonomy Is On, Can Trusted Information Infrastructure Keep Pace?",
-    "link": "https://thehackernews.com/2026/07/the-race-to-field-military-autonomy-is.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Armenia Detains Russian Tourist on U.S. Warrant for REvil Hacker, Lawyers Say Wrong Man",
-    "link": "https://thehackernews.com/2026/07/armenia-detains-russian-tourist-on-us.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ACR Stealer Uses ClickFix Lures to Steal Browser Tokens and Microsoft 365 Files",
-    "link": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New GoSerpent Malware Targets Southeast Asian Governments and Diplomats for Espionage",
-    "link": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited SharePoint RCE Zero-Day CVE-2026-58644 to KEV",
-    "link": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Ruby on Rails (16 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0891/",
@@ -574,76 +679,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Two Scattered Spider Hackers Get 5.5 Years Each for £29 Million TfL Hack",
-    "link": "https://thehackernews.com/2026/07/two-scattered-spider-hackers-get-55.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Game Cheat Spyware, 24-Hour Ransomware, Chrome Sync Stalking + 12 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-game-cheat-spyware-24-hour.html",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Progress LoadMaster (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0883/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Schneider Electric EcoStruxure (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0881/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0876/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Siemens (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0880/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Citrix (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0885/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Xen XAPI (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0884/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Veeam Backup & Replication (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0878/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SAP (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0877/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Tenable Nessus Agent (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0886/",
@@ -652,29 +687,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Fortinet (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0879/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Mozilla Firefox (15 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0887/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans ESET Inspect Connector (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0882/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-006/",
     "date": "2026-07-15",
     "month": "2026-07"
   },
@@ -731,13 +745,6 @@
     "source": "Cloudflare",
     "title": "Why we cannot wait for better post-quantum signature algorithms",
     "link": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
-    "date": "2026-07-09",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "GigaWiper: Anatomy of a destructive backdoor assembled from multiple malware",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/09/gigawiper-anatomy-of-a-destructive-backdoor-assembled-from-multiple-malware/",
     "date": "2026-07-09",
     "month": "2026-07"
   },
@@ -830,13 +837,6 @@
     "title": "How we found a bug in the hyper HTTP library",
     "link": "https://blog.cloudflare.com/hyper-bug/",
     "date": "2026-06-22",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Temporary Cloudflare Accounts for AI agents",
-    "link": "https://blog.cloudflare.com/temporary-accounts/",
-    "date": "2026-06-19",
     "month": "2026-06"
   }
 ]
