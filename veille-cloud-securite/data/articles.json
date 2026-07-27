@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
+    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
+    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
     "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
     "date": "2026-07-25",
@@ -619,20 +633,6 @@
     "source": "Cloudflare",
     "title": "Cloudflare Internal DNS is now generally available",
     "link": "https://blog.cloudflare.com/internal-dns/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FakeGit Campaign Uses 7,600 GitHub Repositories to Spread SmartLoader Malware",
-    "link": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Exposed Server Reveals AI-Assisted Phishing Toolkit Behind WebDAV Malware Campaign",
-    "link": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html",
     "date": "2026-07-20",
     "month": "2026-07"
   },
