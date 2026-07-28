@@ -1,6 +1,139 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
+    "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Says AI Helped Develop Linux Traffic-Control Race Into Root Exploit",
+    "link": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Arista VeloCloud Orchestrator Command Injection Flaw",
+    "link": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-032 (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-032/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Atlassian (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0934/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0936/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0937/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (27 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0935/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "We’re open-sourcing our privacy proxy CLI",
+    "link": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Rethinking security for the age of AI",
+    "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Enhancing AI security through global AI red teaming",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NVIDIA Forms 37-Member Open Secure AI Alliance and Open-Sources NOOA Framework",
+    "link": "https://thehackernews.com/2026/07/nvidia-forms-37-member-open-secure-ai.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dysphoria IoT Botnet Adds Blockchain C2 and Victim Relays After JackSkid Disruption",
+    "link": "https://thehackernews.com/2026/07/dysphoria-iot-botnet-adds-blockchain-c2.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
+    "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
+    "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
+    "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
+    "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
+    "date": "2026-07-27",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
     "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
     "date": "2026-07-27",
@@ -518,83 +651,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
-    "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Launches Gemini 3.5 Flash Cyber AI to Find and Fix Software Vulnerabilities",
-    "link": "https://thehackernews.com/2026/07/google-launches-gemini-35-flash-cyber.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical SharePoint RCE CVE-2026-50522 Under Active Exploitation After Public PoC",
-    "link": "https://thehackernews.com/2026/07/critical-sharepoint-rce-cve-2026-50522.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Qilin Ransomware Attackers Exploit PAN-OS Authentication Bypass for Initial Access",
-    "link": "https://thehackernews.com/2026/07/qilin-ransomware-attackers-exploit-pan.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Zimbra Patches Critical SNMP Command Injection and Four XSS Vulnerabilities",
-    "link": "https://thehackernews.com/2026/07/zimbra-patches-critical-snmp-command.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Open-Source Android AI Agents Could Let Invisible Screen Text Run Code on Host PCs",
-    "link": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N-day is Becoming N-Hour. Patching Faster Won't Save You.",
-    "link": "https://thehackernews.com/2026/07/n-day-is-becoming-n-hour-patching.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Bit2Watt Attack Could Let Cloud Tenants Disrupt Power Grids Without an Exploit",
-    "link": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress wp2shell Exploitation Grows as Public Exploit Fuels Mass Scanning",
-    "link": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New ENCFORGE Ransomware Targets AI Model Files in Langflow RCE Attack",
-    "link": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical ServiceNow AI Platform Flaw Exploited for Unauthenticated Code Execution",
-    "link": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-031 (20 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-031/",
@@ -603,22 +659,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0902/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0904/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0903/",
     "date": "2026-07-20",
     "month": "2026-07"
   },
@@ -638,29 +680,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0900/",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Windows (17 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0895/",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0901/",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0899/",
     "date": "2026-07-17",
     "month": "2026-07"
   },
@@ -728,23 +749,9 @@
     "month": "2026-07"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Microsoft Entra ID security updates: Passkeys are the default authentication method in Entra ID",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "Improving Smart Tiered Cache for Public Cloud Regions",
     "link": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Securing our future: July 2026 progress report on Microsoft’s Secure Future Initiative",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/10/securing-our-future-july-2026-progress-report-on-microsofts-secure-future-initiative/",
     "date": "2026-07-10",
     "month": "2026-07"
   },
@@ -830,13 +837,6 @@
     "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
     "link": "https://blog.cloudflare.com/oauth-for-all/",
     "date": "2026-06-24",
-    "month": "2026-06"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The White House's post-quantum executive order is an important milestone. It’s time to get to work",
-    "link": "https://blog.cloudflare.com/post-quantum-eo-2026/",
-    "date": "2026-06-23",
     "month": "2026-06"
   }
 ]
