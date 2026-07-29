@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
+    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
+    "date": "2026-07-29",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
+    "date": "2026-07-29",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
+    "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
+    "date": "2026-07-29",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
+    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
+    "date": "2026-07-29",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
+    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
+    "date": "2026-07-29",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Samba (28 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0939/",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (28 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0938/",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
+    "link": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
+    "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
+    "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "24,650 Internet-Exposed BMCs Disclose IPMI Password Hashes Before Login",
+    "link": "https://thehackernews.com/2026/07/24650-internet-exposed-bmcs-disclose.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JFrog Confirms OpenAI Models Exploited Artifactory Zero-Day Before Hugging Face Breach",
+    "link": "https://thehackernews.com/2026/07/jfrog-confirms-openai-models-exploited.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical OpenWrt DHCPv6 Flaw Could Let Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/07/critical-openwrt-dhcpv6-flaw-could-let.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Nimbus Manticore Deploys NightLedger and Turns Victim Systems Into Covert Relays",
+    "link": "https://thehackernews.com/2026/07/nimbus-manticore-deploys-nightledger.html",
+    "date": "2026-07-28",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Critical TeamCity Flaw Could Let Attackers Run OS Commands Without Logging In",
     "link": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html",
     "date": "2026-07-28",
@@ -15,7 +113,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Hit 95.95% at Half the Cost",
+    "title": "Microsoft Says New Cybersecurity AI Model Helps MDASH Score 95.95% at Half the Cost",
     "link": "https://thehackernews.com/2026/07/microsoft-says-new-cybersecurity-ai.html",
     "date": "2026-07-28",
     "month": "2026-07"
@@ -519,29 +617,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (22 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0907/",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (22 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0908/",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Mozilla (22 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0910/",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (22 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0906/",
     "date": "2026-07-22",
     "month": "2026-07"
   },
@@ -560,76 +637,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "GitHub Cuts Public Bug Bounty Payouts, Moves Top Rewards to VIP Tier",
-    "link": "https://thehackernews.com/2026/07/github-cuts-public-bug-bounty-payouts.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ubuntu snap-confine Flaw Could Give Local Users Root on Default Desktop Installs",
-    "link": "https://thehackernews.com/2026/07/ubuntu-snap-confine-flaw-could-give.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Adobe Acrobat Extension Flaw Let Malicious Sites Read WhatsApp Web Data",
-    "link": "https://thehackernews.com/2026/07/adobe-acrobat-extension-flaw-let.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Windmill Flaw to Read Arbitrary Server Files Without Authentication",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-windmill-flaw-to-read.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Fastest Path to AI Adoption Runs Through Security",
-    "link": "https://thehackernews.com/2026/07/the-fastest-path-to-ai-adoption-runs.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Says Its AI Models Escaped Sandbox, Targeted Hugging Face to Cheat Benchmark",
-    "link": "https://thehackernews.com/2026/07/openai-says-its-own-ai-models-escaped.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Modern SOCs Need Multi-Layered Detections",
-    "link": "https://thehackernews.com/2026/07/why-modern-socs-need-multi-layered.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Police Dismantle Kratos Phishing Kit Built to Steal Microsoft 365 Sessions and Bypass MFA",
-    "link": "https://thehackernews.com/2026/07/police-dismantle-kratos-phishing-kit.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trojanized Newtonsoft.Json Fork Hides Game-Rigging Code in a Working Library",
-    "link": "https://thehackernews.com/2026/07/trojanized-newtonsoftjson-fork-hides.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Azure DevOps MCP Flaw Lets Hidden PR Comments Hijack AI Review Agents",
-    "link": "https://thehackernews.com/2026/07/microsoft-azure-devops-mcp-flaw-lets.html",
-    "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Tenable Security Center (21 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0905/",
@@ -644,27 +651,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Apple Fixes Hide My Email Bug That Exposed Real Addresses in Mail Logs",
-    "link": "https://thehackernews.com/2026/07/apple-fixes-hide-my-email-bug-that.html",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-031 (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-031/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0904/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
@@ -676,13 +662,6 @@
     "title": "Cloudflare Internal DNS is now generally available",
     "link": "https://blog.cloudflare.com/internal-dns/",
     "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (17 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0895/",
-    "date": "2026-07-17",
     "month": "2026-07"
   },
   {
@@ -756,6 +735,13 @@
     "month": "2026-07"
   },
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (09 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0851/",
+    "date": "2026-07-09",
+    "month": "2026-07"
+  },
+  {
     "source": "Cloudflare",
     "title": "Why we cannot wait for better post-quantum signature algorithms",
     "link": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
@@ -774,13 +760,6 @@
     "title": "Cloudflare proudly joins the UK government's Cyber Resilience Pledge",
     "link": "https://blog.cloudflare.com/cloudflare-joins-uk-cyber-resilience-pledge/",
     "date": "2026-07-07",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (06 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0835/",
-    "date": "2026-07-06",
     "month": "2026-07"
   },
   {
@@ -833,10 +812,31 @@
     "month": "2026-06"
   },
   {
-    "source": "Cloudflare",
-    "title": "Unlocking the Cloudflare app ecosystem with OAuth for all",
-    "link": "https://blog.cloudflare.com/oauth-for-all/",
-    "date": "2026-06-24",
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Traefik (11 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0738/",
+    "date": "2026-06-11",
     "month": "2026-06"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans F5 BIG-IP Access Policy Manager (31 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-004/",
+    "date": "2026-03-31",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
+    "date": "2026-03-19",
+    "month": "2026-03"
+  },
+  {
+    "source": "ANSSI",
+    "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-001/",
+    "date": "2026-01-30",
+    "month": "2026-01"
   }
 ]
