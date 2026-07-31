@@ -1,5 +1,117 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Ruby on Rails activestorage (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0948/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0944/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0949/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0946/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Cisco Firewall Management Center (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0950/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Node.js (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0947/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (30 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0945/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
+    "link": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "​​​​What’s new in Microsoft Security: July 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
+    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
+    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
+    "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Network Has Become the Control Plane for AI Security",
+    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
+    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
+    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
+    "date": "2026-07-30",
+    "month": "2026-07"
+  },
+  {
     "source": "The Hacker News",
     "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
     "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
@@ -511,79 +623,9 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "BlueNoroff Zoom Phishing Kit Profiles Crypto Wallets Before Malware Delivery",
-    "link": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Certighost Exploit Lets Low-Privileged Active Directory Users Impersonate a Domain Controller",
-    "link": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
-    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bing Images Flaws Let Crafted SVGs Run Commands as SYSTEM on Microsoft's Servers",
-    "link": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Seeing AI Agents Is Not Enough. Security Teams Must Enforce What They Can Do",
-    "link": "https://thehackernews.com/2026/07/seeing-ai-agents-is-not-enough-security.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
-    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Golden Chickens Resurfaces With Four New Malware Families and Modular Implants",
-    "link": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0917/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0913/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Check Point (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0912/",
     "date": "2026-07-23",
     "month": "2026-07"
   },
@@ -603,36 +645,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mitel (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0911/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0915/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0914/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0916/",
     "date": "2026-07-23",
     "month": "2026-07"
   },
@@ -711,13 +725,6 @@
     "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
     "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Turning threat intelligence into decisive action with Defender Experts",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/turning-threat-intelligence-into-decisive-action-with-defender-experts/",
-    "date": "2026-07-15",
     "month": "2026-07"
   },
   {
@@ -801,13 +808,6 @@
     "source": "Cloudflare",
     "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
     "link": "https://blog.cloudflare.com/monetization-gateway/",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Content Independence Day, one year on: building the business model for the agentic Internet",
-    "link": "https://blog.cloudflare.com/agentic-internet-bot-report/",
     "date": "2026-07-01",
     "month": "2026-07"
   },
