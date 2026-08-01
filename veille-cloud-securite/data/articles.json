@@ -1,5 +1,145 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
+    "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
+    "date": "2026-08-01",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hijacked Hotel Wi-Fi Pushes Fake Updates to Deliver Surveillance Malware",
+    "link": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html",
+    "date": "2026-08-01",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0958/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0955/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Progress MOVEit Transfer (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0951/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0954/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Azure (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0953/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0957/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0956/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PHP (31 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0952/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "An API for MoQ: provision your own isolated relays",
+    "link": "https://blog.cloudflare.com/moq-relays/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "CaptiveCrunch: Midnight Blizzard targets travelers worldwide for malware delivery and credential theft",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/31/captivecrunch-midnight-blizzard-targets-travelers-worldwide-for-malware-delivery-and-credential-theft/",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected Chinese-Speaking Hackers Target Central Asian Governments With OctLurk and SilkLurk",
+    "link": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "HollowFrame Loader Deploys Matryoshka Backdoor in Spear-Phishing Attack on Law Firm",
+    "link": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cheap Android TV Boxes Pose as Phones and Turn Owners’ Broadband Into Proxies",
+    "link": "https://thehackernews.com/2026/07/cheap-android-tv-boxes-pose-as-phones.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three Recent Chrome Releases Fix 1,442 Flaws, More Than Prior 23 Updates Combined",
+    "link": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+    "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "6 Reasons Why Device Code Phishing is the Fastest-Growing Threat of 2026",
+    "link": "https://thehackernews.com/2026/07/6-reasons-why-device-code-phishing-is.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+    "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+    "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+    "date": "2026-07-31",
+    "month": "2026-07"
+  },
+  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Ruby on Rails activestorage (30 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0948/",
@@ -462,100 +602,9 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Operation BlueDash Deploys Level RMM and ScreenConnect via Fake Teams Update",
-    "link": "https://thehackernews.com/2026/07/operation-bluedash-deploys-level-rmm.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cruciferra Crypter Uses BYOVD and Process Ghosting to Hide Windows Malware",
-    "link": "https://thehackernews.com/2026/07/cruciferra-crypter-uses-byovd-and.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TELESHIM Abuses Telegram for C2 in Attacks Against Middle East Governments",
-    "link": "https://thehackernews.com/2026/07/teleshim-abuses-telegram-for-c2-in.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitHub Adds 3-Day Dependabot Cooldown to Limit Poisoned Package Adoption",
-    "link": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malvertising Sends Malware in Pieces, Then Makes the Browser Build the Executable",
-    "link": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fastjson 1.x RCE Vulnerability Targeted in Attacks With No Patched Available",
-    "link": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researcher Publishes GitLab RCE PoC Letting Authenticated Users Run Commands as Git",
-    "link": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CTM360 Research Reveals How Insurance Phishing Has Evolved Into Real-Time Account Hijacking",
-    "link": "https://thehackernews.com/2026/07/ctm360-research-reveals-how-insurance.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cl0p Affiliates Target Internet-Exposed PTC Windchill and FlexPLM with Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/07/cl0p-affiliates-target-internet-exposed.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DevMan RaaS Portal Centralizes Payload Builds, Victim Management, and Affiliate Payouts",
-    "link": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html",
-    "date": "2026-07-25",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans NetApp ONTAP 9 (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0923/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (24 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0929/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0924/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0925/",
     "date": "2026-07-24",
     "month": "2026-07"
   },
@@ -609,13 +658,6 @@
     "month": "2026-07"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MongoDB (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0922/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
     "link": "https://blog.cloudflare.com/bgp-origin-attribute/",
@@ -626,27 +668,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0918/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0920/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (23 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0919/",
     "date": "2026-07-23",
     "month": "2026-07"
   },
@@ -669,13 +690,6 @@
     "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
     "date": "2026-07-22",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Security Center (21 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0905/",
-    "date": "2026-07-21",
     "month": "2026-07"
   },
   {
@@ -717,13 +731,6 @@
     "source": "Microsoft Security",
     "title": "Least privilege for AI agents: Identity, access, and tool binding",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Unpacking the AsyncAPI npm supply chain compromise and import-time payload delivery",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/15/unpacking-asyncapi-npm-supply-chain-compromise-import-time-payload-delivery/",
     "date": "2026-07-16",
     "month": "2026-07"
   },
@@ -801,13 +808,6 @@
     "source": "Cloudflare",
     "title": "Your site, your rules: new AI traffic options for all customers",
     "link": "https://blog.cloudflare.com/content-independence-day-ai-options/",
-    "date": "2026-07-01",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing the Monetization Gateway: charge for any resource behind Cloudflare via x402",
-    "link": "https://blog.cloudflare.com/monetization-gateway/",
     "date": "2026-07-01",
     "month": "2026-07"
   },
