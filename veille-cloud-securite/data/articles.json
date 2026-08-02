@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Coldcard Hardware Wallet Flaw Linked to $70 Million Bitcoin Theft in 41 Minutes",
+    "link": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html",
+    "date": "2026-08-01",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Poison Adform Script to Swap Crypto Wallet Addresses Across Customer Sites",
+    "link": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html",
+    "date": "2026-08-01",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Adobe Campaign Classic CVSS 10.0 Flaw Could Run Code Without User Interaction",
     "link": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html",
     "date": "2026-08-01",
@@ -584,20 +598,6 @@
     "source": "The Hacker News",
     "title": "Public Exploit Released for Patched vBulletin Pre-Auth Code Execution Flaw",
     "link": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Rogue AI Agents, Check Point Exploit, Slopsquatting, ClickFix Lures and More",
-    "link": "https://thehackernews.com/2026/07/weekly-recap-rogue-ai-agents-check.html",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "n8n Sandbox Escape Lets Workflow Editors Run OS Commands as the n8n Process",
-    "link": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html",
     "date": "2026-07-27",
     "month": "2026-07"
   },
