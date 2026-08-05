@@ -1,6 +1,188 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
+    "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags Langflow RCE, Tomcat, and N-central Flaws as Actively Exploited",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-langflow-rce-tomcat-and-n.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "QuickFox Supply Chain Attack Delivers FDMTP Backdoor via Trojanized Windows Installer",
+    "link": "https://thehackernews.com/2026/08/quickfox-supply-chain-attack-delivers.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0967/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Check Point (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0965/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0966/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Tenable (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0962/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0964/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Android (04 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0963/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
+    "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
+    "link": "https://blog.cloudflare.com/wallets/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Run CI/CD for millions of repos — on your platform, on Cloudflare",
+    "link": "https://blog.cloudflare.com/ci-workflows/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Cloudflare enforces engineering standards using AI",
+    "link": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing: Cloudflare Agents",
+    "link": "https://blog.cloudflare.com/agents-on-cloudflare/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Your agent can now debug Workers with local tracing",
+    "link": "https://blog.cloudflare.com/local-tracing/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we built a software factory to drive Astro’s GitHub issue count to zero",
+    "link": "https://blog.cloudflare.com/astro-issue-triage/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Greatness PhaaS Adds Device Code Phishing to Bypass MFA and Steal Tokens",
+    "link": "https://thehackernews.com/2026/08/greatness-phaas-adds-device-code.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Keyv-Linked npm Worm Poisons Hundreds of Packages, Plants Claude Code and VS Code Hooks",
+    "link": "https://thehackernews.com/2026/08/keyv-linked-npm-worm-poisons-hundreds.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Adobe and Zoom Updates Install ScreenConnect for Persistent Remote Access",
+    "link": "https://thehackernews.com/2026/08/fake-adobe-and-zoom-updates-install.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New cPanel Critical Flaw Could Let Hosting Customers Run SQL as Database Root",
+    "link": "https://thehackernews.com/2026/08/new-cpanel-critical-flaw-could-let.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DOUBLECUP Uses ClickFix and Cached PNGs to Deliver CountLoader and DeviceManager RAT",
+    "link": "https://thehackernews.com/2026/08/doublecup-uses-clickfix-and-cached-pngs.html",
+    "date": "2026-08-04",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Adds Exploited N-able N-central Flaw to KEV After Customer Compromises",
     "link": "https://thehackernews.com/2026/08/cisa-adds-exploited-n-able-n-central.html",
     "date": "2026-08-04",
@@ -525,62 +707,6 @@
     "month": "2026-07"
   },
   {
-    "source": "The Hacker News",
-    "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
-    "link": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
-    "link": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russia Charges Telegram Founder Pavel Durov With Aiding Terrorist Activity",
-    "link": "https://thehackernews.com/2026/07/russia-charges-telegram-founder-pavel.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Public PoC Released for Exploited Check Point SmartConsole Authentication Bypass",
-    "link": "https://thehackernews.com/2026/07/rapid7-releases-poc-for-exploited-check.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Agent Used Exposed Credentials Across Four Services During Hugging Face Breach",
-    "link": "https://thehackernews.com/2026/07/openai-agent-used-exposed-credentials.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Gitea RCE Lets Repository Writers Plant a Git Hook to Run Shell Commands",
-    "link": "https://thehackernews.com/2026/07/new-gitea-rce-lets-repository-writers.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Flying Eagle Android RAT Traces Found on 170 Servers as Source Code Circulates",
-    "link": "https://thehackernews.com/2026/07/flying-eagle-android-rat-traces-found.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Compromised joyfill npm Packages Run RAT When Imported Into Node.js",
-    "link": "https://thehackernews.com/2026/07/two-compromised-joyfill-npm-packages.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Samba (28 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0939/",
@@ -599,34 +725,6 @@
     "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
     "link": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
     "date": "2026-07-28",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude AI Just Cracked a Post-Quantum Test Scheme and Found a Faster 7-Round AES Attack",
-    "link": "https://thehackernews.com/2026/07/claude-ai-just-cracked-post-quantum.html",
-    "date": "2026-07-28",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Tengu Botnet Reboots Compromised Linux Devices When Defenders Kill Its Process",
-    "link": "https://thehackernews.com/2026/07/tengu-botnet-reboots-compromised-linux.html",
-    "date": "2026-07-28",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-032 (27 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-032/",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Atlassian (27 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0934/",
-    "date": "2026-07-27",
     "month": "2026-07"
   },
   {
@@ -672,34 +770,6 @@
     "month": "2026-07"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0930/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits ESET (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0932/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0933/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Moxa (24 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0931/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
     "source": "Cloudflare",
     "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
     "link": "https://blog.cloudflare.com/bgp-origin-attribute/",
@@ -735,79 +805,9 @@
     "month": "2026-07"
   },
   {
-    "source": "Cloudflare",
-    "title": "How the 2026 World Cup affected Internet traffic",
-    "link": "https://blog.cloudflare.com/2026-world-cup-internet-traffic/",
-    "date": "2026-07-21",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare Internal DNS is now generally available",
-    "link": "https://blog.cloudflare.com/internal-dns/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare WAF protects WordPress applications from two high-severity vulnerabilities",
-    "link": "https://blog.cloudflare.com/wordpress-vulnerabilities/",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
-    "date": "2026-07-17",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "ACR Stealer: Two observed intrusion chains amid increased threat activity",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/acr-stealer-two-observed-intrusion-chains-amid-increased-threat-activity/",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Least privilege for AI agents: Identity, access, and tool binding",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
-    "date": "2026-07-16",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "A broken DNSSEC rollover took down .al. Now 1.1.1.1 tells you when validation is bypassed",
-    "link": "https://blog.cloudflare.com/dnssec-nta-ede-33/",
-    "date": "2026-07-14",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Precursor: detecting agentic behavior with continuous client-side signals",
-    "link": "https://blog.cloudflare.com/introducing-precursor/",
-    "date": "2026-07-13",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Improving Smart Tiered Cache for Public Cloud Regions",
-    "link": "https://blog.cloudflare.com/smart-tiered-cache-for-public-clouds/",
-    "date": "2026-07-10",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Traefik (09 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0851/",
-    "date": "2026-07-09",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Why we cannot wait for better post-quantum signature algorithms",
-    "link": "https://blog.cloudflare.com/ml-dsa-will-have-to-do/",
     "date": "2026-07-09",
     "month": "2026-07"
   },
