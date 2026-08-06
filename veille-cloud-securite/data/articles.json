@@ -1,6 +1,209 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
+    "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+    "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
+    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
+    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
+    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
+    "date": "2026-08-06",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mozilla Firefox pour Android (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0971/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking EdgeConnect SD-WAN Orchestrator (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0969/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Veeam (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0968/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Pixel (05 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0970/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare is the only vendor named a Visionary in 2026 SASE and SSE reports",
+    "link": "https://blog.cloudflare.com/cloudflare-sase-sse-gartner-magic-quadrants-2026/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The Agent Access Model",
+    "link": "https://blog.cloudflare.com/the-agent-access-model/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
+    "link": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare OS: an open platform for agents, apps, and work",
+    "link": "https://blog.cloudflare.com/cloudflare-os/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "WriteGuard: fine-grained controls for MCP Servers",
+    "link": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Catching rogue AI behavior with identity-aware analytics",
+    "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
+    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
+    "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
+    "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
+    "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
+    "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
+    "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
+    "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
+    "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
+    "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Leaked n8n API Tokens Exposed Live Instances to Credential Theft",
+    "link": "https://thehackernews.com/2026/08/leaked-n8n-api-tokens-exposed-live.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Open VSX Removes 77 Malicious Evil Twin Extensions Exfiltrating Developer Data",
+    "link": "https://thehackernews.com/2026/08/open-vsx-removes-77-malicious-evil-twin.html",
+    "date": "2026-08-05",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Claude Mythos 5 Tried to Backdoor a Real Open-Source Project in Testing, Then Vouched for Itself",
     "link": "https://thehackernews.com/2026/08/claude-mythos-5-tried-to-backdoor-real.html",
     "date": "2026-08-05",
@@ -532,93 +735,9 @@
     "month": "2026-07"
   },
   {
-    "source": "Cloudflare",
-    "title": "Dogfooding at scale: migrating cdnjs to Cloudflare’s Developer Platform",
-    "link": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​​​What’s new in Microsoft Security: July 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/30/whats-new-in-microsoft-security-july-2026/",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DPRK-Linked macOS Malvertising Uses Fake Updates to Deliver Crypto-Stealing Malware",
-    "link": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: AI-Powered Hacking, 370 Chrome Flaws, SonicWall Attacks, DNS Hijacking + 22 More Stories",
-    "link": "https://thehackernews.com/2026/07/threatsday-ai-powered-hacking-370.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Azure Cosmos DB Flaw Exposed Platform-Wide Key That Could Access Any Database",
-    "link": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Copilot for Word Can Copy Hidden Prompts Into New Documents",
-    "link": "https://thehackernews.com/2026/07/microsoft-copilot-for-word-can-copy.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Network Has Become the Control Plane for AI Security",
-    "link": "https://thehackernews.com/2026/07/the-network-has-become-control-plane.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit AnySign4PC via Hacked Korean Sites to Install Backdoors Without Prompts",
-    "link": "https://thehackernews.com/2026/07/hackers-exploit-anysign4pc-via-hacked.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SilverFox Targets Japanese Manufacturer with 3-Driver BYOVD Chain and ValleyRAT",
-    "link": "https://thehackernews.com/2026/07/silverfox-targets-japanese-manufacturer.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian Hackers Exploit Microsoft OWA Flaw to Keep Mailbox Access After Credential Rotation",
-    "link": "https://thehackernews.com/2026/07/russian-hackers-exploit-microsoft-owa.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FCC Blocks New Foreign-Produced Robots and Power Inverters Over Cyber Risks",
-    "link": "https://thehackernews.com/2026/07/fcc-blocks-new-foreign-produced-robots.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Amazon Links Debug and Chalk npm Hijack to North Korea’s Sapphire Sleet",
-    "link": "https://thehackernews.com/2026/07/amazon-links-debug-and-chalk-npm-hijack.html",
-    "date": "2026-07-30",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco FMC Zero-Day Actively Exploited, Static Credentials Could Expose Sensitive Data",
-    "link": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
     "date": "2026-07-30",
     "month": "2026-07"
   },
@@ -651,58 +770,9 @@
     "month": "2026-07"
   },
   {
-    "source": "Cloudflare",
-    "title": "Post-quantum authentication to origins is now supported",
-    "link": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Better security starts with better questions",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
-    "link": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
-    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
-    "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
-    "link": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
-    "link": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
-    "date": "2026-07-29",
-    "month": "2026-07"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
-    "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
     "date": "2026-07-29",
     "month": "2026-07"
   },
@@ -721,41 +791,6 @@
     "month": "2026-07"
   },
   {
-    "source": "Cloudflare",
-    "title": "Natural disasters and government interference: examining Q2 2026’s major Internet disruption events",
-    "link": "https://blog.cloudflare.com/q2-2026-internet-disruption-summary/",
-    "date": "2026-07-28",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (27 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0936/",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (27 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0937/",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GLPI (27 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0935/",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "We’re open-sourcing our privacy proxy CLI",
-    "link": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
-    "date": "2026-07-27",
-    "month": "2026-07"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Rethinking security for the age of AI",
     "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
@@ -770,38 +805,10 @@
     "month": "2026-07"
   },
   {
-    "source": "Cloudflare",
-    "title": "BGP ORIGIN attribute manipulation and its impact on the Internet",
-    "link": "https://blog.cloudflare.com/bgp-origin-attribute/",
-    "date": "2026-07-24",
-    "month": "2026-07"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Moodle (23 juillet 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0921/",
     "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Cache Response Rules",
-    "link": "https://blog.cloudflare.com/introducing-cache-response-rules/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Email threat landscape: Q2 2026 trends and insights",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/23/email-threat-landscape-q2-2026-trends-and-insights/",
-    "date": "2026-07-23",
-    "month": "2026-07"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-    "date": "2026-07-22",
     "month": "2026-07"
   },
   {
@@ -823,13 +830,6 @@
     "title": "Vulnérabilité dans F5 BIG-IP Access Policy Manager (31 mars 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-004/",
     "date": "2026-03-31",
-    "month": "2026-03"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (19 mars 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0320/",
-    "date": "2026-03-19",
     "month": "2026-03"
   },
   {
