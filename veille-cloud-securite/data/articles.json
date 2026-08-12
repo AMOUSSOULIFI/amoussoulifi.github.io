@@ -1,6 +1,167 @@
 [
   {
     "source": "The Hacker News",
+    "title": "SAP Commerce Cloud Flaw Could Let Unauthenticated Attackers Execute Arbitrary Code",
+    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-flaw-could-let.html",
+    "date": "2026-08-12",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShieldBreak Zero-Day PoC Claims Microsoft Defender Patch Bypass With SYSTEM Access",
+    "link": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html",
+    "date": "2026-08-12",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
+    "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
+    "date": "2026-08-12",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0994/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Postfix (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0993/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Docker (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0996/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
+    "link": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+    "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Kimwolf v7 Android Botnet Makes HTTP/2 DDoS Traffic Look Like Legitimate Browsing",
+    "link": "https://thehackernews.com/2026/08/kimwolf-v7-android-botnet-makes-http2.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zoom Annotation Flaws Could Let a Meeting Participant Hijack Another Attendee's Client",
+    "link": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Sandworm-Linked UAC-0145 Uses Fake Job Interviews to Push VPN That Can Run Commands",
+    "link": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
+    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
+    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
+    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
+    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
+    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gunra Ransomware Exploits Fortinet and Schneider Electric Flaws to Breach Networks",
+    "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
+    "date": "2026-08-11",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
     "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
     "date": "2026-08-11",
@@ -490,55 +651,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
-    "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Compile khunt Inside Oracle to Turn SQL Injection Into Windows SYSTEM Access",
-    "link": "https://thehackernews.com/2026/08/attackers-compile-khunt-inside-oracle.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
-    "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chinese-Made Zbtlink Routers Ship With Backdoor That Opens Unauthenticated Root Shells",
-    "link": "https://thehackernews.com/2026/08/chinese-made-zbtlink-routers-ship-with.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Ransom Cartel Creator Gets 16 Years in Prison for Operating Ransomware-as-a-Service",
-    "link": "https://thehackernews.com/2026/08/ransom-cartel-creator-gets-16-years-in.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags TeamCity CVE-2026-63077 RCE Flaw Under Active Exploitation in the Wild",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-teamcity-cve-2026-63077-rce.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Snowflake Hacker Pleads Guilty Over Breaches Affecting at Least 100 Million People",
-    "link": "https://thehackernews.com/2026/08/snowflake-hacker-pleads-guilty-over.html",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Mozilla Firefox pour Android (05 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0971/",
@@ -623,69 +735,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Over 250 ClickFix Domains Use Browser Fingerprinting to Hide macOS Malware Lures",
-    "link": "https://thehackernews.com/2026/08/over-250-clickfix-domains-use-browser.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Disrupts Poipet Scam Network Using ChatGPT Across Multiple Fraud Schemes",
-    "link": "https://thehackernews.com/2026/08/openai-disrupts-poipet-scam-network.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Poison Claude Sells Discounted Claude Access While Its Operator Sees Every Customer Prompt",
-    "link": "https://thehackernews.com/2026/08/poison-claude-sells-discounted-claude.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Paperclip AI Flaws Let Attackers Run Host Commands via Malicious Agent Imports",
-    "link": "https://thehackernews.com/2026/08/paperclip-ai-flaws-let-attackers-run.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Veeam, Terraform MCP, Django Patch Critical Flaws, Led by CVSS 10.0 Cross-Tenant Bug",
-    "link": "https://thehackernews.com/2026/08/veeam-terraform-mcp-django-patch.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trojanized npm Packages Employ NullReceiver Tactic to Decode C2 IP from Blockchain",
-    "link": "https://thehackernews.com/2026/08/trojanized-npm-packages-decode-c2-ip.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New OVSwrap Linux Kernel Flaw Lets Local Users Gain Root via Open vSwitch",
-    "link": "https://thehackernews.com/2026/08/new-ovswrap-linux-kernel-flaw-lets.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kali365 Weaponizes Microsoft Authentication Against US Companies: New Enterprise Risk",
-    "link": "https://thehackernews.com/2026/08/kali365-weaponizes-microsoft.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Gitea Flaw Let Unauthenticated Attackers Read Server Files via Org-Mode Markup",
-    "link": "https://thehackernews.com/2026/08/critical-gitea-flaw-let-unauthenticated.html",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (04 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0967/",
@@ -735,13 +784,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare Wallets: the programmable wallet for the agentic Internet",
-    "link": "https://blog.cloudflare.com/wallets/",
-    "date": "2026-08-04",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
@@ -761,48 +803,6 @@
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
     "date": "2026-08-04",
     "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-033 (03 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-033/",
-    "date": "2026-08-03",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (03 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0960/",
-    "date": "2026-08-03",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Papercut (03 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0959/",
-    "date": "2026-08-03",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Office (03 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0961/",
-    "date": "2026-08-03",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (31 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0958/",
-    "date": "2026-07-31",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (31 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0957/",
-    "date": "2026-07-31",
-    "month": "2026-07"
   },
   {
     "source": "Microsoft Security",
