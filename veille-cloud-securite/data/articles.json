@@ -1,5 +1,75 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Fortinet (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1015/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans WordPress (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1018/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1014/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Progress MOVEit WAF (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1011/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Foxit (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1016/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1013/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Wireshark (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1012/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Adobe (13 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1017/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
+    "link": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Certificate Transparency Monitoring is now generally available",
+    "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
     "source": "The Hacker News",
     "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
     "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
@@ -484,29 +554,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0981/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Progress Telerik (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0977/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (07 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0986/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0982/",
     "date": "2026-08-07",
     "month": "2026-08"
   },
@@ -521,20 +570,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans WordPress (07 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0979/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0978/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apple macOS (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0980/",
     "date": "2026-08-07",
     "month": "2026-08"
   },
@@ -658,27 +693,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans KeyCloak (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0976/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Wallix (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0974/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (06 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0975/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare AI Search: give your agents a search engine for your data",
     "link": "https://blog.cloudflare.com/ai-search-easier/",
@@ -756,13 +770,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "Catching rogue AI behavior with identity-aware analytics",
-    "link": "https://blog.cloudflare.com/identity-aware-ai-gateway/",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -774,13 +781,6 @@
     "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
     "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The Agent Development Lifecycle has arrived on Cloudflare",
-    "link": "https://blog.cloudflare.com/agent-development-lifecycle/",
-    "date": "2026-08-04",
     "month": "2026-08"
   },
   {
