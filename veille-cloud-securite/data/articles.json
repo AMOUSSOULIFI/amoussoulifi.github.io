@@ -1,6 +1,118 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Elastic Kibana (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1020/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans OpenSSL (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1026/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1028/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Stormshield Network Security (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1021/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Netgate (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1022/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1027/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1029/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1031/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PostgreSQL (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1024/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1030/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Security Center (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1023/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1032/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1019/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Sophos (14 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1025/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Cloudflare detects MCP traffic and helps secure it",
+    "link": "https://blog.cloudflare.com/mcp-security-updates/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Secure all your internal vibe-coded applications — in one click",
+    "link": "https://blog.cloudflare.com/workers-protected-by-access/",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Fortinet (13 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1015/",
     "date": "2026-08-13",
@@ -239,36 +351,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0994/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Postfix (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0993/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Docker (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0996/",
     "date": "2026-08-11",
     "month": "2026-08"
   },
@@ -382,55 +466,6 @@
     "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
     "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
     "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Synology Assistant (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0988/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans ClamAV (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0992/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking Private 5G Core (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0989/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans VMware Tanzu Greenplum (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0991/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans SonicWall Global VPN Client (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0990/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0987/",
-    "date": "2026-08-10",
     "month": "2026-08"
   },
   {
@@ -550,41 +585,6 @@
     "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
     "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
     "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0986/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0984/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans WordPress (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0979/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0983/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (07 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0985/",
-    "date": "2026-08-07",
     "month": "2026-08"
   },
   {
@@ -756,20 +756,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "Cloudflare OS: an open platform for agents, apps, and work",
-    "link": "https://blog.cloudflare.com/cloudflare-os/",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "WriteGuard: fine-grained controls for MCP Servers",
-    "link": "https://blog.cloudflare.com/mcp-portal-writeguard-private-beta/",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -827,16 +813,30 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans LibreNMS (11 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0732/",
-    "date": "2026-06-11",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (15 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0752/",
+    "date": "2026-06-15",
     "month": "2026-06"
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans LibreNMS (12 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0562/",
-    "date": "2026-05-12",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (29 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0660/",
+    "date": "2026-05-29",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (22 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0632/",
+    "date": "2026-05-22",
+    "month": "2026-05"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (19 mai 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0610/",
+    "date": "2026-05-19",
     "month": "2026-05"
   }
 ]
