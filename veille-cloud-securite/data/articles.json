@@ -1,5 +1,117 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
+    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-035 (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-035/",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1035/",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1034/",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
+    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
+    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
+    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How MCP Servers Can Expose Enterprise Secrets",
+    "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
+    "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
+    "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
+    "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
+    "date": "2026-08-17",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
+    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
+    "date": "2026-08-15",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
+    "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
+    "date": "2026-08-15",
+    "month": "2026-08"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Elastic Kibana (14 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1020/",
@@ -112,6 +224,62 @@
     "month": "2026-08"
   },
   {
+    "source": "The Hacker News",
+    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
+    "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "IAM Compliance Requirements and Best Practices",
+    "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
+    "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
+    "link": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CTM360 Uncovers Over 3,000 Recruitment Phishing URLs Using Browser-in-the-Browser (BitB) Credential Traps",
+    "link": "https://thehackernews.com/2026/08/ctm360-uncovers-over-3000-recruitment.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Warns Users in 110 Countries They May Be Targets of Mercenary Spyware",
+    "link": "https://thehackernews.com/2026/08/apple-warns-users-in-110-countries-they.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trump Memo Paves Way for U.S. Firms to Hack and Disrupt Foreign Crime Groups",
+    "link": "https://thehackernews.com/2026/08/trump-memo-paves-way-for-us-firms-to.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Jewelbug Uses XG-Web for Government Espionage and Crypto Fraud",
+    "link": "https://thehackernews.com/2026/08/china-linked-jewelbug-uses-xg-web-for.html",
+    "date": "2026-08-14",
+    "month": "2026-08"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Fortinet (13 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1015/",
@@ -183,6 +351,48 @@
   },
   {
     "source": "The Hacker News",
+    "title": "GeoServer Zero-Day Targeted in Active Exploitation Attempts, Can Lead to RCE",
+    "link": "https://thehackernews.com/2026/08/unpatched-geoserver-zero-day-targeted.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: GhostJacking AI Attacks, EtherHiding ClickFix, Cursor CLI Flaw + 17 More Stories",
+    "link": "https://thehackernews.com/2026/08/threatsday-ghostjacking-ai-attacks.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New PATCHCORD Backdoor Targets Afghan Telecom and Indian Critical Infrastructure",
+    "link": "https://thehackernews.com/2026/08/new-patchcord-backdoor-targets-afghan.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AmnesiaStealer Hijacks Chromium Sessions to Give Attackers Live Browser Control on macOS",
+    "link": "https://thehackernews.com/2026/08/amnesiastealer-hijacks-chromium.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WindRelay Android Malware Turns Victims' Phones Into NFC Relays for Payment Fraud",
+    "link": "https://thehackernews.com/2026/08/windrelay-android-malware-turns-victims.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korean Remote Workers Are Infiltrating Government and Businesses: How to Expose Them Before Hiring",
+    "link": "https://thehackernews.com/2026/08/north-korean-remote-workers-are.html",
+    "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Exploit SharePoint Authentication Bypass After Public PoC Release",
     "link": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html",
     "date": "2026-08-13",
@@ -197,22 +407,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1001/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Siemens (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1009/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0999/",
     "date": "2026-08-12",
     "month": "2026-08"
   },
@@ -262,13 +458,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Cisco (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1010/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Office (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1000/",
     "date": "2026-08-12",
     "month": "2026-08"
   },
@@ -340,20 +529,6 @@
     "title": "Cisco ASA and FTD Flaw Exploited in the Wild Can Trigger Remote DoS",
     "link": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html",
     "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans OpenSSH (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0997/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SAP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0998/",
-    "date": "2026-08-11",
     "month": "2026-08"
   },
   {
@@ -455,17 +630,10 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Hackers Breach Polish Power Plant Controls via Private Cellular Network and Shut Turbine",
-    "link": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BdThemes Supply Chain Attack Poisons JSON to Create Rogue WordPress Admins",
-    "link": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html",
-    "date": "2026-08-11",
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
+    "date": "2026-08-10",
     "month": "2026-08"
   },
   {
@@ -497,97 +665,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Shipping 10–50× More Code? Watch This Webinar on Securing AI-Speed Development",
-    "link": "https://thehackernews.com/2026/08/shipping-1050-more-code-watch-this.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Deploy New StormEncryptor Ransomware, Likely via N-central Flaw",
-    "link": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development",
-    "link": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Passkey Attacks Can Recover Synced Private Keys or Bypass Phishing-Resistant MFA",
-    "link": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-    "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Solidity Pro VS Code Extensions Steal Crypto Wallets, API Keys, and Credentials",
-    "link": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause",
-    "link": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
-    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
-    "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
-    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
-    "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Metabase Zero-Day Exploited in Wild Allows Admin Access Without Authentication",
-    "link": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html",
-    "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N-able Issues N-central Hotfix 2 as Attackers Reach Managed Systems and Persist",
-    "link": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html",
-    "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Progress Kemp LoadMaster Flaw Hits CISA KEV After 792 Reported Exploit Attempts",
-    "link": "https://thehackernews.com/2026/08/progress-kemp-loadmaster-flaw-hits-cisa.html",
-    "date": "2026-08-08",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "Unveiling good and bad behaviors on the Agentic Internet",
     "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
@@ -612,83 +689,6 @@
     "source": "Cloudflare",
     "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
     "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
-    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ClickFix Attacks Deliver macOS Stealer That Can Drain Crypto Wallets",
-    "link": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UNC6671 Vishing Attacks Target Personal Phones to Steal SaaS Data",
-    "link": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New WordPress Pre-Auth XSS Could Lead to PHP Code Execution - Patch ASAP",
-    "link": "https://thehackernews.com/2026/08/new-wordpress-pre-auth-xss-could-lead.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Growing Up The Hard Way",
-    "link": "https://thehackernews.com/2026/08/growing-up-hard-way.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "18-Year-Old Linux SCTP Flaw Could Let Local Users Gain Root and Escape Containers",
-    "link": "https://thehackernews.com/2026/08/18-year-old-linux-sctp-flaw-could-let.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New NatJack Attacks Hijack TCP Sessions and Spoof DNS by Manipulating NAT Tables",
-    "link": "https://thehackernews.com/2026/08/new-natjack-attacks-hijack-tcp-sessions.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft 365 AitM Phishing Hijacks Accounts to Collect Payroll and Finance Emails",
-    "link": "https://thehackernews.com/2026/08/microsoft-365-aitm-phishing-hijacks.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Assisted HTTP Terminator Finds Novel HTTP Desync Techniques and Apache Zero-Day",
-    "link": "https://thehackernews.com/2026/08/ai-assisted-http-terminator-finds-novel.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malware Can Abuse Windows Hello for Business Keys for Persistent Entra ID Access",
-    "link": "https://thehackernews.com/2026/08/malware-can-abuse-windows-hello-for.html",
-    "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
-    "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
     "date": "2026-08-07",
     "month": "2026-08"
   },
