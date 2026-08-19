@@ -1,5 +1,110 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1037/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1040/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Typo3 (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1036/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Zabbix (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1039/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (18 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1038/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "BGP Role model: tracking the adoption of RFC 9234",
+    "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ransom Busters Claims It Hacked Ransomware Servers, Asks Victims for Up to $60,000",
+    "link": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+    "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TWINLOOT Abuses SharePoint and Teams to Steal Credentials and Move Across Networks",
+    "link": "https://thehackernews.com/2026/08/twinloot-abuses-sharepoint-and-teams-to.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Attacker Has Scraped Both Salesforce and ServiceNow Portals Since 2025",
+    "link": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "16 Typosquatted RubyGems Packages Steal Browser Credentials and Crypto Wallets",
+    "link": "https://thehackernews.com/2026/08/16-typosquatted-rubygems-packages-steal.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SafePal Hardware Wallet Maker Says Flaw Exposed Data of Nearly 40,000 Customers",
+    "link": "https://thehackernews.com/2026/08/safepal-hardware-wallet-maker-says-flaw.html",
+    "date": "2026-08-18",
+    "month": "2026-08"
+  },
+  {
     "source": "The Hacker News",
     "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
     "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
@@ -400,13 +505,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1004/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Siemens (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1009/",
     "date": "2026-08-12",
@@ -414,43 +512,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SonicWall (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1006/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Ivanti (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1007/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Chrome (12 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1008/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1002/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Intel (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1005/",
-    "date": "2026-08-12",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (12 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1003/",
     "date": "2026-08-12",
     "month": "2026-08"
   },
@@ -574,62 +637,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "DeadLock Ransomware Uses Polygon Smart Contracts to Make Extortion Infra Harder to Disrupt",
-    "link": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
-    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "A Malicious SIM Card Can Run Attacker Code Inside the Modems Behind Cellular IoT Devices",
-    "link": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mozilla Revokes Firefox and Thunderbird Linux Signing Key After Key Lands in Private Repo",
-    "link": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Built a Fake Crypto Startup and Hired Three Suspected North Korean IT Workers",
-    "link": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Turn USB Auto-Install Into a Full SYSTEM Takeover on Windows 11",
-    "link": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-    "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Gunra Ransomware Exploits Fortinet FortiOS, FortiProxy Flaws to Breach Networks",
-    "link": "https://thehackernews.com/2026/08/gunra-ransomware-exploits-fortinet-and.html",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
@@ -749,13 +756,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "How we’re rethinking work at Cloudflare with Cloudflare OS",
-    "link": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os/",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -805,11 +805,11 @@
     "month": "2026-07"
   },
   {
-    "source": "Microsoft Security",
-    "title": "​​Better security starts with better questions",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/29/better-security-starts-with-better-questions/",
-    "date": "2026-07-29",
-    "month": "2026-07"
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 juin 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
+    "date": "2026-06-18",
+    "month": "2026-06"
   },
   {
     "source": "ANSSI",
