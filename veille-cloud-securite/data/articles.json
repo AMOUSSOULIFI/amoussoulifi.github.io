@@ -1,7 +1,154 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1064/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1068/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1070/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Python (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1062/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1071/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Entra ID (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1074/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Microsoft (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1073/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1066/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1069/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1067/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1063/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1065/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (21 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1061/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Say it once: introducing Bot Preference Sync",
+    "link": "https://blog.cloudflare.com/bot-preference-sync/",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
     "source": "The Hacker News",
-    "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
+    "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
+    "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Wazuh and AI For Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+    "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+    "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+    "date": "2026-08-21",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
     "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
     "date": "2026-08-21",
     "month": "2026-08"
@@ -455,34 +602,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-035 (17 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-035/",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (17 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1035/",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans SPIP (17 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (17 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1034/",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
     "source": "The Hacker News",
     "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
     "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
@@ -546,83 +665,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "SAP Commerce Cloud CVE-2026-58231 Targeted in Exploitation Attempts Days After Patch",
-    "link": "https://thehackernews.com/2026/08/sap-commerce-cloud-cve-2026-58231.html",
-    "date": "2026-08-15",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple macOS Screen Sharing Flaw Exploited on Internet-Exposed Macs to Install Monero Miner",
-    "link": "https://thehackernews.com/2026/08/apple-macos-screen-sharing-flaw.html",
-    "date": "2026-08-15",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans OpenSSL (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1026/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1028/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1027/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1029/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1031/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PostgreSQL (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1024/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1030/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1032/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Sophos (14 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1025/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "How Cloudflare detects MCP traffic and helps secure it",
     "link": "https://blog.cloudflare.com/mcp-security-updates/",
@@ -633,34 +675,6 @@
     "source": "Cloudflare",
     "title": "Secure all your internal vibe-coded applications — in one click",
     "link": "https://blog.cloudflare.com/workers-protected-by-access/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Spend Nearly $7 Million on Expired Domains to Redirect Traffic to Scams and Malware",
-    "link": "https://thehackernews.com/2026/08/hackers-spend-nearly-7-million-on.html",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "IAM Compliance Requirements and Best Practices",
-    "link": "https://thehackernews.com/2026/08/iam-compliance-requirements-and-best.html",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mustang Panda Adds Signed Windows Rootkit to CoolClient Backdoor for Stealth",
-    "link": "https://thehackernews.com/2026/08/mustang-panda-adds-signed-windows.html",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Chrome DevTools Technique Enables Authenticated Session Hijacking in Live Windows Browsers",
-    "link": "https://thehackernews.com/2026/08/chrome-devtools-technique-enables.html",
     "date": "2026-08-14",
     "month": "2026-08"
   },
@@ -683,13 +697,6 @@
     "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
     "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-034 (10 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-034/",
-    "date": "2026-08-10",
     "month": "2026-08"
   },
   {
@@ -780,13 +787,6 @@
     "source": "Cloudflare",
     "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
     "link": "https://blog.cloudflare.com/kitesurf/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Give any website a WebMCP interface",
-    "link": "https://blog.cloudflare.com/webmcp/",
     "date": "2026-08-06",
     "month": "2026-08"
   },
