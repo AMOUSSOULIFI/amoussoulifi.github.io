@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
+    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
+    "date": "2026-08-22",
+    "month": "2026-08"
+  },
+  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
@@ -654,13 +661,6 @@
     "source": "The Hacker News",
     "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
     "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected China-Nexus Actor Exploits VMware vCenter Flaw, Deploys Babuk-Derived Ransomware",
-    "link": "https://thehackernews.com/2026/08/suspected-china-nexus-actor-exploits.html",
     "date": "2026-08-17",
     "month": "2026-08"
   },
