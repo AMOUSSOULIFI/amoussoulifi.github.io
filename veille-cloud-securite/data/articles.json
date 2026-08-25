@@ -1,6 +1,97 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
+    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+    "date": "2026-08-25",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-036 (24 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-036/",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (24 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1076/",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Metabase (24 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1075/",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "link": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
+    "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
+    "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
+    "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
+    "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
+    "link": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+    "link": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "date": "2026-08-24",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
     "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
     "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
     "date": "2026-08-22",
@@ -316,13 +407,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Axis (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1042/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle MySQL (19 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1049/",
     "date": "2026-08-19",
@@ -395,13 +479,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Systems (19 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1051/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Synacor Zimbra Collaboration (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1041/",
     "date": "2026-08-19",
     "month": "2026-08"
   },
@@ -497,41 +574,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1037/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1040/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Typo3 (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1036/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Zabbix (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1039/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (18 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1038/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
@@ -602,65 +644,9 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Flags Actively Exploited Ray Flaw That Can Trigger Browser-Based RCE",
-    "link": "https://thehackernews.com/2026/08/cisa-flags-actively-exploited-ray-flaw.html",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical GitLab GraphQL Flaw Could Let Unauthenticated Attackers Delete Public Projects",
-    "link": "https://thehackernews.com/2026/08/critical-gitlab-graphql-flaw-could-let.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Snowflake GitHub Actions Flaw Lets Crafted Issues Trigger Command Injection",
-    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets_0330881554.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Forminator WordPress Flaw Can Enable Unauthenticated RCE via Malicious PHP Uploads",
-    "link": "https://thehackernews.com/2026/08/forminator-wordpress-flaw-can-enable.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cavern C2 Uses DNS and Google Apps Script to Blend Into Legitimate Traffic",
-    "link": "https://thehackernews.com/2026/08/cavern-c2-uses-dns-and-google-apps.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "How MCP Servers Can Expose Enterprise Secrets",
-    "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Unisoc VoLTE Video Call Exploit Chain Can Give Attackers Full Android Kernel Access",
-    "link": "https://thehackernews.com/2026/08/unisoc-volte-video-call-exploit-chain.html",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Evooo1Bot Linux Botnet Exploits Known Flaws to Turn Edge Devices Into SOCKS5 Proxies",
-    "link": "https://thehackernews.com/2026/08/evooo1bot-linux-botnet-exploits-known.html",
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SPIP (17 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
     "date": "2026-08-17",
     "month": "2026-08"
   },
@@ -690,6 +676,13 @@
     "title": "Certificate Transparency Monitoring is now generally available",
     "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
     "date": "2026-08-13",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
+    "date": "2026-08-11",
     "month": "2026-08"
   },
   {
@@ -784,13 +777,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "Introducing Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
-    "link": "https://blog.cloudflare.com/kitesurf/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -834,9 +820,23 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Desktop App (18 juin 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0777/",
-    "date": "2026-06-18",
-    "month": "2026-06"
+    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
+    "date": "2026-07-20",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-006/",
+    "date": "2026-07-15",
+    "month": "2026-07"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
+    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-010/",
+    "date": "2025-09-11",
+    "month": "2025-09"
   }
 ]
