@@ -1,5 +1,229 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (27 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans CPython (27 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
+    "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Next.js Patches Critical AVIF and Windows Flaws Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/nextjs-patches-critical-avif-and.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
+    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
+    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
+    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
+    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "What the Data Says About AI in Security Operations in 2026",
+    "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
+    "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
+    "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
+    "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
+    "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Veeam (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1080/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSL (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1079/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apereo CAS (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1082/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SonicWall NetExtender (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1084/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Redmine (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1085/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1081/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache Tomcat (26 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1083/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "When AI infrastructure becomes the target: Securing gateways and control points",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
+    "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
+    "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
+    "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
+    "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
+    "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
+    "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
+    "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
+    "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
+    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
+    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
+    "date": "2026-08-26",
+    "month": "2026-08"
+  },
+  {
     "source": "The Hacker News",
     "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
     "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
@@ -406,177 +630,9 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
-    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
-    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
-    "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
-    "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
-    "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Zombie Card Attack Can Revive Expired Visa Cards for Contactless Payments",
-    "link": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
-    "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
-    "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
-    "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NASA AIT-GUI Flaws Could Let Unauthenticated Attackers Issue Spacecraft Commands",
-    "link": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ToxicPanda 2.0 and GoldDigger Expand Android Banking Attacks with On-Device Fraud",
-    "link": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "40 Malicious Firefox Extensions Pose as Web3 Products to Steal Wallet Secrets",
-    "link": "https://thehackernews.com/2026/08/40-malicious-firefox-extensions-pose-as.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Elementor Pro Flaw Could Let Unauthenticated Attackers Upload PHP and Execute Code",
-    "link": "https://thehackernews.com/2026/08/elementor-pro-flaw-could-let.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1049/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Moxa (19 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1055/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1052/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1047/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1048/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1050/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1053/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1054/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1051/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1045/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Joomla! (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1046/",
     "date": "2026-08-19",
     "month": "2026-08"
   },
@@ -591,48 +647,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft named a Leader in the Frost Radar™: Cloud Workload Protection Platforms, 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/19/microsoft-named-a-leader-in-the-frost-radar-cloud-workload-protection-platforms-2026/",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cloudflare Workers Spectre Attack Leaks JWT From Co-Located Worker at 12 Bits/Second",
-    "link": "https://thehackernews.com/2026/08/cloudflare-workers-spectre-attack-leaks.html",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
-    "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SilkParasite Espionage Campaign Targets Central Asian Governments with Five New RATs",
-    "link": "https://thehackernews.com/2026/08/silkparasite-espionage-campaign-targets.html",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Compromised 14,500+ Dahua Devices Using Credential Attacks, Auth Bypasses, and P2P",
-    "link": "https://thehackernews.com/2026/08/hackers-compromised-14500-dahua-devices.html",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
-    "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
-    "date": "2026-08-19",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "StopAndProtect Uses Nearly 2,000 Hacked WordPress Sites to Spread Malware and Steal Data",
-    "link": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
     "date": "2026-08-19",
     "month": "2026-08"
   },
@@ -777,13 +791,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
-    "link": "https://blog.cloudflare.com/the-agentic-internet/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -808,13 +815,6 @@
     "source": "Microsoft Security",
     "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
-    "date": "2026-08-04",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "128 Seconds to disruption: Microsoft Defender stops ransomware at QNET",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/129-seconds-disruption-microsoft-defender-stops-ransomware-qnet/",
     "date": "2026-08-04",
     "month": "2026-08"
   },
