@@ -1,6 +1,139 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Enclave Security (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1092/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1094/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1093/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Papercut (28 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1095/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
+    "link": "https://blog.cloudflare.com/botbase-for-operators/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
+    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
+    "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
+    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
+    "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+    "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Key Reasons Why Identity Fabric Matters in 2026",
+    "link": "https://thehackernews.com/2026/08/key-reasons-why-identity-fabric-matters.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Made ZBT Routers Ship With Two Implants Giving Unauthenticated Attackers Root Access",
+    "link": "https://thehackernews.com/2026/08/china-made-zbt-routers-ship-with-two.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical cPanel Flaw Could Let One Hosting Customer Take Root Control of a Whole Server",
+    "link": "https://thehackernews.com/2026/08/critical-cpanel-flaw-could-let-one.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PaperCut Zero-Day Exploited in Attacks, Affecting All NG and MF Versions",
+    "link": "https://thehackernews.com/2026/08/papercut-zero-day-exploited-in-attacks.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT28-Linked HOOKEDGE Backdoor Targets European Government and Diplomatic Organizations",
+    "link": "https://thehackernews.com/2026/08/apt28-linked-hookedge-backdoor-targets.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Traefik (27 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
     "date": "2026-08-27",
@@ -17,6 +150,20 @@
     "source": "Cloudflare",
     "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
     "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "​​​​​​What’s new in Microsoft Security: August 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
+    "date": "2026-08-27",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Says Reward Hacking Drove AI Agents to Exploit Zero-Days and Breach Hugging Face",
+    "link": "https://thehackernews.com/2026/08/openai-says-reward-hacking-drove-ai.html",
     "date": "2026-08-27",
     "month": "2026-08"
   },
@@ -399,27 +546,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
-    "link": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
-    "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TikTok Agrees to $400 Million Settlement in U.S. Child Privacy Lawsuit",
-    "link": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html",
-    "date": "2026-08-22",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
@@ -511,13 +637,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1061/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "Say it once: introducing Bot Preference Sync",
     "link": "https://blog.cloudflare.com/bot-preference-sync/",
@@ -525,115 +644,10 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
-    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Defender's Own Driver Can Be Weaponized to Delete Security Software at Boot",
-    "link": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Android Car Malware Spreads Through Built-In Updaters for Ad Fraud, Proxy Botnet",
-    "link": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Wazuh and AI For Enhanced SOC Workflows",
-    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
-    "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
-    "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Patches Severe Entra ID Flaw (CVSS 10.0) Allowing Remote Code Execution",
-    "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Citrix (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1059/",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1058/",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Ceph (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1057/",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1060/",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Splunk (20 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1056/",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "From all-or-nothing to task-based OAuth consent",
     "link": "https://blog.cloudflare.com/task-based-oauth-consent/",
     "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
-    "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Suspected Russian Hackers Abuse Google OAuth and WhatsApp Linking to Hijack Accounts",
-    "link": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html",
-    "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Moxa (19 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1055/",
-    "date": "2026-08-19",
     "month": "2026-08"
   },
   {
@@ -784,13 +798,6 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "From ranking to recommended: get your site ready to thrive in the age of AI agents",
-    "link": "https://blog.cloudflare.com/aeo/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
@@ -808,13 +815,6 @@
     "source": "Microsoft Security",
     "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-    "date": "2026-08-04",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
     "date": "2026-08-04",
     "month": "2026-08"
   },
