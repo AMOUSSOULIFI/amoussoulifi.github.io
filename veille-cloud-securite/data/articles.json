@@ -1,5 +1,12 @@
 [
   {
+    "source": "Microsoft Security",
+    "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
+    "date": "2026-08-29",
+    "month": "2026-08"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (28 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
@@ -52,6 +59,20 @@
     "source": "Cloudflare",
     "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
     "link": "https://blog.cloudflare.com/botbase-for-operators/",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
+    "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
+    "date": "2026-08-28",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
     "date": "2026-08-28",
     "month": "2026-08"
   },
@@ -532,20 +553,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical Keycloak Password Reset Flaw Could Let Unauthenticated Attackers Take Over Any Account",
-    "link": "https://thehackernews.com/2026/08/critical-keycloak-password-reset-flaw.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Operation QUICSILVER Targets Myanmar Government and IT with QUICAgent Backdoor",
-    "link": "https://thehackernews.com/2026/08/operation-quicsilver-targets-myanmar.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
@@ -809,13 +816,6 @@
     "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
     "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "ChainDrop supply chain compromise: Anatomy of a self-propagating worm",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/chaindrop-supply-chain-compromise-anatomy-self-propagating-worm/",
-    "date": "2026-08-04",
     "month": "2026-08"
   },
   {
