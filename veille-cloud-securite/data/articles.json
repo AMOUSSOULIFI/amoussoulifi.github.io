@@ -1,8 +1,22 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
+    "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
+    "date": "2026-08-30",
+    "month": "2026-08"
+  },
+  {
     "source": "Microsoft Security",
     "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
+    "date": "2026-08-29",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
     "date": "2026-08-29",
     "month": "2026-08"
   },
@@ -535,20 +549,6 @@
     "source": "The Hacker News",
     "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
     "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: AI-Powered PLC Attacks, GitLab Attacks, Stripe Key Leaks and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-ai-powered-plc-attacks.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordlistLoader Delivers Amatera via ClickFix, SynkLoader Phishes Windows Passwords",
-    "link": "https://thehackernews.com/2026/08/wordlistloader-delivers-amatera-via.html",
     "date": "2026-08-24",
     "month": "2026-08"
   },
