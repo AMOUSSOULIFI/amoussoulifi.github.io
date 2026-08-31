@@ -1,5 +1,75 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-037 (31 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-037/",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Tenable (31 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1097/",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (31 août 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1096/",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+    "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
+    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
+    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
+    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
+    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
+    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
     "source": "The Hacker News",
     "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
     "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
@@ -483,34 +553,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "E4del and PINHOLE RATs Turn FTP Banners Into Dead Drops for Malware Commands",
-    "link": "https://thehackernews.com/2026/08/e4del-and-pinhole-rats-turn-ftp-banners.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Frontier AI: Vulnerability Management's Systemic Revolution",
-    "link": "https://thehackernews.com/2026/08/frontier-ai-vulnerability-managements.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Target miniOrange SAML Flaws That Can Grant WordPress Admin Access",
-    "link": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Actively Exploited Oracle WebLogic Flaw Lets Unauthenticated Attackers Access Critical Data",
-    "link": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-036 (24 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-036/",
@@ -539,30 +581,9 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Shipping More AI Code Than You Can Secure? Watch How to Control Remediation Debt",
-    "link": "https://thehackernews.com/2026/08/shipping-more-ai-code-than-you-can.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Weedhack Malware Spreads via Fake Minecraft Clients and SEO Poisoning",
-    "link": "https://thehackernews.com/2026/08/weedhack-malware-spreads-via-fake.html",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1064/",
     "date": "2026-08-21",
     "month": "2026-08"
   },
@@ -577,13 +598,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Traefik (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1070/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Python (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1062/",
     "date": "2026-08-21",
     "month": "2026-08"
   },
@@ -633,13 +647,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans SPIP (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1063/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1065/",
     "date": "2026-08-21",
     "month": "2026-08"
   },
@@ -794,13 +801,6 @@
     "source": "Cloudflare",
     "title": "Cloudflare AI Search: give your agents a search engine for your data",
     "link": "https://blog.cloudflare.com/ai-search-easier/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The next generation of MCP",
-    "link": "https://blog.cloudflare.com/mcp-v2/",
     "date": "2026-08-06",
     "month": "2026-08"
   },
