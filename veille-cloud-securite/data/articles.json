@@ -1,5 +1,33 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
+    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
+    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
+    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-037 (31 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-037/",
@@ -22,8 +50,15 @@
   },
   {
     "source": "Cloudflare",
-    "title": "Introducing Adaptive Intelligence: undermining the economics of every bot attack",
+    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
+    "date": "2026-08-31",
+    "month": "2026-08"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
+    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
     "date": "2026-08-31",
     "month": "2026-08"
   },
@@ -518,41 +553,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw",
-    "link": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WhatsApp Adds Multiple Passkeys for Phishing-Resistant Sign-Ins Across iOS and Android",
-    "link": "https://thehackernews.com/2026/08/whatsapp-adds-multiple-passkeys-for.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode",
-    "link": "https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mirage2FA Surge Hits 4,500 US and EU Companies, Abusing Microsoft 365 Login Flows",
-    "link": "https://thehackernews.com/2026/08/mirage2fa-surge-hits-4500-us-and-eu.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "24 npm Packages Abuse unpkg Mirrors to Host Fake Cloudflare CAPTCHA Pages",
-    "link": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-036 (24 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-036/",
@@ -575,7 +575,7 @@
   },
   {
     "source": "Cloudflare",
-    "title": "The Cloudflare Blog – Brought to you by EmDash",
+    "title": "The Cloudflare Blog — brought to you by EmDash",
     "link": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
     "date": "2026-08-24",
     "month": "2026-08"
@@ -652,7 +652,7 @@
   },
   {
     "source": "Cloudflare",
-    "title": "Say it once: introducing Bot Preference Sync",
+    "title": "Say it once: Introducing Bot Preference Sync",
     "link": "https://blog.cloudflare.com/bot-preference-sync/",
     "date": "2026-08-21",
     "month": "2026-08"
