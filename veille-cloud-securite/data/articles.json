@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GeoNetwork Fixes Unauthenticated RCE Chain Affecting Government Geoportal Backends",
+    "link": "https://thehackernews.com/2026/09/geonetwork-fixes-unauthenticated-rce.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Extradited Russian Hacker Faces Charges Over Excel Malware Campaign That Infected Thousands",
+    "link": "https://thehackernews.com/2026/09/extradited-russian-hacker-faces-charges.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Use Claude to Port Pre-Auth RCE Exploit From One PLC Model to Another",
+    "link": "https://thehackernews.com/2026/09/researchers-use-claude-to-port-pre-auth.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Critical Switchvox Flaw to Deploy Reverse Shells Without Credentials",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-switchvox.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Authorities Turn Sality's P2P Network Against Itself, Cutting Off New Malware Payloads",
+    "link": "https://thehackernews.com/2026/09/authorities-turn-salitys-p2p-network.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1102/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mozilla Firefox pour iOS (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1099/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Kaspersky Endpoint Security Windows (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1101/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans JFrog Artifactory (01 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1100/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+    "link": "https://blog.cloudflare.com/cache-transcoding/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Cybersecurity IR Workshop: The workshop you shouldn’t miss",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
+    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
+    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
+    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
+    "date": "2026-09-01",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
     "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
     "date": "2026-09-01",
@@ -462,69 +588,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Red Team Compromised Two Critical Infrastructure Orgs, One Detected Nothing",
-    "link": "https://thehackernews.com/2026/08/cisa-red-team-compromised-two-critical.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Unpatched Kaltura mwEmbed Flaws Could Let Remote Attackers Read Files and Run Code",
-    "link": "https://thehackernews.com/2026/08/unpatched-kaltura-mwembed-flaws-could.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Imagine the SOC Without a Queue: From Alert Backlog to AI Hypothesis Engine",
-    "link": "https://thehackernews.com/2026/08/imagine-soc-without-queue-from-alert.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Claude Opus 4.6 Bypasses Gym Booking Limit, Cancels Other Users' Reservations in Tests",
-    "link": "https://thehackernews.com/2026/08/claude-opus-46-bypasses-gym-booking.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Bans Russian ChatGPT Accounts Used to Run Influence Operation",
-    "link": "https://thehackernews.com/2026/08/openai-bans-russian-chatgpt-accounts.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INTERPOL Operation Jackal IV Arrests 58, Identifies 263 in Global Cyber Fraud Crackdown",
-    "link": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New SLEEPWALKER Backdoor Waits for One Crafted Packet, Then Runs Its Own Bytecode",
-    "link": "https://thehackernews.com/2026/08/newly-sleepwalker-backdoor-waits-for.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Gitea RCE Actively Exploited as Reported Attack Drops Miner-Like Payload",
-    "link": "https://thehackernews.com/2026/08/critical-gitea-rce-actively-exploited.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake Apple Support AI Calls Target Stolen-Device Owners for Passcodes and 2FA Codes",
-    "link": "https://thehackernews.com/2026/08/fake-apple-support-ai-calls-target.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Keycloak (25 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1078/",
@@ -542,13 +605,6 @@
     "source": "Microsoft Security",
     "title": "The patch window is collapsing: Why security needs a new control plane",
     "link": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane/",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Sanctions Iran-Linked Hackers Behind Critical Infrastructure Breaches",
-    "link": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
     "date": "2026-08-25",
     "month": "2026-08"
   },
@@ -589,20 +645,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1068/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1070/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1071/",
     "date": "2026-08-21",
@@ -619,27 +661,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Microsoft (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1073/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1066/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1069/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1067/",
     "date": "2026-08-21",
     "month": "2026-08"
   },
@@ -795,27 +816,6 @@
     "title": "Unifying Workers AI and AI Gateway into a single AI control plane",
     "link": "https://blog.cloudflare.com/workers-ai-gateway-unification/",
     "date": "2026-08-07",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare AI Search: give your agents a search engine for your data",
-    "link": "https://blog.cloudflare.com/ai-search-easier/",
-    "date": "2026-08-06",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "​​Microsoft named a Leader in the KuppingerCole Leadership Compass for Cloud Native Application Protection Platforms (CNAPP)",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/microsoft-named-a-leader-in-the-kuppingercole-leadership-compass-for-cloud-native-application-protection-platforms-cnapp/",
-    "date": "2026-08-05",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "From open lures to cloaked gates: How a macOS ClickFix campaign learned to hide",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/05/macos-clickfix-campaign-learned-hide/",
-    "date": "2026-08-05",
     "month": "2026-08"
   },
   {
