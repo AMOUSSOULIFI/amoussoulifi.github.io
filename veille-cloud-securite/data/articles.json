@@ -1,6 +1,146 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Turn Trusted Node.js Runtime Into Malware Delivery Tool in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/attackers-turn-trusted-nodejs-runtime.html",
+    "date": "2026-09-03",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+    "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+    "date": "2026-09-03",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Pegasus Zero-Click Spyware Exploit Infects Serbian Student Movement Member's iPhone",
+    "link": "https://thehackernews.com/2026/09/pegasus-zero-click-spyware-exploit.html",
+    "date": "2026-09-03",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Releases FalconFlank PoC Showing Privilege Escalation in CrowdStrike Falcon",
+    "link": "https://thehackernews.com/2026/09/researcher-releases-falconflank-poc.html",
+    "date": "2026-09-03",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Adds Seven Exploited Flaws as Attackers Deploy Reverse Shells and Crypto Miners",
+    "link": "https://thehackernews.com/2026/09/cisa-adds-seven-exploited-flaws-as.html",
+    "date": "2026-09-03",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1107/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1104/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mozilla (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1106/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1105/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Curl (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1108/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1103/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Impersonating IT support: how threat actors turn a remote session into enterprise-wide access",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/02/impersonating-it-support-threat-actors-turn-remote-session-into-enterprise-wide-access/",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake Software Installers Disable Windows Update and Weaken Microsoft Defender",
+    "link": "https://thehackernews.com/2026/09/fake-software-installers-disable.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious Apache Modules Hijack Brazilian Government Site Traffic to Push Betting Pages",
+    "link": "https://thehackernews.com/2026/09/malicious-apache-modules-hijack.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BGP Hijack Delivers Malicious Virtualizor Update That Establishes Persistent Root Access",
+    "link": "https://thehackernews.com/2026/09/bgp-hijack-delivers-malicious.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Meta Ads Push StreamRat Android Trojan That Can Gain Near-Complete Device Control",
+    "link": "https://thehackernews.com/2026/09/meta-ads-push-streamrat-android-trojan.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+    "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+    "date": "2026-09-02",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Exploit Two SonicWall SMA 1000 Zero-Days That May Form an Attack Chain",
     "link": "https://thehackernews.com/2026/09/attackers-exploit-two-sonicwall-sma.html",
     "date": "2026-09-02",
@@ -441,69 +581,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: 296K IoT Botnet, 100+ Water Systems Targeted, SharePoint RCE Chain + 27 New Stories",
-    "link": "https://thehackernews.com/2026/08/threatsday-296k-iot-botnet-100-water.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Amazon Kiro Prompt Injection Can Exfiltrate Sensitive Data Through Kiro Powers",
-    "link": "https://thehackernews.com/2026/08/amazon-kiro-prompt-injection-can.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Learn How to Build Security Operations Ready for AI-Powered Attacks",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Alleged TeamPCP Hackers Charged in Australia Over Major Supply Chain Attacks",
-    "link": "https://thehackernews.com/2026/08/alleged-teampcp-hackers-charged-in.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "What the Data Says About AI in Security Operations in 2026",
-    "link": "https://thehackernews.com/2026/08/what-data-says-about-ai-in-security.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Spark RAT Targets Cambodia, Abuses Vulnerable OPSWAT Driver to Disable Security Tools",
-    "link": "https://thehackernews.com/2026/08/spark-rat-targets-cambodia-abuses.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GoCaracal Malware Uses Ethereum Smart Contract to Fetch Replacement C2 Address",
-    "link": "https://thehackernews.com/2026/08/gocaracal-malware-uses-ethereum-smart.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New GPUThor Rowhammer Defeats ECC on NVIDIA RTX A6000 to Gain Host Root Access",
-    "link": "https://thehackernews.com/2026/08/gputhor-rowhammer-defeats-ecc-on-nvidia.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Six Exploited Flaws to KEV, Including NetScaler, Linux, and SQL Server Bugs",
-    "link": "https://thehackernews.com/2026/08/cisa-adds-six-exploited-flaws-to-kev.html",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Veeam (26 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1080/",
@@ -567,27 +644,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "FBI Disrupts China-Linked QTFY Infrastructure Used to Steal Data From U.S. Organizations",
-    "link": "https://thehackernews.com/2026/08/fbi-disrupts-china-linked-qtfy.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Nimbus Manticore Expands Toolset With TWOSTROKE-Like Backdoor and SSH Tunneler",
-    "link": "https://thehackernews.com/2026/08/nimbus-manticore-expands-toolset-with.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "NovaCookies Campaigns Abuse Genuine Docusign Notifications to Steal Microsoft 365 Sessions",
-    "link": "https://thehackernews.com/2026/08/novacookies-campaigns-abuse-genuine.html",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Keycloak (25 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1078/",
@@ -623,13 +679,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Metabase (24 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1075/",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "The Cloudflare Blog — brought to you by EmDash",
     "link": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
@@ -638,36 +687,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Office (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1072/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1071/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Microsoft Entra ID (21 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1074/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1073/",
-    "date": "2026-08-21",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans SPIP (21 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1063/",
     "date": "2026-08-21",
     "month": "2026-08"
   },
@@ -714,13 +735,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans SPIP (17 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1033/",
-    "date": "2026-08-17",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "How Cloudflare detects MCP traffic and helps secure it",
     "link": "https://blog.cloudflare.com/mcp-security-updates/",
@@ -749,13 +763,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (11 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0995/",
-    "date": "2026-08-11",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare DDoS Threat Report H1 2026: 1 Tbps attacks soar as DNS floods and geopolitical tensions drive a new wave",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/",
@@ -780,13 +787,6 @@
     "source": "Microsoft Security",
     "title": "Microsoft named a Leader in the 2026 IDC MarketScape for MDR/MXDR for the Enterprise",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/microsoft-named-a-leader-in-the-2026-idc-marketscape-for-mdr-mxdr-for-the-enterprise/",
-    "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "DeadLock ransomware: Breaking down a Rust-based encryptor with decentralized recovery infrastructure",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/10/deadlock-ransomware-breaking-down-a-rust-based-encryptor-with-decentralized-recovery-infrastructure/",
     "date": "2026-08-10",
     "month": "2026-08"
   },
