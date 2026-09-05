@@ -1,6 +1,118 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
+    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1117/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1115/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1119/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1118/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1114/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1120/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1116/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1121/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1112/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Elastic Kibana (04 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1113/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "How to secure edge AI in customer-owned environments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
+    "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
+    "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
+    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
+    "date": "2026-09-04",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
     "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
     "date": "2026-09-04",
@@ -553,41 +665,6 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
-    "link": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Chain Two PaperCut Flaws to Execute Code Without Authentication",
-    "link": "https://thehackernews.com/2026/08/attackers-chain-two-papercut-flaws-to.html",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Android 17 Adds OS-Wide ECH to Hide Website Visits From Network Providers",
-    "link": "https://thehackernews.com/2026/08/android-17-adds-os-wide-ech-to-hide.html",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Research Body",
-    "link": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "19 Chrome and Edge Extensions Found With Wallet-Stealing and Crypto-Draining Code",
-    "link": "https://thehackernews.com/2026/08/19-chrome-and-edge-extensions-found.html",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Traefik (27 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
@@ -617,29 +694,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Veeam (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1080/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans OpenSSL (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1079/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GitLab (26 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Apereo CAS (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1082/",
     "date": "2026-08-26",
     "month": "2026-08"
   },
@@ -658,38 +714,10 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1081/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1083/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "When AI infrastructure becomes the target: Securing gateways and control points",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
     "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Keycloak (25 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1078/",
-    "date": "2026-08-25",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Cisco IOS XE (25 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1077/",
-    "date": "2026-08-25",
     "month": "2026-08"
   },
   {
@@ -738,13 +766,6 @@
     "source": "Cloudflare",
     "title": "BGP Role model: tracking the adoption of RFC 9234",
     "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Hunting MacSync Stealer infrastructure through behavioral pivots",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/18/hunting-macsync-stealer-infrastructure-through-behavioral-pivots/",
     "date": "2026-08-18",
     "month": "2026-08"
   },
@@ -817,26 +838,5 @@
     "link": "https://blog.cloudflare.com/community-program-refresh/",
     "date": "2026-08-07",
     "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
-    "date": "2026-07-20",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-006/",
-    "date": "2026-07-15",
-    "month": "2026-07"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2025-CTI-010/",
-    "date": "2025-09-11",
-    "month": "2025-09"
   }
 ]
