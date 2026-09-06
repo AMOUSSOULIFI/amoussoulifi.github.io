@@ -1,6 +1,48 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
+    "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
+    "date": "2026-09-06",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Four REVSTEALER-Linked Modules Disable Windows Update and Defender to Run a Crypto Miner",
+    "link": "https://thehackernews.com/2026/09/four-revstealer-linked-modules-disable.html",
+    "date": "2026-09-06",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Magento and Adobe Commerce Zero-Day Exploited to Backdoor Online Stores",
+    "link": "https://thehackernews.com/2026/09/unpatched-magento-and-adobe-commerce.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+    "link": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical VMware Workstation and Fusion Flaw Lets VM Admins Execute Host Code",
+    "link": "https://thehackernews.com/2026/09/critical-vmware-workstation-and-fusion.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trezor Says ShipMonk Breach Exposed 67,000 U.S. Customers' Data It Said Was Deleted",
+    "link": "https://thehackernews.com/2026/09/trezor-says-shipmonk-breach-exposed.html",
+    "date": "2026-09-05",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
     "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
     "date": "2026-09-05",
@@ -560,44 +602,9 @@
     "month": "2026-08"
   },
   {
-    "source": "The Hacker News",
-    "title": "Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance",
-    "link": "https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Fire Ant Hijacks Cisco Routers to Steal Credentials and Blind Security Logs",
-    "link": "https://thehackernews.com/2026/08/china-linked-fire-ant-hijacks-cisco.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DoJ Corrects China Hacking Claim, Says U.S. Agencies Were Targets, Not Victims",
-    "link": "https://thehackernews.com/2026/08/doj-corrects-china-hacking-claim-says.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TerminalFix Uses Fake Cloudflare CAPTCHAs to Deploy Reverse-Tunnel Backdoor",
-    "link": "https://thehackernews.com/2026/08/terminalfix-uses-fake-cloudflare.html",
-    "date": "2026-08-30",
-    "month": "2026-08"
-  },
-  {
     "source": "Microsoft Security",
     "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
-    "date": "2026-08-29",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
-    "link": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
     "date": "2026-08-29",
     "month": "2026-08"
   },
@@ -654,13 +661,6 @@
     "source": "Cloudflare",
     "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
     "link": "https://blog.cloudflare.com/botbase-for-operators/",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Berlin Refuses to Pay Hackers Who Stole Data From the City's State Network",
-    "link": "https://thehackernews.com/2026/08/berlin-refuses-to-pay-hackers-who-stole.html",
     "date": "2026-08-28",
     "month": "2026-08"
   },
