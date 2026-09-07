@@ -1,6 +1,41 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
+    "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Rogue ScreenConnect Clients Spread Four-Stage VBScript Chain to Newly Connected Hosts",
+    "link": "https://thehackernews.com/2026/09/rogue-screenconnect-clients-spread-four.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Telerik UI Padding-Oracle Bug Chained to Unauthenticated RCE — Public Exploit Released",
+    "link": "https://thehackernews.com/2026/09/telerik-ui-padding-oracle-bug-chained.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N-able Issues Fourth N-central Hotfix in Five Weeks for Unauthenticated RCE Flaw",
+    "link": "https://thehackernews.com/2026/09/n-able-issues-fourth-n-central-hotfix.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JSCeal Malware Can Bypass Google Authentication Using Stolen Session Cookies",
+    "link": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Attackers Hijack MikroTik Routers Through Internet-Exposed SSH Without Authentication",
     "link": "https://thehackernews.com/2026/09/attackers-hijack-mikrotik-routers.html",
     "date": "2026-09-06",
@@ -539,13 +574,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Critical Langflow and Rails Flaws in Credential-Probing and C2 Activity",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-langflow-and.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-037 (31 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-037/",
@@ -570,34 +598,6 @@
     "source": "Cloudflare",
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "North Korean Job Fraud Expands Beyond IT Into Healthcare and Sales",
-    "link": "https://thehackernews.com/2026/08/north-korean-job-fraud-expands-beyond.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: Chinese Spy Proxy, AI Agents Go Off-Task, Router Backdoors and More",
-    "link": "https://thehackernews.com/2026/08/weekly-recap-chinese-spy-proxy-ai.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ValleyRAT Backdoor Hides in Signed Adware That Users Add to Antivirus Exclusions",
-    "link": "https://thehackernews.com/2026/08/valleyrat-backdoor-hides-in-signed.html",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Aurora Ransomware Operators Use Cursor AI in Attacks Against 10 Targets",
-    "link": "https://thehackernews.com/2026/08/aurora-ransomware-operators-use-cursor.html",
     "date": "2026-08-31",
     "month": "2026-08"
   },
