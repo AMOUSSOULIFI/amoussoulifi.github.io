@@ -1,6 +1,104 @@
 [
   {
     "source": "The Hacker News",
+    "title": "FreeIPA Flaw Chain Lets Anonymous Clients Create Reusable Administrator Credentials",
+    "link": "https://thehackernews.com/2026/09/freeipa-flaw-chain-lets-anonymous.html",
+    "date": "2026-09-08",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+    "link": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+    "date": "2026-09-08",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BengalSEO Poisons Bing Search Results to Deliver MayaBot and Tech Support Scams",
+    "link": "https://thehackernews.com/2026/09/bengalseo-poisons-bing-search-results.html",
+    "date": "2026-09-08",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Grindr to Pay £26 Million to Settle U.K. Claims Over HIV Status Data Sharing",
+    "link": "https://thehackernews.com/2026/09/grindr-to-pay-26-million-to-settle-uk.html",
+    "date": "2026-09-08",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-038 (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-038/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1125/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube Webmail (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1124/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1123/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Traefik (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1127/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Belden HiOS Switch Platform (07 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1126/",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PEEP Turns Chrome and Edge Into Post-Compromise Backdoors for Host Command Execution",
+    "link": "https://thehackernews.com/2026/09/peep-turns-chrome-and-edge-into-post.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake IT Calls Target Executives in Microsoft 365 Data Theft and Extortion Attacks",
+    "link": "https://thehackernews.com/2026/09/microsoft-365-attackers-use-help-desk.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Chrome 0-Day, Router Hijacks, Coder Supply Chain Attack and More",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-chrome-0-day-router.html",
+    "date": "2026-09-07",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Your Cloud Security Checklist Doesn't Work the Way You Think It Does",
     "link": "https://thehackernews.com/2026/09/your-cloud-security-checklist-doesnt.html",
     "date": "2026-09-07",
@@ -525,55 +623,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Breeze Comet Executes Hundreds of Fraudulent Transactions via Brazilian Payment Systems",
-    "link": "https://thehackernews.com/2026/09/breeze-comet-executes-hundreds-of.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "13 Malicious Packagist Packages Target Unpatched iPhones to Steal Crypto Wallet Seeds",
-    "link": "https://thehackernews.com/2026/09/13-malicious-packagist-packages-target.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iranian Hackers Pose as Recruiters to Deliver Cross-Platform RATs Through Coding Tests",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-pose-as-recruiters-to.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Threat Actors Don’t Want Better Attacks. They Want Repeatable Ones",
-    "link": "https://thehackernews.com/2026/09/threat-actors-dont-want-better-attacks.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Steal METR API Key and Consume AI Credits Worth About $600,000",
-    "link": "https://thehackernews.com/2026/09/attackers-steal-metr-api-key-and.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russia-Aligned UAC-0099 Plants Nuclear Weapon Prompt in Malware to Disrupt AI Analysis",
-    "link": "https://thehackernews.com/2026/09/russia-aligned-uac-0099-plants-nuclear.html",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-037 (31 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-037/",
@@ -610,22 +659,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (28 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1090/",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (28 août 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1091/",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Tenable Enclave Security (28 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1089/",
     "date": "2026-08-28",
     "month": "2026-08"
   },
@@ -665,20 +700,6 @@
     "month": "2026-08"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (27 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1088/",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (27 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1087/",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
     "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
@@ -690,27 +711,6 @@
     "title": "​​​​​​What’s new in Microsoft Security: August 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
     "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1086/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SonicWall NetExtender (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1084/",
-    "date": "2026-08-26",
-    "month": "2026-08"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Redmine (26 août 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1085/",
-    "date": "2026-08-26",
     "month": "2026-08"
   },
   {
