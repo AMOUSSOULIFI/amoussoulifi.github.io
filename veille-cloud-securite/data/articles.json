@@ -1,6 +1,167 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
+    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
+    "date": "2026-09-11",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
+    "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
+    "date": "2026-09-11",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
+    "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
+    "date": "2026-09-11",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
+    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
+    "date": "2026-09-11",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Laravel (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1153/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Apereo CAS (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1150/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1155/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB Server (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1157/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Check Point (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1152/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking ClearPass Policy Manager (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1151/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Edge (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1159/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1156/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Veeam (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1154/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Android (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1158/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
+    "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
+    "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+    "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+    "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
+    "date": "2026-09-10",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
     "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
     "date": "2026-09-10",
@@ -386,13 +547,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube Webmail (07 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1122/",
-    "date": "2026-09-07",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Juniper Networks (07 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1124/",
     "date": "2026-09-07",
@@ -518,142 +672,9 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Thousands of OpenAI Agents Quietly Turned an Abandoned Wiki Into Their Coordination Channel",
-    "link": "https://thehackernews.com/2026/09/thousands-of-openai-agents-quietly.html",
-    "date": "2026-09-05",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit PaperCut Flaws to Steal Credentials From Schools and Universities",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-papercut-flaws-to.html",
-    "date": "2026-09-05",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1117/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1115/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1119/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1118/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1114/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1120/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1116/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1121/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1112/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Elastic Kibana (04 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1113/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
     "source": "Microsoft Security",
     "title": "How to secure edge AI in customer-owned environments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Phishing Campaign Sends Millions of Emails Using Invisible Unicode to Evade Filters",
-    "link": "https://thehackernews.com/2026/09/phishing-campaign-sends-millions-of.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PostgreSQL Fixes 12-Year-Old Logical Decoding Flaw Enabling Replication-Role Code Execution",
-    "link": "https://thehackernews.com/2026/09/postgresql-fixes-12-year-old-logical.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Ted Backdoor Hides Inside Victims' Own HAProxy Builds to Intercept Web Traffic",
-    "link": "https://thehackernews.com/2026/09/new-ted-backdoor-hides-inside-victims.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Over 440,000 Exploit Attempts Target Super Forms and Elementor Pro RCE Flaws",
-    "link": "https://thehackernews.com/2026/09/over-440000-exploit-attempts-target.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Plex Urges Immediate Updates After Patching Multiple Undisclosed Security Flaws",
-    "link": "https://thehackernews.com/2026/09/plex-urges-immediate-updates-after.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Releases Chrome Update to Patch Actively Exploited V8 Zero-Day",
-    "link": "https://thehackernews.com/2026/09/google-releases-chrome-update-to-patch.html",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GPT-6 Astra Scores 100% on ExploitBench as OpenAI Blocks PoC Exploit Requests",
-    "link": "https://thehackernews.com/2026/09/gpt-6-astra-scores-100-on-exploitbench.html",
     "date": "2026-09-04",
     "month": "2026-09"
   },
@@ -725,20 +746,6 @@
     "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
     "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
     "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "​​​​​​What’s new in Microsoft Security: August 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/27/whats-new-in-microsoft-security-august-2026/",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "When AI infrastructure becomes the target: Securing gateways and control points",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/26/when-ai-infrastructure-becomes-target-securing-gateways-control-points/",
-    "date": "2026-08-26",
     "month": "2026-08"
   },
   {
@@ -830,13 +837,6 @@
     "title": "Serving the most critical missions: Cloudflare for Government achieves FedRAMP Class D (High) Certified status",
     "link": "https://blog.cloudflare.com/fedramp-class-d-certification/",
     "date": "2026-08-10",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Unveiling good and bad behaviors on the Agentic Internet",
-    "link": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/",
-    "date": "2026-08-07",
     "month": "2026-08"
   }
 ]
