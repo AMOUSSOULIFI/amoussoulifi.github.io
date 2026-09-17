@@ -112,6 +112,55 @@
     "month": "2026-09"
   },
   {
+    "source": "Cloudflare",
+    "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
+    "link": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+    "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
+    "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
+    "date": "2026-09-16",
+    "month": "2026-09"
+  },
+  {
     "source": "The Hacker News",
     "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
     "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
@@ -630,48 +679,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Four Spy Groups Used the Same Chrome and Windows Exploit Kit Within a Week",
-    "link": "https://thehackernews.com/2026/09/four-spy-groups-used-same-chrome-and.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Infostealer Logs Expose Replayable AI Tokens That Can Bypass MFA",
-    "link": "https://thehackernews.com/2026/09/infostealer-logs-expose-replayable-ai.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: Learn How to Answer “Are We Exposed?” Faster After a New CVE",
-    "link": "https://thehackernews.com/2026/09/webinar-learn-how-to-answer-are-we.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "DeepSeek Harness Flaw Let AI Agents Disable Their Own File Sandbox Without Approval",
-    "link": "https://thehackernews.com/2026/09/deepseek-harness-flaw-let-ai-agents.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Alby Hub Critical Flaw Could Let Attackers Take Over Internet-Exposed Bitcoin Wallets",
-    "link": "https://thehackernews.com/2026/09/alby-hub-critical-flaw-could-let.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Agencies Accuse China AI Firms of Distilling Claude, GPT, Gemini, and Grok",
-    "link": "https://thehackernews.com/2026/09/us-agencies-accuse-china-ai-firms-of.html",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
@@ -822,13 +829,6 @@
     "source": "Cloudflare",
     "title": "Total eclipse of the Internet: traffic impacts in Iceland, Spain, and Portugal",
     "link": "https://blog.cloudflare.com/total-eclipse-internet-traffic-iceland-spain-portugal/",
-    "date": "2026-08-13",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Certificate Transparency Monitoring is now generally available",
-    "link": "https://blog.cloudflare.com/certificate-transparency-monitoring-ga/",
     "date": "2026-08-13",
     "month": "2026-08"
   },
