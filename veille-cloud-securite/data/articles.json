@@ -1,5 +1,180 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "WeaselBiscuit Stealer Spreads via 13 npm Packages to Harvest Chrome Extension Storage",
+    "link": "https://thehackernews.com/2026/09/weaselbiscuit-stealer-spreads-via-13.html",
+    "date": "2026-09-18",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "date": "2026-09-18",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RatHat Android Malware Abuses ADB to Retain Shell Access After Uninstall",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-abuses-adb-to.html",
+    "date": "2026-09-18",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans NetApp ONTAP 9 (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Check Point (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans KeyCloak (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Drupal (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1196/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans ISC BIND (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1192/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Nextcloud Server (17 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1198/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "From guidance to action: Security fundamentals that materially reduce risk",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/from-guidance-to-action-security-fundamentals-that-materially-reduce-risk/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Improving email security outcomes with real-world Microsoft Defender insights",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/17/improving-email-security-outcomes-with-real-world-microsoft-defender-insights/",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Check Point Management Flaw Lets Unauthenticated Attackers Run Code as Root",
+    "link": "https://thehackernews.com/2026/09/critical-check-point-management-server.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Self-Rewriting Agents, 800+ Flaws Patched, Insider SIM Swaps and 22 More New Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-self-rewriting-agents-800.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Docker Sandboxes Flaw Lets Malicious Guest Code Read and Modify macOS Host Files",
+    "link": "https://thehackernews.com/2026/09/critical-docker-sandboxes-flaw-lets.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Iran-Linked Handala Hack Tied to HEAVYGRAM Telegram Backdoor That Can Steal Passwords",
+    "link": "https://thehackernews.com/2026/09/iran-linked-handala-hack-tied-to.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
+    "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISO's Expert Guide to Agentic Pentesting for Websites",
+    "link": "https://thehackernews.com/2026/09/cisos-expert-guide-to-agentic.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
+    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
+    "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
+    "link": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
+    "link": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
+    "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
+    "link": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
+    "date": "2026-09-17",
+    "month": "2026-09"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
@@ -393,7 +568,7 @@
   },
   {
     "source": "The Hacker News",
-    "title": "Malicious Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
+    "title": "Twitch Browser Extension Leaks OAuth Tokens From Nearly 31,000 Users",
     "link": "https://thehackernews.com/2026/09/malicious-twitch-browser-extension.html",
     "date": "2026-09-14",
     "month": "2026-09"
@@ -435,13 +610,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1161/",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (11 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1165/",
     "date": "2026-09-11",
@@ -449,22 +617,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans GitLab (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1160/",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (11 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1163/",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (11 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1162/",
     "date": "2026-09-11",
     "month": "2026-09"
   },
@@ -497,83 +651,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
-    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
-    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Your Critical Vulnerabilities Might Not Be Your Biggest Risk",
-    "link": "https://thehackernews.com/2026/09/your-critical-vulnerabilities-might-not.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Chain JFrog Artifactory Flaws to Gain Admin Control and Plant Backdoors",
-    "link": "https://thehackernews.com/2026/09/attackers-chain-jfrog-artifactory-flaws.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked UNC3569 Exploited Sogou Input Method Flaw to Deploy GRAYRABBIT Backdoor",
-    "link": "https://thehackernews.com/2026/09/china-linked-unc3569-exploited-sogou.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PaperCut Replaces Emergency Patches With Fixes for Two Actively Exploited Flaws",
-    "link": "https://thehackernews.com/2026/09/papercut-replaces-emergency-patches.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco FMC Flaws Exploited to Steal Credentials and Deploy Qilin Ransomware",
-    "link": "https://thehackernews.com/2026/09/cisco-fmc-flaws-exploited-to-steal.html",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans MongoDB Server (10 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1157/",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Microsoft Edge (10 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1159/",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Android (10 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1158/",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-010/",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
     "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
@@ -595,62 +672,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
-    "link": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Play Early Access Abused to Push Thousands of Deceptive Android Apps",
-    "link": "https://thehackernews.com/2026/09/google-play-early-access-abused-to-push.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
-    "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
-    "link": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
-    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
-    "link": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
     "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
@@ -668,13 +689,6 @@
     "source": "Microsoft Security",
     "title": "Passkey-themed social engineering leads to identity and cloud compromise",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/passkey-themed-social-engineering-leads-identity-cloud-compromise/",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Disrupts Xinbi Guarantee Scam Marketplace, Freezes $52.8 Million in Crypto",
-    "link": "https://thehackernews.com/2026/09/us-disrupts-xinbi-guarantee-scam.html",
     "date": "2026-09-09",
     "month": "2026-09"
   },
@@ -742,24 +756,10 @@
     "month": "2026-09"
   },
   {
-    "source": "Microsoft Security",
-    "title": "Cybersecurity IR Workshop: The workshop you shouldn’t miss",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/cybersecurity-ir-workshop-you-shouldnt-miss/",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
     "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
     "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "TerminalFix campaign deploys a reverse tunnel through multistage intrusion",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/28/terminalfix-campaign-deploys-reverse-tunnel-through-multistage-intrusion/",
-    "date": "2026-08-29",
     "month": "2026-08"
   },
   {
