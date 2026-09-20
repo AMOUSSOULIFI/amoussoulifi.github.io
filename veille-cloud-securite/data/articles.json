@@ -8,6 +8,20 @@
   },
   {
     "source": "The Hacker News",
+    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
+    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
+    "date": "2026-09-19",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
+    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
+    "date": "2026-09-19",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
     "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
     "date": "2026-09-19",
@@ -262,13 +276,6 @@
     "source": "The Hacker News",
     "title": "Critical Unbound DNSSEC Validator Flaw Could Allow RCE via a Malicious DNS Zone",
     "link": "https://thehackernews.com/2026/09/critical-unbound-dnssec-validator-flaw.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
     "date": "2026-09-17",
     "month": "2026-09"
   },
@@ -647,13 +654,6 @@
     "source": "The Hacker News",
     "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
     "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-    "date": "2026-09-14",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
-    "link": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
     "date": "2026-09-14",
     "month": "2026-09"
   },
