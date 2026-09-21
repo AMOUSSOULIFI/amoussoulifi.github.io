@@ -1,5 +1,54 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-040 (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1208/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology DSM (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1209/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (21 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1207/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Python Workers are now generally available",
+    "link": "https://blog.cloudflare.com/python-workers-ga/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ClickFix Lures Deploy ChainScript RAT Using Polygon to Rotate C2 Infrastructure",
+    "link": "https://thehackernews.com/2026/09/clickfix-lures-deploy-chainscript-rat.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Jade Sleet Linked to Indian IT Provider Breach With FLATROOF and ROOFDECK Backdoors",
+    "link": "https://thehackernews.com/2026/09/jade-sleet-linked-to-indian-it-provider.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
     "source": "The Hacker News",
     "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
     "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
@@ -533,13 +582,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1172/",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
     "date": "2026-09-15",
@@ -620,41 +662,6 @@
     "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
     "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
     "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy GRIMWEDGE",
-    "link": "https://thehackernews.com/2026/09/china-linked-hackers-exploit-chrome.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-039 (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-039/",
-    "date": "2026-09-14",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Python (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1167/",
-    "date": "2026-09-14",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (14 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1171/",
-    "date": "2026-09-14",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
-    "link": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
-    "date": "2026-09-14",
     "month": "2026-09"
   },
   {
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "How Cloudflare detects MCP traffic and helps secure it",
     "link": "https://blog.cloudflare.com/mcp-security-updates/",
-    "date": "2026-08-14",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Secure all your internal vibe-coded applications — in one click",
-    "link": "https://blog.cloudflare.com/workers-protected-by-access/",
     "date": "2026-08-14",
     "month": "2026-08"
   }
