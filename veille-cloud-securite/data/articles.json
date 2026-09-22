@@ -1,5 +1,61 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
+    "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
+    "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
+    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
+    "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
+    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
+    "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
+    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
+    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-040 (21 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
@@ -31,6 +87,41 @@
     "source": "Cloudflare",
     "title": "Python Workers are now generally available",
     "link": "https://blog.cloudflare.com/python-workers-ga/",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
+    "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Contagious Interview Campaign Compromises 30,000 Devices, Steals $10.71M in Crypto",
+    "link": "https://thehackernews.com/2026/09/contagious-interview-campaign.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Fined €403 Million Over GDPR Violations Tied to Location Data",
+    "link": "https://thehackernews.com/2026/09/google-fined-403-million-over-gdpr.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+    "date": "2026-09-21",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "TASK#STOMP PowerShell Backdoor Steals Documents, Wi-Fi Passwords, and Clipboard Data",
+    "link": "https://thehackernews.com/2026/09/taskstomp-powershell-backdoor-steals.html",
     "date": "2026-09-21",
     "month": "2026-09"
   },
@@ -539,41 +630,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
-    "link": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
-    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Acronis cPanel Backup Plugin Vulnerability Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit WooCommerce Wholesale Lead Capture Flaw to Plant PHP Web Shells",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
-    "link": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (15 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
@@ -605,62 +661,6 @@
     "source": "Cloudflare",
     "title": "Give every teammate and agent the right level of access to your Workers",
     "link": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "KREMLIN Banking Malware Hijacks Chrome and Edge to Steal Credentials and Session Tokens",
-    "link": "https://thehackernews.com/2026/09/kremlin-banking-malware-hijacks-chrome.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Iranian Hackers Use Telegram-Controlled Malware to Spy on Dissidents and Journalists",
-    "link": "https://thehackernews.com/2026/09/iranian-hackers-use-telegram-controlled.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BambooToken Malware Uses MQTT to Control Windows and Linux Systems",
-    "link": "https://thehackernews.com/2026/09/bambootoken-malware-uses-mqtt-to.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Human Attacker Exploits Marimo RCE, Reaches SSH Bastion in Eight Seconds",
-    "link": "https://thehackernews.com/2026/09/human-attacker-exploits-marimo-rce.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attack Chains, Not Just Attack Surfaces: Why Testing Individual Techniques Misses the Point",
-    "link": "https://thehackernews.com/2026/09/attack-chains-not-just-attack-surfaces.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Mass-Scanning Campaign Exploits Vite Flaw to Extract Cloud Credentials From Exposed Dev Servers",
-    "link": "https://thehackernews.com/2026/09/mass-scanning-campaign-exploits-vite.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteSpeed Enterprise Flaw Could Let One Hosting Account Gain Root Access on a Shared Server",
-    "link": "https://thehackernews.com/2026/09/litespeed-enterprise-flaw-could-let-one.html",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Secure Email Gateway Flaw Exploited in the Wild, Enables Root Command Execution",
-    "link": "https://thehackernews.com/2026/09/cisco-secure-email-gateway-flaw.html",
     "date": "2026-09-15",
     "month": "2026-09"
   },
