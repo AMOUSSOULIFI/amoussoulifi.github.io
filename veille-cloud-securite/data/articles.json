@@ -1,6 +1,125 @@
 [
   {
     "source": "The Hacker News",
+    "title": "F5 Patches Critical BIG-IP APM Zero-Day Exploited for Unauthenticated RCE on OAuth Servers",
+    "link": "https://thehackernews.com/2026/09/f5-patches-critical-big-ip-apm-zero-day.html",
+    "date": "2026-09-23",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chinese Hackers Exploit Chrome-Windows Zero-Day Chain to Deploy CLEANGULP Malware",
+    "link": "https://thehackernews.com/2026/09/chinese-hackers-exploit-chrome-windows.html",
+    "date": "2026-09-23",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Next.js ImageResponse Flaw Can Lead to Server Code Execution via Crafted SVG Input",
+    "link": "https://thehackernews.com/2026/09/critical-nextjs-imageresponse-flaw-can.html",
+    "date": "2026-09-23",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
+    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
+    "date": "2026-09-23",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (22 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans SolarWinds Access Rights Manager (22 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1211/",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "We just shipped support for the ugliest part of HTTP: Vary",
+    "link": "https://blog.cloudflare.com/vary-support/",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
+    "link": "https://blog.cloudflare.com/worker-previews/",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
+    "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
+    "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+    "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
+    "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
+    "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
+    "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
+    "date": "2026-09-22",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
     "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
     "date": "2026-09-22",
@@ -427,48 +546,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "China-Aligned FamousSparrow Deploys SparroWocky Backdoor Across Latin America",
-    "link": "https://thehackernews.com/2026/09/china-aligned-famoussparrow-deploys.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI Reveals Six Model Incidents Involving Hidden Failures and Unauthorized Uploads",
-    "link": "https://thehackernews.com/2026/09/openai-reveals-six-model-incidents.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BIND 9 Update Fixes 14 Flaws, Including an Unauthenticated Crash Over DNS-over-HTTPS",
-    "link": "https://thehackernews.com/2026/09/bind-9-update-fixes-14-flaws-including.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Gyazo Breach Exposes 23.62 Million User Records and 490 Million Image Metadata Records",
-    "link": "https://thehackernews.com/2026/09/gyazo-breach-exposes-2362-million-user.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Warns of New Zero-Day ISE Auth Bypass (CVSS 10.0) Exploited in Active Attacks",
-    "link": "https://thehackernews.com/2026/09/cisco-warns-of-new-zero-day-ise-auth.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "U.S. Seizes NightmareStresser Domains Linked to Hundreds of Thousands of DDoS Attacks",
-    "link": "https://thehackernews.com/2026/09/us-seizes-nightmarestresser-domains.html",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
@@ -588,55 +665,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Issabel Framework Flaw Enabling Unauthenticated OS Command Execution",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
-    "link": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
-    "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
-    "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Parallels Desktop Flaw Lets Non-Admin Mac Users Gain Root, but Intel Macs Can't Install Fix",
-    "link": "https://thehackernews.com/2026/09/parallels-desktop-flaw-lets-non-admin.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
-    "link": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (15 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1173/",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (15 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1175/",
@@ -714,13 +742,6 @@
     "month": "2026-09"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (08 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1128/",
-    "date": "2026-09-08",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
     "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
@@ -756,23 +777,9 @@
     "month": "2026-09"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (01 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1098/",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
     "link": "https://blog.cloudflare.com/cache-transcoding/",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Counterfeit installers to system compromise: Tracking a deceptive software download campaign",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/01/counterfeit-installers-system-compromise-tracking-deceptive-software-download-campaign/",
     "date": "2026-09-01",
     "month": "2026-09"
   },
@@ -826,17 +833,10 @@
     "month": "2026-08"
   },
   {
-    "source": "Cloudflare",
-    "title": "BGP Role model: tracking the adoption of RFC 9234",
-    "link": "https://blog.cloudflare.com/rfc9234-bgp-role-model/",
-    "date": "2026-08-18",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How Cloudflare detects MCP traffic and helps secure it",
-    "link": "https://blog.cloudflare.com/mcp-security-updates/",
-    "date": "2026-08-14",
-    "month": "2026-08"
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+    "date": "2026-07-22",
+    "month": "2026-07"
   }
 ]
