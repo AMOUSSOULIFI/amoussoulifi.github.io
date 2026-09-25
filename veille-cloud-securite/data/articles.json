@@ -1,6 +1,132 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Bitget Says Suspected North Korean Hackers Stole $351.6M After Backend Compromise",
+    "link": "https://thehackernews.com/2026/09/bitget-says-suspected-north-korean.html",
+    "date": "2026-09-25",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Roundcube Pre-Auth SQL Injection Flaw Actively Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/roundcube-pre-auth-sql-injection-flaw.html",
+    "date": "2026-09-25",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cloudflare Fixes Flaw That Let One Container Read Another Customer's Leftover Disk Data",
+    "link": "https://thehackernews.com/2026/09/cloudflare-fixes-flaw-that-let-one.html",
+    "date": "2026-09-25",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WSO2 and Adobe Commerce Flaws Exploited in Attacks, Added to CISA KEV",
+    "link": "https://thehackernews.com/2026/09/wso2-and-adobe-commerce-flaws-exploited.html",
+    "date": "2026-09-25",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Papercut (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1223/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans LibreNMS (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1222/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Zabbix Agent (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1226/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PHP (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1227/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1225/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Wireshark (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1221/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Office (24 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1224/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
+    "link": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched OnePlus Flaws Let Installed Android Apps Gain Root Without Permissions",
+    "link": "https://thehackernews.com/2026/09/unpatched-oneplus-flaws-let-installed.html",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Placeholder third-party[.]com Referenced Across 1,700+ Repositories Now Serves Malicious Content",
+    "link": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hacked Ukrainian Sites Serve Fake Cloudflare ClickFix Lures for Psychedelic Stealer",
+    "link": "https://thehackernews.com/2026/09/hacked-ukrainian-sites-serve-fake.html",
+    "date": "2026-09-24",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Corp MDM Spyware Targets Logistics Firms, Steals New SMS and Redirects Calls",
     "link": "https://thehackernews.com/2026/09/corp-mdm-spyware-targets-logistics.html",
     "date": "2026-09-24",
@@ -434,62 +560,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
-    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Can You Prove a New CVE Is Exploitable Before Attackers Do? Learn How in This Webinar",
-    "link": "https://thehackernews.com/2026/09/can-you-prove-new-cve-is-exploitable.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Identity Visibility in 2026: The Foundation of Identity Security",
-    "link": "https://thehackernews.com/2026/09/identity-visibility-in-2026-foundation.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SolarWinds Patches ARM Hard-Coded Key Flaw Enabling Unauthenticated RCE",
-    "link": "https://thehackernews.com/2026/09/solarwinds-patches-arm-hard-coded-key.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
-    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CrowdSec Says TanStack npm Attack Led to Copy of 170 Private GitHub Repositories",
-    "link": "https://thehackernews.com/2026/09/crowdsec-says-tanstack-npm-attack-led.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Flags Three Linux Kernel Vulnerabilities Exploited in the Wild",
-    "link": "https://thehackernews.com/2026/09/cisa-flags-three-linux-kernel.html",
-    "date": "2026-09-19",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (18 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1206/",
@@ -554,27 +624,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans NetApp ONTAP 9 (17 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1194/",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Check Point (17 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1193/",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans KeyCloak (17 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1195/",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Drupal (17 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1196/",
     "date": "2026-09-17",
@@ -584,13 +633,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (17 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1197/",
-    "date": "2026-09-17",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans ISC BIND (17 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1192/",
     "date": "2026-09-17",
     "month": "2026-09"
   },
@@ -617,57 +659,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1188/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Docker (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1189/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1187/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1191/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1190/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1183/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans F5 NGINX (16 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1182/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (16 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1186/",
     "date": "2026-09-16",
     "month": "2026-09"
   },
@@ -756,23 +749,9 @@
     "month": "2026-09"
   },
   {
-    "source": "Microsoft Security",
-    "title": "How to secure edge AI in customer-owned environments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/04/secure-edge-ai-customer-owned-environments/",
-    "date": "2026-09-04",
-    "month": "2026-09"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
     "link": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-    "date": "2026-09-03",
-    "month": "2026-09"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
     "date": "2026-09-03",
     "month": "2026-09"
   },
@@ -823,13 +802,6 @@
     "title": "From all-or-nothing to task-based OAuth consent",
     "link": "https://blog.cloudflare.com/task-based-oauth-consent/",
     "date": "2026-08-20",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
-    "link": "https://blog.cloudflare.com/revisiting-spectre-attacks-on-workers/",
-    "date": "2026-08-19",
     "month": "2026-08"
   },
   {
