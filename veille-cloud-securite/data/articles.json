@@ -1,6 +1,34 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
+    "date": "2026-09-27",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Lunex Stealer Abuses AMD Driver to Disable Security Monitoring and Steal Browser Credentials",
+    "link": "https://thehackernews.com/2026/09/lunex-stealer-abuses-amd-driver-to.html",
+    "date": "2026-09-26",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Bypass WAFs to Exploit Oracle PeopleSoft Flaw and Deploy Web Shells",
+    "link": "https://thehackernews.com/2026/09/attackers-bypass-wafs-to-exploit-oracle.html",
+    "date": "2026-09-26",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+    "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+    "date": "2026-09-26",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Elementor CSRF Flaw Lets Attackers Take Over Sites After Admin Clicks Crafted Link",
     "link": "https://thehackernews.com/2026/09/elementor-csrf-flaw-lets-attackers-take.html",
     "date": "2026-09-26",
@@ -553,27 +581,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "One Hidden Meta Muse Setting Could Let Attackers Turn the AI Assistant Into a Backdoor",
-    "link": "https://thehackernews.com/2026/09/one-hidden-meta-muse-setting-could-let.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress Comment2Shell Flaw Can Turn Anonymous Comment XSS Into RCE via Admin Session",
-    "link": "https://thehackernews.com/2026/09/wordpress-comment2shell-flaw-can-turn.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Zyxel and Veeam Flaws Under Active Exploitation With Command and SYSTEM Access",
-    "link": "https://thehackernews.com/2026/09/zyxel-and-veeam-flaws-under-active.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-040 (21 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
@@ -605,13 +612,6 @@
     "source": "Cloudflare",
     "title": "Python Workers are now generally available",
     "link": "https://blog.cloudflare.com/python-workers-ga/",
-    "date": "2026-09-21",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fake LastPass Authenticator Installer Abuses Microsoft-Signed Driver to Kill Antivirus and EDR",
-    "link": "https://thehackernews.com/2026/09/fake-lastpass-authenticator-installer.html",
     "date": "2026-09-21",
     "month": "2026-09"
   },
