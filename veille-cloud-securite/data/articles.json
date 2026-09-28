@@ -1,5 +1,124 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1235/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (28 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1234/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How fast is the web? Explore billions of real-user measurements with BEACON",
+    "link": "https://blog.cloudflare.com/how-fast-is-the-web/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Four months of VoidZero at Cloudflare: making the open-source JavaScript toolchain faster for all humans and agents",
+    "link": "https://blog.cloudflare.com/voidzero-update/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+    "link": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "The road to the agentic browser: A Kitesurf update",
+    "link": "https://blog.cloudflare.com/kitesurf-update/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing The Cold Start: pitch your startup live at Cloudflare Connect",
+    "link": "https://blog.cloudflare.com/introducing-the-cold-start/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "EmDash 1.0: the stable CMS with a secure plugin registry",
+    "link": "https://blog.cloudflare.com/emdash-cms-plugin-registry/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
+    "link": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
+    "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "JADEPUFFER-Linked Attackers Used Compromised Service Principals to Delete Azure Resources",
+    "link": "https://thehackernews.com/2026/09/jadepuffer-linked-attackers-used.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Says Attackers Are Exploiting Two Critical Citrix NetScaler Flaws Globally",
+    "link": "https://thehackernews.com/2026/09/cisa-says-attackers-are-exploiting-two.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare’s 2026 Annual Founders’ Letter",
+    "link": "https://blog.cloudflare.com/cloudflares-2026-annual-founders-letter/",
+    "date": "2026-09-27",
+    "month": "2026-09"
+  },
+  {
     "source": "The Hacker News",
     "title": "Warning: Two Unpatched Citrix NetScaler RCE Zero-Days Under Active Exploitation",
     "link": "https://thehackernews.com/2026/09/warning-two-unpatched-citrix-netscaler.html",
@@ -546,41 +665,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "DORA Year Two: Can Your SOC Actually See the Attack?",
-    "link": "https://thehackernews.com/2026/09/dora-year-two-can-your-soc-actually-see.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Linux Kernel Flaw Gives ARM64 KVM Guests Read-Write Access to Host Memory",
-    "link": "https://thehackernews.com/2026/09/new-linux-kernel-flaw-gives-arm64-kvm.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SharePoint Flaw Initially Listed as Spoofing by Microsoft Enables Authenticated RCE",
-    "link": "https://thehackernews.com/2026/09/sharepoint-flaw-initially-listed-as.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Package indexed-btree Hid Its Loader in Runtime Code Before Removal",
-    "link": "https://thehackernews.com/2026/09/malicious-npm-package-indexed-btree-hid.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SideCopy Broadens India Targeting to Academia With ReverseRAT Spear-Phishing",
-    "link": "https://thehackernews.com/2026/09/sidecopy-broadens-india-targeting-to.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-040 (21 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
@@ -624,36 +708,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans Kaspersky Secure Mail Gateway (18 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1201/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (18 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1202/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Moxa (18 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1205/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (18 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1203/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (18 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1204/",
     "date": "2026-09-18",
     "month": "2026-09"
   },
@@ -740,62 +796,6 @@
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
     "date": "2026-09-09",
     "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Automatic Key Exchange: faster, post-quantum secure origin handshakes for 45 billion daily connections (and counting)",
-    "link": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
-    "date": "2026-09-08",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing context-aware vulnerability discovery and remediation with Cloudflare Managed Defense and OpenAI Daybreak models",
-    "link": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
-    "date": "2026-09-03",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
-    "link": "https://blog.cloudflare.com/cache-transcoding/",
-    "date": "2026-09-01",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Adaptive Intelligence: Undermining the economics of every bot attack",
-    "link": "https://blog.cloudflare.com/introducing-adaptive-intelligence/",
-    "date": "2026-08-31",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "BotBase for Operators: A clearer path to joining Cloudflare's directory of bots and agents",
-    "link": "https://blog.cloudflare.com/botbase-for-operators/",
-    "date": "2026-08-28",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How we saved 100 terabytes of memory by optimizing 1.1.1.1’s DNS cache",
-    "link": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
-    "date": "2026-08-27",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "The Cloudflare Blog — brought to you by EmDash",
-    "link": "https://blog.cloudflare.com/cloudflare-blog-uses-emdash/",
-    "date": "2026-08-24",
-    "month": "2026-08"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Say it once: introducing Bot Preference Sync",
-    "link": "https://blog.cloudflare.com/bot-preference-sync/",
-    "date": "2026-08-21",
-    "month": "2026-08"
   },
   {
     "source": "ANSSI",
