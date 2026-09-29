@@ -1,6 +1,104 @@
 [
   {
     "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Apple (29 septembre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1236/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Using AI to chart a course for our post-quantum migration",
+    "link": "https://blog.cloudflare.com/ai-driven-cryptography-discovery/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building a certificate authority for the whole Internet",
+    "link": "https://blog.cloudflare.com/cloudflare-certificate-authority/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Adaptive application security for the AI era: how Cloudflare connects code, traffic, and intelligence to stop attacks",
+    "link": "https://blog.cloudflare.com/ai-era-framework/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building a post-quantum certificate authority with Merkle Tree Certificates",
+    "link": "https://blog.cloudflare.com/pq-ca-with-mtcs/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "We tested our own WAF with frontier AI models. Here’s what we found",
+    "link": "https://blog.cloudflare.com/adaptive-ai-waf-testing/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing Threat Signals: agentic skills for open-source threat intelligence, free for every Cloudflare account",
+    "link": "https://blog.cloudflare.com/threat-signals/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Is your domain using post-quantum encryption? Now you can see for yourself",
+    "link": "https://blog.cloudflare.com/post-quantum-visibility/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Enforce positive security with Cloudflare Application Profiles",
+    "link": "https://blog.cloudflare.com/application-profiles/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Preventing quantum downgrade attacks against IPsec",
+    "link": "https://blog.cloudflare.com/ipsec-downgrade-protection/",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Dutch Police Arrest 24-Year-Old Amsterdam Man in ShinyHunters Investigation",
+    "link": "https://thehackernews.com/2026/09/dutch-police-arrest-24-year-old.html",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Official MCP Python SDK Flaw Can Let Malicious Servers Steal OAuth Credentials",
+    "link": "https://thehackernews.com/2026/09/official-mcp-python-sdk-flaw-can-let.html",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Shelves GPT-6.1 Astra After Tests Find Deception and Unauthorized Actions",
+    "link": "https://thehackernews.com/2026/09/openai-shelves-gpt-61-astra-after-tests.html",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Pauses Tool Use After Agent Bypasses Internet Controls to Reach External Chatbot",
+    "link": "https://thehackernews.com/2026/09/openai-pauses-tool-use-after-agent.html",
+    "date": "2026-09-29",
+    "month": "2026-09"
+  },
+  {
+    "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
     "date": "2026-09-28",
@@ -24,6 +122,20 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing cf: the agentic CLI for the entire Cloudflare API",
+    "link": "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Next.js applications, powered by Vite: introducing Vinext 1.0",
+    "link": "https://blog.cloudflare.com/vinext-nextjs-on-vite/",
     "date": "2026-09-28",
     "month": "2026-09"
   },
@@ -73,6 +185,48 @@
     "source": "Cloudflare",
     "title": "Supporting native Rust in Workers with the new Emscripten target for wasm-bindgen",
     "link": "https://blog.cloudflare.com/rust-workers-emscripten-target/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Patches CoreGraphics Flaw Possibly Exploited in Targeted Attacks",
+    "link": "https://thehackernews.com/2026/09/apple-patches-coregraphics-flaw.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Use NeedyMantis to Maintain Long-Term Access in Breached Networks",
+    "link": "https://thehackernews.com/2026/09/hackers-use-needymantis-to-maintain.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "IAM for AI agents: A Practical Enterprise Framework",
+    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
+    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
+    "date": "2026-09-28",
+    "month": "2026-09"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
     "date": "2026-09-28",
     "month": "2026-09"
   },
@@ -322,13 +476,6 @@
     "month": "2026-09"
   },
   {
-    "source": "Cloudflare",
-    "title": "How Cloudflare addressed a cross-tenant data exposure vulnerability in Containers",
-    "link": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/",
-    "date": "2026-09-24",
-    "month": "2026-09"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
@@ -567,13 +714,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "ShinyHunters Claims FBI Breach, Says It Stole Data on Agents and Job Applicants",
-    "link": "https://thehackernews.com/2026/09/shinyhunters-claims-fbi-breach-says-it.html",
-    "date": "2026-09-23",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Moodle (22 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1210/",
@@ -588,79 +728,9 @@
     "month": "2026-09"
   },
   {
-    "source": "Cloudflare",
-    "title": "We just shipped support for the ugliest part of HTTP: Vary",
-    "link": "https://blog.cloudflare.com/vary-support/",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing Worker Previews: Isolated preview environments for every change your agent makes",
-    "link": "https://blog.cloudflare.com/worker-previews/",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Check Point Warns of Management Server Zero-Day Exploited in Targeted Attacks",
-    "link": "https://thehackernews.com/2026/09/check-point-warns-of-management-server.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "WordPress Issues Patch for Critical Flaw That Can Enable Code Execution on Some Servers",
-    "link": "https://thehackernews.com/2026/09/wordpress-issues-patch-for-critical.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Malicious npm Package Poses as Twilio Bug-Bounty Probe, Can Exfiltrate Credentials",
-    "link": "https://thehackernews.com/2026/09/malicious-npm-package-poses-as-twilio.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
-    "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
-    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researcher Drops BigDiskBuster Zero-Day PoC That Blocks Microsoft Defender Updates",
-    "link": "https://thehackernews.com/2026/09/researcher-drops-bigdiskbuster-zero-day.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI Agents Are Rewriting the Rules of Lateral Movement",
-    "link": "https://thehackernews.com/2026/09/ai-agents-are-rewriting-rules-of.html",
-    "date": "2026-09-22",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New CVSS 10.0 VeloCloud Orchestrator Flaw Actively Exploited in Certificate-Based Setups",
-    "link": "https://thehackernews.com/2026/09/new-cvss-100-velocloud-orchestrator.html",
     "date": "2026-09-22",
     "month": "2026-09"
   },
@@ -693,30 +763,9 @@
     "month": "2026-09"
   },
   {
-    "source": "Cloudflare",
-    "title": "Python Workers are now generally available",
-    "link": "https://blog.cloudflare.com/python-workers-ga/",
-    "date": "2026-09-21",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (18 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1206/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Moxa (18 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1205/",
-    "date": "2026-09-18",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Saving another 100TB of RAM with math (and Rust)",
-    "link": "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
     "date": "2026-09-18",
     "month": "2026-09"
   },
@@ -735,41 +784,6 @@
     "month": "2026-09"
   },
   {
-    "source": "Cloudflare",
-    "title": "When scanners miss the attack: how Cloudflare Client-Side Security protects storefronts",
-    "link": "https://blog.cloudflare.com/client-side-security-finds-4-malicious-campaigns/",
-    "date": "2026-09-16",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Have it both ways: stay discoverable in search while disallowing AI training",
-    "link": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Give every teammate and agent the right level of access to your Workers",
-    "link": "https://blog.cloudflare.com/workers-granular-authorization/",
-    "date": "2026-09-15",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing automatic remediation policies with Cloudflare CASB",
-    "link": "https://blog.cloudflare.com/casb-policies/",
-    "date": "2026-09-11",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "1.1.1.1 now supports post-quantum DNSSEC, all 2,420 bytes of it",
-    "link": "https://blog.cloudflare.com/post-quantum-dnssec-1111/",
-    "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
@@ -781,20 +795,6 @@
     "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
     "date": "2026-09-10",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How we rebuilt Cloudflare Workers’ module registry for Node.js compatibility",
-    "link": "https://blog.cloudflare.com/workers-module-registry-nodejs/",
-    "date": "2026-09-09",
-    "month": "2026-09"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Threat matrix: Mapping threats across cloud web applications",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/09/threat-matrix-mapping-threats-across-cloud-web-applications/",
-    "date": "2026-09-09",
     "month": "2026-09"
   },
   {
