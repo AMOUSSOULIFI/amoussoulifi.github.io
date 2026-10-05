@@ -1,5 +1,110 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1263/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenOffice (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1260/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1259/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Exchange Server (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1258/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans GitLab (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1262/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Zabbix (05 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1261/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Everything we launched during Birthday Week 2026",
+    "link": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "One year later: the power of 1.1.1.1 interns",
+    "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+    "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+    "link": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+    "link": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html",
+    "date": "2026-10-05",
+    "month": "2026-10"
+  },
+  {
     "source": "The Hacker News",
     "title": "ShinyHunters Suspect Rey Reportedly Detained in Jordan, Helping FBI Identify Group Members",
     "link": "https://thehackernews.com/2026/10/shinyhunters-suspect-rey-reportedly.html",
@@ -120,6 +225,13 @@
   },
   {
     "source": "Cloudflare",
+    "title": "8 major updates to Cloudflare Observability",
+    "link": "https://blog.cloudflare.com/one-observability-platform/",
+    "date": "2026-10-02",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
     "title": "Streamline: custom video pipelines with Cloudflare Stream and Workers",
     "link": "https://blog.cloudflare.com/streamline/",
     "date": "2026-10-02",
@@ -129,13 +241,6 @@
     "source": "Cloudflare",
     "title": "Introducing Web Search API via AI Gateway",
     "link": "https://blog.cloudflare.com/introducing-web-search-api/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "8 major updates to Cloudflare Observability",
-    "link": "https://blog.cloudflare.com/one-observability-platform/",
     "date": "2026-10-02",
     "month": "2026-10"
   },
@@ -322,13 +427,6 @@
     "month": "2026-10"
   },
   {
-    "source": "Cloudflare",
-    "title": "Introducing Cloudflare Basin: an open, serverless data platform, now generally available",
-    "link": "https://blog.cloudflare.com/cloudflare-basin/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Preparing governments for an era of interconnected cyber risk",
     "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
@@ -465,13 +563,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans CPython (30 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1239/",
-    "date": "2026-09-30",
-    "month": "2026-09"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare Impact reaches $100 million in donations",
-    "link": "https://blog.cloudflare.com/100-million-donations/",
     "date": "2026-09-30",
     "month": "2026-09"
   },
@@ -700,48 +791,6 @@
     "month": "2026-09"
   },
   {
-    "source": "The Hacker News",
-    "title": "IAM for AI agents: A Practical Enterprise Framework",
-    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitget Says Attacker Exploited Third-Party Security Product Flaw to Steal $388M",
-    "link": "https://thehackernews.com/2026/09/bitget-says-attacker-exploited-third.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
-    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: $387M Crypto Hack, Citrix Exploits, AI Agents Go Off-Script, and More Threats",
-    "link": "https://thehackernews.com/2026/09/weekly-recap-387m-crypto-hack-citrix.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How to Govern AI Agents, Reduce Excessive Access, and Control Shadow AI",
-    "link": "https://thehackernews.com/2026/09/webinar-how-to-govern-ai-agents-reduce.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
-    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
-    "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (25 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1233/",
@@ -759,13 +808,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (25 septembre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1232/",
-    "date": "2026-09-25",
-    "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (25 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1228/",
     "date": "2026-09-25",
     "month": "2026-09"
   },
@@ -791,24 +833,10 @@
     "month": "2026-09"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PHP (24 septembre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1227/",
-    "date": "2026-09-24",
-    "month": "2026-09"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
     "date": "2026-09-24",
     "month": "2026-09"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube (26 mai 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0644/",
-    "date": "2026-05-26",
-    "month": "2026-05"
   }
 ]
