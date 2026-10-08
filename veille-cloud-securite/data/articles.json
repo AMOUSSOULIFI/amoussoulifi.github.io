@@ -1,6 +1,69 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Splunk (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1281/",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Ceph (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1280/",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Cisco (08 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Bridging technical depth and usability: The story behind Radar’s redesign",
+    "link": "https://blog.cloudflare.com/radar-redesign/",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Wazza Phishkit Targets Banking, Government, and Manufacturing Across the US, EU, and Australia",
+    "link": "https://thehackernews.com/2026/10/wazza-phishkit-targets-banking.html",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "16 Malicious Firefox Extensions Pose as Rabby and OKX Wallets to Steal Recovery Phrases",
+    "link": "https://thehackernews.com/2026/10/16-malicious-firefox-extensions-pose-as.html",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "U.S. Offers Up to $10 Million for Tips on Zhang Yu, Charged in HAFNIUM Hacks",
+    "link": "https://thehackernews.com/2026/10/us-offers-up-to-10-million-for-tips-on.html",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MonsterCloud Owner Accused of Billing Over $19M While Secretly Paying Ransoms to Decrypt Data",
+    "link": "https://thehackernews.com/2026/10/monstercloud-owner-accused-of-billing.html",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Tensorlake npm Package Compromised to Deliver Shai-Hulud Credential-Stealing Worm",
+    "link": "https://thehackernews.com/2026/10/tensorlake-npm-package-compromised-to.html",
+    "date": "2026-10-08",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (07 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1275/",
     "date": "2026-10-07",
@@ -87,6 +150,55 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GLPI (07 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1269/",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Building an evidence-grounded agentic security operations harness on Cloudflare",
+    "link": "https://blog.cloudflare.com/agentic-security-operations/",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "3 lessons from frontier AI vulnerability research",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Hijack .gh, .sl, and .as Registries to Obtain Certificates for Google Domains",
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-gh-sl-and-as.html",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Eight Malicious npm Packages Downloaded 40,767 Times Deliver Overlord RAT and Stealer",
+    "link": "https://thehackernews.com/2026/10/eight-malicious-npm-packages-downloaded.html",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SonicWall Patches CVSS 10.0 Pre-Authentication SSRF Flaw in SMA1000 Appliances",
+    "link": "https://thehackernews.com/2026/10/sonicwall-patches-cvss-100-pre.html",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely",
+    "link": "https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html",
+    "date": "2026-10-07",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet",
+    "link": "https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html",
     "date": "2026-10-07",
     "month": "2026-10"
   },
@@ -589,27 +701,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans CPython (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1243/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Redmine (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1245/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mozilla Thunderbird (01 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1244/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Cisco Catalyst SD-WAN (01 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1246/",
     "date": "2026-10-01",
@@ -647,20 +738,6 @@
     "source": "Cloudflare",
     "title": "Announcing Cloudflare K2: serverless event streams",
     "link": "https://blog.cloudflare.com/cloudflare-k2-streams/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "We want you to build the next Git platform on Cloudflare",
-    "link": "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "AI Search is now generally available",
-    "link": "https://blog.cloudflare.com/ai-search-ga/",
     "date": "2026-10-01",
     "month": "2026-10"
   },
@@ -714,48 +791,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "CISA Adds Exploited Cisco Catalyst SD-WAN Manager Auth Bypass to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-exploited-cisco-catalyst-sd.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Rolls Out Gemini 4 Argon to Trusted Cyber Defenders, Plans Guardrail-Free Version",
-    "link": "https://thehackernews.com/2026/10/google-rolls-out-gemini-4-argon-to.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple CoreGraphics PoC Emerges as WhatsApp PDF Checks Hint at Possible Delivery Path",
-    "link": "https://thehackernews.com/2026/10/apple-coregraphics-poc-emerges-as.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Bitget Confirms Third-Party Zero-Day Behind $387.5 Million Cryptocurrency Theft",
-    "link": "https://thehackernews.com/2026/10/bitget-confirms-third-party-zero-day.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "MetaMask Security Incident Prompts Exit of Affected Ethereum Validators",
-    "link": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Citrix NetScaler Post-Exploitation Payload Creates Superuser, Maps Web Shell to CSS-Like URLs",
-    "link": "https://thehackernews.com/2026/10/citrix-netscaler-post-exploitation.html",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
     "source": "Microsoft Security",
     "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
@@ -766,34 +801,6 @@
     "source": "Microsoft Security",
     "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-    "date": "2026-09-30",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit Zimbra Flaw to Deploy Web Shells and Harvest Authentication Secrets",
-    "link": "https://thehackernews.com/2026/09/attackers-exploit-zimbra-flaw-to-deploy.html",
-    "date": "2026-09-30",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Abuse MSP360 to Deploy ScreenConnect in Dual-RMM Phishing Attacks",
-    "link": "https://thehackernews.com/2026/09/attackers-abuse-msp360-to-deploy.html",
-    "date": "2026-09-30",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Warns of Attackers Exploiting Critical Authentication Bypass in SD-WAN Manager",
-    "link": "https://thehackernews.com/2026/09/cisco-warns-of-attackers-exploiting.html",
-    "date": "2026-09-30",
-    "month": "2026-09"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Abuse ChatGPT Custom GPTs to Deliver RAT via ClickFix Lures",
-    "link": "https://thehackernews.com/2026/09/attackers-abuse-chatgpt-custom-gpts-to.html",
     "date": "2026-09-30",
     "month": "2026-09"
   },
@@ -830,13 +837,6 @@
     "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
     "date": "2026-09-28",
-    "month": "2026-09"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
-    "date": "2026-09-25",
     "month": "2026-09"
   }
 ]
