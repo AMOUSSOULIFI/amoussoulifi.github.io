@@ -1,5 +1,75 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-043 (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-043/",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1294/",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans PostgreSQL JDBC (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1292/",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (12 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1293/",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Filter, reshape, and redact logs before export with Transformers",
+    "link": "https://blog.cloudflare.com/transformers-on-logpush/",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+    "link": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+    "link": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+    "link": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+    "date": "2026-10-12",
+    "month": "2026-10"
+  },
+  {
     "source": "The Hacker News",
     "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
     "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
@@ -574,13 +644,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "ClickFix Smuggles Payloads Through Browser Cache to Bypass Windows Run Limits",
-    "link": "https://thehackernews.com/2026/10/clickfix-smuggles-payloads-through.html",
-    "date": "2026-10-06",
-    "month": "2026-10"
-  },
-  {
     "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
@@ -641,62 +704,6 @@
     "title": "One year later: the power of 1.1.1.1 interns",
     "link": "https://blog.cloudflare.com/one-year-later-1111-interns/",
     "date": "2026-10-05",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
-    "link": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
-    "date": "2026-10-05",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
-    "link": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html",
-    "date": "2026-10-05",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
-    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
-    "date": "2026-10-05",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
-    "link": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
-    "date": "2026-10-05",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Fortinet FortiMail (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1257/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1254/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1255/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (02 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1256/",
-    "date": "2026-10-02",
     "month": "2026-10"
   },
   {
@@ -773,13 +780,6 @@
     "source": "Cloudflare",
     "title": "Introducing Clef: our open-source decision models, and new RL fine-tuning platform",
     "link": "https://blog.cloudflare.com/clef-decision-models/",
-    "date": "2026-10-01",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "One year later: Sovereign AI and the fight for choice",
-    "link": "https://blog.cloudflare.com/sovereign-ai-choice-one-year-later/",
     "date": "2026-10-01",
     "month": "2026-10"
   },
