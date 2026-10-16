@@ -1,7 +1,168 @@
 [
   {
     "source": "The Hacker News",
-    "title": "Drupal Patches Critical Core RCE Flaw with No-Login Path via Contributed Modules",
+    "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+    "date": "2026-10-16",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "date": "2026-10-16",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+    "link": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+    "date": "2026-10-16",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits F5 (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1317/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Symfony (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1324/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1326/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Moodle (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1318/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Microsoft (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1323/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Drupal (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1321/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Juniper Networks (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1322/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Sonicwall Network Security Manager (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1320/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Cisco AsyncOS Software pour Secure Email Gateway (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1325/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans PostgreSQL psqlODBC (15 octobre 2026)",
+    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1319/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "A fully programmable secure web gateway",
+    "link": "https://blog.cloudflare.com/programmable-gateway-dlp/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Deploy with Void",
+    "link": "https://blog.cloudflare.com/deploy-with-void/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+    "link": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web/",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
+    "link": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
+    "link": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
+    "link": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
+    "link": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
+    "link": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
+    "link": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
+    "link": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
+    "date": "2026-10-15",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
     "link": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
     "date": "2026-10-15",
     "month": "2026-10"
@@ -185,6 +346,13 @@
     "source": "Cloudflare",
     "title": "Inside Hyperdrive: How we solved a rare Hyperdrive MySQL caching bug",
     "link": "https://blog.cloudflare.com/hyperdrive-mysql/",
+    "date": "2026-10-14",
+    "month": "2026-10"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
     "date": "2026-10-14",
     "month": "2026-10"
   },
@@ -511,97 +679,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
-    "link": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
-    "date": "2026-10-12",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
-    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
-    "date": "2026-10-11",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-    "link": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-    "date": "2026-10-10",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-    "link": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-    "date": "2026-10-10",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Tenable (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1284/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1286/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Nextcloud (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1283/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Citrix NetScaler ADC et Gateway (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1285/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1291/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1289/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1287/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Struts (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1290/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (09 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1288/",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
     "source": "Cloudflare",
     "title": "Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash",
     "link": "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/",
@@ -620,55 +697,6 @@
     "title": "Deno is joining Cloudflare",
     "link": "https://blog.cloudflare.com/deno-joins-cloudflare/",
     "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Credential-Stealing GitHub Actions Workflows Planted in Tens of Thousands of Repositories",
-    "link": "https://thehackernews.com/2026/10/credential-stealing-github-actions.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "FBI Arrests Another ShinyHunters Suspect Reportedly Involved in Its Jobs Portal Hack",
-    "link": "https://thehackernews.com/2026/10/fbi-arrests-another-shinyhunters.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "TP-Link Sued by Four More U.S. States Over Router Security and China Ties",
-    "link": "https://thehackernews.com/2026/10/tp-link-sued-by-four-more-us-states.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Publish Working Exploit for Pre-Auth AnyDesk Linux Flaw That Gives Root Access",
-    "link": "https://thehackernews.com/2026/10/researchers-publish-working-exploit-for.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
-    "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit AhsayCBS Flaws to Deploy XMRig Miners Disguised as Microsoft Edge",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-ahsaycbs-flaws-to.html",
-    "date": "2026-10-09",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Cisco (08 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1282/",
-    "date": "2026-10-08",
     "month": "2026-10"
   },
   {
@@ -756,27 +784,6 @@
     "month": "2026-10"
   },
   {
-    "source": "Cloudflare",
-    "title": "Updates on our pledge to make Cloudflare features accessible to everyone",
-    "link": "https://blog.cloudflare.com/enterprise-for-all-update/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Announcing Cloudflare OHTTP Gateway – expanding access to Cloudflare’s privacy-preserving infrastructure",
-    "link": "https://blog.cloudflare.com/announcing-cloudflare-ohttp-gateway/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Follow the thread: a new dashboard to investigate account abuse",
-    "link": "https://blog.cloudflare.com/account-abuse-protection-dashboard/",
-    "date": "2026-10-02",
-    "month": "2026-10"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Preparing governments for an era of interconnected cyber risk",
     "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
@@ -815,13 +822,6 @@
     "source": "Microsoft Security",
     "title": "​​Beyond source code: A path to the keys to the kingdom",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
-    "date": "2026-09-29",
-    "month": "2026-09"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
     "date": "2026-09-29",
     "month": "2026-09"
   },
