@@ -1,6 +1,20 @@
 [
   {
     "source": "The Hacker News",
+    "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+    "link": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+    "date": "2026-10-18",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+    "link": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
+    "date": "2026-10-17",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
     "link": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
     "date": "2026-10-17",
@@ -675,20 +689,6 @@
     "source": "The Hacker News",
     "title": "Attackers Heat French Supermarket Fridges Up to 50°C by Hijacking Danfoss Controllers",
     "link": "https://thehackernews.com/2026/10/attackers-heat-french-supermarket.html",
-    "date": "2026-10-13",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two Critical MarkLogic Flaws Could Give Delegated Managers Persistent Admin Control",
-    "link": "https://thehackernews.com/2026/10/two-critical-marklogic-flaws-could-give.html",
-    "date": "2026-10-13",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitLab Patches CVSS 10.0 Flaw That Could Let Unauthenticated Users Run Server Code",
-    "link": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html",
     "date": "2026-10-13",
     "month": "2026-10"
   },
