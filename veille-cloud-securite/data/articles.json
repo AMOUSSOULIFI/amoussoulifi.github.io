@@ -1,6 +1,62 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
+    "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Between alerts: What Attackers Do in the Spaces Ordinary Detection Misses",
+    "link": "https://thehackernews.com/2026/10/between-alerts-what-attackers-do-in.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "uCreator Android Spyware Can Steal Telegram 2FA Passwords and Clone WeChat Accounts",
+    "link": "https://thehackernews.com/2026/10/ucreator-android-spyware-can-steal.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft 365 Token-Replay Attacks Compromise 97 Accounts at 79 Organizations",
+    "link": "https://thehackernews.com/2026/10/microsoft-365-token-replay-attacks.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Gheist Uses Stolen GitHub Tokens to Steal Private Repository Secrets via Actions Logs",
+    "link": "https://thehackernews.com/2026/10/gheist-uses-stolen-github-tokens-to.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Malicious File in Downloads Folder Tries to Trick AI Coding Agent Into Installing Malware",
+    "link": "https://thehackernews.com/2026/10/malicious-file-in-downloads-folder.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+    "link": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+    "date": "2026-10-25",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PHP2Shell Exploitation Attempts Continue Amid Suspected N. Korea Global Scanning Activity",
+    "link": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+    "date": "2026-10-25",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
     "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
     "link": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
     "date": "2026-10-25",
@@ -588,34 +644,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "U.S. Orders DeepSeek Removed From Federal Civilian Systems, Bans New Purchases",
-    "link": "https://thehackernews.com/2026/10/us-orders-deepseek-removed-from-federal.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "State Bank of India Confirms Data Leak After 3,897 Customer Records Found on Dark Web",
-    "link": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Orders Federal Agencies to Patch Exploited Plex2Shell, Siemens, and SiteGuard Flaws",
-    "link": "https://thehackernews.com/2026/10/cisa-orders-federal-agencies-to-patch.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Hid Vasilek Backdoor in VMware Tools During 2-Year Russian Healthcare Intrusion",
-    "link": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
     "source": "ANSSI",
     "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
     "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
@@ -647,34 +675,6 @@
     "source": "Cloudflare",
     "title": "Introducing tsrs: A port of TypeScript to Rust",
     "link": "https://blog.cloudflare.com/typescript-rust-port/",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
-    "link": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
-    "link": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
-    "link": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
-    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
     "date": "2026-10-20",
     "month": "2026-10"
   },
