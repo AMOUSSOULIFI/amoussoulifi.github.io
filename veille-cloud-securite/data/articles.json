@@ -1,6 +1,160 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
+    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
+    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
+    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
+    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Australia Gets Into Amadey Malware Backend, Cuts Off Access to 180,000 Infected Computers",
+    "link": "https://thehackernews.com/2026/10/australia-gets-into-amadey-malware.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections",
+    "link": "https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Hijack Dahua IP Cameras in Ukraine Using P2P Access and Auth Weaknesses",
+    "link": "https://thehackernews.com/2026/10/attackers-hijack-dahua-ip-cameras-in.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Confirms Active Exploitation of Two PHP2Shell Flaws Enabling Remote Code Execution",
+    "link": "https://thehackernews.com/2026/10/cisa-confirms-active-exploitation-of.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-045 (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-045/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Tenable (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1381/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Citrix XenServer (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1384/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft .Net (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1382/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits VMware (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1385/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1380/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Microsoft (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1383/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits MongoDB (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1386/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans CPython (26 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1379/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Cross-request KV cache exposure in the GLM-5.3 Workers AI model, and our remediation with SGLang",
+    "link": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Infect 953 Online Stores With Scanner-Evading JavaScript, Mostly on Magento",
+    "link": "https://thehackernews.com/2026/10/hackers-infect-953-online-stores-with.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PHP Issues Second Windows Security Update in Five Days to Fix Brotli Code Execution Flaw",
+    "link": "https://thehackernews.com/2026/10/php-issues-second-windows-security.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Use Microsoft Teams IT Support Scams to Deploy Malware and Ransomware",
+    "link": "https://thehackernews.com/2026/10/attackers-use-microsoft-teams-it.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+    "date": "2026-10-26",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Two Critical Wasmtime Flaws Could Let Malicious WebAssembly Modules Escape Sandboxes",
     "link": "https://thehackernews.com/2026/10/two-critical-wasmtime-flaws-could-let.html",
     "date": "2026-10-26",
@@ -100,77 +254,77 @@
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Red Hat (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1373/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1373/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1369/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1369/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Mattermost Server (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1368/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1368/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1371/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1371/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1375/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1375/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Tenable (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1370/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1370/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1374/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1374/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1376/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1376/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits SUSE (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1372/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1372/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1378/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1378/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Papercut (23 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1377/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1377/",
     "date": "2026-10-23",
     "month": "2026-10"
   },
@@ -268,49 +422,49 @@
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans ISC BIND (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1365/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1365/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Node (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1367/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1367/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans GitLab (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1363/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1363/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Splunk (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1366/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1366/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Cisco (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1360/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1360/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Mozilla (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1361/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1361/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits SolarWinds (22 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1364/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1364/",
     "date": "2026-10-22",
     "month": "2026-10"
   },
@@ -422,112 +576,84 @@
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1354/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1346/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1354/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Database Server (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1349/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1349/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1359/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle MySQL (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1351/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans MongoDB PHP Driver (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1347/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits StormShield (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1345/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1351/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1357/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1357/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1352/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1352/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Java SE (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1350/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1348/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1350/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Apache Tomcat (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1358/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1358/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1355/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1355/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Vulnérabilité dans Traefik (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1356/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1356/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Oracle Systems (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1353/",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1353/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
   {
     "source": "ANSSI",
     "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+    "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
@@ -560,111 +686,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "Critical GitLab Flaw (CVSS 10.0) Could Allow Unauthenticated RCE Across 12 Years of Releases",
-    "link": "https://thehackernews.com/2026/10/critical-gitlab-flaw-cvss-100-could.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteLLM Compromised in Supply Chain Attack Delivering Credential Stealer and Backdoor",
-    "link": "https://thehackernews.com/2026/10/litellm-compromised-in-supply-chain.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenAI's GPT-6 Agent Removed Safety Monitoring, Then Falsely Denied Doing So",
-    "link": "https://thehackernews.com/2026/10/openais-gpt-6-agent-removed-safety.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Issues Emergency Patches for Two Critical PHP2Shell RCE Flaws as Exploit Attempts Emerge",
-    "link": "https://thehackernews.com/2026/10/php-issues-emergency-patches-for-two.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Chrome Adds ClickFix Warnings to Stop Users From Running Malicious Commands",
-    "link": "https://thehackernews.com/2026/10/google-chrome-adds-clickfix-warnings-to.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Aligned Bronze Sandcastle Abuses Sandboxie DLL Sideloading to Deploy Backdoors",
-    "link": "https://thehackernews.com/2026/10/china-aligned-bronze-sandcastle-abuses.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Generative AI Is Erasing Behavioral Tells, Weakening Behavior-Only Detection, Proofpoint Reports",
-    "link": "https://thehackernews.com/2026/10/generative-ai-is-erasing-behavioral.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP2Shell: What Actually Protects You Before the 14:00 UTC PHP RCE Patch, and What Doesn't",
-    "link": "https://thehackernews.com/2026/10/php2shell-what-actually-protects-you.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Harness Is the Hard Part of Agentic Pentesting",
-    "link": "https://thehackernews.com/2026/10/the-harness-is-hard-part-of-agentic.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Hijacked Over 300 Tor Exit Relays to Intercept SSH Connections",
-    "link": "https://thehackernews.com/2026/10/attackers-hijacked-over-300-tor-exit.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP2Shell: Two Unpatched Critical PHP RCE Flaws (CVSS 9.2) Trigger Emergency Security Alert",
-    "link": "https://thehackernews.com/2026/10/php2shell-two-unpatched-critical-php.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Abuse UpdraftCentral Keys to Plant Backdoors on WordPress Sites",
-    "link": "https://thehackernews.com/2026/10/attackers-abuse-updraftcentral-keys-to.html",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/cti/CERTFR-2026-CTI-008/",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1344/",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Laravel (20 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1343/",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
     "source": "Cloudflare",
     "title": "8 eMudhra certificates are compromised. Here's what you need to know",
     "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
@@ -676,20 +697,6 @@
     "title": "Introducing tsrs: A port of TypeScript to Rust",
     "link": "https://blog.cloudflare.com/typescript-rust-port/",
     "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits F5 (19 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1341/",
-    "date": "2026-10-19",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (19 octobre 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-1342/",
-    "date": "2026-10-19",
     "month": "2026-10"
   },
   {
@@ -791,13 +798,6 @@
     "month": "2026-10"
   },
   {
-    "source": "Cloudflare",
-    "title": "Filter, reshape, and redact logs before export with Transformers",
-    "link": "https://blog.cloudflare.com/transformers-on-logpush/",
-    "date": "2026-10-12",
-    "month": "2026-10"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Post-quantum authentication: Why organizations should start testing certificate ecosystems now",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/08/post-quantum-authentication-why-organizations-should-start-testing-certificate-ecosystems-now/",
@@ -835,7 +835,7 @@
   {
     "source": "ANSSI",
     "title": "Recommandations à destination  des acteurs du secteur de l’énergie et de l’eau (22 janvier 2026)",
-    "link": "https://www.cert.ssi.gouv.fr/dur/CERTFR-2025-DUR-003/",
+    "link": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2025-DUR-003/",
     "date": "2026-01-22",
     "month": "2026-01"
   }
