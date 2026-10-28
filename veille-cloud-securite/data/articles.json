@@ -1,6 +1,167 @@
 [
   {
     "source": "The Hacker News",
+    "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+    "link": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+    "link": "https://thehackernews.com/2026/10/american-organizations-under-attack.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Anthropic's Unreleased AI Model Chains Flaws Into Working Chrome, Safari, Windows and Linux Exploits",
+    "link": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Seizes Virtualine Domain Over Alleged Criminal Hosting and Bitcoin Money Laundering",
+    "link": "https://thehackernews.com/2026/10/fbi-seizes-virtualine-domain-over.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Japan's GMO Offers $1 Million Bounty to Catch Hackers Behind FX Trading Cloud Breach",
+    "link": "https://thehackernews.com/2026/10/japans-gmo-offers-1-million-bounty-to.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Tailscale Patches SSH Flaws That Could Let Hacked Devices Gain Root Access on Other Servers",
+    "link": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ShinyHunters-Exploited Oracle PeopleSoft Zero-Day Turns Out to Be Three Chained Flaws",
+    "link": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Adobe Commerce PolyShell Attacks Breach Hundreds of Stores as Brotli Exploit Traffic Emerges",
+    "link": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+    "date": "2026-10-28",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1395/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GLPI (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1389/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Nextcloud (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1392/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Moxa (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1393/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans les produits Palo Alto Networks (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1396/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1394/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1387/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Network Monitor (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1390/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1388/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (27 octobre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1391/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
+    "link": "https://blog.cloudflare.com/php-ctf/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "What took the Internet offline in Q3 2026",
+    "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets",
+    "link": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GoAhead TLS Flaws Allow Revoked Client Certificates and Enable Session Decryption",
+    "link": "https://thehackernews.com/2026/10/goahead-tls-flaws-allow-revoked-client.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
+    "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
+    "date": "2026-10-27",
+    "month": "2026-10"
+  },
+  {
+    "source": "The Hacker News",
     "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
     "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
     "date": "2026-10-27",
@@ -497,156 +658,9 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-    "link": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-    "link": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-    "link": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-    "link": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-    "link": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "OpenCode Flaw Lets Malicious MCP Servers Execute Code During Sign-In on Windows and WSL",
-    "link": "https://thehackernews.com/2026/10/opencode-flaw-lets-malicious-mcp.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "LiteLLM Suspects GitHub Token Leak in AI Gateway Logs Behind Malicious Package Release",
-    "link": "https://thehackernews.com/2026/10/litellm-suspects-github-token-leak-in.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Node.js Brotli Decoder Bug Could Allow Remote Code Execution in All Supported Versions",
-    "link": "https://thehackernews.com/2026/10/nodejs-brotli-decoder-bug-could-allow.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New QPACK Flaws Can Crash HTTP/3 Servers, Trigger Up to 4,000-Fold Memory Amplification",
-    "link": "https://thehackernews.com/2026/10/new-qpack-flaws-can-crash-http3-servers.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Someone Tried to Exploit PHP2Shell 4 Days Before the Vulnerabilities Were Publicly Disclosed",
-    "link": "https://thehackernews.com/2026/10/someone-tried-to-exploit-php2shell-4.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Use ARTEX AI Agents in ConnectWise Supply Chain Attack",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-use-artex-ai.html",
-    "date": "2026-10-22",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1354/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Database Server (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1349/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1359/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1351/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1357/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1352/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Java SE (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1350/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1358/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1355/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Traefik (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1356/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Systems (21 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1353/",
     "date": "2026-10-21",
     "month": "2026-10"
   },
@@ -781,20 +795,6 @@
     "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
     "date": "2026-10-14",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Under the hood, off the hot path: How D1 scales to millions of databases",
-    "link": "https://blog.cloudflare.com/d1-control-plane/",
-    "date": "2026-10-13",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Rewinding the exponential: How we keep hardware usage down",
-    "link": "https://blog.cloudflare.com/rewinding-the-exponential/",
-    "date": "2026-10-13",
     "month": "2026-10"
   },
   {
