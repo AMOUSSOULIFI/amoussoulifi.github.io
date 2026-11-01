@@ -1,5 +1,33 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+    "link": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+    "date": "2026-11-01",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+    "link": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+    "date": "2026-11-01",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+    "link": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+    "date": "2026-11-01",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+    "link": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+    "date": "2026-11-01",
+    "month": "2026-11"
+  },
+  {
     "source": "Microsoft Security",
     "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
@@ -654,34 +682,6 @@
     "source": "The Hacker News",
     "title": "Apple Backports Fix for Exploited CoreGraphics Flaw to Older iPhones and iPads",
     "link": "https://thehackernews.com/2026/10/apple-backports-fix-for-exploited.html",
-    "date": "2026-10-27",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Microsoft Authenticator Flaw Let Permissionless Android Apps Steal Work Account Tokens",
-    "link": "https://thehackernews.com/2026/10/microsoft-authenticator-flaw-let.html",
-    "date": "2026-10-27",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Keystone to Destroy 18,835 Hardware Wallets After Hackers Steal Device Verification Key",
-    "link": "https://thehackernews.com/2026/10/keystone-to-destroy-18835-hardware.html",
-    "date": "2026-10-27",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "AI-Generated Fake Login Pages Are Making Account Takeovers Easier",
-    "link": "https://thehackernews.com/2026/10/ai-generated-fake-login-pages-are.html",
-    "date": "2026-10-27",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Lazarus Abuses South Korean Security Software to Deploy Malware Using Post-Quantum Encryption",
-    "link": "https://thehackernews.com/2026/10/lazarus-abuses-south-korean-security.html",
     "date": "2026-10-27",
     "month": "2026-10"
   },
