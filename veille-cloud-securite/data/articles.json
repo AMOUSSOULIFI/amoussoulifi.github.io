@@ -1,5 +1,68 @@
 [
   {
+    "source": "Cloudflare",
+    "title": "See the agents, set the terms: new visibility and control for personal agents",
+    "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+    "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+    "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
+    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Issues Patches for Critical Android Flaw That Could Allow RCE Without User Interaction",
+    "link": "https://thehackernews.com/2026/11/google-patches-critical-android-flaw.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CISA Confirms Hackers Exploiting WordPress Core Flaw During Software Upgrades",
+    "link": "https://thehackernews.com/2026/11/cisa-confirms-hackers-exploiting.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans NetApp ONTAP 9 (03 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1446/",
@@ -38,6 +101,62 @@
     "source": "Cloudflare",
     "title": "Introducing Zero Wire, a hub for investigating critical Internet vulnerabilities",
     "link": "https://blog.cloudflare.com/zero-wire/",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Fake-download campaign uses trojanized installers to deliver monetization payloads",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/fake-download-campaign-uses-trojanized-installers-deliver-monetization-payloads/",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for AI Agent Management Platforms",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/03/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-ai-agent-management-platforms/",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+    "link": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+    "link": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+    "link": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+    "link": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+    "link": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+    "date": "2026-11-03",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+    "link": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
     "date": "2026-11-03",
     "month": "2026-11"
   },
@@ -581,107 +700,9 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
-    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
-    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
-    "link": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
-    "link": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
-    "link": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
-    "link": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco Patches Actively Exploited ASA and FTD VPN Flaw That Can Crash Firewalls",
-    "link": "https://thehackernews.com/2026/10/cisco-patches-actively-exploited-asa.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "GitHub Launches npm Firewall to Block Malicious Packages Before Installation",
-    "link": "https://thehackernews.com/2026/10/github-launches-npm-firewall-to-block.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attacker Tried to Exploit Alpine Linux’s GitLab via CVSS 10.0 Flaw Its Ruby Left Open",
-    "link": "https://thehackernews.com/2026/10/attacker-tried-to-exploit-alpine-linuxs.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploited Cisco SD-WAN Flaw to Plant Malware Built to Steal Encryption Keys",
-    "link": "https://thehackernews.com/2026/10/hackers-exploited-cisco-sd-wan-flaw-to.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
-    "link": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
-    "link": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
     "source": "Microsoft Security",
     "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
-    "date": "2026-10-28",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Volt Typhoon Used Covert Silent Train Network in Four Zero-Day Exploitation Campaigns",
-    "link": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
-    "date": "2026-10-28",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google to Allow One-Tap Android App Installs From Approved Third-Party Stores Outside U.S.",
-    "link": "https://thehackernews.com/2026/10/google-to-allow-one-tap-android-app.html",
     "date": "2026-10-28",
     "month": "2026-10"
   },
@@ -802,27 +823,6 @@
     "title": "Beyond the patch: Protecting your NetScaler gateway against future vulnerabilities",
     "link": "https://blog.cloudflare.com/protect-your-netscaler-gateway/",
     "date": "2026-10-19",
-    "month": "2026-10"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Agents are your newest insiders. Security must move at their speed.",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
-    "date": "2026-10-19",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Continuous accountability for Verified bots",
-    "link": "https://blog.cloudflare.com/verified-bots-accountability/",
-    "date": "2026-10-16",
-    "month": "2026-10"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Managing open-weight model risk in enterprise deployments",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
-    "date": "2026-10-16",
     "month": "2026-10"
   },
   {
