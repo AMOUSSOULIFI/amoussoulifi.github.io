@@ -1,8 +1,176 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Is Your Exposure Management Platform Leaving You Exposed? Five Tests to Find Out",
+    "link": "https://thehackernews.com/2026/11/is-your-exposure-management-platform.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
+    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
+    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
+    "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
+    "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
+    "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
+    "date": "2026-11-05",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Apache Zookeeper (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1448/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Laravel (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1457/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1451/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1450/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Citrix (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1449/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Elastic (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1461/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
     "source": "Cloudflare",
     "title": "See the agents, set the terms: new visibility and control for personal agents",
     "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+    "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+    "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+    "date": "2026-11-04",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+    "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
     "date": "2026-11-04",
     "month": "2026-11"
   },
@@ -428,13 +596,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Apple (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1421/",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans Stormshield Management Center (30 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1429/",
     "date": "2026-10-30",
@@ -442,29 +603,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Google Chrome (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1422/",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans CPython (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1423/",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (30 octobre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1432/",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Tenable Nessus Plugin (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1425/",
     "date": "2026-10-30",
     "month": "2026-10"
   },
@@ -504,13 +644,6 @@
     "month": "2026-10"
   },
   {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Ruby on Rails trilogy (30 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1424/",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
     "source": "Cloudflare",
     "title": "4 real? Tracking exploitation and patching of eMudhra’s weak keys",
     "link": "https://blog.cloudflare.com/emudhra-patching/",
@@ -546,125 +679,6 @@
     "month": "2026-10"
   },
   {
-    "source": "The Hacker News",
-    "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
-    "link": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
-    "link": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
-    "link": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
-    "link": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
-    "link": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
-    "link": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Adds Actively Exploited GitLab RCE and Cisco Firewall DoS Flaws to KEV",
-    "link": "https://thehackernews.com/2026/10/cisa-adds-actively-exploited-gitlab-rce.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Binance Suffers Security Breach Affecting $6.3 Billion in Assets, Nearly $3 Billion Frozen",
-    "link": "https://thehackernews.com/2026/10/binance-suffers-security-breach.html",
-    "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Cisco (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1412/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Elastic Cloud Enterprise (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1419/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits Kaspersky (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1417/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans PostgreSQL Anonymizer (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1413/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Juniper Networks (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1414/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans WordPress (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1420/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Kafka (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1415/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans les produits ESET (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1416/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Foxit Online Services (29 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1418/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
     "source": "Cloudflare",
     "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
@@ -682,20 +696,6 @@
     "source": "Microsoft Security",
     "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: Critical Firewall Flaws, Banking Trojans Rented, Weaponized PDF, Token Theft + 26 More Stories",
-    "link": "https://thehackernews.com/2026/10/threatsday-critical-firewall-flaws.html",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
-    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
     "date": "2026-10-29",
     "month": "2026-10"
   },
