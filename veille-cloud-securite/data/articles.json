@@ -1,5 +1,201 @@
 [
   {
+    "source": "Cloudflare",
+    "title": "Choosing QuePaxa, an unusual consensus algorithm",
+    "link": "https://blog.cloudflare.com/choosing-quepaxa/",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+    "link": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+    "link": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+    "link": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+    "link": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+    "link": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+    "link": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
+    "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
+    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
+    "date": "2026-11-11",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits SAP (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1497/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Atlassian Confluence Data Center (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1492/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1489/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology DSM (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1493/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Siemens SIMATIC (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1495/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Apple (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1487/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mozilla Firefox (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1490/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSL (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1496/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Schneider Electric EcoStruxure (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1494/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le greffon OpenID Connect OpenID Provider (OIDC OP) pour Shibboleth (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1491/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Google Chrome (10 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1488/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Detecting sleeper agents hiding in AI model neurons",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+    "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+    "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+    "date": "2026-11-10",
+    "month": "2026-11"
+  },
+  {
     "source": "The Hacker News",
     "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
     "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
@@ -504,191 +700,9 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "OpenAI AI Pipeline Generates 948 Linux Root Escalation Exploits in 30-Hour Run",
-    "link": "https://thehackernews.com/2026/11/openai-ai-pipeline-generates-948-linux.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "5 Active Cyber Threats That Put US Enterprises at Risk in October 2026",
-    "link": "https://thehackernews.com/2026/11/5-active-cyber-threats-that-put-us.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple to Start Scanning Publicly Shared iCloud Photos and Files for Harmful Content",
-    "link": "https://thehackernews.com/2026/11/apple-to-start-scanning-publicly-shared.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CERT-In Flags AI-Driven Attacks as Backdoored ARTEX Exposes 62 Consoles to Root Access",
-    "link": "https://thehackernews.com/2026/11/backdoored-docker-image-for-artex-ai.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Zyxel GS1900 Patch Fails to Block Zero-Day Exploit Allowing Root Command Execution",
-    "link": "https://thehackernews.com/2026/11/zyxel-gs1900-patch-fails-to-block-zero.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Patched Apple Flaw to Deliver Info-Stealing Malware, CISA Says",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-patched-apple-flaw-to.html",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Symfony (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1460/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits SonicWall (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1456/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans MongoDB (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1454/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Laravel (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1457/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits HPE Aruba Networking (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1451/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Mozilla Firefox (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1455/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans NetApp StorageGRID (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1453/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Elastic (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1461/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SolarWinds Dameware (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1459/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Ruby on Rails (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1452/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "See the agents, set the terms: New visibility and control for personal agents",
     "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
-    "link": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
-    "link": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
-    "link": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
-    "link": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
-    "link": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
-    "link": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
-    "link": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
-    "link": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian Police Arrest 3 Suspected VasyGrek Hackers, Dismantle Criminal Infrastructure",
-    "link": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
     "date": "2026-11-04",
     "month": "2026-11"
   },
@@ -726,13 +740,6 @@
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/02/exploited-vulnerabilities-common-data-driven-analysis-real-world-attacks/",
     "date": "2026-11-02",
     "month": "2026-11"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Inside a malicious Claude Code-branded extension and its persistent SSH backdoor",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/",
-    "date": "2026-10-31",
-    "month": "2026-10"
   },
   {
     "source": "Cloudflare",
@@ -829,13 +836,6 @@
     "source": "Cloudflare",
     "title": "8 eMudhra certificates are compromised. Here's what you need to know",
     "link": "https://blog.cloudflare.com/emudhra-certificate-compromise/",
-    "date": "2026-10-20",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing tsrs: A port of TypeScript to Rust",
-    "link": "https://blog.cloudflare.com/typescript-rust-port/",
     "date": "2026-10-20",
     "month": "2026-10"
   }
