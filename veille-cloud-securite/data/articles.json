@@ -1,5 +1,12 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+    "date": "2026-11-14",
+    "month": "2026-11"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Progress Telerik (13 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1533/",
@@ -99,8 +106,57 @@
   },
   {
     "source": "Cloudflare",
+    "title": "Kitesurf is now open source",
+    "link": "https://blog.cloudflare.com/kitesurf-open-source/",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Adapting to AI penetration testing orchestrators: The Modern Security Model",
+    "link": "https://blog.cloudflare.com/adapting-to-ai-penetration-testing-orchestrators/",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "Cloudflare",
     "title": "Introducing Spend Management: Spending limits and alerts for Cloudflare",
     "link": "https://blog.cloudflare.com/spend-management/",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "PostgreSQL Patches 52 Flaws, Including 22-Year-Old Bug Enabling Authenticated RCE",
+    "link": "https://thehackernews.com/2026/11/postgresql-patches-52-flaws-including.html",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New Mior and Skyfall Attacks Let Rogue Cloud Hosts Steal Secrets From AMD SEV-SNP VMs",
+    "link": "https://thehackernews.com/2026/11/new-mior-and-skyfall-attacks-let-rogue.html",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "FBI Says North Korean Hackers Stole Over $400 Million in Crypto Using Deepfake Video Calls",
+    "link": "https://thehackernews.com/2026/11/fbi-says-north-korean-hackers-stole.html",
+    "date": "2026-11-13",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Trezor Confirms Hidden Implants in CryptoBilis-Sold Wallets That Can Steal Recovery Phrases",
+    "link": "https://thehackernews.com/2026/11/trezor-confirms-hidden-hardware.html",
     "date": "2026-11-13",
     "month": "2026-11"
   },
@@ -637,27 +693,6 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "Google Issues Chrome Security Update for Eighth Actively Exploited Zero-Day of 2026",
-    "link": "https://thehackernews.com/2026/11/google-issues-chrome-security-update.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N-able Takes N-central Cloud Offline After Researcher Discloses 33 Zero-Days with PoC Exploits",
-    "link": "https://thehackernews.com/2026/11/n-able-takes-hosted-n-central-offline.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "CISA Warns of Active Exploitation of OpenSSH, GPUStack, FreeSWITCH, and IBM Flaws",
-    "link": "https://thehackernews.com/2026/11/cisa-warns-of-active-exploitation-of.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "Launching the Vite Ecosystem Fund",
     "link": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
@@ -668,20 +703,6 @@
     "source": "Microsoft Security",
     "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/09/forge-lab-uses-agentic-tools-to-identify-memory-safety-issues-in-rust/",
-    "date": "2026-11-09",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
-    "date": "2026-11-09",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
-    "link": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
     "date": "2026-11-09",
     "month": "2026-11"
   },
@@ -724,13 +745,6 @@
     "source": "Microsoft Security",
     "title": "​​​​What’s new in Microsoft Security: November 2026",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Email threat landscape: Q3 2026 trends and insights",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/email-threat-landscape-q3-2026-trends-and-insights/",
     "date": "2026-11-05",
     "month": "2026-11"
   },
@@ -822,20 +836,6 @@
     "source": "Cloudflare",
     "title": "Introducing full transaction detection for Cloudflare WAF",
     "link": "https://blog.cloudflare.com/full-transaction-waf/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare deploys protections against php2shell vulnerability",
-    "link": "https://blog.cloudflare.com/php-vulnerabilities-waf-protection/",
-    "date": "2026-10-21",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
-    "link": "https://blog.cloudflare.com/webmcp-commerce/",
     "date": "2026-10-21",
     "month": "2026-10"
   }
