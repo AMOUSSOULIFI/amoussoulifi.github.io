@@ -1,5 +1,96 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-048 (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Kerberos (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1540/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Citrix App Layering (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Trend Micro (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1542/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Git (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1541/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+    "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+    "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+    "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
     "source": "The Hacker News",
     "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
     "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
@@ -211,20 +302,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Sonicwall SonicOS (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1507/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Vulnérabilité dans NetApp ONTAP tools pour VMware vSphere 10 (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1518/",
     "date": "2026-11-12",
@@ -234,13 +311,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft .Net (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1512/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mozilla (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1505/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -274,22 +344,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Citrix XenServer (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1502/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les processeurs Intel (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1509/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans HPE Aruba Networking Private 5G Core (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1503/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -323,13 +379,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Xen (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1508/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Pixel (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1525/",
     "date": "2026-11-12",
@@ -344,22 +393,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Laravel (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1504/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1510/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Check Point (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1501/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -374,13 +409,6 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans les produits Kaspersky (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1524/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Ivanti (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1506/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -658,41 +686,6 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
-    "link": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Beyond the Alert: The Case for Rich Network Data",
-    "link": "https://thehackernews.com/2026/11/beyond-alert-case-for-rich-network-data.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Patches iMessage Group Chat Privacy Flaws and Bluetooth Pairing Vulnerabilities",
-    "link": "https://thehackernews.com/2026/11/apple-patches-imessage-group-chat.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Russian Turla Hackers Use New Cereal Malware to Steal Emails From Government Exchange Servers",
-    "link": "https://thehackernews.com/2026/11/russian-turla-hackers-use-new-cereal.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SAP Patches Four CVSS 10.0 Flaws, Including Two Enabling Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/sap-patches-four-cvss-100-flaws.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "Launching the Vite Ecosystem Fund",
     "link": "https://blog.cloudflare.com/launching-vite-ecosystem-fund/",
@@ -838,5 +831,12 @@
     "link": "https://blog.cloudflare.com/full-transaction-waf/",
     "date": "2026-10-21",
     "month": "2026-10"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+    "date": "2026-09-28",
+    "month": "2026-09"
   }
 ]
