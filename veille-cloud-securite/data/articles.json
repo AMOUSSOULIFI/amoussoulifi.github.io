@@ -1,6 +1,125 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Tenable Identity Exposure (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Axis OS (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft SharePoint (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans OpenSSL (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans GLPI (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (17 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+    "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+    "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+    "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
+    "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
+    "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+    "date": "2026-11-17",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
     "title": "Bulletin d'actualité CERTFR-2026-ACT-048 (16 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
     "date": "2026-11-16",
@@ -52,6 +171,20 @@
     "source": "ANSSI",
     "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+    "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+    "date": "2026-11-16",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+    "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
     "date": "2026-11-16",
     "month": "2026-11"
   },
@@ -309,27 +442,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft .Net (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1512/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Azure (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1514/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Windows (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1513/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1521/",
     "date": "2026-11-12",
@@ -339,13 +451,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Citrix Secure Access client (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1519/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les processeurs Intel (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1509/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -365,43 +470,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Traefik (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1517/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Microsoft (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1515/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Google Pixel (12 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1525/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Office (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1511/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Microsoft Edge (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1510/",
-    "date": "2026-11-12",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mitel MiVoice MX-ONE (12 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1516/",
     "date": "2026-11-12",
     "month": "2026-11"
   },
@@ -616,72 +686,9 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "Microsoft Researchers Show AI Agents Can Be Backdoored by Editing Fewer Than 10 Neurons",
-    "link": "https://thehackernews.com/2026/11/microsoft-researchers-show-ai-agents.html",
-    "date": "2026-11-11",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cisco BroadWorks and Openwave Flaws Actively Exploited Despite Available Patches",
-    "link": "https://thehackernews.com/2026/11/cisco-broadworks-and-openwave-flaws.html",
-    "date": "2026-11-11",
-    "month": "2026-11"
-  },
-  {
     "source": "Microsoft Security",
     "title": "Detecting sleeper agents hiding in AI model neurons",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
-    "link": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
-    "link": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
-    "link": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
-    "link": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
-    "link": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
-    "date": "2026-11-10",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
-    "link": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
     "date": "2026-11-10",
     "month": "2026-11"
   },
@@ -731,13 +738,6 @@
     "source": "Microsoft Security",
     "title": "New investments to reduce on-premises security risk",
     "link": "https://techcommunity.microsoft.com/blog/microsoft-security-blog/new-investments-to-reduce-on-premises-security-risk/4570381",
-    "date": "2026-11-05",
-    "month": "2026-11"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "​​​​What’s new in Microsoft Security: November 2026",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/05/whats-new-in-microsoft-security-november-2026/",
     "date": "2026-11-05",
     "month": "2026-11"
   },
