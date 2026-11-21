@@ -1,5 +1,40 @@
 [
   {
+    "source": "The Hacker News",
+    "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+    "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+    "date": "2026-11-21",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+    "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+    "date": "2026-11-21",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+    "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+    "date": "2026-11-21",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+    "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+    "date": "2026-11-21",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "date": "2026-11-21",
+    "month": "2026-11"
+  },
+  {
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
@@ -127,8 +162,43 @@
   },
   {
     "source": "Cloudflare",
+    "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
+    "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
+    "date": "2026-11-20",
+    "month": "2026-11"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "How Cloudflare WAF helps protect against phpAfterShell and other critical PHP flaws",
+    "link": "https://blog.cloudflare.com/phpaftershell-waf-protection/",
+    "date": "2026-11-20",
+    "month": "2026-11"
+  },
+  {
+    "source": "Cloudflare",
     "title": "nginx2root: Five new nginx vulnerabilities, and how Cloudflare protects origins from the worst of them",
     "link": "https://blog.cloudflare.com/nginx2root/",
+    "date": "2026-11-20",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+    "date": "2026-11-20",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+    "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+    "date": "2026-11-20",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
     "date": "2026-11-20",
     "month": "2026-11"
   },
@@ -623,55 +693,6 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-    "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-    "date": "2026-11-16",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-    "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-    "date": "2026-11-16",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-    "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-    "date": "2026-11-16",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-    "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-    "date": "2026-11-16",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
-    "link": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
-    "date": "2026-11-15",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
-    "link": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
-    "date": "2026-11-15",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
-    "link": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
-    "date": "2026-11-14",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "Kitesurf is now open source",
     "link": "https://blog.cloudflare.com/kitesurf-open-source/",
@@ -749,13 +770,6 @@
     "month": "2026-11"
   },
   {
-    "source": "Microsoft Security",
-    "title": "ARTEX abuse expands as cybercriminals target financial sector",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/06/artex-abuse-expands-as-cybercriminals-target-financial-sector/",
-    "date": "2026-11-07",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "The post-quantum future of web privacy",
     "link": "https://blog.cloudflare.com/vole-mole/",
@@ -816,20 +830,6 @@
     "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
     "link": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
     "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Introducing the Cloudflare PHP Capture the Flag challenge",
-    "link": "https://blog.cloudflare.com/php-ctf/",
-    "date": "2026-10-27",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "What took the Internet offline in Q3 2026",
-    "link": "https://blog.cloudflare.com/q3-2026-internet-disruption-summary/",
-    "date": "2026-10-27",
     "month": "2026-10"
   },
   {
