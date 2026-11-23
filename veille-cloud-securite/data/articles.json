@@ -1,5 +1,138 @@
 [
   {
+    "source": "ANSSI",
+    "title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Microsoft Office (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1604/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Synology (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Laravel (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (23 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1605/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "Cloudflare",
+    "title": "Probing DNS at Cloudflare",
+    "link": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+    "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+    "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+    "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+    "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+    "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+    "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+    "date": "2026-11-23",
+    "month": "2026-11"
+  },
+  {
     "source": "The Hacker News",
     "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
     "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
@@ -281,13 +414,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
     "date": "2026-11-19",
@@ -441,55 +567,6 @@
     "month": "2026-11"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits F5 (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle PeopleSoft (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1564/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Oracle Virtualization (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1566/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans F5 NGINX (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-017/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Oracle Java SE (18 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
-    "date": "2026-11-18",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
     "link": "https://blog.cloudflare.com/open-clairic/",
@@ -637,62 +714,6 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
-    "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-    "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-    "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-    "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-    "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-    "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-    "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-    "date": "2026-11-17",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-    "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-    "date": "2026-11-16",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "Kitesurf is now open source",
     "link": "https://blog.cloudflare.com/kitesurf-open-source/",
@@ -784,13 +805,6 @@
     "month": "2026-11"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
-    "date": "2026-11-04",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "See the agents, set the terms: New visibility and control for personal agents",
     "link": "https://blog.cloudflare.com/personal-agents-visibility-control/",
@@ -823,20 +837,6 @@
     "title": "Cloudflare services for private origins is now generally available",
     "link": "https://blog.cloudflare.com/private-origins-public-to-private/",
     "date": "2026-10-30",
-    "month": "2026-10"
-  },
-  {
-    "source": "Cloudflare",
-    "title": "Cloudflare DDoS Threat Report 2026 Q3: More swarms, fewer giants",
-    "link": "https://blog.cloudflare.com/ddos-threat-report-2026-q3/",
-    "date": "2026-10-29",
-    "month": "2026-10"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1344/",
-    "date": "2026-10-20",
     "month": "2026-10"
   }
 ]
