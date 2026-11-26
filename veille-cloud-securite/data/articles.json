@@ -1,6 +1,97 @@
 [
   {
     "source": "ANSSI",
+    "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits Veeam (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+    "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+    "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+    "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+    "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+    "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+    "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
     "title": "Recommandations de sécurisation des liaisons inter-sites (25 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/dur/CERTFR-2026-DUR-001/",
     "date": "2026-11-25",
@@ -66,6 +157,13 @@
     "source": "Cloudflare",
     "title": "Introducing Search for Agents",
     "link": "https://blog.cloudflare.com/search-for-agents/",
+    "date": "2026-11-25",
+    "month": "2026-11"
+  },
+  {
+    "source": "Microsoft Security",
+    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
     "date": "2026-11-25",
     "month": "2026-11"
   },
@@ -449,50 +547,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Siemens Industrial Edge  (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans GitLab (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
     "date": "2026-11-20",
     "month": "2026-11"
   },
@@ -521,13 +577,6 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Moxa (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
     "date": "2026-11-20",
     "month": "2026-11"
   },
@@ -637,48 +686,6 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
-    "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
-    "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
-    "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
-    "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Everything Is a Web Application, Including Your Firewall",
-    "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-    "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "An updated Clairic and Clairic-flash are now open-weight, from the new Workers AI Superintelligence team",
     "link": "https://blog.cloudflare.com/open-clairic/",
@@ -781,13 +788,6 @@
     "title": "Lessons from 59 Linux Kernel Bug Reports",
     "link": "https://www.microsoft.com/en-us/security/blog/2026/11/11/lessons-from-59-linux-kernel-bug-reports/",
     "date": "2026-11-11",
-    "month": "2026-11"
-  },
-  {
-    "source": "Microsoft Security",
-    "title": "Detecting sleeper agents hiding in AI model neurons",
-    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
-    "date": "2026-11-10",
     "month": "2026-11"
   },
   {
