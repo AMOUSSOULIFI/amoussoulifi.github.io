@@ -1,6 +1,125 @@
 [
   {
     "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Xen (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1631/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans les produits IBM (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1640/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans FreeRADIUS (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1632/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1636/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1630/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans MongoDB (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1633/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1637/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SPIP (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1635/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
+    "title": "Multiples vulnérabilités dans SolarWinds Serv-U (27 novembre 2026)",
+    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1634/",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+    "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+    "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+    "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+    "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+    "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+    "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "date": "2026-11-27",
+    "month": "2026-11"
+  },
+  {
+    "source": "ANSSI",
     "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
     "date": "2026-11-26",
@@ -45,6 +164,13 @@
     "source": "ANSSI",
     "title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+    "date": "2026-11-26",
+    "month": "2026-11"
+  },
+  {
+    "source": "The Hacker News",
+    "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+    "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
     "date": "2026-11-26",
     "month": "2026-11"
   },
@@ -358,20 +484,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
-    "date": "2026-11-23",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-    "date": "2026-11-23",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans MongoDB (23 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1606/",
     "date": "2026-11-23",
@@ -386,13 +498,6 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
-    "date": "2026-11-23",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans Microsoft Edge (23 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1603/",
     "date": "2026-11-23",
@@ -400,22 +505,8 @@
   },
   {
     "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans Roundcube Webmail (23 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
-    "date": "2026-11-23",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
     "title": "Multiples vulnérabilités dans les produits Synology (23 novembre 2026)",
     "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
-    "date": "2026-11-23",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans Laravel (23 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
     "date": "2026-11-23",
     "month": "2026-11"
   },
@@ -539,48 +630,6 @@
     "month": "2026-11"
   },
   {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "ANSSI",
-    "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
-    "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "How Cloudflare WAF protects against ruby2shell (CVE-2026-132825)",
     "link": "https://blog.cloudflare.com/ruby2shell-waf-protection/",
@@ -630,58 +679,9 @@
     "month": "2026-11"
   },
   {
-    "source": "The Hacker News",
-    "title": "The Path to AI Autonomy in the SOC",
-    "link": "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "SonicWall Warns Gen 6 Firewalls Won't Get Security Patches, Even for Critical Flaws",
-    "link": "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "Hackers Exploit Critical Cisco Expressway Flaw, Breach Four Devices and Reach Internal Network",
-    "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-    "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-    "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-    "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-    "date": "2026-11-20",
-    "month": "2026-11"
-  },
-  {
     "source": "Cloudflare",
     "title": "Internet traffic and attacks during the 2026 U.S. midterm elections",
     "link": "https://blog.cloudflare.com/internet-traffic-2026-us-election/",
-    "date": "2026-11-19",
-    "month": "2026-11"
-  },
-  {
-    "source": "The Hacker News",
-    "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
-    "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
     "date": "2026-11-19",
     "month": "2026-11"
   },
